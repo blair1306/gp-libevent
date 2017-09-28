@@ -1,0 +1,12 @@
+<dec f='codebrowser/test/tinytest_macros.h' l='161'/>
+<use f='codebrowser/test/regress.c' l='2394' u='c'/>
+<use f='codebrowser/test/regress.c' l='2399' u='c'/>
+<use f='codebrowser/test/regress.c' l='2468' u='c'/>
+<use f='codebrowser/test/regress.c' l='2471' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1223' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1523' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1801' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1802' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1803' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3582' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='858' u='c'/>

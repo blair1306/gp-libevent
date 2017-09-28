@@ -1,0 +1,2 @@
+<dec f='codebrowser/evthread-internal.h' l='372' type='void * evthread_debug_get_real_lock_(void * lock)'/>
+<def f='codebrowser/evthread.c' l='358' ll='363' type='void * evthread_debug_get_real_lock_(void * lock_)'/>

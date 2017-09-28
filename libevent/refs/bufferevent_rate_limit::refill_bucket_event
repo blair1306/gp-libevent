@@ -1,0 +1,21 @@
+<dec f='codebrowser/bufferevent-internal.h' l='149' type='struct event'/>
+<offset>448</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='147'>/* Timeout event used when one this bufferevent&apos;s buckets are
+	 * empty. */</doc>
+<use f='codebrowser/bufferevent.c' l='709' u='a' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='285' u='a' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='290' u='a' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='323' u='a' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='328' u='a' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='435' u='a' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='580' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='581' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='609' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='610' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='612' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='629' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='751' u='a' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='985' u='a' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='990' u='a' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1014' u='a' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1019' u='a' c='bufferevent_decrement_write_limit'/>

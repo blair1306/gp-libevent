@@ -1,0 +1,9 @@
+<dec f='codebrowser/time-internal.h' l='87' type='struct timeval'/>
+<offset>192</offset>
+<use f='codebrowser/evutil_time.c' l='191' u='a' c='adjust_monotonic_time'/>
+<use f='codebrowser/evutil_time.c' l='191' u='a' c='adjust_monotonic_time'/>
+<use f='codebrowser/evutil_time.c' l='191' u='a' c='adjust_monotonic_time'/>
+<use f='codebrowser/evutil_time.c' l='194' u='a' c='adjust_monotonic_time'/>
+<use f='codebrowser/evutil_time.c' l='194' u='a' c='adjust_monotonic_time'/>
+<use f='codebrowser/evutil_time.c' l='197' u='r' c='adjust_monotonic_time'/>
+<use f='codebrowser/evutil_time.c' l='199' u='w' c='adjust_monotonic_time'/>

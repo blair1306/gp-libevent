@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='117' type='int evdns_nameserver_add(unsigned long address)'/>
+<def f='codebrowser/evdns.c' l='2583' ll='2588' type='int evdns_nameserver_add(unsigned long address)'/>

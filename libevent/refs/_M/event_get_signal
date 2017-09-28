@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event.h' l='1342'/>
+<doc f='codebrowser/include/event2/event.h' l='1339'>/**
+   Get the signal number assigned to a signal event
+*/</doc>
+<use f='codebrowser/sample/signal-test.c' l='36' u='c'/>

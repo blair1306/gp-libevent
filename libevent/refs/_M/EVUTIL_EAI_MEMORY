@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/util.h' l='704'/>
+<use f='codebrowser/evdns.c' l='4531' u='c'/>
+<use f='codebrowser/evdns.c' l='4691' u='c'/>
+<use f='codebrowser/evutil.c' l='1007' u='c'/>
+<use f='codebrowser/evutil.c' l='1026' u='c'/>
+<use f='codebrowser/evutil.c' l='1046' u='c'/>
+<use f='codebrowser/evutil.c' l='1062' u='c'/>
+<use f='codebrowser/evutil.c' l='1441' u='c'/>
+<use f='codebrowser/evutil.c' l='1627' u='c'/>

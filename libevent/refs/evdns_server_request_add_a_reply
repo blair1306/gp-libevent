@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/dns.h' l='638' type='int evdns_server_request_add_a_reply(struct evdns_server_request * req, const char * name, int n, const void * addrs, int ttl)'/>
+<def f='codebrowser/evdns.c' l='1831' ll='1837' type='int evdns_server_request_add_a_reply(struct evdns_server_request * req, const char * name, int n, const void * addrs, int ttl)'/>
+<doc f='codebrowser/evdns.c' l='1830'>/* exported function */</doc>
+<use f='codebrowser/sample/dns-example.c' l='116' u='c' c='evdns_server_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='244' u='c' c='dns_server_request_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='711' u='c' c='fail_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1030' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1040' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1059' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1085' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1746' u='c' c='gaic_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='198' u='c' c='regress_dns_server_cb'/>

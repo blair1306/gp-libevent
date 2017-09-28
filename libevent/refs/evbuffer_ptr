@@ -1,0 +1,17 @@
+<def f='codebrowser/include/event2/buffer.h' l='116' ll='125'/>
+<size>24</size>
+<doc f='codebrowser/include/event2/buffer.h' l='103'>/**
+    Pointer to a position within an evbuffer.
+
+    Used when repeatedly searching through a buffer.  Calling any function
+    that modifies or re-packs the buffer contents may invalidate all
+    evbuffer_ptrs for that buffer.  Do not modify or contruct these values
+    except with evbuffer_ptr_set.
+
+    An evbuffer_ptr can represent any position from the start of a buffer up
+    to a position immediately after the end of a buffer.
+
+    @see evbuffer_ptr_set()
+ */</doc>
+<mbr r='evbuffer_ptr::pos' o='0' t='ssize_t'/>
+<mbr r='evbuffer_ptr::internal_' o='64' t='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/buffer.h:121:2)'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/http.h' l='590' type='3'/>
+<doc f='codebrowser/include/event2/http.h' l='587'>/**
+   * Error encountered while reading or writing
+   */</doc>
+<use f='codebrowser/http.c' l='677' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='1532' u='r' c='evhttp_error_cb'/>

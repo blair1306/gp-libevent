@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509.h' l='903' type='ASN1_INTEGER * X509_get_serialNumber(X509 * x)'/>
+<use f='codebrowser/test/regress_ssl.c' l='138' u='c' c='ssl_getcert'/>

@@ -1,0 +1,12 @@
+<dec f='include/netdb.h' l='573' type='socklen_t'/>
+<offset>128</offset>
+<doc f='include/netdb.h' l='573'>/* Length of socket address.  */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='489' u='r' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='490' u='r' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/evutil.c' l='833' u='w' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/http.c' l='4341' u='r' c='bind_socket_ai'/>
+<use f='codebrowser/test/regress_http.c' l='187' u='r' c='http_connect'/>
+<use f='codebrowser/test/regress_util.c' l='838' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='846' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='1085' u='r' c='test_evutil_getaddrinfo_live'/>
+<use f='codebrowser/test/regress_util.c' l='1105' u='r' c='test_evutil_getaddrinfo_live'/>

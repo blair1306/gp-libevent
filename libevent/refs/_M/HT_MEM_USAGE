@@ -1,0 +1,2 @@
+<dec f='codebrowser/ht-internal.h' l='49'/>
+<doc f='codebrowser/ht-internal.h' l='48'>/* Return memory usage for a hashtable (not counting the entries themselves) */</doc>

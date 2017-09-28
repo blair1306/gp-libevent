@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='725'/>
+<doc f='include/openssl/ssl.h' l='724'>/* Suite B modes, takes same values as certificate verify flags */</doc>

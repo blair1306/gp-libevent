@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/listener.h' l='159' type='struct event_base * evconnlistener_get_base(struct evconnlistener * lev)'/>
+<def f='codebrowser/listener.c' l='345' ll='353' type='struct event_base * evconnlistener_get_base(struct evconnlistener * lev)'/>
+<use f='codebrowser/test/regress_listener.c' l='117' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='118' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/test-fdleak.c' l='108' u='c' c='listener_accept_cb'/>

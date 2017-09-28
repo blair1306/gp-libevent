@@ -1,0 +1,5 @@
+<def f='codebrowser/test/regress_main.c' l='395' ll='400' type='const char *[4]'/>
+<use f='codebrowser/test/regress_main.c' l='411'/>
+<use f='codebrowser/test/regress_main.c' l='411'/>
+<use f='codebrowser/test/regress_main.c' l='411'/>
+<use f='codebrowser/test/regress_main.c' l='411'/>

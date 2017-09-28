@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/evconfig-private.h' l='9'/>
+<use f='include/features.h' l='157' u='a'/>
+<use f='include/features.h' l='324' u='a'/>
+<use f='include/libio.h' l='356' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='61' u='a'/>
+<doc f='codebrowser/include/evconfig-private.h' l='8'>/* Enable GNU extensions on systems that have them.  */</doc>

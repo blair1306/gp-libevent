@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/regress_thread.h' l='31'/>
+<use f='codebrowser/test/regress_thread.c' l='169' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='294' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='409' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='531' u='c'/>

@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='118' type='union (anonymous union at /home/jon/workspace/libevent/include/event2/event_struct.h:113:9)'/>
+<offset>192</offset>
+<doc f='codebrowser/include/event2/event_struct.h' l='112'>/* allows us to adopt for different types of events */</doc>
+<use f='codebrowser/event.c' l='758' u='m' c='event_base_cancel_single_callback_'/>
+<use f='codebrowser/event.c' l='764' u='m' c='event_base_cancel_single_callback_'/>
+<use f='codebrowser/event.c' l='1327' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1572' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1610' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1621' u='m' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1646' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1653' u='m' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1664' u='m' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1674' u='m' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2079' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2207' u='m' c='event_finalize_nolock_'/>
+<use f='codebrowser/event.c' l='2253' u='m' c='event_callback_finalize_nolock_'/>
+<use f='codebrowser/event.c' l='2383' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2419' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2560' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2680' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2769' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2873' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='3052' u='m' c='event_deferred_cb_init_'/>
+<use f='codebrowser/event.c' l='3150' macro='1' u='m'/>

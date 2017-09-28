@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='343' type='struct sockaddr_storage'/>
+<use f='codebrowser/evdns.c' l='2521' u='a' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='3500' u='r' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3503' u='a' c='evdns_base_set_option_impl'/>
+<offset>832</offset>
+<doc f='codebrowser/evdns.c' l='342'>/** Port to bind to for outgoing DNS packets. */</doc>

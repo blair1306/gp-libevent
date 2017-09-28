@@ -1,0 +1,2 @@
+<dec f='include/openssl/err.h' l='353' type='void ERR_free_strings()'/>
+<use f='codebrowser/sample/https-client.c' l='493' u='c' c='main'/>

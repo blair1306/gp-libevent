@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress.h' l='61' type='void test_bufferevent_zlib(void * )'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1384' macro='1'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1384' macro='1'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1384' macro='1'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1384' macro='1'/>
+<def f='codebrowser/test/regress_zlib.c' l='276' ll='348' type='void test_bufferevent_zlib(void * arg)'/>

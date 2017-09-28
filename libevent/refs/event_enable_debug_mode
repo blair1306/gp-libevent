@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event.h' l='322' type='void event_enable_debug_mode()'/>
+<def f='codebrowser/event.c' l='530' ll='544' type='void event_enable_debug_mode()'/>
+<use f='codebrowser/test/regress_dns.c' l='1844' u='c' c='testleak_setup'/>
+<use f='codebrowser/test/regress_et.c' l='167' u='c' c='test_edgetriggered_mix_error'/>
+<use f='codebrowser/test/regress_main.c' l='446' u='c' c='main'/>
+<use f='codebrowser/test/test-ratelim.c' l='276' u='c' c='test_ratelimiting'/>

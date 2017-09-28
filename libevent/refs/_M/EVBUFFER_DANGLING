@@ -1,0 +1,6 @@
+<dec f='codebrowser/evbuffer-internal.h' l='200'/>
+<use f='codebrowser/buffer.c' l='206' u='c'/>
+<use f='codebrowser/buffer.c' l='350' u='c'/>
+<use f='codebrowser/buffer.c' l='913' u='c'/>
+<doc f='codebrowser/evbuffer-internal.h' l='198'>/** a chain that should be freed, but can&apos;t be freed until it is
+	 * un-pinned. */</doc>

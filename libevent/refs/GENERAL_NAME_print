@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='539' type='int GENERAL_NAME_print(BIO * out, GENERAL_NAME * gen)'/>

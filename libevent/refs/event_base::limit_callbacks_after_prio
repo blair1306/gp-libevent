@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='327' type='int'/>
+<offset>3936</offset>
+<use f='codebrowser/event.c' l='620' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='624' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='633' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1726' u='r' c='event_process_active'/>

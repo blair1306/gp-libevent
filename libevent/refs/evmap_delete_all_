@@ -1,0 +1,6 @@
+<dec f='codebrowser/evmap-internal.h' l='101' type='void evmap_delete_all_(struct event_base * base)'/>
+<doc f='codebrowser/evmap-internal.h' l='98'>/* Helper for event_base_free(): Call event_del() on every pending fd and
+ * signal event.
+ */</doc>
+<use f='codebrowser/event.c' l='831' u='c' c='event_base_free_'/>
+<def f='codebrowser/evmap.c' l='681' ll='686' type='void evmap_delete_all_(struct event_base * base)'/>

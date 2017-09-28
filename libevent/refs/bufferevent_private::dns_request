@@ -1,0 +1,6 @@
+<dec f='codebrowser/bufferevent-internal.h' l='232' type='struct evdns_getaddrinfo_request *'/>
+<offset>4224</offset>
+<use f='codebrowser/bufferevent_sock.c' l='471' u='w' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='524' u='w' c='bufferevent_socket_connect_hostname'/>
+<use f='codebrowser/bufferevent_sock.c' l='614' u='r' c='be_socket_destruct'/>
+<use f='codebrowser/bufferevent_sock.c' l='648' u='r' c='be_socket_setfd'/>

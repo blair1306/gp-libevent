@@ -1,0 +1,10 @@
+<dec f='codebrowser/evrpc-internal.h' l='49' macro='1' type='struct evrpc_hook **'/>
+<use f='codebrowser/evrpc.c' l='82' macro='1' u='w'/>
+<use f='codebrowser/evrpc.c' l='83' macro='1' u='w'/>
+<use f='codebrowser/evrpc.c' l='144' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='144' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='144' macro='1' u='w'/>
+<use f='codebrowser/evrpc.c' l='155' macro='1' u='w'/>
+<use f='codebrowser/evrpc.c' l='518' macro='1' u='w'/>
+<use f='codebrowser/evrpc.c' l='519' macro='1' u='w'/>
+<offset>64</offset>

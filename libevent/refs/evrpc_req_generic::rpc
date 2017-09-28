@@ -1,0 +1,10 @@
+<dec f='codebrowser/evrpc-internal.h' l='150' type='struct evrpc *'/>
+<use f='codebrowser/evrpc.c' l='298' u='w' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='345' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='385' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='411' u='r' c='evrpc_request_done'/>
+<offset>192</offset>
+<doc f='codebrowser/evrpc-internal.h' l='146'>/*
+	 * the static structure for this rpc; that can be used to
+	 * automatically unmarshal and marshal the http buffers.
+	 */</doc>

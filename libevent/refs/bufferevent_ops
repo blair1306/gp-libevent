@@ -1,0 +1,15 @@
+<def f='codebrowser/bufferevent-internal.h' l='253' ll='299'/>
+<size>72</size>
+<doc f='codebrowser/bufferevent-internal.h' l='249'>/**
+   Implementation table for a bufferevent: holds function pointers and other
+   information to make the various bufferevent types work.
+*/</doc>
+<mbr r='bufferevent_ops::type' o='0' t='const char *'/>
+<mbr r='bufferevent_ops::mem_offset' o='64' t='off_t'/>
+<mbr r='bufferevent_ops::enable' o='128' t='int (*)(struct bufferevent *, short)'/>
+<mbr r='bufferevent_ops::disable' o='192' t='int (*)(struct bufferevent *, short)'/>
+<mbr r='bufferevent_ops::unlink' o='256' t='void (*)(struct bufferevent *)'/>
+<mbr r='bufferevent_ops::destruct' o='320' t='void (*)(struct bufferevent *)'/>
+<mbr r='bufferevent_ops::adj_timeouts' o='384' t='int (*)(struct bufferevent *)'/>
+<mbr r='bufferevent_ops::flush' o='448' t='int (*)(struct bufferevent *, short, enum bufferevent_flush_mode)'/>
+<mbr r='bufferevent_ops::ctrl' o='512' t='int (*)(struct bufferevent *, enum bufferevent_ctrl_op, union bufferevent_ctrl_data *)'/>

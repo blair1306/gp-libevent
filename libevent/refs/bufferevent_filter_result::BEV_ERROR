@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='679' type='2'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='677'>/** the filter encountered a critical error, no further data
+	    can be processed. */</doc>
+<use f='codebrowser/bufferevent_filter.c' l='166' u='r' c='be_null_filter'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='521' u='r' c='bufferevent_output_filter'/>

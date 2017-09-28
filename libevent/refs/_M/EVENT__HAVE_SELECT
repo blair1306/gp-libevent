@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event-config.h' l='236'/>
+<doc f='codebrowser/include/event2/event-config.h' l='235'>/* Define to 1 if you have the `select&apos; function. */</doc>
+<use f='codebrowser/event.c' l='80' u='a'/>
+<use f='codebrowser/event.c' l='116' u='a'/>
+<use f='codebrowser/select.c' l='32' u='a'/>

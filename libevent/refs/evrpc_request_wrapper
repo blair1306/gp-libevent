@@ -1,0 +1,17 @@
+<def f='codebrowser/evrpc-internal.h' l='164' ll='203'/>
+<size>240</size>
+<doc f='codebrowser/evrpc-internal.h' l='163'>/* the client side of an rpc request */</doc>
+<mbr r='evrpc_request_wrapper::hook_meta' o='0' t='struct evrpc_hook_meta *'/>
+<mbr r='evrpc_request_wrapper::next' o='64' t='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:171:2)'/>
+<mbr r='evrpc_request_wrapper::pool' o='192' t='struct evrpc_pool *'/>
+<mbr r='evrpc_request_wrapper::evcon' o='256' t='struct evhttp_connection *'/>
+<mbr r='evrpc_request_wrapper::req' o='320' t='struct evhttp_request *'/>
+<mbr r='evrpc_request_wrapper::ev_timeout' o='384' t='struct event'/>
+<mbr r='evrpc_request_wrapper::name' o='1408' t='char *'/>
+<mbr r='evrpc_request_wrapper::cb' o='1472' t='void (*)(struct evrpc_status *, void *, void *, void *)'/>
+<mbr r='evrpc_request_wrapper::cb_arg' o='1536' t='void *'/>
+<mbr r='evrpc_request_wrapper::request' o='1600' t='void *'/>
+<mbr r='evrpc_request_wrapper::reply' o='1664' t='void *'/>
+<mbr r='evrpc_request_wrapper::request_marshal' o='1728' t='void (*)(struct evbuffer *, void *)'/>
+<mbr r='evrpc_request_wrapper::reply_clear' o='1792' t='void (*)(void *)'/>
+<mbr r='evrpc_request_wrapper::reply_unmarshal' o='1856' t='int (*)(void *, struct evbuffer *)'/>

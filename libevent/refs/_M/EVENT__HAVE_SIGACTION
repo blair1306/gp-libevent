@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/event-config.h' l='251'/>
+<doc f='codebrowser/include/event2/event-config.h' l='250'>/* Define to 1 if you have the `sigaction&apos; function. */</doc>
+<use f='codebrowser/evsignal-internal.h' l='51' u='a'/>
+<use f='codebrowser/signal.c' l='215' u='a'/>
+<use f='codebrowser/signal.c' l='252' u='a'/>
+<use f='codebrowser/signal.c' l='328' u='a'/>
+<use f='codebrowser/signal.c' l='343' u='a'/>
+<use f='codebrowser/signal.c' l='392' u='a'/>
+<use f='codebrowser/test/regress.c' l='1280' u='a'/>
+<use f='codebrowser/test/regress.c' l='1285' u='a'/>

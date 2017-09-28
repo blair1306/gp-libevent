@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='760' type='void evhttp_connection_set_closecb(struct evhttp_connection * evcon, void (*)(struct evhttp_connection *, void *) , void * )'/>
+<def f='codebrowser/http.c' l='2500' ll='2506' type='void evhttp_connection_set_closecb(struct evhttp_connection * evcon, void (*)(struct evhttp_connection *, void *) cb, void * cbarg)'/>
+<use f='codebrowser/test/regress_http.c' l='4218' u='c' c='terminate_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4386' u='c' c='http_get_addr_test'/>

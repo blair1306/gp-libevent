@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/thread.h' l='150' type='void (*)(void *)'/>
+<offset>128</offset>
+<doc f='codebrowser/include/event2/thread.h' l='149'>/** Function to free a condition variable. */</doc>
+<use f='codebrowser/event.c' l='898' macro='1' u='r'/>
+<use f='codebrowser/evthread.c' l='160' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='160' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='170' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='176' u='w' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='176' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/test/regress_thread.c' l='138' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='386' macro='1' u='r'/>

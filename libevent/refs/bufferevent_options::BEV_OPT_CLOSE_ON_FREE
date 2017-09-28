@@ -1,0 +1,43 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='160' type='1'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='158'>/** If set, we close the underlying file
+	 * descriptor/bufferevent/whatever when this bufferevent is freed. */</doc>
+<use f='codebrowser/bufferevent_filter.c' l='234' u='r' c='be_filter_unlink'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1201' u='r' c='be_openssl_unlink'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1229' u='r' c='be_openssl_destruct'/>
+<use f='codebrowser/bufferevent_sock.c' l='611' u='r' c='be_socket_destruct'/>
+<use f='codebrowser/http.c' l='1243' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/sample/hello-world.c' l='95' u='r' c='listener_cb'/>
+<use f='codebrowser/sample/https-client.c' l='403' u='r' c='main'/>
+<use f='codebrowser/sample/https-client.c' l='408' u='r' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='167' u='r' c='accept_cb'/>
+<use f='codebrowser/sample/le-proxy.c' l='171' u='r' c='accept_cb'/>
+<use f='codebrowser/sample/le-proxy.c' l='176' u='r' c='accept_cb'/>
+<use f='codebrowser/sample/le-proxy.c' l='194' u='r' c='accept_cb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='165' u='r' c='launch_request'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='562' u='r' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='566' u='r' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='723' u='r' c='test_bufferevent_connect'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='794' u='r' c='test_bufferevent_connect_fail_eventcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='876' u='r' c='test_bufferevent_connect_fail'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='976' u='r' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='978' u='r' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1125' u='r' c='test_bufferevent_trigger'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1286' u='r' c='test_bufferevent_filter_data_stuck'/>
+<use f='codebrowser/test/regress_dns.c' l='1228' u='r' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1229' u='r' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1230' u='r' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1231' u='r' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1232' u='r' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_http.c' l='127' u='r' c='https_bev'/>
+<use f='codebrowser/test/regress_ssl.c' l='432' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='439' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='441' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='460' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='537' u='r' c='acceptcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='703' u='r' c='regress_bufferevent_openssl_connect'/>
+<use f='codebrowser/test/regress_zlib.c' l='308' u='r' c='test_bufferevent_zlib'/>
+<use f='codebrowser/test/regress_zlib.c' l='310' u='r' c='test_bufferevent_zlib'/>
+<use f='codebrowser/test/test-fdleak.c' l='110' u='r' c='listener_accept_cb'/>
+<use f='codebrowser/test/test-fdleak.c' l='208' u='r' c='start_client'/>
+<use f='codebrowser/test/test-ratelim.c' l='178' u='r' c='echo_listenercb'/>
+<use f='codebrowser/test/test-ratelim.c' l='348' u='r' c='test_ratelimiting'/>

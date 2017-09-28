@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='82' type='struct evdns_base * evdns_get_global_base()'/>
+<def f='codebrowser/evdns.c' l='378' ll='382' type='struct evdns_base * evdns_get_global_base()'/>

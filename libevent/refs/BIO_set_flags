@@ -1,0 +1,5 @@
+<dec f='include/openssl/bio.h' l='240' type='void BIO_set_flags(BIO * b, int flags)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='149' macro='1' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='179' macro='1' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='586' macro='1' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='598' macro='1' u='c'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='73'/>
+<doc f='codebrowser/include/event2/http_struct.h' l='72'>/** Request was made via a proxy */</doc>
+<use f='codebrowser/http.c' l='461' u='c'/>
+<use f='codebrowser/http.c' l='567' u='c'/>
+<use f='codebrowser/http.c' l='1846' u='c'/>

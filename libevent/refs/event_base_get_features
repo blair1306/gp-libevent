@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='584' type='int event_base_get_features(const struct event_base * base)'/>
+<def f='codebrowser/event.c' l='524' ll='528' type='int event_base_get_features(const struct event_base * base)'/>
+<use f='codebrowser/test/regress.c' l='2579' u='c' c='test_base_features'/>
+<use f='codebrowser/test/regress.c' l='2582' u='c' c='test_base_features'/>

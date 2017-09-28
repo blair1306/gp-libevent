@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event-config.h' l='109'/>
+<doc f='codebrowser/include/event2/event-config.h' l='108'>/* Define to 1 if you have the `eventfd&apos; function. */</doc>
+<use f='codebrowser/event.c' l='2473' u='a'/>
+<use f='codebrowser/event.c' l='3531' u='a'/>
+<use f='codebrowser/event.c' l='3600' u='a'/>
+<use f='codebrowser/evutil.c' l='2660' u='a'/>

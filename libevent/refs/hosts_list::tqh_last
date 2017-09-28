@@ -1,0 +1,8 @@
+<dec f='codebrowser/evdns.c' l='356' macro='1' type='struct hosts_entry **'/>
+<use f='codebrowser/evdns.c' l='3948' macro='1' u='w'/>
+<use f='codebrowser/evdns.c' l='4077' macro='1' u='w'/>
+<use f='codebrowser/evdns.c' l='4103' macro='1' u='w'/>
+<use f='codebrowser/evdns.c' l='4164' macro='1' u='r'/>
+<use f='codebrowser/evdns.c' l='4164' macro='1' u='r'/>
+<use f='codebrowser/evdns.c' l='4164' macro='1' u='w'/>
+<offset>64</offset>

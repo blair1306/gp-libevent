@@ -1,0 +1,20 @@
+<dec f='codebrowser/event-internal.h' l='197' macro='1' type='struct event_callback *'/>
+<offset>0</offset>
+<use f='codebrowser/event.c' l='609' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='609' macro='1' u='a'/>
+<use f='codebrowser/event.c' l='779' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='788' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='886' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1227' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='1227' macro='1' u='a'/>
+<use f='codebrowser/event.c' l='1601' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1601' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1737' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3394' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3673' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3925' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3925' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3925' macro='1' u='a'/>
+<use f='codebrowser/event.c' l='3925' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3926' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3935' macro='1' u='r'/>

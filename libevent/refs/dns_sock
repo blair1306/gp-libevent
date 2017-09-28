@@ -1,0 +1,5 @@
+<def f='codebrowser/test/regress_testutils.c' l='74' macro='1' type='int'/>
+<use f='codebrowser/test/regress_testutils.c' l='136' u='r' c='regress_clean_dnsserver'/>
+<use f='codebrowser/test/regress_testutils.c' l='137' u='r' c='regress_clean_dnsserver'/>
+<use f='codebrowser/test/regress_testutils.c' l='138' u='w' c='regress_clean_dnsserver'/>
+<use f='codebrowser/test/regress_testutils.c' l='220' u='a' c='regress_dnsserver'/>

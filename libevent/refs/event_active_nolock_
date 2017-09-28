@@ -1,0 +1,9 @@
+<dec f='codebrowser/event-internal.h' l='423' type='void event_active_nolock_(struct event * ev, int res, short count)'/>
+<use f='codebrowser/event.c' l='1435' u='c' c='common_timeout_callback'/>
+<use f='codebrowser/event.c' l='2051' u='c' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2208' u='c' c='event_finalize_nolock_'/>
+<use f='codebrowser/event.c' l='2862' u='c' c='event_active'/>
+<def f='codebrowser/event.c' l='2868' ll='2917' type='void event_active_nolock_(struct event * ev, int res, short ncalls)'/>
+<use f='codebrowser/event.c' l='3152' u='c' c='timeout_process'/>
+<use f='codebrowser/evmap.c' l='428' u='c' c='evmap_io_active_'/>
+<use f='codebrowser/evmap.c' l='503' u='c' c='evmap_signal_active_'/>

@@ -1,0 +1,4 @@
+<dec f='include/openssl/bio.h' l='668' type='long BIO_ctrl(BIO * bp, int cmd, long larg, void * parg)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1234' macro='1' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1438' macro='1' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1452' macro='1' u='c'/>

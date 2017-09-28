@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='809' type='void evutil_secure_rng_get_bytes(void * buf, size_t n)'/>
+<use f='codebrowser/evdns.c' l='1322' u='c' c='transaction_id_pick'/>
+<use f='codebrowser/evdns.c' l='2783' u='c' c='request_new'/>
+<def f='codebrowser/evutil_rand.c' l='189' ll='193' type='void evutil_secure_rng_get_bytes(void * buf, size_t n)'/>
+<use f='codebrowser/test/regress_util.c' l='890' u='c' c='test_evutil_rand'/>

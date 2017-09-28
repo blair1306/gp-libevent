@@ -1,0 +1,1 @@
+<dec f='codebrowser/util-internal.h' l='294' type='int evutil_resolve_(int family, const char * hostname, struct sockaddr * sa, socklen_t * socklen, int port)'/>

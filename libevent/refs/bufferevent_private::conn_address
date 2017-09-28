@@ -1,0 +1,14 @@
+<dec f='codebrowser/bufferevent-internal.h' l='230' type='union (anonymous union at /home/jon/workspace/libevent/bufferevent-internal.h:227:2)'/>
+<offset>3968</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='220'>/* Saved conn_addr, to extract IP address from it.
+	 *
+	 * Because some servers may reset/close connection without waiting clients,
+	 * in that case we can&apos;t extract IP address even in close_cb.
+	 * So we need to save it, just after we connected to remote server, or
+	 * after resolving (to avoid extra dns requests during retrying, since UDP
+	 * is slow) */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='105' u='a' c='bufferevent_socket_get_conn_address_'/>
+<use f='codebrowser/bufferevent_sock.c' l='110' u='r' c='bufferevent_socket_set_conn_address_fd'/>
+<use f='codebrowser/bufferevent_sock.c' l='112' u='a' c='bufferevent_socket_set_conn_address_fd'/>
+<use f='codebrowser/bufferevent_sock.c' l='120' u='r' c='bufferevent_socket_set_conn_address'/>
+<use f='codebrowser/bufferevent_sock.c' l='121' u='a' c='bufferevent_socket_set_conn_address'/>

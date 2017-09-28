@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/util.h' l='427' type='int evutil_make_listen_socket_reuseable_port(int sock)'/>
+<def f='codebrowser/evutil.c' l='374' ll='386' type='int evutil_make_listen_socket_reuseable_port(int sock)'/>
+<use f='codebrowser/listener.c' l='239' u='c' c='evconnlistener_new_bind'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/http.h' l='1156'/>
+<doc f='codebrowser/include/event2/http.h' l='1144'>/** Tolerate URIs that do not conform to RFC3986.
+ *
+ * Unfortunately, some HTTP clients generate URIs that, according to RFC3986,
+ * are not conformant URIs.  If you need to support these URIs, you can
+ * do so by passing this flag to evhttp_uri_parse_with_flags.
+ *
+ * Currently, these changes are:
+ * &lt;ul&gt;
+ *   &lt;li&gt; Nonconformant URIs are allowed to contain otherwise unreasonable
+ *        characters in their path, query, and fragment components.
+ * &lt;/ul&gt;
+ */</doc>
+<use f='codebrowser/http.c' l='1833' u='c'/>
+<use f='codebrowser/http.c' l='4639' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='2461' u='c'/>

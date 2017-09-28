@@ -1,0 +1,4 @@
+<dec f='include/pthread.h' l='968' type='int pthread_cond_init(pthread_cond_t *restrict __cond, const pthread_condattr_t *restrict __cond_attr)'/>
+<use f='codebrowser/evthread_pthread.c' l='109' u='c' c='evthread_posix_cond_alloc'/>
+<doc f='include/pthread.h' l='966'>/* Initialize condition variable COND using attributes ATTR, or use
+   the default values if later is NULL.  */</doc>

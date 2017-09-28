@@ -1,0 +1,12 @@
+<dec f='codebrowser/evbuffer-internal.h' l='254' type='char *'/>
+<use f='codebrowser/buffer.c' l='3034' u='r' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3065' u='w' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3124' u='w' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3161' u='r' c='evbuffer_file_segment_free'/>
+<use f='codebrowser/buffer.c' l='3162' u='r' c='evbuffer_file_segment_free'/>
+<use f='codebrowser/buffer.c' l='3193' u='r' c='evbuffer_add_file_segment'/>
+<use f='codebrowser/buffer.c' l='3255' u='r' c='evbuffer_add_file_segment'/>
+<use f='codebrowser/buffer.c' l='3260' u='r' c='evbuffer_add_file_segment'/>
+<offset>256</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='252'>/** If we&apos;re using mmap or IO, this is the content of the file
+	 * segment. */</doc>

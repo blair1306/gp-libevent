@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='116' type='int'/>
+<offset>384</offset>
+<doc f='codebrowser/event-internal.h' l='114'>/** Flag: set if we need to reinitialize the event base after we fork.
+	 */</doc>
+<use f='codebrowser/event.c' l='951' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='997' u='r' c='event_reinit'/>

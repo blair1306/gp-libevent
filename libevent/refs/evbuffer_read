@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/buffer.h' l='734' type='int evbuffer_read(struct evbuffer * buffer, int fd, int howmuch)'/>
+<def f='codebrowser/buffer.c' l='2270' ll='2399' type='int evbuffer_read(struct evbuffer * buf, int fd, int howmuch)'/>
+<doc f='codebrowser/buffer.c' l='2268'>/* TODO(niels): should this function return ev_ssize_t and take ev_ssize_t
+ * as howmuch? */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='188' u='c' c='bufferevent_readcb'/>
+<use f='codebrowser/test/regress_buffer.c' l='905' u='c' c='addfile_test_readcb'/>

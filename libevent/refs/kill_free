@@ -1,0 +1,6 @@
+<use f='codebrowser/test/regress_rpc.c' l='247' u='c' c='rpc_postrequest_done'/>
+<use f='codebrowser/test/regress_rpc.c' l='516' u='c' c='rpc_basic_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='570' u='c' c='rpc_basic_queued_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='572' u='c' c='rpc_basic_queued_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='675' u='c' c='rpc_basic_client_with_pause'/>
+<use f='codebrowser/test/regress_rpc.c' l='726' u='c' c='rpc_client_timeout'/>

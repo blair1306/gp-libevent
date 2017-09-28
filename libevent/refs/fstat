@@ -1,0 +1,7 @@
+<dec f='include/x86_64-linux-gnu/sys/stat.h' l='213' type='int fstat(int __fd, struct stat * __buf)'/>
+<def f='include/x86_64-linux-gnu/sys/stat.h' l='465' ll='469' macro='1' type='int fstat(int __fd, struct stat * __statbuf)'/>
+<use f='codebrowser/buffer.c' l='2977' u='c' c='evbuffer_file_segment_new'/>
+<doc f='include/x86_64-linux-gnu/sys/stat.h' l='211'>/* Get file attributes for the file, device, pipe, or socket
+   that file descriptor FD is open on and put them in BUF.  */</doc>
+<use f='codebrowser/evutil.c' l='162' u='c' c='evutil_read_file_'/>
+<use f='codebrowser/sample/http-server.c' l='295' u='c' c='send_document_cb'/>

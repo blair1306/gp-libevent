@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/thread.h' l='228' type='void evthread_enable_lock_debugging()'/>
+<use f='codebrowser/evthread.c' l='314' u='c' c='evthread_enable_lock_debuging'/>
+<def f='codebrowser/evthread.c' l='317' ll='342' type='void evthread_enable_lock_debugging()'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='315' u='c' c='use_lock_unlock_profiler'/>
+<use f='codebrowser/test/regress_main.c' l='442' u='c' c='main'/>
+<use f='codebrowser/test/test-ratelim.c' l='599' u='c' c='main'/>

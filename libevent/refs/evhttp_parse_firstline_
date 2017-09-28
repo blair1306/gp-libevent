@@ -1,0 +1,15 @@
+<dec f='codebrowser/http-internal.h' l='194' type='enum message_read_status evhttp_parse_firstline_(struct evhttp_request * , struct evbuffer * )'/>
+<def f='codebrowser/http.c' l='1977' ll='2017' type='enum message_read_status evhttp_parse_firstline_(struct evhttp_request * req, struct evbuffer * buffer)'/>
+<use f='codebrowser/http.c' l='2238' u='c' c='evhttp_read_firstline'/>
+<doc f='codebrowser/http.c' l='1967'>/*
+ * Parses header lines from a request or a response into the specified
+ * request object given an event buffer.
+ *
+ * Returns
+ *   DATA_CORRUPTED      on error
+ *   MORE_DATA_EXPECTED  when we need to read more headers
+ *   ALL_DATA_READ       when all headers have been read.
+ */</doc>
+<use f='codebrowser/test/regress_http.c' l='253' u='c' c='http_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='609' u='c' c='http_badreq_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='3129' u='c' c='http_chunked_errorcb'/>

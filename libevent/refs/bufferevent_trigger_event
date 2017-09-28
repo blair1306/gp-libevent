@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='659' type='void bufferevent_trigger_event(struct bufferevent * bufev, short what, int options)'/>
+<def f='codebrowser/bufferevent.c' l='282' ll='288' type='void bufferevent_trigger_event(struct bufferevent * bufev, short what, int options)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1072' u='c' c='trigger_readcb_triggered'/>

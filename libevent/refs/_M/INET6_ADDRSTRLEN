@@ -1,0 +1,5 @@
+<dec f='include/netinet/in.h' l='235'/>
+<use f='codebrowser/test/regress_dns.c' l='103' u='a'/>
+<use f='codebrowser/test/regress_dns.c' l='105' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='324' u='a'/>
+<use f='codebrowser/test/regress_dns.c' l='326' u='c'/>

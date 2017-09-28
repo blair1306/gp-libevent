@@ -1,0 +1,25 @@
+<dec f='codebrowser/evrpc-internal.h' l='107' type='char *'/>
+<use f='codebrowser/evrpc.c' l='991' u='r' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='1041' u='w' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1042' u='r' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1061' u='r' c='evrpc_hook_find_meta'/>
+<offset>128</offset>

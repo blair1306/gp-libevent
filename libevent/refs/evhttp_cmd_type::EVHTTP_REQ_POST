@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/event2/http.h' l='494' type='2'/>
+<use f='codebrowser/evrpc.c' l='291' u='r' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='745' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/http.c' l='309' c='evhttp_method'/>
+<use f='codebrowser/http.c' l='446' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='1749' u='r' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='2155' c='evhttp_method_may_have_body'/>
+<use f='codebrowser/http.c' l='3623' u='r' c='evhttp_new_object'/>
+<use f='codebrowser/sample/http-server.c' l='120' c='dump_request_cb'/>
+<use f='codebrowser/sample/https-client.c' l='469' u='r' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='1946' u='r' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='1966' u='r' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='1988' u='r' c='http_post_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4043' u='r' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4052' u='r' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4062' u='r' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4075' u='r' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4133' u='r' c='http_lingering_close_test_impl'/>
+<use f='codebrowser/test/regress_rpc.c' l='211' u='r' c='rpc_basic_test'/>
+<use f='codebrowser/test/regress_rpc.c' l='290' u='r' c='rpc_basic_message'/>

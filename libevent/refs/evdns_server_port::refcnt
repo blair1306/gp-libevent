@@ -1,0 +1,8 @@
+<dec f='codebrowser/evdns.c' l='246' type='int'/>
+<use f='codebrowser/evdns.c' l='1277' u='w' c='request_parse'/>
+<use f='codebrowser/evdns.c' l='1719' u='w' c='evdns_add_server_port_with_base'/>
+<use f='codebrowser/evdns.c' l='1749' u='w' c='evdns_close_server_port'/>
+<use f='codebrowser/evdns.c' l='2092' u='w' c='server_request_free'/>
+<use f='codebrowser/evdns.c' l='2123' u='r' c='server_port_free'/>
+<offset>32</offset>
+<doc f='codebrowser/evdns.c' l='246'>/* reference count. */</doc>

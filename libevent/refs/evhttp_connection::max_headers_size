@@ -1,0 +1,10 @@
+<dec f='codebrowser/http-internal.h' l='70' type='size_t'/>
+<offset>1536</offset>
+<use f='codebrowser/http.c' l='630' u='w' c='evhttp_connection_set_max_headers_size'/>
+<use f='codebrowser/http.c' l='632' u='w' c='evhttp_connection_set_max_headers_size'/>
+<use f='codebrowser/http.c' l='1988' u='r' c='evhttp_parse_firstline_'/>
+<use f='codebrowser/http.c' l='1995' u='r' c='evhttp_parse_firstline_'/>
+<use f='codebrowser/http.c' l='2065' u='r' c='evhttp_parse_headers_'/>
+<use f='codebrowser/http.c' l='2101' u='r' c='evhttp_parse_headers_'/>
+<use f='codebrowser/http.c' l='2353' u='w' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='4193' u='w' c='evhttp_get_request_connection'/>

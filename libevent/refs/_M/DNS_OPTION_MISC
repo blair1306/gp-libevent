@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/dns.h' l='184'/>
+<use f='codebrowser/evdns.c' l='3461' u='c'/>
+<use f='codebrowser/evdns.c' l='3467' u='c'/>
+<use f='codebrowser/evdns.c' l='3475' u='c'/>
+<use f='codebrowser/evdns.c' l='3482' u='c'/>
+<use f='codebrowser/evdns.c' l='3490' u='c'/>
+<use f='codebrowser/evdns.c' l='3495' u='c'/>
+<use f='codebrowser/evdns.c' l='3511' u='c'/>

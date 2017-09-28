@@ -1,0 +1,5 @@
+<dec f='codebrowser/http-internal.h' l='76'/>
+<use f='codebrowser/http.c' l='1355' u='c'/>
+<use f='codebrowser/http.c' l='1363' u='c'/>
+<use f='codebrowser/http.c' l='1497' u='c'/>
+<use f='codebrowser/http.c' l='1498' u='c'/>

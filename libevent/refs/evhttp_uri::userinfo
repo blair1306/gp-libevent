@@ -1,0 +1,14 @@
+<dec f='codebrowser/http.c' l='4409' type='char *'/>
+<use f='codebrowser/http.c' l='4573' u='w' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4574' u='r' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4833' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4833' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4865' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4866' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4915' u='r' c='evhttp_uri_get_userinfo'/>
+<use f='codebrowser/http.c' l='4970' u='r' c='evhttp_uri_set_userinfo'/>
+<use f='codebrowser/http.c' l='4970' u='r' c='evhttp_uri_set_userinfo'/>
+<use f='codebrowser/http.c' l='4970' u='w' c='evhttp_uri_set_userinfo'/>
+<use f='codebrowser/http.c' l='4970' u='w' c='evhttp_uri_set_userinfo'/>
+<offset>128</offset>
+<doc f='codebrowser/http.c' l='4409'>/* userinfo (typically username:pass), or NULL */</doc>

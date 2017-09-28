@@ -1,0 +1,5 @@
+<dec f='codebrowser/evrpc-internal.h' l='202' type='int (*)(void *, struct evbuffer *)'/>
+<use f='codebrowser/evrpc.c' l='850' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='930' u='r' c='evrpc_reply_done_closure'/>
+<offset>1856</offset>
+<doc f='codebrowser/evrpc-internal.h' l='201'>/* marshals the reply into a buffer */</doc>

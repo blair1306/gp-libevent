@@ -1,0 +1,13 @@
+<dec f='codebrowser/bufferevent-internal.h' l='81' type='struct rlim_group_member_list'/>
+<offset>0</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='363' u='a' c='bev_group_suspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='381' u='a' c='bev_group_suspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='456' u='a' c='bev_group_random_element_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='460' u='a' c='bev_group_random_element_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='481' u='a' c='bev_group_unsuspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='481' u='a' c='bev_group_unsuspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='653' u='a' c='bufferevent_rate_limit_group_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' u='a' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' u='a' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' u='a' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' u='a' c='bufferevent_add_to_rate_limit_group'/>

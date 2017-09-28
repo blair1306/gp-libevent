@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='1319' type='struct event * event_base_get_running_event(struct event_base * base)'/>
+<def f='codebrowser/event.c' l='2146' ll='2158' type='struct event * event_base_get_running_event(struct event_base * base)'/>
+<use f='codebrowser/test/regress.c' l='1412' u='c' c='event_selfarg_cb'/>
+<use f='codebrowser/test/test-ratelim.c' l='224' u='c' c='check_bucket_levels_cb'/>

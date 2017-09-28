@@ -1,0 +1,14 @@
+<dec f='codebrowser/evbuffer-internal.h' l='109' type='size_t'/>
+<use f='codebrowser/buffer.c' l='480' u='w' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='483' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='487' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='489' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='492' u='w' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='516' u='w' c='evbuffer_invoke_callbacks_'/>
+<use f='codebrowser/buffer.c' l='995' u='w' c='evbuffer_add_buffer'/>
+<use f='codebrowser/buffer.c' l='1085' u='w' c='evbuffer_prepend_buffer'/>
+<use f='codebrowser/buffer.c' l='1154' u='w' c='evbuffer_drain'/>
+<use f='codebrowser/buffer.c' l='1331' u='w' c='evbuffer_remove_buffer'/>
+<offset>320</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='107'>/** Number of bytes we have removed from the buffer since we last
+	 * tried to invoke callbacks. */</doc>

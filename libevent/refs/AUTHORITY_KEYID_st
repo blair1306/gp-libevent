@@ -1,0 +1,5 @@
+<def f='include/openssl/x509v3.h' l='262' ll='266'/>
+<size>24</size>
+<mbr r='AUTHORITY_KEYID_st::keyid' o='0' t='ASN1_OCTET_STRING *'/>
+<mbr r='AUTHORITY_KEYID_st::issuer' o='64' t='GENERAL_NAMES *'/>
+<mbr r='AUTHORITY_KEYID_st::serial' o='128' t='ASN1_INTEGER *'/>

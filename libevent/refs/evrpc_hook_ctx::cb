@@ -1,0 +1,4 @@
+<dec f='codebrowser/evrpc-internal.h' l='102' type='void (*)(void *, enum EVRPC_HOOK_RESULT)'/>
+<use f='codebrowser/evrpc.c' l='771' u='w' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='792' u='r' c='evrpc_resume_request'/>
+<offset>192</offset>

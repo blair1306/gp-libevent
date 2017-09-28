@@ -1,0 +1,25 @@
+<dec f='codebrowser/bufferevent-internal.h' l='382' type='int bufferevent_decref_and_unlock_(struct bufferevent * bufev)'/>
+<use f='codebrowser/bufferevent.c' l='163' u='c' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='207' u='c' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='262' u='c' c='bufferevent_trigger'/>
+<use f='codebrowser/bufferevent.c' l='287' u='c' c='bufferevent_trigger_event'/>
+<use f='codebrowser/bufferevent.c' l='478' u='c' c='bufferevent_enable'/>
+<def f='codebrowser/bufferevent.c' l='683' ll='723' type='int bufferevent_decref_and_unlock_(struct bufferevent * bufev)'/>
+<use f='codebrowser/bufferevent.c' l='782' u='c' c='bufferevent_decref'/>
+<use f='codebrowser/bufferevent.c' l='791' u='c' c='bufferevent_free'/>
+<use f='codebrowser/bufferevent.c' l='926' u='c' c='bufferevent_generic_read_timeout_cb'/>
+<use f='codebrowser/bufferevent.c' l='935' u='c' c='bufferevent_generic_write_timeout_cb'/>
+<use f='codebrowser/bufferevent.c' l='1014' u='c' c='bufferevent_unlock'/>
+<use f='codebrowser/bufferevent_filter.c' l='433' u='c' c='bufferevent_filtered_outbuf_cb'/>
+<use f='codebrowser/bufferevent_filter.c' l='592' u='c' c='be_filter_flush'/>
+<use f='codebrowser/bufferevent_openssl.c' l='949' u='c' c='be_openssl_readeventcb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='963' u='c' c='be_openssl_writeeventcb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1076' u='c' c='be_openssl_handshakeeventcb'/>
+<use f='codebrowser/bufferevent_pair.c' l='83' u='c' c='decref_and_unlock'/>
+<use f='codebrowser/bufferevent_pair.c' l='84' u='c' c='decref_and_unlock'/>
+<use f='codebrowser/bufferevent_sock.c' l='224' u='c' c='bufferevent_readcb'/>
+<use f='codebrowser/bufferevent_sock.c' l='339' u='c' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='454' u='c' c='bufferevent_socket_connect'/>
+<use f='codebrowser/bufferevent_sock.c' l='475' u='c' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='481' u='c' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='492' u='c' c='bufferevent_connect_getaddrinfo_cb'/>

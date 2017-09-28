@@ -1,0 +1,5 @@
+<def f='codebrowser/include/event2/buffer.h' l='771' ll='777'/>
+<doc f='codebrowser/include/event2/buffer.h' l='767'>/**
+   Defines how to adjust an evbuffer_ptr by evbuffer_ptr_set()
+
+   @see evbuffer_ptr_set() */</doc>

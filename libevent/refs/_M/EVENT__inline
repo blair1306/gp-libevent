@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/event-config.h' l='499'/>
+<use f='codebrowser/util-internal.h' l='68' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='489'>/* why not c++?
+ *
+ *  and are we really expected to use EVENT__inline everywhere,
+ *  shouldn&apos;t we just do:
+ *     ifdef EVENT__inline
+ *     define inline EVENT__inline
+ *
+ * - Ellzey
+ */</doc>

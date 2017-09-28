@@ -1,0 +1,13 @@
+<dec f='codebrowser/http-internal.h' l='206' type='int evhttp_decode_uri_internal(const char * uri, size_t length, char * ret, int decode_plus)'/>
+<def f='codebrowser/http.c' l='3123' ll='3153' type='int evhttp_decode_uri_internal(const char * uri, size_t length, char * ret, int decode_plus_ctl)'/>
+<use f='codebrowser/http.c' l='3167' u='c' c='evhttp_decode_uri'/>
+<use f='codebrowser/http.c' l='3185' u='c' c='evhttp_uridecode'/>
+<use f='codebrowser/http.c' l='3249' u='c' c='evhttp_parse_query_impl'/>
+<use f='codebrowser/http.c' l='3292' u='c' c='evhttp_dispatch_callback'/>
+<doc f='codebrowser/http.c' l='3117'>/*
+ * @param decode_plus_ctl: if 1, we decode plus into space.  If 0, we don&apos;t.
+ *     If -1, when true we transform plus to space only after we&apos;ve seen
+ *     a ?.  -1 is deprecated.
+ * @return the number of bytes written to &apos;ret&apos;.
+ */</doc>
+<use f='codebrowser/test/regress_http.c' l='2903' u='c' c='http_uriencode_test'/>

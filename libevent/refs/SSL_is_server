@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2567' type='int SSL_is_server(SSL * s)'/>

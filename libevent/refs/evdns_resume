@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='166' type='int evdns_resume()'/>
+<def f='codebrowser/evdns.c' l='2479' ll='2483' type='int evdns_resume()'/>

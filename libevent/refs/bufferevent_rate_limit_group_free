@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='864' type='void bufferevent_rate_limit_group_free(struct bufferevent_rate_limit_group * )'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='724' ll='733' type='void bufferevent_rate_limit_group_free(struct bufferevent_rate_limit_group * g)'/>
+<use f='codebrowser/test/test-ratelim.c' l='399' u='c' c='test_ratelimiting'/>

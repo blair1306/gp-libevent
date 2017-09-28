@@ -1,0 +1,2 @@
+<def f='codebrowser/test/bench_httpclient.c' l='54' type='int'/>
+<use f='codebrowser/test/bench_httpclient.c' l='103' u='w' c='errorcb'/>

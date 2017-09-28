@@ -1,0 +1,69 @@
+<dec f='codebrowser/test/regress_util.c' l='65' type='2'/>
+<use f='codebrowser/test/regress_util.c' l='75' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='75' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='76' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='76' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='77' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='77' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='79' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='79' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='75' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='75' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='76' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='76' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='77' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='77' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='79' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='79' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='98'/>
+<use f='codebrowser/test/regress_util.c' l='98'/>
+<use f='codebrowser/test/regress_util.c' l='99'/>
+<use f='codebrowser/test/regress_util.c' l='99'/>
+<use f='codebrowser/test/regress_util.c' l='100'/>
+<use f='codebrowser/test/regress_util.c' l='100'/>
+<use f='codebrowser/test/regress_util.c' l='101'/>
+<use f='codebrowser/test/regress_util.c' l='101'/>
+<use f='codebrowser/test/regress_util.c' l='102'/>
+<use f='codebrowser/test/regress_util.c' l='102'/>
+<use f='codebrowser/test/regress_util.c' l='103'/>
+<use f='codebrowser/test/regress_util.c' l='103'/>
+<use f='codebrowser/test/regress_util.c' l='104'/>
+<use f='codebrowser/test/regress_util.c' l='104'/>
+<use f='codebrowser/test/regress_util.c' l='105'/>
+<use f='codebrowser/test/regress_util.c' l='105'/>
+<use f='codebrowser/test/regress_util.c' l='106'/>
+<use f='codebrowser/test/regress_util.c' l='106'/>
+<use f='codebrowser/test/regress_util.c' l='107'/>
+<use f='codebrowser/test/regress_util.c' l='107'/>
+<use f='codebrowser/test/regress_util.c' l='108'/>
+<use f='codebrowser/test/regress_util.c' l='108'/>
+<use f='codebrowser/test/regress_util.c' l='109'/>
+<use f='codebrowser/test/regress_util.c' l='109'/>
+<use f='codebrowser/test/regress_util.c' l='98'/>
+<use f='codebrowser/test/regress_util.c' l='98'/>
+<use f='codebrowser/test/regress_util.c' l='99'/>
+<use f='codebrowser/test/regress_util.c' l='99'/>
+<use f='codebrowser/test/regress_util.c' l='100'/>
+<use f='codebrowser/test/regress_util.c' l='100'/>
+<use f='codebrowser/test/regress_util.c' l='101'/>
+<use f='codebrowser/test/regress_util.c' l='101'/>
+<use f='codebrowser/test/regress_util.c' l='102'/>
+<use f='codebrowser/test/regress_util.c' l='102'/>
+<use f='codebrowser/test/regress_util.c' l='103'/>
+<use f='codebrowser/test/regress_util.c' l='103'/>
+<use f='codebrowser/test/regress_util.c' l='104'/>
+<use f='codebrowser/test/regress_util.c' l='104'/>
+<use f='codebrowser/test/regress_util.c' l='105'/>
+<use f='codebrowser/test/regress_util.c' l='105'/>
+<use f='codebrowser/test/regress_util.c' l='106'/>
+<use f='codebrowser/test/regress_util.c' l='106'/>
+<use f='codebrowser/test/regress_util.c' l='107'/>
+<use f='codebrowser/test/regress_util.c' l='107'/>
+<use f='codebrowser/test/regress_util.c' l='108'/>
+<use f='codebrowser/test/regress_util.c' l='108'/>
+<use f='codebrowser/test/regress_util.c' l='109'/>
+<use f='codebrowser/test/regress_util.c' l='109'/>
+<use f='codebrowser/test/regress_util.c' l='123' u='r' c='regress_ipv4_parse'/>
+<use f='codebrowser/test/regress_util.c' l='129' u='r' c='regress_ipv4_parse'/>
+<use f='codebrowser/test/regress_util.c' l='170' u='r' c='regress_ipv6_parse'/>
+<use f='codebrowser/test/regress_util.c' l='175' u='r' c='regress_ipv6_parse'/>

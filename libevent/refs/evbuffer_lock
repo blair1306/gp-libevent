@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/buffer.h' l='181' type='void evbuffer_lock(struct evbuffer * buf)'/>
+<def f='codebrowser/buffer.c' l='593' ll='597' type='void evbuffer_lock(struct evbuffer * buf)'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2380' type='const SSL_METHOD * DTLSv1_server_method()'/>
+<doc f='include/openssl/ssl.h' l='2380'>/* DTLSv1.0 */</doc>

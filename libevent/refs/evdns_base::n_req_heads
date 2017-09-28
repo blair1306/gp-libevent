@@ -1,0 +1,17 @@
+<dec f='codebrowser/evdns.c' l='314' type='int'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='request_find_from_trans_id'/>
+<use f='codebrowser/evdns.c' l='602' u='r' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='reply_handle'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='reply_handle'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='evdns_request_timeout_callback'/>
+<use f='codebrowser/evdns.c' l='2351' u='r' c='evdns_transmit'/>
+<use f='codebrowser/evdns.c' l='2428' u='r' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='request_submit'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='evdns_cancel_request'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3389' u='r' c='evdns_base_set_max_requests_inflight'/>
+<use f='codebrowser/evdns.c' l='3412' u='w' c='evdns_base_set_max_requests_inflight'/>
+<use f='codebrowser/evdns.c' l='4040' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='390' u='r' c='evdns_base_free_and_unlock'/>
+<offset>192</offset>

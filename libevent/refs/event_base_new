@@ -1,0 +1,30 @@
+<dec f='codebrowser/include/event2/event.h' l='344' type='struct event_base * event_base_new()'/>
+<def f='codebrowser/event.c' l='480' ll='490' type='struct event_base * event_base_new()'/>
+<use f='codebrowser/sample/dns-example.c' l='188' u='c' c='main'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='133' u='c' c='main'/>
+<use f='codebrowser/sample/hello-world.c' l='51' u='c' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='101' u='c' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='349' u='c' c='main'/>
+<use f='codebrowser/sample/https-client.c' l='384' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='257' u='c' c='main'/>
+<use f='codebrowser/sample/signal-test.c' l='59' u='c' c='main'/>
+<use f='codebrowser/sample/time-test.c' l='92' u='c' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='194' u='c' c='main'/>
+<use f='codebrowser/test/regress.c' l='395' u='c' c='test_simpleclose'/>
+<use f='codebrowser/test/regress.c' l='1940' u='c' c='test_event_base_new'/>
+<use f='codebrowser/test/regress.c' l='2002' u='c' c='test_loopexit_multiple'/>
+<use f='codebrowser/test/regress.c' l='2581' u='c' c='test_base_features'/>
+<use f='codebrowser/test/regress.c' l='2659' u='c' c='test_base_environ'/>
+<use f='codebrowser/test/regress_dns.c' l='199' u='c' c='dns_resolve_reverse'/>
+<use f='codebrowser/test/regress_dns.c' l='969' u='c' c='dns_disable_when_inactive_no_ns_test'/>
+<use f='codebrowser/test/regress_dns.c' l='1848' u='c' c='testleak_setup'/>
+<use f='codebrowser/test/regress_dns.c' l='1981' u='c' c='test_getaddrinfo_async_cancel_stress'/>
+<use f='codebrowser/test/regress_et.c' l='107' u='c' c='test_edgetriggered'/>
+<use f='codebrowser/test/regress_et.c' l='169' u='c' c='test_edgetriggered_mix_error'/>
+<use f='codebrowser/test/regress_finalize.c' l='203' u='c' c='test_fin_free_finalize'/>
+<use f='codebrowser/test/regress_http.c' l='1453' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='2960' u='c' c='http_base_test'/>
+<use f='codebrowser/test/regress_main.c' l='235' u='c' c='basic_test_setup'/>
+<use f='codebrowser/test/test-changelist.c' l='186' u='c' c='main'/>
+<use f='codebrowser/test/test-dumpevents.c' l='102' u='c' c='main'/>
+<use f='codebrowser/test/test-fdleak.c' l='126' u='c' c='start_loop'/>

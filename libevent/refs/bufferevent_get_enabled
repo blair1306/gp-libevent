@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='483' type='short bufferevent_get_enabled(struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent.c' l='896' ll='904' type='short bufferevent_get_enabled(struct bufferevent * bufev)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='168' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='169' u='c' c='test_bufferevent_impl'/>

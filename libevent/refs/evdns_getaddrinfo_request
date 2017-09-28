@@ -1,0 +1,16 @@
+<def f='codebrowser/evdns.c' l='4232' ll='4265'/>
+<size>264</size>
+<doc f='codebrowser/evdns.c' l='4231'>/* State data used to implement an in-progress getaddrinfo. */</doc>
+<mbr r='evdns_getaddrinfo_request::evdns_base' o='0' t='struct evdns_base *'/>
+<mbr r='evdns_getaddrinfo_request::hints' o='64' t='struct addrinfo'/>
+<mbr r='evdns_getaddrinfo_request::user_cb' o='448' t='evdns_getaddrinfo_cb'/>
+<mbr r='evdns_getaddrinfo_request::user_data' o='512' t='void *'/>
+<mbr r='evdns_getaddrinfo_request::port' o='576' t='uint16_t'/>
+<mbr r='evdns_getaddrinfo_request::ipv4_request' o='640' t='struct getaddrinfo_subrequest'/>
+<mbr r='evdns_getaddrinfo_request::ipv6_request' o='768' t='struct getaddrinfo_subrequest'/>
+<mbr r='evdns_getaddrinfo_request::cname_result' o='896' t='char *'/>
+<mbr r='evdns_getaddrinfo_request::pending_result' o='960' t='struct addrinfo *'/>
+<mbr r='evdns_getaddrinfo_request::timeout' o='1024' t='struct event'/>
+<mbr r='evdns_getaddrinfo_request::pending_error' o='2048' t='int'/>
+<mbr r='evdns_getaddrinfo_request::user_canceled' o='2080' t='unsigned int'/>
+<mbr r='evdns_getaddrinfo_request::request_done' o='2081' t='unsigned int'/>

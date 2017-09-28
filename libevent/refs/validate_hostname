@@ -1,0 +1,25 @@
+<dec f='codebrowser/sample/openssl_hostname_validation.h' l='56' type='HostnameValidationResult validate_hostname(const char * hostname, const X509 * server_cert)'/>
+<use f='codebrowser/sample/https-client.c' l='147' u='c' c='cert_verify_callback'/>
+<doc f='codebrowser/sample/openssl_hostname_validation.h' l='45'>/**
+* Validates the server&apos;s identity by looking for the expected hostname in the
+* server&apos;s certificate. As described in RFC 6125, it first tries to find a match
+* in the Subject Alternative Name extension. If the extension is not present in
+* the certificate, it checks the Common Name instead.
+*
+* Returns MatchFound if a match was found.
+* Returns MatchNotFound if no matches were found.
+* Returns MalformedCertificate if any of the hostnames had a NUL character embedded in it.
+* Returns Error if there was an error.
+*/</doc>
+<def f='codebrowser/sample/openssl_hostname_validation.c' l='163' ll='177' type='HostnameValidationResult validate_hostname(const char * hostname, const X509 * server_cert)'/>
+<doc f='codebrowser/sample/openssl_hostname_validation.c' l='152'>/**
+* Validates the server&apos;s identity by looking for the expected hostname in the
+* server&apos;s certificate. As described in RFC 6125, it first tries to find a match
+* in the Subject Alternative Name extension. If the extension is not present in
+* the certificate, it checks the Common Name instead.
+*
+* Returns MatchFound if a match was found.
+* Returns MatchNotFound if no matches were found.
+* Returns MalformedCertificate if any of the hostnames had a NUL character embedded in it.
+* Returns Error if there was an error.
+*/</doc>

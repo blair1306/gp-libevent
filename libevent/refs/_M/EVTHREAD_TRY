@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/thread.h' l='71'/>
+<use f='codebrowser/evthread-internal.h' l='143' u='c'/>
+<doc f='codebrowser/include/event2/thread.h' l='68'>/** A flag passed to a locking callback when we don&apos;t want to block waiting
+ * for the lock; if we can&apos;t get the lock immediately, we will instead
+ * return nonzero from the locking callback. */</doc>
+<use f='codebrowser/evthread_pthread.c' l='72' u='c'/>

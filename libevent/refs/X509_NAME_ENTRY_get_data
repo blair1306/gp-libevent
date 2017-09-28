@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509.h' l='1050' type='ASN1_STRING * X509_NAME_ENTRY_get_data(X509_NAME_ENTRY * ne)'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='82' u='c' c='matches_common_name'/>

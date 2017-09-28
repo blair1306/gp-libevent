@@ -1,0 +1,4 @@
+<def f='codebrowser/epoll.c' l='117' ll='127' type='const struct eventop'/>
+<dec f='codebrowser/event.c' l='87' type='const struct eventop'/>
+<use f='codebrowser/event.c' l='108' u='a'/>
+<use f='codebrowser/event.c' l='108' u='a'/>

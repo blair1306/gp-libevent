@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='566' type='void evhttp_request_set_header_cb(struct evhttp_request * , int (*)(struct evhttp_request *, void *) cb)'/>
+<def f='codebrowser/http.c' l='4037' ll='4042' type='void evhttp_request_set_header_cb(struct evhttp_request * req, int (*)(struct evhttp_request *, void *) cb)'/>

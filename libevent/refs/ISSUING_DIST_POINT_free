@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='576' macro='1' type='void ISSUING_DIST_POINT_free(ISSUING_DIST_POINT * a)'/>

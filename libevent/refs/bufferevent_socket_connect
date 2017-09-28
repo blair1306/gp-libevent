@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='212' type='int bufferevent_socket_connect(struct bufferevent * , const struct sockaddr * , int )'/>
+<def f='codebrowser/bufferevent_sock.c' l='378' ll='456' type='int bufferevent_socket_connect(struct bufferevent * bev, const struct sockaddr * sa, int socklen)'/>
+<use f='codebrowser/bufferevent_sock.c' l='490' u='c' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/http.c' l='2576' u='c' c='evhttp_connection_connect_'/>
+<use f='codebrowser/sample/le-proxy.c' l='181' u='c' c='accept_cb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='772' u='c' c='test_bufferevent_connect'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='773' u='c' c='test_bufferevent_connect'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='813' u='c' c='test_bufferevent_connect_fail_eventcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='880' u='c' c='test_bufferevent_connect_fail'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1162' u='c' c='test_bufferevent_trigger'/>
+<use f='codebrowser/test/regress_ssl.c' l='715' u='c' c='regress_bufferevent_openssl_connect'/>
+<use f='codebrowser/test/test-fdleak.c' l='211' u='c' c='start_client'/>
+<use f='codebrowser/test/test-ratelim.c' l='353' u='c' c='test_ratelimiting'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/thread.h' l='217'/>
+<doc f='codebrowser/include/event2/thread.h' l='216'>/** Defined if Libevent was built with support for evthread_use_pthreads() */</doc>
+<use f='codebrowser/test/regress_bufferevent.c' l='206' u='a'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1340' u='a'/>
+<use f='codebrowser/test/regress_main.c' l='204' u='a'/>

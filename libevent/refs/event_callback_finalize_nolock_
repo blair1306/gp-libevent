@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='430' type='void event_callback_finalize_nolock_(struct event_base * base, unsigned int flags, struct event_callback * evcb, void (*)(struct event_callback *, void *) cb)'/>
+<def f='codebrowser/event.c' l='2241' ll='2256' type='void event_callback_finalize_nolock_(struct event_base * base, unsigned int flags, struct event_callback * evcb, void (*)(struct event_callback *, void *) cb)'/>
+<use f='codebrowser/event.c' l='2262' u='c' c='event_callback_finalize_'/>
+<use f='codebrowser/event.c' l='2287' u='c' c='event_callback_finalize_many_'/>
+<use f='codebrowser/event.c' l='2296' u='c' c='event_callback_finalize_many_'/>

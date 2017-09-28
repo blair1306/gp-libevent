@@ -1,0 +1,4 @@
+<dec f='codebrowser/evrpc-internal.h' l='46' type='void *'/>
+<use f='codebrowser/evrpc.c' l='143' u='w' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='193' u='r' c='evrpc_process_hooks'/>
+<offset>192</offset>

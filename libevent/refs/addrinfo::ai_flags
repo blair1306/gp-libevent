@@ -1,0 +1,29 @@
+<dec f='include/netdb.h' l='569' type='int'/>
+<offset>0</offset>
+<doc f='include/netdb.h' l='569'>/* Input flags.  */</doc>
+<use f='codebrowser/evdns.c' l='4653' u='r' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4703' u='r' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evutil.c' l='835' u='w' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='882' u='r' c='evutil_parse_servname'/>
+<use f='codebrowser/evutil.c' l='998' u='r' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1015' u='r' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1070' u='r' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1204' u='r' c='evutil_adjust_hints_for_addrconfig_'/>
+<use f='codebrowser/evutil.c' l='1259' u='w' c='test_for_getaddrinfo_hacks'/>
+<use f='codebrowser/evutil.c' l='1431' u='w' c='evutil_getaddrinfo'/>
+<use f='codebrowser/evutil.c' l='1546' u='r' c='evutil_freeaddrinfo'/>
+<use f='codebrowser/http.c' l='4369' u='w' c='make_addrinfo'/>
+<use f='codebrowser/sample/dns-example.c' l='244' u='w' c='main'/>
+<use f='codebrowser/test/regress_dns.c' l='1390' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1436' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1524' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1536' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1584' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1592' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_util.c' l='958' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='966' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='975' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='985' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1013' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1028' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1037' u='w' c='test_evutil_getaddrinfo'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/event2/thread.h' l='148' type='void *(*)(unsigned int)'/>
+<offset>64</offset>
+<doc f='codebrowser/include/event2/thread.h' l='144'>/** Function to allocate and initialize a new condition variable.
+	 * Returns the condition variable on success, and NULL on failure.
+	 * The &apos;condtype&apos; argument will be 0 with this API version.
+	 */</doc>
+<use f='codebrowser/event.c' l='684' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='684' macro='1' u='r'/>
+<use f='codebrowser/evthread.c' l='149' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='156' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='159' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='159' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='170' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='175' u='w' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='175' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/test/regress_thread.c' l='107' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='107' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='310' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='310' macro='1' u='r'/>

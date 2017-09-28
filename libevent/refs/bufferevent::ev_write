@@ -1,0 +1,49 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='84' type='struct event'/>
+<offset>1152</offset>
+<doc f='codebrowser/include/event2/bufferevent_struct.h' l='81'>/** A write event that triggers when a timeout has happened or a socket
+	    is ready to write data.  Only used by some subtypes of
+	    bufferevent. */</doc>
+<use f='codebrowser/bufferevent.c' l='705' u='m' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='943' u='a' c='bufferevent_init_generic_timeout_cbs_'/>
+<use f='codebrowser/bufferevent.c' l='963' u='a' c='bufferevent_generic_adj_timeouts_'/>
+<use f='codebrowser/bufferevent.c' l='965' u='a' c='bufferevent_generic_adj_timeouts_'/>
+<use f='codebrowser/bufferevent.c' l='983' u='a' c='bufferevent_generic_adj_existing_timeouts_'/>
+<use f='codebrowser/bufferevent.c' l='985' u='a' c='bufferevent_generic_adj_existing_timeouts_'/>
+<use f='codebrowser/bufferevent.c' l='988' u='a' c='bufferevent_generic_adj_existing_timeouts_'/>
+<use f='codebrowser/bufferevent_filter.c' l='277' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_filter.c' l='292' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_filter.c' l='414' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_openssl.c' l='393' u='a' c='start_reading'/>
+<use f='codebrowser/bufferevent_openssl.c' l='413' u='a' c='start_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='445' u='a' c='stop_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='721' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_openssl.c' l='890' u='a' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='894' u='a' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='992' u='a' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='995' u='a' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1001' u='a' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1008' u='a' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1100' u='a' c='set_handshake_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1106' u='a' c='set_handshake_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1141' u='a' c='be_openssl_outbuf_cb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1167' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1191' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_pair.c' l='182' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_pair.c' l='184' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_pair.c' l='236' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_pair.c' l='259' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_sock.c' l='135' u='a' c='bufferevent_socket_outbuf_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='139' u='a' c='bufferevent_socket_outbuf_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='261' u='a' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='281' u='a' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='315' u='a' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='330' u='a' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='367' u='a' c='bufferevent_socket_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='579' u='a' c='be_socket_enable'/>
+<use f='codebrowser/bufferevent_sock.c' l='595' u='a' c='be_socket_disable'/>
+<use f='codebrowser/bufferevent_sock.c' l='635' u='a' c='be_socket_setfd'/>
+<use f='codebrowser/bufferevent_sock.c' l='642' u='a' c='be_socket_setfd'/>
+<use f='codebrowser/bufferevent_sock.c' l='667' u='a' c='bufferevent_priority_set'/>
+<use f='codebrowser/bufferevent_sock.c' l='694' u='a' c='bufferevent_base_set'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='454' u='a' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_ssl.c' l='252' u='a' c='bufferevent_openssl_check_freed'/>

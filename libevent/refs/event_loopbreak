@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event_compat.h' l='135' type='int event_loopbreak()'/>
+<def f='codebrowser/event.c' l='1808' ll='1812' type='int event_loopbreak()'/>
+<use f='codebrowser/test/regress.c' l='2033' u='c' c='break_cb'/>

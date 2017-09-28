@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/bufferevent_ssl.h' l='112' type='void bufferevent_openssl_set_allow_dirty_shutdown(struct bufferevent * bev, int allow_dirty_shutdown)'/>
+<def f='codebrowser/bufferevent_openssl.c' l='1481' ll='1491' type='void bufferevent_openssl_set_allow_dirty_shutdown(struct bufferevent * bev, int allow_dirty_shutdown)'/>
+<use f='codebrowser/sample/https-client.c' l='416' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='447' u='c' c='create_bev'/>
+<use f='codebrowser/test/regress_http.c' l='1042' u='c' c='http_connection_test_'/>
+<use f='codebrowser/test/regress_http.c' l='3618' u='c' c='http_simple_test_impl'/>
+<use f='codebrowser/test/regress_ssl.c' l='390' u='c' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='391' u='c' c='open_ssl_bufevs'/>

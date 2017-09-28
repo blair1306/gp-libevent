@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/fcntl-linux.h' l='144'/>
+<use f='codebrowser/evutil.c' l='109' u='a'/>
+<use f='codebrowser/evutil.c' l='110' u='c'/>
+<use f='codebrowser/evutil.c' l='2612' u='c'/>

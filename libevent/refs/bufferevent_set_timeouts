@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='512' type='int bufferevent_set_timeouts(struct bufferevent * bufev, const struct timeval * timeout_read, const struct timeval * timeout_write)'/>
+<def f='codebrowser/bufferevent.c' l='482' ll='505' type='int bufferevent_set_timeouts(struct bufferevent * bufev, const struct timeval * tv_read, const struct timeval * tv_write)'/>
+<use f='codebrowser/bufferevent.c' l='528' u='c' c='bufferevent_settimeout'/>
+<use f='codebrowser/http.c' l='1605' u='c' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1607' u='c' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='2472' u='c' c='evhttp_connection_set_timeout_tv'/>
+<use f='codebrowser/http.c' l='2477' u='c' c='evhttp_connection_set_timeout_tv'/>
+<use f='codebrowser/http.c' l='2560' u='c' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2562' u='c' c='evhttp_connection_connect_'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='996' u='c' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1021' u='c' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_ssl.c' l='494' u='c' c='regress_bufferevent_openssl'/>

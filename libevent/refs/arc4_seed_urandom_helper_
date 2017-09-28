@@ -1,0 +1,3 @@
+<def f='codebrowser/arc4random.c' l='299' ll='316' type='int arc4_seed_urandom_helper_(const char * fname)'/>
+<use f='codebrowser/arc4random.c' l='327' u='c' c='arc4_seed_urandom'/>
+<use f='codebrowser/arc4random.c' l='330' u='c' c='arc4_seed_urandom'/>

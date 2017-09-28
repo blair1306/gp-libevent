@@ -1,0 +1,2 @@
+<dec f='codebrowser/event-internal.h' l='449' type='void event_base_del_virtual_(struct event_base * base)'/>
+<def f='codebrowser/event.c' l='3800' ll='3809' type='void event_base_del_virtual_(struct event_base * base)'/>

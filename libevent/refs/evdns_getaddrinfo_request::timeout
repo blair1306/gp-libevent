@@ -1,0 +1,8 @@
+<dec f='codebrowser/evdns.c' l='4256' type='struct event'/>
+<use f='codebrowser/evdns.c' l='4300' u='a' c='free_getaddrinfo_request'/>
+<use f='codebrowser/evdns.c' l='4375' u='a' c='evdns_getaddrinfo_set_timeout'/>
+<use f='codebrowser/evdns.c' l='4741' u='a' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4761' u='a' c='evdns_getaddrinfo_cancel'/>
+<offset>1024</offset>
+<doc f='codebrowser/evdns.c' l='4254'>/* And this event is a timeout that will tell us to cancel the second
+	 * request if it&apos;s taking a long time. */</doc>

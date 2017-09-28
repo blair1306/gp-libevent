@@ -1,0 +1,4 @@
+<dec f='codebrowser/minheap-internal.h' l='46' type='void min_heap_dtor_(min_heap_t * s)'/>
+<def f='codebrowser/minheap-internal.h' l='65' type='void min_heap_dtor_(min_heap_t * s)'/>
+<use f='codebrowser/event.c' l='889' u='c' c='event_base_free_'/>
+<use f='codebrowser/test/regress_minheap.c' l='93' u='c' c='test_heap_randomized'/>

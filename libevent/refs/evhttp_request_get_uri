@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/event2/http.h' l='819' type='const char * evhttp_request_get_uri(const struct evhttp_request * req)'/>
+<def f='codebrowser/http.c' l='4063' ll='4068' type='const char * evhttp_request_get_uri(const struct evhttp_request * req)'/>
+<doc f='codebrowser/http.c' l='4059'>/*
+ * Allows for inspection of the request URI
+ */</doc>
+<use f='codebrowser/sample/http-server.c' l='132' u='c' c='dump_request_cb'/>
+<use f='codebrowser/sample/http-server.c' l='163' u='c' c='send_document_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='405' u='c' c='http_chunked_cb'/>

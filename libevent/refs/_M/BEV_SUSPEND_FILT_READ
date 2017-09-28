@@ -1,0 +1,13 @@
+<dec f='codebrowser/bufferevent-internal.h' l='75'/>
+<doc f='codebrowser/bufferevent-internal.h' l='73'>/* On a base bufferevent, for reading: used when a filter has choked this
+ * (underlying) bufferevent because it has stopped reading from it. */</doc>
+<use f='codebrowser/bufferevent_filter.c' l='223' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='252' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='282' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='296' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='386' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='409' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='428' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='442' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1219' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1394' u='c'/>

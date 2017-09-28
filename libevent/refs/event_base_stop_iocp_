@@ -1,0 +1,2 @@
+<dec f='codebrowser/iocp-internal.h' l='198' type='void event_base_stop_iocp_(struct event_base * base)'/>
+<def f='codebrowser/event.c' l='719' ll='731' type='void event_base_stop_iocp_(struct event_base * base)'/>

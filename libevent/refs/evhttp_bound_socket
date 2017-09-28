@@ -1,0 +1,5 @@
+<def f='codebrowser/http-internal.h' l='124' ll='128'/>
+<size>24</size>
+<doc f='codebrowser/http-internal.h' l='123'>/* each bound socket is stored in one of these */</doc>
+<mbr r='evhttp_bound_socket::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:125:2)'/>
+<mbr r='evhttp_bound_socket::listener' o='128' t='struct evconnlistener *'/>

@@ -1,0 +1,19 @@
+<dec f='include/netdb.h' l='574' type='struct sockaddr *'/>
+<offset>192</offset>
+<doc f='include/netdb.h' l='574'>/* Socket address for socket.  */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='489' u='r' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='490' u='r' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/evdns.c' l='4611' u='r' c='evdns_getaddrinfo_fromhosts'/>
+<use f='codebrowser/evutil.c' l='830' u='w' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='832' u='r' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='1309' u='r' c='apply_numeric_port_hack'/>
+<use f='codebrowser/http.c' l='4341' u='r' c='bind_socket_ai'/>
+<use f='codebrowser/sample/dns-example.c' l='90' u='r' c='gai_callback'/>
+<use f='codebrowser/sample/dns-example.c' l='96' u='r' c='gai_callback'/>
+<use f='codebrowser/test/regress_http.c' l='186' u='r' c='http_connect'/>
+<use f='codebrowser/test/regress_util.c' l='834' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='835' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='843' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='851' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='1086' u='r' c='test_evutil_getaddrinfo_live'/>
+<use f='codebrowser/test/regress_util.c' l='1106' u='r' c='test_evutil_getaddrinfo_live'/>

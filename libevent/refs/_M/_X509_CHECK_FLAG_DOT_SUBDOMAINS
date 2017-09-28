@@ -1,0 +1,6 @@
+<dec f='include/openssl/x509v3.h' l='739'/>
+<doc f='include/openssl/x509v3.h' l='734'>/*
+ * Match reference identifiers starting with &quot;.&quot; to any sub-domain.
+ * This is a non-public flag, turned on implicitly when the subject
+ * reference identity is a DNS name.
+ */</doc>

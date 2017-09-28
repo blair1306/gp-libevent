@@ -1,0 +1,6 @@
+<def f='codebrowser/test/regress.h' l='72' ll='79'/>
+<size>32</size>
+<mbr r='basic_test_data::base' o='0' t='struct event_base *'/>
+<mbr r='basic_test_data::pair' o='64' t='int [2]'/>
+<mbr r='basic_test_data::legacy_test_fn' o='128' t='void (*)(void)'/>
+<mbr r='basic_test_data::setup_data' o='192' t='void *'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/bufferevent-internal.h' l='338' type='void bufferevent_suspend_write_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<doc f='codebrowser/bufferevent-internal.h' l='336'>/** For internal use: temporarily stop all writes on bufev, until the conditions
+ * in &apos;what&apos; are over. */</doc>
+<def f='codebrowser/bufferevent.c' l='90' ll='100' type='void bufferevent_suspend_write_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='238' u='c' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='322' u='c' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='383' u='c' c='bev_group_suspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='624' u='c' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='776' u='c' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1013' u='c' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_sock.c' l='520' u='c' c='bufferevent_socket_connect_hostname'/>

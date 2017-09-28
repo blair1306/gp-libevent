@@ -1,0 +1,5 @@
+<dec f='codebrowser/ratelim-internal.h' l='63' type='unsigned int'/>
+<offset>384</offset>
+<doc f='codebrowser/ratelim-internal.h' l='62'>/* How long is a tick, in milliseconds?  Derived from tick_timeout. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='139' u='r' c='ev_token_bucket_get_tick_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='170' u='w' c='ev_token_bucket_cfg_new'/>

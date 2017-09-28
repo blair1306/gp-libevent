@@ -1,0 +1,29 @@
+<dec f='codebrowser/include/event2/buffer.h' l='351' type='int evbuffer_remove(struct evbuffer * buf, void * data, size_t datlen)'/>
+<def f='codebrowser/buffer.c' l='1164' ll='1176' type='int evbuffer_remove(struct evbuffer * buf, void * data_out, size_t datlen)'/>
+<use f='codebrowser/buffer.c' l='1704' u='c' c='evbuffer_readln'/>
+<doc f='codebrowser/buffer.c' l='1163'>/* Reads data from an event buffer and drains the bytes read */</doc>
+<use f='codebrowser/bufferevent.c' l='450' u='c' c='bufferevent_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='152' u='c' c='bio_bufferevent_read'/>
+<use f='codebrowser/event_tagging.c' l='557' u='c' c='evtag_unmarshal_fixed'/>
+<use f='codebrowser/event_tagging.c' l='577' u='c' c='evtag_unmarshal_string'/>
+<use f='codebrowser/http.c' l='3104' u='c' c='evhttp_uriencode'/>
+<use f='codebrowser/http.c' l='4897' u='c' c='evhttp_uri_join'/>
+<use f='codebrowser/sample/http-server.c' l='145' u='c' c='dump_request_cb'/>
+<use f='codebrowser/sample/https-client.c' l='86' u='c' c='http_request_done'/>
+<use f='codebrowser/test/regress_buffer.c' l='808' u='c' c='test_evbuffer_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='818' u='c' c='test_evbuffer_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1871' u='c' c='test_evbuffer_add_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1873' u='c' c='test_evbuffer_add_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1885' u='c' c='test_evbuffer_add_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1902' u='c' c='test_evbuffer_add_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1958' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1960' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1969' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1971' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1983' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1986' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='2072' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2091' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2335' u='c' c='test_evbuffer_freeze'/>
+<use f='codebrowser/test/regress_buffer.c' l='2393' u='c' c='test_evbuffer_add_iovec'/>
+<use f='codebrowser/test/regress_http.c' l='891' u='c' c='http_allowed_methods_eventcb'/>

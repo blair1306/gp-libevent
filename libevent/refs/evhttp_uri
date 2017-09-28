@@ -1,0 +1,10 @@
+<def f='codebrowser/http.c' l='4406' ll='4415'/>
+<size>64</size>
+<mbr r='evhttp_uri::flags' o='0' t='unsigned int'/>
+<mbr r='evhttp_uri::scheme' o='64' t='char *'/>
+<mbr r='evhttp_uri::userinfo' o='128' t='char *'/>
+<mbr r='evhttp_uri::host' o='192' t='char *'/>
+<mbr r='evhttp_uri::port' o='256' t='int'/>
+<mbr r='evhttp_uri::path' o='320' t='char *'/>
+<mbr r='evhttp_uri::query' o='384' t='char *'/>
+<mbr r='evhttp_uri::fragment' o='448' t='char *'/>

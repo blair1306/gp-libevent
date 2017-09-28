@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='531' type='struct bufferevent * evhttp_connection_get_bufferevent(struct evhttp_connection * evcon)'/>
+<def f='codebrowser/http.c' l='2402' ll='2405' type='struct bufferevent * evhttp_connection_get_bufferevent(struct evhttp_connection * evcon)'/>
+<use f='codebrowser/test/regress_http.c' l='1470' u='c' c='http_cancel_test'/>

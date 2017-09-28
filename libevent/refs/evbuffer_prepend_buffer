@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/buffer.h' l='1016' type='int evbuffer_prepend_buffer(struct evbuffer * dst, struct evbuffer * src)'/>
+<def f='codebrowser/buffer.c' l='1049' ll='1093' type='int evbuffer_prepend_buffer(struct evbuffer * outbuf, struct evbuffer * inbuf)'/>
+<use f='codebrowser/test/regress_buffer.c' l='379' u='c' c='test_evbuffer_remove_buffer_with_empty3'/>
+<use f='codebrowser/test/regress_buffer.c' l='386' u='c' c='test_evbuffer_remove_buffer_with_empty3'/>
+<use f='codebrowser/test/regress_buffer.c' l='2083' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2088' u='c' c='test_evbuffer_prepend'/>

@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/fcntl-linux.h' l='62'/>
+<use f='codebrowser/evutil.c' l='330' u='c'/>
+<use f='codebrowser/evutil.c' l='331' u='c'/>
+<use f='codebrowser/evutil.c' l='351' u='c'/>
+<use f='codebrowser/evutil.c' l='2612' u='c'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='123' u='c'/>

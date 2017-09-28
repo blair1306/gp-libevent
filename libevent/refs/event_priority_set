@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/event.h' l='1493' type='int event_priority_set(struct event * , int )'/>
+<use f='codebrowser/bufferevent_sock.c' l='665' u='c' c='bufferevent_priority_set'/>
+<use f='codebrowser/bufferevent_sock.c' l='667' u='c' c='bufferevent_priority_set'/>
+<use f='codebrowser/event.c' l='1505' u='c' c='event_base_init_common_timeout'/>
+<def f='codebrowser/event.c' l='2308' ll='2321' type='int event_priority_set(struct event * ev, int pri)'/>
+<use f='codebrowser/event.c' l='3624' u='c' c='evthread_make_base_notifiable_nolock_'/>
+<doc f='codebrowser/event.c' l='2303'>/*
+ * Set&apos;s the priority of an event - if an event is already scheduled
+ * changing the priority is going to fail.
+ */</doc>
+<use f='codebrowser/signal.c' l='202' u='c' c='evsig_init_'/>
+<use f='codebrowser/test/regress.c' l='2176' u='c' c='test_priorities_impl'/>
+<use f='codebrowser/test/regress.c' l='2182' u='c' c='test_priorities_impl'/>
+<use f='codebrowser/test/regress.c' l='2259' u='c' c='test_priority_active_inversion'/>
+<use f='codebrowser/test/regress.c' l='2260' u='c' c='test_priority_active_inversion'/>
+<use f='codebrowser/test/regress.c' l='2261' u='c' c='test_priority_active_inversion'/>

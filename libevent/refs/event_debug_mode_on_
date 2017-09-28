@@ -1,0 +1,31 @@
+<dec f='codebrowser/event-internal.h' l='191' type='int'/>
+<doc f='codebrowser/event-internal.h' l='190'>/* Global internal flag: set to one if debug mode is on. */</doc>
+<def f='codebrowser/event.c' l='202' type='int'/>
+<use f='codebrowser/event.c' l='534' u='r' c='event_enable_debug_mode'/>
+<use f='codebrowser/event.c' l='540' u='w' c='event_enable_debug_mode'/>
+<use f='codebrowser/event.c' l='561' u='w' c='event_disable_debug_mode'/>
+<use f='codebrowser/event.c' l='256' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='330' u='r' c='event_assign'/>
+<use f='codebrowser/event.c' l='234' u='r' c='event_assign'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_base_set'/>
+<use f='codebrowser/event.c' l='256' u='r' c='event_free'/>
+<use f='codebrowser/event.c' l='330' u='r' c='event_debug_unassign'/>
+<use f='codebrowser/event.c' l='256' u='r' c='event_debug_unassign'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_priority_set'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_pending'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_get_assignment'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_get_fd'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_get_base'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_get_events'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_get_callback'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_get_callback_arg'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_get_priority'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_remove_timer_nolock_'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='269' u='r' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='290' u='r' c='event_del_nolock_'/>
+<use f='codebrowser/event.c' l='311' u='r' c='event_active'/>
+<use f='codebrowser/evmap.c' l='317' macro='1' u='r'/>
+<dec f='codebrowser/evthread.c' l='50' type='int'/>
+<use f='codebrowser/evthread.c' l='98' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='141' u='r' c='evthread_set_condition_callbacks'/>

@@ -1,0 +1,11 @@
+arc4_addrandom|arc4_addrandom
+arc4_getbyte|arc4_getbyte
+arc4_getword|arc4_getword
+arc4_init|arc4_init
+arc4_seed|arc4_seed
+arc4_seed_proc_sys_kernel_random_uuid|arc4_seed_proc_sys_kernel_random_uuid
+arc4_seed_sysctl_linux|arc4_seed_sysctl_linux
+arc4_seed_urandom|arc4_seed_urandom
+arc4_seed_urandom_helper_|arc4_seed_urandom_helper_
+arc4_stir|arc4_stir
+arc4_stir_if_needed|arc4_stir_if_needed

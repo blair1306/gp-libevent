@@ -1,0 +1,4 @@
+<dec f='codebrowser/evdns.c' l='159' type='struct evdns_base *'/>
+<use f='codebrowser/evdns.c' l='2815' u='w' c='request_new'/>
+<use f='codebrowser/evdns.c' l='2855' u='r' c='evdns_cancel_request'/>
+<offset>64</offset>

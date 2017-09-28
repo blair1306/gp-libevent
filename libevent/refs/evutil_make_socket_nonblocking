@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/util.h' l='400' type='int evutil_make_socket_nonblocking(int sock)'/>
+<def f='codebrowser/evutil.c' l='312' ll='339' type='int evutil_make_socket_nonblocking(int fd)'/>
+<use f='codebrowser/evutil.c' l='535' u='c' c='evutil_socket_connect_'/>
+<use f='codebrowser/sample/dns-example.c' l='200' u='c' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='148' u='c' c='launch_request'/>
+<use f='codebrowser/test/regress.c' l='412' u='c' c='test_simpleclose'/>
+<use f='codebrowser/test/regress.c' l='414' u='c' c='test_simpleclose'/>
+<use f='codebrowser/test/regress.c' l='890' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress_buffer.c' l='1057' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1058' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_dns.c' l='391' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='1991' u='c' c='test_getaddrinfo_async_cancel_stress'/>
+<use f='codebrowser/test/regress_http.c' l='193' u='c' c='http_connect'/>
+<use f='codebrowser/test/regress_main.c' l='221' u='c' c='basic_test_setup'/>
+<use f='codebrowser/test/regress_main.c' l='226' u='c' c='basic_test_setup'/>
+<use f='codebrowser/test/regress_testutils.c' l='108' u='c' c='regress_get_dnsserver'/>
+<use f='codebrowser/test/regress_zlib.c' l='293' u='c' c='test_bufferevent_zlib'/>
+<use f='codebrowser/test/regress_zlib.c' l='294' u='c' c='test_bufferevent_zlib'/>

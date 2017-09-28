@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='294' type='int bufferevent_get_priority(const struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent.c' l='419' ll='427' type='int bufferevent_get_priority(const struct bufferevent * bufev)'/>
+<use f='codebrowser/http.c' l='2388' u='c' c='evhttp_connection_base_bufferevent_new'/>

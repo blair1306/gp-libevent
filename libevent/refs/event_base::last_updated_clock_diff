@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='300' type='time_t'/>
+<offset>3328</offset>
+<doc f='codebrowser/event-internal.h' l='299'>/** Second in which we last updated tv_clock_diff, in monotonic time. */</doc>
+<use f='codebrowser/event.c' l='387' u='r' c='gettime'/>
+<use f='codebrowser/event.c' l='392' u='w' c='gettime'/>

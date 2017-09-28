@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='247' type='int'/>
+<offset>1888</offset>
+<doc f='codebrowser/event-internal.h' l='246'>/** The currently running priority of events */</doc>
+<use f='codebrowser/event.c' l='1738' u='w' c='event_process_active'/>
+<use f='codebrowser/event.c' l='1757' u='w' c='event_process_active'/>
+<use f='codebrowser/event.c' l='2901' u='r' c='event_active_nolock_'/>

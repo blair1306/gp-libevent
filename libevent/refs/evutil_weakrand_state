@@ -1,0 +1,5 @@
+<def f='codebrowser/util-internal.h' l='301' ll='303'/>
+<size>4</size>
+<doc f='codebrowser/util-internal.h' l='299'>/* Structure to hold the state of our weak random number generator.
+ */</doc>
+<mbr r='evutil_weakrand_state::seed' o='0' t='uint32_t'/>

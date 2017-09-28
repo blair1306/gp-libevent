@@ -1,0 +1,27 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='393' type='void * __rawmemchr(const void * __s, int __c)'/>
+<use f='include/x86_64-linux-gnu/bits/string2.h' l='398' u='c' c='__strsep_1c'/>
+<use f='codebrowser/evdns.c' l='1630' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='2740' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='3170' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='3561' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='3638' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='4148' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='4197' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='1981' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='2085' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='2088' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='2103' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='2358' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1927' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1927' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='4460' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='4478' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='4532' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='4568' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='4663' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='4729' macro='1' u='c'/>
+<use f='codebrowser/sample/hostcheck.c' l='168' macro='1' u='c'/>
+<use f='codebrowser/sample/hostcheck.c' l='176' macro='1' u='c'/>
+<use f='codebrowser/sample/hostcheck.c' l='177' macro='1' u='c'/>
+<use f='codebrowser/sample/hostcheck.c' l='186' macro='1' u='c'/>
+<use f='codebrowser/sample/http-server.c' l='96' macro='1' u='c'/>

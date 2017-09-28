@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='111' type='uint8_t'/>
+<offset>152</offset>
+<use f='codebrowser/event.c' l='754' u='r' c='event_base_cancel_single_callback_'/>
+<use f='codebrowser/event.c' l='759' u='r' c='event_base_cancel_single_callback_'/>
+<use f='codebrowser/event.c' l='1621' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1633' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1661' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2094' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2098' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2100' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2206' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2252' u='w' c='event_callback_finalize_nolock_'/>
+<use f='codebrowser/event.c' l='2633' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3055' u='w' c='event_deferred_cb_init_'/>
+<use f='codebrowser/event.c' l='3399' u='r' c='event_queue_make_later_events_active'/>

@@ -1,0 +1,17 @@
+<dec f='include/openssl/bio.h' l='335' type='void *'/>
+<use f='codebrowser/bufferevent_openssl.c' l='114' macro='1' u='w'/>
+<use f='codebrowser/bufferevent_openssl.c' l='125' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='126' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='143' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='146' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='162' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='168' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='194' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='262' macro='1' u='w'/>
+<offset>384</offset>
+<use f='codebrowser/test/regress_ssl.c' l='565' macro='1' u='w'/>
+<use f='codebrowser/test/regress_ssl.c' l='575' macro='1' u='w'/>
+<use f='codebrowser/test/regress_ssl.c' l='582' macro='1' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='594' macro='1' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='657' macro='1' u='w'/>
+<use f='codebrowser/test/regress_ssl.c' l='722' macro='1' u='w'/>

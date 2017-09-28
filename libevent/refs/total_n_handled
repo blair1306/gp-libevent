@@ -1,0 +1,9 @@
+<def f='codebrowser/test/bench_httpclient.c' l='53' type='int'/>
+<use f='codebrowser/test/bench_httpclient.c' l='89' u='w' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='95' u='r' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='95' u='r' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='96' u='r' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='209' u='r' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='215' u='r' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='229' u='r' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='232' u='r' c='main'/>

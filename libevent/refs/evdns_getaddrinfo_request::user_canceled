@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='4261' type='unsigned int'/>
+<use f='codebrowser/evdns.c' l='4422' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4428' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4762' u='w' c='evdns_getaddrinfo_cancel'/>
+<offset>2080</offset>
+<doc f='codebrowser/evdns.c' l='4260'>/* If this is set, the user canceled this request. */</doc>

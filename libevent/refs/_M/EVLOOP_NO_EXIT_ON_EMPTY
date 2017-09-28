@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/event.h' l='807'/>
+<doc f='codebrowser/include/event2/event.h' l='803'>/** Do not exit the loop because we have no pending events.  Instead, keep
+ * running until event_base_loopexit() or event_base_loopbreak() makes us
+ * stop.
+ */</doc>
+<use f='codebrowser/event.c' l='1939' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='545' u='c'/>

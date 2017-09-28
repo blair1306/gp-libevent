@@ -1,0 +1,1 @@
+<dec f='codebrowser/listener.c' l='109' type='struct evconnlistener * evconnlistener_new_async(struct event_base * base, evconnlistener_cb cb, void * ptr, unsigned int flags, int backlog, int fd)'/>

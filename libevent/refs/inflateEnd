@@ -1,0 +1,2 @@
+<dec f='include/zlib.h' l='508' type='int inflateEnd(z_streamp strm)'/>
+<use f='codebrowser/test/regress_zlib.c' l='107' u='c' c='zlib_inflate_free'/>

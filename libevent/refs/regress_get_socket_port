@@ -1,0 +1,8 @@
+<dec f='codebrowser/test/regress_testutils.h' l='48' type='int regress_get_socket_port(int fd)'/>
+<doc f='codebrowser/test/regress_testutils.h' l='47'>/* Helper: return the port that a socket is bound on, in host order. */</doc>
+<use f='codebrowser/test/regress_dns.c' l='1212' u='c' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_http.c' l='108' u='c' c='http_bind'/>
+<use f='codebrowser/test/regress_rpc.c' l='92' u='c' c='http_setup'/>
+<def f='codebrowser/test/regress_testutils.c' l='77' ll='90' type='int regress_get_socket_port(int fd)'/>
+<use f='codebrowser/test/regress_testutils.c' l='120' u='c' c='regress_get_dnsserver'/>
+<doc f='codebrowser/test/regress_testutils.c' l='76'>/* Helper: return the port that a socket is bound on, in host order. */</doc>

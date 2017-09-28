@@ -1,0 +1,11 @@
+<def f='codebrowser/listener.c' l='75' ll='85'/>
+<size>56</size>
+<mbr r='evconnlistener::ops' o='0' t='const struct evconnlistener_ops *'/>
+<mbr r='evconnlistener::lock' o='64' t='void *'/>
+<mbr r='evconnlistener::cb' o='128' t='evconnlistener_cb'/>
+<mbr r='evconnlistener::errorcb' o='192' t='evconnlistener_errorcb'/>
+<mbr r='evconnlistener::user_data' o='256' t='void *'/>
+<mbr r='evconnlistener::flags' o='320' t='unsigned int'/>
+<mbr r='evconnlistener::refcnt' o='352' t='short'/>
+<mbr r='evconnlistener::accept4_flags' o='384' t='int'/>
+<mbr r='evconnlistener::enabled' o='416' t='unsigned int'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/util-internal.h' l='404' type='struct addrinfo * evutil_addrinfo_append_(struct addrinfo * first, struct addrinfo * append)'/>
+<use f='codebrowser/evdns.c' l='4539' u='c' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4553' u='c' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4556' u='c' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4612' u='c' c='evdns_getaddrinfo_fromhosts'/>
+<def f='codebrowser/evutil.c' l='845' ll='857' type='struct addrinfo * evutil_addrinfo_append_(struct addrinfo * first, struct addrinfo * append)'/>
+<use f='codebrowser/evutil.c' l='1029' u='c' c='evutil_getaddrinfo_common_'/>
+<doc f='codebrowser/evutil.c' l='842'>/* Append the addrinfo &apos;append&apos; to the end of &apos;first&apos;, and return the start of
+ * the list.  Either element can be NULL, in which case we return the element
+ * that is not NULL. */</doc>

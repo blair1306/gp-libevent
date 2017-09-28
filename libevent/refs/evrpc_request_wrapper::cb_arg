@@ -1,0 +1,7 @@
+<dec f='codebrowser/evrpc-internal.h' l='190' type='void *'/>
+<use f='codebrowser/evrpc.c' l='711' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='756' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='845' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='940' u='r' c='evrpc_reply_done_closure'/>
+<use f='codebrowser/evrpc.c' l='1170' u='w' c='evrpc_request_set_cb'/>
+<offset>1536</offset>

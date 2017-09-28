@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/event.h' l='573' type='32'/>
+<doc f='codebrowser/include/event2/event.h' l='568'>/** Ordinarily, Libevent implements its time and timeout code using
+	    the fastest monotonic timer that we have.  If this flag is set,
+	    however, we use less efficient more precise timer, assuming one is
+	    present.
+	 */</doc>
+<use f='codebrowser/epoll.c' l='191' u='r' c='epoll_init'/>
+<use f='codebrowser/event.c' l='590' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='594' u='r' c='event_base_new_with_config'/>

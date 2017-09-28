@@ -1,0 +1,12 @@
+<dec f='codebrowser/http-internal.h' l='154' type='char *'/>
+<offset>768</offset>
+<doc f='codebrowser/http-internal.h' l='153'>/* NULL if this server is not a vhost */</doc>
+<use f='codebrowser/http.c' l='3394' u='r' c='evhttp_find_vhost'/>
+<use f='codebrowser/http.c' l='3705' u='r' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3706' u='r' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3722' u='r' c='evhttp_add_virtual_host'/>
+<use f='codebrowser/http.c' l='3726' u='w' c='evhttp_add_virtual_host'/>
+<use f='codebrowser/http.c' l='3727' u='r' c='evhttp_add_virtual_host'/>
+<use f='codebrowser/http.c' l='3738' u='r' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3743' u='r' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3744' u='w' c='evhttp_remove_virtual_host'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/evrpc-internal.h' l='169' type='struct evrpc_hook_meta *'/>
+<use f='codebrowser/evrpc.c' l='530' u='r' c='evrpc_request_wrapper_free'/>
+<use f='codebrowser/evrpc.c' l='531' u='r' c='evrpc_request_wrapper_free'/>
+<use f='codebrowser/evrpc.c' l='680' u='a' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='837' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='877' u='a' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='1036' u='r' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1037' u='w' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1057' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1060' u='r' c='evrpc_hook_find_meta'/>
+<use f='codebrowser/evrpc.c' l='1075' u='r' c='evrpc_hook_get_connection'/>
+<use f='codebrowser/evrpc.c' l='1075' u='r' c='evrpc_hook_get_connection'/>
+<offset>0</offset>
+<doc f='codebrowser/evrpc-internal.h' l='165'>/*
+	 * allows association of meta data via hooks - needs to be
+	 * synchronized with evrpc_req_generic.
+	 */</doc>

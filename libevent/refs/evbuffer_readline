@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/buffer_compat.h' l='51' type='char * evbuffer_readline(struct evbuffer * buffer)'/>
+<def f='codebrowser/buffer.c' l='1460' ll='1464' type='char * evbuffer_readline(struct evbuffer * buffer)'/>
+<doc f='codebrowser/buffer.c' l='1456'>/*
+ * Reads a line terminated by either &apos;\r\n&apos;, &apos;\n\r&apos; or &apos;\r&apos; or &apos;\n&apos;.
+ * The returned buffer needs to be freed by the called.
+ */</doc>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='298' type='void evhttp_set_bevcb(struct evhttp * http, struct bufferevent *(*)(struct event_base *, void *) cb, void * arg)'/>
+<def f='codebrowser/http.c' l='3910' ll='3916' type='void evhttp_set_bevcb(struct evhttp * http, struct bufferevent *(*)(struct event_base *, void *) cb, void * cbarg)'/>
+<use f='codebrowser/test/regress_http.c' l='143' u='c' c='http_setup'/>

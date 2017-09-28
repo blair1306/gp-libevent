@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/dns.h' l='418' type='void evdns_cancel_request(struct evdns_base * base, struct evdns_request * req)'/>
+<use f='codebrowser/evdns.c' l='629' u='c' c='nameserver_up'/>
+<use f='codebrowser/evdns.c' l='2415' u='c' c='evdns_base_clear_nameservers_and_suspend'/>
+<def f='codebrowser/evdns.c' l='2845' ll='2878' type='void evdns_cancel_request(struct evdns_base * base, struct evdns_request * handle)'/>
+<use f='codebrowser/evdns.c' l='4022' u='c' c='evdns_nameserver_free'/>
+<use f='codebrowser/evdns.c' l='4329' u='c' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4338' u='c' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4529' u='c' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4764' u='c' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4766' u='c' c='evdns_getaddrinfo_cancel'/>
+<doc f='codebrowser/evdns.c' l='2844'>/* exported function */</doc>
+<use f='codebrowser/test/regress_dns.c' l='446' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='638' u='c' c='search_cancel_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1890' u='c' c='test_dbg_leak_cancel'/>
+<use f='codebrowser/test/regress_dns.c' l='1910' u='c' c='dbg_leak_resume'/>

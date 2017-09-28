@@ -1,0 +1,16 @@
+<dec f='codebrowser/evrpc-internal.h' l='65' type='struct evrpc_pause_list'/>
+<use f='codebrowser/evrpc.c' l='85' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='85' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='85' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='104' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='105' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='516' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='516' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='516' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='550' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='551' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='773' u='a' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='773' u='a' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='773' u='a' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='781' u='a' c='evrpc_resume_request'/>
+<offset>256</offset>

@@ -1,0 +1,3 @@
+<dec f='include/time.h' l='192' type='time_t time(time_t * __timer)'/>
+<use f='codebrowser/evutil_time.c' l='156' u='c' c='evutil_date_rfc1123'/>
+<use f='codebrowser/test/regress_ssl.c' l='131' u='c' c='ssl_getcert'/>

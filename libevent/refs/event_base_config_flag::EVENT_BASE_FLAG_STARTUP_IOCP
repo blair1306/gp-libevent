@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/event.h' l='546' type='4'/>
+<doc f='codebrowser/include/event2/event.h' l='540'>/** Windows only: enable the IOCP dispatcher at startup
+
+	    If this flag is set then bufferevent_socket_new() and
+	    evconn_listener_new() will use IOCP-backed implementations
+	    instead of the usual select-based one on Windows.
+	 */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/util.h' l='446'/>
+<use f='codebrowser/bufferevent_sock.c' l='612' u='c'/>
+<use f='codebrowser/event.c' l='822' u='c'/>
+<use f='codebrowser/event.c' l='824' u='c'/>
+<use f='codebrowser/event.c' l='977' u='c'/>
+<use f='codebrowser/event.c' l='979' u='c'/>
+<use f='codebrowser/event.c' l='986' u='c'/>
+<use f='codebrowser/event.c' l='988' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='135' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='137' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='139' u='c'/>

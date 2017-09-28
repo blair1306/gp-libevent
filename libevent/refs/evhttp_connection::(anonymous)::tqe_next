@@ -1,0 +1,17 @@
+<dec f='codebrowser/http-internal.h' l='57' macro='1' type='struct evhttp_connection *'/>
+<use f='codebrowser/evrpc.c' l='556' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='556' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='556' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='583' macro='1' u='w'/>
+<use f='codebrowser/evrpc.c' l='583' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='615' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='615' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='615' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='622' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='640' macro='1' u='r'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='1223' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1223' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1223' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='4268' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='4268' macro='1' u='a'/>

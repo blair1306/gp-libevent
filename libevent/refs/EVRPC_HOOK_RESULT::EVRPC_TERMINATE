@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/rpc.h' l='489' type='-1'/>
+<use f='codebrowser/evrpc.c' l='313' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='322' u='r' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='348' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='435' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='445' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='480' u='r' c='evrpc_request_done_closure'/>
+<use f='codebrowser/evrpc.c' l='687' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='699' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='727' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='884' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='901' u='r' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='927' u='r' c='evrpc_reply_done_closure'/>
+<doc f='codebrowser/include/event2/rpc.h' l='489'>/**&lt; indicates the rpc should be terminated */</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/bufferevent-internal.h' l='171' type='unsigned int'/>
+<offset>3203</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='170'>/** Flag: set if we are currently busy connecting. */</doc>
+<use f='codebrowser/bufferevent.c' l='542' u='w' c='bufferevent_disable_hard_'/>
+<use f='codebrowser/bufferevent_sock.c' l='247' u='r' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='259' u='w' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='430' u='w' c='bufferevent_socket_connect'/>
+<use f='codebrowser/bufferevent_sock.c' l='437' u='w' c='bufferevent_socket_connect'/>
+<use f='codebrowser/bufferevent_sock.c' l='594' u='r' c='be_socket_disable'/>

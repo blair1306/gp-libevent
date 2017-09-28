@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event-config.h' l='143'/>
+<doc f='codebrowser/include/event2/event-config.h' l='142'>/* Define to 1 if you have the `getifaddrs&apos; function. */</doc>
+<use f='codebrowser/evutil.c' l='650' u='a'/>

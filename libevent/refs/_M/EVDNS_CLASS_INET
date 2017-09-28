@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/dns.h' l='604'/>
+<use f='codebrowser/sample/dns-example.c' l='114' u='c'/>
+<use f='codebrowser/sample/dns-example.c' l='121' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='242' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='249' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='257' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='264' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='272' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1027' u='c'/>
+<use f='codebrowser/test/regress_testutils.c' l='189' u='c'/>

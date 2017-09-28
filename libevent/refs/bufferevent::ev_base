@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='72' type='struct event_base *'/>
+<offset>0</offset>
+<doc f='codebrowser/include/event2/bufferevent_struct.h' l='71'>/** Event base for which this bufferevent was created. */</doc>
+<use f='codebrowser/bufferevent.c' l='214' u='r' c='bufferevent_run_readcb_'/>
+<use f='codebrowser/bufferevent.c' l='214' u='r' c='bufferevent_run_writecb_'/>
+<use f='codebrowser/bufferevent.c' l='214' u='r' c='bufferevent_run_eventcb_'/>
+<use f='codebrowser/bufferevent.c' l='311' u='w' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='416' u='r' c='bufferevent_get_base'/>
+<use f='codebrowser/bufferevent.c' l='425' u='r' c='bufferevent_get_priority'/>
+<use f='codebrowser/bufferevent.c' l='716' u='r' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='941' u='r' c='bufferevent_init_generic_timeout_cbs_'/>
+<use f='codebrowser/bufferevent.c' l='943' u='r' c='bufferevent_init_generic_timeout_cbs_'/>
+<use f='codebrowser/bufferevent_filter.c' l='192' u='r' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_openssl.c' l='998' u='r' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1001' u='r' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1103' u='r' c='set_handshake_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1106' u='r' c='set_handshake_callbacks'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='119' u='r' c='bufferevent_update_buckets'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='407' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='587' u='r' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='612' u='r' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='751' u='r' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_sock.c' l='365' u='r' c='bufferevent_socket_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='367' u='r' c='bufferevent_socket_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='640' u='r' c='be_socket_setfd'/>
+<use f='codebrowser/bufferevent_sock.c' l='642' u='r' c='be_socket_setfd'/>
+<use f='codebrowser/bufferevent_sock.c' l='688' u='w' c='bufferevent_base_set'/>

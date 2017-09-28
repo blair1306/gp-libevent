@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='293' ll='300'/>
+<size>16</size>
+<mbr r='POLICYQUALINFO_st::pqualid' o='0' t='ASN1_OBJECT *'/>
+<mbr r='POLICYQUALINFO_st::d' o='64' t='union (anonymous union at /usr/include/openssl/x509v3.h:295:5)'/>

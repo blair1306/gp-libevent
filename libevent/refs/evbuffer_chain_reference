@@ -1,0 +1,7 @@
+<def f='codebrowser/evbuffer-internal.h' l='219' ll='222'/>
+<size>16</size>
+<doc f='codebrowser/evbuffer-internal.h' l='216'>/** callback for a reference chain; lets us know what to do with it when
+ * we&apos;re done with it. Lives at the end of an evbuffer_chain with the
+ * EVBUFFER_REFERENCE flag set */</doc>
+<mbr r='evbuffer_chain_reference::cleanupfn' o='0' t='evbuffer_ref_cleanup_cb'/>
+<mbr r='evbuffer_chain_reference::extra' o='64' t='void *'/>

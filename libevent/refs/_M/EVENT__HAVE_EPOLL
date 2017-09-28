@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event-config.h' l='100'/>
+<doc f='codebrowser/include/event2/event-config.h' l='99'>/* Define if your system supports the epoll system calls */</doc>
+<use f='codebrowser/epoll.c' l='30' u='a'/>
+<use f='codebrowser/event.c' l='86' u='a'/>
+<use f='codebrowser/event.c' l='107' u='a'/>

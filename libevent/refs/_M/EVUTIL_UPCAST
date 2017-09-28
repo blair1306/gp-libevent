@@ -1,0 +1,57 @@
+<dec f='codebrowser/util-internal.h' l='274'/>
+<doc f='codebrowser/util-internal.h' l='259'>/** Helper macro.  If we know that a given pointer points to a field in a
+    structure, return a pointer to the structure itself.  Used to implement
+    our half-baked C OO.  Example:
+
+    struct subtype {
+	int x;
+	struct supertype common;
+	int y;
+    };
+    ...
+    void fn(struct supertype *super) {
+	struct subtype *sub = EVUTIL_UPCAST(super, struct subtype, common);
+	...
+    }
+ */</doc>
+<use f='codebrowser/bufferevent.c' l='70' u='c'/>
+<use f='codebrowser/bufferevent.c' l='82' u='c'/>
+<use f='codebrowser/bufferevent.c' l='94' u='c'/>
+<use f='codebrowser/bufferevent.c' l='106' u='c'/>
+<use f='codebrowser/bufferevent.c' l='225' u='c'/>
+<use f='codebrowser/bufferevent.c' l='241' u='c'/>
+<use f='codebrowser/bufferevent.c' l='270' u='c'/>
+<use f='codebrowser/bufferevent.c' l='463' u='c'/>
+<use f='codebrowser/bufferevent.c' l='537' u='c'/>
+<use f='codebrowser/bufferevent.c' l='574' u='c'/>
+<use f='codebrowser/bufferevent.c' l='687' u='c'/>
+<use f='codebrowser/bufferevent.c' l='731' u='c'/>
+<use f='codebrowser/bufferevent.c' l='798' u='c'/>
+<use f='codebrowser/bufferevent.c' l='875' u='c'/>
+<use f='codebrowser/bufferevent.c' l='952' u='c'/>
+<use f='codebrowser/bufferevent_pair.c' l='61' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='564' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='741' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='793' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='103' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='131' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='150' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='232' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='383' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='464' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='503' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='536' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='588' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='605' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='629' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='659' u='c'/>
+<use f='codebrowser/evdns.c' l='788' u='c'/>
+<use f='codebrowser/evdns.c' l='4406' u='c'/>
+<use f='codebrowser/evdns.c' l='4409' u='c'/>
+<use f='codebrowser/event.c' l='456' u='c'/>
+<use f='codebrowser/listener.c' l='278' u='c'/>
+<use f='codebrowser/listener.c' l='315' u='c'/>
+<use f='codebrowser/listener.c' l='323' u='c'/>
+<use f='codebrowser/listener.c' l='341' u='c'/>
+<use f='codebrowser/listener.c' l='359' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='680' u='c'/>

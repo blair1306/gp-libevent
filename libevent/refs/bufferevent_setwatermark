@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='534' type='void bufferevent_setwatermark(struct bufferevent * bufev, short events, size_t lowmark, size_t highmark)'/>
+<def f='codebrowser/bufferevent.c' l='569' ll='615' type='void bufferevent_setwatermark(struct bufferevent * bufev, short events, size_t lowmark, size_t highmark)'/>
+<doc f='codebrowser/bufferevent.c' l='565'>/*
+ * Sets the water marks
+ */</doc>
+<use f='codebrowser/bufferevent_openssl.c' l='1390' u='c' c='bufferevent_openssl_new_impl'/>
+<use f='codebrowser/sample/le-proxy.c' l='74' u='c' c='readcb'/>
+<use f='codebrowser/sample/le-proxy.c' l='88' u='c' c='drained_writecb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='427' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='435' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='995' u='c' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1091' u='c' c='trigger_readcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1109' u='c' c='trigger_readcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1296' u='c' c='test_bufferevent_filter_data_stuck'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1297' u='c' c='test_bufferevent_filter_data_stuck'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1316' u='c' c='test_bufferevent_filter_data_stuck'/>

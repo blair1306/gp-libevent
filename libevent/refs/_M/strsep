@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='1262'/>
+<use f='codebrowser/http.c' l='1656' u='c'/>
+<use f='codebrowser/http.c' l='1659' u='c'/>
+<use f='codebrowser/http.c' l='1697' u='c'/>
+<use f='codebrowser/http.c' l='1700' u='c'/>
+<use f='codebrowser/http.c' l='1703' u='c'/>
+<use f='codebrowser/http.c' l='2086' u='c'/>
+<use f='codebrowser/http.c' l='3237' u='c'/>
+<use f='codebrowser/http.c' l='3240' u='c'/>

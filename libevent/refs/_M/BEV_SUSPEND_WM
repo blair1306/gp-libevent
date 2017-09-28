@@ -1,0 +1,8 @@
+<dec f='codebrowser/bufferevent-internal.h' l='65'/>
+<doc f='codebrowser/bufferevent-internal.h' l='58'>/* On a all bufferevents, for reading: used when we have read up to the
+   watermark value.
+
+   On a filtering bufferevent, for writing: used when the underlying
+   bufferevent&apos;s write buffer has been filled up to its watermark
+   value.
+*/</doc>

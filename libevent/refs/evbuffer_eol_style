@@ -1,0 +1,3 @@
+<def f='codebrowser/include/event2/buffer.h' l='401' ll='421'/>
+<doc f='codebrowser/include/event2/buffer.h' l='399'>/** Used to tell evbuffer_readln what kind of line-ending to look for.
+ */</doc>

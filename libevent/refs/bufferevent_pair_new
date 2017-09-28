@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='738' type='int bufferevent_pair_new(struct event_base * base, int options, struct bufferevent ** pair)'/>
+<def f='codebrowser/bufferevent_pair.c' l='114' ll='150' type='int bufferevent_pair_new(struct event_base * base, int options, struct bufferevent ** pair)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='135' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='337' u='c' c='test_bufferevent_pair_release_lock'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='403' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='548' u='c' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='962' u='c' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1209' u='c' c='test_bufferevent_pair_flush'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1294' u='c' c='test_bufferevent_filter_data_stuck'/>

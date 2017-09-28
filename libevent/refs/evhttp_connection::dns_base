@@ -1,0 +1,4 @@
+<dec f='codebrowser/http-internal.h' l='106' type='struct evdns_base *'/>
+<offset>2944</offset>
+<use f='codebrowser/http.c' l='2391' u='w' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2579' u='r' c='evhttp_connection_connect_'/>

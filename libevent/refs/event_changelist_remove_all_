@@ -1,0 +1,6 @@
+<dec f='codebrowser/changelist-internal.h' l='90' type='void event_changelist_remove_all_(struct event_changelist * changelist, struct event_base * base)'/>
+<use f='codebrowser/epoll.c' l='458' u='c' c='epoll_dispatch'/>
+<doc f='codebrowser/changelist-internal.h' l='87'>/** Remove every change in the changelist, and make corresponding changes
+ * in the event maps in the base.  This function is generally used right
+ * after making all the changes in the changelist. */</doc>
+<def f='codebrowser/evmap.c' l='767' ll='786' type='void event_changelist_remove_all_(struct event_changelist * changelist, struct event_base * base)'/>

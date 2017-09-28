@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/buffer.h' l='249' type='size_t evbuffer_get_contiguous_space(const struct evbuffer * buf)'/>
+<def f='codebrowser/buffer.c' l='619' ll='631' type='size_t evbuffer_get_contiguous_space(const struct evbuffer * buf)'/>

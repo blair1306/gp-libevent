@@ -1,0 +1,9 @@
+<dec f='codebrowser/util-internal.h' l='251' type='char EVUTIL_TOLOWER_(char c)'/>
+<def f='codebrowser/evutil.c' l='2311' ll='2314' type='char EVUTIL_TOLOWER_(char c)'/>
+<use f='codebrowser/evutil.c' l='2324' u='c' c='evutil_ascii_strcasecmp'/>
+<use f='codebrowser/evutil.c' l='2325' u='c' c='evutil_ascii_strcasecmp'/>
+<use f='codebrowser/evutil.c' l='2338' u='c' c='evutil_ascii_strncasecmp'/>
+<use f='codebrowser/evutil.c' l='2339' u='c' c='evutil_ascii_strncasecmp'/>
+<use f='codebrowser/http.c' l='3328' u='c' c='prefix_suffix_match'/>
+<use f='codebrowser/http.c' l='3328' u='c' c='prefix_suffix_match'/>
+<use f='codebrowser/test/regress_testutils.c' l='145' u='c' c='strtolower'/>

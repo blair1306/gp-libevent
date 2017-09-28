@@ -1,0 +1,5 @@
+<dec f='include/netdb.h' l='641'/>
+<use f='codebrowser/http.c' l='4285' u='c'/>
+<use f='codebrowser/http.c' l='4361' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='163' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='172' u='c'/>

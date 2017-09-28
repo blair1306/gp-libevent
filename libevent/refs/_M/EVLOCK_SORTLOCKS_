@@ -1,0 +1,4 @@
+<dec f='codebrowser/evthread-internal.h' l='107'/>
+<dec f='codebrowser/evthread-internal.h' l='339'/>
+<doc f='codebrowser/evthread-internal.h' l='106'>/** Helper: put lockvar1 and lockvar2 into pointerwise ascending order. */</doc>
+<doc f='codebrowser/evthread-internal.h' l='338'>/** Helper: put lockvar1 and lockvar2 into pointerwise ascending order. */</doc>

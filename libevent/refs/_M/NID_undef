@@ -1,0 +1,2 @@
+<dec f='include/openssl/obj_mac.h' l='67'/>
+<use f='codebrowser/test/regress_ssl.c' l='144' u='c'/>

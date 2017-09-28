@@ -1,0 +1,5 @@
+<def f='codebrowser/include/event2/rpc.h' l='470' ll='473'/>
+<doc f='codebrowser/include/event2/rpc.h' l='465'>/**
+ * Hooks for changing the input and output of RPCs; this can be used to
+ * implement compression, authentication, encryption, ...
+ */</doc>

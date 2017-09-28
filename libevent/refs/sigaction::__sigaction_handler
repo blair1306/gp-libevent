@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/sigaction.h' l='35' type='union (anonymous union at /usr/include/x86_64-linux-gnu/bits/sigaction.h:28:5)'/>
+<offset>0</offset>
+<use f='codebrowser/signal.c' l='254' macro='1' u='m'/>
+<use f='codebrowser/test/regress.c' l='1286' macro='1' u='m'/>

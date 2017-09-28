@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/tinytest.h' l='71' type='const char **'/>
+<offset>64</offset>
+<use f='codebrowser/test/tinytest.c' l='334' u='r' c='process_test_alias'/>
+<use f='codebrowser/test/tinytest.c' l='335' u='r' c='process_test_alias'/>

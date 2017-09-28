@@ -1,0 +1,8 @@
+<dec f='codebrowser/arc4random.c' l='94' type='unsigned char arc4_getbyte()'/>
+<use f='codebrowser/arc4random.c' l='405' u='c' c='arc4_stir'/>
+<def f='codebrowser/arc4random.c' l='425' ll='437' type='unsigned char arc4_getbyte()'/>
+<use f='codebrowser/arc4random.c' l='444' u='c' c='arc4_getword'/>
+<use f='codebrowser/arc4random.c' l='445' u='c' c='arc4_getword'/>
+<use f='codebrowser/arc4random.c' l='446' u='c' c='arc4_getword'/>
+<use f='codebrowser/arc4random.c' l='447' u='c' c='arc4_getword'/>
+<use f='codebrowser/arc4random.c' l='506' u='c' c='arc4random_buf'/>

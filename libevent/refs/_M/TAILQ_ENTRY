@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/event2/keyvalq_struct.h' l='38'/>
+<use f='codebrowser/include/event2/keyvalq_struct.h' l='59' u='c'/>
+<use f='codebrowser/include/event2/keyvalq_struct.h' l='69' u='w'/>
+<dec f='codebrowser/include/event2/event_struct.h' l='71'/>
+<use f='codebrowser/include/event2/event_struct.h' l='108' u='c'/>
+<use f='codebrowser/include/event2/event_struct.h' l='128' u='c'/>
+<use f='codebrowser/include/event2/event_struct.h' l='159' u='w'/>
+<dec f='codebrowser/compat/sys/queue.h' l='284'/>
+<use f='codebrowser/event-internal.h' l='352' u='c'/>
+<use f='codebrowser/evdns.c' l='366' u='c'/>
+<use f='codebrowser/include/event2/rpc_struct.h' l='60' u='c'/>
+<use f='codebrowser/http-internal.h' l='57' u='c'/>
+<use f='codebrowser/http-internal.h' l='112' u='c'/>
+<use f='codebrowser/http-internal.h' l='125' u='c'/>
+<use f='codebrowser/http-internal.h' l='132' u='c'/>
+<use f='codebrowser/http-internal.h' l='139' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='39' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='99' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='106' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='171' u='c'/>
+<use f='codebrowser/include/event2/http_struct.h' l='58' u='a'/>
+<use f='codebrowser/include/event2/http_struct.h' l='59' u='c'/>

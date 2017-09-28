@@ -1,0 +1,12 @@
+<dec f='codebrowser/evbuffer-internal.h' l='129' type='unsigned int'/>
+<use f='codebrowser/buffer.c' l='414' u='w' c='evbuffer_defer_callbacks'/>
+<use f='codebrowser/buffer.c' l='466' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='520' u='r' c='evbuffer_invoke_callbacks_'/>
+<use f='codebrowser/buffer.c' l='577' u='r' c='evbuffer_decref_and_unlock_'/>
+<use f='codebrowser/buffer.c' l='3436' u='r' c='evbuffer_get_callbacks_'/>
+<offset>451</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='124'>/** True iff this evbuffer&apos;s callbacks are not invoked immediately
+	 * upon a change in the buffer, but instead are deferred to be invoked
+	 * from the event_base&apos;s loop.	Useful for preventing enormous stack
+	 * overflows when we have mutually recursive callbacks, and for
+	 * serializing callbacks in a single thread. */</doc>

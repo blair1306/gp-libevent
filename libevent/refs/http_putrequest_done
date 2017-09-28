@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress_http.c' l='2055' type='void http_putrequest_done(struct evhttp_request * , void * )'/>
+<use f='codebrowser/test/regress_http.c' l='2077' u='r' c='http_put_test'/>
+<def f='codebrowser/test/regress_http.c' l='2131' ll='2167' type='void http_putrequest_done(struct evhttp_request * req, void * arg)'/>
+<doc f='codebrowser/test/regress_http.c' l='2051'>/*
+ * HTTP PUT test, basically just like POST, but ...
+ */</doc>

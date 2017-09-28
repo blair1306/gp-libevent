@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/dns.h' l='174'/>
+<use f='codebrowser/evdns.c' l='891' u='c'/>
+<use f='codebrowser/evdns.c' l='4007' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='171'>/** There were no answers and no error condition in the DNS packet.
+ * This can happen when you ask for an address that exists, but a record
+ * type that doesn&apos;t. */</doc>
+<use f='codebrowser/test/regress_dns.c' l='582' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='586' u='c'/>

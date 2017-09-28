@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/tinytest.h' l='58' type='void *'/>
+<offset>256</offset>
+<doc f='codebrowser/test/tinytest.h' l='58'>/**&lt; Extra data usable by setup function */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='2488' u='r' c='setup_passthrough'/>
+<use f='codebrowser/test/regress_main.c' l='261' u='r' c='basic_test_setup'/>
+<use f='codebrowser/test/regress_main.c' l='317' u='r' c='legacy_test_setup'/>

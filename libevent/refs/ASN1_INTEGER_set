@@ -1,0 +1,2 @@
+<dec f='include/openssl/asn1.h' l='935' type='int ASN1_INTEGER_set(ASN1_INTEGER * a, long v)'/>
+<use f='codebrowser/test/regress_ssl.c' l='138' u='c' c='ssl_getcert'/>

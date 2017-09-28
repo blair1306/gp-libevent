@@ -1,0 +1,17 @@
+<def f='codebrowser/bufferevent-internal.h' l='79' ll='127'/>
+<size>280</size>
+<mbr r='bufferevent_rate_limit_group::members' o='0' t='struct rlim_group_member_list'/>
+<mbr r='bufferevent_rate_limit_group::rate_limit' o='64' t='struct ev_token_bucket'/>
+<mbr r='bufferevent_rate_limit_group::rate_limit_cfg' o='256' t='struct ev_token_bucket_cfg'/>
+<mbr r='bufferevent_rate_limit_group::read_suspended' o='704' t='unsigned int'/>
+<mbr r='bufferevent_rate_limit_group::write_suspended' o='705' t='unsigned int'/>
+<mbr r='bufferevent_rate_limit_group::pending_unsuspend_read' o='706' t='unsigned int'/>
+<mbr r='bufferevent_rate_limit_group::pending_unsuspend_write' o='707' t='unsigned int'/>
+<mbr r='bufferevent_rate_limit_group::total_read' o='768' t='uint64_t'/>
+<mbr r='bufferevent_rate_limit_group::total_written' o='832' t='uint64_t'/>
+<mbr r='bufferevent_rate_limit_group::n_members' o='896' t='int'/>
+<mbr r='bufferevent_rate_limit_group::min_share' o='960' t='ssize_t'/>
+<mbr r='bufferevent_rate_limit_group::configured_min_share' o='1024' t='ssize_t'/>
+<mbr r='bufferevent_rate_limit_group::master_refill_event' o='1088' t='struct event'/>
+<mbr r='bufferevent_rate_limit_group::weakrand_seed' o='2112' t='struct evutil_weakrand_state'/>
+<mbr r='bufferevent_rate_limit_group::lock' o='2176' t='void *'/>

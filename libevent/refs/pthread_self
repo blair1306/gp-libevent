@@ -1,0 +1,3 @@
+<dec f='include/pthread.h' l='275' type='pthread_t pthread_self()'/>
+<use f='codebrowser/evthread_pthread.c' l='99' u='c' c='evthread_posix_get_id'/>
+<doc f='include/pthread.h' l='274'>/* Obtain the identifier of the current thread.  */</doc>

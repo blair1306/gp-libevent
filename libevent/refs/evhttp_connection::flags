@@ -1,0 +1,25 @@
+<dec f='codebrowser/http-internal.h' l='73' type='int'/>
+<offset>1664</offset>
+<use f='codebrowser/http.c' l='735' u='r' c='evhttp_connection_fail_'/>
+<use f='codebrowser/http.c' l='810' u='r' c='evhttp_connection_done'/>
+<use f='codebrowser/http.c' l='840' u='r' c='evhttp_connection_done'/>
+<use f='codebrowser/http.c' l='1023' u='r' c='evhttp_lingering_fail'/>
+<use f='codebrowser/http.c' l='1259' u='w' c='evhttp_connection_free_on_completion'/>
+<use f='codebrowser/http.c' l='1347' u='w' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1355' u='w' c='evhttp_connection_start_detectclose'/>
+<use f='codebrowser/http.c' l='1363' u='w' c='evhttp_connection_stop_detectclose'/>
+<use f='codebrowser/http.c' l='1437' u='r' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/http.c' l='1438' u='w' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/http.c' l='1451' u='w' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/http.c' l='1497' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1498' u='w' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1513' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1514' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1524' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2435' u='w' c='evhttp_connection_set_flags'/>
+<use f='codebrowser/http.c' l='2437' u='w' c='evhttp_connection_set_flags'/>
+<use f='codebrowser/http.c' l='2535' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2536' u='w' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2569' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='4196' u='w' c='evhttp_get_request_connection'/>
+<use f='codebrowser/http.c' l='4198' u='w' c='evhttp_get_request_connection'/>

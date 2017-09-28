@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/buffer.h' l='174' type='int evbuffer_enable_locking(struct evbuffer * buf, void * lock)'/>
+<def f='codebrowser/buffer.c' l='422' ll='444' type='int evbuffer_enable_locking(struct evbuffer * buf, void * lock)'/>
+<use f='codebrowser/bufferevent.c' l='835' u='c' c='bufferevent_enable_locking_'/>
+<use f='codebrowser/bufferevent.c' l='836' u='c' c='bufferevent_enable_locking_'/>

@@ -1,0 +1,3 @@
+<def f='codebrowser/test/test-time.c' l='52' type='struct evutil_weakrand_state'/>
+<use f='codebrowser/test/test-time.c' l='57' u='a' c='rand_int'/>
+<use f='codebrowser/test/test-time.c' l='95' u='a' c='main'/>

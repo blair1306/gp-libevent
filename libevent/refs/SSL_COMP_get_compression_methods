@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2539' type='struct stack_st_SSL_COMP * SSL_COMP_get_compression_methods()'/>
+<use f='codebrowser/sample/https-client.c' l='503' u='c' c='main'/>

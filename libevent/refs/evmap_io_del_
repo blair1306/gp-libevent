@@ -1,0 +1,13 @@
+<dec f='codebrowser/evmap-internal.h' l='71' type='int evmap_io_del_(struct event_base * base, int fd, struct event * ev)'/>
+<doc f='codebrowser/evmap-internal.h' l='63'>/** Remove an IO event (some combination of EV_READ or EV_WRITE) to an
+    event_base&apos;s list of events on a given file descriptor, and tell the
+    underlying eventops about the fd if its state has changed.
+
+    @param base the event_base to operate on.
+    @param fd the file descriptor corresponding to ev.
+    @param ev the event to remove.
+ */</doc>
+<use f='codebrowser/event.c' l='2816' u='c' c='event_del_nolock_'/>
+<def f='codebrowser/evmap.c' l='346' ll='409' type='int evmap_io_del_(struct event_base * base, int fd, struct event * ev)'/>
+<doc f='codebrowser/evmap.c' l='344'>/* return -1 on error, 0 on success if nothing changed in the event backend,
+ * and 1 on success if something did. */</doc>

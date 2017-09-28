@@ -1,0 +1,13 @@
+<dec f='codebrowser/event-internal.h' l='404' type='int event_add_nolock_(struct event * ev, const struct timeval * tv, int tv_is_absolute)'/>
+<use f='codebrowser/event.c' l='1030' u='c' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1413' u='c' c='common_timeout_schedule'/>
+<use f='codebrowser/event.c' l='1568' u='c' c='event_persist_closure'/>
+<use f='codebrowser/event.c' l='2053' u='c' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2448' u='c' c='event_add'/>
+<def f='codebrowser/event.c' l='2549' ll='2719' type='int event_add_nolock_(struct event * ev, const struct timeval * tv, int tv_is_absolute)'/>
+<use f='codebrowser/event.c' l='3626' u='c' c='evthread_make_base_notifiable_nolock_'/>
+<doc f='codebrowser/event.c' l='2545'>/* Implementation function to add an event.  Works just like event_add,
+ * except: 1) it requires that we have the lock.  2) if tv_is_absolute is set,
+ * we treat tv as an absolute time, not as an interval to add to the current
+ * time */</doc>
+<use f='codebrowser/signal.c' l='308' u='c' c='evsig_add'/>

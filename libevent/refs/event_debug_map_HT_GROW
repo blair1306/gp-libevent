@@ -1,0 +1,4 @@
+<dec f='codebrowser/event.c' l='227' macro='1' type='int event_debug_map_HT_GROW(struct event_debug_map * ht, unsigned int min_capacity)'/>
+<use f='codebrowser/event.c' l='227' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='227' macro='1' u='c'/>
+<def f='codebrowser/event.c' l='229' macro='1' type='int event_debug_map_HT_GROW(struct event_debug_map * head, unsigned int size)'/>

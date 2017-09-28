@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/tag.h' l='78' type='void evtag_marshal_buffer(struct evbuffer * evbuf, uint32_t tag, struct evbuffer * data)'/>
+<def f='codebrowser/event_tagging.c' l='269' ll='277' type='void evtag_marshal_buffer(struct evbuffer * evbuf, uint32_t tag, struct evbuffer * data)'/>

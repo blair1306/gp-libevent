@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/event2/thread.h' l='168' type='int (*)(void *, void *, const struct timeval *)'/>
+<offset>256</offset>
+<doc f='codebrowser/include/event2/thread.h' l='158'>/** Function to wait for a condition variable.  The lock &apos;lock&apos;
+	 * will be held when this function is called; should be released
+	 * while waiting for the condition to be come signalled, and
+	 * should be held again when this function returns.
+	 * If timeout is provided, it is interval of seconds to wait for
+	 * the event to become signalled; if it is NULL, the function
+	 * should wait indefinitely.
+	 *
+	 * The function should return -1 on error; 0 if the condition
+	 * was signalled, or 1 on a timeout. */</doc>
+<use f='codebrowser/event.c' l='2596' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2843' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2909' macro='1' u='r'/>
+<use f='codebrowser/evthread.c' l='162' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='162' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='171' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='305' u='r' c='debug_cond_wait'/>
+<use f='codebrowser/evthread.c' l='337' u='w' c='evthread_enable_lock_debugging'/>
+<use f='codebrowser/test/regress_thread.c' l='123' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='275' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='278' macro='1' u='r'/>

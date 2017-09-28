@@ -1,0 +1,17 @@
+<dec f='codebrowser/evbuffer-internal.h' l='340' type='void evbuffer_invoke_callbacks_(struct evbuffer * buf)'/>
+<def f='codebrowser/buffer.c' l='512' ll='530' type='void evbuffer_invoke_callbacks_(struct evbuffer * buffer)'/>
+<use f='codebrowser/buffer.c' l='781' u='c' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='998' u='c' c='evbuffer_add_buffer'/>
+<use f='codebrowser/buffer.c' l='999' u='c' c='evbuffer_add_buffer'/>
+<use f='codebrowser/buffer.c' l='1042' u='c' c='evbuffer_add_buffer_reference'/>
+<use f='codebrowser/buffer.c' l='1088' u='c' c='evbuffer_prepend_buffer'/>
+<use f='codebrowser/buffer.c' l='1089' u='c' c='evbuffer_prepend_buffer'/>
+<use f='codebrowser/buffer.c' l='1156' u='c' c='evbuffer_drain'/>
+<use f='codebrowser/buffer.c' l='1334' u='c' c='evbuffer_remove_buffer'/>
+<use f='codebrowser/buffer.c' l='1335' u='c' c='evbuffer_remove_buffer'/>
+<use f='codebrowser/buffer.c' l='1812' u='c' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='1894' u='c' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='2394' u='c' c='evbuffer_read'/>
+<use f='codebrowser/buffer.c' l='2880' u='c' c='evbuffer_add_vprintf'/>
+<use f='codebrowser/buffer.c' l='2938' u='c' c='evbuffer_add_reference'/>
+<use f='codebrowser/buffer.c' l='3269' u='c' c='evbuffer_add_file_segment'/>

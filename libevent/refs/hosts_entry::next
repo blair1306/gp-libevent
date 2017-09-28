@@ -1,0 +1,21 @@
+<dec f='codebrowser/evdns.c' l='366' type='struct (anonymous struct at /home/jon/workspace/libevent/evdns.c:366:2)'/>
+<use f='codebrowser/evdns.c' l='4077' u='m' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4077' u='m' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4077' u='m' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4077' u='m' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4077' u='m' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4077' u='m' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4077' u='m' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4103' u='m' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4103' u='m' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4103' u='m' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4103' u='m' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4103' u='m' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4103' u='m' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4103' u='m' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4164' u='m' c='evdns_base_parse_hosts_line'/>
+<use f='codebrowser/evdns.c' l='4164' u='m' c='evdns_base_parse_hosts_line'/>
+<use f='codebrowser/evdns.c' l='4164' u='m' c='evdns_base_parse_hosts_line'/>
+<use f='codebrowser/evdns.c' l='4577' u='m' c='find_hosts_entry'/>
+<use f='codebrowser/evdns.c' l='4581' u='m' c='find_hosts_entry'/>
+<offset>0</offset>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event.h' l='1361' type='short event_get_events(const struct event * ev)'/>
+<def f='codebrowser/event.c' l='2408' ll='2413' type='short event_get_events(const struct event * ev)'/>

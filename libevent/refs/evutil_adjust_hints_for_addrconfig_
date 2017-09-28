@@ -1,0 +1,7 @@
+<dec f='codebrowser/util-internal.h' l='407' type='void evutil_adjust_hints_for_addrconfig_(struct addrinfo * hints)'/>
+<use f='codebrowser/evdns.c' l='4667' u='c' c='evdns_getaddrinfo'/>
+<def f='codebrowser/evutil.c' l='1201' ll='1215' type='void evutil_adjust_hints_for_addrconfig_(struct addrinfo * hints)'/>
+<doc f='codebrowser/evutil.c' l='1197'>/* If the EVUTIL_AI_ADDRCONFIG flag is set on hints-&gt;ai_flags, and
+ * hints-&gt;ai_family is PF_UNSPEC, then revise the value of hints-&gt;ai_family so
+ * that we&apos;ll only get addresses we could maybe connect to.
+ */</doc>

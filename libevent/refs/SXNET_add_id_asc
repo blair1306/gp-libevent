@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='511' type='int SXNET_add_id_asc(SXNET ** psx, char * zone, char * user, int userlen)'/>

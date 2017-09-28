@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2265' type='void SSL_CTX_set_cert_verify_callback(SSL_CTX * ctx, int (*)(X509_STORE_CTX *, void *) cb, void * arg)'/>
+<use f='codebrowser/sample/https-client.c' l='377' u='c' c='main'/>

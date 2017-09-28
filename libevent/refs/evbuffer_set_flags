@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/buffer.h' l='216' type='int evbuffer_set_flags(struct evbuffer * buf, uint64_t flags)'/>
+<def f='codebrowser/buffer.c' l='376' ll='383' type='int evbuffer_set_flags(struct evbuffer * buf, uint64_t flags)'/>
+<use f='codebrowser/bufferevent_sock.c' l='363' u='c' c='bufferevent_socket_new'/>
+<use f='codebrowser/test/regress_buffer.c' l='1046' u='c' c='test_evbuffer_add_file'/>

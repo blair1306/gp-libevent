@@ -1,0 +1,11 @@
+<dec f='codebrowser/evthread-internal.h' l='73'/>
+<doc f='codebrowser/evthread-internal.h' l='70'>/** Return true iff we need to notify the base&apos;s main thread about changes to
+ * its state, because it&apos;s currently running the main loop in another
+ * thread. Requires lock. */</doc>
+<use f='codebrowser/event.c' l='1824' u='c'/>
+<use f='codebrowser/event.c' l='1843' u='c'/>
+<use f='codebrowser/event.c' l='2713' u='c'/>
+<use f='codebrowser/event.c' l='2827' u='c'/>
+<use f='codebrowser/event.c' l='2980' u='c'/>
+<use f='codebrowser/event.c' l='2994' u='c'/>
+<use f='codebrowser/event.c' l='3806' u='c'/>

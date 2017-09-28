@@ -1,0 +1,5 @@
+<def f='codebrowser/evmap.c' l='691' ll='694'/>
+<size>4</size>
+<doc f='codebrowser/evmap.c' l='688'>/** Per-fd structure for use with changelists.  It keeps track, for each fd or
+ * signal using the changelist, of where its entry in the changelist is.
+ */</doc>

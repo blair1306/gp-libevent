@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/listener.h' l='62'/>
+<doc f='codebrowser/include/event2/listener.h' l='60'>/** Flag: Indicates that we should not make incoming sockets nonblocking
+ * before passing them to the callback. */</doc>
+<use f='codebrowser/listener.c' l='191' u='c'/>

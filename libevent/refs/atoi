@@ -1,0 +1,16 @@
+<dec f='include/stdlib.h' l='147' type='int atoi(const char * __nptr)'/>
+<def f='include/stdlib.h' l='277' ll='281' macro='1' type='int atoi(const char * __nptr)'/>
+<doc f='include/stdlib.h' l='146'>/* Convert a string to an integer.  */</doc>
+<use f='codebrowser/evutil.c' l='2125' u='c' c='evutil_parse_sockaddr_port'/>
+<use f='codebrowser/http.c' l='1666' u='c' c='evhttp_parse_response_line'/>
+<use f='codebrowser/http.c' l='4187' u='c' c='evhttp_get_request_connection'/>
+<use f='codebrowser/sample/https-client.c' l='239' u='c' c='main'/>
+<use f='codebrowser/sample/https-client.c' l='246' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='241' u='c' c='main'/>
+<use f='codebrowser/test/bench.c' l='156' u='c' c='main'/>
+<use f='codebrowser/test/bench.c' l='159' u='c' c='main'/>
+<use f='codebrowser/test/bench.c' l='162' u='c' c='main'/>
+<use f='codebrowser/test/bench_cascade.c' l='157' u='c' c='main'/>
+<use f='codebrowser/test/regress_ssl.c' l='271' u='c' c='respond_to_number'/>
+<use f='codebrowser/test/regress_testutils.c' l='173' u='c' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='177' u='c' c='regress_dns_server_cb'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='94' type='struct event_watermark'/>
+<use f='codebrowser/bufferevent-internal.h' l='410' u='m' c='bufferevent_trigger_nolock_'/>
+<offset>2304</offset>
+<use f='codebrowser/bufferevent.c' l='127' u='m' c='bufferevent_inbuf_wm_cb'/>
+<use f='codebrowser/bufferevent.c' l='583' u='m' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='584' u='m' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='634' u='m' c='bufferevent_getwatermark'/>
+<use f='codebrowser/bufferevent.c' l='636' u='m' c='bufferevent_getwatermark'/>
+<use f='codebrowser/bufferevent_filter.c' l='152' u='m' c='be_readbuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='153' u='m' c='be_readbuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='319' u='m' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='320' u='m' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_openssl.c' l='738' u='a' c='bytes_to_read'/>
+<use f='codebrowser/bufferevent_pair.c' l='162' u='m' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='164' u='m' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='165' u='m' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_sock.c' l='172' u='m' c='bufferevent_readcb'/>
+<use f='codebrowser/bufferevent_sock.c' l='173' u='m' c='bufferevent_readcb'/>

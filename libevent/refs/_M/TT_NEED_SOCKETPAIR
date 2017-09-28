@@ -1,0 +1,16 @@
+<dec f='codebrowser/test/regress.h' l='89'/>
+<use f='codebrowser/test/regress.c' l='3383' u='c'/>
+<use f='codebrowser/test/regress.c' l='3384' u='c'/>
+<use f='codebrowser/test/regress.c' l='3394' u='c'/>
+<use f='codebrowser/test/regress.c' l='3395' u='c'/>
+<use f='codebrowser/test/regress.c' l='3438' u='c'/>
+<use f='codebrowser/test/regress.c' l='3447' u='c'/>
+<doc f='codebrowser/test/regress.h' l='88'>/* A couple of flags that basic/legacy_setup can support. */</doc>
+<use f='codebrowser/test/regress_bufferevent.c' l='1366' u='c'/>
+<use f='codebrowser/test/regress_et.c' l='202' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='233' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='238' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='242' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='254' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='215' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='273' u='c'/>

@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='32'/>
+<doc f='include/x86_64-linux-gnu/bits/signum.h' l='31'>/* Signals.  */</doc>
+<use f='codebrowser/test/regress.c' l='3328' u='c'/>
+<use f='codebrowser/test/regress.c' l='3345' u='c'/>

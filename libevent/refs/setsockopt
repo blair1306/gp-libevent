@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='226' type='int setsockopt(int __fd, int __level, int __optname, const void * __optval, socklen_t __optlen)'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='223'>/* Set socket FD&apos;s option OPTNAME at protocol level LEVEL
+   to *OPTVAL (which is OPTLEN bytes long).
+   Returns 0 on success, -1 for errors.  */</doc>
+<use f='codebrowser/evutil.c' l='367' u='c' c='evutil_make_listen_socket_reuseable'/>
+<use f='codebrowser/evutil.c' l='381' u='c' c='evutil_make_listen_socket_reuseable_port'/>
+<use f='codebrowser/evutil.c' l='396' u='c' c='evutil_make_tcp_listen_socket_deferred'/>
+<use f='codebrowser/http.c' l='4333' u='c' c='bind_socket_ai'/>
+<use f='codebrowser/listener.c' l='230' u='c' c='evconnlistener_new_bind'/>
+<use f='codebrowser/test/bench_httpclient.c' l='120' u='c' c='frob_socket'/>
+<use f='codebrowser/test/bench_httpclient.c' l='125' u='c' c='frob_socket'/>

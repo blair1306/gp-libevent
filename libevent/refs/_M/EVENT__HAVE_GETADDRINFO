@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/event2/event-config.h' l='121'/>
+<use f='codebrowser/include/event2/util.h' l='678' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='683' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='688' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='693' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='698' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='703' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='711' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='716' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='721' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='726' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='731' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='739' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='744' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='749' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='754' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='759' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='764' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='769' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='120'>/* Define to 1 if you have the `getaddrinfo&apos; function. */</doc>
+<use f='codebrowser/evutil.c' l='1078' u='a'/>
+<use f='codebrowser/evutil.c' l='1545' u='a'/>

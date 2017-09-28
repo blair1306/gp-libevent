@@ -1,0 +1,4 @@
+<dec f='include/stdio.h' l='122'/>
+<use f='codebrowser/test/bench_httpclient.c' l='192' u='c'/>
+<use f='codebrowser/test/tinytest.c' l='426' u='a'/>
+<use f='codebrowser/test/tinytest.c' l='427' u='c'/>

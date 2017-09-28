@@ -1,0 +1,13 @@
+<dec f='codebrowser/arc4random.c' l='78' type='unsigned char'/>
+<use f='codebrowser/arc4random.c' l='103' u='w' c='arc4_init'/>
+<use f='codebrowser/arc4random.c' l='113' u='w' c='arc4_addrandom'/>
+<use f='codebrowser/arc4random.c' l='115' u='w' c='arc4_addrandom'/>
+<use f='codebrowser/arc4random.c' l='115' u='r' c='arc4_addrandom'/>
+<use f='codebrowser/arc4random.c' l='116' u='r' c='arc4_addrandom'/>
+<use f='codebrowser/arc4random.c' l='118' u='r' c='arc4_addrandom'/>
+<use f='codebrowser/arc4random.c' l='121' u='r' c='arc4_addrandom'/>
+<use f='codebrowser/arc4random.c' l='430' u='w' c='arc4_getbyte'/>
+<use f='codebrowser/arc4random.c' l='430' u='r' c='arc4_getbyte'/>
+<use f='codebrowser/arc4random.c' l='431' u='r' c='arc4_getbyte'/>
+<use f='codebrowser/arc4random.c' l='434' u='r' c='arc4_getbyte'/>
+<offset>0</offset>

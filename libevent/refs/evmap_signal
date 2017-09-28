@@ -1,0 +1,4 @@
+<def f='codebrowser/evmap.c' l='67' ll='69'/>
+<size>8</size>
+<doc f='codebrowser/evmap.c' l='65'>/* An entry for an evmap_signal list: notes all the events that want to know
+   when a signal triggers. */</doc>

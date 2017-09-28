@@ -1,0 +1,26 @@
+<dec f='codebrowser/evrpc-internal.h' l='171' type='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:171:2)'/>
+<use f='codebrowser/evrpc.c' l='546' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='546' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='546' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='546' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='546' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='546' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='546' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='606' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='606' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='606' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='606' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='606' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='606' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='606' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='813' u='m' c='evrpc_make_request'/>
+<use f='codebrowser/evrpc.c' l='813' u='m' c='evrpc_make_request'/>
+<use f='codebrowser/evrpc.c' l='813' u='m' c='evrpc_make_request'/>
+<use f='codebrowser/evrpc.c' l='964' u='m' c='evrpc_pool_schedule'/>
+<use f='codebrowser/evrpc.c' l='964' u='m' c='evrpc_pool_schedule'/>
+<use f='codebrowser/evrpc.c' l='964' u='m' c='evrpc_pool_schedule'/>
+<use f='codebrowser/evrpc.c' l='964' u='m' c='evrpc_pool_schedule'/>
+<use f='codebrowser/evrpc.c' l='964' u='m' c='evrpc_pool_schedule'/>
+<use f='codebrowser/evrpc.c' l='964' u='m' c='evrpc_pool_schedule'/>
+<use f='codebrowser/evrpc.c' l='964' u='m' c='evrpc_pool_schedule'/>
+<offset>64</offset>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/util.h' l='828' type='int evutil_secure_rng_init()'/>
+<use f='codebrowser/evdns.c' l='3905' u='c' c='evdns_base_new'/>
+<def f='codebrowser/evutil_rand.c' l='168' ll='179' type='int evutil_secure_rng_init()'/>

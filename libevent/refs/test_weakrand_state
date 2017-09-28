@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress.h' l='56' type='struct evutil_weakrand_state'/>
+<use f='codebrowser/test/regress.c' l='2418' macro='1' u='a'/>
+<def f='codebrowser/test/regress_main.c' l='89' type='struct evutil_weakrand_state'/>
+<use f='codebrowser/test/regress_main.c' l='455' u='a' c='main'/>
+<use f='codebrowser/test/regress_minheap.c' l='38' macro='1' u='a'/>
+<use f='codebrowser/test/regress_minheap.c' l='39' macro='1' u='a'/>

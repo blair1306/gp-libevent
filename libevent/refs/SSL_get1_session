@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2446' type='SSL_SESSION * SSL_get1_session(SSL * ssl)'/>
+<doc f='include/openssl/ssl.h' l='2446'>/* obtain a reference count */</doc>

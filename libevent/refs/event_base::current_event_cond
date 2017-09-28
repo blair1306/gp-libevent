@@ -1,0 +1,15 @@
+<dec f='codebrowser/event-internal.h' l='310' type='void *'/>
+<offset>3520</offset>
+<doc f='codebrowser/event-internal.h' l='308'>/** A condition that gets signalled when we&apos;re done processing an
+	 * event with waiters on it. */</doc>
+<use f='codebrowser/event.c' l='684' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='898' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='898' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='1690' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1690' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2596' u='r' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='2596' u='r' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='2843' u='r' c='event_del_nolock_'/>
+<use f='codebrowser/event.c' l='2843' u='r' c='event_del_nolock_'/>
+<use f='codebrowser/event.c' l='2909' u='r' c='event_active_nolock_'/>
+<use f='codebrowser/event.c' l='2909' u='r' c='event_active_nolock_'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/buffer_compat.h' l='95' type='void evbuffer_setcb(struct evbuffer * buffer, evbuffer_cb cb, void * cbarg)'/>
+<def f='codebrowser/buffer.c' l='3296' ll='3311' type='void evbuffer_setcb(struct evbuffer * buffer, evbuffer_cb cb, void * cbarg)'/>
+<use f='codebrowser/test/regress_buffer.c' l='1799' u='c' c='test_evbuffer_callbacks'/>
+<use f='codebrowser/test/regress_buffer.c' l='1804' u='c' c='test_evbuffer_callbacks'/>

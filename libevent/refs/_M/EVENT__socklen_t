@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event-config.h' l='509'/>
+<use f='codebrowser/include/event2/util.h' l='294' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='508'>/* Define to unsigned int if you dont have it */</doc>

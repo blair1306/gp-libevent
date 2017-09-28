@@ -1,0 +1,2 @@
+<def f='codebrowser/event.c' l='227' macro='1' type='struct event_debug_entry ** event_debug_map_HT_START(struct event_debug_map * head)'/>
+<use f='codebrowser/event.c' l='553' macro='1' u='c'/>

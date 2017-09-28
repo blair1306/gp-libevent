@@ -1,0 +1,3 @@
+<dec f='codebrowser/evbuffer-internal.h' l='259' type='int64_t'/>
+<use f='codebrowser/buffer.c' l='3066' u='w' c='evbuffer_file_segment_materialize'/>
+<offset>384</offset>

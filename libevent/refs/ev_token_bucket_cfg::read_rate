@@ -1,0 +1,9 @@
+<dec f='codebrowser/ratelim-internal.h' l='50' type='size_t'/>
+<offset>0</offset>
+<doc f='codebrowser/ratelim-internal.h' l='49'>/** How many bytes are we willing to read on average per tick? */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='66' u='r' c='ev_token_bucket_init_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='96' u='r' c='ev_token_bucket_update_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='99' u='r' c='ev_token_bucket_update_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='165' u='w' c='ev_token_bucket_cfg_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='715' u='r' c='bufferevent_rate_limit_group_set_min_share'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='716' u='r' c='bufferevent_rate_limit_group_set_min_share'/>

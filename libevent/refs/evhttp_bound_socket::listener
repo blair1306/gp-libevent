@@ -1,0 +1,7 @@
+<dec f='codebrowser/http-internal.h' l='127' type='struct evconnlistener *'/>
+<offset>128</offset>
+<use f='codebrowser/http.c' l='3580' u='w' c='evhttp_bind_listener'/>
+<use f='codebrowser/http.c' l='3590' u='r' c='evhttp_bound_socket_get_fd'/>
+<use f='codebrowser/http.c' l='3596' u='r' c='evhttp_bound_socket_get_listener'/>
+<use f='codebrowser/http.c' l='3603' u='r' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3683' u='r' c='evhttp_free'/>

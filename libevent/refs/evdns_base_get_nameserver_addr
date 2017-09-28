@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/dns.h' l='711' type='int evdns_base_get_nameserver_addr(struct evdns_base * base, int idx, struct sockaddr * sa, socklen_t len)'/>
+<def f='codebrowser/evdns.c' l='2654' ll='2680' type='int evdns_base_get_nameserver_addr(struct evdns_base * base, int idx, struct sockaddr * sa, socklen_t len)'/>
+<use f='codebrowser/test/regress_dns.c' l='417' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='420' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='424' u='c' c='dns_server'/>

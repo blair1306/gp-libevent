@@ -1,0 +1,4 @@
+<def f='codebrowser/include/event2/bufferevent.h' l='670' ll='680'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='667'>/**
+   Values that filters can return.
+ */</doc>

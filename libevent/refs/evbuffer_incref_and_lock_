@@ -1,0 +1,4 @@
+<dec f='codebrowser/evbuffer-internal.h' l='305' type='void evbuffer_incref_and_lock_(struct evbuffer * buf)'/>
+<def f='codebrowser/buffer.c' l='402' ll='407' type='void evbuffer_incref_and_lock_(struct evbuffer * buf)'/>
+<use f='codebrowser/buffer.c' l='522' u='c' c='evbuffer_invoke_callbacks_'/>
+<doc f='codebrowser/evbuffer-internal.h' l='304'>/** Increase the reference count of buf by one and acquire the lock. */</doc>

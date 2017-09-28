@@ -1,0 +1,8 @@
+<def f='codebrowser/changelist-internal.h' l='53' ll='66'/>
+<size>12</size>
+<doc f='codebrowser/changelist-internal.h' l='52'>/** Represents a */</doc>
+<mbr r='event_change::fd' o='0' t='int'/>
+<mbr r='event_change::old_events' o='32' t='short'/>
+<mbr r='event_change::read_change' o='48' t='uint8_t'/>
+<mbr r='event_change::write_change' o='56' t='uint8_t'/>
+<mbr r='event_change::close_change' o='64' t='uint8_t'/>

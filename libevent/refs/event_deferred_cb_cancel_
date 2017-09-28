@@ -1,0 +1,5 @@
+<dec f='codebrowser/defer-internal.h' l='59' type='void event_deferred_cb_cancel_(struct event_base * , struct event_callback * )'/>
+<use f='codebrowser/buffer.c' l='578' u='c' c='evbuffer_decref_and_unlock_'/>
+<def f='codebrowser/event.c' l='3064' ll='3070' type='void event_deferred_cb_cancel_(struct event_base * base, struct event_callback * cb)'/>
+<use f='codebrowser/http.c' l='1121' u='c' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1234' u='c' c='evhttp_connection_free'/>

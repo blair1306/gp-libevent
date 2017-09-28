@@ -1,0 +1,7 @@
+<dec f='include/x86_64-linux-gnu/bits/resource.h' l='144' type='rlim_t'/>
+<offset>64</offset>
+<doc f='include/x86_64-linux-gnu/bits/resource.h' l='143'>/* The hard limit.  */</doc>
+<use f='codebrowser/test/bench.c' l='171' u='w' c='main'/>
+<use f='codebrowser/test/bench_cascade.c' l='166' u='w' c='main'/>
+<use f='codebrowser/test/regress_listener.c' l='207' u='w' c='regress_listener_error_unlock'/>
+<use f='codebrowser/test/test-fdleak.c' l='226' u='w' c='main'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/buffer.h' l='470' type='int evbuffer_add_buffer_reference(struct evbuffer * outbuf, struct evbuffer * inbuf)'/>
+<def f='codebrowser/buffer.c' l='1006' ll='1047' type='int evbuffer_add_buffer_reference(struct evbuffer * outbuf, struct evbuffer * inbuf)'/>
+<use f='codebrowser/test/regress_buffer.c' l='1949' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1951' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1952' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='2017' u='c' c='test_evbuffer_multicast_drain'/>

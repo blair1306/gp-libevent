@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='69' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/http.c' l='474' u='r' c='evhttp_is_request_connection_close'/>
+<use f='codebrowser/http.c' l='475' u='r' c='evhttp_is_request_connection_close'/>
+<use f='codebrowser/http.c' l='565' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='567' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='706' u='r' c='evhttp_request_free_auto'/>
+<use f='codebrowser/http.c' l='965' u='w' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='969' u='w' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='970' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1088' u='w' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1090' u='w' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1093' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1846' u='w' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='2627' u='r' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='2734' u='r' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='3975' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3976' u='w' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4009' u='w' c='evhttp_request_own'/>
+<use f='codebrowser/http.c' l='4015' u='r' c='evhttp_request_is_owned'/>
+<use f='codebrowser/http.c' l='4226' u='w' c='evhttp_associate_new_request_with_connection'/>

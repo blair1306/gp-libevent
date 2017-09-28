@@ -1,0 +1,3 @@
+<dec f='include/pthread.h' l='754' type='int pthread_mutex_destroy(pthread_mutex_t * __mutex)'/>
+<use f='codebrowser/evthread_pthread.c' l='64' u='c' c='evthread_posix_lock_free'/>
+<doc f='include/pthread.h' l='753'>/* Destroy a mutex.  */</doc>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/bufferevent-internal.h' l='301' type='const struct bufferevent_ops'/>
+<def f='codebrowser/bufferevent_sock.c' l='87' ll='97' type='const struct bufferevent_ops'/>
+<use f='codebrowser/bufferevent_sock.c' l='357' u='a' c='bufferevent_socket_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='607' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_sock.c' l='632' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_sock.c' l='662' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_sock.c' l='685' macro='1' u='a'/>

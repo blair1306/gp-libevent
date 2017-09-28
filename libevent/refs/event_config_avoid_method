@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='490' type='int event_config_avoid_method(struct event_config * cfg, const char * method)'/>
+<def f='codebrowser/event.c' l='1138' ll='1153' type='int event_config_avoid_method(struct event_config * cfg, const char * method)'/>
+<use f='codebrowser/test/regress.c' l='2525' u='c' c='test_methods'/>
+<use f='codebrowser/test/regress.c' l='3004' u='c' c='test_mm_functions'/>

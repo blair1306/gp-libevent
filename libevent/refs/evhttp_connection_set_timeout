@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/http.h' l='736' type='void evhttp_connection_set_timeout(struct evhttp_connection * evcon, int timeout_in_secs)'/>
+<use f='codebrowser/evrpc.c' l='596' u='c' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='623' u='c' c='evrpc_pool_set_timeout'/>
+<def f='codebrowser/http.c' l='2452' ll='2464' type='void evhttp_connection_set_timeout(struct evhttp_connection * evcon, int timeout_in_secs)'/>
+<use f='codebrowser/sample/https-client.c' l='431' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='1370' u='c' c='http_fill_backlog'/>
+<use f='codebrowser/test/regress_http.c' l='1467' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3668' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='3738' u='c' c='http_connection_retry_test_basic'/>

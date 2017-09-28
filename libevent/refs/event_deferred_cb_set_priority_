@@ -1,0 +1,6 @@
+<dec f='codebrowser/defer-internal.h' l='54' type='void event_deferred_cb_set_priority_(struct event_callback * , uint8_t )'/>
+<doc f='codebrowser/defer-internal.h' l='51'>/**
+   Change the priority of a non-pending event_callback.
+ */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='670' u='c' c='bufferevent_priority_set'/>
+<def f='codebrowser/event.c' l='3058' ll='3062' type='void event_deferred_cb_set_priority_(struct event_callback * cb, uint8_t priority)'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/http.h' l='1160' type='struct evhttp_uri * evhttp_uri_parse(const char * source_uri)'/>
+<use f='codebrowser/http.c' l='3215' u='c' c='evhttp_parse_query_impl'/>
+<def f='codebrowser/http.c' l='4690' ll='4694' type='struct evhttp_uri * evhttp_uri_parse(const char * source_uri)'/>
+<use f='codebrowser/sample/http-connect.c' l='79' u='c' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='84' u='c' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='94' u='c' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='180' u='c' c='send_document_cb'/>
+<use f='codebrowser/sample/https-client.c' l='278' u='c' c='main'/>

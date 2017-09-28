@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='182' type='int evdns_nameserver_ip_add(const char * ip_as_string)'/>
+<def f='codebrowser/evdns.c' l='2635' ll='2640' type='int evdns_nameserver_ip_add(const char * ip_as_string)'/>

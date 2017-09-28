@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='822' type='const struct evhttp_uri * evhttp_request_get_evhttp_uri(const struct evhttp_request * req)'/>
+<def f='codebrowser/http.c' l='4070' ll='4076' type='const struct evhttp_uri * evhttp_request_get_evhttp_uri(const struct evhttp_request * req)'/>

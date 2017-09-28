@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='653' type='void evhttp_connection_set_family(struct evhttp_connection * evcon, int family)'/>
+<def f='codebrowser/http.c' l='2420' ll='2424' type='void evhttp_connection_set_family(struct evhttp_connection * evcon, int family)'/>
+<use f='codebrowser/test/regress_http.c' l='1052' u='c' c='http_connection_test_'/>

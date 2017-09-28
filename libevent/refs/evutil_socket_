@@ -1,0 +1,6 @@
+<dec f='codebrowser/util-internal.h' l='490' type='int evutil_socket_(int domain, int type, int protocol)'/>
+<use f='codebrowser/bufferevent_sock.c' l='396' u='c' c='bufferevent_socket_connect'/>
+<use f='codebrowser/evdns.c' l='2514' u='c' c='evdns_nameserver_add_impl_'/>
+<def f='codebrowser/evutil.c' l='2522' ll='2550' macro='1' type='int evutil_socket_(int domain, int type, int protocol)'/>
+<use f='codebrowser/http.c' l='4326' u='c' c='bind_socket_ai'/>
+<use f='codebrowser/listener.c' l='226' u='c' c='evconnlistener_new_bind'/>

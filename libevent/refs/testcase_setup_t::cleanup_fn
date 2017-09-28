@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/tinytest.h' l='49' type='int (*)(const struct testcase_t *, void *)'/>
+<offset>64</offset>
+<doc f='codebrowser/test/tinytest.h' l='48'>/** Clean/free a structure from setup_fn. Return 1 if ok, 0 on err. */</doc>
+<use f='codebrowser/test/tinytest.c' l='109' u='r' c='testcase_run_bare_'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event.h' l='1548'/>
+<doc f='codebrowser/include/event2/event.h' l='1546'>/** This definition is present if Libevent was built with support for
+    event_set_mem_functions() */</doc>
+<use f='codebrowser/test/regress_dns.c' l='1792' u='a'/>
+<use f='codebrowser/test/regress_dns.c' l='2143' u='a'/>

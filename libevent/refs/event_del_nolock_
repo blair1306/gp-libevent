@@ -1,0 +1,16 @@
+<dec f='codebrowser/event-internal.h' l='420' type='int event_del_nolock_(struct event * ev, int blocking)'/>
+<use f='codebrowser/event.c' l='970' u='c' c='event_reinit'/>
+<use f='codebrowser/event.c' l='985' u='c' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1434' u='c' c='common_timeout_callback'/>
+<use f='codebrowser/event.c' l='1609' u='c' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2205' u='c' c='event_finalize_nolock_'/>
+<use f='codebrowser/event.c' l='2247' u='c' c='event_callback_finalize_nolock_'/>
+<use f='codebrowser/event.c' l='2733' u='c' c='event_del_'/>
+<def f='codebrowser/event.c' l='2763' ll='2848' type='int event_del_nolock_(struct event * ev, int blocking)'/>
+<use f='codebrowser/event.c' l='3026' u='c' c='event_callback_cancel_nolock_'/>
+<use f='codebrowser/event.c' l='3148' u='c' c='timeout_process'/>
+<doc f='codebrowser/event.c' l='2758'>/** Helper for event_del: always called with th_base_lock held.
+ *
+ * &quot;blocking&quot; must be one of the EVENT_DEL_{BLOCK, NOBLOCK, AUTOBLOCK,
+ * EVEN_IF_FINALIZING} values. See those for more information.
+ */</doc>

@@ -1,0 +1,31 @@
+<dec f='codebrowser/compat/sys/queue.h' l='317'/>
+<doc f='codebrowser/compat/sys/queue.h' l='314'>/*
+ * Tail queue functions.
+ */</doc>
+<use f='codebrowser/evdns.c' l='3948' u='c'/>
+<use f='codebrowser/event.c' l='609' u='c'/>
+<use f='codebrowser/event.c' l='1101' u='c'/>
+<use f='codebrowser/event.c' l='1227' u='c'/>
+<use f='codebrowser/event.c' l='1497' u='c'/>
+<use f='codebrowser/evrpc.c' l='81' u='c'/>
+<use f='codebrowser/evrpc.c' l='82' u='c'/>
+<use f='codebrowser/evrpc.c' l='83' u='c'/>
+<use f='codebrowser/evrpc.c' l='85' u='c'/>
+<use f='codebrowser/evrpc.c' l='513' u='c'/>
+<use f='codebrowser/evrpc.c' l='514' u='c'/>
+<use f='codebrowser/evrpc.c' l='516' u='c'/>
+<use f='codebrowser/evrpc.c' l='518' u='c'/>
+<use f='codebrowser/evrpc.c' l='519' u='c'/>
+<use f='codebrowser/evrpc.c' l='1004' u='c'/>
+<use f='codebrowser/http.c' l='1411' u='c'/>
+<use f='codebrowser/http.c' l='2375' u='c'/>
+<use f='codebrowser/http.c' l='3212' u='c'/>
+<use f='codebrowser/http.c' l='3628' u='c'/>
+<use f='codebrowser/http.c' l='3629' u='c'/>
+<use f='codebrowser/http.c' l='3630' u='c'/>
+<use f='codebrowser/http.c' l='3631' u='c'/>
+<use f='codebrowser/http.c' l='3632' u='c'/>
+<use f='codebrowser/http.c' l='3942' u='c'/>
+<use f='codebrowser/http.c' l='3949' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='2361' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='2390' u='c'/>

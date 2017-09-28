@@ -1,0 +1,4 @@
+<dec f='codebrowser/evmap-internal.h' l='43' type='void evmap_signal_initmap_(struct event_signal_map * ctx)'/>
+<use f='codebrowser/event.c' l='612' u='c' c='event_base_new_with_config'/>
+<use f='codebrowser/evmap.c' l='190' u='c' c='evmap_io_initmap_'/>
+<def f='codebrowser/evmap.c' l='227' ll='232' type='void evmap_signal_initmap_(struct event_signal_map * ctx)'/>

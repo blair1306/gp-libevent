@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='366' type='enum event_method_feature'/>
+<offset>384</offset>
+<use f='codebrowser/event.c' l='641' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='642' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1161' u='w' c='event_config_require_features'/>

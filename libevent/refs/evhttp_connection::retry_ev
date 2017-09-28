@@ -1,0 +1,8 @@
+<dec f='codebrowser/http-internal.h' l='62' type='struct event'/>
+<offset>256</offset>
+<doc f='codebrowser/http-internal.h' l='62'>/* for retrying connects */</doc>
+<use f='codebrowser/http.c' l='1226' u='a' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1227' u='a' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1228' u='a' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1386' u='a' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='1400' u='a' c='evhttp_connection_cb_cleanup'/>

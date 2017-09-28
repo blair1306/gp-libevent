@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/dns.h' l='157'/>
+<use f='codebrowser/evdns.c' l='873' u='c'/>
+<use f='codebrowser/evdns.c' l='897' u='c'/>
+<use f='codebrowser/evdns.c' l='1281' u='c'/>
+<use f='codebrowser/evdns.c' l='3999' u='c'/>
+<use f='codebrowser/evdns.c' l='4381' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='156'>/** The name server does not support the requested kind of query */</doc>

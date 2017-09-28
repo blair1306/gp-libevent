@@ -1,0 +1,7 @@
+<dec f='codebrowser/evrpc-internal.h' l='83' type='void evrpc_reqstate_free_(struct evrpc_req_generic * rpc_state)'/>
+<use f='codebrowser/evrpc.c' l='332' u='c' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='374' u='c' c='evrpc_request_cb_closure'/>
+<def f='codebrowser/evrpc.c' l='380' ll='397' type='void evrpc_reqstate_free_(struct evrpc_req_generic * rpc_state)'/>
+<use f='codebrowser/evrpc.c' l='455' u='c' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='490' u='c' c='evrpc_request_done_closure'/>
+<use f='codebrowser/evrpc.c' l='495' u='c' c='evrpc_request_done_closure'/>

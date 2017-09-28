@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='711' type='char * X509_PURPOSE_get0_sname(X509_PURPOSE * xp)'/>

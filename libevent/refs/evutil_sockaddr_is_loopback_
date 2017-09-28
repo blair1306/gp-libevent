@@ -1,0 +1,4 @@
+<dec f='codebrowser/util-internal.h' l='422' type='int evutil_sockaddr_is_loopback_(const struct sockaddr * sa)'/>
+<use f='codebrowser/evdns.c' l='2519' u='c' c='evdns_nameserver_add_impl_'/>
+<def f='codebrowser/evutil.c' l='2459' ll='2472' type='int evutil_sockaddr_is_loopback_(const struct sockaddr * addr)'/>
+<use f='codebrowser/test/regress_util.c' l='358' u='c' c='test_evutil_sockaddr_predicates'/>

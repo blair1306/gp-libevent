@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='791' type='void ev_token_bucket_cfg_free(struct ev_token_bucket_cfg * cfg)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='175' ll='179' type='void ev_token_bucket_cfg_free(struct ev_token_bucket_cfg * cfg)'/>

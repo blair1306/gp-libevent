@@ -1,0 +1,4 @@
+<dec f='codebrowser/event-internal.h' l='204' type='void (*)(int, short, void *)'/>
+<offset>1152</offset>
+<use f='codebrowser/event.c' l='1990' u='r' c='event_once_cb'/>
+<use f='codebrowser/event.c' l='2025' u='w' c='event_base_once'/>

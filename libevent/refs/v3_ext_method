@@ -1,0 +1,17 @@
+<def f='include/openssl/x509v3.h' l='104' ll='124'/>
+<size>104</size>
+<doc f='include/openssl/x509v3.h' l='102'>/* V3 extension structure */</doc>
+<mbr r='v3_ext_method::ext_nid' o='0' t='int'/>
+<mbr r='v3_ext_method::ext_flags' o='32' t='int'/>
+<mbr r='v3_ext_method::it' o='64' t='ASN1_ITEM_EXP *'/>
+<mbr r='v3_ext_method::ext_new' o='128' t='X509V3_EXT_NEW'/>
+<mbr r='v3_ext_method::ext_free' o='192' t='X509V3_EXT_FREE'/>
+<mbr r='v3_ext_method::d2i' o='256' t='X509V3_EXT_D2I'/>
+<mbr r='v3_ext_method::i2d' o='320' t='X509V3_EXT_I2D'/>
+<mbr r='v3_ext_method::i2s' o='384' t='X509V3_EXT_I2S'/>
+<mbr r='v3_ext_method::s2i' o='448' t='X509V3_EXT_S2I'/>
+<mbr r='v3_ext_method::i2v' o='512' t='X509V3_EXT_I2V'/>
+<mbr r='v3_ext_method::v2i' o='576' t='X509V3_EXT_V2I'/>
+<mbr r='v3_ext_method::i2r' o='640' t='X509V3_EXT_I2R'/>
+<mbr r='v3_ext_method::r2i' o='704' t='X509V3_EXT_R2I'/>
+<mbr r='v3_ext_method::usr_data' o='768' t='void *'/>

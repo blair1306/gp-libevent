@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/tag.h' l='62' type='void evtag_init()'/>
+<def f='codebrowser/event_tagging.c' l='105' ll='108' type='void evtag_init()'/>
+<use f='codebrowser/evrpc.c' l='79' u='c' c='evrpc_init'/>
+<use f='codebrowser/test/regress.c' l='2378' u='c' c='evtag_int_test'/>
+<use f='codebrowser/test/regress.c' l='2414' u='c' c='evtag_fuzz'/>
+<use f='codebrowser/test/regress.c' l='2455' u='c' c='evtag_tag_encoding'/>

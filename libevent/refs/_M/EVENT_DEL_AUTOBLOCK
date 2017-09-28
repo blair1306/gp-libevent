@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='416'/>
+<doc f='codebrowser/event-internal.h' l='413'>/** Argument for event_del_nolock_. Tells event_del to block on the event
+ * if it is running in another thread and it doesn&apos;t have EV_FINALIZE set.
+ */</doc>
+<use f='codebrowser/event.c' l='970' u='c'/>
+<use f='codebrowser/event.c' l='985' u='c'/>
+<use f='codebrowser/event.c' l='2743' u='c'/>
+<use f='codebrowser/event.c' l='3027' u='c'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/listener.h' l='65'/>
+<use f='codebrowser/http.c' l='3554' u='c'/>
+<doc f='codebrowser/include/event2/listener.h' l='63'>/** Flag: Indicates that freeing the listener should close the underlying
+ * socket. */</doc>
+<use f='codebrowser/listener.c' l='281' u='c'/>
+<use f='codebrowser/sample/hello-world.c' l='62' u='c'/>
+<use f='codebrowser/sample/le-proxy.c' l='280' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='751' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1145' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='82' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='161' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='196' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='691' u='c'/>
+<use f='codebrowser/test/test-fdleak.c' l='133' u='c'/>
+<use f='codebrowser/test/test-ratelim.c' l='297' u='c'/>

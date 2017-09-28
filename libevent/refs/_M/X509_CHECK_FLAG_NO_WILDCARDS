@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509v3.h' l='727'/>
+<doc f='include/openssl/x509v3.h' l='726'>/* Disable wildcard matching for dnsName fields and common name. */</doc>

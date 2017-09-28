@@ -1,0 +1,8 @@
+<dec f='codebrowser/bufferevent-internal.h' l='288' type='void (*)(struct bufferevent *)'/>
+<offset>320</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='284'>/** Free any storage and deallocate any extra data or structures used
+	    in this implementation. Called when the bufferevent is
+	    finalized.
+	 */</doc>
+<use f='codebrowser/bufferevent.c' l='737' u='r' c='bufferevent_finalize_cb_'/>
+<use f='codebrowser/bufferevent.c' l='738' u='r' c='bufferevent_finalize_cb_'/>

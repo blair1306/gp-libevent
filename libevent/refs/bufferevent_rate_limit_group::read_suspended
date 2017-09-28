@@ -1,0 +1,10 @@
+<dec f='codebrowser/bufferevent-internal.h' l='88' type='unsigned int'/>
+<offset>704</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='86'>/** True iff we don&apos;t want to read from any member of the group.until
+	 * the token bucket refills.  */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='207' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='301' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='354' u='w' c='bev_group_suspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='493' u='w' c='bev_group_unsuspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='543' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='768' u='r' c='bufferevent_add_to_rate_limit_group'/>

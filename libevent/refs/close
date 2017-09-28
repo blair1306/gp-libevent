@@ -1,0 +1,30 @@
+<dec f='include/unistd.h' l='356' type='int close(int __fd)'/>
+<use f='codebrowser/buffer.c' l='3166' u='c' c='evbuffer_file_segment_free'/>
+<doc f='include/unistd.h' l='352'>/* Close the file descriptor FD.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/epoll.c' l='162' u='c' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='172' u='c' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='202' u='c' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='530' u='c' c='epoll_dealloc'/>
+<use f='codebrowser/epoll.c' l='533' u='c' c='epoll_dealloc'/>
+<use f='codebrowser/evutil.c' l='121' u='c' c='evutil_open_closeonexec_'/>
+<use f='codebrowser/evutil.c' l='164' u='c' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='169' u='c' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='184' u='c' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='441' u='c' c='evutil_closesocket'/>
+<use f='codebrowser/evutil.c' l='2621' u='c' c='evutil_make_internal_pipe_'/>
+<use f='codebrowser/evutil.c' l='2622' u='c' c='evutil_make_internal_pipe_'/>
+<use f='codebrowser/arc4random.c' l='268' u='c' c='arc4_seed_proc_sys_kernel_random_uuid'/>
+<use f='codebrowser/arc4random.c' l='309' u='c' c='arc4_seed_urandom_helper_'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='156' u='c' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='311' u='c' c='send_document_cb'/>
+<use f='codebrowser/test/regress.c' l='1173' u='c' c='test_signal_pipeloss'/>
+<use f='codebrowser/test/regress.c' l='2876' u='c' c='test_event_closed_fd_poll'/>
+<use f='codebrowser/test/regress.c' l='2922' u='c' c='test_dup_fd'/>
+<use f='codebrowser/test/regress.c' l='2949' u='c' c='test_dup_fd'/>
+<use f='codebrowser/test/regress_main.c' l='136' u='c' c='regress_make_tmpfile'/>
+<use f='codebrowser/test/tinytest.c' l='188' u='c' c='testcase_run_forked_'/>
+<use f='codebrowser/test/tinytest.c' l='205' u='c' c='testcase_run_forked_'/>
+<use f='codebrowser/test/tinytest.c' l='214' u='c' c='testcase_run_forked_'/>

@@ -1,0 +1,3 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='181' type='double fabs(double __x)'/>
+<use f='codebrowser/test/test-ratelim.c' l='440' u='c' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='452' u='c' c='test_ratelimiting'/>

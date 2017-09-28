@@ -1,0 +1,4 @@
+<dec f='codebrowser/evmap-internal.h' l='86' type='void evmap_signal_active_(struct event_base * base, int signum, int ncalls)'/>
+<use f='codebrowser/event.c' l='3786' u='c' c='event_base_active_by_signal'/>
+<def f='codebrowser/evmap.c' l='489' ll='504' type='void evmap_signal_active_(struct event_base * base, int sig, int ncalls)'/>
+<use f='codebrowser/signal.c' l='168' u='c' c='evsig_cb'/>

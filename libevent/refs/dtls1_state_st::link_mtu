@@ -1,0 +1,3 @@
+<dec f='include/openssl/dtls1.h' l='219' type='unsigned int'/>
+<offset>5152</offset>
+<doc f='include/openssl/dtls1.h' l='219'>/* max on-the-wire DTLS packet size */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/dns.h' l='655' type='int evdns_server_request_drop(struct evdns_server_request * req)'/>
+<def f='codebrowser/evdns.c' l='2136' ll='2142' type='int evdns_server_request_drop(struct evdns_server_request * req_)'/>
+<doc f='codebrowser/evdns.c' l='2135'>/* exported function */</doc>
+<use f='codebrowser/test/regress_dns.c' l='274' u='c' c='dns_server_request_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='695' u='c' c='fail_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='716' u='c' c='fail_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1090' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1105' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1114' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1120' u='c' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='213' u='c' c='regress_dns_server_cb'/>

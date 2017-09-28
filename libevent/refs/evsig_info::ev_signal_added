@@ -1,0 +1,11 @@
+<dec f='codebrowser/evsignal-internal.h' l='45' type='int'/>
+<offset>1088</offset>
+<doc f='codebrowser/evsignal-internal.h' l='44'>/* True iff we&apos;ve added the ev_signal event yet. */</doc>
+<use f='codebrowser/event.c' l='969' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='974' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1032' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1903' u='r' c='event_base_loop'/>
+<use f='codebrowser/signal.c' l='307' u='r' c='evsig_add'/>
+<use f='codebrowser/signal.c' l='310' u='w' c='evsig_add'/>
+<use f='codebrowser/signal.c' l='416' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='418' u='w' c='evsig_dealloc_'/>

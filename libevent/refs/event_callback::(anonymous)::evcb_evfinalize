@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='116' type='void (*)(struct event *, void *)'/>
+<offset>0</offset>
+<use f='codebrowser/event.c' l='758' u='r' c='event_base_cancel_single_callback_'/>
+<use f='codebrowser/event.c' l='1664' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2207' u='w' c='event_finalize_nolock_'/>

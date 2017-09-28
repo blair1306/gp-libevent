@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/event.h' l='1178' type='int event_free_finalize(unsigned int , struct event * , event_finalize_callback_fn )'/>
+<def f='codebrowser/event.c' l='2235' ll='2239' type='int event_free_finalize(unsigned int flags, struct event * ev, event_finalize_callback_fn cb)'/>
+<use f='codebrowser/test/regress_finalize.c' l='89' u='c' c='test_fin_cb_invoked'/>
+<use f='codebrowser/test/regress_finalize.c' l='119' u='c' c='test_fin_cb_invoked'/>
+<use f='codebrowser/test/regress_finalize.c' l='134' u='c' c='test_fin_cb_invoked'/>
+<use f='codebrowser/test/regress_finalize.c' l='146' u='c' c='test_fin_cb_invoked'/>
+<use f='codebrowser/test/regress_finalize.c' l='210' u='c' c='test_fin_free_finalize'/>

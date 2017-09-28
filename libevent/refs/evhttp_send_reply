@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/http.h' l='418' type='void evhttp_send_reply(struct evhttp_request * req, int code, const char * reason, struct evbuffer * databuf)'/>
+<use f='codebrowser/evrpc.c' l='488' u='c' c='evrpc_request_done_closure'/>
+<def f='codebrowser/http.c' l='2809' ll='2816' type='void evhttp_send_reply(struct evhttp_request * req, int code, const char * reason, struct evbuffer * databuf)'/>
+<use f='codebrowser/sample/http-server.c' l='151' u='c' c='dump_request_cb'/>
+<use f='codebrowser/sample/http-server.c' l='306' u='c' c='send_document_cb'/>
+<use f='codebrowser/test/bench_http.c' l='64' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/bench_http.c' l='78' u='c' c='http_ref_cb'/>
+<use f='codebrowser/test/regress_http.c' l='342' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='358' u='c' c='http_large_cb'/>
+<use f='codebrowser/test/regress_http.c' l='556' u='c' c='http_delay_reply'/>
+<use f='codebrowser/test/regress_http.c' l='580' u='c' c='http_badreq_cb'/>
+<use f='codebrowser/test/regress_http.c' l='753' u='c' c='http_delete_cb'/>
+<use f='codebrowser/test/regress_http.c' l='836' u='c' c='http_on_complete_cb'/>
+<use f='codebrowser/test/regress_http.c' l='1830' u='c' c='http_dispatcher_cb'/>
+<use f='codebrowser/test/regress_http.c' l='2009' u='c' c='http_post_cb'/>
+<use f='codebrowser/test/regress_http.c' l='2126' u='c' c='http_put_cb'/>

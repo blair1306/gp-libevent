@@ -1,0 +1,7 @@
+<dec f='codebrowser/evdns.c' l='4236' type='struct addrinfo'/>
+<use f='codebrowser/evdns.c' l='4526' u='a' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4695' u='a' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4695' u='r' c='evdns_getaddrinfo'/>
+<offset>64</offset>
+<doc f='codebrowser/evdns.c' l='4234'>/* Copy of the modified &apos;hints&apos; data that we&apos;ll use to build
+	 * answers. */</doc>

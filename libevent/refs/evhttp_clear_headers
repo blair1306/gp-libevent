@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/event2/http.h' l='895' type='void evhttp_clear_headers(struct evkeyvalq * headers)'/>
+<def f='codebrowser/http.c' l='1864' ll='1877' type='void evhttp_clear_headers(struct evkeyvalq * headers)'/>
+<use f='codebrowser/http.c' l='3020' u='c' c='evhttp_send_page_'/>
+<use f='codebrowser/http.c' l='3259' u='c' c='evhttp_parse_query_impl'/>
+<use f='codebrowser/http.c' l='3991' u='c' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3994' u='c' c='evhttp_request_free'/>
+<use f='codebrowser/test/regress_http.c' l='2370' u='c' c='http_bad_header_test'/>
+<use f='codebrowser/test/regress_http.c' l='2395' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2401' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2406' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2411' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2416' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2420' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2425' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2431' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2435' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2439' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2443' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2450' u='c' c='http_parse_query_test'/>
+<use f='codebrowser/test/regress_http.c' l='2453' u='c' c='http_parse_query_test'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/event-internal.h' l='459' type='void event_base_assert_ok_nolock_(struct event_base * base)'/>
+<use f='codebrowser/event.c' l='3880' u='c' c='event_base_assert_ok_'/>
+<def f='codebrowser/event.c' l='3884' ll='3941' type='void event_base_assert_ok_nolock_(struct event_base * base)'/>

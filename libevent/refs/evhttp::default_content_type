@@ -1,0 +1,5 @@
+<dec f='codebrowser/http-internal.h' l='161' type='const char *'/>
+<offset>1152</offset>
+<use f='codebrowser/http.c' l='557' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='560' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='3844' u='w' c='evhttp_set_default_content_type'/>

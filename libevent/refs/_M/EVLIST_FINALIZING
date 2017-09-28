@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='63'/>
+<use f='codebrowser/event.c' l='753' u='c'/>
+<use f='codebrowser/event.c' l='1606' u='c'/>
+<use f='codebrowser/event.c' l='1665' u='c'/>
+<use f='codebrowser/event.c' l='1676' u='c'/>
+<use f='codebrowser/event.c' l='2209' u='c'/>
+<use f='codebrowser/event.c' l='2255' u='c'/>
+<use f='codebrowser/event.c' l='2572' u='c'/>
+<use f='codebrowser/event.c' l='2779' u='c'/>
+<use f='codebrowser/event.c' l='2879' u='c'/>
+<use f='codebrowser/event.c' l='2961' u='c'/>
+<use f='codebrowser/event.c' l='3022' u='c'/>

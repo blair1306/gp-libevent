@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='336' type='int evhttp_remove_virtual_host(struct evhttp * http, struct evhttp * vhost)'/>
+<def f='codebrowser/http.c' l='3735' ll='3747' type='int evhttp_remove_virtual_host(struct evhttp * http, struct evhttp * vhost)'/>

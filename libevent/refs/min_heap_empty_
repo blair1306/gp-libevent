@@ -1,0 +1,4 @@
+<dec f='codebrowser/minheap-internal.h' l='49' type='int min_heap_empty_(min_heap_t * s)'/>
+<def f='codebrowser/minheap-internal.h' l='67' type='int min_heap_empty_(min_heap_t * s)'/>
+<use f='codebrowser/event.c' l='888' u='c' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='3137' u='c' c='timeout_process'/>

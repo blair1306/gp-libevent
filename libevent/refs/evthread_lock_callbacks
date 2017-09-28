@@ -1,0 +1,12 @@
+<def f='codebrowser/include/event2/thread.h' l='95' ll='119'/>
+<size>40</size>
+<doc f='codebrowser/include/event2/thread.h' l='91'>/** This structure describes the interface a threading library uses for
+ * locking.   It&apos;s used to tell evthread_set_lock_callbacks() how to use
+ * locking on this platform.
+ */</doc>
+<mbr r='evthread_lock_callbacks::lock_api_version' o='0' t='int'/>
+<mbr r='evthread_lock_callbacks::supported_locktypes' o='32' t='unsigned int'/>
+<mbr r='evthread_lock_callbacks::alloc' o='64' t='void *(*)(unsigned int)'/>
+<mbr r='evthread_lock_callbacks::free' o='128' t='void (*)(void *, unsigned int)'/>
+<mbr r='evthread_lock_callbacks::lock' o='192' t='int (*)(unsigned int, void *)'/>
+<mbr r='evthread_lock_callbacks::unlock' o='256' t='int (*)(unsigned int, void *)'/>

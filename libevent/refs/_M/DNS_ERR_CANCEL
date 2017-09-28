@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/dns.h' l='170'/>
+<use f='codebrowser/evdns.c' l='2297' u='c'/>
+<use f='codebrowser/evdns.c' l='2869' u='c'/>
+<use f='codebrowser/evdns.c' l='4006' u='c'/>
+<use f='codebrowser/evdns.c' l='4382' u='c'/>
+<use f='codebrowser/evdns.c' l='4433' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='169'>/** The request was canceled via a call to evdns_cancel_request */</doc>
+<use f='codebrowser/test/regress_dns.c' l='294' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='676' u='c'/>

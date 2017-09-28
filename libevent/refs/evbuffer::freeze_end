@@ -1,0 +1,16 @@
+<dec f='codebrowser/evbuffer-internal.h' l='123' type='unsigned int'/>
+<use f='codebrowser/buffer.c' l='677' u='r' c='evbuffer_reserve_space'/>
+<use f='codebrowser/buffer.c' l='729' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='974' u='r' c='evbuffer_add_buffer'/>
+<use f='codebrowser/buffer.c' l='1021' u='r' c='evbuffer_add_buffer_reference'/>
+<use f='codebrowser/buffer.c' l='1274' u='r' c='evbuffer_remove_buffer'/>
+<use f='codebrowser/buffer.c' l='1732' u='r' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='2286' u='r' c='evbuffer_read'/>
+<use f='codebrowser/buffer.c' l='2842' u='r' c='evbuffer_add_vprintf'/>
+<use f='codebrowser/buffer.c' l='2929' u='r' c='evbuffer_add_reference'/>
+<use f='codebrowser/buffer.c' l='3204' u='r' c='evbuffer_add_file_segment'/>
+<use f='codebrowser/buffer.c' l='3387' u='w' c='evbuffer_freeze'/>
+<use f='codebrowser/buffer.c' l='3399' u='w' c='evbuffer_unfreeze'/>
+<offset>450</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='121'>/** True iff we should not allow changes to the end of the buffer
+	 * (appends) */</doc>

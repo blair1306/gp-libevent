@@ -1,0 +1,16 @@
+<def f='codebrowser/evbuffer-internal.h' l='235' ll='266'/>
+<size>80</size>
+<doc f='codebrowser/evbuffer-internal.h' l='234'>/* Declared in event2/buffer.h; defined here. */</doc>
+<mbr r='evbuffer_file_segment::lock' o='0' t='void *'/>
+<mbr r='evbuffer_file_segment::refcnt' o='64' t='int'/>
+<mbr r='evbuffer_file_segment::flags' o='96' t='unsigned int'/>
+<mbr r='evbuffer_file_segment::can_sendfile' o='128' t='unsigned int'/>
+<mbr r='evbuffer_file_segment::is_mapping' o='129' t='unsigned int'/>
+<mbr r='evbuffer_file_segment::fd' o='160' t='int'/>
+<mbr r='evbuffer_file_segment::mapping' o='192' t='void *'/>
+<mbr r='evbuffer_file_segment::contents' o='256' t='char *'/>
+<mbr r='evbuffer_file_segment::file_offset' o='320' t='int64_t'/>
+<mbr r='evbuffer_file_segment::mmap_offset' o='384' t='int64_t'/>
+<mbr r='evbuffer_file_segment::length' o='448' t='int64_t'/>
+<mbr r='evbuffer_file_segment::cleanup_cb' o='512' t='evbuffer_file_segment_cleanup_cb'/>
+<mbr r='evbuffer_file_segment::cleanup_cb_arg' o='576' t='void *'/>

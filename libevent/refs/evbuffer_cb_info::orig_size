@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/buffer.h' l='865' type='size_t'/>
+<use f='codebrowser/buffer.c' l='487' u='w' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='506' u='r' c='evbuffer_run_callbacks'/>
+<offset>0</offset>
+<doc f='codebrowser/include/event2/buffer.h' l='863'>/** The number of bytes in this evbuffer when callbacks were last
+	 * invoked. */</doc>
+<use f='codebrowser/bufferevent_openssl.c' l='1140' u='r' c='be_openssl_outbuf_cb'/>
+<use f='codebrowser/test/regress_buffer.c' l='1739' u='r' c='log_change_callback'/>
+<use f='codebrowser/test/regress_buffer.c' l='2037' u='r' c='check_prepend'/>

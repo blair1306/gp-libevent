@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/buffer.h' l='418' type='3'/>
+<use f='codebrowser/buffer.c' l='1653' c='evbuffer_search_eol'/>
+<doc f='codebrowser/include/event2/buffer.h' l='417'>/** An EOL is a LF. */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1320' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1325' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1330' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1335' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1412' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1420' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1427' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1470' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1475' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1481' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1487' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='2341' u='r' c='test_evbuffer_freeze'/>
+<use f='codebrowser/test/regress_ssl.c' l='268' u='r' c='respond_to_number'/>

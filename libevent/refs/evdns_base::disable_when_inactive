@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='362' type='int'/>
+<use f='codebrowser/evdns.c' l='671' u='r' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='2211' u='r' c='evdns_request_transmit_to'/>
+<use f='codebrowser/evdns.c' l='2534' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='3972' u='w' c='evdns_base_new'/>
+<offset>2432</offset>

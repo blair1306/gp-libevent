@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress.h' l='91'/>
+<use f='codebrowser/test/regress_dns.c' l='2115' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='2116' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='2117' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='246' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='280' u='c'/>

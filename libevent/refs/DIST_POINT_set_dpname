@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='578' type='int DIST_POINT_set_dpname(DIST_POINT_NAME * dpn, X509_NAME * iname)'/>

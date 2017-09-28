@@ -1,0 +1,31 @@
+<dec f='codebrowser/event-internal.h' l='264' type='struct evcallback_list *'/>
+<offset>1984</offset>
+<doc f='codebrowser/event-internal.h' l='260'>/** An array of nactivequeues queues for active event_callbacks (ones
+	 * that have triggered, and whose callbacks need to be called).  Low
+	 * priority numbers are more important, and stall higher ones.
+	 */</doc>
+<use f='codebrowser/event.c' l='779' u='r' c='event_base_free_queues_'/>
+<use f='codebrowser/event.c' l='886' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='891' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='1213' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1218' u='w' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1220' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1227' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1227' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1227' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1737' u='r' c='event_process_active'/>
+<use f='codebrowser/event.c' l='1739' u='r' c='event_process_active'/>
+<use f='codebrowser/event.c' l='3198' u='r' c='event_queue_remove_active'/>
+<use f='codebrowser/event.c' l='3343' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3343' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3343' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3398' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3398' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3398' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3673' u='r' c='event_base_foreach_event_nolock_'/>
+<use f='codebrowser/event.c' l='3925' u='r' c='event_base_assert_ok_nolock_'/>
+<use f='codebrowser/event.c' l='3925' u='r' c='event_base_assert_ok_nolock_'/>
+<use f='codebrowser/event.c' l='3925' u='r' c='event_base_assert_ok_nolock_'/>
+<use f='codebrowser/event.c' l='3925' u='r' c='event_base_assert_ok_nolock_'/>
+<use f='codebrowser/event.c' l='3925' u='r' c='event_base_assert_ok_nolock_'/>
+<use f='codebrowser/event.c' l='3926' u='r' c='event_base_assert_ok_nolock_'/>

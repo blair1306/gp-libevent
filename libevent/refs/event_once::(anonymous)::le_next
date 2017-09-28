@@ -1,0 +1,10 @@
+<dec f='codebrowser/event-internal.h' l='201' macro='1' type='struct event_once *'/>
+<offset>0</offset>
+<use f='codebrowser/event.c' l='878' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='878' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='878' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1992' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1992' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1992' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2059' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2059' macro='1' u='a'/>

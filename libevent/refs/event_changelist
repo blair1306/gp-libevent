@@ -1,0 +1,7 @@
+<def f='codebrowser/event-internal.h' l='183' ll='187'/>
+<size>16</size>
+<doc f='codebrowser/event-internal.h' l='181'>/* List of &apos;changes&apos; since the last call to eventop.dispatch.  Only maintained
+ * if the backend is using changesets. */</doc>
+<mbr r='event_changelist::changes' o='0' t='struct event_change *'/>
+<mbr r='event_changelist::n_changes' o='64' t='int'/>
+<mbr r='event_changelist::changes_size' o='96' t='int'/>

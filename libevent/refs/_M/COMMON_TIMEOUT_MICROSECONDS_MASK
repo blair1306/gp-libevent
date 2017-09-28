@@ -1,0 +1,3 @@
+<dec f='codebrowser/event-internal.h' l='177'/>
+<doc f='codebrowser/event-internal.h' l='176'>/** Mask used to get the real tv_usec value from a common timeout. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='171' u='c'/>

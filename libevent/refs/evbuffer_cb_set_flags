@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/buffer.h' l='944' type='int evbuffer_cb_set_flags(struct evbuffer * buffer, struct evbuffer_cb_entry * cb, uint32_t flags)'/>
+<def f='codebrowser/buffer.c' l='3356' ll='3366' type='int evbuffer_cb_set_flags(struct evbuffer * buffer, struct evbuffer_cb_entry * cb, uint32_t flags)'/>
+<use f='codebrowser/bufferevent.c' l='597' u='c' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent_filter.c' l='410' u='c' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='474' u='c' c='be_filter_read_nolock_'/>
+<use f='codebrowser/test/regress_buffer.c' l='1778' u='c' c='test_evbuffer_callbacks'/>

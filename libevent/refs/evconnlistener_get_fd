@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/listener.h' l='163' type='int evconnlistener_get_fd(struct evconnlistener * lev)'/>
+<use f='codebrowser/http.c' l='3590' u='c' c='evhttp_bound_socket_get_fd'/>
+<def f='codebrowser/listener.c' l='327' ll='335' macro='1' type='int evconnlistener_get_fd(struct evconnlistener * lev)'/>
+<use f='codebrowser/test/regress_dns.c' l='1213' u='c' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_listener.c' l='102' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='103' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='104' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='106' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_ssl.c' l='695' u='c' c='regress_bufferevent_openssl_connect'/>
+<use f='codebrowser/test/regress_ssl.c' l='709' u='c' c='regress_bufferevent_openssl_connect'/>
+<use f='codebrowser/test/regress_testutils.c' l='229' u='c' c='regress_get_listener_addr'/>
+<use f='codebrowser/test/test-fdleak.c' l='139' u='c' c='start_loop'/>
+<use f='codebrowser/test/test-ratelim.c' l='305' u='c' c='test_ratelimiting'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/compat/sys/queue.h' l='295'/>
+<use f='codebrowser/event-internal.h' l='377' u='a'/>
+<use f='codebrowser/evdns.c' l='4577' u='c'/>
+<use f='codebrowser/evdns.c' l='4581' u='c'/>
+<use f='codebrowser/event.c' l='780' u='c'/>
+<use f='codebrowser/event.c' l='843' u='c'/>

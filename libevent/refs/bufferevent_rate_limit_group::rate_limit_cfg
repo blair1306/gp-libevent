@@ -1,0 +1,15 @@
+<dec f='codebrowser/bufferevent-internal.h' l='84' type='struct ev_token_bucket_cfg'/>
+<offset>256</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='539' u='a' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='540' u='a' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='652' u='a' c='bufferevent_rate_limit_group_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='652' u='r' c='bufferevent_rate_limit_group_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='m' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='m' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='m' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='684' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='684' u='r' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='715' u='m' c='bufferevent_rate_limit_group_set_min_share'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='716' u='m' c='bufferevent_rate_limit_group_set_min_share'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='717' u='m' c='bufferevent_rate_limit_group_set_min_share'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='718' u='m' c='bufferevent_rate_limit_group_set_min_share'/>

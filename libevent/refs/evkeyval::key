@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/keyvalq_struct.h' l='61' type='char *'/>
+<offset>128</offset>
+<use f='codebrowser/http.c' l='611' u='r' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='1857' u='r' c='evhttp_find_header'/>
+<use f='codebrowser/http.c' l='1873' u='r' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1890' u='r' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1899' u='r' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1950' u='w' c='evhttp_add_header_internal'/>
+<use f='codebrowser/http.c' l='1956' u='r' c='evhttp_add_header_internal'/>
+<use f='codebrowser/sample/http-server.c' l='137' u='r' c='dump_request_cb'/>

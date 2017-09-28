@@ -1,0 +1,4 @@
+<dec f='codebrowser/evthread-internal.h' l='129'/>
+<doc f='codebrowser/evthread-internal.h' l='127'>/** If lock debugging is enabled, and lock is non-null, assert that &apos;lock&apos; is
+ * locked and held by us. */</doc>
+<use f='codebrowser/evthread.c' l='303' u='c'/>

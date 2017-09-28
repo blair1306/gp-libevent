@@ -1,0 +1,15 @@
+<dec f='codebrowser/evbuffer-internal.h' l='120' type='unsigned int'/>
+<use f='codebrowser/buffer.c' l='974' u='r' c='evbuffer_add_buffer'/>
+<use f='codebrowser/buffer.c' l='1064' u='r' c='evbuffer_prepend_buffer'/>
+<use f='codebrowser/buffer.c' l='1064' u='r' c='evbuffer_prepend_buffer'/>
+<use f='codebrowser/buffer.c' l='1108' u='r' c='evbuffer_drain'/>
+<use f='codebrowser/buffer.c' l='1217' u='r' c='evbuffer_copyout_from'/>
+<use f='codebrowser/buffer.c' l='1274' u='r' c='evbuffer_remove_buffer'/>
+<use f='codebrowser/buffer.c' l='1690' u='r' c='evbuffer_readln'/>
+<use f='codebrowser/buffer.c' l='1827' u='r' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='2518' u='r' c='evbuffer_write_atmost'/>
+<use f='codebrowser/buffer.c' l='3385' u='w' c='evbuffer_freeze'/>
+<use f='codebrowser/buffer.c' l='3397' u='w' c='evbuffer_unfreeze'/>
+<offset>449</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='118'>/** True iff we should not allow changes to the front of the buffer
+	 * (drains or prepends). */</doc>

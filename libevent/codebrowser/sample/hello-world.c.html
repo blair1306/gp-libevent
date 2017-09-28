@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>hello-world.c source code [codebrowser/sample/hello-world.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="main "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/sample/hello-world.c'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>sample</a>/<a href='hello-world.c.html'>hello-world.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>  This example program provides a trivial server program that listens for TCP</i></td></tr>
+<tr><th id="3">3</th><td><i>  connections on port 9995.  When they arrive, it writes a short message to</i></td></tr>
+<tr><th id="4">4</th><td><i>  each client connection, and closes each connection once it is flushed.</i></td></tr>
+<tr><th id="5">5</th><td><i></i></td></tr>
+<tr><th id="6">6</th><td><i>  Where possible, it exits cleanly in response to a SIGINT (ctrl-c).</i></td></tr>
+<tr><th id="7">7</th><td><i>*/</i></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#include <a href="../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="11">11</th><td><u>#include <a href="../../include/errno.h.html">&lt;errno.h&gt;</a></u></td></tr>
+<tr><th id="12">12</th><td><u>#include <a href="../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="13">13</th><td><u>#include <a href="../../include/signal.h.html">&lt;signal.h&gt;</a></u></td></tr>
+<tr><th id="14">14</th><td><u>#<span data-ppcond="14">ifndef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="15">15</th><td><u>#include <a href="../../include/netinet/in.h.html">&lt;netinet/in.h&gt;</a></u></td></tr>
+<tr><th id="16">16</th><td><u># <span data-ppcond="16">ifdef</span> <a class="macro" href="../../include/features.h.html#171" data-ref="_M/_XOPEN_SOURCE_EXTENDED">_XOPEN_SOURCE_EXTENDED</a></u></td></tr>
+<tr><th id="17">17</th><td><u>#  include <a href="../../include/arpa/inet.h.html">&lt;arpa/inet.h&gt;</a></u></td></tr>
+<tr><th id="18">18</th><td><u># <span data-ppcond="16">endif</span></u></td></tr>
+<tr><th id="19">19</th><td><u>#include <a href="../../include/x86_64-linux-gnu/sys/socket.h.html">&lt;sys/socket.h&gt;</a></u></td></tr>
+<tr><th id="20">20</th><td><u>#<span data-ppcond="14">endif</span></u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#include <a href="../include/event2/bufferevent.h.html">&lt;event2/bufferevent.h&gt;</a></u></td></tr>
+<tr><th id="23">23</th><td><u>#include <a href="../include/event2/buffer.h.html">&lt;event2/buffer.h&gt;</a></u></td></tr>
+<tr><th id="24">24</th><td><u>#include <a href="../include/event2/listener.h.html">&lt;event2/listener.h&gt;</a></u></td></tr>
+<tr><th id="25">25</th><td><u>#include <a href="../include/event2/util.h.html">&lt;event2/util.h&gt;</a></u></td></tr>
+<tr><th id="26">26</th><td><u>#include <a href="../include/event2/event.h.html">&lt;event2/event.h&gt;</a></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><em>static</em> <em>const</em> <em>char</em> <dfn class="tu decl def" id="MESSAGE" title='MESSAGE' data-type='const char [15]' data-ref="MESSAGE">MESSAGE</dfn>[] = <q>"Hello, World!\n"</q>;</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><em>static</em> <em>const</em> <em>int</em> <dfn class="tu decl def" id="PORT" title='PORT' data-type='const int' data-ref="PORT">PORT</dfn> = <var>9995</var>;</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#listener_cb" title='listener_cb' data-type='void listener_cb(struct evconnlistener * , int , struct sockaddr * , int socklen, void * )' data-ref="listener_cb">listener_cb</a>(<b>struct</b> <a class="type" href="../include/event2/listener.h.html#evconnlistener" title='evconnlistener' data-ref="evconnlistener">evconnlistener</a> *, <a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a>,</td></tr>
+<tr><th id="33">33</th><td>    <b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/socket.h.html#sockaddr" title='sockaddr' data-ref="sockaddr">sockaddr</a> *, <em>int</em> <dfn class="local col1 decl" id="1socklen" title='socklen' data-type='int' data-ref="1socklen">socklen</dfn>, <em>void</em> *);</td></tr>
+<tr><th id="34">34</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#conn_writecb" title='conn_writecb' data-type='void conn_writecb(struct bufferevent * , void * )' data-ref="conn_writecb">conn_writecb</a>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *, <em>void</em> *);</td></tr>
+<tr><th id="35">35</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#conn_eventcb" title='conn_eventcb' data-type='void conn_eventcb(struct bufferevent * , short , void * )' data-ref="conn_eventcb">conn_eventcb</a>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *, <em>short</em>, <em>void</em> *);</td></tr>
+<tr><th id="36">36</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#signal_cb" title='signal_cb' data-type='void signal_cb(int , short , void * )' data-ref="signal_cb">signal_cb</a>(<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a>, <em>short</em>, <em>void</em> *);</td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><em>int</em></td></tr>
+<tr><th id="39">39</th><td><dfn class="decl def" id="main" title='main' data-ref="main">main</dfn>(<em>int</em> <dfn class="local col2 decl" id="2argc" title='argc' data-type='int' data-ref="2argc">argc</dfn>, <em>char</em> **<dfn class="local col3 decl" id="3argv" title='argv' data-type='char **' data-ref="3argv">argv</dfn>)</td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td>	<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#event_base" title='event_base' data-ref="event_base">event_base</a> *<dfn class="local col4 decl" id="4base" title='base' data-type='struct event_base *' data-ref="4base">base</dfn>;</td></tr>
+<tr><th id="42">42</th><td>	<b>struct</b> <a class="type" href="../include/event2/listener.h.html#evconnlistener" title='evconnlistener' data-ref="evconnlistener">evconnlistener</a> *<dfn class="local col5 decl" id="5listener" title='listener' data-type='struct evconnlistener *' data-ref="5listener">listener</dfn>;</td></tr>
+<tr><th id="43">43</th><td>	<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a> *<dfn class="local col6 decl" id="6signal_event" title='signal_event' data-type='struct event *' data-ref="6signal_event">signal_event</dfn>;</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td>	<b>struct</b> <a class="type" href="../../include/netinet/in.h.html#sockaddr_in" title='sockaddr_in' data-ref="sockaddr_in">sockaddr_in</a> <dfn class="local col7 decl" id="7sin" title='sin' data-type='struct sockaddr_in' data-ref="7sin">sin</dfn>;</td></tr>
+<tr><th id="46">46</th><td><u>#<span data-ppcond="46">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="47">47</th><td>	WSADATA wsa_data;</td></tr>
+<tr><th id="48">48</th><td>	WSAStartup(<var>0x0201</var>, &amp;wsa_data);</td></tr>
+<tr><th id="49">49</th><td><u>#<span data-ppcond="46">endif</span></u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td>	<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a> = <a class="ref" href="../include/event2/event.h.html#event_base_new" title='event_base_new' data-ref="event_base_new">event_base_new</a>();</td></tr>
+<tr><th id="52">52</th><td>	<b>if</b> (!<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a>) {</td></tr>
+<tr><th id="53">53</th><td>		<a class="ref" href="../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>(<a class="macro" href="../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"Could not initialize libevent!\n"</q>);</td></tr>
+<tr><th id="54">54</th><td>		<b>return</b> <var>1</var>;</td></tr>
+<tr><th id="55">55</th><td>	}</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td>	<a class="ref" href="../../include/string.h.html#memset" title='memset' data-ref="memset">memset</a>(&amp;<a class="local col7 ref" href="#7sin" title='sin' data-ref="7sin">sin</a>, <var>0</var>, <b>sizeof</b>(<a class="local col7 ref" href="#7sin" title='sin' data-ref="7sin">sin</a>));</td></tr>
+<tr><th id="58">58</th><td>	<a class="local col7 ref" href="#7sin" title='sin' data-ref="7sin">sin</a>.<a class="ref" href="../../include/netinet/in.h.html#241" title='sockaddr_in::sin_family' data-ref="sockaddr_in::sin_family">sin_family</a> = <a class="macro" href="../../include/x86_64-linux-gnu/bits/socket.h.html#92" title="2" data-ref="_M/AF_INET">AF_INET</a>;</td></tr>
+<tr><th id="59">59</th><td>	<a class="local col7 ref" href="#7sin" title='sin' data-ref="7sin">sin</a>.<a class="ref" href="../../include/netinet/in.h.html#sockaddr_in::sin_port" title='sockaddr_in::sin_port' data-ref="sockaddr_in::sin_port">sin_port</a> = <a class="macro" href="../../include/netinet/in.h.html#405" title="(__extension__ ({ unsigned short int __v, __x = (unsigned short int) (PORT); if (__builtin_constant_p (__x)) __v = ((unsigned short int) ((((__x) &gt;&gt; 8) &amp; 0xff) | (((__x) &amp; 0xff) &lt;&lt; 8))); else __asm__ (&quot;rorw $8, %w0&quot; : &quot;=r&quot; (__v) : &quot;0&quot; (__x) : &quot;cc&quot;); __v; }))" data-ref="_M/htons">htons</a>(<a class="tu ref" href="#PORT" title='PORT' data-use='r' data-ref="PORT">PORT</a>);</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td>	<a class="local col5 ref" href="#5listener" title='listener' data-ref="5listener">listener</a> = <a class="ref" href="../include/event2/listener.h.html#evconnlistener_new_bind" title='evconnlistener_new_bind' data-ref="evconnlistener_new_bind">evconnlistener_new_bind</a>(<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a>, <a class="tu ref" href="#listener_cb" title='listener_cb' data-use='r' data-ref="listener_cb">listener_cb</a>, (<em>void</em> *)<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a>,</td></tr>
+<tr><th id="62">62</th><td>	    <a class="macro" href="../include/event2/listener.h.html#70" title="(1u&lt;&lt;3)" data-ref="_M/LEV_OPT_REUSEABLE">LEV_OPT_REUSEABLE</a>|<a class="macro" href="../include/event2/listener.h.html#65" title="(1u&lt;&lt;1)" data-ref="_M/LEV_OPT_CLOSE_ON_FREE">LEV_OPT_CLOSE_ON_FREE</a>, -<var>1</var>,</td></tr>
+<tr><th id="63">63</th><td>	    (<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/socket.h.html#sockaddr" title='sockaddr' data-ref="sockaddr">sockaddr</a>*)&amp;<a class="local col7 ref" href="#7sin" title='sin' data-ref="7sin">sin</a>,</td></tr>
+<tr><th id="64">64</th><td>	    <b>sizeof</b>(<a class="local col7 ref" href="#7sin" title='sin' data-ref="7sin">sin</a>));</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td>	<b>if</b> (!<a class="local col5 ref" href="#5listener" title='listener' data-ref="5listener">listener</a>) {</td></tr>
+<tr><th id="67">67</th><td>		<a class="ref" href="../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>(<a class="macro" href="../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"Could not create a listener!\n"</q>);</td></tr>
+<tr><th id="68">68</th><td>		<b>return</b> <var>1</var>;</td></tr>
+<tr><th id="69">69</th><td>	}</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td>	<a class="local col6 ref" href="#6signal_event" title='signal_event' data-ref="6signal_event">signal_event</a> = <a class="macro" href="../include/event2/event.h.html#986" title="event_new((base), (2), 0x08|0x10, (signal_cb), ((void *)base))" data-ref="_M/evsignal_new">evsignal_new</a>(<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a>, <a class="macro" href="../../include/x86_64-linux-gnu/bits/signum.h.html#33" title="2" data-ref="_M/SIGINT">SIGINT</a>, <a class="tu ref" href="#signal_cb" title='signal_cb' data-use='r' data-ref="signal_cb">signal_cb</a>, (<em>void</em> *)<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a>);</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>	<b>if</b> (!<a class="local col6 ref" href="#6signal_event" title='signal_event' data-ref="6signal_event">signal_event</a> || <a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col6 ref" href="#6signal_event" title='signal_event' data-ref="6signal_event">signal_event</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)&lt;<var>0</var>) {</td></tr>
+<tr><th id="74">74</th><td>		<a class="ref" href="../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>(<a class="macro" href="../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"Could not create/add a signal event!\n"</q>);</td></tr>
+<tr><th id="75">75</th><td>		<b>return</b> <var>1</var>;</td></tr>
+<tr><th id="76">76</th><td>	}</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_dispatch" title='event_base_dispatch' data-ref="event_base_dispatch">event_base_dispatch</a>(<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a>);</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td>	<a class="ref" href="../include/event2/listener.h.html#evconnlistener_free" title='evconnlistener_free' data-ref="evconnlistener_free">evconnlistener_free</a>(<a class="local col5 ref" href="#5listener" title='listener' data-ref="5listener">listener</a>);</td></tr>
+<tr><th id="81">81</th><td>	<a class="ref" href="../include/event2/event.h.html#event_free" title='event_free' data-ref="event_free">event_free</a>(<a class="local col6 ref" href="#6signal_event" title='signal_event' data-ref="6signal_event">signal_event</a>);</td></tr>
+<tr><th id="82">82</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_free" title='event_base_free' data-ref="event_base_free">event_base_free</a>(<a class="local col4 ref" href="#4base" title='base' data-ref="4base">base</a>);</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"done\n"</q>);</td></tr>
+<tr><th id="85">85</th><td>	<b>return</b> <var>0</var>;</td></tr>
+<tr><th id="86">86</th><td>}</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="89">89</th><td><dfn class="tu decl def" id="listener_cb" title='listener_cb' data-type='void listener_cb(struct evconnlistener * listener, int fd, struct sockaddr * sa, int socklen, void * user_data)' data-ref="listener_cb">listener_cb</dfn>(<b>struct</b> <a class="type" href="../include/event2/listener.h.html#evconnlistener" title='evconnlistener' data-ref="evconnlistener">evconnlistener</a> *<dfn class="local col8 decl" id="8listener" title='listener' data-type='struct evconnlistener *' data-ref="8listener">listener</dfn>, <a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col9 decl" id="9fd" title='fd' data-type='int' data-ref="9fd">fd</dfn>,</td></tr>
+<tr><th id="90">90</th><td>    <b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/socket.h.html#sockaddr" title='sockaddr' data-ref="sockaddr">sockaddr</a> *<dfn class="local col0 decl" id="10sa" title='sa' data-type='struct sockaddr *' data-ref="10sa">sa</dfn>, <em>int</em> <dfn class="local col1 decl" id="11socklen" title='socklen' data-type='int' data-ref="11socklen">socklen</dfn>, <em>void</em> *<dfn class="local col2 decl" id="12user_data" title='user_data' data-type='void *' data-ref="12user_data">user_data</dfn>)</td></tr>
+<tr><th id="91">91</th><td>{</td></tr>
+<tr><th id="92">92</th><td>	<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#event_base" title='event_base' data-ref="event_base">event_base</a> *<dfn class="local col3 decl" id="13base" title='base' data-type='struct event_base *' data-ref="13base">base</dfn> = <a class="local col2 ref" href="#12user_data" title='user_data' data-ref="12user_data">user_data</a>;</td></tr>
+<tr><th id="93">93</th><td>	<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col4 decl" id="14bev" title='bev' data-type='struct bufferevent *' data-ref="14bev">bev</dfn>;</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td>	<a class="local col4 ref" href="#14bev" title='bev' data-ref="14bev">bev</a> = <a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_socket_new" title='bufferevent_socket_new' data-ref="bufferevent_socket_new">bufferevent_socket_new</a>(<a class="local col3 ref" href="#13base" title='base' data-ref="13base">base</a>, <a class="local col9 ref" href="#9fd" title='fd' data-ref="9fd">fd</a>, <a class="enum" href="../include/event2/bufferevent.h.html#bufferevent_options::BEV_OPT_CLOSE_ON_FREE" title='bufferevent_options::BEV_OPT_CLOSE_ON_FREE' data-ref="bufferevent_options::BEV_OPT_CLOSE_ON_FREE">BEV_OPT_CLOSE_ON_FREE</a>);</td></tr>
+<tr><th id="96">96</th><td>	<b>if</b> (!<a class="local col4 ref" href="#14bev" title='bev' data-ref="14bev">bev</a>) {</td></tr>
+<tr><th id="97">97</th><td>		<a class="ref" href="../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>(<a class="macro" href="../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>, <q>"Error constructing bufferevent!"</q>);</td></tr>
+<tr><th id="98">98</th><td>		<a class="ref" href="../include/event2/event.h.html#event_base_loopbreak" title='event_base_loopbreak' data-ref="event_base_loopbreak">event_base_loopbreak</a>(<a class="local col3 ref" href="#13base" title='base' data-ref="13base">base</a>);</td></tr>
+<tr><th id="99">99</th><td>		<b>return</b>;</td></tr>
+<tr><th id="100">100</th><td>	}</td></tr>
+<tr><th id="101">101</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_setcb" title='bufferevent_setcb' data-ref="bufferevent_setcb">bufferevent_setcb</a>(<a class="local col4 ref" href="#14bev" title='bev' data-ref="14bev">bev</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <a class="tu ref" href="#conn_writecb" title='conn_writecb' data-use='r' data-ref="conn_writecb">conn_writecb</a>, <a class="tu ref" href="#conn_eventcb" title='conn_eventcb' data-use='r' data-ref="conn_eventcb">conn_eventcb</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="102">102</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_enable" title='bufferevent_enable' data-ref="bufferevent_enable">bufferevent_enable</a>(<a class="local col4 ref" href="#14bev" title='bev' data-ref="14bev">bev</a>, <a class="macro" href="../include/event2/event.h.html#928" title="0x04" data-ref="_M/EV_WRITE">EV_WRITE</a>);</td></tr>
+<tr><th id="103">103</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_disable" title='bufferevent_disable' data-ref="bufferevent_disable">bufferevent_disable</a>(<a class="local col4 ref" href="#14bev" title='bev' data-ref="14bev">bev</a>, <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>);</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_write" title='bufferevent_write' data-ref="bufferevent_write">bufferevent_write</a>(<a class="local col4 ref" href="#14bev" title='bev' data-ref="14bev">bev</a>, <a class="tu ref" href="#MESSAGE" title='MESSAGE' data-use='r' data-ref="MESSAGE">MESSAGE</a>, <a class="ref" href="../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="tu ref" href="#MESSAGE" title='MESSAGE' data-use='r' data-ref="MESSAGE">MESSAGE</a>));</td></tr>
+<tr><th id="106">106</th><td>}</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="109">109</th><td><dfn class="tu decl def" id="conn_writecb" title='conn_writecb' data-type='void conn_writecb(struct bufferevent * bev, void * user_data)' data-ref="conn_writecb">conn_writecb</dfn>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col5 decl" id="15bev" title='bev' data-type='struct bufferevent *' data-ref="15bev">bev</dfn>, <em>void</em> *<dfn class="local col6 decl" id="16user_data" title='user_data' data-type='void *' data-ref="16user_data">user_data</dfn>)</td></tr>
+<tr><th id="110">110</th><td>{</td></tr>
+<tr><th id="111">111</th><td>	<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col7 decl" id="17output" title='output' data-type='struct evbuffer *' data-ref="17output">output</dfn> = <a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_get_output" title='bufferevent_get_output' data-ref="bufferevent_get_output">bufferevent_get_output</a>(<a class="local col5 ref" href="#15bev" title='bev' data-ref="15bev">bev</a>);</td></tr>
+<tr><th id="112">112</th><td>	<b>if</b> (<a class="ref" href="../include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(<a class="local col7 ref" href="#17output" title='output' data-ref="17output">output</a>) == <var>0</var>) {</td></tr>
+<tr><th id="113">113</th><td>		<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"flushed answer\n"</q>);</td></tr>
+<tr><th id="114">114</th><td>		<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_free" title='bufferevent_free' data-ref="bufferevent_free">bufferevent_free</a>(<a class="local col5 ref" href="#15bev" title='bev' data-ref="15bev">bev</a>);</td></tr>
+<tr><th id="115">115</th><td>	}</td></tr>
+<tr><th id="116">116</th><td>}</td></tr>
+<tr><th id="117">117</th><td></td></tr>
+<tr><th id="118">118</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="119">119</th><td><dfn class="tu decl def" id="conn_eventcb" title='conn_eventcb' data-type='void conn_eventcb(struct bufferevent * bev, short events, void * user_data)' data-ref="conn_eventcb">conn_eventcb</dfn>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col8 decl" id="18bev" title='bev' data-type='struct bufferevent *' data-ref="18bev">bev</dfn>, <em>short</em> <dfn class="local col9 decl" id="19events" title='events' data-type='short' data-ref="19events">events</dfn>, <em>void</em> *<dfn class="local col0 decl" id="20user_data" title='user_data' data-type='void *' data-ref="20user_data">user_data</dfn>)</td></tr>
+<tr><th id="120">120</th><td>{</td></tr>
+<tr><th id="121">121</th><td>	<b>if</b> (<a class="local col9 ref" href="#19events" title='events' data-ref="19events">events</a> &amp; <a class="macro" href="../include/event2/bufferevent.h.html#102" title="0x10" data-ref="_M/BEV_EVENT_EOF">BEV_EVENT_EOF</a>) {</td></tr>
+<tr><th id="122">122</th><td>		<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"Connection closed.\n"</q>);</td></tr>
+<tr><th id="123">123</th><td>	} <b>else</b> <b>if</b> (<a class="local col9 ref" href="#19events" title='events' data-ref="19events">events</a> &amp; <a class="macro" href="../include/event2/bufferevent.h.html#103" title="0x20" data-ref="_M/BEV_EVENT_ERROR">BEV_EVENT_ERROR</a>) {</td></tr>
+<tr><th id="124">124</th><td>		<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"Got an error on the connection: %s\n"</q>,</td></tr>
+<tr><th id="125">125</th><td>		    <a class="ref" href="../../include/string.h.html#strerror" title='strerror' data-ref="strerror">strerror</a>(<a class="macro" href="../../include/x86_64-linux-gnu/bits/errno.h.html#54" title="(*__errno_location ())" data-ref="_M/errno">errno</a>));<i>/*XXX win32*/</i></td></tr>
+<tr><th id="126">126</th><td>	}</td></tr>
+<tr><th id="127">127</th><td>	<i>/* None of the other events can happen here, since we haven't enabled</i></td></tr>
+<tr><th id="128">128</th><td><i>	 * timeouts */</i></td></tr>
+<tr><th id="129">129</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_free" title='bufferevent_free' data-ref="bufferevent_free">bufferevent_free</a>(<a class="local col8 ref" href="#18bev" title='bev' data-ref="18bev">bev</a>);</td></tr>
+<tr><th id="130">130</th><td>}</td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="133">133</th><td><dfn class="tu decl def" id="signal_cb" title='signal_cb' data-type='void signal_cb(int sig, short events, void * user_data)' data-ref="signal_cb">signal_cb</dfn>(<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col1 decl" id="21sig" title='sig' data-type='int' data-ref="21sig">sig</dfn>, <em>short</em> <dfn class="local col2 decl" id="22events" title='events' data-type='short' data-ref="22events">events</dfn>, <em>void</em> *<dfn class="local col3 decl" id="23user_data" title='user_data' data-type='void *' data-ref="23user_data">user_data</dfn>)</td></tr>
+<tr><th id="134">134</th><td>{</td></tr>
+<tr><th id="135">135</th><td>	<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#event_base" title='event_base' data-ref="event_base">event_base</a> *<dfn class="local col4 decl" id="24base" title='base' data-type='struct event_base *' data-ref="24base">base</dfn> = <a class="local col3 ref" href="#23user_data" title='user_data' data-ref="23user_data">user_data</a>;</td></tr>
+<tr><th id="136">136</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col5 decl" id="25delay" title='delay' data-type='struct timeval' data-ref="25delay">delay</dfn> = { <var>2</var>, <var>0</var> };</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"Caught an interrupt signal; exiting cleanly in two seconds.\n"</q>);</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_loopexit" title='event_base_loopexit' data-ref="event_base_loopexit">event_base_loopexit</a>(<a class="local col4 ref" href="#24base" title='base' data-ref="24base">base</a>, &amp;<a class="local col5 ref" href="#25delay" title='delay' data-ref="25delay">delay</a>);</td></tr>
+<tr><th id="141">141</th><td>}</td></tr>
+<tr><th id="142">142</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

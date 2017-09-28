@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1885'/>
+<doc f='include/openssl/ssl.h' l='1884'>/* only applies to datagram connections */</doc>

@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='305' ll='308'/>
+<size>16</size>
+<mbr r='POLICYINFO_st::policyid' o='0' t='ASN1_OBJECT *'/>
+<mbr r='POLICYINFO_st::qualifiers' o='64' t='struct stack_st_POLICYQUALINFO *'/>

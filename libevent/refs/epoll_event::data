@@ -1,0 +1,7 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='90' type='epoll_data_t'/>
+<use f='codebrowser/epoll.c' l='198' u='m' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='288' u='m' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='482' u='m' c='epoll_dispatch'/>
+<use f='codebrowser/epoll.c' l='500' u='m' c='epoll_dispatch'/>
+<offset>32</offset>
+<doc f='include/x86_64-linux-gnu/sys/epoll.h' l='90'>/* User data variable */</doc>

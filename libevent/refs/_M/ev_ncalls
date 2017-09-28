@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='53'/>
+<doc f='codebrowser/event-internal.h' l='52'>/* used only by signals */</doc>
+<use f='codebrowser/event.c' l='1318' u='c'/>
+<use f='codebrowser/event.c' l='1324' u='c'/>
+<use f='codebrowser/event.c' l='2085' u='c'/>
+<use f='codebrowser/event.c' l='2651' u='c'/>
+<use f='codebrowser/event.c' l='2791' u='c'/>
+<use f='codebrowser/event.c' l='2912' u='c'/>

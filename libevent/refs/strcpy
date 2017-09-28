@@ -1,0 +1,3 @@
+<dec f='include/string.h' l='125' type='char * strcpy(char *restrict __dest, const char *restrict __src)'/>
+<doc f='include/string.h' l='124'>/* Copy SRC to DEST.  */</doc>
+<use f='codebrowser/test/regress_main.c' l='128' u='c' c='regress_make_tmpfile'/>

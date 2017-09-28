@@ -1,0 +1,11 @@
+<dec f='codebrowser/http.c' l='4411' type='int'/>
+<use f='codebrowser/http.c' l='4422' u='w' c='evhttp_uri_new'/>
+<use f='codebrowser/http.c' l='4587' u='w' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4588' u='w' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4708' u='w' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4868' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4869' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4925' u='r' c='evhttp_uri_get_port'/>
+<use f='codebrowser/http.c' l='4994' u='w' c='evhttp_uri_set_port'/>
+<offset>256</offset>
+<doc f='codebrowser/http.c' l='4411'>/* port, or zero */</doc>

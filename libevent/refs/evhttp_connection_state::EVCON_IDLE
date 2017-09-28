@@ -1,0 +1,9 @@
+<dec f='codebrowser/http-internal.h' l='42' type='2'/>
+<doc f='codebrowser/http-internal.h' l='42'>/**&lt; connection is established */</doc>
+<use f='codebrowser/http.c' l='413' c='evhttp_connected'/>
+<use f='codebrowser/http.c' l='819' u='r' c='evhttp_connection_done'/>
+<use f='codebrowser/http.c' l='1143' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1294' u='r' c='evhttp_request_dispatch'/>
+<use f='codebrowser/http.c' l='1485' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1504' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1593' u='r' c='evhttp_connection_cb'/>

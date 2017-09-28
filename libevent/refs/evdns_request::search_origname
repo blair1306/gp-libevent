@@ -1,0 +1,13 @@
+<dec f='codebrowser/evdns.c' l='167' type='char *'/>
+<use f='codebrowser/evdns.c' l='3230' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3231' u='w' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3232' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3269' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3271' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3272' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3281' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3306' u='r' c='search_request_finished'/>
+<use f='codebrowser/evdns.c' l='3307' u='r' c='search_request_finished'/>
+<use f='codebrowser/evdns.c' l='3308' u='w' c='search_request_finished'/>
+<offset>256</offset>
+<doc f='codebrowser/evdns.c' l='167'>/* needs to be free()ed */</doc>

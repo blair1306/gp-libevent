@@ -1,0 +1,7 @@
+<dec f='include/zlib.h' l='86' type='Bytef *'/>
+<use f='codebrowser/test/regress_zlib.c' l='146' u='w' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='149' u='w' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='200' u='w' c='zlib_output_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='203' u='w' c='zlib_output_filter'/>
+<offset>0</offset>
+<doc f='include/zlib.h' l='86'>/* next input byte */</doc>

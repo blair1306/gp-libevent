@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='228' type='int'/>
+<offset>1632</offset>
+<doc f='codebrowser/event-internal.h' l='227'>/** Maximum number of virtual events active */</doc>
+<use f='codebrowser/event.c' l='1286' u='r' c='event_base_get_max_events'/>
+<use f='codebrowser/event.c' l='1288' u='w' c='event_base_get_max_events'/>
+<use f='codebrowser/event.c' l='3796' u='w' c='event_base_add_virtual_'/>
+<use f='codebrowser/event.c' l='3796' u='r' c='event_base_add_virtual_'/>
+<use f='codebrowser/event.c' l='3796' u='r' c='event_base_add_virtual_'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='305'/>
+<use f='codebrowser/bufferevent_sock.c' l='607' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='632' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='662' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='685' u='c'/>

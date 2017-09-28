@@ -1,0 +1,10 @@
+<def f='codebrowser/event-internal.h' l='163' ll='174'/>
+<size>168</size>
+<doc f='codebrowser/event-internal.h' l='159'>/* A list of events waiting on a given &apos;common&apos; timeout value.  Ordinarily,
+ * events waiting for a timeout wait on a minheap.  Sometimes, however, a
+ * queue can be faster.
+ **/</doc>
+<mbr r='common_timeout_list::events' o='0' t='struct event_list'/>
+<mbr r='common_timeout_list::duration' o='128' t='struct timeval'/>
+<mbr r='common_timeout_list::timeout_event' o='256' t='struct event'/>
+<mbr r='common_timeout_list::base' o='1280' t='struct event_base *'/>

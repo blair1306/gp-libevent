@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='332' type='int'/>
+<offset>3968</offset>
+<doc f='codebrowser/event-internal.h' l='330'>/** True if the base already has a pending notify, and we don&apos;t need
+	 * to add any more. */</doc>
+<use f='codebrowser/event.c' l='2499' u='r' c='evthread_notify_base'/>
+<use f='codebrowser/event.c' l='2501' u='w' c='evthread_notify_base'/>
+<use f='codebrowser/event.c' l='3544' u='w' c='evthread_notify_drain_eventfd'/>
+<use f='codebrowser/event.c' l='3563' u='w' c='evthread_notify_drain_default'/>

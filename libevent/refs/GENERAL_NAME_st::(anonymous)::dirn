@@ -1,0 +1,3 @@
+<dec f='include/openssl/x509v3.h' l='201' type='X509_NAME *'/>
+<offset>0</offset>
+<doc f='include/openssl/x509v3.h' l='201'>/* dirn */</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/thread.h' l='88'/>
+<doc f='codebrowser/include/event2/thread.h' l='86'>/* A read-write lock is one that allows multiple simultaneous readers, but
+ * where any one writer excludes all other writers and readers. */</doc>
+<use f='codebrowser/evthread.c' l='254' u='c'/>
+<use f='codebrowser/evthread.c' l='270' u='c'/>

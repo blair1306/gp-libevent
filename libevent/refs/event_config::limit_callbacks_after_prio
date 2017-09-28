@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='365' type='int'/>
+<offset>352</offset>
+<use f='codebrowser/event.c' l='621' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1104' u='w' c='event_config_new'/>
+<use f='codebrowser/event.c' l='1187' u='w' c='event_config_set_max_dispatch_interval'/>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/http-internal.h' l='112' type='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:112:2)'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='3295' u='m' c='evhttp_dispatch_callback'/>
+<use f='codebrowser/http.c' l='3694' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3694' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3694' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3694' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3694' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3694' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3694' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3859' u='m' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3878' u='m' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3878' u='m' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3878' u='m' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3888' u='m' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='m' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='m' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='m' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='m' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='m' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='m' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='m' c='evhttp_del_cb'/>

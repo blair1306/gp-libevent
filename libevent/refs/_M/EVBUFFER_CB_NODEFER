@@ -1,0 +1,8 @@
+<dec f='codebrowser/evbuffer-internal.h' l='44'/>
+<use f='codebrowser/buffer.c' l='464' u='c'/>
+<use f='codebrowser/buffer.c' l='467' u='c'/>
+<use f='codebrowser/buffer.c' l='468' u='c'/>
+<doc f='codebrowser/evbuffer-internal.h' l='41'>/* Experimental cb flag: &quot;never deferred.&quot;  Implementation note:
+ * these callbacks may get an inaccurate view of n_del/n_added in their
+ * arguments. */</doc>
+<use f='codebrowser/bufferevent.c' l='599' u='c'/>

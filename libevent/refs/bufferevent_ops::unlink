@@ -1,0 +1,6 @@
+<dec f='codebrowser/bufferevent-internal.h' l='282' type='void (*)(struct bufferevent *)'/>
+<offset>256</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='280'>/** Detatches the bufferevent from related data structures. Called as
+	 * soon as its reference count reaches 0. */</doc>
+<use f='codebrowser/bufferevent.c' l='699' u='r' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='700' u='r' c='bufferevent_decref_and_unlock_'/>

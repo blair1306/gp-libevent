@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/buffer_compat.h' l='112'/>
+<doc f='codebrowser/include/event2/buffer_compat.h' l='111'>/** deprecated in favor of calling the functions directly */</doc>
+<use f='codebrowser/test/regress.c' l='2436' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='184' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='192' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='201' u='c'/>

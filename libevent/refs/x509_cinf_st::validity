@@ -1,0 +1,4 @@
+<dec f='include/openssl/x509.h' l='247' type='X509_VAL *'/>
+<offset>256</offset>
+<use f='codebrowser/test/regress_ssl.c' l='152' macro='1' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='154' macro='1' u='r'/>

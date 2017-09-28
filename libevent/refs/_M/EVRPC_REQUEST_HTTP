@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/rpc.h' l='261'/>
+<doc f='codebrowser/include/event2/rpc.h' l='252'>/** Provides access to the HTTP request object underlying an RPC
+ *
+ * Access to the underlying http object; can be used to look at headers or
+ * for getting the remote ip address
+ *
+ * @param rpc_req the rpc request structure provided to the server callback
+ * @return an struct evhttp_request object that can be inspected for
+ * HTTP headers or sender information.
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='113' u='c'/>

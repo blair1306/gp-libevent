@@ -1,0 +1,6 @@
+<def f='codebrowser/test/test-ratelim.c' l='106' type='struct client_state *'/>
+<use f='codebrowser/test/test-ratelim.c' l='344' u='w' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='351' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='426' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='428' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='469' u='r' c='test_ratelimiting'/>

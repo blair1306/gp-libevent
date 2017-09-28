@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/regress_testutils.h' l='36' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/test/regress_dns.c' l='861' u='r' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_testutils.c' l='167' u='w' c='regress_dns_server_cb'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/dns.h' l='168'/>
+<use f='codebrowser/evdns.c' l='4005' u='c'/>
+<use f='codebrowser/evdns.c' l='4043' u='c'/>
+<use f='codebrowser/evdns.c' l='4049' u='c'/>
+<use f='codebrowser/evdns.c' l='4414' u='c'/>
+<use f='codebrowser/evdns.c' l='4463' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='167'>/** The request was canceled because the DNS subsystem was shut down. */</doc>
+<use f='codebrowser/test/regress_dns.c' l='2057' u='c'/>

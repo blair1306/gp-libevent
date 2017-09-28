@@ -1,0 +1,5 @@
+<def f='include/openssl/x509v3.h' l='226' ll='234'/>
+<size>24</size>
+<mbr r='DIST_POINT_NAME_st::type' o='0' t='int'/>
+<mbr r='DIST_POINT_NAME_st::name' o='64' t='union (anonymous union at /usr/include/openssl/x509v3.h:228:5)'/>
+<mbr r='DIST_POINT_NAME_st::dpname' o='128' t='X509_NAME *'/>

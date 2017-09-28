@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2132' type='void SSL_CTX_free(SSL_CTX * )'/>
+<use f='codebrowser/sample/https-client.c' l='488' u='c' c='main'/>

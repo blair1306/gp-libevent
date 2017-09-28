@@ -1,0 +1,10 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='1207' type='char * __strsep_2c(char ** __s, char __reject1, char __reject2)'/>
+<def f='include/x86_64-linux-gnu/bits/string2.h' l='1208' ll='1232' macro='1' type='char * __strsep_2c(char ** __s, char __reject1, char __reject2)'/>
+<use f='codebrowser/http.c' l='1656' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1659' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1697' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1700' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1703' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='2086' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='3237' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='3240' macro='1' u='c'/>

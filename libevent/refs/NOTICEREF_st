@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='283' ll='286'/>
+<size>16</size>
+<mbr r='NOTICEREF_st::organization' o='0' t='ASN1_STRING *'/>
+<mbr r='NOTICEREF_st::noticenos' o='64' t='struct stack_st_ASN1_INTEGER *'/>

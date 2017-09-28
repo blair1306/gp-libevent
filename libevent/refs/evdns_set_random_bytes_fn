@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns.h' l='567' type='void evdns_set_random_bytes_fn(void (*)(char *, size_t) fn)'/>
+<def f='codebrowser/evdns.c' l='1311' ll='1314' type='void evdns_set_random_bytes_fn(void (*)(char *, size_t) fn)'/>

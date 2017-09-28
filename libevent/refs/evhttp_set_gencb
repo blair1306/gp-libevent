@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='280' type='void evhttp_set_gencb(struct evhttp * http, void (*)(struct evhttp_request *, void *) cb, void * arg)'/>
+<def f='codebrowser/http.c' l='3902' ll='3908' type='void evhttp_set_gencb(struct evhttp * http, void (*)(struct evhttp_request *, void *) cb, void * cbarg)'/>
+<use f='codebrowser/sample/http-server.c' l='367' u='c' c='main'/>

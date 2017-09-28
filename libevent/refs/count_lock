@@ -1,0 +1,12 @@
+<def f='codebrowser/test/regress_thread.c' l='95' type='void *'/>
+<use f='codebrowser/test/regress_thread.c' l='126' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='126' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='128' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='128' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='132' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='132' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='135' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='135' u='r' c='basic_thread'/>
+<use f='codebrowser/test/regress_thread.c' l='179' u='w' c='thread_basic'/>
+<use f='codebrowser/test/regress_thread.c' l='180' u='r' c='thread_basic'/>
+<use f='codebrowser/test/regress_thread.c' l='245' u='r' c='thread_basic'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='131'/>
+<doc f='codebrowser/include/event2/event-config.h' l='130'>/* Define this if you have any gethostbyname_r() */</doc>

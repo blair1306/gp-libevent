@@ -1,0 +1,2 @@
+<dec f='include/openssl/err.h' l='337' type='const char * ERR_func_error_string(unsigned long e)'/>
+<use f='codebrowser/sample/le-proxy.c' l='117' u='c' c='eventcb'/>

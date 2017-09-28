@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='503'/>
+<doc f='codebrowser/include/event2/event-config.h' l='502'>/* Define to `int&apos; if &lt;sys/tyes.h&gt; does not define. */</doc>

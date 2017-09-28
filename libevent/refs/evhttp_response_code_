@@ -1,0 +1,8 @@
+<dec f='codebrowser/http-internal.h' l='202' type='void evhttp_response_code_(struct evhttp_request * , int , const char * )'/>
+<doc f='codebrowser/http-internal.h' l='201'>/* response sending HTML the data in the buffer */</doc>
+<use f='codebrowser/http.c' l='2772' u='c' c='evhttp_send_error'/>
+<use f='codebrowser/http.c' l='2813' u='c' c='evhttp_send_reply'/>
+<use f='codebrowser/http.c' l='2822' u='c' c='evhttp_send_reply_start'/>
+<def f='codebrowser/http.c' l='2993' ll='3007' type='void evhttp_response_code_(struct evhttp_request * req, int code, const char * reason)'/>
+<use f='codebrowser/http.c' l='3018' u='c' c='evhttp_send_page_'/>
+<use f='codebrowser/http.c' l='3469' u='c' c='evhttp_handle_request'/>

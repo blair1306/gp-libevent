@@ -1,0 +1,15 @@
+<dec f='codebrowser/strlcpy-internal.h' l='15' type='size_t event_strlcpy_(char * dst, const char * src, size_t siz)'/>
+<use f='codebrowser/evdns.c' l='2782' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='4186' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='4188' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='1907' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='1949' macro='1' u='c'/>
+<def f='codebrowser/strlcpy.c' l='47' ll='74' type='size_t event_strlcpy_(char * dst, const char * src, size_t siz)'/>
+<doc f='codebrowser/strlcpy.c' l='42'>/*
+ * Copy src to string dst of size siz.  At most siz-1 characters
+ * will be copied.  Always NUL terminates (unless siz == 0).
+ * Returns strlen(src); if retval &gt;= siz, truncation occurred.
+ */</doc>
+<use f='codebrowser/test/regress_util.c' l='648' macro='1' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='652' macro='1' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='656' macro='1' u='c'/>

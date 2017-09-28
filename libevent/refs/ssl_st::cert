@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='1531' type='struct cert_st *'/>
+<offset>2048</offset>
+<doc f='include/openssl/ssl.h' l='1530'>/* This is used to hold the server certificate used */</doc>
+<doc f='include/openssl/ssl.h' l='1531'>/* CERT */</doc>

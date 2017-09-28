@@ -1,0 +1,14 @@
+<dec f='codebrowser/event-internal.h' l='277' type='int'/>
+<offset>2304</offset>
+<doc f='codebrowser/event-internal.h' l='276'>/** The number of entries used in common_timeout_queues */</doc>
+<use f='codebrowser/event.c' l='837' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='1373' u='r' c='is_common_timeout'/>
+<use f='codebrowser/event.c' l='1462' u='r' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1473' u='r' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1479' u='r' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1480' u='r' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1481' u='r' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1501' u='r' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1507' u='w' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='3655' u='r' c='event_base_foreach_event_nolock_'/>
+<use f='codebrowser/event.c' l='3905' u='r' c='event_base_assert_ok_nolock_'/>

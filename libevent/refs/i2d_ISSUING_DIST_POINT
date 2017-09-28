@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='576' macro='1' type='int i2d_ISSUING_DIST_POINT(ISSUING_DIST_POINT * a, unsigned char ** out)'/>

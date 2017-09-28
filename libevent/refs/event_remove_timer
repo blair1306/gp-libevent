@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event.h' l='1242' type='int event_remove_timer(struct event * ev)'/>
+<use f='codebrowser/bufferevent.c' l='980' u='c' c='bufferevent_generic_adj_existing_timeouts_'/>
+<use f='codebrowser/bufferevent.c' l='988' u='c' c='bufferevent_generic_adj_existing_timeouts_'/>
+<def f='codebrowser/event.c' l='2526' ll='2543' type='int event_remove_timer(struct event * ev)'/>
+<use f='codebrowser/test/regress.c' l='1846' u='c' c='remove_timers_cb'/>
+<use f='codebrowser/test/regress.c' l='1847' u='c' c='remove_timers_cb'/>

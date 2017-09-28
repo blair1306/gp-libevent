@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='98' type='struct evhttp_uri *'/>
+<offset>832</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='98'>/* uri elements */</doc>
+<use f='codebrowser/http.c' l='686' u='r' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='687' u='r' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='688' u='w' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='1832' u='w' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='1840' u='r' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='1841' u='r' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='3288' u='r' c='evhttp_dispatch_callback'/>
+<use f='codebrowser/http.c' l='3984' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3985' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4072' u='r' c='evhttp_request_get_evhttp_uri'/>
+<use f='codebrowser/http.c' l='4075' u='r' c='evhttp_request_get_evhttp_uri'/>
+<use f='codebrowser/http.c' l='4086' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4087' u='r' c='evhttp_request_get_host'/>

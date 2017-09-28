@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/event2/rpc.h' l='328'/>
+<doc f='codebrowser/include/event2/rpc.h' l='312'>/** register RPCs with the HTTP Server
+ *
+ * registers a new RPC with the HTTP server, each RPC needs to have
+ * a unique name under which it can be identified.
+ *
+ * @param base the evrpc_base structure in which the RPC should be
+ *   registered.
+ * @param name the name of the RPC
+ * @param request the name of the RPC request structure
+ * @param reply the name of the RPC reply structure
+ * @param callback the callback that should be invoked when the RPC
+ * is received.  The callback has the following prototype
+ *   void (*callback)(EVRPC_STRUCT(Message)* rpc, void *arg)
+ * @param cbarg an additional parameter that can be passed to the callback.
+ *   The parameter can be used to carry around state.
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='147' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='148' u='c'/>

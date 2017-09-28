@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event-config.h' l='266'/>
+<use f='codebrowser/include/event2/util.h' l='45' u='a'/>
+<use f='codebrowser/include/event2/util.h' l='241' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='265'>/* Define to 1 if you have the &lt;stdint.h&gt; header file. */</doc>
+<use f='codebrowser/evdns.c' l='65' u='a'/>
+<use f='codebrowser/include/event.h' l='51' u='a'/>

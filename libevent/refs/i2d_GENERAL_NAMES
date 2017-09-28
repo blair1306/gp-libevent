@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='541' macro='1' type='int i2d_GENERAL_NAMES(GENERAL_NAMES * a, unsigned char ** out)'/>

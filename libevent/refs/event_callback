@@ -1,0 +1,8 @@
+<def f='codebrowser/include/event2/event_struct.h' l='107' ll='120'/>
+<size>40</size>
+<mbr r='event_callback::evcb_active_next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/event_struct.h:108:2)'/>
+<mbr r='event_callback::evcb_flags' o='128' t='short'/>
+<mbr r='event_callback::evcb_pri' o='144' t='uint8_t'/>
+<mbr r='event_callback::evcb_closure' o='152' t='uint8_t'/>
+<mbr r='event_callback::evcb_cb_union' o='192' t='union (anonymous union at /home/jon/workspace/libevent/include/event2/event_struct.h:113:9)'/>
+<mbr r='event_callback::evcb_arg' o='256' t='void *'/>

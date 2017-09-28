@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='4264' type='unsigned int'/>
+<use f='codebrowser/evdns.c' l='4424' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4757' u='r' c='evdns_getaddrinfo_cancel'/>
+<offset>2081</offset>
+<doc f='codebrowser/evdns.c' l='4262'>/* If this is set, the user can no longer cancel this request; we&apos;re
+	 * just waiting for the free. */</doc>

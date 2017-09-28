@@ -1,0 +1,10 @@
+<dec f='codebrowser/evrpc-internal.h' l='116' type='struct evrpc_meta_list'/>
+<use f='codebrowser/evrpc.c' l='1004' u='a' c='evrpc_hook_meta_new_'/>
+<use f='codebrowser/evrpc.c' l='1004' u='a' c='evrpc_hook_meta_new_'/>
+<use f='codebrowser/evrpc.c' l='1004' u='a' c='evrpc_hook_meta_new_'/>
+<use f='codebrowser/evrpc.c' l='1023' u='a' c='evrpc_hook_context_free_'/>
+<use f='codebrowser/evrpc.c' l='1048' u='a' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1048' u='a' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1048' u='a' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1060' u='a' c='evrpc_hook_find_meta'/>
+<offset>0</offset>

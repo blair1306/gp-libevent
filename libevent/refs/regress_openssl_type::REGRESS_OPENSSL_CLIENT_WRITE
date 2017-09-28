@@ -1,0 +1,12 @@
+<dec f='codebrowser/test/regress_ssl.c' l='231' type='2048'/>
+<use f='codebrowser/test/regress_ssl.c' l='327' u='r' c='eventcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='472' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='496' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='742' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='742' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='742' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='742' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>

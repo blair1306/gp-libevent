@@ -1,0 +1,25 @@
+<dec f='codebrowser/ratelim-internal.h' l='41' type='ssize_t'/>
+<offset>64</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='63' u='r' c='ev_token_bucket_init_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='64' u='w' c='ev_token_bucket_init_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='67' u='w' c='ev_token_bucket_init_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='102' u='r' c='ev_token_bucket_update_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='103' u='w' c='ev_token_bucket_update_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='105' u='w' c='ev_token_bucket_update_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='204' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='204' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='320' u='w' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='321' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='335' u='w' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='337' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='422' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='547' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='621' u='r' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='688' u='r' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='689' u='w' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='849' u='r' c='bufferevent_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='966' u='r' c='bufferevent_rate_limit_group_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1009' u='r' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1011' u='w' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1054' u='r' c='bufferevent_rate_limit_group_decrement_write'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1055' u='w' c='bufferevent_rate_limit_group_decrement_write'/>

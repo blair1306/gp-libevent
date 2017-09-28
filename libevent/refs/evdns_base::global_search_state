@@ -1,0 +1,33 @@
+<dec f='codebrowser/evdns.c' l='354' type='struct search_state *'/>
+<use f='codebrowser/evdns.c' l='3080' u='r' c='search_postfix_clear'/>
+<use f='codebrowser/evdns.c' l='3082' u='w' c='search_postfix_clear'/>
+<use f='codebrowser/evdns.c' l='3107' u='r' c='search_postfix_add'/>
+<use f='codebrowser/evdns.c' l='3107' u='w' c='search_postfix_add'/>
+<use f='codebrowser/evdns.c' l='3108' u='r' c='search_postfix_add'/>
+<use f='codebrowser/evdns.c' l='3109' u='r' c='search_postfix_add'/>
+<use f='codebrowser/evdns.c' l='3114' u='r' c='search_postfix_add'/>
+<use f='codebrowser/evdns.c' l='3117' u='r' c='search_postfix_add'/>
+<use f='codebrowser/evdns.c' l='3126' u='r' c='search_reverse'/>
+<use f='codebrowser/evdns.c' l='3134' u='r' c='search_reverse'/>
+<use f='codebrowser/evdns.c' l='3153' u='r' c='evdns_base_search_ndots_set'/>
+<use f='codebrowser/evdns.c' l='3153' u='w' c='evdns_base_search_ndots_set'/>
+<use f='codebrowser/evdns.c' l='3154' u='r' c='evdns_base_search_ndots_set'/>
+<use f='codebrowser/evdns.c' l='3155' u='r' c='evdns_base_search_ndots_set'/>
+<use f='codebrowser/evdns.c' l='3214' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3215' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3218' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3223' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3238' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3240' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3455' u='r' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3455' u='w' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3456' u='r' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3457' u='r' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3654' u='r' c='evdns_base_resolv_conf_parse_impl'/>
+<use f='codebrowser/evdns.c' l='3654' u='r' c='evdns_base_resolv_conf_parse_impl'/>
+<use f='codebrowser/evdns.c' l='3941' u='w' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4065' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4066' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4070' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4071' u='w' c='evdns_base_free_and_unlock'/>
+<offset>2176</offset>

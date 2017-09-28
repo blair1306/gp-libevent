@@ -1,0 +1,10 @@
+<dec f='codebrowser/bufferevent-internal.h' l='278' type='int (*)(struct bufferevent *, short)'/>
+<offset>192</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='274'>/** Disables one or more of EV_READ|EV_WRITE on a bufferevent.  Does
+	    not need to adjust the &apos;enabled&apos; field.  Returns 0 on success, -1
+	    on failure.
+	 */</doc>
+<use f='codebrowser/bufferevent.c' l='73' u='r' c='bufferevent_suspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='97' u='r' c='bufferevent_suspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='543' u='r' c='bufferevent_disable_hard_'/>
+<use f='codebrowser/bufferevent.c' l='558' u='r' c='bufferevent_disable'/>

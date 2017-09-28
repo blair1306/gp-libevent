@@ -1,0 +1,19 @@
+<def f='codebrowser/event.c' l='227' macro='1' type='struct event_debug_entry * event_debug_map_HT_FIND(const struct event_debug_map * head, struct event_debug_entry * elm)'/>
+<use f='codebrowser/event.c' l='2075' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2111' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2123' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2192' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2311' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2338' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2374' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2397' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2404' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2411' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2418' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2425' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2432' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2513' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2558' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2716' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2830' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2860' macro='1' u='c'/>

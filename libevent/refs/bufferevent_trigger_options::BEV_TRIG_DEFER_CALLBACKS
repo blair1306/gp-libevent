@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='628' type='4'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='627'>/** defer even if the callbacks are not */</doc>
+<use f='codebrowser/bufferevent.c' l='254' u='r' c='bufferevent_trigger'/>
+<use f='codebrowser/bufferevent.c' l='254' u='r' c='bufferevent_trigger_event'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1096' u='r' c='trigger_readcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1134' u='r' c='test_bufferevent_trigger'/>

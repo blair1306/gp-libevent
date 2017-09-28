@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/regress.h' l='135' type='X509 * ssl_getcert()'/>
+<use f='codebrowser/test/regress_http.c' l='122' u='c' c='https_bev'/>
+<def f='codebrowser/test/regress_ssl.c' l='121' ll='162' type='X509 * ssl_getcert()'/>
+<use f='codebrowser/test/regress_ssl.c' l='401' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='529' u='c' c='acceptcb'/>

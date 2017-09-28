@@ -1,0 +1,4 @@
+<dec f='codebrowser/event-internal.h' l='448' type='void event_base_add_virtual_(struct event_base * base)'/>
+<def f='codebrowser/event.c' l='3791' ll='3798' type='void event_base_add_virtual_(struct event_base * base)'/>
+<use f='codebrowser/test/regress.c' l='1537' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1680' u='c' c='test_event_base_get_max_events'/>

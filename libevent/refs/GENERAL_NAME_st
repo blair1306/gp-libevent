@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='177' ll='207'/>
+<size>16</size>
+<mbr r='GENERAL_NAME_st::type' o='0' t='int'/>
+<mbr r='GENERAL_NAME_st::d' o='64' t='union (anonymous union at /usr/include/openssl/x509v3.h:188:5)'/>

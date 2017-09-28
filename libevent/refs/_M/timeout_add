@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/event_compat.h' l='198'/>
+<doc f='codebrowser/include/event2/event_compat.h' l='191'>/**
+   @name timeout_* macros
+
+   @deprecated These macros are deprecated because their naming is inconsistent
+     with the rest of Libevent.  Use the evtimer_* macros instead.
+   @{
+ */</doc>

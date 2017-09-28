@@ -1,0 +1,4 @@
+<dec f='include/openssl/x509v3.h' l='206' type='union (anonymous union at /usr/include/openssl/x509v3.h:188:5)'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='130' u='m' c='matches_subject_alternative_name'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='133' u='m' c='matches_subject_alternative_name'/>
+<offset>64</offset>

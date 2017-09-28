@@ -1,0 +1,38 @@
+<dec f='codebrowser/include/event2/thread.h' l='109' type='void *(*)(unsigned int)'/>
+<use f='codebrowser/buffer.c' l='432' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='432' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='3002' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='3002' macro='1' u='r'/>
+<offset>64</offset>
+<doc f='codebrowser/include/event2/thread.h' l='107'>/** Function to allocate and initialize new lock of type &apos;locktype&apos;.
+	 * Returns NULL on failure. */</doc>
+<use f='codebrowser/bufferevent.c' l='826' macro='1' u='r'/>
+<use f='codebrowser/bufferevent.c' l='826' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='662' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='662' macro='1' u='r'/>
+<use f='codebrowser/evdns.c' l='1734' macro='1' u='r'/>
+<use f='codebrowser/evdns.c' l='1734' macro='1' u='r'/>
+<use f='codebrowser/evdns.c' l='3923' macro='1' u='r'/>
+<use f='codebrowser/evdns.c' l='3923' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='683' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='683' macro='1' u='r'/>
+<use f='codebrowser/evthread.c' l='106' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='112' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='116' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='116' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='127' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='200' u='r' c='debug_lock_alloc'/>
+<use f='codebrowser/evthread.c' l='201' u='r' c='debug_lock_alloc'/>
+<use f='codebrowser/evthread.c' l='374' u='r' c='evthread_setup_global_lock_'/>
+<use f='codebrowser/evthread.c' l='378' u='r' c='evthread_setup_global_lock_'/>
+<use f='codebrowser/evthread.c' l='401' u='r' c='evthread_setup_global_lock_'/>
+<use f='codebrowser/evthread.c' l='409' u='r' c='evthread_setup_global_lock_'/>
+<use f='codebrowser/listener.c' l='197' macro='1' u='r'/>
+<use f='codebrowser/listener.c' l='197' macro='1' u='r'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='247' u='r' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_thread.c' l='106' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='106' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='179' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='179' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='309' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='309' macro='1' u='r'/>

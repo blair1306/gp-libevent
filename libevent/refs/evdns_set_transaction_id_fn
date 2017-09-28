@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns.h' l='555' type='void evdns_set_transaction_id_fn(uint16_t (*)(void) fn)'/>
+<def f='codebrowser/evdns.c' l='1306' ll='1309' type='void evdns_set_transaction_id_fn(uint16_t (*)(void) fn)'/>

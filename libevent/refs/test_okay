@@ -1,0 +1,6 @@
+<def f='codebrowser/test/test-eof.c' l='52' type='int'/>
+<use f='codebrowser/test/test-eof.c' l='76' u='w' c='read_cb'/>
+<use f='codebrowser/test/test-eof.c' l='115' u='r' c='main'/>
+<def f='codebrowser/test/test-weof.c' l='56' type='int'/>
+<use f='codebrowser/test/test-weof.c' l='75' u='w' c='write_cb'/>
+<use f='codebrowser/test/test-weof.c' l='112' u='r' c='main'/>

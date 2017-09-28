@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/event2/buffer.h' l='299' type='int evbuffer_reserve_space(struct evbuffer * buf, ssize_t size, struct iovec * vec, int n_vec)'/>
+<def f='codebrowser/buffer.c' l='669' ll='700' type='int evbuffer_reserve_space(struct evbuffer * buf, ssize_t size, struct iovec * vec, int n_vecs)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='595' u='c' c='do_read'/>
+<use f='codebrowser/test/regress_buffer.c' l='262' u='c' c='test_evbuffer'/>
+<use f='codebrowser/test/regress_buffer.c' l='479' u='c' c='test_evbuffer_reserve2'/>
+<use f='codebrowser/test/regress_buffer.c' l='495' u='c' c='test_evbuffer_reserve2'/>
+<use f='codebrowser/test/regress_buffer.c' l='508' u='c' c='test_evbuffer_reserve2'/>
+<use f='codebrowser/test/regress_buffer.c' l='524' u='c' c='test_evbuffer_reserve2'/>
+<use f='codebrowser/test/regress_buffer.c' l='578' u='c' c='test_evbuffer_reserve_many'/>
+<use f='codebrowser/test/regress_buffer.c' l='593' u='c' c='test_evbuffer_reserve_many'/>
+<use f='codebrowser/test/regress_buffer.c' l='601' u='c' c='test_evbuffer_reserve_many'/>
+<use f='codebrowser/test/regress_buffer.c' l='615' u='c' c='test_evbuffer_reserve_many'/>
+<use f='codebrowser/test/regress_buffer.c' l='624' u='c' c='test_evbuffer_reserve_many'/>
+<use f='codebrowser/test/regress_buffer.c' l='807' u='c' c='test_evbuffer_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1605' u='c' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1611' u='c' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1616' u='c' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='2315' u='c' c='test_evbuffer_freeze'/>
+<use f='codebrowser/test/regress_zlib.c' l='152' u='c' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='206' u='c' c='zlib_output_filter'/>

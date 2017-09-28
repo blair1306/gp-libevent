@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='46'/>
+<use f='codebrowser/test/regress.c' l='1065' u='c'/>
+<use f='codebrowser/test/regress.c' l='1109' u='c'/>
+<use f='codebrowser/test/regress.c' l='1112' u='c'/>

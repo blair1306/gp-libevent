@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/tinytest.h' l='55' type='testcase_fn'/>
+<offset>64</offset>
+<doc f='codebrowser/test/tinytest.h' l='55'>/**&lt; The function to run to implement this case. */</doc>
+<use f='codebrowser/test/tinytest.c' l='105' u='r' c='testcase_run_bare_'/>

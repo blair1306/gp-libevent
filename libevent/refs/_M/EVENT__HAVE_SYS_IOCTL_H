@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='338'/>
+<use f='codebrowser/buffer.c' l='57' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='337'>/* Define to 1 if you have the &lt;sys/ioctl.h&gt; header file. */</doc>
+<use f='codebrowser/event_tagging.c' l='45' u='a'/>

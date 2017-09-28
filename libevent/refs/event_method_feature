@@ -1,0 +1,10 @@
+<def f='codebrowser/include/event2/event.h' l='501' ll='519'/>
+<doc f='codebrowser/include/event2/event.h' l='492'>/**
+   A flag used to describe which features an event_base (must) provide.
+
+   Because of OS limitations, not every Libevent backend supports every
+   possible feature.  You can use this type with
+   event_config_require_features() to tell Libevent to only proceed if your
+   event_base implements a given feature, and you can receive this type from
+   event_base_get_features() to see which features are available.
+*/</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='433' type='int event_callback_finalize_many_(struct event_base * base, int n_cbs, struct event_callback ** evcb, void (*)(struct event_callback *, void *) cb)'/>
+<use f='codebrowser/bufferevent.c' l='716' u='c' c='bufferevent_decref_and_unlock_'/>
+<def f='codebrowser/event.c' l='2269' ll='2301' type='int event_callback_finalize_many_(struct event_base * base, int n_cbs, struct event_callback ** evcbs, void (*)(struct event_callback *, void *) cb)'/>
+<doc f='codebrowser/event.c' l='2266'>/** Internal: Finalize all of the n_cbs callbacks in evcbs.  The provided
+ * callback will be invoked on *one of them*, after they have *all* been
+ * finalized. */</doc>

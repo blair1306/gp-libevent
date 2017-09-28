@@ -1,0 +1,13 @@
+<dec f='include/fcntl.h' l='146' type='int fcntl(int __fd, int __cmd)'/>
+<doc f='include/fcntl.h' l='141'>/* Do the file control operation described by CMD on FD.
+   The remaining arguments are interpreted depending on CMD.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/evutil.c' l='120' u='c' c='evutil_open_closeonexec_'/>
+<use f='codebrowser/evutil.c' l='326' u='c' c='evutil_make_socket_nonblocking'/>
+<use f='codebrowser/evutil.c' l='331' u='c' c='evutil_make_socket_nonblocking'/>
+<use f='codebrowser/evutil.c' l='351' u='c' c='evutil_fast_socket_nonblocking'/>
+<use f='codebrowser/evutil.c' l='407' u='c' c='evutil_make_socket_closeonexec'/>
+<use f='codebrowser/evutil.c' l='412' u='c' c='evutil_make_socket_closeonexec'/>
+<use f='codebrowser/evutil.c' l='429' u='c' c='evutil_fast_socket_closeonexec'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/http.h' l='401' type='void evhttp_send_error(struct evhttp_request * req, int error, const char * reason)'/>
+<use f='codebrowser/evrpc.c' l='333' u='c' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='375' u='c' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='456' u='c' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='496' u='c' c='evrpc_request_done_closure'/>
+<use f='codebrowser/http.c' l='2223' u='c' c='evhttp_get_body'/>
+<def f='codebrowser/http.c' l='2752' ll='2780' type='void evhttp_send_error(struct evhttp_request * req, int error, const char * reason)'/>
+<use f='codebrowser/http.c' l='3420' u='c' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3427' u='c' c='evhttp_handle_request'/>
+<doc f='codebrowser/http.c' l='2748'>/*
+ * Returns an error page.
+ */</doc>
+<use f='codebrowser/sample/http-server.c' l='183' u='c' c='send_document_cb'/>
+<use f='codebrowser/sample/http-server.c' l='309' u='c' c='send_document_cb'/>

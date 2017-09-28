@@ -1,0 +1,14 @@
+<dec f='codebrowser/changelist-internal.h' l='58' type='short'/>
+<use f='codebrowser/epoll.c' l='275' macro='1' u='r'/>
+<use f='codebrowser/epoll.c' l='275' macro='1' u='r'/>
+<use f='codebrowser/epoll.c' l='258' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='258' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='380' u='w' c='epoll_nochangelist_add'/>
+<use f='codebrowser/epoll.c' l='401' u='w' c='epoll_nochangelist_del'/>
+<offset>32</offset>
+<doc f='codebrowser/changelist-internal.h' l='56'>/* The events that were enabled on the fd before any of these changes
+	   were made.  May include EV_READ or EV_WRITE. */</doc>
+<use f='codebrowser/evmap.c' l='846' u='w' c='event_changelist_get_or_construct'/>
+<use f='codebrowser/evmap.c' l='919' u='r' c='event_changelist_del_'/>
+<use f='codebrowser/evmap.c' l='925' u='r' c='event_changelist_del_'/>
+<use f='codebrowser/evmap.c' l='931' u='r' c='event_changelist_del_'/>

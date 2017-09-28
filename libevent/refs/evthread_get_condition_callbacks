@@ -1,0 +1,4 @@
+<dec f='codebrowser/evthread-internal.h' l='396' type='struct evthread_condition_callbacks * evthread_get_condition_callbacks()'/>
+<doc f='codebrowser/evthread-internal.h' l='395'>/** Return current evthread_condition_callbacks */</doc>
+<def f='codebrowser/evthread.c' l='82' ll='86' type='struct evthread_condition_callbacks * evthread_get_condition_callbacks()'/>
+<use f='codebrowser/evthread.c' l='138' u='c' c='evthread_set_condition_callbacks'/>

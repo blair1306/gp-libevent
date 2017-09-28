@@ -1,0 +1,6 @@
+<dec f='include/openssl/dtls1.h' l='234' type='unsigned char [2]'/>
+<offset>6928</offset>
+<doc f='include/openssl/dtls1.h' l='230'>/*
+     * storage for Alert/Handshake protocol data received but not yet
+     * processed by ssl3_read_bytes:
+     */</doc>

@@ -1,0 +1,5 @@
+<def f='codebrowser/test/tinytest.h' l='45' ll='50'/>
+<size>16</size>
+<doc f='codebrowser/test/tinytest.h' l='44'>/** Functions to initialize/teardown a structure for a testcase. */</doc>
+<mbr r='testcase_setup_t::setup_fn' o='0' t='void *(*)(const struct testcase_t *)'/>
+<mbr r='testcase_setup_t::cleanup_fn' o='64' t='int (*)(const struct testcase_t *, void *)'/>

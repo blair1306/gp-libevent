@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/event2/http.h' l='645' type='struct evhttp_connection * evhttp_connection_base_new(struct event_base * base, struct evdns_base * dnsbase, const char * address, uint16_t port)'/>
+<use f='codebrowser/http.c' l='2334' u='c' c='evhttp_connection_new'/>
+<def f='codebrowser/http.c' l='2413' ll='2418' type='struct evhttp_connection * evhttp_connection_base_new(struct event_base * base, struct evdns_base * dnsbase, const char * address, uint16_t port)'/>
+<use f='codebrowser/sample/http-connect.c' l='102' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='1049' u='c' c='http_connection_test_'/>
+<use f='codebrowser/test/regress_http.c' l='1164' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1244' u='c' c='http_autofree_connection_test'/>
+<use f='codebrowser/test/regress_http.c' l='1368' u='c' c='http_fill_backlog'/>
+<use f='codebrowser/test/regress_http.c' l='1462' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1650' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1882' u='c' c='http_dispatcher_test'/>
+<use f='codebrowser/test/regress_http.c' l='1931' u='c' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='2070' u='c' c='http_put_test'/>
+<use f='codebrowser/test/regress_http.c' l='2288' u='c' c='http_close_detection_'/>
+<use f='codebrowser/test/regress_http.c' l='3416' u='c' c='http_stream_in_test_'/>
+<use f='codebrowser/test/regress_http.c' l='3486' u='c' c='http_stream_in_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3918' u='c' c='http_negative_content_length_test'/>
+<use f='codebrowser/test/regress_http.c' l='3995' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4112' u='c' c='http_lingering_close_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4384' u='c' c='http_get_addr_test'/>
+<use f='codebrowser/test/regress_http.c' l='4492' u='c' c='http_request_own_test'/>

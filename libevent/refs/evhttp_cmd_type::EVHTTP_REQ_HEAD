@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/http.h' l='495' type='4'/>
+<use f='codebrowser/http.c' l='312' c='evhttp_method'/>
+<use f='codebrowser/http.c' l='353' u='r' c='evhttp_response_needs_body'/>
+<use f='codebrowser/http.c' l='1754' u='r' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='2163' c='evhttp_method_may_have_body'/>
+<use f='codebrowser/http.c' l='3624' u='r' c='evhttp_new_object'/>
+<use f='codebrowser/sample/http-server.c' l='121' c='dump_request_cb'/>

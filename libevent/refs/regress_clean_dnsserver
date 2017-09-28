@@ -1,0 +1,9 @@
+<dec f='codebrowser/test/regress_testutils.h' l='59' type='void regress_clean_dnsserver()'/>
+<doc f='codebrowser/test/regress_testutils.h' l='58'>/* clean up the global dns server resources */</doc>
+<use f='codebrowser/test/regress_dns.c' l='593' u='c' c='dns_search_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='995' u='c' c='dns_disable_when_inactive_no_ns_test'/>
+<use f='codebrowser/test/regress_http.c' l='1230' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1554' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3702' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='4341' u='c' c='http_ipv6_for_domain_test_impl'/>
+<def f='codebrowser/test/regress_testutils.c' l='129' ll='140' type='void regress_clean_dnsserver()'/>

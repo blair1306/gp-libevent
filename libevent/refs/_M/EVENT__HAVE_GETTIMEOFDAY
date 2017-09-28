@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event-config.h' l='155'/>
+<use f='codebrowser/include/event2/util.h' l='572' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='154'>/* Define to 1 if you have the `gettimeofday&apos; function. */</doc>
+<use f='codebrowser/evutil_time.c' l='43' u='a'/>
+<use f='codebrowser/evutil_time.c' l='66' u='a'/>

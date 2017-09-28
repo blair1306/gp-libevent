@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/http.h' l='86' type='struct evhttp * evhttp_new(struct event_base * base)'/>
+<def f='codebrowser/http.c' l='3637' ll='3648' type='struct evhttp * evhttp_new(struct event_base * base)'/>
+<use f='codebrowser/sample/http-server.c' l='356' u='c' c='main'/>
+<use f='codebrowser/test/bench_http.c' l='159' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='136' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='1633' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1635' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='2344' u='c' c='http_highport_test'/>
+<use f='codebrowser/test/regress_http.c' l='3826' u='c' c='http_primitives'/>
+<use f='codebrowser/test/regress_rpc.c' l='83' u='c' c='http_setup'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/event-internal.h' l='351' ll='355'/>
+<size>24</size>
+<mbr r='event_config_entry::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/event-internal.h:352:2)'/>
+<mbr r='event_config_entry::avoid_method' o='128' t='const char *'/>

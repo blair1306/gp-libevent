@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='479' type='int evdns_base_load_hosts(struct evdns_base * base, const char * hosts_fname)'/>
+<use f='codebrowser/evdns.c' l='3621' u='c' c='evdns_base_resolv_conf_parse_impl'/>
+<def f='codebrowser/evdns.c' l='4213' ll='4223' type='int evdns_base_load_hosts(struct evdns_base * base, const char * hosts_fname)'/>
+<use f='codebrowser/test/regress_dns.c' l='1362' u='c' c='test_getaddrinfo_async'/>

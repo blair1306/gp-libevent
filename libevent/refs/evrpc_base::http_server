@@ -1,0 +1,6 @@
+<dec f='codebrowser/evrpc-internal.h' l='76' type='struct evhttp *'/>
+<use f='codebrowser/evrpc.c' l='87' u='w' c='evrpc_init'/>
+<use f='codebrowser/evrpc.c' l='239' u='r' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='270' u='r' c='evrpc_unregister_rpc'/>
+<offset>384</offset>
+<doc f='codebrowser/evrpc-internal.h' l='75'>/* the HTTP server under which we register our RPC calls */</doc>

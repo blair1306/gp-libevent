@@ -1,0 +1,6 @@
+<dec f='include/openssl/ssl.h' l='1131' type='int (*)(SSL *, const unsigned char **, unsigned int *, void *)'/>
+<offset>5568</offset>
+<doc f='include/openssl/ssl.h' l='1127'>/*
+     * For a server, this contains a callback function by which the set of
+     * advertised protocols can be provided.
+     */</doc>

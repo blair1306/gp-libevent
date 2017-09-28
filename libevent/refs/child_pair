@@ -1,0 +1,9 @@
+<def f='codebrowser/test/regress.c' l='830' type='int [2]'/>
+<use f='codebrowser/test/regress.c' l='838' u='r' c='simple_child_read_cb'/>
+<use f='codebrowser/test/regress.c' l='885' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='890' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='947' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='975' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='976' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='977' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='978' u='r' c='test_fork'/>

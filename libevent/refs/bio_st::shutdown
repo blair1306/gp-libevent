@@ -1,0 +1,10 @@
+<dec f='include/openssl/bio.h' l='331' type='int'/>
+<use f='codebrowser/bufferevent_openssl.c' l='124' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='199' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='202' macro='1' u='w'/>
+<use f='codebrowser/bufferevent_openssl.c' l='263' macro='1' u='w'/>
+<offset>224</offset>
+<use f='codebrowser/test/regress_ssl.c' l='573' macro='1' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='608' macro='1' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='611' macro='1' u='w'/>
+<use f='codebrowser/test/regress_ssl.c' l='658' macro='1' u='w'/>

@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/sys/poll.h' l='43' type='short'/>
+<use f='codebrowser/poll.c' l='194' u='r' c='poll_dispatch'/>
+<use f='codebrowser/poll.c' l='263' u='w' c='poll_add'/>
+<offset>48</offset>
+<doc f='include/x86_64-linux-gnu/sys/poll.h' l='43'>/* Types of events that actually occurred.  */</doc>

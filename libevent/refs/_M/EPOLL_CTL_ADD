@@ -1,0 +1,25 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='74'/>
+<use f='codebrowser/epolltable-internal.h' l='143' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='149' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='151' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='153' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='159' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='173' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='175' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='177' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='181' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='183' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='185' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='189' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='191' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='193' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='207' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='213' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='215' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='217' u='c'/>
+<use f='codebrowser/epolltable-internal.h' l='223' u='c'/>
+<use f='codebrowser/epoll.c' l='200' u='c'/>
+<use f='codebrowser/epoll.c' l='243' u='c'/>
+<use f='codebrowser/epoll.c' l='302' u='c'/>
+<use f='codebrowser/epoll.c' l='314' u='c'/>
+<doc f='include/x86_64-linux-gnu/sys/epoll.h' l='73'>/* Valid opcodes ( &quot;op&quot; parameter ) to issue to epoll_ctl().  */</doc>

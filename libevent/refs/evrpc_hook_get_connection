@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc.h' l='574' type='struct evhttp_connection * evrpc_hook_get_connection(void * ctx)'/>
+<def f='codebrowser/evrpc.c' l='1071' ll='1076' type='struct evhttp_connection * evrpc_hook_get_connection(void * ctx)'/>
+<use f='codebrowser/test/regress_rpc.c' l='406' u='c' c='rpc_hook_add_header'/>
+<use f='codebrowser/test/regress_rpc.c' l='417' u='c' c='rpc_hook_add_meta'/>
+<use f='codebrowser/test/regress_rpc.c' l='440' u='c' c='rpc_hook_remove_header'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='750' type='void evhttp_connection_set_initial_retry_tv(struct evhttp_connection * evcon, const struct timeval * tv)'/>
+<def f='codebrowser/http.c' l='2481' ll='2491' type='void evhttp_connection_set_initial_retry_tv(struct evhttp_connection * evcon, const struct timeval * tv)'/>
+<use f='codebrowser/test/regress_http.c' l='3708' u='c' c='http_connection_retry_test_basic'/>

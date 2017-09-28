@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/util.h' l='561'/>
+<use f='codebrowser/bufferevent_filter.c' l='105' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='124' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='341' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='360' u='c'/>
+<use f='codebrowser/bufferevent_pair.c' l='357' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='89' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='677' u='c'/>

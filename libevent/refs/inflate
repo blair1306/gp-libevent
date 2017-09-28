@@ -1,0 +1,2 @@
+<dec f='include/zlib.h' l='392' type='int inflate(z_streamp strm, int flush)'/>
+<use f='codebrowser/test/regress_zlib.c' l='157' u='c' c='zlib_input_filter'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/bufferevent-internal.h' l='113' type='ssize_t'/>
+<offset>960</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='248' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='249' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='543' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='547' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='720' u='w' c='bufferevent_rate_limit_group_set_min_share'/>

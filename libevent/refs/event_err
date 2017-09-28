@@ -1,0 +1,8 @@
+<dec f='codebrowser/log-internal.h' l='58' type='void event_err(int eval, const char * fmt)'/>
+<use f='codebrowser/event.c' l='244' u='c' c='event_assign'/>
+<use f='codebrowser/evrpc.c' l='218' u='c' c='evrpc_construct_uri'/>
+<use f='codebrowser/http.c' l='4297' u='c' c='name_from_addr'/>
+<def f='codebrowser/log.c' l='101' ll='110' type='void event_err(int eval, const char * fmt)'/>
+<use f='codebrowser/test/regress_http.c' l='191' u='c' c='http_connect'/>
+<use f='codebrowser/test/regress_http.c' l='202' u='c' c='http_connect'/>
+<use f='codebrowser/test/regress_util.c' l='535' u='c' c='err_fn'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/log-internal.h' l='62' type='void event_sock_err(int eval, int sock, const char * fmt)'/>
+<def f='codebrowser/log.c' l='122' ll='132' type='void event_sock_err(int eval, int sock, const char * fmt)'/>
+<use f='codebrowser/signal.c' l='152' u='c' c='evsig_cb'/>
+<use f='codebrowser/signal.c' l='187' u='c' c='evsig_init_'/>
+<use f='codebrowser/test/regress_util.c' l='547' u='c' c='sock_err_fn'/>

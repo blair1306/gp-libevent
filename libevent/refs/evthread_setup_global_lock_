@@ -1,0 +1,5 @@
+<dec f='codebrowser/evthread-internal.h' l='374' type='void * evthread_setup_global_lock_(void * lock_, unsigned int locktype, int enable_locks)'/>
+<use f='codebrowser/event.c' l='3864' macro='1' u='c'/>
+<def f='codebrowser/evthread.c' l='365' ll='419' type='void * evthread_setup_global_lock_(void * lock_, unsigned int locktype, int enable_locks)'/>
+<use f='codebrowser/evutil_rand.c' l='140' macro='1' u='c'/>
+<use f='codebrowser/signal.c' l='475' macro='1' u='c'/>

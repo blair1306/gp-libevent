@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/buffer.h' l='748' type='struct evbuffer_ptr evbuffer_search(struct evbuffer * buffer, const char * what, size_t len, const struct evbuffer_ptr * start)'/>
+<use f='codebrowser/buffer.c' l='1626' u='c' c='evbuffer_search_eol'/>
+<use f='codebrowser/buffer.c' l='2572' u='c' c='evbuffer_find'/>
+<def f='codebrowser/buffer.c' l='2701' ll='2705' type='struct evbuffer_ptr evbuffer_search(struct evbuffer * buffer, const char * what, size_t len, const struct evbuffer_ptr * start)'/>
+<use f='codebrowser/test/regress_buffer.c' l='1656' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1659' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1678' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1680' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1684' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1686' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1688' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1692' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1696' u='c' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_http.c' l='238' u='c' c='evbuffer_contains'/>

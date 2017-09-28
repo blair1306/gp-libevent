@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event.h' l='1482' type='int event_base_get_npriorities(struct event_base * eb)'/>
+<use f='codebrowser/buffer.c' l='416' u='c' c='evbuffer_defer_callbacks'/>
+<use f='codebrowser/bufferevent.c' l='348' u='c' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='354' u='c' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='425' u='c' c='bufferevent_get_priority'/>
+<def f='codebrowser/event.c' l='1237' ll='1249' type='int event_base_get_npriorities(struct event_base * base)'/>

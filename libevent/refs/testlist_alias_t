@@ -1,0 +1,4 @@
+<def f='codebrowser/test/tinytest.h' l='69' ll='72'/>
+<size>16</size>
+<mbr r='testlist_alias_t::name' o='0' t='const char *'/>
+<mbr r='testlist_alias_t::tests' o='64' t='const char **'/>

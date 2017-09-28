@@ -1,0 +1,4 @@
+<def f='codebrowser/test/test-ratelim.c' l='107' type='struct bufferevent_rate_limit_group *'/>
+<use f='codebrowser/test/test-ratelim.c' l='324' u='w' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='398' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='399' u='r' c='test_ratelimiting'/>

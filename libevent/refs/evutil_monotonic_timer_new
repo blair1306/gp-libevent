@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='352' type='struct evutil_monotonic_timer * evutil_monotonic_timer_new()'/>
+<def f='codebrowser/evutil_time.c' l='205' ll='217' type='struct evutil_monotonic_timer * evutil_monotonic_timer_new()'/>
+<doc f='codebrowser/evutil_time.c' l='202'>/*
+   Allocate a new struct evutil_monotonic_timer
+ */</doc>

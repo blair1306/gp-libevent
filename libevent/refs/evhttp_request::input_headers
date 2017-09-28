@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='81' type='struct evkeyvalq *'/>
+<offset>256</offset>
+<use f='codebrowser/http.c' l='474' u='r' c='evhttp_is_request_connection_close'/>
+<use f='codebrowser/http.c' l='522' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='565' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='577' u='r' c='evhttp_have_expect'/>
+<use f='codebrowser/http.c' l='2056' u='r' c='evhttp_parse_headers_'/>
+<use f='codebrowser/http.c' l='2115' u='r' c='evhttp_get_body_length'/>
+<use f='codebrowser/http.c' l='2185' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2731' u='r' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='3937' u='w' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3938' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3942' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3942' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3942' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3991' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3992' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4088' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4092' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4136' u='r' c='evhttp_request_get_input_headers'/>
+<use f='codebrowser/test/regress_rpc.c' l='115' u='r' c='MessageCb'/>
+<use f='codebrowser/test/regress_rpc.c' l='335' u='r' c='GotKillCb'/>
+<use f='codebrowser/test/regress_rpc.c' l='402' u='r' c='rpc_hook_add_header'/>
+<use f='codebrowser/test/regress_rpc.c' l='426' u='r' c='rpc_hook_remove_header'/>
+<use f='codebrowser/test/regress_rpc.c' l='433' u='r' c='rpc_hook_remove_header'/>
+<use f='codebrowser/test/regress_rpc.c' l='434' u='r' c='rpc_hook_remove_header'/>

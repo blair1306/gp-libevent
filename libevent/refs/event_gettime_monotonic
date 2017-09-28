@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event.h' l='403' type='int event_gettime_monotonic(struct event_base * base, struct timeval * tp)'/>
+<def f='codebrowser/event.c' l='1047' ll='1059' type='int event_gettime_monotonic(struct event_base * base, struct timeval * tv)'/>
+<doc f='codebrowser/event.c' l='1046'>/* Get the monotonic time for this event_base&apos; timer */</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/event-config.h' l='206'/>
+<use f='codebrowser/bufferevent-internal.h' l='309' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='205'>/* Define if the system has openssl */</doc>
+<use f='codebrowser/include/event2/bufferevent_ssl.h' l='55' u='a'/>
+<use f='codebrowser/test/regress.h' l='132' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='116' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='140' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='436' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='1037' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='3617' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='4526' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='4632' u='a'/>
+<use f='codebrowser/test/regress_main.c' l='388' u='a'/>

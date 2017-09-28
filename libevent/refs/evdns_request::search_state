@@ -1,0 +1,11 @@
+<dec f='codebrowser/evdns.c' l='166' type='struct search_state *'/>
+<use f='codebrowser/evdns.c' l='932' u='r' c='reply_handle'/>
+<use f='codebrowser/evdns.c' l='3238' u='w' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3262' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3266' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3269' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3281' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3302' u='r' c='search_request_finished'/>
+<use f='codebrowser/evdns.c' l='3303' u='r' c='search_request_finished'/>
+<use f='codebrowser/evdns.c' l='3304' u='w' c='search_request_finished'/>
+<offset>192</offset>

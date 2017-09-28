@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event.h' l='1576' type='void event_base_active_by_fd(struct event_base * base, int fd, short events)'/>
+<def f='codebrowser/event.c' l='3774' ll='3780' type='void event_base_active_by_fd(struct event_base * base, int fd, short events)'/>
+<use f='codebrowser/test/regress.c' l='3307' u='c' c='test_active_by_fd'/>
+<use f='codebrowser/test/regress.c' l='3310' u='c' c='test_active_by_fd'/>
+<use f='codebrowser/test/regress.c' l='3342' u='c' c='test_active_by_fd'/>
+<use f='codebrowser/test/regress.c' l='3343' u='c' c='test_active_by_fd'/>

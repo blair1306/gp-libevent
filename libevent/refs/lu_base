@@ -1,0 +1,16 @@
+<def f='codebrowser/test/regress_bufferevent.c' l='219' ll='228' type='struct lock_unlock_base'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='233' u='m' c='lu_find'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='234' u='m' c='lu_find'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='244' u='m' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='245' u='m' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='245' u='m' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='246' u='m' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='247' u='m' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='248' u='m' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='248' u='m' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='258' u='m' c='trace_lock_free'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='269' u='m' c='trace_lock_lock'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='280' u='m' c='trace_lock_unlock'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='308' u='m' c='use_lock_unlock_profiler'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='309' u='m' c='use_lock_unlock_profiler'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='327' u='m' c='free_lock_unlock_profiler'/>

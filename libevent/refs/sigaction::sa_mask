@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/sigaction.h' l='43' type='__sigset_t'/>
+<offset>64</offset>
+<doc f='include/x86_64-linux-gnu/bits/sigaction.h' l='42'>/* Additional set of signals to be blocked.  */</doc>
+<use f='codebrowser/signal.c' l='256' u='a' c='evsig_set_handler_'/>
+<use f='codebrowser/test/regress.c' l='1288' u='a' c='test_signal_restore'/>

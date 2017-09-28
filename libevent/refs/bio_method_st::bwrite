@@ -1,0 +1,4 @@
+<dec f='include/openssl/bio.h' l='315' type='int (*)(BIO *, const char *, int)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='241' macro='1' u='w'/>
+<offset>128</offset>
+<use f='codebrowser/test/regress_ssl.c' l='641' macro='1' u='w'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='502' type='void evdns_base_search_clear(struct evdns_base * base)'/>
+<def f='codebrowser/evdns.c' l='3086' ll='3092' type='void evdns_base_search_clear(struct evdns_base * base)'/>
+<use f='codebrowser/evdns.c' l='3096' u='c' c='evdns_search_clear'/>
+<doc f='codebrowser/evdns.c' l='3085'>/* exported function */</doc>

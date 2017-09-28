@@ -1,0 +1,47 @@
+<def f='codebrowser/event-internal.h' l='208' ll='349'/>
+<size>664</size>
+<mbr r='event_base::evsel' o='0' t='const struct eventop *'/>
+<mbr r='event_base::evbase' o='64' t='void *'/>
+<mbr r='event_base::changelist' o='128' t='struct event_changelist'/>
+<mbr r='event_base::evsigsel' o='256' t='const struct eventop *'/>
+<mbr r='event_base::sig' o='320' t='struct evsig_info'/>
+<mbr r='event_base::virtual_event_count' o='1600' t='int'/>
+<mbr r='event_base::virtual_event_count_max' o='1632' t='int'/>
+<mbr r='event_base::event_count' o='1664' t='int'/>
+<mbr r='event_base::event_count_max' o='1696' t='int'/>
+<mbr r='event_base::event_count_active' o='1728' t='int'/>
+<mbr r='event_base::event_count_active_max' o='1760' t='int'/>
+<mbr r='event_base::event_gotterm' o='1792' t='int'/>
+<mbr r='event_base::event_break' o='1824' t='int'/>
+<mbr r='event_base::event_continue' o='1856' t='int'/>
+<mbr r='event_base::event_running_priority' o='1888' t='int'/>
+<mbr r='event_base::running_loop' o='1920' t='int'/>
+<mbr r='event_base::n_deferreds_queued' o='1952' t='int'/>
+<mbr r='event_base::activequeues' o='1984' t='struct evcallback_list *'/>
+<mbr r='event_base::nactivequeues' o='2048' t='int'/>
+<mbr r='event_base::active_later_queue' o='2112' t='struct evcallback_list'/>
+<mbr r='event_base::common_timeout_queues' o='2240' t='struct common_timeout_list **'/>
+<mbr r='event_base::n_common_timeouts' o='2304' t='int'/>
+<mbr r='event_base::n_common_timeouts_allocated' o='2336' t='int'/>
+<mbr r='event_base::io' o='2368' t='struct event_signal_map'/>
+<mbr r='event_base::sigmap' o='2496' t='struct event_signal_map'/>
+<mbr r='event_base::timeheap' o='2624' t='struct min_heap'/>
+<mbr r='event_base::tv_cache' o='2752' t='struct timeval'/>
+<mbr r='event_base::monotonic_timer' o='2880' t='struct evutil_monotonic_timer'/>
+<mbr r='event_base::tv_clock_diff' o='3200' t='struct timeval'/>
+<mbr r='event_base::last_updated_clock_diff' o='3328' t='time_t'/>
+<mbr r='event_base::th_owner_id' o='3392' t='unsigned long'/>
+<mbr r='event_base::th_base_lock' o='3456' t='void *'/>
+<mbr r='event_base::current_event_cond' o='3520' t='void *'/>
+<mbr r='event_base::current_event_waiters' o='3584' t='int'/>
+<mbr r='event_base::current_event' o='3648' t='struct event_callback *'/>
+<mbr r='event_base::flags' o='3712' t='enum event_base_config_flag'/>
+<mbr r='event_base::max_dispatch_time' o='3776' t='struct timeval'/>
+<mbr r='event_base::max_dispatch_callbacks' o='3904' t='int'/>
+<mbr r='event_base::limit_callbacks_after_prio' o='3936' t='int'/>
+<mbr r='event_base::is_notify_pending' o='3968' t='int'/>
+<mbr r='event_base::th_notify_fd' o='4000' t='int [2]'/>
+<mbr r='event_base::th_notify' o='4096' t='struct event'/>
+<mbr r='event_base::th_notify_fn' o='5120' t='int (*)(struct event_base *)'/>
+<mbr r='event_base::weakrand_seed' o='5184' t='struct evutil_weakrand_state'/>
+<mbr r='event_base::once_events' o='5248' t='struct once_event_list'/>

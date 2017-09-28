@@ -1,0 +1,12 @@
+<dec f='codebrowser/evdns.c' l='4240' type='void *'/>
+<use f='codebrowser/evdns.c' l='4352' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4358' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4471' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4476' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4482' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4493' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4531' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4563' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4700' u='w' c='evdns_getaddrinfo'/>
+<offset>512</offset>
+<doc f='codebrowser/evdns.c' l='4239'>/* User-supplied data to give to the callback. */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='1007' type='int evhttp_parse_query_str(const char * uri, struct evkeyvalq * headers)'/>
+<def f='codebrowser/http.c' l='3273' ll='3277' type='int evhttp_parse_query_str(const char * uri, struct evkeyvalq * headers)'/>

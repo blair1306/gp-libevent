@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='103' type='int'/>
+<offset>928</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='103'>/* HTTP Response code */</doc>
+<use f='codebrowser/http.c' l='350' u='r' c='evhttp_response_needs_body'/>
+<use f='codebrowser/http.c' l='351' u='r' c='evhttp_response_needs_body'/>
+<use f='codebrowser/http.c' l='352' u='r' c='evhttp_response_needs_body'/>
+<use f='codebrowser/http.c' l='352' u='r' c='evhttp_response_needs_body'/>
+<use f='codebrowser/http.c' l='525' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='650' u='w' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='653' u='w' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='1666' u='w' c='evhttp_parse_response_line'/>
+<use f='codebrowser/http.c' l='1667' u='r' c='evhttp_parse_response_line'/>
+<use f='codebrowser/http.c' l='2292' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2300' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2997' u='w' c='evhttp_response_code_'/>
+<use f='codebrowser/http.c' l='3420' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='4124' u='r' c='evhttp_request_get_response_code'/>
+<use f='codebrowser/test/regress_rpc.c' l='170' u='r' c='rpc_postrequest_failure'/>
+<use f='codebrowser/test/regress_rpc.c' l='235' u='r' c='rpc_postrequest_done'/>

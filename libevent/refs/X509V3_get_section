@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='646' type='struct stack_st_CONF_VALUE * X509V3_get_section(X509V3_CTX * ctx, char * section)'/>

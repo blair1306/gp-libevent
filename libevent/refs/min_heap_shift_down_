@@ -1,0 +1,5 @@
+<dec f='codebrowser/minheap-internal.h' l='59' type='void min_heap_shift_down_(min_heap_t * s, unsigned int hole_index, struct event * e)'/>
+<use f='codebrowser/minheap-internal.h' l='84' u='c' c='min_heap_pop_'/>
+<use f='codebrowser/minheap-internal.h' l='110' u='c' c='min_heap_erase_'/>
+<use f='codebrowser/minheap-internal.h' l='128' u='c' c='min_heap_adjust_'/>
+<def f='codebrowser/minheap-internal.h' l='173' ll='186' type='void min_heap_shift_down_(min_heap_t * s, unsigned int hole_index, struct event * e)'/>

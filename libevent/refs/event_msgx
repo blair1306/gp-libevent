@@ -1,0 +1,4 @@
+<dec f='codebrowser/log-internal.h' l='70' type='void event_msgx(const char * fmt)'/>
+<use f='codebrowser/event.c' l='665' u='c' c='event_base_new_with_config'/>
+<def f='codebrowser/log.c' l='166' ll='174' type='void event_msgx(const char * fmt)'/>
+<use f='codebrowser/test/regress_util.c' l='584' u='c' c='test_evutil_log'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/event2/http.h' l='964' type='char * evhttp_uridecode(const char * uri, int decode_plus, size_t * size_out)'/>
+<def f='codebrowser/http.c' l='3173' ll='3194' type='char * evhttp_uridecode(const char * uri, int decode_plus, size_t * size_out)'/>
+<use f='codebrowser/sample/http-server.c' l='192' u='c' c='send_document_cb'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2851' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2861' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2861' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2861' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2921' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='2929' u='c' c='http_uriencode_test'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/event.h' l='971'/>
+<use f='codebrowser/evdns.c' l='534' u='c'/>
+<use f='codebrowser/evdns.c' l='584' u='c'/>
+<use f='codebrowser/evdns.c' l='2277' u='c'/>
+<use f='codebrowser/evrpc.c' l='741' u='c'/>
+<use f='codebrowser/test/regress.c' l='576' u='c'/>
+<use f='codebrowser/test/regress.c' l='1325' u='c'/>
+<use f='codebrowser/test/regress.c' l='1347' u='c'/>
+<use f='codebrowser/test/regress.c' l='1972' u='c'/>
+<use f='codebrowser/test/regress.c' l='2053' u='c'/>
+<use f='codebrowser/test/regress.c' l='2055' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='121' u='c'/>
+<use f='codebrowser/test/test-changelist.c' l='197' u='c'/>
+<use f='codebrowser/test/test-time.c' l='74' u='c'/>
+<use f='codebrowser/test/test-time.c' l='107' u='c'/>

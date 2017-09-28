@@ -1,0 +1,9 @@
+<dec f='codebrowser/event-internal.h' l='312' type='int'/>
+<offset>3584</offset>
+<doc f='codebrowser/event-internal.h' l='311'>/** Number of threads blocking on current_event_cond. */</doc>
+<use f='codebrowser/event.c' l='1630' u='w' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1688' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1689' u='w' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2595' u='w' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='2842' u='w' c='event_del_nolock_'/>
+<use f='codebrowser/event.c' l='2908' u='w' c='event_active_nolock_'/>

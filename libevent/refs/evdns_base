@@ -1,0 +1,28 @@
+<def f='codebrowser/evdns.c' l='304' ll='363'/>
+<size>312</size>
+<mbr r='evdns_base::req_heads' o='0' t='struct request **'/>
+<mbr r='evdns_base::req_waiting_head' o='64' t='struct request *'/>
+<mbr r='evdns_base::server_head' o='128' t='struct nameserver *'/>
+<mbr r='evdns_base::n_req_heads' o='192' t='int'/>
+<mbr r='evdns_base::event_base' o='256' t='struct event_base *'/>
+<mbr r='evdns_base::global_good_nameservers' o='320' t='int'/>
+<mbr r='evdns_base::global_requests_inflight' o='352' t='int'/>
+<mbr r='evdns_base::global_requests_waiting' o='384' t='int'/>
+<mbr r='evdns_base::global_max_requests_inflight' o='416' t='int'/>
+<mbr r='evdns_base::global_timeout' o='448' t='struct timeval'/>
+<mbr r='evdns_base::global_max_reissues' o='576' t='int'/>
+<mbr r='evdns_base::global_max_retransmits' o='608' t='int'/>
+<mbr r='evdns_base::global_max_nameserver_timeout' o='640' t='int'/>
+<mbr r='evdns_base::global_randomize_case' o='672' t='int'/>
+<mbr r='evdns_base::global_nameserver_probe_initial_timeout' o='704' t='struct timeval'/>
+<mbr r='evdns_base::global_outgoing_address' o='832' t='struct sockaddr_storage'/>
+<mbr r='evdns_base::global_outgoing_addrlen' o='1856' t='socklen_t'/>
+<mbr r='evdns_base::global_getaddrinfo_allow_skew' o='1920' t='struct timeval'/>
+<mbr r='evdns_base::getaddrinfo_ipv4_timeouts' o='2048' t='int'/>
+<mbr r='evdns_base::getaddrinfo_ipv6_timeouts' o='2080' t='int'/>
+<mbr r='evdns_base::getaddrinfo_ipv4_answered' o='2112' t='int'/>
+<mbr r='evdns_base::getaddrinfo_ipv6_answered' o='2144' t='int'/>
+<mbr r='evdns_base::global_search_state' o='2176' t='struct search_state *'/>
+<mbr r='evdns_base::hostsdb' o='2240' t='struct hosts_list'/>
+<mbr r='evdns_base::lock' o='2368' t='void *'/>
+<mbr r='evdns_base::disable_when_inactive' o='2432' t='int'/>

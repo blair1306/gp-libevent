@@ -1,0 +1,11 @@
+<dec f='codebrowser/changelist-internal.h' l='73'/>
+<use f='codebrowser/epolltable-internal.h' l='132' u='c'/>
+<use f='codebrowser/epoll.c' l='228' u='c'/>
+<use f='codebrowser/epoll.c' l='231' u='c'/>
+<use f='codebrowser/epoll.c' l='404' u='c'/>
+<use f='codebrowser/epoll.c' l='406' u='c'/>
+<use f='codebrowser/epoll.c' l='408' u='c'/>
+<doc f='codebrowser/changelist-internal.h' l='72'>/* If set, delete the event.  Exclusive with EV_CHANGE_ADD */</doc>
+<use f='codebrowser/evmap.c' l='922' u='c'/>
+<use f='codebrowser/evmap.c' l='928' u='c'/>
+<use f='codebrowser/evmap.c' l='934' u='c'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/event-internal.h' l='232' type='int'/>
+<offset>1696</offset>
+<doc f='codebrowser/event-internal.h' l='231'>/** Maximum number of total events added to this event_base */</doc>
+<use f='codebrowser/event.c' l='1292' u='r' c='event_base_get_max_events'/>
+<use f='codebrowser/event.c' l='1294' u='w' c='event_base_get_max_events'/>
+<use f='codebrowser/event.c' l='3170' u='w' c='event_queue_insert_inserted'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_inserted'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_inserted'/>
+<use f='codebrowser/event.c' l='3170' u='w' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3170' u='w' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3170' u='w' c='event_queue_insert_timeout'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_timeout'/>
+<use f='codebrowser/event.c' l='3170' u='r' c='event_queue_insert_timeout'/>

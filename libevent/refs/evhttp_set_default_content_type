@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='234' type='void evhttp_set_default_content_type(struct evhttp * http, const char * content_type)'/>
+<use f='codebrowser/http.c' l='3620' u='c' c='evhttp_new_object'/>
+<def f='codebrowser/http.c' l='3841' ll='3845' type='void evhttp_set_default_content_type(struct evhttp * http, const char * content_type)'/>

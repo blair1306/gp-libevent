@@ -1,0 +1,2 @@
+<dec f='codebrowser/util-internal.h' l='246' type='int EVUTIL_ISLOWER_(char c)'/>
+<def f='codebrowser/evutil.c' l='2308' macro='1' type='int EVUTIL_ISLOWER_(char c)'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event.h' l='701' type='void event_base_free_nofinalize(struct event_base * )'/>
+<def f='codebrowser/event.c' l='906' ll='910' type='void event_base_free_nofinalize(struct event_base * base)'/>

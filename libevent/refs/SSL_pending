@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2154' type='int SSL_pending(const SSL * s)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='815' u='c' c='consider_reading'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/evbuffer-internal.h' l='227' type='struct evbuffer_file_segment *'/>
+<use f='codebrowser/buffer.c' l='227' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='232' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='2462' u='r' c='evbuffer_write_sendfile'/>
+<use f='codebrowser/buffer.c' l='3265' u='w' c='evbuffer_add_file_segment'/>
+<offset>0</offset>

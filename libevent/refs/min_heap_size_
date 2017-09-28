@@ -1,0 +1,6 @@
+<dec f='codebrowser/minheap-internal.h' l='50' type='unsigned int min_heap_size_(min_heap_t * s)'/>
+<def f='codebrowser/minheap-internal.h' l='68' type='unsigned int min_heap_size_(min_heap_t * s)'/>
+<use f='codebrowser/event.c' l='2583' u='c' c='event_add_nolock_'/>
+<use f='codebrowser/test/regress_minheap.c' l='71' u='c' c='test_heap_randomized'/>
+<use f='codebrowser/test/regress_minheap.c' l='78' u='c' c='test_heap_randomized'/>
+<use f='codebrowser/test/regress_minheap.c' l='88' u='c' c='test_heap_randomized'/>

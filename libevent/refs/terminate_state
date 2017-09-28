@@ -1,0 +1,5 @@
+<def f='codebrowser/test/regress_http.c' l='4156' ll='4163'/>
+<size>32</size>
+<doc f='codebrowser/test/regress_http.c' l='4152'>/*
+ * Testing client reset of server chunked connections
+ */</doc>

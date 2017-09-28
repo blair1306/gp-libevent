@@ -1,0 +1,27 @@
+<dec f='codebrowser/test/regress_ssl.c' l='221' type='16'/>
+<use f='codebrowser/test/regress_ssl.c' l='372' u='r' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='481' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='763' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='763' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='771' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='771' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='780' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='780' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='763' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='763' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='771' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='771' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='780' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='780' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>

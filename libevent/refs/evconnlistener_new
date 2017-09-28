@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/listener.h' l='119' type='struct evconnlistener * evconnlistener_new(struct event_base * base, evconnlistener_cb cb, void * ptr, unsigned int flags, int backlog, int fd)'/>
+<use f='codebrowser/http.c' l='3556' u='c' c='evhttp_accept_socket_with_handle'/>
+<def f='codebrowser/listener.c' l='155' ll='207' type='struct evconnlistener * evconnlistener_new(struct event_base * base, evconnlistener_cb cb, void * ptr, unsigned int flags, int backlog, int fd)'/>
+<use f='codebrowser/listener.c' l='253' u='c' c='evconnlistener_new_bind'/>
+<use f='codebrowser/test/regress_listener.c' l='171' u='c' c='regress_listener_error'/>
+<use f='codebrowser/test/regress_listener.c' l='201' u='c' c='regress_listener_error_unlock'/>

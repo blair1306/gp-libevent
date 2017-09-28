@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/event.h' l='511' type='4'/>
+<doc f='codebrowser/include/event2/event.h' l='509'>/** Require an event method that allows file descriptors as well as
+     * sockets. */</doc>
+<use f='codebrowser/poll.c' l='83' u='r'/>
+<use f='codebrowser/poll.c' l='83' u='r'/>
+<use f='codebrowser/select.c' l='102' u='r'/>
+<use f='codebrowser/select.c' l='102' u='r'/>

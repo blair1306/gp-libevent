@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2566' type='int SSL_cache_hit(SSL * s)'/>

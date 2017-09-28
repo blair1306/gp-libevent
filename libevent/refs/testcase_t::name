@@ -1,0 +1,10 @@
+<dec f='codebrowser/test/tinytest.h' l='54' type='const char *'/>
+<offset>0</offset>
+<doc f='codebrowser/test/tinytest.h' l='54'>/**&lt; An identifier for this case. */</doc>
+<use f='codebrowser/test/tinytest.c' l='231' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='238' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='242' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='266' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='287' u='r' c='tinytest_set_flag_'/>
+<use f='codebrowser/test/tinytest.c' l='290' u='r' c='tinytest_set_flag_'/>
+<use f='codebrowser/test/tinytest.c' l='432' u='r' c='tinytest_main'/>

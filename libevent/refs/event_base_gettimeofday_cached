@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/event.h' l='1636' type='int event_base_gettimeofday_cached(struct event_base * base, struct timeval * tv)'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='119' u='c' c='bufferevent_update_buckets'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='407' u='c' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='535' u='c' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='587' u='c' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='646' u='c' c='bufferevent_rate_limit_group_new'/>
+<def f='codebrowser/event.c' l='398' ll='417' type='int event_base_gettimeofday_cached(struct event_base * base, struct timeval * tv)'/>
+<use f='codebrowser/test/regress.c' l='3212' u='c' c='cache_time_cb'/>
+<use f='codebrowser/test/regress.c' l='3243' u='c' c='test_gettimeofday_cached'/>
+<use f='codebrowser/test/regress.c' l='3244' u='c' c='test_gettimeofday_cached'/>

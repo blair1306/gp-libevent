@@ -1,0 +1,7 @@
+<def f='codebrowser/event.c' l='175' ll='179'/>
+<size>24</size>
+<doc f='codebrowser/event.c' l='169'>/* These functions implement a hashtable of which &apos;struct event *&apos; structures
+ * have been setup or added.  We don&apos;t want to trust the content of the struct
+ * event itself, since we&apos;re trying to work through cases where an event gets
+ * clobbered or freed.  Instead, we keep a hashtable indexed by the pointer.
+ */</doc>

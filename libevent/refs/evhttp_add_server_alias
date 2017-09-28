@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='347' type='int evhttp_add_server_alias(struct evhttp * http, const char * alias)'/>
+<def f='codebrowser/http.c' l='3749' ll='3767' type='int evhttp_add_server_alias(struct evhttp * http, const char * alias)'/>
+<use f='codebrowser/test/regress_http.c' l='1647' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1648' u='c' c='http_virtual_host_test'/>

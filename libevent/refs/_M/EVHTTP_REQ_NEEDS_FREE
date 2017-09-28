@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='79'/>
+<doc f='codebrowser/include/event2/http_struct.h' l='78'>/** The request should be freed upstack */</doc>
+<use f='codebrowser/http.c' l='970' u='c'/>
+<use f='codebrowser/http.c' l='1093' u='c'/>
+<use f='codebrowser/http.c' l='3976' u='c'/>

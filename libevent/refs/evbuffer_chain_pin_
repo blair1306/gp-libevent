@@ -1,0 +1,4 @@
+<dec f='codebrowser/evbuffer-internal.h' l='308' type='void evbuffer_chain_pin_(struct evbuffer_chain * chain, unsigned int flag)'/>
+<def f='codebrowser/buffer.c' l='338' ll='343' type='void evbuffer_chain_pin_(struct evbuffer_chain * chain, unsigned int flag)'/>
+<doc f='codebrowser/evbuffer-internal.h' l='306'>/** Pin a single buffer chain using a given flag. A pinned chunk may not be
+ * moved or freed until it is unpinned. */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='242'/>
+<doc f='codebrowser/include/event2/event-config.h' l='241'>/* Define if F_SETFD is defined in &lt;fcntl.h&gt; */</doc>
+<use f='codebrowser/evutil.c' l='405' u='a'/>
+<use f='codebrowser/evutil.c' l='428' u='a'/>

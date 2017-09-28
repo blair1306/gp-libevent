@@ -1,0 +1,9 @@
+<def f='codebrowser/ratelim-internal.h' l='48' ll='64'/>
+<size>56</size>
+<doc f='codebrowser/ratelim-internal.h' l='47'>/** Configuration info for a token bucket or set of token buckets. */</doc>
+<mbr r='ev_token_bucket_cfg::read_rate' o='0' t='size_t'/>
+<mbr r='ev_token_bucket_cfg::read_maximum' o='64' t='size_t'/>
+<mbr r='ev_token_bucket_cfg::write_rate' o='128' t='size_t'/>
+<mbr r='ev_token_bucket_cfg::write_maximum' o='192' t='size_t'/>
+<mbr r='ev_token_bucket_cfg::tick_timeout' o='256' t='struct timeval'/>
+<mbr r='ev_token_bucket_cfg::msec_per_tick' o='384' t='unsigned int'/>

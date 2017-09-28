@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='137' type='void (*)(enum evhttp_request_error, void *)'/>
+<offset>1536</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='131'>/*
+	 * Error callback - called when error is occured.
+	 * @see evhttp_request_error for error types.
+	 *
+	 * @see evhttp_request_set_error_cb()
+	 */</doc>
+<use f='codebrowser/http.c' l='749' u='r' c='evhttp_connection_fail_'/>
+<use f='codebrowser/http.c' l='4048' u='w' c='evhttp_request_set_error_cb'/>

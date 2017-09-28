@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/dns_struct.h' l='62' type='int'/>
+<use f='codebrowser/evdns.c' l='1268' u='w' c='request_parse'/>
+<use f='codebrowser/evdns.c' l='1925' u='r' c='evdns_server_request_format_response'/>
+<offset>0</offset>
+<use f='codebrowser/sample/dns-example.c' l='113' u='r' c='evdns_server_callback'/>
+<use f='codebrowser/sample/dns-example.c' l='120' u='r' c='evdns_server_callback'/>
+<use f='codebrowser/sample/dns-example.c' l='129' u='r' c='evdns_server_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='235' u='r' c='dns_server_request_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1017' u='r' c='be_getaddrinfo_server_cb'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='357' type='int evhttp_remove_server_alias(struct evhttp * http, const char * alias)'/>
+<def f='codebrowser/http.c' l='3769' ll='3784' type='int evhttp_remove_server_alias(struct evhttp * http, const char * alias)'/>

@@ -1,0 +1,33 @@
+<dec f='codebrowser/include/event2/util.h' l='794' type='void evutil_freeaddrinfo(struct addrinfo * ai)'/>
+<use f='codebrowser/bufferevent_sock.c' l='483' u='c' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='493' u='c' c='bufferevent_connect_getaddrinfo_cb'/>
+<use f='codebrowser/evdns.c' l='4297' u='c' c='free_getaddrinfo_request'/>
+<use f='codebrowser/evdns.c' l='4533' u='c' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4623' u='c' c='evdns_getaddrinfo_fromhosts'/>
+<use f='codebrowser/evutil.c' l='819' u='c' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='1025' u='c' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1439' u='c' c='evutil_getaddrinfo'/>
+<def f='codebrowser/evutil.c' l='1542' ll='1558' type='void evutil_freeaddrinfo(struct addrinfo * ai)'/>
+<use f='codebrowser/http.c' l='4401' u='c' c='bind_socket'/>
+<use f='codebrowser/test/regress_dns.c' l='1381' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1410' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1428' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1450' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1471' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1492' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1508' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1704' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1707' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_http.c' l='206' u='c' c='http_connect'/>
+<use f='codebrowser/test/regress_util.c' l='940' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='951' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='964' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='972' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='982' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='992' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1006' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1022' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1051' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1057' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1094' u='c' c='test_evutil_getaddrinfo_live'/>
+<use f='codebrowser/test/regress_util.c' l='1117' u='c' c='test_evutil_getaddrinfo_live'/>

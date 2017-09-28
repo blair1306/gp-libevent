@@ -1,0 +1,10 @@
+<dec f='codebrowser/evthread-internal.h' l='174'/>
+<doc f='codebrowser/evthread-internal.h' l='170'>/** Wait until the condition &apos;cond&apos; is signalled.  Must be called while
+ * holding &apos;lock&apos;.  The lock will be released until the condition is
+ * signalled, at which point it will be acquired again.  Returns 0 for
+ * success, -1 for failure. */</doc>
+<use f='codebrowser/event.c' l='2596' u='c'/>
+<use f='codebrowser/event.c' l='2843' u='c'/>
+<use f='codebrowser/event.c' l='2909' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='123' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='278' u='c'/>

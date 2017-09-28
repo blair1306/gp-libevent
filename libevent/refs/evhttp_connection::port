@@ -1,0 +1,10 @@
+<dec f='codebrowser/http-internal.h' l='68' type='uint16_t'/>
+<offset>1472</offset>
+<use f='codebrowser/http.c' l='1468' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1572' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1580' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1588' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='2351' u='w' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2513' u='r' c='evhttp_connection_get_peer'/>
+<use f='codebrowser/http.c' l='2579' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='4223' u='r' c='evhttp_associate_new_request_with_connection'/>

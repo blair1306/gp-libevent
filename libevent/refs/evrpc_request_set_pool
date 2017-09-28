@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/rpc.h' l='613' type='void evrpc_request_set_pool(struct evrpc_request_wrapper * ctx, struct evrpc_pool * pool)'/>
+<def f='codebrowser/evrpc.c' l='1157' ll='1162' type='void evrpc_request_set_pool(struct evrpc_request_wrapper * ctx, struct evrpc_pool * pool)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/thread.h' l='233' type='void evthread_enable_lock_debuging()'/>
+<def f='codebrowser/evthread.c' l='311' ll='315' type='void evthread_enable_lock_debuging()'/>
+<doc f='codebrowser/evthread.c' l='310'>/* misspelled version for backward compatibility */</doc>

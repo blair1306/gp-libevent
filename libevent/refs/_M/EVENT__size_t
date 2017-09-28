@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='506'/>
+<doc f='codebrowser/include/event2/event-config.h' l='505'>/* Define to `unsigned&apos; if &lt;sys/types.h&gt; does not define. */</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='91' type='enum evhttp_request_kind'/>
+<offset>576</offset>
+<use f='codebrowser/http.c' l='579' u='r' c='evhttp_have_expect'/>
+<use f='codebrowser/http.c' l='603' u='r' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='1192' u='w' c='evhttp_write_connectioncb'/>
+<use f='codebrowser/http.c' l='1443' u='w' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/http.c' l='2002' u='r' c='evhttp_parse_firstline_'/>
+<use f='codebrowser/http.c' l='2179' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2194' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2282' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2609' u='w' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='2996' u='w' c='evhttp_response_code_'/>
+<use f='codebrowser/http.c' l='3017' u='r' c='evhttp_send_page_'/>
+<use f='codebrowser/http.c' l='3936' u='w' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='4237' u='w' c='evhttp_associate_new_request_with_connection'/>

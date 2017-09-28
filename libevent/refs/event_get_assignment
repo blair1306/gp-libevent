@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='1390' type='void event_get_assignment(const struct event * event, struct event_base ** base_out, int * fd_out, short * events_out, event_callback_fn * callback_out, void ** arg_out)'/>
+<def f='codebrowser/event.c' l='2371' ll='2386' type='void event_get_assignment(const struct event * event, struct event_base ** base_out, int * fd_out, short * events_out, event_callback_fn * callback_out, void ** arg_out)'/>
+<use f='codebrowser/test/regress.c' l='3105' u='c' c='test_get_assignment'/>
+<use f='codebrowser/test/regress.c' l='3114' u='c' c='test_get_assignment'/>

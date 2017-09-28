@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='747' type='int X509_check_ip_asc(X509 * x, const char * ipasc, unsigned int flags)'/>

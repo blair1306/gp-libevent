@@ -1,0 +1,7 @@
+<dec f='codebrowser/util-internal.h' l='287' type='int evutil_socket_connect_(int * fd_ptr, const struct sockaddr * sa, int socklen)'/>
+<use f='codebrowser/bufferevent_sock.c' l='414' u='c' c='bufferevent_socket_connect'/>
+<def f='codebrowser/evutil.c' l='526' ll='557' type='int evutil_socket_connect_(int * fd_ptr, const struct sockaddr * sa, int socklen)'/>
+<doc f='codebrowser/evutil.c' l='525'>/* 2 for connection refused, 1 for connected, 0 for not yet, -1 for error. */</doc>
+<use f='codebrowser/test/regress_listener.c' l='121' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='122' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='123' u='c' c='regress_pick_a_port'/>

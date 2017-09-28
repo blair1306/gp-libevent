@@ -1,0 +1,13 @@
+<dec f='codebrowser/event-internal.h' l='184' type='struct event_change *'/>
+<offset>0</offset>
+<use f='codebrowser/epoll.c' l='366' u='r' c='epoll_apply_changes'/>
+<use f='codebrowser/evmap.c' l='699' u='w' c='event_changelist_init_'/>
+<use f='codebrowser/evmap.c' l='733' u='r' c='event_changelist_assert_ok_foreach_iter_fn'/>
+<use f='codebrowser/evmap.c' l='748' u='r' c='event_changelist_assert_ok'/>
+<use f='codebrowser/evmap.c' l='776' u='r' c='event_changelist_remove_all_'/>
+<use f='codebrowser/evmap.c' l='791' u='r' c='event_changelist_freemem_'/>
+<use f='codebrowser/evmap.c' l='792' u='r' c='event_changelist_freemem_'/>
+<use f='codebrowser/evmap.c' l='807' u='r' c='event_changelist_grow'/>
+<use f='codebrowser/evmap.c' l='813' u='w' c='event_changelist_grow'/>
+<use f='codebrowser/evmap.c' l='841' u='r' c='event_changelist_get_or_construct'/>
+<use f='codebrowser/evmap.c' l='848' u='r' c='event_changelist_get_or_construct'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/evrpc-internal.h' l='62' type='struct evrpc_hook_list'/>
+<use f='codebrowser/evrpc.c' l='82' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='82' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='82' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='108' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='130' u='a' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='175' u='a' c='evrpc_remove_hook'/>
+<use f='codebrowser/evrpc.c' l='302' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='310' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='518' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='518' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='518' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='560' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='876' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='880' macro='1' u='a'/>
+<offset>0</offset>
+<doc f='codebrowser/evrpc-internal.h' l='61'>/* hooks for processing outbound and inbound rpcs */</doc>

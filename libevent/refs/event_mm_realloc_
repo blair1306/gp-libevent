@@ -1,0 +1,16 @@
+<dec f='codebrowser/mm-internal.h' l='72' type='void * event_mm_realloc_(void * p, size_t sz)'/>
+<use f='codebrowser/minheap-internal.h' l='141' macro='1' u='c'/>
+<use f='codebrowser/epoll.c' l='509' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='229' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='1483' macro='1' u='c'/>
+<def f='codebrowser/event.c' l='3502' ll='3509' type='void * event_mm_realloc_(void * ptr, size_t sz)'/>
+<use f='codebrowser/evmap.c' l='213' macro='1' u='c'/>
+<use f='codebrowser/evmap.c' l='807' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='2038' macro='1' u='c'/>
+<use f='codebrowser/poll.c' l='144' macro='1' u='c'/>
+<use f='codebrowser/poll.c' l='239' macro='1' u='c'/>
+<use f='codebrowser/select.c' l='149' macro='1' u='c'/>
+<use f='codebrowser/select.c' l='152' macro='1' u='c'/>
+<use f='codebrowser/select.c' l='220' macro='1' u='c'/>
+<use f='codebrowser/select.c' l='223' macro='1' u='c'/>
+<use f='codebrowser/signal.c' l='231' macro='1' u='c'/>

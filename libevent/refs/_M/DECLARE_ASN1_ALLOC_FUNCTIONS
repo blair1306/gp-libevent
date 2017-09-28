@@ -1,0 +1,5 @@
+<dec f='include/openssl/asn1.h' l='313'/>
+<use f='include/openssl/x509v3.h' l='586' u='c'/>
+<use f='include/openssl/x509v3.h' l='590' u='c'/>
+<use f='include/openssl/x509v3.h' l='593' u='c'/>
+<use f='include/openssl/x509v3.h' l='595' u='c'/>

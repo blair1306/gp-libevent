@@ -1,0 +1,55 @@
+<dec f='codebrowser/bufferevent-internal.h' l='126' type='void *'/>
+<offset>2176</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='123'>/** Lock to protect the members of this group.  This lock should nest
+	 * within every bufferevent lock: if you are holding this lock, do
+	 * not assume you can lock another bufferevent. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='662' u='w' c='bufferevent_rate_limit_group_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_free'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_free'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_free'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_free'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='731' u='r' c='bufferevent_rate_limit_group_free'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_remove_from_rate_limit_group_internal_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_remove_from_rate_limit_group_internal_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_remove_from_rate_limit_group_internal_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_remove_from_rate_limit_group_internal_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_get_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_get_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_get_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_get_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_decrement_read'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_decrement_read'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_decrement_read'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_decrement_read'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_decrement_write'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='185' u='r' c='bufferevent_rate_limit_group_decrement_write'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_decrement_write'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='186' u='r' c='bufferevent_rate_limit_group_decrement_write'/>

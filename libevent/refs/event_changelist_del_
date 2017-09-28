@@ -1,0 +1,5 @@
+<dec f='codebrowser/changelist-internal.h' l='99' type='int event_changelist_del_(struct event_base * base, int fd, short old, short events, void * p)'/>
+<use f='codebrowser/epoll.c' l='103'/>
+<use f='codebrowser/epoll.c' l='103'/>
+<doc f='codebrowser/changelist-internal.h' l='98'>/** Implementation of eventop_del that queues the event in a changelist. */</doc>
+<def f='codebrowser/evmap.c' l='889' ll='939' type='int event_changelist_del_(struct event_base * base, int fd, short old, short events, void * p)'/>

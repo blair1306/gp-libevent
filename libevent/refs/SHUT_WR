@@ -1,0 +1,16 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='56' type='1'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='56'>/* No more transmissions.  */</doc>
+<use f='codebrowser/http.c' l='1242' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1333' macro='1' u='r'/>
+<use f='codebrowser/test/regress.c' l='199' macro='1' u='r'/>
+<use f='codebrowser/test/regress.c' l='279' macro='1' u='r'/>
+<use f='codebrowser/test/regress.c' l='309' macro='1' u='r'/>
+<use f='codebrowser/test/regress.c' l='354' macro='1' u='r'/>
+<use f='codebrowser/test/regress.c' l='961' macro='1' u='r'/>
+<use f='codebrowser/test/regress.c' l='1937' macro='1' u='r'/>
+<use f='codebrowser/test/regress.c' l='2766' macro='1' u='r'/>
+<use f='codebrowser/test/regress_et.c' l='104' macro='1' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='627' macro='1' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='670' macro='1' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='3027' macro='1' u='r'/>
+<use f='codebrowser/test/test-eof.c' l='103' macro='1' u='r'/>

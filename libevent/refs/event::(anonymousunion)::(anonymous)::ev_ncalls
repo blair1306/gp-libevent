@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='145' type='short'/>
+<offset>128</offset>
+<use f='codebrowser/event.c' l='1318' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1324' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2085' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2651' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2791' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2912' macro='1' u='w'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/bufferevent-internal.h' l='391' type='void bufferevent_run_writecb_(struct bufferevent * bufev, int options)'/>
+<use f='codebrowser/bufferevent-internal.h' l='414' u='c' c='bufferevent_trigger_nolock_'/>
+<def f='codebrowser/bufferevent.c' l='236' ll='250' type='void bufferevent_run_writecb_(struct bufferevent * bufev, int options)'/>

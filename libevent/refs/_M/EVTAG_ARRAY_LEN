@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/rpc.h' l='144'/>
+<doc f='codebrowser/include/event2/rpc.h' l='141'>/**
+   Returns the number of entries in the array.
+*/</doc>
+<use f='codebrowser/test/regress_rpc.c' l='818' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='831' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='850' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='861' u='c'/>

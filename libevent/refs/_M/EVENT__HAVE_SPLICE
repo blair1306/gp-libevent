@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='257'/>
+<doc f='codebrowser/include/event2/event-config.h' l='256'>/* Define to 1 if you have the `splice&apos; function. */</doc>

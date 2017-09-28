@@ -1,0 +1,8 @@
+<dec f='codebrowser/util-internal.h' l='500'/>
+<use f='codebrowser/bufferevent_sock.c' l='397' u='c'/>
+<use f='codebrowser/evdns.c' l='2515' u='c'/>
+<use f='codebrowser/evutil.c' l='2537' u='c'/>
+<use f='codebrowser/evutil.c' l='2586' u='c'/>
+<use f='codebrowser/http.c' l='4327' u='c'/>
+<use f='codebrowser/listener.c' l='192' u='c'/>
+<use f='codebrowser/listener.c' l='218' u='c'/>

@@ -1,0 +1,5 @@
+<dec f='include/ifaddrs.h' l='36' type='struct sockaddr *'/>
+<use f='codebrowser/evutil.c' l='661' u='r' c='evutil_check_ifaddrs'/>
+<use f='codebrowser/evutil.c' l='663' u='r' c='evutil_check_ifaddrs'/>
+<offset>192</offset>
+<doc f='include/ifaddrs.h' l='36'>/* Network address of this interface.  */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/evrpc-internal.h' l='125' type='struct evrpc_hook_meta * evrpc_hook_meta_new_()'/>
+<doc f='codebrowser/evrpc-internal.h' l='124'>/* creates a new meta data store */</doc>

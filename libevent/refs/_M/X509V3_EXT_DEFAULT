@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509v3.h' l='485'/>
+<doc f='include/openssl/x509v3.h' l='484'>/* Return error for unknown extensions */</doc>

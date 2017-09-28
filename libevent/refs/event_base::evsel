@@ -1,0 +1,26 @@
+<dec f='codebrowser/event-internal.h' l='211' type='const struct eventop *'/>
+<offset>0</offset>
+<doc f='codebrowser/event-internal.h' l='209'>/** Function pointers and other data to describe this event_base&apos;s
+	 * backend. */</doc>
+<use f='codebrowser/epoll.c' l='181' u='w' c='epoll_init'/>
+<use f='codebrowser/event.c' l='527' u='r' c='event_base_get_features'/>
+<use f='codebrowser/event.c' l='651' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='653' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='659' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='665' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='882' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='882' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='883' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='948' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='960' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='995' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1007' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1008' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1782' u='r' c='event_base_get_method'/>
+<use f='codebrowser/event.c' l='1883' u='r' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='3425' u='r' c='event_get_method'/>
+<use f='codebrowser/evmap.c' l='268' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='349' u='r' c='evmap_io_del_'/>
+<use f='codebrowser/evmap.c' l='599' u='r' c='evmap_io_reinit_iter_fn'/>
+<use f='codebrowser/evmap.c' l='1000' u='r' c='evmap_check_integrity_'/>
+<use f='codebrowser/signal.c' l='294' u='r' c='evsig_add'/>

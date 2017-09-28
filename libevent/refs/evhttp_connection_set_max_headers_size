@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='705' type='void evhttp_connection_set_max_headers_size(struct evhttp_connection * evcon, ssize_t new_max_headers_size)'/>
+<def f='codebrowser/http.c' l='625' ll='633' type='void evhttp_connection_set_max_headers_size(struct evhttp_connection * evcon, ssize_t new_max_headers_size)'/>

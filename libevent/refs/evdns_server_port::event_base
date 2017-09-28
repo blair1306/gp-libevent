@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='254' type='struct event_base *'/>
+<use f='codebrowser/evdns.c' l='1458' u='r' c='server_port_flush'/>
+<use f='codebrowser/evdns.c' l='1725' u='w' c='evdns_add_server_port_with_base'/>
+<use f='codebrowser/evdns.c' l='1727' u='r' c='evdns_add_server_port_with_base'/>
+<use f='codebrowser/evdns.c' l='2019' u='r' c='evdns_server_request_respond'/>
+<offset>1344</offset>

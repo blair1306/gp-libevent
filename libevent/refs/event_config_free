@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/event.h' l='475' type='void event_config_free(struct event_config * cfg)'/>
+<use f='codebrowser/event.c' l='487' u='c' c='event_base_new'/>
+<def f='codebrowser/event.c' l='1117' ll='1127' type='void event_config_free(struct event_config * cfg)'/>
+<use f='codebrowser/test/regress.c' l='2540' u='c' c='test_methods'/>
+<use f='codebrowser/test/regress.c' l='2589' u='c' c='test_base_features'/>
+<use f='codebrowser/test/regress.c' l='2680' u='c' c='test_base_environ'/>
+<use f='codebrowser/test/regress.c' l='2705' u='c' c='test_base_environ'/>
+<use f='codebrowser/test/regress.c' l='3010' u='c' c='test_mm_functions'/>
+<use f='codebrowser/test/regress.c' l='3282' u='c' c='test_gettimeofday_cached'/>
+<use f='codebrowser/test/regress_thread.c' l='495' u='c' c='thread_deferred_cb_skew'/>
+<use f='codebrowser/test/test-ratelim.c' l='290' u='c' c='test_ratelimiting'/>

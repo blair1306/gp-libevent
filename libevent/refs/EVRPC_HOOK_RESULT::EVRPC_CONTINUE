@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/event2/rpc.h' l='490' type='0'/>
+<use f='codebrowser/evrpc.c' l='194' u='r' c='evrpc_process_hooks'/>
+<use f='codebrowser/evrpc.c' l='198' u='r' c='evrpc_process_hooks'/>
+<use f='codebrowser/evrpc.c' l='319' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='323' u='r' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='328' u='r' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='442' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='446' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='451' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='695' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='700' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='705' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='863' u='r' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='872' u='r' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='885' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='902' u='r' c='evrpc_reply_done'/>
+<doc f='codebrowser/include/event2/rpc.h' l='490'>/**&lt; continue processing the rpc */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='408' u='r' c='rpc_hook_add_header'/>
+<use f='codebrowser/test/regress_rpc.c' l='419' u='r' c='rpc_hook_add_meta'/>
+<use f='codebrowser/test/regress_rpc.c' l='442' u='r' c='rpc_hook_remove_header'/>
+<use f='codebrowser/test/regress_rpc.c' l='611' u='r' c='rpc_hook_pause_cb'/>

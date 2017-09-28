@@ -1,0 +1,4 @@
+<dec f='codebrowser/util-internal.h' l='237' type='int EVUTIL_ISALPHA_(char c)'/>
+<use f='codebrowser/evdns.c' l='2785' u='c' c='request_new'/>
+<def f='codebrowser/evutil.c' l='2302' macro='1' type='int EVUTIL_ISALPHA_(char c)'/>
+<use f='codebrowser/http.c' l='4442' u='c' c='scheme_ok'/>

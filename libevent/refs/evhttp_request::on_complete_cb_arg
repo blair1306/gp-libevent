@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='144' type='void *'/>
+<offset>1664</offset>
+<use f='codebrowser/http.c' l='2726' u='r' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='4056' u='w' c='evhttp_request_set_on_complete_cb'/>

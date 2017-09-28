@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/buffer.h' l='380' type='ssize_t evbuffer_copyout_from(struct evbuffer * buf, const struct evbuffer_ptr * pos, void * data_out, size_t datlen)'/>
+<use f='codebrowser/buffer.c' l='1169' u='c' c='evbuffer_remove'/>
+<use f='codebrowser/buffer.c' l='1181' u='c' c='evbuffer_copyout'/>
+<def f='codebrowser/buffer.c' l='1184' ll='1249' macro='1' type='ssize_t evbuffer_copyout_from(struct evbuffer * buf, const struct evbuffer_ptr * pos, void * data_out, size_t datlen)'/>
+<use f='codebrowser/test/regress_buffer.c' l='2454' u='c' c='test_evbuffer_copyout'/>
+<use f='codebrowser/test/regress_buffer.c' l='2459' u='c' c='test_evbuffer_copyout'/>
+<use f='codebrowser/test/regress_buffer.c' l='2464' u='c' c='test_evbuffer_copyout'/>
+<use f='codebrowser/test/regress_buffer.c' l='2469' u='c' c='test_evbuffer_copyout'/>
+<use f='codebrowser/test/regress_buffer.c' l='2474' u='c' c='test_evbuffer_copyout'/>

@@ -1,0 +1,4 @@
+<dec f='include/asm-generic/socket.h' l='10'/>
+<use f='codebrowser/evutil.c' l='362' u='a'/>
+<use f='codebrowser/evutil.c' l='367' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='120' u='c'/>

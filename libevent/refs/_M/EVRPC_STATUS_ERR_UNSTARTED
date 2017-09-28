@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='48'/>
+<use f='codebrowser/evrpc.c' l='710' u='c'/>
+<use f='codebrowser/evrpc.c' l='755' u='c'/>
+<use f='codebrowser/evrpc.c' l='1097' u='c'/>

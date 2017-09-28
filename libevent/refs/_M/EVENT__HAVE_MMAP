@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event-config.h' l='188'/>
+<use f='codebrowser/buffer.c' l='3010' u='a'/>
+<use f='codebrowser/buffer.c' l='3037' u='a'/>
+<use f='codebrowser/buffer.c' l='3155' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='187'>/* Define to 1 if you have the `mmap&apos; function. */</doc>

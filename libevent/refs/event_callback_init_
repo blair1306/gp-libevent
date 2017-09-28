@@ -1,0 +1,2 @@
+<dec f='codebrowser/event-internal.h' l='443' type='void event_callback_init_(struct event_base * base, struct event_callback * cb)'/>
+<def f='codebrowser/event.c' l='2999' ll='3005' type='void event_callback_init_(struct event_base * base, struct event_callback * cb)'/>

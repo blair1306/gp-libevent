@@ -1,0 +1,4 @@
+<def f='codebrowser/iocp-internal.h' l='99' ll='101'/>
+<size>8</size>
+<doc f='codebrowser/iocp-internal.h' l='98'>/* Dummy definition so we can test-compile more things on unix. */</doc>
+<mbr r='event_overlapped::cb' o='0' t='iocp_callback'/>

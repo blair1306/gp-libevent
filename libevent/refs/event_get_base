@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/event.h' l='1355' type='struct event_base * event_get_base(const struct event * ev)'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='535' u='c' c='bev_group_refill_callback_'/>
+<def f='codebrowser/event.c' l='2401' ll='2406' type='struct event_base * event_get_base(const struct event * ev)'/>
+<use f='codebrowser/listener.c' l='360' u='c' c='event_listener_getbase'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='65' u='c' c='fifo_read'/>
+<use f='codebrowser/test/regress.c' l='1208' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1209' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1409' u='c' c='event_selfarg_cb'/>
+<use f='codebrowser/test/regress.c' l='2083' u='c' c='re_add_read_cb'/>
+<use f='codebrowser/test/regress.c' l='3133' u='c' c='foreach_count_cb'/>

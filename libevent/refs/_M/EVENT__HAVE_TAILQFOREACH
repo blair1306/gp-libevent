@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='94'/>
+<dec f='codebrowser/include/event2/event-config.h' l='386'/>
+<doc f='codebrowser/include/event2/event-config.h' l='93'>/* Define to 1 if the &lt;sys/queue.h&gt; header file defines TAILQ_FOREACH. */</doc>
+<doc f='codebrowser/include/event2/event-config.h' l='385'>/* Define if TAILQ_FOREACH is defined in &lt;sys/queue.h&gt; */</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/evdns.c' l='326' type='int'/>
+<use f='codebrowser/evdns.c' l='664' u='w' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='746' u='r' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='761' u='w' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='2440' u='w' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2840' u='w' c='request_submit'/>
+<use f='codebrowser/evdns.c' l='3934' u='w' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4052' u='w' c='evdns_base_free_and_unlock'/>
+<offset>384</offset>
+<doc f='codebrowser/evdns.c' l='325'>/* and are counted here */</doc>

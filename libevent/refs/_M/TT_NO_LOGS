@@ -1,0 +1,13 @@
+<dec f='codebrowser/test/regress.h' l='94'/>
+<use f='codebrowser/test/regress.c' l='3380' u='c'/>
+<use f='codebrowser/test/regress.c' l='3392' u='c'/>
+<use f='codebrowser/test/regress.c' l='3393' u='c'/>
+<use f='codebrowser/test/regress.c' l='3477' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='2520' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='2124' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='2126' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='2127' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='2129' u='c'/>
+<use f='codebrowser/test/regress_et.c' l='202' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='252' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='270' u='c'/>

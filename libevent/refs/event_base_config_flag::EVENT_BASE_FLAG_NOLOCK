@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/event.h' l='536' type='1'/>
+<doc f='codebrowser/include/event2/event.h' l='530'>/** Do not allocate a lock for the event base, even if we have
+	    locking set up.
+
+	    Setting this option will make it unsafe and nonfunctional to call
+	    functions on the base concurrently from multiple threads.
+	*/</doc>
+<use f='codebrowser/event.c' l='681' u='r' c='event_base_new_with_config'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/minheap-internal.h' l='54' type='struct event * min_heap_pop_(min_heap_t * s)'/>
+<def f='codebrowser/minheap-internal.h' l='79' ll='89' type='struct event * min_heap_pop_(min_heap_t * s)'/>
+<use f='codebrowser/test/regress_minheap.c' l='80' u='c' c='test_heap_randomized'/>
+<use f='codebrowser/test/regress_minheap.c' l='82' u='c' c='test_heap_randomized'/>

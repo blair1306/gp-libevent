@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='75'/>
+<doc f='codebrowser/include/event2/http_struct.h' l='74'>/** The request object is owned by the user; the user must free it */</doc>
+<use f='codebrowser/http.c' l='706' u='c'/>
+<use f='codebrowser/http.c' l='4009' u='c'/>
+<use f='codebrowser/http.c' l='4015' u='c'/>

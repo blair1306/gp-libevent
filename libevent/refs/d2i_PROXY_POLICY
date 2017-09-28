@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='353' macro='1' type='PROXY_POLICY * d2i_PROXY_POLICY(PROXY_POLICY ** a, const unsigned char ** in, long len)'/>

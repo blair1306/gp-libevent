@@ -1,0 +1,12 @@
+<dec f='codebrowser/evmap-internal.h' l='78' type='void evmap_io_active_(struct event_base * base, int fd, short events)'/>
+<use f='codebrowser/epoll.c' l='500' u='c' c='epoll_dispatch'/>
+<doc f='codebrowser/evmap-internal.h' l='72'>/** Active the set of events waiting on an event_base for a given fd.
+
+    @param base the event_base to operate on.
+    @param fd the file descriptor that has become active.
+    @param events a bitmask of EV_READ|EV_WRITE|EV_ET.
+*/</doc>
+<use f='codebrowser/event.c' l='3778' u='c' c='event_base_active_by_fd'/>
+<def f='codebrowser/evmap.c' l='411' ll='430' type='void evmap_io_active_(struct event_base * base, int fd, short events)'/>
+<use f='codebrowser/poll.c' l='210' u='c' c='poll_dispatch'/>
+<use f='codebrowser/select.c' l='204' u='c' c='select_dispatch'/>

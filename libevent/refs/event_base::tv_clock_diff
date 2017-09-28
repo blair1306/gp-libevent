@@ -1,0 +1,15 @@
+<dec f='codebrowser/event-internal.h' l='298' type='struct timeval'/>
+<offset>3200</offset>
+<doc f='codebrowser/event-internal.h' l='296'>/** Difference between internal time (maybe from clock_gettime) and
+	 * gettimeofday. */</doc>
+<use f='codebrowser/event.c' l='391' u='a' c='gettime'/>
+<use f='codebrowser/event.c' l='391' u='a' c='gettime'/>
+<use f='codebrowser/event.c' l='391' u='a' c='gettime'/>
+<use f='codebrowser/event.c' l='391' u='a' c='gettime'/>
+<use f='codebrowser/event.c' l='391' u='a' c='gettime'/>
+<use f='codebrowser/event.c' l='412' u='a' c='event_base_gettimeofday_cached'/>
+<use f='codebrowser/event.c' l='412' u='a' c='event_base_gettimeofday_cached'/>
+<use f='codebrowser/event.c' l='2354' u='a' c='event_pending'/>
+<use f='codebrowser/event.c' l='2354' u='a' c='event_pending'/>
+<use f='codebrowser/event.c' l='3713' u='a' c='dump_inserted_event_fn'/>
+<use f='codebrowser/event.c' l='3713' u='a' c='dump_inserted_event_fn'/>

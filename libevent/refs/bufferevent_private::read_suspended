@@ -1,0 +1,22 @@
+<dec f='codebrowser/bufferevent-internal.h' l='182' type='bufferevent_suspend_flags'/>
+<offset>3232</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='179'>/** If set, read is suspended until one or more conditions are over.
+	 * The actual value here is a bitfield of those conditions; see the
+	 * BEV_SUSPEND_* flags above. */</doc>
+<use f='codebrowser/bufferevent.c' l='72' u='r' c='bufferevent_suspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='74' u='w' c='bufferevent_suspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='84' u='w' c='bufferevent_unsuspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='85' u='r' c='bufferevent_unsuspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='468' u='r' c='bufferevent_enable'/>
+<use f='codebrowser/bufferevent.c' l='954' u='r' c='bufferevent_generic_adj_timeouts_'/>
+<use f='codebrowser/bufferevent_openssl.c' l='588' u='r' c='do_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='600' u='r' c='do_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='752' u='r' c='bytes_to_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='804' u='r' c='consider_reading'/>
+<use f='codebrowser/bufferevent_openssl.c' l='843' u='r' c='consider_reading'/>
+<use f='codebrowser/bufferevent_pair.c' l='200' u='r' c='be_pair_wants_to_talk'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='288' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='327' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='415' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1018' u='r' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_sock.c' l='184' u='r' c='bufferevent_readcb'/>

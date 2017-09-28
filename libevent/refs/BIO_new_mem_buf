@@ -1,0 +1,2 @@
+<dec f='include/openssl/bio.h' l='692' type='BIO * BIO_new_mem_buf(const void * buf, int len)'/>
+<use f='codebrowser/test/regress_ssl.c' l='109' u='c' c='ssl_getkey'/>

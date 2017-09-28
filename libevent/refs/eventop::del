@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='105' type='int (*)(struct event_base *, int, short, short, void *)'/>
+<offset>192</offset>
+<doc f='codebrowser/event-internal.h' l='104'>/** As &quot;add&quot;, except &apos;events&apos; contains the events we mean to disable. */</doc>
+<use f='codebrowser/evmap.c' l='396' u='r' c='evmap_io_del_'/>
+<use f='codebrowser/evmap.c' l='482' u='r' c='evmap_signal_del_'/>

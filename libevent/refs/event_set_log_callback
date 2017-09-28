@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event.h' l='736' type='void event_set_log_callback(event_log_cb cb)'/>
+<def f='codebrowser/log.c' l='212' ll='216' type='void event_set_log_callback(event_log_cb cb)'/>
+<use f='codebrowser/test/regress_main.c' l='253' u='c' c='basic_test_setup'/>
+<use f='codebrowser/test/regress_main.c' l='271' u='c' c='basic_test_cleanup'/>
+<use f='codebrowser/test/regress_util.c' l='557' u='c' c='test_evutil_log'/>

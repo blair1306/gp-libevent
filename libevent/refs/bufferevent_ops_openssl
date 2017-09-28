@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='310' type='const struct bufferevent_ops'/>
+<def f='codebrowser/bufferevent_openssl.c' l='339' ll='349' type='const struct bufferevent_ops'/>
+<use f='codebrowser/bufferevent_openssl.c' l='357' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_openssl.c' l='361' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1359' u='a' c='bufferevent_openssl_new_impl'/>

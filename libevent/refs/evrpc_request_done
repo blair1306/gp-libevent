@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/rpc.h' l='265' type='void evrpc_request_done(struct evrpc_req_generic * req)'/>
+<def f='codebrowser/evrpc.c' l='402' ll='458' type='void evrpc_request_done(struct evrpc_req_generic * rpc_state)'/>
+<use f='codebrowser/test/regress_rpc.c' l='125' macro='1' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='716' macro='1' u='c'/>

@@ -1,0 +1,20 @@
+<dec f='include/stdlib.h' l='468' type='void * calloc(size_t __nmemb, size_t __size)'/>
+<doc f='include/stdlib.h' l='467'>/* Allocate NMEMB elements of SIZE bytes each, all initialized to 0.  */</doc>
+<use f='codebrowser/openssl-compat.h' l='8' u='c' c='BIO_meth_new'/>
+<use f='codebrowser/event.c' l='3460' u='c' c='event_mm_calloc_'/>
+<use f='codebrowser/event.c' l='3494' macro='1' u='c'/>
+<use f='codebrowser/test/bench.c' l='178' u='c' c='main'/>
+<use f='codebrowser/test/bench.c' l='179' u='c' c='main'/>
+<use f='codebrowser/test/bench_cascade.c' l='87' u='c' c='run_once'/>
+<use f='codebrowser/test/bench_cascade.c' l='88' u='c' c='run_once'/>
+<use f='codebrowser/test/regress_buffer.c' l='1007' macro='1' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1259' u='c' c='bufferevent_filter_data_stuck_inputcb'/>
+<use f='codebrowser/test/regress_dns.c' l='1778' u='c' c='gaic_launch'/>
+<use f='codebrowser/test/regress_dns.c' l='1847' u='c' c='testleak_setup'/>
+<use f='codebrowser/test/regress_http.c' l='897' macro='1' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='255' u='c' c='basic_test_setup'/>
+<use f='codebrowser/test/regress_util.c' l='485' macro='1' u='c'/>
+<use f='codebrowser/test/test-ratelim.c' l='343' u='c' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='344' u='c' c='test_ratelimiting'/>
+<use f='codebrowser/test/tinytest.c' l='483' macro='1' u='c'/>
+<use f='codebrowser/test/tinytest.c' l='485' macro='1' u='c'/>

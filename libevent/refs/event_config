@@ -1,0 +1,11 @@
+<def f='codebrowser/event-internal.h' l='359' ll='368'/>
+<size>56</size>
+<doc f='codebrowser/event-internal.h' l='357'>/** Internal structure: describes the configuration we want for an event_base
+ * that we&apos;re about to allocate. */</doc>
+<mbr r='event_config::entries' o='0' t='struct event_configq'/>
+<mbr r='event_config::n_cpus_hint' o='128' t='int'/>
+<mbr r='event_config::max_dispatch_interval' o='192' t='struct timeval'/>
+<mbr r='event_config::max_dispatch_callbacks' o='320' t='int'/>
+<mbr r='event_config::limit_callbacks_after_prio' o='352' t='int'/>
+<mbr r='event_config::require_features' o='384' t='enum event_method_feature'/>
+<mbr r='event_config::flags' o='416' t='enum event_base_config_flag'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/dns.h' l='636' type='int evdns_server_request_add_reply(struct evdns_server_request * req, int section, const char * name, int type, int dns_class, int ttl, int datalen, int is_name, const char * data)'/>
+<def f='codebrowser/evdns.c' l='1758' ll='1828' type='int evdns_server_request_add_reply(struct evdns_server_request * req_, int section, const char * name, int type, int class, int ttl, int datalen, int is_name, const char * data)'/>
+<use f='codebrowser/evdns.c' l='1834' u='c' c='evdns_server_request_add_a_reply'/>
+<use f='codebrowser/evdns.c' l='1843' u='c' c='evdns_server_request_add_aaaa_reply'/>
+<use f='codebrowser/evdns.c' l='1867' u='c' c='evdns_server_request_add_ptr_reply'/>
+<use f='codebrowser/evdns.c' l='1876' u='c' c='evdns_server_request_add_cname_reply'/>
+<doc f='codebrowser/evdns.c' l='1757'>/* exported function */</doc>
+<use f='codebrowser/test/regress_testutils.c' l='187' u='c' c='regress_dns_server_cb'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/event_tagging.c' l='101' type='int evtag_encode_tag(struct evbuffer * evbuf, uint32_t tag)'/>
+<def f='codebrowser/event_tagging.c' l='177' ll='198' type='int evtag_encode_tag(struct evbuffer * evbuf, uint32_t tag)'/>
+<use f='codebrowser/event_tagging.c' l='264' u='c' c='evtag_marshal'/>
+<use f='codebrowser/event_tagging.c' l='273' u='c' c='evtag_marshal_buffer'/>
+<use f='codebrowser/event_tagging.c' l='286' u='c' c='evtag_marshal_int'/>
+<use f='codebrowser/event_tagging.c' l='298' u='c' c='evtag_marshal_int64'/>
+<doc f='codebrowser/event_tagging.c' l='172'>/*
+ * Support variable length encoding of tags; we use the high bit in each
+ * octet as a continuation signal.
+ */</doc>
+<dec f='codebrowser/test/regress.c' l='2313' type='int evtag_encode_tag(struct evbuffer * evbuf, uint32_t number)'/>
+<use f='codebrowser/test/regress.c' l='2460' u='c' c='evtag_tag_encoding'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/minheap-internal.h' l='39' ll='43'/>
+<size>16</size>
+<mbr r='min_heap::p' o='0' t='struct event **'/>
+<mbr r='min_heap::n' o='64' t='unsigned int'/>
+<mbr r='min_heap::a' o='96' t='unsigned int'/>

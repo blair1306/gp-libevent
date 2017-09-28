@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='100'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='94'>/** @name Bufferevent event codes
+
+    These flags are passed as arguments to a bufferevent&apos;s event callback.
+
+    @{
+*/</doc>
+<use f='codebrowser/bufferevent.c' l='925' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='630' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='945' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1053' u='c'/>
+<use f='codebrowser/bufferevent_pair.c' l='332' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='153' u='c'/>
+<use f='codebrowser/http.c' l='1477' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='929' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='930' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1221' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3014' u='c'/>

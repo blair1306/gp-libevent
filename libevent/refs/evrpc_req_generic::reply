@@ -1,0 +1,10 @@
+<dec f='codebrowser/evrpc-internal.h' l='144' type='void *'/>
+<use f='codebrowser/evrpc.c' l='364' u='w' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='365' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='392' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='393' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='413' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='424' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='469' u='r' c='evrpc_get_reply'/>
+<offset>128</offset>
+<doc f='codebrowser/evrpc-internal.h' l='143'>/* the empty reply object that needs to be filled in */</doc>

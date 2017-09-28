@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='1071' type='ENGINE *'/>
+<offset>3264</offset>
+<doc f='include/openssl/ssl.h' l='1068'>/*
+     * Engine to pass requests for client certs to
+     */</doc>

@@ -1,0 +1,5 @@
+<dec f='include/unistd.h' l='337' type='__off_t lseek(int __fd, __off_t __offset, int __whence)'/>
+<use f='codebrowser/buffer.c' l='3091' u='c' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3102' u='c' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3114' u='c' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/test/regress_main.c' l='139' u='c' c='regress_make_tmpfile'/>

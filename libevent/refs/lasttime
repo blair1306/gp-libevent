@@ -1,0 +1,5 @@
+<def f='codebrowser/sample/time-test.c' l='38' type='struct timeval'/>
+<use f='codebrowser/sample/time-test.c' l='50' u='a' c='timeout_cb'/>
+<use f='codebrowser/sample/time-test.c' l='50' u='a' c='timeout_cb'/>
+<use f='codebrowser/sample/time-test.c' l='56' u='w' c='timeout_cb'/>
+<use f='codebrowser/sample/time-test.c' l='101' u='a' c='main'/>

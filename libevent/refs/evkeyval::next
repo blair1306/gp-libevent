@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/event2/keyvalq_struct.h' l='59' type='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/keyvalq_struct.h:59:2)'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='609' u='m' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='1856' u='m' c='evhttp_find_header'/>
+<use f='codebrowser/http.c' l='1872' u='m' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1872' u='m' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1872' u='m' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1872' u='m' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1872' u='m' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1872' u='m' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1872' u='m' c='evhttp_clear_headers'/>
+<use f='codebrowser/http.c' l='1889' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1898' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1898' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1898' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1898' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1898' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1898' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1898' u='m' c='evhttp_remove_header'/>
+<use f='codebrowser/http.c' l='1962' u='m' c='evhttp_add_header_internal'/>
+<use f='codebrowser/http.c' l='1962' u='m' c='evhttp_add_header_internal'/>
+<use f='codebrowser/http.c' l='1962' u='m' c='evhttp_add_header_internal'/>
+<use f='codebrowser/sample/http-server.c' l='136' u='m' c='dump_request_cb'/>

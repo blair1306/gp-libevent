@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2342' type='int SSL_get_error(const SSL * s, int ret_code)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='613' u='c' c='do_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='691' u='c' c='do_write'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1043' u='c' c='do_handshake'/>

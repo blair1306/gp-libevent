@@ -1,0 +1,5 @@
+<dec f='codebrowser/evdns.c' l='250' type='void *'/>
+<use f='codebrowser/evdns.c' l='1285' u='r' c='request_parse'/>
+<use f='codebrowser/evdns.c' l='1723' u='w' c='evdns_add_server_port_with_base'/>
+<offset>192</offset>
+<doc f='codebrowser/evdns.c' l='250'>/* Opaque pointer passed to user_callback */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/event-internal.h' l='185' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/epoll.c' l='365' u='r' c='epoll_apply_changes'/>
+<use f='codebrowser/evmap.c' l='701' u='w' c='event_changelist_init_'/>
+<use f='codebrowser/evmap.c' l='746' u='r' c='event_changelist_assert_ok'/>
+<use f='codebrowser/evmap.c' l='747' u='r' c='event_changelist_assert_ok'/>
+<use f='codebrowser/evmap.c' l='775' u='r' c='event_changelist_remove_all_'/>
+<use f='codebrowser/evmap.c' l='783' u='w' c='event_changelist_remove_all_'/>
+<use f='codebrowser/evmap.c' l='833' u='r' c='event_changelist_get_or_construct'/>
+<use f='codebrowser/evmap.c' l='835' u='r' c='event_changelist_get_or_construct'/>
+<use f='codebrowser/evmap.c' l='840' u='w' c='event_changelist_get_or_construct'/>

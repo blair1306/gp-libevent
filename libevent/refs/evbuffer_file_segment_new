@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/buffer.h' l='599' type='struct evbuffer_file_segment * evbuffer_file_segment_new(int fd, int64_t offset, int64_t length, unsigned int flags)'/>
+<def f='codebrowser/buffer.c' l='2950' ll='3008' type='struct evbuffer_file_segment * evbuffer_file_segment_new(int fd, int64_t offset, int64_t length, unsigned int flags)'/>
+<use f='codebrowser/buffer.c' l='3287' u='c' c='evbuffer_add_file'/>
+<doc f='codebrowser/buffer.c' l='2947'>/* TODO(niels): we may want to add to automagically convert to mmap, in
+ * case evbuffer_remove() or evbuffer_pullup() are being used.
+ */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1032' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1151' u='c' c='test_evbuffer_file_segment_add_cleanup_cb'/>

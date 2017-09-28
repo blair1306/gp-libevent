@@ -1,0 +1,6 @@
+<dec f='codebrowser/minheap-internal.h' l='51' type='struct event * min_heap_top_(min_heap_t * s)'/>
+<def f='codebrowser/minheap-internal.h' l='69' type='struct event * min_heap_top_(min_heap_t * s)'/>
+<use f='codebrowser/event.c' l='833' u='c' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='2706' u='c' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='3101' u='c' c='timeout_next'/>
+<use f='codebrowser/event.c' l='3143' u='c' c='timeout_process'/>

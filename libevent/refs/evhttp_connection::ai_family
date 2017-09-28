@@ -1,0 +1,5 @@
+<dec f='codebrowser/http-internal.h' l='107' type='int'/>
+<offset>3008</offset>
+<use f='codebrowser/http.c' l='2392' u='w' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2423' u='w' c='evhttp_connection_set_family'/>
+<use f='codebrowser/http.c' l='2579' u='r' c='evhttp_connection_connect_'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='563' type='void bufferevent_unlock(struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent.c' l='1011' ll='1015' type='void bufferevent_unlock(struct bufferevent * bev)'/>

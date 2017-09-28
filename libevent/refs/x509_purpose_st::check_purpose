@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509v3.h' l='462' type='int (*)(const struct x509_purpose_st *, const X509 *, int)'/>
+<offset>128</offset>

@@ -1,0 +1,3 @@
+<def f='codebrowser/test/bench_httpclient.c' l='56' type='size_t'/>
+<use f='codebrowser/test/bench_httpclient.c' l='90' u='w' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='233' u='r' c='main'/>

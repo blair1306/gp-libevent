@@ -1,0 +1,3 @@
+<dec f='codebrowser/bufferevent-internal.h' l='502' type='int bufferevent_ratelim_init_(struct bufferevent_private * bev)'/>
+<use f='codebrowser/bufferevent.c' l='319' u='c' c='bufferevent_init_common_'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='1084' ll='1092' type='int bufferevent_ratelim_init_(struct bufferevent_private * bev)'/>

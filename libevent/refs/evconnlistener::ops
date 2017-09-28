@@ -1,0 +1,10 @@
+<dec f='codebrowser/listener.c' l='76' type='const struct evconnlistener_ops *'/>
+<use f='codebrowser/listener.c' l='133' u='r' c='listener_decref_and_unlock'/>
+<use f='codebrowser/listener.c' l='184' u='w' c='evconnlistener_new'/>
+<use f='codebrowser/listener.c' l='269' u='r' c='evconnlistener_free'/>
+<use f='codebrowser/listener.c' l='270' u='r' c='evconnlistener_free'/>
+<use f='codebrowser/listener.c' l='293' u='r' c='evconnlistener_enable'/>
+<use f='codebrowser/listener.c' l='306' u='r' c='evconnlistener_disable'/>
+<use f='codebrowser/listener.c' l='332' u='r' c='evconnlistener_get_fd'/>
+<use f='codebrowser/listener.c' l='350' u='r' c='evconnlistener_get_base'/>
+<offset>0</offset>

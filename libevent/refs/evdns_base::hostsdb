@@ -1,0 +1,13 @@
+<dec f='codebrowser/evdns.c' l='356' type='struct hosts_list'/>
+<use f='codebrowser/evdns.c' l='3948' u='a' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='3948' u='a' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='3948' u='a' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4076' u='a' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4077' u='a' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4102' u='a' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4103' u='a' c='evdns_base_clear_host_addresses'/>
+<use f='codebrowser/evdns.c' l='4164' u='a' c='evdns_base_parse_hosts_line'/>
+<use f='codebrowser/evdns.c' l='4164' u='a' c='evdns_base_parse_hosts_line'/>
+<use f='codebrowser/evdns.c' l='4164' u='a' c='evdns_base_parse_hosts_line'/>
+<use f='codebrowser/evdns.c' l='4579' u='a' c='find_hosts_entry'/>
+<offset>2240</offset>

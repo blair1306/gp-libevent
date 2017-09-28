@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='334' type='int'/>
+<use f='codebrowser/evdns.c' l='2189' u='r' c='evdns_request_timeout_callback'/>
+<use f='codebrowser/evdns.c' l='3478' u='w' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3940' u='w' c='evdns_base_new'/>
+<offset>640</offset>
+<doc f='codebrowser/evdns.c' l='333'>/* number of timeouts in a row before we consider this server to be down */</doc>

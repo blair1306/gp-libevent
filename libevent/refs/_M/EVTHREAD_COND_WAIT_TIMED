@@ -1,0 +1,4 @@
+<dec f='codebrowser/evthread-internal.h' l='178'/>
+<doc f='codebrowser/evthread-internal.h' l='176'>/** As EVTHREAD_COND_WAIT, but gives up after &apos;tv&apos; has elapsed.  Returns 1
+ * on timeout. */</doc>
+<use f='codebrowser/test/regress_thread.c' l='275' u='c'/>

@@ -1,0 +1,8 @@
+<dec f='include/netdb.h' l='615'/>
+<use f='codebrowser/include/event2/util.h' l='754' u='a'/>
+<use f='codebrowser/evutil.c' l='1095' u='a'/>
+<use f='codebrowser/evutil.c' l='1119' u='a'/>
+<use f='codebrowser/evutil.c' l='1120' u='c'/>
+<use f='codebrowser/evutil.c' l='1263' u='a'/>
+<use f='codebrowser/evutil.c' l='1264' u='c'/>
+<use f='codebrowser/evutil.c' l='1374' u='a'/>

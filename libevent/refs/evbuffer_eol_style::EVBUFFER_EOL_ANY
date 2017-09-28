@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/buffer.h' l='411' type='0'/>
+<use f='codebrowser/buffer.c' l='1463' u='r' c='evbuffer_readline'/>
+<use f='codebrowser/buffer.c' l='1619' c='evbuffer_search_eol'/>
+<doc f='codebrowser/include/event2/buffer.h' l='402'>/** Any sequence of CR and LF characters is acceptable as an
+	 * EOL.
+	 *
+	 * Note that this style can produce ambiguous results: the
+	 * sequence &quot;CRLF&quot; will be treated as a single EOL if it is
+	 * all in the buffer at once, but if you first read a CR from
+	 * the network and later read an LF from the network, it will
+	 * be treated as two EOLs.
+	 */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1216' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1220' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1229' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1233' u='r' c='test_evbuffer_readln'/>

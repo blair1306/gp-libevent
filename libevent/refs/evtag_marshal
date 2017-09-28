@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/tag.h' l='75' type='void evtag_marshal(struct evbuffer * evbuf, uint32_t tag, const void * data, uint32_t len)'/>
+<def f='codebrowser/event_tagging.c' l='260' ll='267' type='void evtag_marshal(struct evbuffer * evbuf, uint32_t tag, const void * data, uint32_t len)'/>
+<use f='codebrowser/event_tagging.c' l='307' u='c' c='evtag_marshal_string'/>
+<use f='codebrowser/event_tagging.c' l='316' u='c' c='evtag_marshal_timeval'/>
+<doc f='codebrowser/event_tagging.c' l='254'>/*
+ * Marshal a data type, the general format is as follows:
+ *
+ * tag number: one byte; length: var bytes; payload: var bytes
+ */</doc>

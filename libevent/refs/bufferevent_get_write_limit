@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='926' type='ssize_t bufferevent_get_write_limit(struct bufferevent * bev)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='840' ll='855' macro='1' type='ssize_t bufferevent_get_write_limit(struct bufferevent * bev)'/>
+<use f='codebrowser/test/test-ratelim.c' l='204' u='c' c='check_bucket_levels_cb'/>

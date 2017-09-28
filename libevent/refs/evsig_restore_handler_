@@ -1,0 +1,4 @@
+<dec f='codebrowser/event-internal.h' l='402' type='int evsig_restore_handler_(struct event_base * base, int evsignal)'/>
+<def f='codebrowser/signal.c' l='323' ll='358' type='int evsig_restore_handler_(struct event_base * base, int evsignal)'/>
+<use f='codebrowser/signal.c' l='373' u='c' c='evsig_del'/>
+<use f='codebrowser/signal.c' l='426' u='c' c='evsig_dealloc_'/>

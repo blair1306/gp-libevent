@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/buffer.h' l='1033' type='int evbuffer_freeze(struct evbuffer * buf, int at_front)'/>
+<def f='codebrowser/buffer.c' l='3380' ll='3390' type='int evbuffer_freeze(struct evbuffer * buffer, int start)'/>
+<use f='codebrowser/bufferevent_pair.c' l='141' u='c' c='bufferevent_pair_new'/>
+<use f='codebrowser/bufferevent_pair.c' l='142' u='c' c='bufferevent_pair_new'/>
+<use f='codebrowser/bufferevent_pair.c' l='143' u='c' c='bufferevent_pair_new'/>
+<use f='codebrowser/bufferevent_pair.c' l='144' u='c' c='bufferevent_pair_new'/>
+<use f='codebrowser/bufferevent_pair.c' l='190' u='c' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='191' u='c' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_sock.c' l='189' u='c' c='bufferevent_readcb'/>
+<use f='codebrowser/bufferevent_sock.c' l='295' u='c' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='372' u='c' c='bufferevent_socket_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='373' u='c' c='bufferevent_socket_new'/>
+<use f='codebrowser/http.c' l='1448' u='c' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/test/regress_buffer.c' l='2298' u='c' c='test_evbuffer_freeze'/>

@@ -1,0 +1,8 @@
+<def f='codebrowser/evbuffer-internal.h' l='62' ll='76'/>
+<size>40</size>
+<doc f='codebrowser/evbuffer-internal.h' l='60'>/** A single evbuffer callback for an evbuffer. This function will be invoked
+ * when bytes are added to or removed from the evbuffer. */</doc>
+<mbr r='evbuffer_cb_entry::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/evbuffer-internal.h:64:2)'/>
+<mbr r='evbuffer_cb_entry::cb' o='128' t='union (anonymous union at /home/jon/workspace/libevent/evbuffer-internal.h:68:2)'/>
+<mbr r='evbuffer_cb_entry::cbarg' o='192' t='void *'/>
+<mbr r='evbuffer_cb_entry::flags' o='256' t='uint32_t'/>

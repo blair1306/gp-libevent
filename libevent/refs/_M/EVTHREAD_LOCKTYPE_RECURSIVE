@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/event2/thread.h' l='85'/>
+<use f='codebrowser/buffer.c' l='432' u='c'/>
+<use f='codebrowser/buffer.c' l='582' u='c'/>
+<doc f='codebrowser/include/event2/thread.h' l='82'>/** A recursive lock is one that can be acquired multiple times at once by the
+ * same thread.  No other process can allocate the lock until the thread that
+ * has been holding it has unlocked it as many times as it locked it. */</doc>
+<use f='codebrowser/bufferevent.c' l='759' u='c'/>
+<use f='codebrowser/bufferevent.c' l='826' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='662' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='731' u='c'/>
+<use f='codebrowser/evdns.c' l='1734' u='c'/>
+<use f='codebrowser/evdns.c' l='2131' u='c'/>
+<use f='codebrowser/evdns.c' l='3923' u='c'/>
+<use f='codebrowser/evdns.c' l='4085' u='c'/>
+<use f='codebrowser/evthread.c' l='202' u='c'/>
+<use f='codebrowser/evthread.c' l='225' u='c'/>
+<use f='codebrowser/evthread.c' l='238' u='c'/>
+<use f='codebrowser/evthread.c' l='322' u='c'/>
+<use f='codebrowser/evthread.c' l='383' u='c'/>
+<use f='codebrowser/evthread.c' l='410' u='c'/>
+<use f='codebrowser/evthread_pthread.c' l='51' u='c'/>
+<use f='codebrowser/evthread_pthread.c' l='168' u='c'/>
+<use f='codebrowser/listener.c' l='135' u='c'/>
+<use f='codebrowser/listener.c' l='197' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='302' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='309' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='385' u='c'/>

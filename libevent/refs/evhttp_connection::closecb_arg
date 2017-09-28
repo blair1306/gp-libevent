@@ -1,0 +1,5 @@
+<dec f='codebrowser/http-internal.h' l='101' type='void *'/>
+<offset>2496</offset>
+<use f='codebrowser/http.c' l='1209' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1331' u='r' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='2505' u='w' c='evhttp_connection_set_closecb'/>

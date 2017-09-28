@@ -1,0 +1,7 @@
+<dec f='codebrowser/event_tagging.c' l='97' type='int evtag_decode_int(uint32_t * pnumber, struct evbuffer * evbuf)'/>
+<def f='codebrowser/event_tagging.c' l='379' ll='387' type='int evtag_decode_int(uint32_t * pnumber, struct evbuffer * evbuf)'/>
+<use f='codebrowser/event_tagging.c' l='448' u='c' c='evtag_unmarshal_header'/>
+<use f='codebrowser/event_tagging.c' l='500' u='c' c='evtag_unmarshal_int'/>
+<use f='codebrowser/event_tagging.c' l='526' u='c' c='evtag_unmarshal_int64'/>
+<dec f='codebrowser/test/regress.c' l='2311' type='int evtag_decode_int(uint32_t * pnumber, struct evbuffer * evbuf)'/>
+<use f='codebrowser/test/regress.c' l='2393' u='c' c='evtag_int_test'/>

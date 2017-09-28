@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/buffer.h' l='396' type='int evbuffer_remove_buffer(struct evbuffer * src, struct evbuffer * dst, size_t datlen)'/>
+<def f='codebrowser/buffer.c' l='1254' ll='1342' type='int evbuffer_remove_buffer(struct evbuffer * src, struct evbuffer * dst, size_t datlen)'/>
+<doc f='codebrowser/buffer.c' l='1253'>/*  XXXX should return ev_ssize_t */</doc>
+<use f='codebrowser/bufferevent_filter.c' l='163' u='c' c='be_null_filter'/>
+<use f='codebrowser/bufferevent_pair.c' l='166' u='c' c='be_pair_transfer'/>
+<use f='codebrowser/http.c' l='962' u='c' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1074' u='c' c='evhttp_read_body'/>
+<use f='codebrowser/test/regress_buffer.c' l='241' u='c' c='test_evbuffer'/>
+<use f='codebrowser/test/regress_buffer.c' l='316' u='c' c='test_evbuffer_remove_buffer_with_empty'/>
+<use f='codebrowser/test/regress_buffer.c' l='353' u='c' c='test_evbuffer_remove_buffer_with_empty2'/>
+<use f='codebrowser/test/regress_buffer.c' l='394' u='c' c='test_evbuffer_remove_buffer_with_empty3'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1271' u='c' c='bufferevent_filter_data_stuck_inputcb'/>

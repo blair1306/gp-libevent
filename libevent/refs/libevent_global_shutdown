@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/event.h' l='1669' type='void libevent_global_shutdown()'/>
+<def f='codebrowser/event.c' l='3852' ll='3857' type='void libevent_global_shutdown()'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='159' u='c' c='main'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='288' u='c' c='lock_unlock_free_thread_cbs'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='293' u='c' c='lock_unlock_free_thread_cbs'/>
+<use f='codebrowser/test/regress_dns.c' l='1840' u='c' c='testleak_setup'/>
+<use f='codebrowser/test/regress_dns.c' l='1865' u='c' c='testleak_cleanup'/>
+<use f='codebrowser/test/regress_main.c' l='292' u='c' c='basic_test_cleanup'/>
+<use f='codebrowser/test/regress_main.c' l='460' u='c' c='main'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/evbuffer-internal.h' l='330'/>
+<doc f='codebrowser/evbuffer-internal.h' l='329'>/* Helper macro: copies an evbuffer_iovec in ei to a win32 WSABUF in i. */</doc>

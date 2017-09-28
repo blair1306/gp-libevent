@@ -1,0 +1,1 @@
+<dec f='include/openssl/ssl.h' l='2332' type='int SSL_accept(SSL * ssl)'/>

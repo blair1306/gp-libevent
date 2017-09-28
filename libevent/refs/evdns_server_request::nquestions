@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/dns_struct.h' l='58' type='int'/>
+<use f='codebrowser/evdns.c' l='1251' u='w' c='request_parse'/>
+<use f='codebrowser/evdns.c' l='1271' u='w' c='request_parse'/>
+<use f='codebrowser/evdns.c' l='1291' u='r' c='request_parse'/>
+<use f='codebrowser/evdns.c' l='1912' u='r' c='evdns_server_request_format_response'/>
+<use f='codebrowser/evdns.c' l='1918' u='r' c='evdns_server_request_format_response'/>
+<use f='codebrowser/evdns.c' l='2078' u='r' c='server_request_free'/>
+<offset>32</offset>
+<use f='codebrowser/sample/dns-example.c' l='111' u='r' c='evdns_server_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='234' u='r' c='dns_server_request_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='626' u='r' c='search_cancel_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='628' u='r' c='search_cancel_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='699' u='r' c='fail_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='701' u='r' c='fail_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1016' u='r' c='be_getaddrinfo_server_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1745' u='r' c='gaic_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='155' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='157' u='r' c='regress_dns_server_cb'/>

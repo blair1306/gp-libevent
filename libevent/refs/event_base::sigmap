@@ -1,0 +1,10 @@
+<dec f='codebrowser/event-internal.h' l='285' type='struct event_signal_map'/>
+<offset>2496</offset>
+<doc f='codebrowser/event-internal.h' l='284'>/** Mapping from signal numbers to enabled (added) events. */</doc>
+<use f='codebrowser/event.c' l='612' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='894' u='a' c='event_base_free_'/>
+<use f='codebrowser/evmap.c' l='445' u='a' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='471' u='a' c='evmap_signal_del_'/>
+<use f='codebrowser/evmap.c' l='492' u='a' c='evmap_signal_active_'/>
+<use f='codebrowser/evmap.c' l='578' u='a' c='evmap_signal_foreach_signal'/>
+<use f='codebrowser/evmap.c' l='712' u='a' c='event_change_get_fdinfo'/>

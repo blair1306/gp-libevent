@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='332' ll='335'/>
+<size>16</size>
+<mbr r='NAME_CONSTRAINTS_st::permittedSubtrees' o='0' t='struct stack_st_GENERAL_SUBTREE *'/>
+<mbr r='NAME_CONSTRAINTS_st::excludedSubtrees' o='64' t='struct stack_st_GENERAL_SUBTREE *'/>

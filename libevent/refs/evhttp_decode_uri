@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='946' type='char * evhttp_decode_uri(const char * uri)'/>
+<def f='codebrowser/http.c' l='3156' ll='3171' type='char * evhttp_decode_uri(const char * uri)'/>
+<doc f='codebrowser/http.c' l='3155'>/* deprecated */</doc>
+<use f='codebrowser/test/regress_http.c' l='2870' u='c' c='http_uriencode_test'/>

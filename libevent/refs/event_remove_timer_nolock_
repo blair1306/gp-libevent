@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='421' type='int event_remove_timer_nolock_(struct event * ev)'/>
+<def f='codebrowser/event.c' l='2507' ll='2524' type='int event_remove_timer_nolock_(struct event * ev)'/>
+<use f='codebrowser/event.c' l='2538' u='c' c='event_remove_timer'/>
+<doc f='codebrowser/event.c' l='2505'>/* Implementation function to remove a timeout on a currently pending event.
+ */</doc>

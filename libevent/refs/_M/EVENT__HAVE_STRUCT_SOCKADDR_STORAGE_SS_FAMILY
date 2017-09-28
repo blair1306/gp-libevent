@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='314'/>
+<doc f='codebrowser/include/event2/event-config.h' l='313'>/* Define to 1 if `ss_family&apos; is a member of `struct sockaddr_storage&apos;. */</doc>

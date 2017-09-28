@@ -1,0 +1,9 @@
+<dec f='include/zlib.h' l='87' type='uInt'/>
+<use f='codebrowser/test/regress_zlib.c' l='145' u='w' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='148' u='w' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='160' u='r' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='199' u='w' c='zlib_output_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='202' u='w' c='zlib_output_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='214' u='r' c='zlib_output_filter'/>
+<offset>64</offset>
+<doc f='include/zlib.h' l='87'>/* number of bytes available at next_in */</doc>

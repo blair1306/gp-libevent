@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/tinytest.h' l='92' type='int testcase_run_one(const struct testgroup_t * , const struct testcase_t * )'/>
+<doc f='codebrowser/test/tinytest.h' l='91'>/** Run a single testcase in a single group. */</doc>
+<def f='codebrowser/test/tinytest.c' l='222' ll='275' type='int testcase_run_one(const struct testgroup_t * group, const struct testcase_t * testcase)'/>
+<use f='codebrowser/test/tinytest.c' l='434' u='c' c='tinytest_main'/>

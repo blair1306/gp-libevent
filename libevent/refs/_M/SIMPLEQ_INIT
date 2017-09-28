@@ -1,0 +1,4 @@
+<dec f='codebrowser/compat/sys/queue.h' l='244'/>
+<doc f='codebrowser/compat/sys/queue.h' l='241'>/*
+ * Simple queue functions.
+ */</doc>

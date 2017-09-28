@@ -1,0 +1,12 @@
+<dec f='include/pthread.h' l='250' type='int pthread_join(pthread_t __th, void ** __thread_return)'/>
+<doc f='include/pthread.h' l='244'>/* Make calling thread wait for termination of the thread TH.  The
+   exit status of the thread is stored in *THREAD_RETURN, if THREAD_RETURN
+   is not NULL.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/test/regress.c' l='1035' u='c' c='test_del_wait'/>
+<use f='codebrowser/test/regress_thread.c' l='239' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='341' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='491' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='548' macro='1' u='c'/>

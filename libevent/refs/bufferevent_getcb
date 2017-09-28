@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='342' type='void bufferevent_getcb(struct bufferevent * bufev, bufferevent_data_cb * readcb_ptr, bufferevent_data_cb * writecb_ptr, bufferevent_event_cb * eventcb_ptr, void ** cbarg_ptr)'/>
+<def f='codebrowser/bufferevent.c' l='381' ll='399' type='void bufferevent_getcb(struct bufferevent * bufev, bufferevent_data_cb * readcb_ptr, bufferevent_data_cb * writecb_ptr, bufferevent_event_cb * eventcb_ptr, void ** cbarg_ptr)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='158' u='c' c='test_bufferevent_impl'/>

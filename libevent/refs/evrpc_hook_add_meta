@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/rpc.h' l='549' type='void evrpc_hook_add_meta(void * ctx, const char * key, const void * data, size_t data_size)'/>
+<def f='codebrowser/evrpc.c' l='1028' ll='1049' type='void evrpc_hook_add_meta(void * ctx, const char * key, const void * data, size_t data_size)'/>
+<doc f='codebrowser/evrpc.c' l='1027'>/* Adds meta data */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='415' u='c' c='rpc_hook_add_meta'/>

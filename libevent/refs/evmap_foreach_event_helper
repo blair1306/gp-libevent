@@ -1,0 +1,4 @@
+<def f='codebrowser/evmap.c' l='1006' ll='1009'/>
+<size>16</size>
+<doc f='codebrowser/evmap.c' l='1004'>/* Helper type for evmap_foreach_event_: Bundles a function to call on every
+ * event, and the user-provided void* to use as its third argument. */</doc>

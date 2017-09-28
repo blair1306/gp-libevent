@@ -1,0 +1,4 @@
+<dec f='include/openssl/evp.h' l='905' type='void OPENSSL_add_all_algorithms_noconf()'/>
+<use f='codebrowser/sample/https-client.c' l='320' macro='1' u='c'/>
+<use f='codebrowser/sample/le-proxy.c' l='269' macro='1' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='193' macro='1' u='c'/>

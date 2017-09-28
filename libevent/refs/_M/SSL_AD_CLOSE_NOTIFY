@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='1812'/>
+<doc f='include/openssl/ssl.h' l='1811'>/* These alert types are for SSLv3 and TLSv1 */</doc>

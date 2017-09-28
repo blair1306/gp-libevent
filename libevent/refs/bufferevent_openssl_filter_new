@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/bufferevent_ssl.h' l='69' type='struct bufferevent * bufferevent_openssl_filter_new(struct event_base * base, struct bufferevent * underlying, struct ssl_st * ssl, enum bufferevent_ssl_state state, int options)'/>
+<def f='codebrowser/bufferevent_openssl.c' l='1404' ll='1424' type='struct bufferevent * bufferevent_openssl_filter_new(struct event_base * base, struct bufferevent * underlying, SSL * ssl, enum bufferevent_ssl_state state, int options)'/>
+<use f='codebrowser/sample/le-proxy.c' l='192' u='c' c='accept_cb'/>
+<use f='codebrowser/test/regress_http.c' l='441' u='c' c='create_bev'/>
+<use f='codebrowser/test/regress_ssl.c' l='379' u='c' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='381' u='c' c='open_ssl_bufevs'/>

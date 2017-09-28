@@ -1,0 +1,6 @@
+<dec f='codebrowser/bufferevent-internal.h' l='498' type='ssize_t bufferevent_get_read_max_(struct bufferevent_private * bev)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='591' u='c' c='do_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='767' u='c' c='bytes_to_read'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='260' ll='264' macro='1' type='ssize_t bufferevent_get_read_max_(struct bufferevent_private * bev)'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='912' u='c' c='bufferevent_get_max_to_read'/>
+<use f='codebrowser/bufferevent_sock.c' l='180' u='c' c='bufferevent_readcb'/>

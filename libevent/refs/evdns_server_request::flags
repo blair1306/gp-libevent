@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/dns_struct.h' l='57' type='int'/>
+<use f='codebrowser/evdns.c' l='1250' u='w' c='request_parse'/>
+<use f='codebrowser/evdns.c' l='1886' u='w' c='evdns_server_request_set_flags'/>
+<use f='codebrowser/evdns.c' l='1887' u='w' c='evdns_server_request_set_flags'/>
+<use f='codebrowser/evdns.c' l='1906' u='r' c='evdns_server_request_format_response'/>
+<offset>0</offset>

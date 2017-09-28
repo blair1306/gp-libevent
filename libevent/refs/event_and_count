@@ -1,0 +1,3 @@
+<def f='codebrowser/test/regress_finalize.c' l='231' ll='235'/>
+<size>24</size>
+<doc f='codebrowser/test/regress_finalize.c' l='230'>/* For test_fin_within_cb */</doc>

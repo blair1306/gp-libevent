@@ -1,0 +1,9 @@
+<dec f='codebrowser/bufferevent-internal.h' l='191' type='int'/>
+<offset>3264</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='189'>/** Set to the current socket errno if we have deferred callbacks and
+	 * an events callback is pending. */</doc>
+<use f='codebrowser/bufferevent.c' l='157' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='159' u='w' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='201' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='203' u='w' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='275' u='w' c='bufferevent_run_eventcb_'/>

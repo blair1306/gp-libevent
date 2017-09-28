@@ -1,0 +1,4 @@
+<dec f='codebrowser/util-internal.h' l='417' type='void evutil_getaddrinfo_cancel_async_(struct evdns_getaddrinfo_request * data)'/>
+<use f='codebrowser/bufferevent_sock.c' l='614' u='c' c='be_socket_destruct'/>
+<use f='codebrowser/bufferevent_sock.c' l='648' u='c' c='be_socket_setfd'/>
+<def f='codebrowser/evutil.c' l='1598' ll='1603' type='void evutil_getaddrinfo_cancel_async_(struct evdns_getaddrinfo_request * data)'/>

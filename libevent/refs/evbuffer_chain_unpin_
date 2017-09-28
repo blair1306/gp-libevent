@@ -1,0 +1,3 @@
+<dec f='codebrowser/evbuffer-internal.h' l='310' type='void evbuffer_chain_unpin_(struct evbuffer_chain * chain, unsigned int flag)'/>
+<def f='codebrowser/buffer.c' l='345' ll='352' type='void evbuffer_chain_unpin_(struct evbuffer_chain * chain, unsigned int flag)'/>
+<doc f='codebrowser/evbuffer-internal.h' l='309'>/** Unpin a single buffer chain using a given flag. */</doc>

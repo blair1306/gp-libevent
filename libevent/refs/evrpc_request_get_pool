@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/rpc.h' l='611' type='struct evrpc_pool * evrpc_request_get_pool(struct evrpc_request_wrapper * ctx)'/>
+<def f='codebrowser/evrpc.c' l='1151' ll='1155' type='struct evrpc_pool * evrpc_request_get_pool(struct evrpc_request_wrapper * ctx)'/>
+<doc f='codebrowser/evrpc.c' l='1150'>/** accessors for obscure and undocumented functionality */</doc>

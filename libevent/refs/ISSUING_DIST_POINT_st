@@ -1,0 +1,8 @@
+<def f='include/openssl/x509v3.h' l='356' ll='363'/>
+<size>32</size>
+<mbr r='ISSUING_DIST_POINT_st::distpoint' o='0' t='DIST_POINT_NAME *'/>
+<mbr r='ISSUING_DIST_POINT_st::onlyuser' o='64' t='int'/>
+<mbr r='ISSUING_DIST_POINT_st::onlyCA' o='96' t='int'/>
+<mbr r='ISSUING_DIST_POINT_st::onlysomereasons' o='128' t='ASN1_BIT_STRING *'/>
+<mbr r='ISSUING_DIST_POINT_st::indirectCRL' o='192' t='int'/>
+<mbr r='ISSUING_DIST_POINT_st::onlyattr' o='224' t='int'/>

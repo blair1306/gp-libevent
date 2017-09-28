@@ -1,0 +1,36 @@
+<dec f='include/netdb.h' l='576' type='struct addrinfo *'/>
+<offset>320</offset>
+<doc f='include/netdb.h' l='576'>/* Pointer to next in list.  */</doc>
+<use f='codebrowser/evutil.c' l='822' u='w' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='852' u='r' c='evutil_addrinfo_append_'/>
+<use f='codebrowser/evutil.c' l='853' u='r' c='evutil_addrinfo_append_'/>
+<use f='codebrowser/evutil.c' l='854' u='w' c='evutil_addrinfo_append_'/>
+<use f='codebrowser/evutil.c' l='1246' u='r' c='ai_find_protocol'/>
+<use f='codebrowser/evutil.c' l='1308' u='a' c='apply_numeric_port_hack'/>
+<use f='codebrowser/evutil.c' l='1320' u='r' c='apply_numeric_port_hack'/>
+<use f='codebrowser/evutil.c' l='1321' u='w' c='apply_numeric_port_hack'/>
+<use f='codebrowser/evutil.c' l='1331' u='r' c='apply_socktype_protocol_hack'/>
+<use f='codebrowser/evutil.c' l='1344' u='w' c='apply_socktype_protocol_hack'/>
+<use f='codebrowser/evutil.c' l='1344' u='r' c='apply_socktype_protocol_hack'/>
+<use f='codebrowser/evutil.c' l='1345' u='w' c='apply_socktype_protocol_hack'/>
+<use f='codebrowser/evutil.c' l='1552' u='r' c='evutil_freeaddrinfo'/>
+<use f='codebrowser/sample/dns-example.c' l='86' u='r' c='gai_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='1408' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1507' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1623' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1624' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1624' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1637' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1645' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1651' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1657' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1671' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1695' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_util.c' l='792' u='r' c='ai_find_by_family'/>
+<use f='codebrowser/test/regress_util.c' l='803' u='r' c='ai_find_by_protocol'/>
+<use f='codebrowser/test/regress_util.c' l='938' u='r' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='949' u='r' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='962' u='r' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='971' u='r' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='980' u='r' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='990' u='r' c='test_evutil_getaddrinfo'/>

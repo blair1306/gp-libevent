@@ -1,0 +1,40 @@
+<dec f='codebrowser/include/event2/event.h' l='960'/>
+<doc f='codebrowser/include/event2/event.h' l='952'>/**
+ * Detects connection close events.  You can use this to detect when a
+ * connection has been closed, without having to read all the pending data
+ * from a connection.
+ *
+ * Not all backends support EV_CLOSED.  To detect or require it, use the
+ * feature flag EV_FEATURE_EARLY_CLOSE.
+ **/</doc>
+<use f='codebrowser/epolltable-internal.h' l='132' u='c'/>
+<use f='codebrowser/epoll.c' l='388' u='c'/>
+<use f='codebrowser/epoll.c' l='407' u='c'/>
+<use f='codebrowser/epoll.c' l='494' u='c'/>
+<use f='codebrowser/event.c' l='1615' u='c'/>
+<use f='codebrowser/event.c' l='2028' u='c'/>
+<use f='codebrowser/event.c' l='2038' u='c'/>
+<use f='codebrowser/event.c' l='2039' u='c'/>
+<use f='codebrowser/event.c' l='2089' u='c'/>
+<use f='codebrowser/event.c' l='2341' u='c'/>
+<use f='codebrowser/event.c' l='2347' u='c'/>
+<use f='codebrowser/event.c' l='2566' u='c'/>
+<use f='codebrowser/event.c' l='2600' u='c'/>
+<use f='codebrowser/event.c' l='2602' u='c'/>
+<use f='codebrowser/event.c' l='2815' u='c'/>
+<use f='codebrowser/event.c' l='3705' u='c'/>
+<use f='codebrowser/event.c' l='3738' u='c'/>
+<use f='codebrowser/event.c' l='3778' u='c'/>
+<use f='codebrowser/evmap.c' l='298' u='c'/>
+<use f='codebrowser/evmap.c' l='308' u='c'/>
+<use f='codebrowser/evmap.c' l='310' u='c'/>
+<use f='codebrowser/evmap.c' l='376' u='c'/>
+<use f='codebrowser/evmap.c' l='388' u='c'/>
+<use f='codebrowser/evmap.c' l='390' u='c'/>
+<use f='codebrowser/evmap.c' l='612' u='c'/>
+<use f='codebrowser/evmap.c' l='880' u='c'/>
+<use f='codebrowser/evmap.c' l='930' u='c'/>
+<use f='codebrowser/evmap.c' l='931' u='c'/>
+<use f='codebrowser/evmap.c' l='959' u='c'/>
+<use f='codebrowser/evmap.c' l='964' u='c'/>
+<use f='codebrowser/evmap.c' l='989' u='c'/>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/event-internal.h' l='156' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/event-internal.h' l='155'>/* The number of entries available in entries */</doc>
+<use f='codebrowser/evmap.c' l='206' u='r' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='207' u='r' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='207' u='r' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='217' u='r' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='218' u='r' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='220' u='w' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='230' u='w' c='evmap_signal_initmap_'/>
+<use f='codebrowser/evmap.c' l='239' u='r' c='evmap_signal_clear_'/>
+<use f='codebrowser/evmap.c' l='246' u='w' c='evmap_signal_clear_'/>
+<use f='codebrowser/evmap.c' l='281' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='361' u='r' c='evmap_io_del_'/>
+<use f='codebrowser/evmap.c' l='419' u='r' c='evmap_io_active_'/>
+<use f='codebrowser/evmap.c' l='448' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='474' u='r' c='evmap_signal_del_'/>
+<use f='codebrowser/evmap.c' l='496' u='r' c='evmap_signal_active_'/>
+<use f='codebrowser/evmap.c' l='548' u='r' c='evmap_io_foreach_fd'/>
+<use f='codebrowser/evmap.c' l='582' u='r' c='evmap_signal_foreach_signal'/>

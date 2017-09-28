@@ -1,0 +1,32 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='101' type='struct event *'/>
+<offset>0</offset>
+<use f='codebrowser/evmap.c' l='256' macro='1' u='w'/>
+<use f='codebrowser/evmap.c' l='318' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='339' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='339' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='339' macro='1' u='w'/>
+<use f='codebrowser/evmap.c' l='339' macro='1' u='a'/>
+<use f='codebrowser/evmap.c' l='426' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='437' macro='1' u='w'/>
+<use f='codebrowser/evmap.c' l='456' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='w'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='a'/>
+<use f='codebrowser/evmap.c' l='481' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='502' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='616' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='634' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='660' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='953' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='953' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='953' macro='1' u='a'/>
+<use f='codebrowser/evmap.c' l='953' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='955' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='a'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='985' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='1020' macro='1' u='r'/>
+<use f='codebrowser/evmap.c' l='1036' macro='1' u='r'/>

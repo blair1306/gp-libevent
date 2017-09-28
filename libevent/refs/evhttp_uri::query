@@ -1,0 +1,15 @@
+<dec f='codebrowser/http.c' l='4413' type='char *'/>
+<use f='codebrowser/http.c' l='4799' u='w' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4800' u='r' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4836' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4836' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4878' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4880' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4880' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4935' u='r' c='evhttp_uri_get_query'/>
+<use f='codebrowser/http.c' l='5014' u='r' c='evhttp_uri_set_query'/>
+<use f='codebrowser/http.c' l='5014' u='r' c='evhttp_uri_set_query'/>
+<use f='codebrowser/http.c' l='5014' u='w' c='evhttp_uri_set_query'/>
+<use f='codebrowser/http.c' l='5014' u='w' c='evhttp_uri_set_query'/>
+<offset>384</offset>
+<doc f='codebrowser/http.c' l='4413'>/* query, or NULL */</doc>

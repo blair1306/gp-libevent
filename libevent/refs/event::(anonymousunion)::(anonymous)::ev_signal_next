@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='144' type='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/event_struct.h:144:4)'/>
+<offset>0</offset>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='502' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='1036' macro='1' u='m'/>

@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/sigaction.h' l='61'/>
+<use f='codebrowser/signal.c' l='255' u='c'/>

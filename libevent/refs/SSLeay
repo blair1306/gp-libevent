@@ -1,0 +1,5 @@
+<dec f='include/openssl/crypto.h' l='397' type='unsigned long SSLeay()'/>
+<use f='codebrowser/test/regress_ssl.c' l='194' u='c' c='init_ssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='195' u='c' c='init_ssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='416' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='417' u='c' c='regress_bufferevent_openssl'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/evutil.c' l='2451' type='void *(*volatile)(void *, int, size_t)'/>
+<use f='codebrowser/evutil.c' l='2456' u='r' c='evutil_memclear_'/>
+<doc f='codebrowser/evutil.c' l='2447'>/**
+ * Volatile pointer to memset: we use this to keep the compiler from
+ * eliminating our call to memset.
+ */</doc>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/evdns.c' l='319' type='int'/>
+<use f='codebrowser/evdns.c' l='575' u='w' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='576' u='r' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='577' u='r' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='600' u='r' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='635' u='w' c='nameserver_up'/>
+<use f='codebrowser/evdns.c' l='1342' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1361' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='2426' u='w' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2553' u='w' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='3933' u='w' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4063' u='w' c='evdns_base_free_and_unlock'/>
+<offset>320</offset>
+<doc f='codebrowser/evdns.c' l='318'>/* The number of good nameservers that we have */</doc>

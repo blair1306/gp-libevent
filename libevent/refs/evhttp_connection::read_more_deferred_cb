@@ -1,0 +1,6 @@
+<dec f='codebrowser/http-internal.h' l='103' type='struct event_callback'/>
+<offset>2560</offset>
+<use f='codebrowser/http.c' l='1122' u='a' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1235' u='a' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='2387' u='a' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2704' u='a' c='evhttp_start_read_'/>

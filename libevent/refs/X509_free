@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509.h' l='823' macro='1' type='void X509_free(X509 * a)'/>
+<use f='codebrowser/test/regress_ssl.c' l='160' u='c' c='ssl_getcert'/>

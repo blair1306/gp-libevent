@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/dns.h' l='631' type='void evdns_server_request_set_flags(struct evdns_server_request * req, int flags)'/>
+<def f='codebrowser/evdns.c' l='1882' ll='1888' type='void evdns_server_request_set_flags(struct evdns_server_request * exreq, int flags)'/>
+<doc f='codebrowser/evdns.c' l='1881'>/* exported function */</doc>

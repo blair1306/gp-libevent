@@ -1,0 +1,10 @@
+<dec f='codebrowser/event-internal.h' l='88' type='const char *'/>
+<offset>0</offset>
+<doc f='codebrowser/event-internal.h' l='87'>/** The name of this backend. */</doc>
+<use f='codebrowser/event.c' l='639' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='648' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='665' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1081' u='r' c='event_get_supported_methods'/>
+<use f='codebrowser/event.c' l='1782' u='r' c='event_base_get_method'/>
+<use f='codebrowser/event.c' l='3425' u='r' c='event_get_method'/>
+<use f='codebrowser/signal.c' l='294' u='r' c='evsig_add'/>

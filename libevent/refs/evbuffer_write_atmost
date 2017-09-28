@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/buffer.h' l='721' type='int evbuffer_write_atmost(struct evbuffer * buffer, int fd, ssize_t howmuch)'/>
+<def f='codebrowser/buffer.c' l='2510' ll='2556' type='int evbuffer_write_atmost(struct evbuffer * buffer, int fd, ssize_t howmuch)'/>
+<use f='codebrowser/buffer.c' l='2561' u='c' c='evbuffer_write'/>
+<use f='codebrowser/bufferevent_sock.c' l='294' u='c' c='bufferevent_writecb'/>

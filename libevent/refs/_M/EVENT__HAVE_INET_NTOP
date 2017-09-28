@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event-config.h' l='161'/>
+<doc f='codebrowser/include/event2/event-config.h' l='160'>/* Define to 1 if you have the `inet_ntop&apos; function. */</doc>
+<use f='codebrowser/evutil.c' l='1865' u='a'/>
+<use f='codebrowser/test/regress_dns.c' l='103' u='a'/>
+<use f='codebrowser/test/regress_dns.c' l='324' u='a'/>

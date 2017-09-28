@@ -1,0 +1,10 @@
+<def f='codebrowser/test/bench_httpclient.c' l='57' type='struct timeval'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='a' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='a' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='a' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='a' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='a' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='a' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='a' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='207' u='m' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='207' u='m' c='main'/>

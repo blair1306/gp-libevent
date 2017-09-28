@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='755'/>
+<use f='codebrowser/evutil.c' l='583' u='c'/>
+<use f='codebrowser/evutil.c' l='586' u='c'/>
+<use f='codebrowser/evutil.c' l='882' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1037' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/evp.h' l='720' type='const EVP_MD * EVP_sha1()'/>
+<use f='codebrowser/test/regress_ssl.c' l='156' u='c' c='ssl_getcert'/>

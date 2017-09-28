@@ -1,0 +1,10 @@
+<dec f='codebrowser/evrpc-internal.h' l='138' type='struct evrpc_hook_meta *'/>
+<use f='codebrowser/evrpc.c' l='305' u='a' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='388' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='389' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='429' u='a' c='evrpc_request_done'/>
+<offset>0</offset>
+<doc f='codebrowser/evrpc-internal.h' l='134'>/*
+	 * allows association of meta data via hooks - needs to be
+	 * synchronized with evrpc_request_wrapper
+	 */</doc>

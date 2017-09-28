@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/timerfd.h' l='25' type='524288'/>
+<use f='codebrowser/epoll.c' l='194' macro='1' u='r'/>

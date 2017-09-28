@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/event.h' l='566' type='16'/>
+<doc f='codebrowser/include/event2/event.h' l='552'>/** If we are using the epoll backend, this flag says that it is
+	    safe to use Libevent&apos;s internal change-list code to batch up
+	    adds and deletes in order to try to do as few syscalls as
+	    possible.  Setting this flag can make your code run faster, but
+	    it may trigger a Linux bug: it is not safe to use this flag
+	    if you have any fds cloned by dup() or its variants.  Doing so
+	    will produce strange and hard-to-diagnose bugs.
+
+	    This flag can also be activated by setting the
+	    EVENT_EPOLL_USE_CHANGELIST environment variable.
+
+	    This flag has no effect if you wind up using a backend other than
+	    epoll.
+	 */</doc>
+<use f='codebrowser/epoll.c' l='177' u='r' c='epoll_init'/>

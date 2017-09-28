@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='278' ll='281'/>
+<size>16</size>
+<mbr r='SXNET_st::version' o='0' t='ASN1_INTEGER *'/>
+<mbr r='SXNET_st::ids' o='64' t='struct stack_st_SXNETID *'/>

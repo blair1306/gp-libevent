@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/http.h' l='825' type='enum evhttp_cmd_type evhttp_request_get_command(const struct evhttp_request * req)'/>
+<def f='codebrowser/http.c' l='4116' ll='4119' type='enum evhttp_cmd_type evhttp_request_get_command(const struct evhttp_request * req)'/>
+<use f='codebrowser/sample/http-server.c' l='118' u='c' c='dump_request_cb'/>
+<use f='codebrowser/sample/http-server.c' l='172' u='c' c='send_document_cb'/>
+<use f='codebrowser/test/regress_http.c' l='744' u='c' c='http_delete_cb'/>
+<use f='codebrowser/test/regress_http.c' l='1988' u='c' c='http_post_cb'/>
+<use f='codebrowser/test/regress_http.c' l='2105' u='c' c='http_put_cb'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='294' type='struct evutil_monotonic_timer'/>
+<offset>2880</offset>
+<use f='codebrowser/epoll.c' l='192' u='m' c='epoll_init'/>
+<use f='codebrowser/event.c' l='383' u='a' c='gettime'/>
+<use f='codebrowser/event.c' l='597' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1054' u='a' c='event_gettime_monotonic'/>

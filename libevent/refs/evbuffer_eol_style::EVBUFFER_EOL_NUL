@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/buffer.h' l='420' type='4'/>
+<use f='codebrowser/buffer.c' l='1658' c='evbuffer_search_eol'/>
+<doc f='codebrowser/include/event2/buffer.h' l='419'>/** An EOL is a NUL character (that is, a single byte with value 0) */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1350' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1353' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1356' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1359' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1362' u='r' c='test_evbuffer_readln'/>

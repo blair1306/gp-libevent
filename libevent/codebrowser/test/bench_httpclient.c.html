@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>bench_httpclient.c source code [codebrowser/test/bench_httpclient.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="main,request_info "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/test/bench_httpclient.c'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>test</a>/<a href='bench_httpclient.c.html'>bench_httpclient.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright 2009-2012 Niels Provos and Nick Mathewson</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="5">5</th><td><i> * modification, are permitted provided that the following conditions</i></td></tr>
+<tr><th id="6">6</th><td><i> * are met:</i></td></tr>
+<tr><th id="7">7</th><td><i> * 1. Redistributions of source code must retain the above copyright</i></td></tr>
+<tr><th id="8">8</th><td><i> *    notice, this list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="9">9</th><td><i> * 2. Redistributions in binary form must reproduce the above copyright</i></td></tr>
+<tr><th id="10">10</th><td><i> *    notice, this list of conditions and the following disclaimer in the</i></td></tr>
+<tr><th id="11">11</th><td><i> *    documentation and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="12">12</th><td><i> * 4. The name of the author may not be used to endorse or promote products</i></td></tr>
+<tr><th id="13">13</th><td><i> *    derived from this software without specific prior written permission.</i></td></tr>
+<tr><th id="14">14</th><td><i> *</i></td></tr>
+<tr><th id="15">15</th><td><i> * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR</i></td></tr>
+<tr><th id="16">16</th><td><i> * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES</i></td></tr>
+<tr><th id="17">17</th><td><i> * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.</i></td></tr>
+<tr><th id="18">18</th><td><i> * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,</i></td></tr>
+<tr><th id="19">19</th><td><i> * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT</i></td></tr>
+<tr><th id="20">20</th><td><i> * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,</i></td></tr>
+<tr><th id="21">21</th><td><i> * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY</i></td></tr>
+<tr><th id="22">22</th><td><i> * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT</i></td></tr>
+<tr><th id="23">23</th><td><i> * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF</i></td></tr>
+<tr><th id="24">24</th><td><i> * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="25">25</th><td><i> *</i></td></tr>
+<tr><th id="26">26</th><td><i> */</i></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>/* for EVUTIL_ERR_CONNECT_RETRIABLE macro */</i></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="../util-internal.h.html">"util-internal.h"</a></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../include/x86_64-linux-gnu/sys/types.h.html">&lt;sys/types.h&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="32">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="33">33</th><td><u>#include &lt;winsock2.h&gt;</u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="32">else</span></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../../include/x86_64-linux-gnu/sys/socket.h.html">&lt;sys/socket.h&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../include/netinet/in.h.html">&lt;netinet/in.h&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u># <span data-ppcond="37">ifdef</span> <a class="macro" href="../../include/features.h.html#171" data-ref="_M/_XOPEN_SOURCE_EXTENDED">_XOPEN_SOURCE_EXTENDED</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#  include <a href="../../include/arpa/inet.h.html">&lt;arpa/inet.h&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td><u># <span data-ppcond="37">endif</span></u></td></tr>
+<tr><th id="40">40</th><td><u>#<span data-ppcond="32">endif</span></u></td></tr>
+<tr><th id="41">41</th><td><u>#include <a href="../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="42">42</th><td><u>#include <a href="../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="43">43</th><td><u>#include <a href="../../include/errno.h.html">&lt;errno.h&gt;</a></u></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><u>#include <a href="../include/event2/event.h.html">"event2/event.h"</a></u></td></tr>
+<tr><th id="46">46</th><td><u>#include <a href="../include/event2/bufferevent.h.html">"event2/bufferevent.h"</a></u></td></tr>
+<tr><th id="47">47</th><td><u>#include <a href="../include/event2/buffer.h.html">"event2/buffer.h"</a></u></td></tr>
+<tr><th id="48">48</th><td><u>#include <a href="../include/event2/util.h.html">"event2/util.h"</a></u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><em>const</em> <em>char</em> *<dfn class="decl def" id="resource" title='resource' data-ref="resource">resource</dfn> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="51">51</th><td><b>struct</b> <a class="type" href="../include/event2/event.h.html#event_base" title='event_base' data-ref="event_base">event_base</a> *<dfn class="decl def" id="base" title='base' data-ref="base">base</dfn> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><em>int</em> <dfn class="decl def" id="total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</dfn> = <var>0</var>;</td></tr>
+<tr><th id="54">54</th><td><em>int</em> <dfn class="decl def" id="total_n_errors" title='total_n_errors' data-ref="total_n_errors">total_n_errors</dfn> = <var>0</var>;</td></tr>
+<tr><th id="55">55</th><td><em>int</em> <dfn class="decl def" id="total_n_launched" title='total_n_launched' data-ref="total_n_launched">total_n_launched</dfn> = <var>0</var>;</td></tr>
+<tr><th id="56">56</th><td><span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl def" id="total_n_bytes" title='total_n_bytes' data-ref="total_n_bytes">total_n_bytes</dfn> = <var>0</var>;</td></tr>
+<tr><th id="57">57</th><td><b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="decl def" id="total_time" title='total_time' data-ref="total_time">total_time</dfn> = {<var>0</var>,<var>0</var>};</td></tr>
+<tr><th id="58">58</th><td><em>int</em> <dfn class="decl def" id="n_errors" title='n_errors' data-ref="n_errors">n_errors</dfn> = <var>0</var>;</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><em>const</em> <em>int</em> <dfn class="decl def" id="PARALLELISM" title='PARALLELISM' data-ref="PARALLELISM">PARALLELISM</dfn> = <var>200</var>;</td></tr>
+<tr><th id="61">61</th><td><em>const</em> <em>int</em> <dfn class="decl def" id="N_REQUESTS" title='N_REQUESTS' data-ref="N_REQUESTS">N_REQUESTS</dfn> = <var>20000</var>;</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><b>struct</b> <dfn class="type def" id="request_info" title='request_info' data-ref="request_info">request_info</dfn> {</td></tr>
+<tr><th id="64">64</th><td>	<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="tu decl" id="request_info::n_read" title='request_info::n_read' data-type='size_t' data-ref="request_info::n_read">n_read</dfn>;</td></tr>
+<tr><th id="65">65</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="tu decl" id="request_info::started" title='request_info::started' data-type='struct timeval' data-ref="request_info::started">started</dfn>;</td></tr>
+<tr><th id="66">66</th><td>};</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><em>static</em> <em>int</em> <a class="tu decl" href="#launch_request" title='launch_request' data-type='int launch_request()' data-ref="launch_request">launch_request</a>(<em>void</em>);</td></tr>
+<tr><th id="69">69</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#readcb" title='readcb' data-type='void readcb(struct bufferevent * b, void * arg)' data-ref="readcb">readcb</a>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col1 decl" id="1b" title='b' data-type='struct bufferevent *' data-ref="1b">b</dfn>, <em>void</em> *<dfn class="local col2 decl" id="2arg" title='arg' data-type='void *' data-ref="2arg">arg</dfn>);</td></tr>
+<tr><th id="70">70</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#errorcb" title='errorcb' data-type='void errorcb(struct bufferevent * b, short what, void * arg)' data-ref="errorcb">errorcb</a>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col3 decl" id="3b" title='b' data-type='struct bufferevent *' data-ref="3b">b</dfn>, <em>short</em> <dfn class="local col4 decl" id="4what" title='what' data-type='short' data-ref="4what">what</dfn>, <em>void</em> *<dfn class="local col5 decl" id="5arg" title='arg' data-type='void *' data-ref="5arg">arg</dfn>);</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="73">73</th><td><dfn class="tu decl def" id="readcb" title='readcb' data-type='void readcb(struct bufferevent * b, void * arg)' data-ref="readcb">readcb</dfn>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col6 decl" id="6b" title='b' data-type='struct bufferevent *' data-ref="6b">b</dfn>, <em>void</em> *<dfn class="local col7 decl" id="7arg" title='arg' data-type='void *' data-ref="7arg">arg</dfn>)</td></tr>
+<tr><th id="74">74</th><td>{</td></tr>
+<tr><th id="75">75</th><td>	<b>struct</b> <a class="type" href="#request_info" title='request_info' data-ref="request_info">request_info</a> *<dfn class="local col8 decl" id="8ri" title='ri' data-type='struct request_info *' data-ref="8ri">ri</dfn> = <a class="local col7 ref" href="#7arg" title='arg' data-ref="7arg">arg</a>;</td></tr>
+<tr><th id="76">76</th><td>	<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col9 decl" id="9input" title='input' data-type='struct evbuffer *' data-ref="9input">input</dfn> = <a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_get_input" title='bufferevent_get_input' data-ref="bufferevent_get_input">bufferevent_get_input</a>(<a class="local col6 ref" href="#6b" title='b' data-ref="6b">b</a>);</td></tr>
+<tr><th id="77">77</th><td>	<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="10n" title='n' data-type='size_t' data-ref="10n">n</dfn> = <a class="ref" href="../include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(<a class="local col9 ref" href="#9input" title='input' data-ref="9input">input</a>);</td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td>	<a class="local col8 ref" href="#8ri" title='ri' data-ref="8ri">ri</a>-&gt;<a class="tu ref" href="#request_info::n_read" title='request_info::n_read' data-use='w' data-ref="request_info::n_read">n_read</a> += <a class="local col0 ref" href="#10n" title='n' data-ref="10n">n</a>;</td></tr>
+<tr><th id="80">80</th><td>	<a class="ref" href="../include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col9 ref" href="#9input" title='input' data-ref="9input">input</a>, <a class="local col0 ref" href="#10n" title='n' data-ref="10n">n</a>);</td></tr>
+<tr><th id="81">81</th><td>}</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="84">84</th><td><dfn class="tu decl def" id="errorcb" title='errorcb' data-type='void errorcb(struct bufferevent * b, short what, void * arg)' data-ref="errorcb">errorcb</dfn>(<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col1 decl" id="11b" title='b' data-type='struct bufferevent *' data-ref="11b">b</dfn>, <em>short</em> <dfn class="local col2 decl" id="12what" title='what' data-type='short' data-ref="12what">what</dfn>, <em>void</em> *<dfn class="local col3 decl" id="13arg" title='arg' data-type='void *' data-ref="13arg">arg</dfn>)</td></tr>
+<tr><th id="85">85</th><td>{</td></tr>
+<tr><th id="86">86</th><td>	<b>struct</b> <a class="type" href="#request_info" title='request_info' data-ref="request_info">request_info</a> *<dfn class="local col4 decl" id="14ri" title='ri' data-type='struct request_info *' data-ref="14ri">ri</dfn> = <a class="local col3 ref" href="#13arg" title='arg' data-ref="13arg">arg</a>;</td></tr>
+<tr><th id="87">87</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col5 decl" id="15now" title='now' data-type='struct timeval' data-ref="15now">now</dfn>, <dfn class="local col6 decl" id="16diff" title='diff' data-type='struct timeval' data-ref="16diff">diff</dfn>;</td></tr>
+<tr><th id="88">88</th><td>	<b>if</b> (<a class="local col2 ref" href="#12what" title='what' data-ref="12what">what</a> &amp; <a class="macro" href="../include/event2/bufferevent.h.html#102" title="0x10" data-ref="_M/BEV_EVENT_EOF">BEV_EVENT_EOF</a>) {</td></tr>
+<tr><th id="89">89</th><td>		++<a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a>;</td></tr>
+<tr><th id="90">90</th><td>		<a class="ref" href="#total_n_bytes" title='total_n_bytes' data-ref="total_n_bytes">total_n_bytes</a> += <a class="local col4 ref" href="#14ri" title='ri' data-ref="14ri">ri</a>-&gt;<a class="tu ref" href="#request_info::n_read" title='request_info::n_read' data-use='r' data-ref="request_info::n_read">n_read</a>;</td></tr>
+<tr><th id="91">91</th><td>		<a class="macro" href="../include/event2/util.h.html#573" title="gettimeofday((&amp;now), (((void*)0)))" data-ref="_M/evutil_gettimeofday">evutil_gettimeofday</a>(&amp;<a class="local col5 ref" href="#15now" title='now' data-ref="15now">now</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="92">92</th><td>		<a class="macro" href="../include/event2/util.h.html#528" title="do { (&amp;diff)-&gt;tv_sec = (&amp;now)-&gt;tv_sec - (&amp;ri-&gt;started)-&gt;tv_sec; (&amp;diff)-&gt;tv_usec = (&amp;now)-&gt;tv_usec - (&amp;ri-&gt;started)-&gt;tv_usec; if ((&amp;diff)-&gt;tv_usec &lt; 0) { (&amp;diff)-&gt;tv_sec--; (&amp;diff)-&gt;tv_usec += 1000000; } } while (0)" data-ref="_M/evutil_timersub">evutil_timersub</a>(&amp;<a class="local col5 ref" href="#15now" title='now' data-ref="15now">now</a>, &amp;<a class="local col4 ref" href="#14ri" title='ri' data-ref="14ri">ri</a>-&gt;<a class="tu ref" href="#request_info::started" title='request_info::started' data-use='a' data-ref="request_info::started">started</a>, &amp;<a class="local col6 ref" href="#16diff" title='diff' data-ref="16diff">diff</a>);</td></tr>
+<tr><th id="93">93</th><td>		<a class="macro" href="../include/event2/util.h.html#519" title="do { (&amp;total_time)-&gt;tv_sec = (&amp;diff)-&gt;tv_sec + (&amp;total_time)-&gt;tv_sec; (&amp;total_time)-&gt;tv_usec = (&amp;diff)-&gt;tv_usec + (&amp;total_time)-&gt;tv_usec; if ((&amp;total_time)-&gt;tv_usec &gt;= 1000000) { (&amp;total_time)-&gt;tv_sec++; (&amp;total_time)-&gt;tv_usec -= 1000000; } } while (0)" data-ref="_M/evutil_timeradd">evutil_timeradd</a>(&amp;<a class="local col6 ref" href="#16diff" title='diff' data-ref="16diff">diff</a>, &amp;<a class="ref" href="#total_time" title='total_time' data-ref="total_time">total_time</a>, &amp;<a class="ref" href="#total_time" title='total_time' data-ref="total_time">total_time</a>);</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td>		<b>if</b> (<a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a> &amp;&amp; (<a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a>%<var>1000</var>)==<var>0</var>)</td></tr>
+<tr><th id="96">96</th><td>			<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"%d requests done\n"</q>,<a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a>);</td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td>		<b>if</b> (<a class="ref" href="#total_n_launched" title='total_n_launched' data-ref="total_n_launched">total_n_launched</a> &lt; <a class="ref" href="#N_REQUESTS" title='N_REQUESTS' data-ref="N_REQUESTS">N_REQUESTS</a>) {</td></tr>
+<tr><th id="99">99</th><td>			<b>if</b> (<a class="tu ref" href="#launch_request" title='launch_request' data-use='c' data-ref="launch_request">launch_request</a>() &lt; <var>0</var>)</td></tr>
+<tr><th id="100">100</th><td>				<a class="ref" href="../../include/stdio.h.html#perror" title='perror' data-ref="perror">perror</a>(<q>"Can't launch"</q>);</td></tr>
+<tr><th id="101">101</th><td>		}</td></tr>
+<tr><th id="102">102</th><td>	} <b>else</b> {</td></tr>
+<tr><th id="103">103</th><td>		++<a class="ref" href="#total_n_errors" title='total_n_errors' data-ref="total_n_errors">total_n_errors</a>;</td></tr>
+<tr><th id="104">104</th><td>		<a class="ref" href="../../include/stdio.h.html#perror" title='perror' data-ref="perror">perror</a>(<q>"Unexpected error"</q>);</td></tr>
+<tr><th id="105">105</th><td>	}</td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_setcb" title='bufferevent_setcb' data-ref="bufferevent_setcb">bufferevent_setcb</a>(<a class="local col1 ref" href="#11b" title='b' data-ref="11b">b</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="108">108</th><td>	<a class="ref" href="../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col4 ref" href="#14ri" title='ri' data-ref="14ri">ri</a>);</td></tr>
+<tr><th id="109">109</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_disable" title='bufferevent_disable' data-ref="bufferevent_disable">bufferevent_disable</a>(<a class="local col1 ref" href="#11b" title='b' data-ref="11b">b</a>, <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>|<a class="macro" href="../include/event2/event.h.html#928" title="0x04" data-ref="_M/EV_WRITE">EV_WRITE</a>);</td></tr>
+<tr><th id="110">110</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_free" title='bufferevent_free' data-ref="bufferevent_free">bufferevent_free</a>(<a class="local col1 ref" href="#11b" title='b' data-ref="11b">b</a>);</td></tr>
+<tr><th id="111">111</th><td>}</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="114">114</th><td><dfn class="tu decl def" id="frob_socket" title='frob_socket' data-type='void frob_socket(int sock)' data-ref="frob_socket">frob_socket</dfn>(<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col7 decl" id="17sock" title='sock' data-type='int' data-ref="17sock">sock</dfn>)</td></tr>
+<tr><th id="115">115</th><td>{</td></tr>
+<tr><th id="116">116</th><td><u>#<span data-ppcond="116">ifdef</span> <a class="macro" href="../include/event2/event-config.h.html#320" data-ref="_M/EVENT__HAVE_STRUCT_LINGER">EVENT__HAVE_STRUCT_LINGER</a></u></td></tr>
+<tr><th id="117">117</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/socket.h.html#linger" title='linger' data-ref="linger">linger</a> <dfn class="local col8 decl" id="18l" title='l' data-type='struct linger' data-ref="18l">l</dfn>;</td></tr>
+<tr><th id="118">118</th><td><u>#<span data-ppcond="116">endif</span></u></td></tr>
+<tr><th id="119">119</th><td>	<em>int</em> <dfn class="local col9 decl" id="19one" title='one' data-type='int' data-ref="19one">one</dfn> = <var>1</var>;</td></tr>
+<tr><th id="120">120</th><td>	<b>if</b> (<a class="ref" href="../../include/x86_64-linux-gnu/sys/socket.h.html#setsockopt" title='setsockopt' data-ref="setsockopt">setsockopt</a>(<a class="local col7 ref" href="#17sock" title='sock' data-ref="17sock">sock</a>, <a class="macro" href="../../include/asm-generic/socket.h.html#7" title="1" data-ref="_M/SOL_SOCKET">SOL_SOCKET</a>, <a class="macro" href="../../include/asm-generic/socket.h.html#10" title="2" data-ref="_M/SO_REUSEADDR">SO_REUSEADDR</a>, (<em>void</em>*)&amp;<a class="local col9 ref" href="#19one" title='one' data-ref="19one">one</a>, <b>sizeof</b>(<a class="local col9 ref" href="#19one" title='one' data-ref="19one">one</a>))&lt;<var>0</var>)</td></tr>
+<tr><th id="121">121</th><td>		<a class="ref" href="../../include/stdio.h.html#perror" title='perror' data-ref="perror">perror</a>(<q>"setsockopt(SO_REUSEADDR)"</q>);</td></tr>
+<tr><th id="122">122</th><td><u>#<span data-ppcond="122">ifdef</span> <a class="macro" href="../include/event2/event-config.h.html#320" data-ref="_M/EVENT__HAVE_STRUCT_LINGER">EVENT__HAVE_STRUCT_LINGER</a></u></td></tr>
+<tr><th id="123">123</th><td>	<a class="local col8 ref" href="#18l" title='l' data-ref="18l">l</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/socket.h.html#linger::l_onoff" title='linger::l_onoff' data-ref="linger::l_onoff">l_onoff</a> = <var>1</var>;</td></tr>
+<tr><th id="124">124</th><td>	<a class="local col8 ref" href="#18l" title='l' data-ref="18l">l</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/socket.h.html#linger::l_linger" title='linger::l_linger' data-ref="linger::l_linger">l_linger</a> = <var>0</var>;</td></tr>
+<tr><th id="125">125</th><td>	<b>if</b> (<a class="ref" href="../../include/x86_64-linux-gnu/sys/socket.h.html#setsockopt" title='setsockopt' data-ref="setsockopt">setsockopt</a>(<a class="local col7 ref" href="#17sock" title='sock' data-ref="17sock">sock</a>, <a class="macro" href="../../include/asm-generic/socket.h.html#7" title="1" data-ref="_M/SOL_SOCKET">SOL_SOCKET</a>, <a class="macro" href="../../include/asm-generic/socket.h.html#23" title="13" data-ref="_M/SO_LINGER">SO_LINGER</a>, (<em>void</em>*)&amp;<a class="local col8 ref" href="#18l" title='l' data-ref="18l">l</a>, <b>sizeof</b>(<a class="local col8 ref" href="#18l" title='l' data-ref="18l">l</a>))&lt;<var>0</var>)</td></tr>
+<tr><th id="126">126</th><td>		<a class="ref" href="../../include/stdio.h.html#perror" title='perror' data-ref="perror">perror</a>(<q>"setsockopt(SO_LINGER)"</q>);</td></tr>
+<tr><th id="127">127</th><td><u>#<span data-ppcond="122">endif</span></u></td></tr>
+<tr><th id="128">128</th><td>}</td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td><em>static</em> <em>int</em></td></tr>
+<tr><th id="131">131</th><td><dfn class="tu decl def" id="launch_request" title='launch_request' data-type='int launch_request()' data-ref="launch_request">launch_request</dfn>(<em>void</em>)</td></tr>
+<tr><th id="132">132</th><td>{</td></tr>
+<tr><th id="133">133</th><td>	<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col0 decl" id="20sock" title='sock' data-type='int' data-ref="20sock">sock</dfn>;</td></tr>
+<tr><th id="134">134</th><td>	<b>struct</b> <a class="type" href="../../include/netinet/in.h.html#sockaddr_in" title='sockaddr_in' data-ref="sockaddr_in">sockaddr_in</a> <dfn class="local col1 decl" id="21sin" title='sin' data-type='struct sockaddr_in' data-ref="21sin">sin</dfn>;</td></tr>
+<tr><th id="135">135</th><td>	<b>struct</b> <a class="type" href="../include/event2/bufferevent.h.html#bufferevent" title='bufferevent' data-ref="bufferevent">bufferevent</a> *<dfn class="local col2 decl" id="22b" title='b' data-type='struct bufferevent *' data-ref="22b">b</dfn>;</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td>	<b>struct</b> <a class="type" href="#request_info" title='request_info' data-ref="request_info">request_info</a> *<dfn class="local col3 decl" id="23ri" title='ri' data-type='struct request_info *' data-ref="23ri">ri</dfn>;</td></tr>
+<tr><th id="138">138</th><td></td></tr>
+<tr><th id="139">139</th><td>	<a class="ref" href="../../include/string.h.html#memset" title='memset' data-ref="memset">memset</a>(&amp;<a class="local col1 ref" href="#21sin" title='sin' data-ref="21sin">sin</a>, <var>0</var>, <b>sizeof</b>(<a class="local col1 ref" href="#21sin" title='sin' data-ref="21sin">sin</a>));</td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td>	++<a class="ref" href="#total_n_launched" title='total_n_launched' data-ref="total_n_launched">total_n_launched</a>;</td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td>	<a class="local col1 ref" href="#21sin" title='sin' data-ref="21sin">sin</a>.<a class="ref" href="../../include/netinet/in.h.html#241" title='sockaddr_in::sin_family' data-ref="sockaddr_in::sin_family">sin_family</a> = <a class="macro" href="../../include/x86_64-linux-gnu/bits/socket.h.html#92" title="2" data-ref="_M/AF_INET">AF_INET</a>;</td></tr>
+<tr><th id="144">144</th><td>	<a class="local col1 ref" href="#21sin" title='sin' data-ref="21sin">sin</a>.<a class="ref" href="../../include/netinet/in.h.html#sockaddr_in::sin_addr" title='sockaddr_in::sin_addr' data-ref="sockaddr_in::sin_addr">sin_addr</a>.<a class="ref" href="../../include/netinet/in.h.html#in_addr::s_addr" title='in_addr::s_addr' data-ref="in_addr::s_addr">s_addr</a> = <a class="macro" href="../../include/netinet/in.h.html#404" title="(__extension__ ({ unsigned int __v, __x = (0x7f000001); if (__builtin_constant_p (__x)) __v = ((((__x) &amp; 0xff000000) &gt;&gt; 24) | (((__x) &amp; 0x00ff0000) &gt;&gt; 8) | (((__x) &amp; 0x0000ff00) &lt;&lt; 8) | (((__x) &amp; 0x000000ff) &lt;&lt; 24)); else __asm__ (&quot;bswap %0&quot; : &quot;=r&quot; (__v) : &quot;0&quot; (__x)); __v; }))" data-ref="_M/htonl">htonl</a>(<var>0x7f000001</var>);</td></tr>
+<tr><th id="145">145</th><td>	<a class="local col1 ref" href="#21sin" title='sin' data-ref="21sin">sin</a>.<a class="ref" href="../../include/netinet/in.h.html#sockaddr_in::sin_port" title='sockaddr_in::sin_port' data-ref="sockaddr_in::sin_port">sin_port</a> = <a class="macro" href="../../include/netinet/in.h.html#405" title="(__extension__ ({ unsigned short int __v, __x = (unsigned short int) (8080); if (__builtin_constant_p (__x)) __v = ((unsigned short int) ((((__x) &gt;&gt; 8) &amp; 0xff) | (((__x) &amp; 0xff) &lt;&lt; 8))); else __asm__ (&quot;rorw $8, %w0&quot; : &quot;=r&quot; (__v) : &quot;0&quot; (__x) : &quot;cc&quot;); __v; }))" data-ref="_M/htons">htons</a>(<var>8080</var>);</td></tr>
+<tr><th id="146">146</th><td>	<b>if</b> ((<a class="local col0 ref" href="#20sock" title='sock' data-ref="20sock">sock</a> = <a class="ref" href="../../include/x86_64-linux-gnu/sys/socket.h.html#socket" title='socket' data-ref="socket">socket</a>(<a class="macro" href="../../include/x86_64-linux-gnu/bits/socket.h.html#92" title="2" data-ref="_M/AF_INET">AF_INET</a>, <a class="macro" href="../../include/x86_64-linux-gnu/bits/socket_type.h.html#28" title="SOCK_STREAM" data-ref="_M/SOCK_STREAM">SOCK_STREAM</a>, <var>0</var>)) &lt; <var>0</var>)</td></tr>
+<tr><th id="147">147</th><td>		<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="148">148</th><td>	<b>if</b> (<a class="ref" href="../include/event2/util.h.html#evutil_make_socket_nonblocking" title='evutil_make_socket_nonblocking' data-ref="evutil_make_socket_nonblocking">evutil_make_socket_nonblocking</a>(<a class="local col0 ref" href="#20sock" title='sock' data-ref="20sock">sock</a>) &lt; <var>0</var>) {</td></tr>
+<tr><th id="149">149</th><td>		<a class="ref" href="../include/event2/util.h.html#evutil_closesocket" title='evutil_closesocket' data-ref="evutil_closesocket">evutil_closesocket</a>(<a class="local col0 ref" href="#20sock" title='sock' data-ref="20sock">sock</a>);</td></tr>
+<tr><th id="150">150</th><td>		<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="151">151</th><td>	}</td></tr>
+<tr><th id="152">152</th><td>	<a class="tu ref" href="#frob_socket" title='frob_socket' data-use='c' data-ref="frob_socket">frob_socket</a>(<a class="local col0 ref" href="#20sock" title='sock' data-ref="20sock">sock</a>);</td></tr>
+<tr><th id="153">153</th><td>	<b>if</b> (<a class="ref" href="../../include/x86_64-linux-gnu/sys/socket.h.html#connect" title='connect' data-ref="connect">connect</a>(<a class="local col0 ref" href="#20sock" title='sock' data-ref="20sock">sock</a>, (<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/socket.h.html#sockaddr" title='sockaddr' data-ref="sockaddr">sockaddr</a>*)&amp;<a class="local col1 ref" href="#21sin" title='sin' data-ref="21sin">sin</a>, <b>sizeof</b>(<a class="local col1 ref" href="#21sin" title='sin' data-ref="21sin">sin</a>)) &lt; <var>0</var>) {</td></tr>
+<tr><th id="154">154</th><td>		<em>int</em> <dfn class="local col4 decl" id="24e" title='e' data-type='int' data-ref="24e">e</dfn> = <a class="macro" href="../include/event2/util.h.html#502" title="((*__errno_location ()))" data-ref="_M/evutil_socket_geterror">evutil_socket_geterror</a>(sock);</td></tr>
+<tr><th id="155">155</th><td>		<b>if</b> (! <a class="macro" href="../util-internal.h.html#108" title="((e) == 4 || (e) == 115)" data-ref="_M/EVUTIL_ERR_CONNECT_RETRIABLE">EVUTIL_ERR_CONNECT_RETRIABLE</a>(<a class="local col4 ref" href="#24e" title='e' data-ref="24e">e</a>)) {</td></tr>
+<tr><th id="156">156</th><td>			<a class="ref" href="../include/event2/util.h.html#evutil_closesocket" title='evutil_closesocket' data-ref="evutil_closesocket">evutil_closesocket</a>(<a class="local col0 ref" href="#20sock" title='sock' data-ref="20sock">sock</a>);</td></tr>
+<tr><th id="157">157</th><td>			<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="158">158</th><td>		}</td></tr>
+<tr><th id="159">159</th><td>	}</td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td>	<a class="local col3 ref" href="#23ri" title='ri' data-ref="23ri">ri</a> = <a class="ref" href="../../include/stdlib.h.html#malloc" title='malloc' data-ref="malloc">malloc</a>(<b>sizeof</b>(*<a class="local col3 ref" href="#23ri" title='ri' data-ref="23ri">ri</a>));</td></tr>
+<tr><th id="162">162</th><td>	<a class="local col3 ref" href="#23ri" title='ri' data-ref="23ri">ri</a>-&gt;<a class="tu ref" href="#request_info::n_read" title='request_info::n_read' data-use='w' data-ref="request_info::n_read">n_read</a> = <var>0</var>;</td></tr>
+<tr><th id="163">163</th><td>	<a class="macro" href="../include/event2/util.h.html#573" title="gettimeofday((&amp;ri-&gt;started), (((void*)0)))" data-ref="_M/evutil_gettimeofday">evutil_gettimeofday</a>(&amp;<a class="local col3 ref" href="#23ri" title='ri' data-ref="23ri">ri</a>-&gt;<a class="tu ref" href="#request_info::started" title='request_info::started' data-use='a' data-ref="request_info::started">started</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td>	<a class="local col2 ref" href="#22b" title='b' data-ref="22b">b</a> = <a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_socket_new" title='bufferevent_socket_new' data-ref="bufferevent_socket_new">bufferevent_socket_new</a>(<a class="ref" href="#base" title='base' data-ref="base">base</a>, <a class="local col0 ref" href="#20sock" title='sock' data-ref="20sock">sock</a>, <a class="enum" href="../include/event2/bufferevent.h.html#bufferevent_options::BEV_OPT_CLOSE_ON_FREE" title='bufferevent_options::BEV_OPT_CLOSE_ON_FREE' data-ref="bufferevent_options::BEV_OPT_CLOSE_ON_FREE">BEV_OPT_CLOSE_ON_FREE</a>);</td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_setcb" title='bufferevent_setcb' data-ref="bufferevent_setcb">bufferevent_setcb</a>(<a class="local col2 ref" href="#22b" title='b' data-ref="22b">b</a>, <a class="tu ref" href="#readcb" title='readcb' data-use='r' data-ref="readcb">readcb</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <a class="tu ref" href="#errorcb" title='errorcb' data-use='r' data-ref="errorcb">errorcb</a>, <a class="local col3 ref" href="#23ri" title='ri' data-ref="23ri">ri</a>);</td></tr>
+<tr><th id="168">168</th><td>	<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_enable" title='bufferevent_enable' data-ref="bufferevent_enable">bufferevent_enable</a>(<a class="local col2 ref" href="#22b" title='b' data-ref="22b">b</a>, <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>|<a class="macro" href="../include/event2/event.h.html#928" title="0x04" data-ref="_M/EV_WRITE">EV_WRITE</a>);</td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td>	<a class="ref" href="../include/event2/buffer.h.html#evbuffer_add_printf" title='evbuffer_add_printf' data-ref="evbuffer_add_printf">evbuffer_add_printf</a>(<a class="ref" href="../include/event2/bufferevent.h.html#bufferevent_get_output" title='bufferevent_get_output' data-ref="bufferevent_get_output">bufferevent_get_output</a>(<a class="local col2 ref" href="#22b" title='b' data-ref="22b">b</a>),</td></tr>
+<tr><th id="171">171</th><td>	    <q>"GET %s HTTP/1.0\r\n\r\n"</q>, <a class="ref" href="#resource" title='resource' data-ref="resource">resource</a>);</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td>	<b>return</b> <var>0</var>;</td></tr>
+<tr><th id="174">174</th><td>}</td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><em>int</em></td></tr>
+<tr><th id="178">178</th><td><dfn class="decl def" id="main" title='main' data-ref="main">main</dfn>(<em>int</em> <dfn class="local col5 decl" id="25argc" title='argc' data-type='int' data-ref="25argc">argc</dfn>, <em>char</em> **<dfn class="local col6 decl" id="26argv" title='argv' data-type='char **' data-ref="26argv">argv</dfn>)</td></tr>
+<tr><th id="179">179</th><td>{</td></tr>
+<tr><th id="180">180</th><td>	<em>int</em> <dfn class="local col7 decl" id="27i" title='i' data-type='int' data-ref="27i">i</dfn>;</td></tr>
+<tr><th id="181">181</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col8 decl" id="28start" title='start' data-type='struct timeval' data-ref="28start">start</dfn>, <dfn class="local col9 decl" id="29end" title='end' data-type='struct timeval' data-ref="29end">end</dfn>, <dfn class="local col0 decl" id="30total" title='total' data-type='struct timeval' data-ref="30total">total</dfn>;</td></tr>
+<tr><th id="182">182</th><td>	<em>long</em> <em>long</em> <dfn class="local col1 decl" id="31usec" title='usec' data-type='long long' data-ref="31usec">usec</dfn>;</td></tr>
+<tr><th id="183">183</th><td>	<em>double</em> <dfn class="local col2 decl" id="32throughput" title='throughput' data-type='double' data-ref="32throughput">throughput</dfn>;</td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td><u>#<span data-ppcond="185">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="186">186</th><td>	WSADATA WSAData;</td></tr>
+<tr><th id="187">187</th><td>	WSAStartup(<var>0x101</var>, &amp;WSAData);</td></tr>
+<tr><th id="188">188</th><td><u>#<span data-ppcond="185">endif</span></u></td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td>	<a class="ref" href="#resource" title='resource' data-ref="resource">resource</a> = <q>"/ref"</q>;</td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td>	<a class="ref" href="../../include/stdio.h.html#setvbuf" title='setvbuf' data-ref="setvbuf">setvbuf</a>(<a class="macro" href="../../include/stdio.h.html#173" title="stdout" data-ref="_M/stdout">stdout</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <a class="macro" href="../../include/stdio.h.html#122" title="2" data-ref="_M/_IONBF">_IONBF</a>, <var>0</var>);</td></tr>
+<tr><th id="193">193</th><td></td></tr>
+<tr><th id="194">194</th><td>	<a class="ref" href="#base" title='base' data-ref="base">base</a> = <a class="ref" href="../include/event2/event.h.html#event_base_new" title='event_base_new' data-ref="event_base_new">event_base_new</a>();</td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td>	<b>for</b> (<a class="local col7 ref" href="#27i" title='i' data-ref="27i">i</a>=<var>0</var>; <a class="local col7 ref" href="#27i" title='i' data-ref="27i">i</a> &lt; <a class="ref" href="#PARALLELISM" title='PARALLELISM' data-ref="PARALLELISM">PARALLELISM</a>; ++<a class="local col7 ref" href="#27i" title='i' data-ref="27i">i</a>) {</td></tr>
+<tr><th id="197">197</th><td>		<b>if</b> (<a class="tu ref" href="#launch_request" title='launch_request' data-use='c' data-ref="launch_request">launch_request</a>() &lt; <var>0</var>)</td></tr>
+<tr><th id="198">198</th><td>			<a class="ref" href="../../include/stdio.h.html#perror" title='perror' data-ref="perror">perror</a>(<q>"launch"</q>);</td></tr>
+<tr><th id="199">199</th><td>	}</td></tr>
+<tr><th id="200">200</th><td></td></tr>
+<tr><th id="201">201</th><td>	<a class="macro" href="../include/event2/util.h.html#573" title="gettimeofday((&amp;start), (((void*)0)))" data-ref="_M/evutil_gettimeofday">evutil_gettimeofday</a>(&amp;<a class="local col8 ref" href="#28start" title='start' data-ref="28start">start</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_dispatch" title='event_base_dispatch' data-ref="event_base_dispatch">event_base_dispatch</a>(<a class="ref" href="#base" title='base' data-ref="base">base</a>);</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td>	<a class="macro" href="../include/event2/util.h.html#573" title="gettimeofday((&amp;end), (((void*)0)))" data-ref="_M/evutil_gettimeofday">evutil_gettimeofday</a>(&amp;<a class="local col9 ref" href="#29end" title='end' data-ref="29end">end</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="206">206</th><td>	<a class="macro" href="../include/event2/util.h.html#528" title="do { (&amp;total)-&gt;tv_sec = (&amp;end)-&gt;tv_sec - (&amp;start)-&gt;tv_sec; (&amp;total)-&gt;tv_usec = (&amp;end)-&gt;tv_usec - (&amp;start)-&gt;tv_usec; if ((&amp;total)-&gt;tv_usec &lt; 0) { (&amp;total)-&gt;tv_sec--; (&amp;total)-&gt;tv_usec += 1000000; } } while (0)" data-ref="_M/evutil_timersub">evutil_timersub</a>(&amp;<a class="local col9 ref" href="#29end" title='end' data-ref="29end">end</a>, &amp;<a class="local col8 ref" href="#28start" title='start' data-ref="28start">start</a>, &amp;<a class="local col0 ref" href="#30total" title='total' data-ref="30total">total</a>);</td></tr>
+<tr><th id="207">207</th><td>	<a class="local col1 ref" href="#31usec" title='usec' data-ref="31usec">usec</a> = <a class="ref" href="#total_time" title='total_time' data-ref="total_time">total_time</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a> * (<em>long</em> <em>long</em>)<var>1000000</var> + <a class="ref" href="#total_time" title='total_time' data-ref="total_time">total_time</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a>;</td></tr>
+<tr><th id="208">208</th><td></td></tr>
+<tr><th id="209">209</th><td>	<b>if</b> (!<a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a>) {</td></tr>
+<tr><th id="210">210</th><td>		<a class="ref" href="../../include/stdio.h.html#puts" title='puts' data-ref="puts">puts</a>(<q>"Nothing worked.  You probably did something dumb."</q>);</td></tr>
+<tr><th id="211">211</th><td>		<b>return</b> <var>0</var>;</td></tr>
+<tr><th id="212">212</th><td>	}</td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td></td></tr>
+<tr><th id="215">215</th><td>	<a class="local col2 ref" href="#32throughput" title='throughput' data-ref="32throughput">throughput</a> = <a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a> /</td></tr>
+<tr><th id="216">216</th><td>	    (<a class="local col0 ref" href="#30total" title='total' data-ref="30total">total</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a>+ ((<em>double</em>)<a class="local col0 ref" href="#30total" title='total' data-ref="30total">total</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a>)/<var>1000000.0</var>);</td></tr>
+<tr><th id="217">217</th><td></td></tr>
+<tr><th id="218">218</th><td><u>#<span data-ppcond="218">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="219">219</th><td><u>#define I64_FMT "%I64d"</u></td></tr>
+<tr><th id="220">220</th><td><u>#define I64_TYP __int64</u></td></tr>
+<tr><th id="221">221</th><td><u>#<span data-ppcond="218">else</span></u></td></tr>
+<tr><th id="222">222</th><td><u>#define <dfn class="macro" id="_M/I64_FMT" data-ref="_M/I64_FMT">I64_FMT</dfn> "%lld"</u></td></tr>
+<tr><th id="223">223</th><td><u>#define <dfn class="macro" id="_M/I64_TYP" data-ref="_M/I64_TYP">I64_TYP</dfn> long long int</u></td></tr>
+<tr><th id="224">224</th><td><u>#<span data-ppcond="218">endif</span></u></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"\n%d requests in %d.%06d sec. (%.2f throughput)\n"</q></td></tr>
+<tr><th id="227">227</th><td>	    <q>"Each took about %.02f msec latency\n"</q></td></tr>
+<tr><th id="228">228</th><td>	    <a class="macro" href="#222" title="&quot;%lld&quot;" data-ref="_M/I64_FMT">I64_FMT</a> <q>"bytes read. %d errors.\n"</q>,</td></tr>
+<tr><th id="229">229</th><td>	    <a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a>,</td></tr>
+<tr><th id="230">230</th><td>	    (<em>int</em>)<a class="local col0 ref" href="#30total" title='total' data-ref="30total">total</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a>, (<em>int</em>)<a class="local col0 ref" href="#30total" title='total' data-ref="30total">total</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a>,</td></tr>
+<tr><th id="231">231</th><td>	    <a class="local col2 ref" href="#32throughput" title='throughput' data-ref="32throughput">throughput</a>,</td></tr>
+<tr><th id="232">232</th><td>	    (<em>double</em>)(<a class="local col1 ref" href="#31usec" title='usec' data-ref="31usec">usec</a>/<var>1000</var>) / <a class="ref" href="#total_n_handled" title='total_n_handled' data-ref="total_n_handled">total_n_handled</a>,</td></tr>
+<tr><th id="233">233</th><td>	    (<a class="macro" href="#223" title="long long int" data-ref="_M/I64_TYP">I64_TYP</a>)<a class="ref" href="#total_n_bytes" title='total_n_bytes' data-ref="total_n_bytes">total_n_bytes</a>, <a class="ref" href="#n_errors" title='n_errors' data-ref="n_errors">n_errors</a>);</td></tr>
+<tr><th id="234">234</th><td></td></tr>
+<tr><th id="235">235</th><td><u>#<span data-ppcond="235">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="236">236</th><td>	WSACleanup();</td></tr>
+<tr><th id="237">237</th><td><u>#<span data-ppcond="235">endif</span></u></td></tr>
+<tr><th id="238">238</th><td></td></tr>
+<tr><th id="239">239</th><td>	<b>return</b> <var>0</var>;</td></tr>
+<tr><th id="240">240</th><td>}</td></tr>
+<tr><th id="241">241</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

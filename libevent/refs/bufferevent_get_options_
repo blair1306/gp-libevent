@@ -1,0 +1,3 @@
+<dec f='codebrowser/bufferevent-internal.h' l='441' type='enum bufferevent_options bufferevent_get_options_(struct bufferevent * bev)'/>
+<def f='codebrowser/bufferevent.c' l='871' ll='882' type='enum bufferevent_options bufferevent_get_options_(struct bufferevent * bev)'/>
+<use f='codebrowser/http.c' l='1243' u='c' c='evhttp_connection_free'/>

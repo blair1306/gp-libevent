@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='106' type='struct evbuffer *'/>
+<use f='codebrowser/evrpc.c' l='292' u='r' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='311' u='r' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='357' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='881' u='r' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='930' u='r' c='evrpc_reply_done_closure'/>
+<offset>1024</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='106'>/* read data */</doc>
+<use f='codebrowser/http.c' l='962' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='967' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='968' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1063' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1074' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1087' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1091' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1092' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='3951' u='w' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3997' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3998' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4148' u='r' c='evhttp_request_get_input_buffer'/>
+<use f='codebrowser/test/regress_rpc.c' l='242' u='r' c='rpc_postrequest_done'/>

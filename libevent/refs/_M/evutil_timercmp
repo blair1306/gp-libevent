@@ -1,0 +1,21 @@
+<dec f='codebrowser/include/event2/util.h' l='548'/>
+<doc f='codebrowser/include/event2/util.h' l='546'>/** Return true iff the tvp is related to uvp according to the relational
+ * operator cmp.  Recognized values for cmp are ==, &lt;=, &lt;, &gt;=, and &gt;. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='682' u='c'/>
+<use f='codebrowser/event.c' l='1559' u='c'/>
+<use f='codebrowser/event.c' l='1702' u='c'/>
+<use f='codebrowser/event.c' l='2707' u='c'/>
+<use f='codebrowser/event.c' l='3114' u='c'/>
+<use f='codebrowser/event.c' l='3144' u='c'/>
+<use f='codebrowser/event.c' l='3300' u='c'/>
+<use f='codebrowser/event.c' l='3900' u='c'/>
+<use f='codebrowser/event.c' l='3913' u='c'/>
+<use f='codebrowser/evutil_time.c' l='191' u='c'/>
+<use f='codebrowser/test/regress.c' l='2831' u='c'/>
+<use f='codebrowser/test/regress.c' l='3268' u='c'/>
+<use f='codebrowser/test/regress.c' l='3269' u='c'/>
+<use f='codebrowser/test/regress_minheap.c' l='49' u='c'/>
+<use f='codebrowser/test/regress_minheap.c' l='85' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1326' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1362' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1368' u='c'/>

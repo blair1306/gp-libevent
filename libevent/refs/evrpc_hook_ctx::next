@@ -1,0 +1,27 @@
+<dec f='codebrowser/evrpc-internal.h' l='99' type='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:99:2)'/>
+<use f='codebrowser/evrpc.c' l='105' u='m' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='105' u='m' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='105' u='m' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='105' u='m' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='105' u='m' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='105' u='m' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='105' u='m' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='551' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='551' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='551' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='551' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='551' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='551' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='551' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='773' u='m' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='773' u='m' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='773' u='m' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='784' u='m' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='793' u='m' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='793' u='m' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='793' u='m' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='793' u='m' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='793' u='m' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='793' u='m' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='793' u='m' c='evrpc_resume_request'/>
+<offset>0</offset>

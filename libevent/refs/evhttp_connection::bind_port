@@ -1,0 +1,5 @@
+<dec f='codebrowser/http-internal.h' l='65' type='uint16_t'/>
+<offset>1344</offset>
+<use f='codebrowser/http.c' l='1278' u='w' c='evhttp_connection_set_local_port'/>
+<use f='codebrowser/http.c' l='2538' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2540' u='r' c='evhttp_connection_connect_'/>

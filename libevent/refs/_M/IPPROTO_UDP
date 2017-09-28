@@ -1,0 +1,16 @@
+<dec f='include/netinet/in.h' l='57'/>
+<use f='codebrowser/evutil.c' l='767' u='c'/>
+<use f='codebrowser/evutil.c' l='776' u='c'/>
+<use f='codebrowser/evutil.c' l='816' u='c'/>
+<use f='codebrowser/evutil.c' l='902' u='c'/>
+<use f='codebrowser/evutil.c' l='926' u='c'/>
+<use f='codebrowser/evutil.c' l='933' u='c'/>
+<use f='codebrowser/evutil.c' l='1342' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1425' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1427' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1445' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1449' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='945' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='950' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1019' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1021' u='c'/>

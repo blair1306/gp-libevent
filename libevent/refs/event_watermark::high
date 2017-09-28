@@ -1,0 +1,31 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='59' type='size_t'/>
+<offset>64</offset>
+<use f='codebrowser/bufferevent.c' l='127' u='r' c='bufferevent_inbuf_wm_cb'/>
+<use f='codebrowser/bufferevent.c' l='579' u='w' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='584' u='w' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='626' u='r' c='bufferevent_getwatermark'/>
+<use f='codebrowser/bufferevent.c' l='636' u='r' c='bufferevent_getwatermark'/>
+<use f='codebrowser/bufferevent_filter.c' l='140' u='r' c='be_underlying_writebuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='141' u='r' c='be_underlying_writebuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='152' u='r' c='be_readbuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='153' u='r' c='be_readbuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='319' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='320' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='374' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='375' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_openssl.c' l='176' u='r' c='bio_bufferevent_write'/>
+<use f='codebrowser/bufferevent_openssl.c' l='176' u='r' c='bio_bufferevent_write'/>
+<use f='codebrowser/bufferevent_openssl.c' l='177' u='r' c='bio_bufferevent_write'/>
+<use f='codebrowser/bufferevent_openssl.c' l='182' u='r' c='bio_bufferevent_write'/>
+<use f='codebrowser/bufferevent_openssl.c' l='756' u='r' c='bytes_to_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='757' u='r' c='bytes_to_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='761' u='r' c='bytes_to_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='877' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='877' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='879' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='880' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_pair.c' l='162' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='164' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='165' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_sock.c' l='172' u='r' c='bufferevent_readcb'/>
+<use f='codebrowser/bufferevent_sock.c' l='173' u='r' c='bufferevent_readcb'/>

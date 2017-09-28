@@ -1,0 +1,12 @@
+<dec f='codebrowser/event-internal.h' l='315' type='struct event_callback *'/>
+<offset>3648</offset>
+<doc f='codebrowser/event-internal.h' l='314'>/** The event whose callback is executing right now */</doc>
+<use f='codebrowser/event.c' l='1628' u='w' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1663' u='w' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1675' u='w' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1686' u='w' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2152' u='r' c='event_base_get_running_event'/>
+<use f='codebrowser/event.c' l='2286' u='r' c='event_callback_finalize_many_'/>
+<use f='codebrowser/event.c' l='2592' u='r' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='2839' u='r' c='event_del_nolock_'/>
+<use f='codebrowser/event.c' l='2906' u='r' c='event_active_nolock_'/>

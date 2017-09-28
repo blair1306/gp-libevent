@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509v3.h' l='525' macro='1' type='void GENERAL_NAME_free(GENERAL_NAME * a)'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='146' u='r' c='matches_subject_alternative_name'/>

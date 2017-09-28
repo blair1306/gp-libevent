@@ -1,0 +1,7 @@
+<dec f='codebrowser/evbuffer-internal.h' l='277'/>
+<use f='codebrowser/buffer.c' l='161' u='c'/>
+<use f='codebrowser/buffer.c' l='164' u='c'/>
+<use f='codebrowser/buffer.c' l='180' u='c'/>
+<use f='codebrowser/buffer.c' l='182' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='758' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='843' u='c'/>

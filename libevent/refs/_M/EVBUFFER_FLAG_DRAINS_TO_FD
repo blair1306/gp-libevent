@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/event2/buffer.h' l='206'/>
+<use f='codebrowser/buffer.c' l='3190' u='c'/>
+<doc f='codebrowser/include/event2/buffer.h' l='191'>/** If this flag is set, then we will not use evbuffer_peek(),
+ * evbuffer_remove(), evbuffer_remove_buffer(), and so on to read bytes
+ * from this buffer: we&apos;ll only take bytes out of this buffer by
+ * writing them to the network (as with evbuffer_write_atmost), by
+ * removing them without observing them (as with evbuffer_drain),
+ * or by copying them all out at once (as with evbuffer_add_buffer).
+ *
+ * Using this option allows the implementation to use sendfile-based
+ * operations for evbuffer_add_file(); see that function for more
+ * information.
+ *
+ * This flag is on by default for bufferevents that can take advantage
+ * of it; you should never actually need to set it on a bufferevent&apos;s
+ * output buffer.
+ */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='363' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1046' u='c'/>

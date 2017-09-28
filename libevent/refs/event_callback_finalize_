@@ -1,0 +1,4 @@
+<dec f='codebrowser/event-internal.h' l='432' type='void event_callback_finalize_(struct event_base * base, unsigned int flags, struct event_callback * evcb, void (*)(struct event_callback *, void *) cb)'/>
+<def f='codebrowser/event.c' l='2258' ll='2264' type='void event_callback_finalize_(struct event_base * base, unsigned int flags, struct event_callback * evcb, void (*)(struct event_callback *, void *) cb)'/>
+<use f='codebrowser/test/regress_finalize.c' l='90' u='c' c='test_fin_cb_invoked'/>
+<use f='codebrowser/test/regress_finalize.c' l='120' u='c' c='test_fin_cb_invoked'/>

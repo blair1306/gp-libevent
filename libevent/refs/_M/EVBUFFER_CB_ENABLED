@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/event2/buffer.h' l='934'/>
+<use f='codebrowser/buffer.c' l='464' u='c'/>
+<use f='codebrowser/buffer.c' l='465' u='c'/>
+<use f='codebrowser/buffer.c' l='467' u='c'/>
+<use f='codebrowser/buffer.c' l='468' u='c'/>
+<use f='codebrowser/buffer.c' l='473' u='c'/>
+<use f='codebrowser/buffer.c' l='474' u='c'/>
+<use f='codebrowser/buffer.c' l='3322' u='c'/>
+<doc f='codebrowser/include/event2/buffer.h' l='929'>/** If this flag is not set, then a callback is temporarily disabled, and
+ * should not be invoked.
+ *
+ * @see evbuffer_cb_set_flags(), evbuffer_cb_clear_flags()
+ */</doc>
+<use f='codebrowser/bufferevent.c' l='599' u='c'/>
+<use f='codebrowser/bufferevent.c' l='610' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='214' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='365' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='411' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='475' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='504' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1774' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1778' u='c'/>

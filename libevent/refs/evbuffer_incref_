@@ -1,0 +1,4 @@
+<dec f='codebrowser/evbuffer-internal.h' l='303' type='void evbuffer_incref_(struct evbuffer * buf)'/>
+<def f='codebrowser/buffer.c' l='394' ll='400' type='void evbuffer_incref_(struct evbuffer * buf)'/>
+<use f='codebrowser/buffer.c' l='927' u='c' c='APPEND_CHAIN_MULTICAST'/>
+<doc f='codebrowser/evbuffer-internal.h' l='302'>/** Increase the reference count of buf by one. */</doc>

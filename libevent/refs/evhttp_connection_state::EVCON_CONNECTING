@@ -1,0 +1,7 @@
+<dec f='codebrowser/http-internal.h' l='41' type='1'/>
+<doc f='codebrowser/http-internal.h' l='41'>/**&lt; tries to currently connect */</doc>
+<use f='codebrowser/http.c' l='411' c='evhttp_connected'/>
+<use f='codebrowser/http.c' l='1161' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1464' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2530' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2567' u='r' c='evhttp_connection_connect_'/>

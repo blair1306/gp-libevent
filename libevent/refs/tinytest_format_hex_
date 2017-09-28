@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/tinytest.h' l='85' type='char * tinytest_format_hex_(const void * , unsigned long )'/>
+<doc f='codebrowser/test/tinytest.h' l='84'>/** Implementation: Put a chunk of memory into hex. */</doc>
+<use f='codebrowser/test/regress_dns.c' l='422' macro='1' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='422' macro='1' u='c'/>
+<def f='codebrowser/test/tinytest.c' l='475' ll='493' type='char * tinytest_format_hex_(const void * val_, unsigned long len)'/>

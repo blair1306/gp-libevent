@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='636' type='int evutil_sockaddr_cmp(const struct sockaddr * sa1, const struct sockaddr * sa2, int include_port)'/>
+<use f='codebrowser/evdns.c' l='1390' u='c' c='nameserver_read'/>
+<use f='codebrowser/evdns.c' l='2497' u='c' c='evdns_nameserver_add_impl_'/>
+<def f='codebrowser/evutil.c' l='2202' ll='2239' type='int evutil_sockaddr_cmp(const struct sockaddr * sa1, const struct sockaddr * sa2, int include_port)'/>
+<use f='codebrowser/test/regress_util.c' l='851' u='c' c='test_ai_eq_'/>

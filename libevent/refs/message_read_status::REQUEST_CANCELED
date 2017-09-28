@@ -1,0 +1,4 @@
+<dec f='codebrowser/http-internal.h' l='28' type='-2'/>
+<use f='codebrowser/http.c' l='971' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='994' c='evhttp_read_trailer'/>
+<use f='codebrowser/http.c' l='1047' c='evhttp_read_body'/>

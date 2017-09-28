@@ -1,0 +1,4 @@
+<dec f='codebrowser/util-internal.h' l='115'/>
+<doc f='codebrowser/util-internal.h' l='114'>/* True iff e is an error that means the connection was refused */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='195' u='c'/>
+<use f='codebrowser/evutil.c' l='544' u='c'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/event2/event.h' l='939'/>
+<doc f='codebrowser/include/event2/event.h' l='938'>/** Select edge-triggered behavior, if supported by the backend. */</doc>
+<use f='codebrowser/epoll.c' l='384' u='c'/>
+<use f='codebrowser/epoll.c' l='387' u='c'/>
+<use f='codebrowser/epoll.c' l='390' u='c'/>
+<use f='codebrowser/epoll.c' l='500' u='c'/>
+<use f='codebrowser/evmap.c' l='319' u='c'/>
+<use f='codebrowser/evmap.c' l='319' u='c'/>
+<use f='codebrowser/evmap.c' l='331' u='c'/>
+<use f='codebrowser/evmap.c' l='617' u='c'/>
+<use f='codebrowser/evmap.c' l='618' u='c'/>
+<use f='codebrowser/evmap.c' l='874' u='c'/>
+<use f='codebrowser/evmap.c' l='878' u='c'/>
+<use f='codebrowser/evmap.c' l='882' u='c'/>
+<use f='codebrowser/test/regress_et.c' l='63' u='c'/>
+<use f='codebrowser/test/regress_et.c' l='121' u='c'/>
+<use f='codebrowser/test/regress_et.c' l='172' u='c'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/http.c' l='4408' type='char *'/>
+<use f='codebrowser/http.c' l='4732' u='w' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4733' u='r' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4788' u='r' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4832' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4832' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4859' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4860' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4860' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4910' u='r' c='evhttp_uri_get_scheme'/>
+<use f='codebrowser/http.c' l='4962' u='r' c='evhttp_uri_set_scheme'/>
+<use f='codebrowser/http.c' l='4962' u='r' c='evhttp_uri_set_scheme'/>
+<use f='codebrowser/http.c' l='4962' u='w' c='evhttp_uri_set_scheme'/>
+<use f='codebrowser/http.c' l='4962' u='w' c='evhttp_uri_set_scheme'/>
+<offset>64</offset>
+<doc f='codebrowser/http.c' l='4408'>/* scheme; e.g http, ftp etc */</doc>

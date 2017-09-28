@@ -1,0 +1,3 @@
+<dec f='codebrowser/evthread-internal.h' l='182'/>
+<doc f='codebrowser/evthread-internal.h' l='181'>/** True iff locking functions have been configured. */</doc>
+<use f='codebrowser/event.c' l='680' u='c'/>

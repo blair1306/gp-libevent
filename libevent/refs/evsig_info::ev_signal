@@ -1,0 +1,14 @@
+<dec f='codebrowser/evsignal-internal.h' l='41' type='struct event'/>
+<offset>0</offset>
+<doc f='codebrowser/evsignal-internal.h' l='40'>/* Event watching ev_signal_pair[1] */</doc>
+<use f='codebrowser/event.c' l='970' u='a' c='event_reinit'/>
+<use f='codebrowser/event.c' l='971' u='a' c='event_reinit'/>
+<use f='codebrowser/event.c' l='972' u='a' c='event_reinit'/>
+<use f='codebrowser/event.c' l='972' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1030' u='a' c='event_reinit'/>
+<use f='codebrowser/signal.c' l='198' u='a' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='201' u='m' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='202' u='a' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='308' u='a' c='evsig_add'/>
+<use f='codebrowser/signal.c' l='417' u='a' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='422' u='a' c='evsig_dealloc_'/>

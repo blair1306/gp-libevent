@@ -1,0 +1,5 @@
+<def f='codebrowser/evrpc-internal.h' l='98' ll='103'/>
+<size>32</size>
+<mbr r='evrpc_hook_ctx::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:99:2)'/>
+<mbr r='evrpc_hook_ctx::ctx' o='128' t='void *'/>
+<mbr r='evrpc_hook_ctx::cb' o='192' t='void (*)(void *, enum EVRPC_HOOK_RESULT)'/>

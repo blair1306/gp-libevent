@@ -1,0 +1,15 @@
+<dec f='codebrowser/event-internal.h' l='251' type='int'/>
+<offset>1920</offset>
+<doc f='codebrowser/event-internal.h' l='249'>/** Set if we&apos;re running the event_base_loop function, to prevent
+	 * reentrant invocation. */</doc>
+<use f='codebrowser/event.c' l='446' u='r' c='event_base_update_cache_time'/>
+<use f='codebrowser/event.c' l='1824' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1843' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1892' u='r' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='1899' u='w' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='1976' u='w' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='2713' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2827' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2980' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2994' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3806' macro='1' u='r'/>

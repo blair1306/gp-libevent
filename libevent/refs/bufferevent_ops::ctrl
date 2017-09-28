@@ -1,0 +1,13 @@
+<dec f='codebrowser/bufferevent-internal.h' l='297' type='int (*)(struct bufferevent *, enum bufferevent_ctrl_op, union bufferevent_ctrl_data *)'/>
+<offset>512</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='296'>/** Called to access miscellaneous fields. */</doc>
+<use f='codebrowser/bufferevent.c' l='852' u='r' c='bufferevent_setfd'/>
+<use f='codebrowser/bufferevent.c' l='853' u='r' c='bufferevent_setfd'/>
+<use f='codebrowser/bufferevent.c' l='865' u='r' c='bufferevent_getfd'/>
+<use f='codebrowser/bufferevent.c' l='866' u='r' c='bufferevent_getfd'/>
+<use f='codebrowser/bufferevent.c' l='891' u='r' c='bufferevent_cancel_all_'/>
+<use f='codebrowser/bufferevent.c' l='892' u='r' c='bufferevent_cancel_all_'/>
+<use f='codebrowser/bufferevent.c' l='913' u='r' c='bufferevent_get_underlying'/>
+<use f='codebrowser/bufferevent.c' l='914' u='r' c='bufferevent_get_underlying'/>
+<use f='codebrowser/bufferevent_filter.c' l='612' u='r' c='be_filter_ctrl'/>
+<use f='codebrowser/bufferevent_filter.c' l='613' u='r' c='be_filter_ctrl'/>

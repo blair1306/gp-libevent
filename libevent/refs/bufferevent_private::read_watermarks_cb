@@ -1,0 +1,8 @@
+<dec f='codebrowser/bufferevent-internal.h' l='159' type='struct evbuffer_cb_entry *'/>
+<offset>3136</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='158'>/** Evbuffer callback to enforce watermarks on input. */</doc>
+<use f='codebrowser/bufferevent.c' l='591' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='592' u='w' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='598' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='607' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='609' u='r' c='bufferevent_setwatermark'/>

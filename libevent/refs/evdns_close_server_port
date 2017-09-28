@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/event2/dns.h' l='625' type='void evdns_close_server_port(struct evdns_server_port * port)'/>
+<def f='codebrowser/evdns.c' l='1745' ll='1755' type='void evdns_close_server_port(struct evdns_server_port * port)'/>
+<doc f='codebrowser/evdns.c' l='1744'>/* exported function */</doc>
+<use f='codebrowser/test/regress_dns.c' l='455' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='508' u='c' c='generic_dns_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='680' u='c' c='dns_search_cancel_test'/>
+<use f='codebrowser/test/regress_dns.c' l='790' u='c' c='dns_retry_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='867' u='c' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='869' u='c' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='940' u='c' c='dns_inflight_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='943' u='c' c='dns_inflight_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='1296' u='c' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1710' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='2016' u='c' c='test_getaddrinfo_async_cancel_stress'/>
+<use f='codebrowser/test/regress_dns.c' l='2060' u='c' c='dns_client_fail_requests_test'/>
+<use f='codebrowser/test/regress_dns.c' l='2105' u='c' c='dns_client_fail_requests_getaddrinfo_test'/>
+<use f='codebrowser/test/regress_testutils.c' l='133' u='c' c='regress_clean_dnsserver'/>

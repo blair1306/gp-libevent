@@ -1,0 +1,25 @@
+<dec f='include/unistd.h' l='363' type='ssize_t read(int __fd, void * __buf, size_t __nbytes)'/>
+<use f='codebrowser/buffer.c' l='3107' u='c' c='evbuffer_file_segment_materialize'/>
+<doc f='include/unistd.h' l='358'>/* Read NBYTES into BUF from FD.  Return the
+   number read, -1 for errors or 0 for EOF.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/event.c' l='3539' u='c' c='evthread_notify_drain_eventfd'/>
+<use f='codebrowser/event.c' l='3558' u='c' c='evthread_notify_drain_default'/>
+<use f='codebrowser/evutil.c' l='178' u='c' c='evutil_read_file_'/>
+<use f='codebrowser/arc4random.c' l='132' u='c' c='read_all'/>
+<use f='codebrowser/arc4random.c' l='267' u='c' c='arc4_seed_proc_sys_kernel_random_uuid'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='57' u='c' c='fifo_read'/>
+<use f='codebrowser/signal.c' l='147' u='c' c='evsig_cb'/>
+<use f='codebrowser/test/regress.c' l='114' u='c' c='simple_read_cb'/>
+<use f='codebrowser/test/regress.c' l='134' u='c' c='basic_read_cb'/>
+<use f='codebrowser/test/regress.c' l='217' u='c' c='multiple_read_cb'/>
+<use f='codebrowser/test/regress.c' l='251' u='c' c='combined_read_cb'/>
+<use f='codebrowser/test/regress.c' l='837' u='c' c='simple_child_read_cb'/>
+<use f='codebrowser/test/regress.c' l='947' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='1773' u='c' c='read_and_drain_cb'/>
+<use f='codebrowser/test/regress.c' l='1868' u='c' c='read_not_timeout_cb'/>
+<use f='codebrowser/test/regress.c' l='2079' u='c' c='re_add_read_cb'/>
+<use f='codebrowser/test/regress.c' l='2322' u='c' c='read_once_cb'/>
+<use f='codebrowser/test/tinytest.c' l='206' u='c' c='testcase_run_forked_'/>

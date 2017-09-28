@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/listener.h' l='173' type='void evconnlistener_set_error_cb(struct evconnlistener * lev, evconnlistener_errorcb errorcb)'/>
+<def f='codebrowser/listener.c' l='378' ll='385' type='void evconnlistener_set_error_cb(struct evconnlistener * lev, evconnlistener_errorcb errorcb)'/>
+<use f='codebrowser/test/regress_listener.c' l='176' u='c' c='regress_listener_error'/>

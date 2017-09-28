@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='332'/>
+<use f='codebrowser/util-internal.h' l='41' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='331'>/* Define to 1 if you have the &lt;sys/eventfd.h&gt; header file. */</doc>
+<use f='codebrowser/evutil.c' l='2660' u='a'/>

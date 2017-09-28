@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event.h' l='1472' type='int event_base_priority_init(struct event_base * , int )'/>
+<use f='codebrowser/event.c' l='668' u='c' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1194' u='c' c='event_priority_init'/>
+<def f='codebrowser/event.c' l='1197' ll='1235' type='int event_base_priority_init(struct event_base * base, int npriorities)'/>
+<use f='codebrowser/test/regress.c' l='2170' u='c' c='test_priorities_impl'/>
+<use f='codebrowser/test/regress.c' l='2249' u='c' c='test_priority_active_inversion'/>

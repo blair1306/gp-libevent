@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='162'/>
+<use f='codebrowser/evdns.c' l='882' u='c'/>
+<use f='codebrowser/evdns.c' l='4002' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='161'>/** The reply was truncated or ill-formatted */</doc>

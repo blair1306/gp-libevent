@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='780' type='struct ev_token_bucket_cfg * ev_token_bucket_cfg_new(size_t read_rate, size_t read_burst, size_t write_rate, size_t write_burst, const struct timeval * tick_len)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='142' ll='173' type='struct ev_token_bucket_cfg * ev_token_bucket_cfg_new(size_t read_rate, size_t read_burst, size_t write_rate, size_t write_burst, const struct timeval * tick_len)'/>
+<use f='codebrowser/test/test-ratelim.c' l='312' u='c' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='320' u='c' c='test_ratelimiting'/>

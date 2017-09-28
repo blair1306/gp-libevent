@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='60'/>
+<doc f='codebrowser/include/event2/event-config.h' l='59'>/* Define if clock_gettime is available in libc */</doc>

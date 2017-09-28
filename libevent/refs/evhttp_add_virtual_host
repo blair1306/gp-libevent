@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='324' type='int evhttp_add_virtual_host(struct evhttp * http, const char * pattern, struct evhttp * vhost)'/>
+<def f='codebrowser/http.c' l='3717' ll='3733' type='int evhttp_add_virtual_host(struct evhttp * http, const char * pattern, struct evhttp * vhost)'/>
+<use f='codebrowser/test/regress_http.c' l='1638' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1642' u='c' c='http_virtual_host_test'/>

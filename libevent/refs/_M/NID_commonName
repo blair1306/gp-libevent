@@ -1,0 +1,2 @@
+<dec f='include/openssl/obj_mac.h' l='2049'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='70' u='c'/>

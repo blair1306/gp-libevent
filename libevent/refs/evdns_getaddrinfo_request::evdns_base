@@ -1,0 +1,30 @@
+<dec f='codebrowser/evdns.c' l='4233' type='struct evdns_base *'/>
+<use f='codebrowser/evdns.c' l='4331' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4331' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4332' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4333' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4333' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4340' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4340' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4341' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4342' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4342' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4415' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4415' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4418' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4420' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4425' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4425' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4427' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4464' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4545' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4701' u='w' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4756' u='r' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4756' u='r' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4758' u='r' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4758' u='r' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4764' u='r' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4766' u='r' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4767' u='r' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4767' u='r' c='evdns_getaddrinfo_cancel'/>
+<offset>0</offset>

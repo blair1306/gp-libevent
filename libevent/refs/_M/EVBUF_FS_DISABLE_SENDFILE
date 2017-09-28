@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/buffer.h' l='560'/>
+<use f='codebrowser/buffer.c' l='2989' u='c'/>
+<doc f='codebrowser/include/event2/buffer.h' l='551'>/**
+   Flag for creating evbuffer_file_segment: Disable direct fd-to-fd
+   implementations (including sendfile and splice).
+
+   You might want to use this option if data needs to be taken from the
+   evbuffer by any means other than writing it to the network: the sendfile
+   backend is fast, but it only works for sending files directly to the
+   network.
+ */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='982' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='988' u='c'/>

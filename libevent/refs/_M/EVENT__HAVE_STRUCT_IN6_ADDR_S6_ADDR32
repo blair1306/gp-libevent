@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='299'/>
+<doc f='codebrowser/include/event2/event-config.h' l='298'>/* Define to 1 if `s6_addr32&apos; is member of `struct in6_addr&apos;. */</doc>

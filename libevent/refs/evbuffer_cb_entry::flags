@@ -1,0 +1,8 @@
+<dec f='codebrowser/evbuffer-internal.h' l='75' type='uint32_t'/>
+<use f='codebrowser/buffer.c' l='501' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='504' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='3308' u='w' c='evbuffer_setcb'/>
+<use f='codebrowser/buffer.c' l='3322' u='w' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3363' u='w' c='evbuffer_cb_set_flags'/>
+<use f='codebrowser/buffer.c' l='3375' u='w' c='evbuffer_cb_clear_flags'/>
+<offset>256</offset>

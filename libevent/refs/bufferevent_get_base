@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='274' type='struct event_base * bufferevent_get_base(struct bufferevent * bev)'/>
+<def f='codebrowser/bufferevent.c' l='413' ll='417' type='struct event_base * bufferevent_get_base(struct bufferevent * bufev)'/>
+<use f='codebrowser/http.c' l='2382' u='c' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/test/test-fdleak.c' l='171' u='c' c='client_read_cb'/>
+<use f='codebrowser/test/test-ratelim.c' l='224' u='c' c='check_bucket_levels_cb'/>

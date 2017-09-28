@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='675' type='1'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='674'>/** the filter needs to read more data before output */</doc>
+<use f='codebrowser/test/regress_zlib.c' l='172' u='r' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='226' u='r' c='zlib_output_filter'/>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/event2/event_compat.h' l='161' type='const char * event_get_method()'/>
+<def f='codebrowser/event.c' l='3422' ll='3426' type='const char * event_get_method()'/>
+<doc f='codebrowser/event.c' l='3417'>/*
+ * No thread-safe interface needed - the information should be the same
+ * for all threads.
+ */</doc>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1197' u='c' c='test_signal_switchbase'/>

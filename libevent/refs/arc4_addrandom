@@ -1,0 +1,5 @@
+<def f='codebrowser/arc4random.c' l='107' ll='122' type='void arc4_addrandom(const unsigned char * dat, int datlen)'/>
+<use f='codebrowser/arc4random.c' l='202' u='c' c='arc4_seed_sysctl_linux'/>
+<use f='codebrowser/arc4random.c' l='285' u='c' c='arc4_seed_proc_sys_kernel_random_uuid'/>
+<use f='codebrowser/arc4random.c' l='312' u='c' c='arc4_seed_urandom_helper_'/>
+<use f='codebrowser/arc4random.c' l='477' u='c' c='arc4random_addrandom'/>

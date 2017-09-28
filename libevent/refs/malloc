@@ -1,0 +1,27 @@
+<dec f='include/stdlib.h' l='466' type='void * malloc(size_t __size)'/>
+<doc f='include/stdlib.h' l='465'>/* Allocate SIZE bytes of memory.  */</doc>
+<use f='codebrowser/event.c' l='3442' u='c' c='event_mm_malloc_'/>
+<use f='codebrowser/event.c' l='3494' macro='1' u='c'/>
+<use f='codebrowser/sample/http-server.c' l='203' u='c' c='send_document_cb'/>
+<use f='codebrowser/test/bench_http.c' l='161' u='c' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='161' u='c' c='launch_request'/>
+<use f='codebrowser/test/regress.c' l='2971' u='c' c='dummy_malloc'/>
+<use f='codebrowser/test/regress_buffer.c' l='1002' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1007' macro='1' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1425' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='2048' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_dns.c' l='1803' u='c' c='cnt_malloc'/>
+<use f='codebrowser/test/regress_finalize.c' l='166' u='c' c='tfff_malloc'/>
+<use f='codebrowser/test/regress_http.c' l='398' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='897' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='1362' u='c' c='http_fill_backlog'/>
+<use f='codebrowser/test/regress_http.c' l='2902' u='c' c='http_uriencode_test'/>
+<use f='codebrowser/test/regress_http.c' l='4012' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4121' u='c' c='http_lingering_close_test_impl'/>
+<use f='codebrowser/test/regress_minheap.c' l='65' u='c' c='test_heap_randomized'/>
+<use f='codebrowser/test/regress_rpc.c' l='619' u='c' c='rpc_hook_pause'/>
+<use f='codebrowser/test/regress_util.c' l='485' macro='1' u='c'/>
+<use f='codebrowser/test/test-time.c' l='101' u='c' c='main'/>
+<use f='codebrowser/test/tinytest.c' l='483' macro='1' u='c'/>
+<use f='codebrowser/test/tinytest.c' l='484' u='c' c='tinytest_format_hex_'/>
+<use f='codebrowser/test/tinytest.c' l='485' macro='1' u='c'/>

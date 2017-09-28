@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/tag.h' l='92' type='void evtag_encode_int(struct evbuffer * evbuf, uint32_t number)'/>
+<def f='codebrowser/event_tagging.c' l='156' ll='162' type='void evtag_encode_int(struct evbuffer * evbuf, uint32_t number)'/>
+<use f='codebrowser/event_tagging.c' l='265' u='c' c='evtag_marshal'/>
+<use f='codebrowser/event_tagging.c' l='275' u='c' c='evtag_marshal_buffer'/>
+<use f='codebrowser/event_tagging.c' l='287' u='c' c='evtag_marshal_int'/>
+<use f='codebrowser/event_tagging.c' l='299' u='c' c='evtag_marshal_int64'/>
+<use f='codebrowser/test/regress.c' l='2383' u='c' c='evtag_int_test'/>

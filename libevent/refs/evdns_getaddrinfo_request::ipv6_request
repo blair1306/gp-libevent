@@ -1,0 +1,15 @@
+<dec f='codebrowser/evdns.c' l='4246' type='struct getaddrinfo_subrequest'/>
+<use f='codebrowser/evdns.c' l='4335' u='m' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4338' u='m' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4407' u='a' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4698' u='m' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4731' u='a' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4733' u='m' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4735' u='a' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4736' u='m' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4737' u='m' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4744' u='m' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4765' u='m' c='evdns_getaddrinfo_cancel'/>
+<use f='codebrowser/evdns.c' l='4766' u='m' c='evdns_getaddrinfo_cancel'/>
+<offset>768</offset>
+<doc f='codebrowser/evdns.c' l='4245'>/* The sub_request for an AAAA record (if any) */</doc>

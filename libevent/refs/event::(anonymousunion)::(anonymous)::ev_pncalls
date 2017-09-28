@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='147' type='short *'/>
+<offset>192</offset>
+<doc f='codebrowser/include/event2/event_struct.h' l='146'>/* Allows deletes in callback */</doc>
+<use f='codebrowser/event.c' l='1320' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='1326' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='1335' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2086' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2651' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2653' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2791' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2793' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2913' macro='1' u='w'/>

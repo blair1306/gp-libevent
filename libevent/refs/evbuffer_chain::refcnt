@@ -1,0 +1,8 @@
+<dec f='codebrowser/evbuffer-internal.h' l='205' type='int'/>
+<use f='codebrowser/buffer.c' l='189' u='w' c='evbuffer_chain_new'/>
+<use f='codebrowser/buffer.c' l='197' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='198' u='w' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='205' u='w' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='357' u='w' c='evbuffer_chain_incref'/>
+<offset>288</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='204'>/** number of references to this chain */</doc>

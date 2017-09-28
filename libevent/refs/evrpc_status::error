@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='50' type='int'/>
+<use f='codebrowser/evrpc.c' l='710' u='w' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='755' u='w' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='926' u='w' c='evrpc_reply_done_closure'/>
+<use f='codebrowser/evrpc.c' l='928' u='w' c='evrpc_reply_done_closure'/>
+<use f='codebrowser/evrpc.c' l='932' u='w' c='evrpc_reply_done_closure'/>
+<use f='codebrowser/evrpc.c' l='1097' u='w' c='evrpc_send_request_generic'/>
+<offset>0</offset>
+<use f='codebrowser/test/regress_rpc.c' l='340' u='r' c='GotKillCb'/>
+<use f='codebrowser/test/regress_rpc.c' l='371' u='r' c='GotKillCbTwo'/>
+<use f='codebrowser/test/regress_rpc.c' l='584' u='r' c='GotErrorCb'/>

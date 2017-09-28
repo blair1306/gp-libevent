@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='751' type='int a2i_ipadd(unsigned char * ipout, const char * ipasc)'/>

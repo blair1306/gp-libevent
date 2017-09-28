@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='303' type='int evdns_base_clear_nameservers_and_suspend(struct evdns_base * base)'/>
+<def f='codebrowser/evdns.c' l='2396' ll='2459' type='int evdns_base_clear_nameservers_and_suspend(struct evdns_base * base)'/>
+<use f='codebrowser/evdns.c' l='2464' u='c' c='evdns_clear_nameservers_and_suspend'/>
+<doc f='codebrowser/evdns.c' l='2395'>/* exported function */</doc>

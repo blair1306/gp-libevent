@@ -1,0 +1,23 @@
+<dec f='codebrowser/include/event2/dns.h' l='337' type='int evdns_base_nameserver_ip_add(struct evdns_base * base, const char * ip_as_string)'/>
+<def f='codebrowser/evdns.c' l='2613' ll='2633' type='int evdns_base_nameserver_ip_add(struct evdns_base * base, const char * ip_as_string)'/>
+<use f='codebrowser/evdns.c' l='2639' u='c' c='evdns_nameserver_ip_add'/>
+<use f='codebrowser/evdns.c' l='3320' u='c' c='evdns_resolv_set_defaults'/>
+<use f='codebrowser/evdns.c' l='3543' u='c' c='resolv_conf_parse_line'/>
+<use f='codebrowser/evdns.c' l='3651' u='c' c='evdns_base_resolv_conf_parse_impl'/>
+<doc f='codebrowser/evdns.c' l='2612'>/* exported function */</doc>
+<use f='codebrowser/sample/dns-example.c' l='218' u='c' c='main'/>
+<use f='codebrowser/test/regress_dns.c' l='553' u='c' c='dns_search_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='661' u='c' c='dns_search_cancel_test'/>
+<use f='codebrowser/test/regress_dns.c' l='738' u='c' c='dns_retry_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='839' u='c' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='849' u='c' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='918' u='c' c='dns_inflight_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='977' u='c' c='dns_disable_when_inactive_no_ns_test'/>
+<use f='codebrowser/test/regress_dns.c' l='1223' u='c' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1519' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='2043' u='c' c='dns_client_fail_requests_test'/>
+<use f='codebrowser/test/regress_dns.c' l='2088' u='c' c='dns_client_fail_requests_getaddrinfo_test'/>
+<use f='codebrowser/test/regress_http.c' l='1160' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1440' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3790' u='c' c='http_connection_retry_conn_address_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4333' u='c' c='http_ipv6_for_domain_test_impl'/>

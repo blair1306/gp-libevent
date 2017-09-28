@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/buffer.h' l='646' type='int evbuffer_add_file_segment(struct evbuffer * buf, struct evbuffer_file_segment * seg, int64_t offset, int64_t length)'/>
+<def f='codebrowser/buffer.c' l='3180' ll='3278' type='int evbuffer_add_file_segment(struct evbuffer * buf, struct evbuffer_file_segment * seg, int64_t offset, int64_t length)'/>
+<use f='codebrowser/buffer.c' l='3290' u='c' c='evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1063' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1159' u='c' c='test_evbuffer_file_segment_add_cleanup_cb'/>

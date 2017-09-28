@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/http.h' l='582' type='1'/>
+<doc f='codebrowser/include/event2/http.h' l='579'>/**
+   * EOF reached
+   */</doc>
+<use f='codebrowser/http.c' l='658' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='1439' u='r' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/http.c' l='1529' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2276' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/test/regress_http.c' l='730' u='r' c='http_large_delay_cb'/>

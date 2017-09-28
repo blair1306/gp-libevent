@@ -1,0 +1,5 @@
+<dec f='codebrowser/evbuffer-internal.h' l='247' type='void *'/>
+<use f='codebrowser/buffer.c' l='3064' u='w' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3158' u='r' c='evbuffer_file_segment_free'/>
+<offset>192</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='246'>/** If we&apos;re using mmap, this is the raw mapped memory. */</doc>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/evbuffer-internal.h' l='313' type='void evbuffer_decref_and_unlock_(struct evbuffer * buffer)'/>
+<use f='codebrowser/buffer.c' l='248' u='c' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='543' u='c' c='evbuffer_deferred_callback'/>
+<def f='codebrowser/buffer.c' l='559' ll='584' type='void evbuffer_decref_and_unlock_(struct evbuffer * buffer)'/>
+<use f='codebrowser/buffer.c' l='590' u='c' c='evbuffer_free'/>
+<doc f='codebrowser/evbuffer-internal.h' l='311'>/** As evbuffer_free, but requires that we hold a lock on the buffer, and
+ * releases the lock before freeing it and the buffer. */</doc>

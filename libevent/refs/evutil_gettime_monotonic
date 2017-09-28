@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='378' type='int evutil_gettime_monotonic(struct evutil_monotonic_timer * timer, struct timeval * tp)'/>
+<def f='codebrowser/evutil_time.c' l='243' ll='248' type='int evutil_gettime_monotonic(struct evutil_monotonic_timer * timer, struct timeval * tp)'/>
+<doc f='codebrowser/evutil_time.c' l='240'>/*
+   Query the current monotonic time
+ */</doc>

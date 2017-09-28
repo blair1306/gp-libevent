@@ -1,0 +1,12 @@
+<def f='codebrowser/event-internal.h' l='200' ll='206'/>
+<size>160</size>
+<doc f='codebrowser/event-internal.h' l='199'>/* Sets up an event for processing once */</doc>
+<mbr r='event_once::next_once' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/event-internal.h:201:2)'/>
+<mbr r='event_once::ev' o='128' t='struct event'/>
+<mbr r='event_once::cb' o='1152' t='void (*)(int, short, void *)'/>
+<mbr r='event_once::arg' o='1216' t='void *'/>
+<dec f='codebrowser/include/event2/event_compat.h' l='147' type='int event_once(int , short , void (*)(int, short, void *) , void * , const struct timeval * )'/>
+<use f='codebrowser/event.c' l='1797' u='c' c='event_loopexit'/>
+<def f='codebrowser/event.c' l='1999' ll='2005' type='int event_once(int fd, short events, void (*)(int, short, void *) callback, void * arg, const struct timeval * tv)'/>
+<doc f='codebrowser/event.c' l='1998'>/* not threadsafe, event scheduled once. */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='627' u='c' c='rpc_hook_pause'/>

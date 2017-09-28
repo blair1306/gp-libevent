@@ -1,0 +1,7 @@
+<dec f='codebrowser/bufferevent-internal.h' l='72'/>
+<doc f='codebrowser/bufferevent-internal.h' l='70'>/* On a socket bufferevent: can&apos;t do any operations while we&apos;re waiting for
+ * name lookup to finish. */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='468' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='469' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='520' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='521' u='c'/>

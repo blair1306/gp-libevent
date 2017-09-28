@@ -1,0 +1,15 @@
+<dec f='codebrowser/bufferevent-internal.h' l='177' type='short'/>
+<offset>3216</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='175'>/** Set to the events pending if we have deferred callbacks and
+	 * an events callback is pending. */</doc>
+<use f='codebrowser/bufferevent.c' l='140' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='144' u='w' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='155' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='156' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='158' u='w' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='176' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='182' u='w' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='197' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='200' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='202' u='w' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='274' u='w' c='bufferevent_run_eventcb_'/>

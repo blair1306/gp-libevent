@@ -1,0 +1,20 @@
+<dec f='codebrowser/event-internal.h' l='288' type='struct min_heap'/>
+<offset>2624</offset>
+<doc f='codebrowser/event-internal.h' l='287'>/** Priority queue of events with timeouts. */</doc>
+<use f='codebrowser/event.c' l='602' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='833' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='888' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='889' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='2582' u='a' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='2583' u='a' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='2706' u='a' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='3101' u='a' c='timeout_next'/>
+<use f='codebrowser/event.c' l='3137' u='a' c='timeout_process'/>
+<use f='codebrowser/event.c' l='3143' u='a' c='timeout_process'/>
+<use f='codebrowser/event.c' l='3234' u='a' c='event_queue_remove_timeout'/>
+<use f='codebrowser/event.c' l='3384' u='a' c='event_queue_insert_timeout'/>
+<use f='codebrowser/event.c' l='3643' u='m' c='event_base_foreach_event_nolock_'/>
+<use f='codebrowser/event.c' l='3644' u='m' c='event_base_foreach_event_nolock_'/>
+<use f='codebrowser/event.c' l='3894' u='m' c='event_base_assert_ok_nolock_'/>
+<use f='codebrowser/event.c' l='3897' u='m' c='event_base_assert_ok_nolock_'/>
+<use f='codebrowser/event.c' l='3898' u='m' c='event_base_assert_ok_nolock_'/>

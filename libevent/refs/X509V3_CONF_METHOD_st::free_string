@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509v3.h' l='129' type='void (*)(void *, char *)'/>
+<offset>128</offset>

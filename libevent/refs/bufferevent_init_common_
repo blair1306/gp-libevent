@@ -1,0 +1,6 @@
+<dec f='codebrowser/bufferevent-internal.h' l='325' type='int bufferevent_init_common_(struct bufferevent_private * , struct event_base * , const struct bufferevent_ops * , enum bufferevent_options options)'/>
+<def f='codebrowser/bufferevent.c' l='290' ll='364' type='int bufferevent_init_common_(struct bufferevent_private * bufev_private, struct event_base * base, const struct bufferevent_ops * ops, enum bufferevent_options options)'/>
+<use f='codebrowser/bufferevent_filter.c' l='192' u='c' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1358' u='c' c='bufferevent_openssl_new_impl'/>
+<use f='codebrowser/bufferevent_pair.c' l='99' u='c' c='bufferevent_pair_elt_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='357' u='c' c='bufferevent_socket_new'/>

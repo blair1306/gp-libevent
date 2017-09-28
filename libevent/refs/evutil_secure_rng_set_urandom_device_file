@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/util.h' l='844' type='int evutil_secure_rng_set_urandom_device_file(char * fname)'/>
+<def f='codebrowser/evutil_rand.c' l='157' ll='166' type='int evutil_secure_rng_set_urandom_device_file(char * fname)'/>

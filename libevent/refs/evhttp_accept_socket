@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='134' type='int evhttp_accept_socket(struct evhttp * http, int fd)'/>
+<def f='codebrowser/http.c' l='3527' ll='3535' type='int evhttp_accept_socket(struct evhttp * http, int fd)'/>

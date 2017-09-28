@@ -1,0 +1,6 @@
+<dec f='codebrowser/compat/sys/queue.h' l='189'/>
+<use f='codebrowser/buffer.c' l='3323' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' u='c'/>
+<use f='codebrowser/event.c' l='2059' u='c'/>
+<use f='codebrowser/evmap.c' l='339' u='c'/>
+<use f='codebrowser/evmap.c' l='462' u='c'/>

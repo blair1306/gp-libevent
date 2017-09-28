@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/listener.h' l='73'/>
+<doc f='codebrowser/include/event2/listener.h' l='71'>/** Flag: Indicates that the listener should be locked so it&apos;s safe to use
+ * from multiple threadcs at once. */</doc>
+<use f='codebrowser/listener.c' l='196' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='87' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='164' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='196' u='c'/>

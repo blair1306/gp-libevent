@@ -1,0 +1,8 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='233' type='int listen(int __fd, int __n)'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='230'>/* Prepare to accept connections on socket FD.
+   N connection requests will be queued before further requests are refused.
+   Returns 0 on success, -1 for errors.  */</doc>
+<use f='codebrowser/evutil.c' l='255' u='c' c='evutil_ersatz_socketpair_'/>
+<use f='codebrowser/http.c' l='3510' u='c' c='evhttp_bind_socket_with_handle'/>
+<use f='codebrowser/listener.c' l='173' u='c' c='evconnlistener_new'/>
+<use f='codebrowser/listener.c' l='176' u='c' c='evconnlistener_new'/>

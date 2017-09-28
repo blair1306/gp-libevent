@@ -1,0 +1,9 @@
+<dec f='codebrowser/evdns.c' l='340' type='struct timeval'/>
+<use f='codebrowser/evdns.c' l='517' u='a' c='nameserver_probe_failed'/>
+<use f='codebrowser/evdns.c' l='585' u='a' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='3514' u='a' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3945' u='m' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='3946' u='m' c='evdns_base_new'/>
+<offset>704</offset>
+<doc f='codebrowser/evdns.c' l='338'>/* The first time that a nameserver fails, how long do we wait before
+	 * probing to see if it has returned?  */</doc>

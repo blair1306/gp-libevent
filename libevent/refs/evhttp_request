@@ -1,0 +1,37 @@
+<def f='codebrowser/include/event2/http_struct.h' l='57' ll='145'/>
+<size>216</size>
+<doc f='codebrowser/include/event2/http_struct.h' l='52'>/**
+ * the request structure that a server receives.
+ * WARNING: expect this structure to change.  I will try to provide
+ * reasonable accessors.
+ */</doc>
+<mbr r='evhttp_request::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/http_struct.h:59:2)'/>
+<mbr r='evhttp_request::evcon' o='128' t='struct evhttp_connection *'/>
+<mbr r='evhttp_request::flags' o='192' t='int'/>
+<mbr r='evhttp_request::input_headers' o='256' t='struct evkeyvalq *'/>
+<mbr r='evhttp_request::output_headers' o='320' t='struct evkeyvalq *'/>
+<mbr r='evhttp_request::remote_host' o='384' t='char *'/>
+<mbr r='evhttp_request::remote_port' o='448' t='uint16_t'/>
+<mbr r='evhttp_request::host_cache' o='512' t='char *'/>
+<mbr r='evhttp_request::kind' o='576' t='enum evhttp_request_kind'/>
+<mbr r='evhttp_request::type' o='608' t='enum evhttp_cmd_type'/>
+<mbr r='evhttp_request::headers_size' o='640' t='size_t'/>
+<mbr r='evhttp_request::body_size' o='704' t='size_t'/>
+<mbr r='evhttp_request::uri' o='768' t='char *'/>
+<mbr r='evhttp_request::uri_elems' o='832' t='struct evhttp_uri *'/>
+<mbr r='evhttp_request::major' o='896' t='char'/>
+<mbr r='evhttp_request::minor' o='904' t='char'/>
+<mbr r='evhttp_request::response_code' o='928' t='int'/>
+<mbr r='evhttp_request::response_code_line' o='960' t='char *'/>
+<mbr r='evhttp_request::input_buffer' o='1024' t='struct evbuffer *'/>
+<mbr r='evhttp_request::ntoread' o='1088' t='int64_t'/>
+<mbr r='evhttp_request::chunked' o='1152' t='unsigned int'/>
+<mbr r='evhttp_request::userdone' o='1153' t='unsigned int'/>
+<mbr r='evhttp_request::output_buffer' o='1216' t='struct evbuffer *'/>
+<mbr r='evhttp_request::cb' o='1280' t='void (*)(struct evhttp_request *, void *)'/>
+<mbr r='evhttp_request::cb_arg' o='1344' t='void *'/>
+<mbr r='evhttp_request::chunk_cb' o='1408' t='void (*)(struct evhttp_request *, void *)'/>
+<mbr r='evhttp_request::header_cb' o='1472' t='int (*)(struct evhttp_request *, void *)'/>
+<mbr r='evhttp_request::error_cb' o='1536' t='void (*)(enum evhttp_request_error, void *)'/>
+<mbr r='evhttp_request::on_complete_cb' o='1600' t='void (*)(struct evhttp_request *, void *)'/>
+<mbr r='evhttp_request::on_complete_cb_arg' o='1664' t='void *'/>

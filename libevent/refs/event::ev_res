@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='152' type='short'/>
+<offset>848</offset>
+<doc f='codebrowser/include/event2/event_struct.h' l='152'>/* result passed to event callback */</doc>
+<use f='codebrowser/event.c' l='1327' u='r' c='event_signal_closure'/>
+<use f='codebrowser/event.c' l='1544' u='r' c='event_persist_closure'/>
+<use f='codebrowser/event.c' l='1552' u='r' c='event_persist_closure'/>
+<use f='codebrowser/event.c' l='1574' u='r' c='event_persist_closure'/>
+<use f='codebrowser/event.c' l='1613' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1614' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1615' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1647' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='2083' u='w' c='event_assign'/>
+<use f='codebrowser/event.c' l='2343' u='r' c='event_pending'/>
+<use f='codebrowser/event.c' l='2646' u='r' c='event_add_nolock_'/>
+<use f='codebrowser/event.c' l='2891' u='w' c='event_active_nolock_'/>
+<use f='codebrowser/event.c' l='2894' u='w' c='event_active_nolock_'/>
+<use f='codebrowser/event.c' l='2897' u='w' c='event_active_nolock_'/>
+<use f='codebrowser/event.c' l='2935' u='w' c='event_active_later_nolock_'/>
+<use f='codebrowser/event.c' l='2939' u='w' c='event_active_later_nolock_'/>
+<use f='codebrowser/event.c' l='3736' u='r' c='dump_active_event_fn'/>
+<use f='codebrowser/event.c' l='3737' u='r' c='dump_active_event_fn'/>
+<use f='codebrowser/event.c' l='3738' u='r' c='dump_active_event_fn'/>
+<use f='codebrowser/event.c' l='3739' u='r' c='dump_active_event_fn'/>
+<use f='codebrowser/event.c' l='3740' u='r' c='dump_active_event_fn'/>

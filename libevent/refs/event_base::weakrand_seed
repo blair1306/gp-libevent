@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='344' type='struct evutil_weakrand_state'/>
+<offset>5184</offset>
+<doc f='codebrowser/event-internal.h' l='342'>/** Saved seed for weak random number generator. Some backends use
+	 * this to produce fairness among sockets. Protected by th_base_lock. */</doc>
+<use f='codebrowser/poll.c' l='97' u='a' c='poll_init'/>
+<use f='codebrowser/poll.c' l='189' u='a' c='poll_dispatch'/>
+<use f='codebrowser/select.c' l='124' u='a' c='select_init'/>
+<use f='codebrowser/select.c' l='191' u='a' c='select_dispatch'/>

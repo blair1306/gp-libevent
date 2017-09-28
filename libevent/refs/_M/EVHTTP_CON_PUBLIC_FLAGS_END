@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='665'/>
+<doc f='codebrowser/include/event2/http.h' l='664'>/* Padding for public flags, @see EVHTTP_CON_* in http-internal.h */</doc>
+<use f='codebrowser/http.c' l='2433' u='c'/>

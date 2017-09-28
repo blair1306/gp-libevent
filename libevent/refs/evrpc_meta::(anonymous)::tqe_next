@@ -1,0 +1,8 @@
+<dec f='codebrowser/evrpc-internal.h' l='106' macro='1' type='struct evrpc_meta *'/>
+<use f='codebrowser/evrpc.c' l='990' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='990' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='990' macro='1' u='r'/>
+<use f='codebrowser/evrpc.c' l='1048' macro='1' u='w'/>
+<use f='codebrowser/evrpc.c' l='1048' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='1060' macro='1' u='r'/>
+<offset>0</offset>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/listener.h' l='76'/>
+<doc f='codebrowser/include/event2/listener.h' l='74'>/** Flag: Indicates that the listener should be created in disabled
+ * state. Use evconnlistener_enable() to enable it later. */</doc>
+<use f='codebrowser/listener.c' l='203' u='c'/>

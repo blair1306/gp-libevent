@@ -1,0 +1,42 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='75' type='const struct bufferevent_ops *'/>
+<offset>64</offset>
+<doc f='codebrowser/include/event2/bufferevent_struct.h' l='73'>/** Pointer to a table of function pointers to set up how this
+	    bufferevent behaves. */</doc>
+<use f='codebrowser/bufferevent.c' l='73' u='r' c='bufferevent_suspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='86' u='r' c='bufferevent_unsuspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='97' u='r' c='bufferevent_suspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='110' u='r' c='bufferevent_unsuspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='317' u='w' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='475' u='r' c='bufferevent_enable'/>
+<use f='codebrowser/bufferevent.c' l='500' u='r' c='bufferevent_set_timeouts'/>
+<use f='codebrowser/bufferevent.c' l='501' u='r' c='bufferevent_set_timeouts'/>
+<use f='codebrowser/bufferevent.c' l='543' u='r' c='bufferevent_disable_hard_'/>
+<use f='codebrowser/bufferevent.c' l='558' u='r' c='bufferevent_disable'/>
+<use f='codebrowser/bufferevent.c' l='650' u='r' c='bufferevent_flush'/>
+<use f='codebrowser/bufferevent.c' l='651' u='r' c='bufferevent_flush'/>
+<use f='codebrowser/bufferevent.c' l='699' u='r' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='700' u='r' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='737' u='r' c='bufferevent_finalize_cb_'/>
+<use f='codebrowser/bufferevent.c' l='738' u='r' c='bufferevent_finalize_cb_'/>
+<use f='codebrowser/bufferevent.c' l='762' u='r' c='bufferevent_finalize_cb_'/>
+<use f='codebrowser/bufferevent.c' l='852' u='r' c='bufferevent_setfd'/>
+<use f='codebrowser/bufferevent.c' l='853' u='r' c='bufferevent_setfd'/>
+<use f='codebrowser/bufferevent.c' l='865' u='r' c='bufferevent_getfd'/>
+<use f='codebrowser/bufferevent.c' l='866' u='r' c='bufferevent_getfd'/>
+<use f='codebrowser/bufferevent.c' l='891' u='r' c='bufferevent_cancel_all_'/>
+<use f='codebrowser/bufferevent.c' l='892' u='r' c='bufferevent_cancel_all_'/>
+<use f='codebrowser/bufferevent.c' l='913' u='r' c='bufferevent_get_underlying'/>
+<use f='codebrowser/bufferevent.c' l='914' u='r' c='bufferevent_get_underlying'/>
+<use f='codebrowser/bufferevent_filter.c' l='121' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_filter.c' l='125' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_filter.c' l='611' u='r' c='be_filter_ctrl'/>
+<use f='codebrowser/bufferevent_filter.c' l='612' u='r' c='be_filter_ctrl'/>
+<use f='codebrowser/bufferevent_filter.c' l='613' u='r' c='be_filter_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='357' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_openssl.c' l='361' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_pair.c' l='59' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_pair.c' l='62' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_sock.c' l='607' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_sock.c' l='632' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_sock.c' l='662' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_sock.c' l='685' macro='1' u='r'/>

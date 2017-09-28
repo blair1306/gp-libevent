@@ -1,0 +1,17 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='1179' type='char * __strsep_g(char ** __stringp, const char * __delim)'/>
+<use f='codebrowser/http.c' l='1656' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1656' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1659' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1659' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1697' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1697' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1700' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1700' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1703' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='1703' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='2086' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='2086' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='3237' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='3237' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='3240' macro='1' u='c'/>
+<use f='codebrowser/http.c' l='3240' macro='1' u='c'/>

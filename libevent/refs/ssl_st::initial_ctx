@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='1639' type='SSL_CTX *'/>
+<offset>4992</offset>
+<doc f='include/openssl/ssl.h' l='1639'>/* initial ctx, used to store sessions */</doc>

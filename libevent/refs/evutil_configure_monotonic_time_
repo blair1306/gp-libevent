@@ -1,0 +1,14 @@
+<dec f='codebrowser/time-internal.h' l='91' type='int evutil_configure_monotonic_time_(struct evutil_monotonic_timer * mt, int flags)'/>
+<use f='codebrowser/event.c' l='597' u='c' c='event_base_new_with_config'/>
+<use f='codebrowser/evutil_time.c' l='237' u='c' c='evutil_configure_monotonic_time'/>
+<def f='codebrowser/evutil_time.c' l='261' ll='300' type='int evutil_configure_monotonic_time_(struct evutil_monotonic_timer * base, int flags)'/>
+<doc f='codebrowser/evutil_time.c' l='252'>/* =====
+   The POSIX clock_gettime() interface provides a few ways to get at a
+   monotonic clock.  CLOCK_MONOTONIC is most widely supported.  Linux also
+   provides a CLOCK_MONOTONIC_COARSE with accuracy of about 1-4 msec.
+
+   On all platforms I&apos;m aware of, CLOCK_MONOTONIC really is monotonic.
+   Platforms don&apos;t agree about whether it should jump on a sleep/resume.
+ */</doc>
+<use f='codebrowser/test/regress_util.c' l='1317' u='c' c='test_evutil_monotonic_res'/>
+<use f='codebrowser/test/regress_util.c' l='1354' u='c' c='test_evutil_monotonic_prc'/>

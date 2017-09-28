@@ -1,0 +1,29 @@
+<dec f='codebrowser/evdns.c' l='158' type='struct request *'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='685' u='r' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='689' u='w' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='698' u='w' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='request_reissue'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='reply_handle'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='evdns_request_transmit_to'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='evdns_request_transmit'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='evdns_request_remove'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='evdns_request_insert'/>
+<use f='codebrowser/evdns.c' l='2814' u='w' c='request_new'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='request_submit'/>
+<use f='codebrowser/evdns.c' l='2850' u='r' c='evdns_cancel_request'/>
+<use f='codebrowser/evdns.c' l='2857' u='r' c='evdns_cancel_request'/>
+<use f='codebrowser/evdns.c' l='2866' u='r' c='evdns_cancel_request'/>
+<use f='codebrowser/evdns.c' l='132' u='r' c='evdns_cancel_request'/>
+<use f='codebrowser/evdns.c' l='2901' u='r' c='evdns_base_resolve_ipv4'/>
+<use f='codebrowser/evdns.c' l='2939' u='r' c='evdns_base_resolve_ipv6'/>
+<use f='codebrowser/evdns.c' l='2974' u='r' c='evdns_base_resolve_reverse'/>
+<use f='codebrowser/evdns.c' l='3014' u='r' c='evdns_base_resolve_reverse_ipv6'/>
+<use f='codebrowser/evdns.c' l='3212' u='r' c='search_request_new'/>
+<use f='codebrowser/evdns.c' l='3258' u='r' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3293' u='w' c='search_try_next'/>
+<use f='codebrowser/evdns.c' l='3301' u='r' c='search_request_finished'/>
+<use f='codebrowser/evdns.c' l='3301' u='r' c='search_request_finished'/>
+<use f='codebrowser/evdns.c' l='4726' u='r' c='evdns_getaddrinfo'/>
+<use f='codebrowser/evdns.c' l='4737' u='r' c='evdns_getaddrinfo'/>
+<offset>0</offset>

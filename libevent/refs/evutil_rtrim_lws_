@@ -1,0 +1,18 @@
+<dec f='codebrowser/util-internal.h' l='256' type='void evutil_rtrim_lws_(char * )'/>
+<def f='codebrowser/evutil.c' l='2350' ll='2369' type='void evutil_rtrim_lws_(char * str)'/>
+<use f='codebrowser/http.c' l='2034' u='c' c='evhttp_append_to_last_header'/>
+<use f='codebrowser/http.c' l='2091' u='c' c='evhttp_parse_headers_'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>
+<use f='codebrowser/test/regress_util.c' l='445' u='c' c='test_evutil_rtrim'/>

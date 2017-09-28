@@ -1,0 +1,20 @@
+<def f='codebrowser/http-internal.h' l='137' ll='175'/>
+<size>200</size>
+<mbr r='evhttp::next_vhost' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:139:2)'/>
+<mbr r='evhttp::sockets' o='128' t='struct boundq'/>
+<mbr r='evhttp::callbacks' o='256' t='struct httpcbq'/>
+<mbr r='evhttp::connections' o='384' t='struct evconq'/>
+<mbr r='evhttp::virtualhosts' o='512' t='struct vhostsq'/>
+<mbr r='evhttp::aliases' o='640' t='struct aliasq'/>
+<mbr r='evhttp::vhost_pattern' o='768' t='char *'/>
+<mbr r='evhttp::timeout' o='832' t='struct timeval'/>
+<mbr r='evhttp::default_max_headers_size' o='960' t='size_t'/>
+<mbr r='evhttp::default_max_body_size' o='1024' t='uint64_t'/>
+<mbr r='evhttp::flags' o='1088' t='int'/>
+<mbr r='evhttp::default_content_type' o='1152' t='const char *'/>
+<mbr r='evhttp::allowed_methods' o='1216' t='uint16_t'/>
+<mbr r='evhttp::gencb' o='1280' t='void (*)(struct evhttp_request *, void *)'/>
+<mbr r='evhttp::gencbarg' o='1344' t='void *'/>
+<mbr r='evhttp::bevcb' o='1408' t='struct bufferevent *(*)(struct event_base *, void *)'/>
+<mbr r='evhttp::bevcbarg' o='1472' t='void *'/>
+<mbr r='evhttp::base' o='1536' t='struct event_base *'/>

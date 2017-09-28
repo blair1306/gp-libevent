@@ -1,0 +1,8 @@
+<def f='codebrowser/ratelim-internal.h' l='38' ll='45'/>
+<size>24</size>
+<doc f='codebrowser/ratelim-internal.h' l='35'>/** A token bucket is an internal structure that tracks how many bytes we are
+ * currently willing to read or write on a given bufferevent or group of
+ * bufferevents */</doc>
+<mbr r='ev_token_bucket::read_limit' o='0' t='ssize_t'/>
+<mbr r='ev_token_bucket::write_limit' o='64' t='ssize_t'/>
+<mbr r='ev_token_bucket::last_updated' o='128' t='uint32_t'/>

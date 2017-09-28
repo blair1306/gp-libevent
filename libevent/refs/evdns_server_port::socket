@@ -1,0 +1,12 @@
+<dec f='codebrowser/evdns.c' l='245' type='int'/>
+<use f='codebrowser/evdns.c' l='1417' u='r' c='server_port_read'/>
+<use f='codebrowser/evdns.c' l='1439' u='r' c='server_port_flush'/>
+<use f='codebrowser/evdns.c' l='1459' u='r' c='server_port_flush'/>
+<use f='codebrowser/evdns.c' l='1718' u='w' c='evdns_add_server_port_with_base'/>
+<use f='codebrowser/evdns.c' l='1728' u='r' c='evdns_add_server_port_with_base'/>
+<use f='codebrowser/evdns.c' l='2001' u='r' c='evdns_server_request_respond'/>
+<use f='codebrowser/evdns.c' l='2019' u='r' c='evdns_server_request_respond'/>
+<use f='codebrowser/evdns.c' l='2125' u='r' c='server_port_free'/>
+<use f='codebrowser/evdns.c' l='2126' u='r' c='server_port_free'/>
+<use f='codebrowser/evdns.c' l='2127' u='w' c='server_port_free'/>
+<offset>0</offset>

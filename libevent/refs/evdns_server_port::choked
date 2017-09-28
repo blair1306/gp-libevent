@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='247' type='char'/>
+<use f='codebrowser/evdns.c' l='1520' u='w' c='server_port_ready_callback'/>
+<use f='codebrowser/evdns.c' l='1720' u='w' c='evdns_add_server_port_with_base'/>
+<use f='codebrowser/evdns.c' l='2016' u='w' c='evdns_server_request_respond'/>
+<offset>64</offset>
+<doc f='codebrowser/evdns.c' l='247'>/* Are we currently blocked from writing? */</doc>

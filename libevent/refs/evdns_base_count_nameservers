@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/dns.h' l='291' type='int evdns_base_count_nameservers(struct evdns_base * base)'/>
+<def f='codebrowser/evdns.c' l='2370' ll='2387' type='int evdns_base_count_nameservers(struct evdns_base * base)'/>
+<use f='codebrowser/evdns.c' l='2392' u='c' c='evdns_count_nameservers'/>
+<doc f='codebrowser/evdns.c' l='2369'>/* exported function */</doc>
+<use f='codebrowser/test/regress_dns.c' l='410' u='c' c='dns_server'/>

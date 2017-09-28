@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/http.h' l='661'/>
+<doc f='codebrowser/include/event2/http.h' l='658'>/* Try to read error, since server may already send and close
+ * connection, but if at that time we have some data to send then we
+ * can send get EPIPE and fail, while we can read that HTTP error. */</doc>
+<use f='codebrowser/http.c' l='1524' u='c'/>
+<use f='codebrowser/http.c' l='2431' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3999' u='c'/>

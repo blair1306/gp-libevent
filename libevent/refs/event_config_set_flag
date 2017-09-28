@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event.h' l='618' type='int event_config_set_flag(struct event_config * cfg, int flag)'/>
+<def f='codebrowser/event.c' l='1129' ll='1136' type='int event_config_set_flag(struct event_config * cfg, int flag)'/>
+<use f='codebrowser/test/regress.c' l='2526' u='c' c='test_methods'/>
+<use f='codebrowser/test/regress.c' l='2693' u='c' c='test_base_environ'/>
+<use f='codebrowser/test/regress.c' l='3236' u='c' c='test_gettimeofday_cached'/>

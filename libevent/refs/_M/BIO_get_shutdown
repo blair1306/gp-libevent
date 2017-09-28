@@ -1,0 +1,5 @@
+<dec f='codebrowser/openssl-compat.h' l='29'/>
+<use f='codebrowser/bufferevent_openssl.c' l='124' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='199' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='573' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='608' u='c'/>

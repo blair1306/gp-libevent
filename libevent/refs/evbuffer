@@ -1,0 +1,19 @@
+<def f='codebrowser/evbuffer-internal.h' l='80' ll='156'/>
+<size>136</size>
+<mbr r='evbuffer::first' o='0' t='struct evbuffer_chain *'/>
+<mbr r='evbuffer::last' o='64' t='struct evbuffer_chain *'/>
+<mbr r='evbuffer::last_with_datap' o='128' t='struct evbuffer_chain **'/>
+<mbr r='evbuffer::total_len' o='192' t='size_t'/>
+<mbr r='evbuffer::n_add_for_cb' o='256' t='size_t'/>
+<mbr r='evbuffer::n_del_for_cb' o='320' t='size_t'/>
+<mbr r='evbuffer::lock' o='384' t='void *'/>
+<mbr r='evbuffer::own_lock' o='448' t='unsigned int'/>
+<mbr r='evbuffer::freeze_start' o='449' t='unsigned int'/>
+<mbr r='evbuffer::freeze_end' o='450' t='unsigned int'/>
+<mbr r='evbuffer::deferred_cbs' o='451' t='unsigned int'/>
+<mbr r='evbuffer::flags' o='480' t='uint32_t'/>
+<mbr r='evbuffer::cb_queue' o='512' t='struct event_base *'/>
+<mbr r='evbuffer::refcnt' o='576' t='int'/>
+<mbr r='evbuffer::deferred' o='640' t='struct event_callback'/>
+<mbr r='evbuffer::callbacks' o='960' t='struct evbuffer_cb_queue'/>
+<mbr r='evbuffer::parent' o='1024' t='struct bufferevent *'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/test/regress.h' l='93'/>
+<use f='codebrowser/test/regress.c' l='3454' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1342' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1356' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1358' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1361' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1378' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1381' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1423' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1426' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='201' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='572' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='575' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='580' u='c'/>

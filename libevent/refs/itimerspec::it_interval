@@ -1,0 +1,4 @@
+<dec f='include/time.h' l='163' type='struct timespec'/>
+<offset>0</offset>
+<use f='codebrowser/epoll.c' l='424' u='m' c='epoll_dispatch'/>
+<use f='codebrowser/epoll.c' l='425' u='m' c='epoll_dispatch'/>

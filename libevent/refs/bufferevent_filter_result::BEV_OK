@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='672' type='0'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='671'>/** everything is okay */</doc>
+<use f='codebrowser/bufferevent_filter.c' l='164' u='r' c='be_null_filter'/>
+<use f='codebrowser/bufferevent_filter.c' l='314' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='326' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='328' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='346' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='359' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='384' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='387' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='400' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='498' u='r' c='bufferevent_input_filter'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='533' u='r' c='bufferevent_output_filter'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1274' u='r' c='bufferevent_filter_data_stuck_inputcb'/>
+<use f='codebrowser/test/regress_zlib.c' l='181' u='r' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='235' u='r' c='zlib_output_filter'/>

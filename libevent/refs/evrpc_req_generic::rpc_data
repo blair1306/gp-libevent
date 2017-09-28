@@ -1,0 +1,12 @@
+<dec f='codebrowser/evrpc-internal.h' l='160' type='struct evbuffer *'/>
+<use f='codebrowser/evrpc.c' l='300' u='w' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='394' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='395' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='418' u='w' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='424' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='433' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='488' u='r' c='evrpc_request_done_closure'/>
+<offset>320</offset>
+<doc f='codebrowser/evrpc-internal.h' l='157'>/*
+	 * Temporary data store for marshaled data
+	 */</doc>

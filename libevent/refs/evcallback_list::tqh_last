@@ -1,0 +1,17 @@
+<dec f='codebrowser/event-internal.h' l='197' macro='1' type='struct event_callback **'/>
+<offset>64</offset>
+<use f='codebrowser/event.c' l='609' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='1227' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='3198' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='3214' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='3343' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3343' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3343' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='3361' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3361' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3361' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='3395' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='3398' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3398' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3398' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='3925' macro='1' u='r'/>

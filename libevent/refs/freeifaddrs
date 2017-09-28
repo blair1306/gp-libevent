@@ -1,0 +1,3 @@
+<dec f='include/ifaddrs.h' l='69' type='void freeifaddrs(struct ifaddrs * __ifa)'/>
+<use f='codebrowser/evutil.c' l='666' u='c' c='evutil_check_ifaddrs'/>
+<doc f='include/ifaddrs.h' l='68'>/* Reclaim the storage allocated by a previous `getifaddrs&apos; call.  */</doc>

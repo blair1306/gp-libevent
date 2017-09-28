@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='598' type='GENERAL_NAME * a2i_GENERAL_NAME(GENERAL_NAME * out, const X509V3_EXT_METHOD * method, X509V3_CTX * ctx, int gen_type, char * value, int is_nc)'/>

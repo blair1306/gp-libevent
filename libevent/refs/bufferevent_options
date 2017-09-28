@@ -1,0 +1,2 @@
+<def f='codebrowser/include/event2/bufferevent.h' l='157' ll='174'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='156'>/** Options that can be specified when creating a bufferevent */</doc>

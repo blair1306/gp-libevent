@@ -1,0 +1,37 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='59' macro='1' type='struct evhttp_request **'/>
+<offset>64</offset>
+<use f='codebrowser/http.c' l='669' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='669' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='669' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='669' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='713' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='713' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='713' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='713' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='816' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='816' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='816' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='816' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1414' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='1414' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1414' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1414' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1415' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='1421' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='1421' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1421' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1421' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2629' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='2639' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='2639' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2639' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2639' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2674' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='2674' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2674' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2674' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2723' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='2723' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2723' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2723' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='4235' macro='1' u='w'/>

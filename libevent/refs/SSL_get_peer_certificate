@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2253' type='X509 * SSL_get_peer_certificate(const SSL * s)'/>
+<use f='codebrowser/test/regress_ssl.c' l='316' u='c' c='eventcb'/>

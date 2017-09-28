@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/event2/rpc.h' l='90'/>
+<doc f='codebrowser/include/event2/rpc.h' l='83'>/**
+   Assigns a value to the member in the message.
+
+   @param msg the message to which to assign a value
+   @param member the name of the member variable
+   @param value the value to assign
+*/</doc>
+<use f='codebrowser/test/regress_rpc.c' l='121' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='122' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='284' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='285' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='474' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='475' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='549' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='550' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='654' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='655' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='704' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='705' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='749' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='750' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='756' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='757' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='770' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='771' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='782' u='c'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/bufferevent-internal.h' l='341' type='void bufferevent_unsuspend_write_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<doc f='codebrowser/bufferevent-internal.h' l='339'>/** For internal use: clear the conditions &apos;what&apos; on bufev, and re-enable
+ * writing if there are no conditions left. */</doc>
+<def f='codebrowser/bufferevent.c' l='102' ll='112' type='void bufferevent_unsuspend_write_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='329' u='c' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='423' u='c' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='515' u='c' c='bev_group_unsuspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='515' u='c' c='bev_group_unsuspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='579' u='c' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='622' u='c' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='806' u='c' c='bufferevent_remove_from_rate_limit_group_internal_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1020' u='c' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_sock.c' l='468' u='c' c='bufferevent_connect_getaddrinfo_cb'/>

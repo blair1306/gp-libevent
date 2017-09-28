@@ -1,0 +1,22 @@
+<dec f='codebrowser/evsignal-internal.h' l='52' type='struct sigaction **'/>
+<offset>1152</offset>
+<use f='codebrowser/signal.c' l='192' u='r' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='193' u='r' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='195' u='w' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='231' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='231' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='237' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='238' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='241' u='w' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='245' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='245' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='246' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='258' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='260' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='261' u='r' c='evsig_set_handler_'/>
+<use f='codebrowser/signal.c' l='341' u='r' c='evsig_restore_handler_'/>
+<use f='codebrowser/signal.c' l='342' u='r' c='evsig_restore_handler_'/>
+<use f='codebrowser/signal.c' l='425' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='447' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='448' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='449' u='w' c='evsig_dealloc_'/>

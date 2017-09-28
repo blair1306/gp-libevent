@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/http.h' l='501' type='256'/>
+<use f='codebrowser/http.c' l='330' c='evhttp_method'/>
+<use f='codebrowser/http.c' l='1766' u='r' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='2157' c='evhttp_method_may_have_body'/>
+<use f='codebrowser/sample/http-server.c' l='127' c='dump_request_cb'/>
+<use f='codebrowser/test/regress_http.c' l='921' u='r' c='http_allowed_methods_test'/>

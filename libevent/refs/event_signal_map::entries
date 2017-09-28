@@ -1,0 +1,31 @@
+<dec f='codebrowser/event-internal.h' l='154' type='void **'/>
+<offset>0</offset>
+<doc f='codebrowser/event-internal.h' l='152'>/* An array of evmap_io * or of evmap_signal *; empty entries are
+	 * set to NULL. */</doc>
+<use f='codebrowser/evmap.c' l='213' u='r' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='221' u='w' c='evmap_make_space'/>
+<use f='codebrowser/evmap.c' l='231' u='w' c='evmap_signal_initmap_'/>
+<use f='codebrowser/evmap.c' l='237' u='r' c='evmap_signal_clear_'/>
+<use f='codebrowser/evmap.c' l='240' u='r' c='evmap_signal_clear_'/>
+<use f='codebrowser/evmap.c' l='241' u='r' c='evmap_signal_clear_'/>
+<use f='codebrowser/evmap.c' l='243' u='r' c='evmap_signal_clear_'/>
+<use f='codebrowser/evmap.c' l='244' u='w' c='evmap_signal_clear_'/>
+<use f='codebrowser/evmap.c' l='170' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='171' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='173' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='175' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='177' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='162' u='r' c='evmap_io_del_'/>
+<use f='codebrowser/evmap.c' l='162' u='r' c='evmap_io_active_'/>
+<use f='codebrowser/evmap.c' l='170' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='171' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='173' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='175' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='177' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='162' u='r' c='evmap_signal_del_'/>
+<use f='codebrowser/evmap.c' l='162' u='r' c='evmap_signal_active_'/>
+<use f='codebrowser/evmap.c' l='162' u='r' c='evmap_io_get_fdinfo_'/>
+<use f='codebrowser/evmap.c' l='549' u='r' c='evmap_io_foreach_fd'/>
+<use f='codebrowser/evmap.c' l='583' u='r' c='evmap_signal_foreach_signal'/>
+<use f='codebrowser/evmap.c' l='162' u='r' c='event_change_get_fdinfo'/>
+<use f='codebrowser/evmap.c' l='162' u='r' c='event_change_get_fdinfo'/>

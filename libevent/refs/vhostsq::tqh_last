@@ -1,0 +1,8 @@
+<dec f='codebrowser/http-internal.h' l='149' macro='1' type='struct evhttp **'/>
+<offset>64</offset>
+<use f='codebrowser/http.c' l='3631' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='3700' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='3730' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='3730' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='3730' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='3741' macro='1' u='w'/>

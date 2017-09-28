@@ -1,0 +1,11 @@
+<dec f='codebrowser/evrpc-internal.h' l='79' type='struct evrpc_list'/>
+<use f='codebrowser/evrpc.c' l='81' u='a' c='evrpc_init'/>
+<use f='codebrowser/evrpc.c' l='81' u='a' c='evrpc_init'/>
+<use f='codebrowser/evrpc.c' l='81' u='a' c='evrpc_init'/>
+<use f='codebrowser/evrpc.c' l='100' u='a' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='237' u='a' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='237' u='a' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='237' u='a' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='257' u='a' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='a' c='evrpc_unregister_rpc'/>
+<offset>448</offset>

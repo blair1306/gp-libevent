@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='430' type='void bufferevent_init_generic_timeout_cbs_(struct bufferevent * bev)'/>
+<def f='codebrowser/bufferevent.c' l='938' ll='945' type='void bufferevent_init_generic_timeout_cbs_(struct bufferevent * bev)'/>
+<use f='codebrowser/bufferevent_filter.c' l='219' u='c' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1376' u='c' c='bufferevent_openssl_new_impl'/>
+<use f='codebrowser/bufferevent_pair.c' l='109' u='c' c='bufferevent_pair_elt_new'/>

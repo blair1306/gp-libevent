@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/util.h' l='569' type='int64_t evutil_strtoll(const char * s, char ** endptr, int base)'/>
+<def f='codebrowser/evutil.c' l='447' ll='505' macro='1' type='int64_t evutil_strtoll(const char * s, char ** endptr, int base)'/>
+<use f='codebrowser/http.c' l='921' u='c' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='2135' u='c' c='evhttp_get_body_length'/>
+<use f='codebrowser/test/regress_util.c' l='371' u='c' c='test_evutil_strtoll'/>
+<use f='codebrowser/test/regress_util.c' l='373' u='c' c='test_evutil_strtoll'/>
+<use f='codebrowser/test/regress_util.c' l='376' u='c' c='test_evutil_strtoll'/>
+<use f='codebrowser/test/regress_util.c' l='378' u='c' c='test_evutil_strtoll'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/regress_ssl.c' l='224' type='64'/>
+<use f='codebrowser/test/regress_ssl.c' l='281' u='r' c='respond_to_number'/>
+<use f='codebrowser/test/regress_ssl.c' l='327' u='r' c='eventcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='386' u='r' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='707' u='r' c='regress_bufferevent_openssl_connect'/>

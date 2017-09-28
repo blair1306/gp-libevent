@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/rpc.h' l='444' type='void evrpc_pool_remove_connection(struct evrpc_pool * pool, struct evhttp_connection * evcon)'/>
+<def f='codebrowser/evrpc.c' l='611' ll='616' type='void evrpc_pool_remove_connection(struct evrpc_pool * pool, struct evhttp_connection * connection)'/>

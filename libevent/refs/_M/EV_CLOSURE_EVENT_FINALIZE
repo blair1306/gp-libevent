@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='79'/>
+<doc f='codebrowser/event-internal.h' l='78'>/** A finalizing event. Uses the evcb_evfinalize callback. */</doc>
+<use f='codebrowser/event.c' l='755' u='c'/>
+<use f='codebrowser/event.c' l='1658' u='c'/>
+<use f='codebrowser/event.c' l='2203' u='c'/>

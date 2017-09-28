@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='111' type='struct evbuffer *'/>
+<use f='codebrowser/evrpc.c' l='669' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='684' u='r' c='evrpc_schedule_request'/>
+<offset>1216</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='111'>/* outgoing post or data */</doc>
+<use f='codebrowser/http.c' l='450' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='549' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='616' u='r' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='621' u='r' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='2294' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2801' u='r' c='evhttp_send'/>
+<use f='codebrowser/http.c' l='3956' u='w' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='4000' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4001' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4154' u='r' c='evhttp_request_get_output_buffer'/>
+<use f='codebrowser/test/regress_rpc.c' l='208' u='r' c='rpc_basic_test'/>
+<use f='codebrowser/test/regress_rpc.c' l='286' u='r' c='rpc_basic_message'/>

@@ -1,0 +1,9 @@
+<def f='include/openssl/x509v3.h' l='458' ll='466'/>
+<size>48</size>
+<mbr r='x509_purpose_st::purpose' o='0' t='int'/>
+<mbr r='x509_purpose_st::trust' o='32' t='int'/>
+<mbr r='x509_purpose_st::flags' o='64' t='int'/>
+<mbr r='x509_purpose_st::check_purpose' o='128' t='int (*)(const struct x509_purpose_st *, const X509 *, int)'/>
+<mbr r='x509_purpose_st::name' o='192' t='char *'/>
+<mbr r='x509_purpose_st::sname' o='256' t='char *'/>
+<mbr r='x509_purpose_st::usr_data' o='320' t='void *'/>

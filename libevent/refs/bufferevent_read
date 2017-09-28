@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='414' type='size_t bufferevent_read(struct bufferevent * bufev, void * data, size_t size)'/>
+<def f='codebrowser/bufferevent.c' l='447' ll='451' type='size_t bufferevent_read(struct bufferevent * bufev, void * data, size_t size)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='684' u='c' c='reader_eventcb'/>
+<use f='codebrowser/test/test-fdleak.c' l='86' u='c' c='server_read_cb'/>
+<use f='codebrowser/test/test-fdleak.c' l='173' u='c' c='client_read_cb'/>

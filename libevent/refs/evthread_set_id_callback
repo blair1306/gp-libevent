@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/thread.h' l='192' type='void evthread_set_id_callback(unsigned long (*)(void) id_fn)'/>
+<def f='codebrowser/evthread.c' l='71' ll='75' type='void evthread_set_id_callback(unsigned long (*)(void) id_fn)'/>
+<use f='codebrowser/evthread_pthread.c' l='189' u='c' c='evthread_use_pthreads'/>

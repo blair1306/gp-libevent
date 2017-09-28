@@ -1,0 +1,9 @@
+<dec f='codebrowser/test/tinytest.h' l='64' type='const char *'/>
+<offset>0</offset>
+<doc f='codebrowser/test/tinytest.h' l='64'>/**&lt; Prefix to prepend to testnames. */</doc>
+<use f='codebrowser/test/tinytest.c' l='231' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='238' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='241' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='286' u='r' c='tinytest_set_flag_'/>
+<use f='codebrowser/test/tinytest.c' l='290' u='r' c='tinytest_set_flag_'/>
+<use f='codebrowser/test/tinytest.c' l='431' u='r' c='tinytest_main'/>

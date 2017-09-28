@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='400' type='int bufferevent_write_buffer(struct bufferevent * bufev, struct evbuffer * buf)'/>
+<def f='codebrowser/bufferevent.c' l='438' ll='445' type='int bufferevent_write_buffer(struct bufferevent * bufev, struct evbuffer * buf)'/>

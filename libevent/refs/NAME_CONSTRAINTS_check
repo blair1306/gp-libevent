@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='580' type='int NAME_CONSTRAINTS_check(X509 * x, NAME_CONSTRAINTS * nc)'/>

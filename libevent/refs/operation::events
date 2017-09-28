@@ -1,0 +1,3 @@
+<dec f='codebrowser/epolltable-internal.h' l='137' type='int'/>
+<use f='codebrowser/epoll.c' l='277' u='r' c='epoll_apply_one_change'/>
+<offset>0</offset>

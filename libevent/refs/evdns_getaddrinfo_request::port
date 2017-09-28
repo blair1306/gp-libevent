@@ -1,0 +1,5 @@
+<dec f='codebrowser/evdns.c' l='4242' type='uint16_t'/>
+<use f='codebrowser/evdns.c' l='4505' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4514' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4696' u='w' c='evdns_getaddrinfo'/>
+<offset>576</offset>

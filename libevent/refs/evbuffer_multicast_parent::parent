@@ -1,0 +1,6 @@
+<dec f='codebrowser/evbuffer-internal.h' l='274' type='struct evbuffer_chain *'/>
+<use f='codebrowser/buffer.c' l='245' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='247' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='931' u='w' c='APPEND_CHAIN_MULTICAST'/>
+<offset>64</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='273'>/** multicast parent for this chain */</doc>

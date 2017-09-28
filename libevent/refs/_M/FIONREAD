@@ -1,0 +1,4 @@
+<dec f='include/asm-generic/ioctls.h' l='45'/>
+<use f='codebrowser/buffer.c' l='2252' u='a'/>
+<use f='codebrowser/buffer.c' l='2258' u='a'/>
+<use f='codebrowser/buffer.c' l='2260' u='c'/>

@@ -1,0 +1,11 @@
+<dec f='include/stdlib.h' l='480' type='void * realloc(void * __ptr, size_t __size)'/>
+<doc f='include/stdlib.h' l='477'>/* __attribute_malloc__ is not used, because if realloc returns
+   the same pointer that was passed to it, aliasing needs to be allowed
+   between objects pointed by the old and new pointers.  */</doc>
+<use f='codebrowser/event.c' l='3508' u='c' c='event_mm_realloc_'/>
+<use f='codebrowser/test/regress.c' l='2984' u='c' c='dummy_realloc'/>
+<use f='codebrowser/test/regress_buffer.c' l='1419' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1425' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='245' u='c' c='trace_lock_alloc'/>
+<use f='codebrowser/test/regress_dns.c' l='1813' u='c' c='cnt_realloc'/>
+<use f='codebrowser/test/regress_finalize.c' l='184' u='c' c='tfff_realloc'/>

@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/bits/stat.h' l='74' type='__off_t'/>
+<use f='codebrowser/buffer.c' l='2979' u='r' c='evbuffer_file_segment_new'/>
+<offset>384</offset>
+<doc f='include/x86_64-linux-gnu/bits/stat.h' l='74'>/* Size of file, in bytes.  */</doc>
+<use f='codebrowser/evutil.c' l='162' u='r' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='163' u='r' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='167' u='r' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='178' u='r' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='180' u='r' c='evutil_read_file_'/>
+<use f='codebrowser/evutil.c' l='182' u='r' c='evutil_read_file_'/>
+<use f='codebrowser/sample/http-server.c' l='303' u='r' c='send_document_cb'/>

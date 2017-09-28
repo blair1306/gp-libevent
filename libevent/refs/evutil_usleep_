@@ -1,0 +1,14 @@
+<dec f='codebrowser/time-internal.h' l='58' type='void evutil_usleep_(const struct timeval * tv)'/>
+<def f='codebrowser/evutil_time.c' l='122' ll='146' type='void evutil_usleep_(const struct timeval * tv)'/>
+<doc f='codebrowser/evutil_time.c' l='118'>/*
+  Replacement for usleep on platforms that don&apos;t have one.  Not guaranteed to
+  be any more finegrained than 1 msec.
+ */</doc>
+<use f='codebrowser/test/regress.c' l='633' u='c' c='test_persistent_timeout_jump'/>
+<use f='codebrowser/test/regress.c' l='1001' u='c' c='del_wait_cb'/>
+<use f='codebrowser/test/regress.c' l='1024' u='c' c='test_del_wait'/>
+<use f='codebrowser/test/regress.c' l='3215' u='c' c='cache_time_cb'/>
+<use f='codebrowser/test/regress_thread.c' l='398' u='c' c='SLEEP_MS'/>
+<use f='codebrowser/test/regress_util.c' l='1257' u='c' c='test_evutil_usleep'/>
+<use f='codebrowser/test/regress_util.c' l='1259' u='c' c='test_evutil_usleep'/>
+<use f='codebrowser/test/regress_util.c' l='1321' u='c' c='test_evutil_monotonic_res'/>

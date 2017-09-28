@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='101' type='bufferevent_event_cb'/>
+<offset>2688</offset>
+<doc f='codebrowser/include/event2/bufferevent_struct.h' l='99'>/* This should be called &apos;eventcb&apos;, but renaming it would break
+	 * backward compatibility */</doc>
+<use f='codebrowser/bufferevent.c' l='141' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='145' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='155' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='161' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='177' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='180' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='197' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='198' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='271' u='r' c='bufferevent_run_eventcb_'/>
+<use f='codebrowser/bufferevent.c' l='278' u='r' c='bufferevent_run_eventcb_'/>
+<use f='codebrowser/bufferevent.c' l='375' u='w' c='bufferevent_setcb'/>
+<use f='codebrowser/bufferevent.c' l='394' u='r' c='bufferevent_getcb'/>
+<use f='codebrowser/bufferevent_filter.c' l='248' u='r' c='be_filter_unlink'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1215' u='r' c='be_openssl_unlink'/>

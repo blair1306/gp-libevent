@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/event_compat.h' l='119' type='int event_loopexit(const struct timeval * )'/>
+<def f='codebrowser/event.c' l='1794' ll='1799' type='int event_loopexit(const struct timeval * tv)'/>
+<use f='codebrowser/test/regress.c' l='1316' u='c' c='signal_cb_swp'/>
+<use f='codebrowser/test/regress.c' l='1330' u='c' c='timeout_cb_swp'/>
+<use f='codebrowser/test/regress.c' l='1976' u='c' c='test_loopexit'/>
+<use f='codebrowser/test/regress.c' l='2152' u='c' c='test_priorities_cb'/>
+<use f='codebrowser/test/regress.c' l='2355' u='c' c='test_want_only_once'/>
+<use f='codebrowser/test/regress_dns.c' l='145' u='c' c='dns_gethostbyname_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='364' u='c' c='dns_server_gethostbyname_cb'/>
+<use f='codebrowser/test/regress_rpc.c' l='177' u='c' c='rpc_postrequest_failure'/>
+<use f='codebrowser/test/regress_rpc.c' l='250' u='c' c='rpc_postrequest_done'/>
+<use f='codebrowser/test/regress_rpc.c' l='361' u='c' c='GotKillCb'/>
+<use f='codebrowser/test/regress_rpc.c' l='393' u='c' c='GotKillCbTwo'/>
+<use f='codebrowser/test/regress_rpc.c' l='594' u='c' c='GotErrorCb'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/keyvalq_struct.h' l='49' type='struct evkeyval *'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='609' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1856' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1869' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1871' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1889' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='3212' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='3212' macro='1' u='a'/>
+<use f='codebrowser/http.c' l='3942' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='3942' macro='1' u='a'/>
+<use f='codebrowser/http.c' l='3949' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='3949' macro='1' u='a'/>
+<use f='codebrowser/sample/http-server.c' l='135' u='r' c='dump_request_cb'/>
+<use f='codebrowser/test/regress_http.c' l='2361' macro='1' u='w'/>
+<use f='codebrowser/test/regress_http.c' l='2361' macro='1' u='a'/>
+<use f='codebrowser/test/regress_http.c' l='2390' macro='1' u='w'/>
+<use f='codebrowser/test/regress_http.c' l='2390' macro='1' u='a'/>

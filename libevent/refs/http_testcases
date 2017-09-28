@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress.h' l='45' type='struct testcase_t []'/>
+<def f='codebrowser/test/regress_http.c' l='4559' ll='4652' type='struct testcase_t [77]'/>
+<use f='codebrowser/test/regress_main.c' l='377'/>
+<use f='codebrowser/test/regress_main.c' l='377'/>
+<use f='codebrowser/test/regress_main.c' l='377'/>
+<use f='codebrowser/test/regress_main.c' l='377'/>

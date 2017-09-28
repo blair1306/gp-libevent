@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='478' type='void event_disable_debug_mode()'/>
+<doc f='codebrowser/event-internal.h' l='473'>/* Cleanup function to reset debug mode during shutdown.
+ *
+ * Calling this function doesn&apos;t mean it&apos;ll be possible to re-enable
+ * debug mode if any events were added.
+ */</doc>
+<def f='codebrowser/event.c' l='546' ll='563' type='void event_disable_debug_mode()'/>
+<use f='codebrowser/event.c' l='3855' u='c' c='libevent_global_shutdown'/>

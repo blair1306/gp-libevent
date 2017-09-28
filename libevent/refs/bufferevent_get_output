@@ -1,0 +1,36 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='452' type='struct evbuffer * bufferevent_get_output(struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent.c' l='407' ll='411' type='struct evbuffer * bufferevent_get_output(struct bufferevent * bufev)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='171' u='c' c='bio_bufferevent_write'/>
+<use f='codebrowser/bufferevent_openssl.c' l='208' u='c' c='bio_bufferevent_ctrl'/>
+<use f='codebrowser/http.c' l='393' u='c' c='evhttp_send_continue'/>
+<use f='codebrowser/http.c' l='441' u='c' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='523' u='c' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='597' u='c' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='1181' u='c' c='evhttp_write_connectioncb'/>
+<use f='codebrowser/http.c' l='1340' u='c' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1445' u='c' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/http.c' l='2293' u='c' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2851' u='c' c='evhttp_send_reply_chunk_with_cb'/>
+<use f='codebrowser/http.c' l='2884' u='c' c='evhttp_send_reply_end'/>
+<use f='codebrowser/sample/hello-world.c' l='111' u='c' c='conn_writecb'/>
+<use f='codebrowser/sample/le-proxy.c' l='65' u='c' c='readcb'/>
+<use f='codebrowser/sample/le-proxy.c' l='96' u='c' c='close_on_finished_writecb'/>
+<use f='codebrowser/sample/le-proxy.c' l='130' u='c' c='eventcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='170' u='c' c='launch_request'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='606' u='c' c='sender_writecb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1005' u='c' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_http.c' l='283' u='c' c='http_writecb'/>
+<use f='codebrowser/test/regress_http.c' l='1474' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1547' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3029' u='c' c='http_incomplete_writecb'/>
+<use f='codebrowser/test/regress_http.c' l='3214' u='c' c='http_chunked_writecb'/>
+<use f='codebrowser/test/regress_ssl.c' l='285' u='c' c='respond_to_number'/>
+<use f='codebrowser/test/regress_ssl.c' l='295' u='c' c='done_writing_cb'/>
+<use f='codebrowser/test/regress_ssl.c' l='328' u='c' c='eventcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='473' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='497' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='725' u='c' c='regress_bufferevent_openssl_connect'/>
+<use f='codebrowser/test/regress_zlib.c' l='265' u='c' c='writecb'/>
+<use f='codebrowser/test/test-ratelim.c' l='115' u='c' c='loud_writecb'/>
+<use f='codebrowser/test/test-ratelim.c' l='149' u='c' c='echo_readcb'/>
+<use f='codebrowser/test/test-ratelim.c' l='159' u='c' c='echo_writecb'/>

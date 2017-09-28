@@ -1,0 +1,9 @@
+read_all|read_all
+regress_fork|regress_fork
+regress_make_tmpfile|regress_make_tmpfile
+regress_clean_dnsserver|regress_clean_dnsserver
+regress_dns_server_cb|regress_dns_server_cb
+regress_dnsserver|regress_dnsserver
+regress_get_dnsserver|regress_get_dnsserver
+regress_get_listener_addr|regress_get_listener_addr
+regress_get_socket_port|regress_get_socket_port

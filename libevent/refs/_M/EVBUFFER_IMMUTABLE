@@ -1,0 +1,10 @@
+<dec f='codebrowser/evbuffer-internal.h' l='192'/>
+<use f='codebrowser/buffer.c' l='932' u='c'/>
+<use f='codebrowser/buffer.c' l='936' u='c'/>
+<use f='codebrowser/buffer.c' l='1755' u='c'/>
+<use f='codebrowser/buffer.c' l='1844' u='c'/>
+<use f='codebrowser/buffer.c' l='1905' u='c'/>
+<use f='codebrowser/buffer.c' l='1947' u='c'/>
+<use f='codebrowser/buffer.c' l='2049' u='c'/>
+<use f='codebrowser/buffer.c' l='2919' u='c'/>
+<use f='codebrowser/buffer.c' l='3222' u='c'/>

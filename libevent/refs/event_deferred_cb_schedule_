@@ -1,0 +1,9 @@
+<dec f='codebrowser/defer-internal.h' l='66' type='int event_deferred_cb_schedule_(struct event_base * , struct event_callback * )'/>
+<use f='codebrowser/buffer.c' l='521' u='c' c='evbuffer_invoke_callbacks_'/>
+<use f='codebrowser/bufferevent.c' l='213' u='c' c='bufferevent_run_readcb_'/>
+<use f='codebrowser/bufferevent.c' l='213' u='c' c='bufferevent_run_writecb_'/>
+<use f='codebrowser/bufferevent.c' l='213' u='c' c='bufferevent_run_eventcb_'/>
+<use f='codebrowser/evdns.c' l='861' u='c' c='reply_schedule_callback'/>
+<def f='codebrowser/event.c' l='3073' ll='3090' type='int event_deferred_cb_schedule_(struct event_base * base, struct event_callback * cb)'/>
+<use f='codebrowser/http.c' l='2703' u='c' c='evhttp_start_read_'/>
+<use f='codebrowser/test/regress_thread.c' l='428' u='c' c='load_deferred_queue'/>

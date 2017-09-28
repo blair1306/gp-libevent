@@ -1,0 +1,6 @@
+<dec f='include/openssl/ssl.h' l='2161' type='void SSL_set_bio(SSL * s, BIO * rbio, BIO * wbio)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1304' u='c' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1309' u='c' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1420' u='c' c='bufferevent_openssl_filter_new'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1458' u='c' c='bufferevent_openssl_socket_new'/>
+<use f='codebrowser/test/regress_ssl.c' l='723' u='c' c='regress_bufferevent_openssl_connect'/>

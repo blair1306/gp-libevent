@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='542' type='void evdns_set_log_fn(evdns_debug_log_fn_type fn)'/>
+<def f='codebrowser/evdns.c' l='434' ll='438' type='void evdns_set_log_fn(evdns_debug_log_fn_type fn)'/>
+<use f='codebrowser/sample/dns-example.c' l='190' u='c' c='main'/>
+<use f='codebrowser/test/regress_main.c' l='247' u='c' c='basic_test_setup'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/event-internal.h' l='244' type='int'/>
+<offset>1856</offset>
+<doc f='codebrowser/event-internal.h' l='243'>/** Set if we should start a new instance of the loop immediately. */</doc>
+<use f='codebrowser/event.c' l='1705' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1841' u='w' c='event_base_loopcontinue'/>
+<use f='codebrowser/event.c' l='1915' u='w' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='2902' u='w' c='event_active_nolock_'/>

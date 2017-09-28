@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='354' macro='1' type='int i2d_PROXY_CERT_INFO_EXTENSION(PROXY_CERT_INFO_EXTENSION * a, unsigned char ** out)'/>

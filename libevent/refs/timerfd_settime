@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/sys/timerfd.h' l='43' type='int timerfd_settime(int __ufd, int __flags, const struct itimerspec * __utmr, struct itimerspec * __otmr)'/>
+<use f='codebrowser/epoll.c' l='443' u='c' c='epoll_dispatch'/>
+<doc f='include/x86_64-linux-gnu/sys/timerfd.h' l='40'>/* Set next expiration time of interval timer source UFD to UTMR.  If
+   FLAGS has the TFD_TIMER_ABSTIME flag set the timeout value is
+   absolute.  Optionally return the old expiration time in OTMR.  */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='663'/>
+<doc f='codebrowser/include/event2/http.h' l='662'>/* @see EVHTTP_SERVER_LINGERING_CLOSE */</doc>
+<use f='codebrowser/http.c' l='1023' u='c'/>
+<use f='codebrowser/http.c' l='4196' u='c'/>

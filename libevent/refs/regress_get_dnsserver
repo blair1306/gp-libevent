@@ -1,0 +1,12 @@
+<dec f='codebrowser/test/regress_testutils.h' l='41' type='struct evdns_server_port * regress_get_dnsserver(struct event_base * base, uint16_t * portnum, int * psock, evdns_request_callback_fn_type cb, void * arg)'/>
+<use f='codebrowser/test/regress_dns.c' l='655' u='c' c='dns_search_cancel_test'/>
+<use f='codebrowser/test/regress_dns.c' l='732' u='c' c='dns_retry_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='829' u='c' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='832' u='c' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='908' u='c' c='dns_inflight_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='1215' u='c' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1513' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='2036' u='c' c='dns_client_fail_requests_test'/>
+<use f='codebrowser/test/regress_dns.c' l='2081' u='c' c='dns_client_fail_requests_getaddrinfo_test'/>
+<def f='codebrowser/test/regress_testutils.c' l='92' ll='127' type='struct evdns_server_port * regress_get_dnsserver(struct event_base * base, uint16_t * portnum, int * psock, evdns_request_callback_fn_type cb, void * arg)'/>
+<use f='codebrowser/test/regress_testutils.c' l='220' u='c' c='regress_dnsserver'/>

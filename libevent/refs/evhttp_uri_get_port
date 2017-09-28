@@ -1,0 +1,29 @@
+<dec f='codebrowser/include/event2/http.h' l='1062' type='int evhttp_uri_get_port(const struct evhttp_uri * uri)'/>
+<def f='codebrowser/http.c' l='4922' ll='4926' type='int evhttp_uri_get_port(const struct evhttp_uri * uri)'/>
+<use f='codebrowser/sample/http-connect.c' l='81' u='c' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='91' u='c' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='103' u='c' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='111' u='c' c='main'/>
+<use f='codebrowser/sample/https-client.c' l='297' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='2551' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2605' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2616' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2627' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2638' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2649' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2660' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2671' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2682' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2693' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2704' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2715' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2726' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2735' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2746' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2757' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2768' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2780' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2792' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2804' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2816' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2828' u='c' c='http_parse_uri_test'/>

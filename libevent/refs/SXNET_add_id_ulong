@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='512' type='int SXNET_add_id_ulong(SXNET ** psx, unsigned long lzone, char * user, int userlen)'/>

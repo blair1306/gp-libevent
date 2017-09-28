@@ -1,0 +1,6 @@
+<dec f='codebrowser/evmap-internal.h' l='96' type='int evmap_reinit_(struct event_base * base)'/>
+<doc f='codebrowser/evmap-internal.h' l='93'>/* Helper for event_reinit(): Tell the backend to re-add every fd and signal
+ * for which we have a pending event.
+ */</doc>
+<use f='codebrowser/event.c' l='1025' u='c' c='event_reinit'/>
+<def f='codebrowser/evmap.c' l='641' ll='653' type='int evmap_reinit_(struct event_base * base)'/>

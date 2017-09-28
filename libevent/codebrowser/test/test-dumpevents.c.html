@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>test-dumpevents.c source code [codebrowser/test/test-dumpevents.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="main "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/test/test-dumpevents.c'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>test</a>/<a href='test-dumpevents.c.html'>test-dumpevents.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2012 Niels Provos and Nick Mathewson</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="5">5</th><td><i> * modification, are permitted provided that the following conditions</i></td></tr>
+<tr><th id="6">6</th><td><i> * are met:</i></td></tr>
+<tr><th id="7">7</th><td><i> * 1. Redistributions of source code must retain the above copyright</i></td></tr>
+<tr><th id="8">8</th><td><i> *    notice, this list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="9">9</th><td><i> * 2. Redistributions in binary form must reproduce the above copyright</i></td></tr>
+<tr><th id="10">10</th><td><i> *    notice, this list of conditions and the following disclaimer in the</i></td></tr>
+<tr><th id="11">11</th><td><i> *    documentation and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="12">12</th><td><i> * 3. The name of the author may not be used to endorse or promote products</i></td></tr>
+<tr><th id="13">13</th><td><i> *    derived from this software without specific prior written permission.</i></td></tr>
+<tr><th id="14">14</th><td><i> *</i></td></tr>
+<tr><th id="15">15</th><td><i> * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR</i></td></tr>
+<tr><th id="16">16</th><td><i> * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES</i></td></tr>
+<tr><th id="17">17</th><td><i> * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.</i></td></tr>
+<tr><th id="18">18</th><td><i> * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,</i></td></tr>
+<tr><th id="19">19</th><td><i> * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT</i></td></tr>
+<tr><th id="20">20</th><td><i> * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,</i></td></tr>
+<tr><th id="21">21</th><td><i> * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY</i></td></tr>
+<tr><th id="22">22</th><td><i> * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT</i></td></tr>
+<tr><th id="23">23</th><td><i> * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF</i></td></tr>
+<tr><th id="24">24</th><td><i> * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="25">25</th><td><i> */</i></td></tr>
+<tr><th id="26">26</th><td><u>#include <a href="../util-internal.h.html">"util-internal.h"</a></u></td></tr>
+<tr><th id="27">27</th><td><u>#include <a href="../include/event2/event-config.h.html">"event2/event-config.h"</a></u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="29">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="30">30</th><td><u>#include &lt;winsock2.h&gt;</u></td></tr>
+<tr><th id="31">31</th><td><u>#include &lt;windows.h&gt;</u></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="29">else</span></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../include/unistd.h.html">&lt;unistd.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="29">endif</span></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="../include/event2/event.h.html">&lt;event2/event.h&gt;</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="../../include/signal.h.html">&lt;signal.h&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="41">41</th><td><dfn class="tu decl def" id="sock_perror" title='sock_perror' data-type='void sock_perror(const char * s)' data-ref="sock_perror">sock_perror</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="1s" title='s' data-type='const char *' data-ref="1s">s</dfn>)</td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td><u>#<span data-ppcond="43">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="44">44</th><td>	<em>const</em> <em>char</em> *err = evutil_socket_error_to_string(EVUTIL_SOCKET_ERROR());</td></tr>
+<tr><th id="45">45</th><td>	fprintf(stderr, <q>"%s: %s\n"</q>, s, err);</td></tr>
+<tr><th id="46">46</th><td><u>#<span data-ppcond="43">else</span></u></td></tr>
+<tr><th id="47">47</th><td>	<a class="ref" href="../../include/stdio.h.html#perror" title='perror' data-ref="perror">perror</a>(<a class="local col1 ref" href="#1s" title='s' data-ref="1s">s</a>);</td></tr>
+<tr><th id="48">48</th><td><u>#<span data-ppcond="43">endif</span></u></td></tr>
+<tr><th id="49">49</th><td>}</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="52">52</th><td><dfn class="tu decl def" id="callback1" title='callback1' data-type='void callback1(int fd, short events, void * arg)' data-ref="callback1">callback1</dfn>(<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col2 decl" id="2fd" title='fd' data-type='int' data-ref="2fd">fd</dfn>, <em>short</em> <dfn class="local col3 decl" id="3events" title='events' data-type='short' data-ref="3events">events</dfn>, <em>void</em> *<dfn class="local col4 decl" id="4arg" title='arg' data-type='void *' data-ref="4arg">arg</dfn>)</td></tr>
+<tr><th id="53">53</th><td>{</td></tr>
+<tr><th id="54">54</th><td>}</td></tr>
+<tr><th id="55">55</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="56">56</th><td><dfn class="tu decl def" id="callback2" title='callback2' data-type='void callback2(int fd, short events, void * arg)' data-ref="callback2">callback2</dfn>(<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col5 decl" id="5fd" title='fd' data-type='int' data-ref="5fd">fd</dfn>, <em>short</em> <dfn class="local col6 decl" id="6events" title='events' data-type='short' data-ref="6events">events</dfn>, <em>void</em> *<dfn class="local col7 decl" id="7arg" title='arg' data-type='void *' data-ref="7arg">arg</dfn>)</td></tr>
+<tr><th id="57">57</th><td>{</td></tr>
+<tr><th id="58">58</th><td>}</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><i>/* Testing code for event_base_dump_events().</i></td></tr>
+<tr><th id="61">61</th><td><i></i></td></tr>
+<tr><th id="62">62</th><td><i>   Notes that just because we have code to exercise this function,</i></td></tr>
+<tr><th id="63">63</th><td><i>   doesn't mean that *ANYTHING* about the output format is guaranteed to</i></td></tr>
+<tr><th id="64">64</th><td><i>   remain in the future.</i></td></tr>
+<tr><th id="65">65</th><td><i> */</i></td></tr>
+<tr><th id="66">66</th><td><em>int</em></td></tr>
+<tr><th id="67">67</th><td><dfn class="decl def" id="main" title='main' data-ref="main">main</dfn>(<em>int</em> <dfn class="local col8 decl" id="8argc" title='argc' data-type='int' data-ref="8argc">argc</dfn>, <em>char</em> **<dfn class="local col9 decl" id="9argv" title='argv' data-type='char **' data-ref="9argv">argv</dfn>)</td></tr>
+<tr><th id="68">68</th><td>{</td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/N_EVENTS" data-ref="_M/N_EVENTS">N_EVENTS</dfn> 13</u></td></tr>
+<tr><th id="70">70</th><td>	<em>int</em> <dfn class="local col0 decl" id="10i" title='i' data-type='int' data-ref="10i">i</dfn>;</td></tr>
+<tr><th id="71">71</th><td>	<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a> *<dfn class="local col1 decl" id="11ev" title='ev' data-type='struct event *[13]' data-ref="11ev">ev</dfn>[<a class="macro" href="#69" title="13" data-ref="_M/N_EVENTS">N_EVENTS</a>];</td></tr>
+<tr><th id="72">72</th><td>	<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col2 decl" id="12pair1" title='pair1' data-type='int [2]' data-ref="12pair1">pair1</dfn>[<var>2</var>];</td></tr>
+<tr><th id="73">73</th><td>	<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col3 decl" id="13pair2" title='pair2' data-type='int [2]' data-ref="13pair2">pair2</dfn>[<var>2</var>];</td></tr>
+<tr><th id="74">74</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col4 decl" id="14tv_onesec" title='tv_onesec' data-type='struct timeval' data-ref="14tv_onesec">tv_onesec</dfn> = {<var>1</var>,<var>0</var>};</td></tr>
+<tr><th id="75">75</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col5 decl" id="15tv_two5sec" title='tv_two5sec' data-type='struct timeval' data-ref="15tv_two5sec">tv_two5sec</dfn> = {<var>2</var>,<var>500</var>*<var>1000</var>};</td></tr>
+<tr><th id="76">76</th><td>	<em>const</em> <b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> *<dfn class="local col6 decl" id="16tv_onesec_common" title='tv_onesec_common' data-type='const struct timeval *' data-ref="16tv_onesec_common">tv_onesec_common</dfn>;</td></tr>
+<tr><th id="77">77</th><td>	<em>const</em> <b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> *<dfn class="local col7 decl" id="17tv_two5sec_common" title='tv_two5sec_common' data-type='const struct timeval *' data-ref="17tv_two5sec_common">tv_two5sec_common</dfn>;</td></tr>
+<tr><th id="78">78</th><td>	<b>struct</b> <a class="type" href="../include/event2/event.h.html#event_base" title='event_base' data-ref="event_base">event_base</a> *<dfn class="local col8 decl" id="18base" title='base' data-type='struct event_base *' data-ref="18base">base</dfn>;</td></tr>
+<tr><th id="79">79</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col9 decl" id="19now" title='now' data-type='struct timeval' data-ref="19now">now</dfn>;</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><u>#<span data-ppcond="81">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="82">82</th><td>	WORD wVersionRequested;</td></tr>
+<tr><th id="83">83</th><td>	WSADATA wsaData;</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td>	wVersionRequested = MAKEWORD(<var>2</var>, <var>2</var>);</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td>	WSAStartup(wVersionRequested, &amp;wsaData);</td></tr>
+<tr><th id="88">88</th><td><u>#<span data-ppcond="81">endif</span></u></td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><u>#<span data-ppcond="90">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="91">91</th><td><u>#define LOCAL_SOCKETPAIR_AF AF_INET</u></td></tr>
+<tr><th id="92">92</th><td><u>#<span data-ppcond="90">else</span></u></td></tr>
+<tr><th id="93">93</th><td><u>#define <dfn class="macro" id="_M/LOCAL_SOCKETPAIR_AF" data-ref="_M/LOCAL_SOCKETPAIR_AF">LOCAL_SOCKETPAIR_AF</dfn> AF_UNIX</u></td></tr>
+<tr><th id="94">94</th><td><u>#<span data-ppcond="90">endif</span></u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td>	<b>if</b> (<a class="ref" href="../util-internal.h.html#evutil_make_internal_pipe_" title='evutil_make_internal_pipe_' data-ref="evutil_make_internal_pipe_">evutil_make_internal_pipe_</a>(<a class="local col2 ref" href="#12pair1" title='pair1' data-ref="12pair1">pair1</a>) &lt; <var>0</var> ||</td></tr>
+<tr><th id="97">97</th><td>	    <a class="ref" href="../util-internal.h.html#evutil_make_internal_pipe_" title='evutil_make_internal_pipe_' data-ref="evutil_make_internal_pipe_">evutil_make_internal_pipe_</a>(<a class="local col3 ref" href="#13pair2" title='pair2' data-ref="13pair2">pair2</a>) &lt; <var>0</var>) {</td></tr>
+<tr><th id="98">98</th><td>		<a class="tu ref" href="#sock_perror" title='sock_perror' data-use='c' data-ref="sock_perror">sock_perror</a>(<q>"evutil_make_internal_pipe_"</q>);</td></tr>
+<tr><th id="99">99</th><td>		<b>return</b> <var>1</var>;</td></tr>
+<tr><th id="100">100</th><td>	}</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>	<b>if</b> (!(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a> = <a class="ref" href="../include/event2/event.h.html#event_base_new" title='event_base_new' data-ref="event_base_new">event_base_new</a>())) {</td></tr>
+<tr><th id="103">103</th><td>		<a class="ref" href="../../include/stdio.h.html#fprintf" title='fprintf' data-ref="fprintf">fprintf</a>(<a class="macro" href="../../include/stdio.h.html#174" title="stderr" data-ref="_M/stderr">stderr</a>,<q>"Couldn't make event_base\n"</q>);</td></tr>
+<tr><th id="104">104</th><td>		<b>return</b> <var>2</var>;</td></tr>
+<tr><th id="105">105</th><td>	}</td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td>	<a class="local col6 ref" href="#16tv_onesec_common" title='tv_onesec_common' data-ref="16tv_onesec_common">tv_onesec_common</a> = <a class="ref" href="../include/event2/event.h.html#event_base_init_common_timeout" title='event_base_init_common_timeout' data-ref="event_base_init_common_timeout">event_base_init_common_timeout</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, &amp;<a class="local col4 ref" href="#14tv_onesec" title='tv_onesec' data-ref="14tv_onesec">tv_onesec</a>);</td></tr>
+<tr><th id="108">108</th><td>	<a class="local col7 ref" href="#17tv_two5sec_common" title='tv_two5sec_common' data-ref="17tv_two5sec_common">tv_two5sec_common</a> = <a class="ref" href="../include/event2/event.h.html#event_base_init_common_timeout" title='event_base_init_common_timeout' data-ref="event_base_init_common_timeout">event_base_init_common_timeout</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, &amp;<a class="local col5 ref" href="#15tv_two5sec" title='tv_two5sec' data-ref="15tv_two5sec">tv_two5sec</a>);</td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>0</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="local col2 ref" href="#12pair1" title='pair1' data-ref="12pair1">pair1</a>[<var>0</var>], <a class="macro" href="../include/event2/event.h.html#928" title="0x04" data-ref="_M/EV_WRITE">EV_WRITE</a>, <a class="tu ref" href="#callback1" title='callback1' data-use='r' data-ref="callback1">callback1</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="111">111</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>1</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="local col2 ref" href="#12pair1" title='pair1' data-ref="12pair1">pair1</a>[<var>1</var>], <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>|<a class="macro" href="../include/event2/event.h.html#937" title="0x10" data-ref="_M/EV_PERSIST">EV_PERSIST</a>, <a class="tu ref" href="#callback1" title='callback1' data-use='r' data-ref="callback1">callback1</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="112">112</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>2</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="local col3 ref" href="#13pair2" title='pair2' data-ref="13pair2">pair2</a>[<var>0</var>], <a class="macro" href="../include/event2/event.h.html#928" title="0x04" data-ref="_M/EV_WRITE">EV_WRITE</a>|<a class="macro" href="../include/event2/event.h.html#937" title="0x10" data-ref="_M/EV_PERSIST">EV_PERSIST</a>, <a class="tu ref" href="#callback2" title='callback2' data-use='r' data-ref="callback2">callback2</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="113">113</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>3</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="local col3 ref" href="#13pair2" title='pair2' data-ref="13pair2">pair2</a>[<var>1</var>], <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>, <a class="tu ref" href="#callback2" title='callback2' data-use='r' data-ref="callback2">callback2</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td>	<i>/* For timers */</i></td></tr>
+<tr><th id="116">116</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>4</var>] = <a class="macro" href="../include/event2/event.h.html#970" title="event_new((base), -1, 0, (callback1), (((void*)0)))" data-ref="_M/evtimer_new">evtimer_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="tu ref" href="#callback1" title='callback1' data-use='r' data-ref="callback1">callback1</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="117">117</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>5</var>] = <a class="macro" href="../include/event2/event.h.html#970" title="event_new((base), -1, 0, (callback1), (((void*)0)))" data-ref="_M/evtimer_new">evtimer_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="tu ref" href="#callback1" title='callback1' data-use='r' data-ref="callback1">callback1</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="118">118</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>6</var>] = <a class="macro" href="../include/event2/event.h.html#970" title="event_new((base), -1, 0, (callback1), (((void*)0)))" data-ref="_M/evtimer_new">evtimer_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="tu ref" href="#callback1" title='callback1' data-use='r' data-ref="callback1">callback1</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="119">119</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>7</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, -<var>1</var>, <a class="macro" href="../include/event2/event.h.html#937" title="0x10" data-ref="_M/EV_PERSIST">EV_PERSIST</a>, <a class="tu ref" href="#callback2" title='callback2' data-use='r' data-ref="callback2">callback2</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="120">120</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>8</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, -<var>1</var>, <a class="macro" href="../include/event2/event.h.html#937" title="0x10" data-ref="_M/EV_PERSIST">EV_PERSIST</a>, <a class="tu ref" href="#callback2" title='callback2' data-use='r' data-ref="callback2">callback2</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="121">121</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>9</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, -<var>1</var>, <a class="macro" href="../include/event2/event.h.html#937" title="0x10" data-ref="_M/EV_PERSIST">EV_PERSIST</a>, <a class="tu ref" href="#callback2" title='callback2' data-use='r' data-ref="callback2">callback2</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td>	<i>/* To activate */</i></td></tr>
+<tr><th id="124">124</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>10</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, -<var>1</var>, <var>0</var>, <a class="tu ref" href="#callback1" title='callback1' data-use='r' data-ref="callback1">callback1</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="125">125</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>11</var>] = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, -<var>1</var>, <var>0</var>, <a class="tu ref" href="#callback2" title='callback2' data-use='r' data-ref="callback2">callback2</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td>	<i>/* Signals */</i></td></tr>
+<tr><th id="128">128</th><td>	<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>12</var>] = <a class="macro" href="../include/event2/event.h.html#986" title="event_new((base), (2), 0x08|0x10, (callback2), (((void*)0)))" data-ref="_M/evsignal_new">evsignal_new</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="macro" href="../../include/x86_64-linux-gnu/bits/signum.h.html#33" title="2" data-ref="_M/SIGINT">SIGINT</a>, <a class="tu ref" href="#callback2" title='callback2' data-use='r' data-ref="callback2">callback2</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>0</var>], <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="131">131</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>1</var>], &amp;<a class="local col4 ref" href="#14tv_onesec" title='tv_onesec' data-ref="14tv_onesec">tv_onesec</a>);</td></tr>
+<tr><th id="132">132</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>2</var>], <a class="local col6 ref" href="#16tv_onesec_common" title='tv_onesec_common' data-ref="16tv_onesec_common">tv_onesec_common</a>);</td></tr>
+<tr><th id="133">133</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>3</var>], <a class="local col7 ref" href="#17tv_two5sec_common" title='tv_two5sec_common' data-ref="17tv_two5sec_common">tv_two5sec_common</a>);</td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>4</var>], <a class="local col6 ref" href="#16tv_onesec_common" title='tv_onesec_common' data-ref="16tv_onesec_common">tv_onesec_common</a>);</td></tr>
+<tr><th id="136">136</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>5</var>], <a class="local col6 ref" href="#16tv_onesec_common" title='tv_onesec_common' data-ref="16tv_onesec_common">tv_onesec_common</a>);</td></tr>
+<tr><th id="137">137</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>6</var>], &amp;<a class="local col4 ref" href="#14tv_onesec" title='tv_onesec' data-ref="14tv_onesec">tv_onesec</a>);</td></tr>
+<tr><th id="138">138</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>7</var>], <a class="local col7 ref" href="#17tv_two5sec_common" title='tv_two5sec_common' data-ref="17tv_two5sec_common">tv_two5sec_common</a>);</td></tr>
+<tr><th id="139">139</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>8</var>], <a class="local col6 ref" href="#16tv_onesec_common" title='tv_onesec_common' data-ref="16tv_onesec_common">tv_onesec_common</a>);</td></tr>
+<tr><th id="140">140</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>9</var>], &amp;<a class="local col5 ref" href="#15tv_two5sec" title='tv_two5sec' data-ref="15tv_two5sec">tv_two5sec</a>);</td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td>	<a class="ref" href="../include/event2/event.h.html#event_active" title='event_active' data-ref="event_active">event_active</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>10</var>], <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>, <var>1</var>);</td></tr>
+<tr><th id="143">143</th><td>	<a class="ref" href="../include/event2/event.h.html#event_active" title='event_active' data-ref="event_active">event_active</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>11</var>], <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>|<a class="macro" href="../include/event2/event.h.html#928" title="0x04" data-ref="_M/EV_WRITE">EV_WRITE</a>|<a class="macro" href="../include/event2/event.h.html#924" title="0x01" data-ref="_M/EV_TIMEOUT">EV_TIMEOUT</a>, <var>1</var>);</td></tr>
+<tr><th id="144">144</th><td>	<a class="ref" href="../include/event2/event.h.html#event_active" title='event_active' data-ref="event_active">event_active</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>1</var>], <a class="macro" href="../include/event2/event.h.html#926" title="0x02" data-ref="_M/EV_READ">EV_READ</a>, <var>1</var>);</td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>12</var>], <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td>	<a class="macro" href="../include/event2/util.h.html#573" title="gettimeofday((&amp;now), (((void*)0)))" data-ref="_M/evutil_gettimeofday">evutil_gettimeofday</a>(&amp;<a class="local col9 ref" href="#19now" title='now' data-ref="19now">now</a>,<span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="149">149</th><td>	<a class="ref" href="../../include/stdio.h.html#puts" title='puts' data-ref="puts">puts</a>(<q>"=====expected"</q>);</td></tr>
+<tr><th id="150">150</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"Now= %ld.%06d\n"</q>,(<em>long</em>)<a class="local col9 ref" href="#19now" title='now' data-ref="19now">now</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a>,(<em>int</em>)<a class="local col9 ref" href="#19now" title='now' data-ref="19now">now</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a>);</td></tr>
+<tr><th id="151">151</th><td>	<a class="ref" href="../../include/stdio.h.html#puts" title='puts' data-ref="puts">puts</a>(<q>"Inserted:"</q>);</td></tr>
+<tr><th id="152">152</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  %ld] Write\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>0</var>],(<em>long</em>)<a class="local col2 ref" href="#12pair1" title='pair1' data-ref="12pair1">pair1</a>[<var>0</var>]);</td></tr>
+<tr><th id="153">153</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  %ld] Read Persist Timeout=T+1\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>1</var>],(<em>long</em>)<a class="local col2 ref" href="#12pair1" title='pair1' data-ref="12pair1">pair1</a>[<var>1</var>]);</td></tr>
+<tr><th id="154">154</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  %ld] Write Persist Timeout=T+1\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>2</var>],(<em>long</em>)<a class="local col3 ref" href="#13pair2" title='pair2' data-ref="13pair2">pair2</a>[<var>0</var>]);</td></tr>
+<tr><th id="155">155</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  %ld] Read Timeout=T+2.5\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>3</var>],(<em>long</em>)<a class="local col3 ref" href="#13pair2" title='pair2' data-ref="13pair2">pair2</a>[<var>1</var>]);</td></tr>
+<tr><th id="156">156</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1] Timeout=T+1\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>4</var>]);</td></tr>
+<tr><th id="157">157</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1] Timeout=T+1\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>5</var>]);</td></tr>
+<tr><th id="158">158</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1] Timeout=T+1\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>6</var>]);</td></tr>
+<tr><th id="159">159</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1] Persist Timeout=T+2.5\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>7</var>]);</td></tr>
+<tr><th id="160">160</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1] Persist Timeout=T+1\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>8</var>]);</td></tr>
+<tr><th id="161">161</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1] Persist Timeout=T+2.5\n"</q>,<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>9</var>]);</td></tr>
+<tr><th id="162">162</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [sig %d] Signal Persist\n"</q>, <a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>12</var>], (<em>int</em>)<a class="macro" href="../../include/x86_64-linux-gnu/bits/signum.h.html#33" title="2" data-ref="_M/SIGINT">SIGINT</a>);</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td>	<a class="ref" href="../../include/stdio.h.html#puts" title='puts' data-ref="puts">puts</a>(<q>"Active:"</q>);</td></tr>
+<tr><th id="165">165</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1, priority=0] Read active\n"</q>, <a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>10</var>]);</td></tr>
+<tr><th id="166">166</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  -1, priority=0] Read Write Timeout active\n"</q>, <a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>11</var>]);</td></tr>
+<tr><th id="167">167</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"  %p [fd  %ld, priority=0] Read active\n"</q>, <a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<var>1</var>], (<em>long</em>)<a class="local col2 ref" href="#12pair1" title='pair1' data-ref="12pair1">pair1</a>[<var>1</var>]);</td></tr>
+<tr><th id="168">168</th><td></td></tr>
+<tr><th id="169">169</th><td>	<a class="ref" href="../../include/stdio.h.html#puts" title='puts' data-ref="puts">puts</a>(<q>"======received"</q>);</td></tr>
+<tr><th id="170">170</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_dump_events" title='event_base_dump_events' data-ref="event_base_dump_events">event_base_dump_events</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>, <a class="macro" href="../../include/stdio.h.html#173" title="stdout" data-ref="_M/stdout">stdout</a>);</td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td>	<b>for</b> (<a class="local col0 ref" href="#10i" title='i' data-ref="10i">i</a> = <var>0</var>; <a class="local col0 ref" href="#10i" title='i' data-ref="10i">i</a> &lt; <a class="macro" href="#69" title="13" data-ref="_M/N_EVENTS">N_EVENTS</a>; ++<a class="local col0 ref" href="#10i" title='i' data-ref="10i">i</a>) {</td></tr>
+<tr><th id="173">173</th><td>		<a class="ref" href="../include/event2/event.h.html#event_free" title='event_free' data-ref="event_free">event_free</a>(<a class="local col1 ref" href="#11ev" title='ev' data-ref="11ev">ev</a>[<a class="local col0 ref" href="#10i" title='i' data-ref="10i">i</a>]);</td></tr>
+<tr><th id="174">174</th><td>	}</td></tr>
+<tr><th id="175">175</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_free" title='event_base_free' data-ref="event_base_free">event_base_free</a>(<a class="local col8 ref" href="#18base" title='base' data-ref="18base">base</a>);</td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td>	<b>return</b> <var>0</var>;</td></tr>
+<tr><th id="178">178</th><td>}</td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

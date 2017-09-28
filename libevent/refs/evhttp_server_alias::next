@@ -1,0 +1,21 @@
+<dec f='codebrowser/http-internal.h' l='132' type='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:132:2)'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='3350' u='m' c='evhttp_find_alias'/>
+<use f='codebrowser/http.c' l='3709' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3709' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3709' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3709' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3709' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3709' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3709' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3764' u='m' c='evhttp_add_server_alias'/>
+<use f='codebrowser/http.c' l='3764' u='m' c='evhttp_add_server_alias'/>
+<use f='codebrowser/http.c' l='3764' u='m' c='evhttp_add_server_alias'/>
+<use f='codebrowser/http.c' l='3774' u='m' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3776' u='m' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3776' u='m' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3776' u='m' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3776' u='m' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3776' u='m' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3776' u='m' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3776' u='m' c='evhttp_remove_server_alias'/>

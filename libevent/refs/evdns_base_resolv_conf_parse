@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/dns.h' l='463' type='int evdns_base_resolv_conf_parse(struct evdns_base * base, int flags, const char *const filename)'/>
+<def f='codebrowser/evdns.c' l='3576' ll='3583' type='int evdns_base_resolv_conf_parse(struct evdns_base * base, int flags, const char *const filename)'/>
+<use f='codebrowser/evdns.c' l='3666' u='c' c='evdns_resolv_conf_parse'/>
+<use f='codebrowser/evdns.c' l='3964' u='c' c='evdns_base_new'/>
+<doc f='codebrowser/evdns.c' l='3575'>/*   5 short read from file */</doc>
+<use f='codebrowser/sample/dns-example.c' l='220' u='c' c='main'/>

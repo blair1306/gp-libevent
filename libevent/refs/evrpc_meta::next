@@ -1,0 +1,13 @@
+<dec f='codebrowser/evrpc-internal.h' l='106' type='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:106:2)'/>
+<use f='codebrowser/evrpc.c' l='990' u='m' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='990' u='m' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='990' u='m' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='990' u='m' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='990' u='m' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='990' u='m' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='990' u='m' c='evrpc_meta_data_free'/>
+<use f='codebrowser/evrpc.c' l='1048' u='m' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1048' u='m' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1048' u='m' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1060' u='m' c='evrpc_hook_find_meta'/>
+<offset>0</offset>

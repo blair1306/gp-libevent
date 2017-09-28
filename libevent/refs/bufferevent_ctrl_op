@@ -1,0 +1,2 @@
+<def f='codebrowser/bufferevent-internal.h' l='236' ll='241'/>
+<doc f='codebrowser/bufferevent-internal.h' l='235'>/** Possible operations for a control callback. */</doc>

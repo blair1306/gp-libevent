@@ -1,0 +1,4 @@
+<dec f='codebrowser/compat/sys/queue.h' l='106'/>
+<doc f='codebrowser/compat/sys/queue.h' l='103'>/*
+ * Singly-linked List access methods.
+ */</doc>

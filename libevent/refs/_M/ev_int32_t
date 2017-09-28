@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/util.h' l='137'/>
+<use f='codebrowser/util-internal.h' l='323' u='c'/>
+<use f='codebrowser/util-internal.h' l='328' u='c'/>
+<use f='codebrowser/util-internal.h' l='328' u='c'/>
+<use f='codebrowser/evutil.c' l='2416' u='c'/>
+<use f='codebrowser/evutil.c' l='2428' u='c'/>
+<use f='codebrowser/evutil.c' l='2431' u='c'/>
+<use f='codebrowser/evutil.c' l='2432' u='c'/>
+<use f='codebrowser/evutil.c' l='2434' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='691' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='914' u='c'/>

@@ -1,0 +1,32 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='109' type='short'/>
+<offset>3072</offset>
+<doc f='codebrowser/include/event2/bufferevent_struct.h' l='107'>/** Events that are currently enabled: currently EV_READ and EV_WRITE
+	    are supported. */</doc>
+<use f='codebrowser/bufferevent.c' l='85' u='r' c='bufferevent_unsuspend_read_'/>
+<use f='codebrowser/bufferevent.c' l='109' u='r' c='bufferevent_unsuspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='326' u='w' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='473' u='w' c='bufferevent_enable'/>
+<use f='codebrowser/bufferevent.c' l='540' u='w' c='bufferevent_disable_hard_'/>
+<use f='codebrowser/bufferevent.c' l='556' u='w' c='bufferevent_disable'/>
+<use f='codebrowser/bufferevent.c' l='901' u='r' c='bufferevent_get_enabled'/>
+<use f='codebrowser/bufferevent.c' l='950' u='r' c='bufferevent_generic_adj_timeouts_'/>
+<use f='codebrowser/bufferevent_filter.c' l='312' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='329' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='356' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='389' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='401' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_openssl.c' l='473' u='r' c='clear_rbow'/>
+<use f='codebrowser/bufferevent_openssl.c' l='475' u='r' c='clear_rbow'/>
+<use f='codebrowser/bufferevent_openssl.c' l='487' u='r' c='clear_wbor'/>
+<use f='codebrowser/bufferevent_openssl.c' l='489' u='r' c='clear_wbor'/>
+<use f='codebrowser/bufferevent_openssl.c' l='748' u='r' c='bytes_to_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='844' u='r' c='consider_reading'/>
+<use f='codebrowser/bufferevent_openssl.c' l='874' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='892' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1038' u='r' c='do_handshake'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1110' u='r' c='set_handshake_callbacks'/>
+<use f='codebrowser/bufferevent_pair.c' l='198' u='r' c='be_pair_wants_to_talk'/>
+<use f='codebrowser/bufferevent_pair.c' l='199' u='r' c='be_pair_wants_to_talk'/>
+<use f='codebrowser/bufferevent_sock.c' l='134' u='r' c='bufferevent_socket_outbuf_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='279' u='r' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='646' u='r' c='be_socket_setfd'/>

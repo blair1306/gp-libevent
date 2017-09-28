@@ -1,0 +1,3 @@
+<def f='codebrowser/evdns.c' l='262' ll='271'/>
+<size>40</size>
+<doc f='codebrowser/evdns.c' l='261'>/* Represents part of a reply being built.	(That is, a single RR.) */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='537' type='struct evhttp * evhttp_connection_get_server(struct evhttp_connection * evcon)'/>
+<def f='codebrowser/http.c' l='2407' ll='2411' type='struct evhttp * evhttp_connection_get_server(struct evhttp_connection * evcon)'/>
+<use f='codebrowser/test/regress_http.c' l='313' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='1058' u='c' c='http_connection_test_'/>

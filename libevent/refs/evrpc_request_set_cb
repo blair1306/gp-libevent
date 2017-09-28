@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/rpc.h' l='616' type='void evrpc_request_set_cb(struct evrpc_request_wrapper * ctx, void (*)(struct evrpc_status *, void *, void *, void *) cb, void * cb_arg)'/>
+<def f='codebrowser/evrpc.c' l='1164' ll='1171' type='void evrpc_request_set_cb(struct evrpc_request_wrapper * ctx, void (*)(struct evrpc_status *, void *, void *, void *) cb, void * cb_arg)'/>

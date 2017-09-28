@@ -1,0 +1,16 @@
+<dec f='codebrowser/evthread-internal.h' l='85'/>
+<use f='codebrowser/buffer.c' l='582' u='c'/>
+<use f='codebrowser/buffer.c' l='3176' u='c'/>
+<doc f='codebrowser/evthread-internal.h' l='84'>/** Free a given lock, if it is present and locking is enabled. */</doc>
+<use f='codebrowser/bufferevent.c' l='758' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='731' u='c'/>
+<use f='codebrowser/evdns.c' l='2131' u='c'/>
+<use f='codebrowser/evdns.c' l='4085' u='c'/>
+<use f='codebrowser/event.c' l='897' u='c'/>
+<use f='codebrowser/event.c' l='3817' u='c'/>
+<use f='codebrowser/evutil_rand.c' l='150' u='c'/>
+<use f='codebrowser/listener.c' l='135' u='c'/>
+<use f='codebrowser/signal.c' l='458' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='137' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='245' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='385' u='c'/>

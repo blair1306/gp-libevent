@@ -1,0 +1,14 @@
+<def f='codebrowser/bufferevent_openssl.c' l='280' ll='283'/>
+<size>16</size>
+<doc f='codebrowser/bufferevent_openssl.c' l='267'>/* --------------------
+   Now, here&apos;s the OpenSSL-based implementation of bufferevent.
+
+   The implementation comes in two flavors: one that connects its SSL object
+   to an underlying bufferevent using a BIO_bufferevent, and one that has the
+   SSL object connect to a socket directly.  The latter should generally be
+   faster, except on Windows, where your best bet is using a
+   bufferevent_async.
+
+   (OpenSSL supports many other BIO types, too.  But we can&apos;t use any unless
+   we have a good way to get notified when they become readable/writable.)
+   -------------------- */</doc>

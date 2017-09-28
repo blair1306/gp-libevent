@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/buffer.h' l='906' type='struct evbuffer_cb_entry * evbuffer_add_cb(struct evbuffer * buffer, evbuffer_cb_func cb, void * cbarg)'/>
+<use f='codebrowser/buffer.c' l='3306' u='c' c='evbuffer_setcb'/>
+<def f='codebrowser/buffer.c' l='3313' ll='3326' type='struct evbuffer_cb_entry * evbuffer_add_cb(struct evbuffer * buffer, evbuffer_cb_func cb, void * cbarg)'/>
+<use f='codebrowser/bufferevent.c' l='593' u='c' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent_filter.c' l='211' u='c' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_filter.c' l='216' u='c' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1369' u='c' c='bufferevent_openssl_new_impl'/>
+<use f='codebrowser/bufferevent_pair.c' l='104' u='c' c='bufferevent_pair_elt_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='370' u='c' c='bufferevent_socket_new'/>
+<use f='codebrowser/test/regress_buffer.c' l='1765' u='c' c='test_evbuffer_callbacks'/>
+<use f='codebrowser/test/regress_buffer.c' l='1766' u='c' c='test_evbuffer_callbacks'/>
+<use f='codebrowser/test/regress_buffer.c' l='1795' u='c' c='test_evbuffer_callbacks'/>
+<use f='codebrowser/test/regress_buffer.c' l='1797' u='c' c='test_evbuffer_callbacks'/>
+<use f='codebrowser/test/regress_buffer.c' l='2102' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_http.c' l='1474' u='c' c='http_cancel_test'/>

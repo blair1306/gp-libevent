@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='661' type='ASN1_INTEGER * s2i_ASN1_INTEGER(X509V3_EXT_METHOD * meth, char * value)'/>

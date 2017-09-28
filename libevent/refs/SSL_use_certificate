@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2181' type='int SSL_use_certificate(SSL * ssl, X509 * x)'/>
+<use f='codebrowser/test/regress_http.c' l='122' u='c' c='https_bev'/>
+<use f='codebrowser/test/regress_ssl.c' l='428' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='529' u='c' c='acceptcb'/>

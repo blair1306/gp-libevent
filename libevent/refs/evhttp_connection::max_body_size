@@ -1,0 +1,11 @@
+<dec f='codebrowser/http-internal.h' l='71' type='uint64_t'/>
+<offset>1600</offset>
+<use f='codebrowser/http.c' l='639' u='w' c='evhttp_connection_set_max_body_size'/>
+<use f='codebrowser/http.c' l='641' u='w' c='evhttp_connection_set_max_body_size'/>
+<use f='codebrowser/http.c' l='936' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1077' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1079' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='2213' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2214' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2354' u='w' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='4194' u='w' c='evhttp_get_request_connection'/>

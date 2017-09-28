@@ -1,0 +1,13 @@
+<dec f='codebrowser/event-internal.h' l='470' type='int event_base_foreach_event_nolock_(struct event_base * base, event_base_foreach_event_cb cb, void * arg)'/>
+<doc f='codebrowser/event-internal.h' l='462'>/* Helper function: Call &apos;fn&apos; exactly once every inserted or active event in
+ * the event_base &apos;base&apos;.
+ *
+ * If fn returns 0, continue on to the next event. Otherwise, return the same
+ * value that fn returned.
+ *
+ * Requires that &apos;base&apos; be locked.
+ */</doc>
+<def f='codebrowser/event.c' l='3629' ll='3687' type='int event_base_foreach_event_nolock_(struct event_base * base, event_base_foreach_event_cb fn, void * arg)'/>
+<use f='codebrowser/event.c' l='3756' u='c' c='event_base_foreach_event'/>
+<use f='codebrowser/event.c' l='3767' u='c' c='event_base_dump_events'/>
+<use f='codebrowser/event.c' l='3770' u='c' c='event_base_dump_events'/>

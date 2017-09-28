@@ -1,0 +1,3 @@
+<dec f='include/pthread.h' l='977' type='int pthread_cond_signal(pthread_cond_t * __cond)'/>
+<use f='codebrowser/evthread_pthread.c' l='132' u='c' c='evthread_posix_cond_signal'/>
+<doc f='include/pthread.h' l='976'>/* Wake up one thread waiting for condition variable COND.  */</doc>

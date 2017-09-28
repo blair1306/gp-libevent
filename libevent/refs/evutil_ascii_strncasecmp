@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/util.h' l='648' type='int evutil_ascii_strncasecmp(const char * str1, const char * str2, size_t n)'/>
+<def f='codebrowser/evutil.c' l='2334' ll='2348' type='int evutil_ascii_strncasecmp(const char * s1, const char * s2, size_t n)'/>
+<use f='codebrowser/http.c' l='484' u='c' c='evhttp_is_connection_keepalive'/>
+<use f='codebrowser/test/regress_util.c' l='425' u='c' c='test_evutil_casecmp'/>
+<use f='codebrowser/test/regress_util.c' l='426' u='c' c='test_evutil_casecmp'/>
+<use f='codebrowser/test/regress_util.c' l='427' u='c' c='test_evutil_casecmp'/>
+<use f='codebrowser/test/regress_util.c' l='428' u='c' c='test_evutil_casecmp'/>
+<use f='codebrowser/test/regress_util.c' l='429' u='c' c='test_evutil_casecmp'/>
+<use f='codebrowser/test/regress_util.c' l='430' u='c' c='test_evutil_casecmp'/>
+<use f='codebrowser/test/regress_util.c' l='431' u='c' c='test_evutil_casecmp'/>
+<use f='codebrowser/test/regress_util.c' l='432' u='c' c='test_evutil_casecmp'/>

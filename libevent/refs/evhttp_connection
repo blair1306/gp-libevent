@@ -1,0 +1,29 @@
+<def f='codebrowser/http-internal.h' l='54' ll='108'/>
+<size>384</size>
+<doc f='codebrowser/http-internal.h' l='53'>/* A client or server connection. */</doc>
+<mbr r='evhttp_connection::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:57:2)'/>
+<mbr r='evhttp_connection::fd' o='128' t='int'/>
+<mbr r='evhttp_connection::bufev' o='192' t='struct bufferevent *'/>
+<mbr r='evhttp_connection::retry_ev' o='256' t='struct event'/>
+<mbr r='evhttp_connection::bind_address' o='1280' t='char *'/>
+<mbr r='evhttp_connection::bind_port' o='1344' t='uint16_t'/>
+<mbr r='evhttp_connection::address' o='1408' t='char *'/>
+<mbr r='evhttp_connection::port' o='1472' t='uint16_t'/>
+<mbr r='evhttp_connection::max_headers_size' o='1536' t='size_t'/>
+<mbr r='evhttp_connection::max_body_size' o='1600' t='uint64_t'/>
+<mbr r='evhttp_connection::flags' o='1664' t='int'/>
+<mbr r='evhttp_connection::timeout' o='1728' t='struct timeval'/>
+<mbr r='evhttp_connection::retry_cnt' o='1856' t='int'/>
+<mbr r='evhttp_connection::retry_max' o='1888' t='int'/>
+<mbr r='evhttp_connection::initial_retry_timeout' o='1920' t='struct timeval'/>
+<mbr r='evhttp_connection::state' o='2048' t='enum evhttp_connection_state'/>
+<mbr r='evhttp_connection::http_server' o='2112' t='struct evhttp *'/>
+<mbr r='evhttp_connection::requests' o='2176' t='struct evcon_requestq'/>
+<mbr r='evhttp_connection::cb' o='2304' t='void (*)(struct evhttp_connection *, void *)'/>
+<mbr r='evhttp_connection::cb_arg' o='2368' t='void *'/>
+<mbr r='evhttp_connection::closecb' o='2432' t='void (*)(struct evhttp_connection *, void *)'/>
+<mbr r='evhttp_connection::closecb_arg' o='2496' t='void *'/>
+<mbr r='evhttp_connection::read_more_deferred_cb' o='2560' t='struct event_callback'/>
+<mbr r='evhttp_connection::base' o='2880' t='struct event_base *'/>
+<mbr r='evhttp_connection::dns_base' o='2944' t='struct evdns_base *'/>
+<mbr r='evhttp_connection::ai_family' o='3008' t='int'/>

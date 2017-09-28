@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='97' type='char *'/>
+<offset>768</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='97'>/* uri after HTTP request was parsed */</doc>
+<use f='codebrowser/http.c' l='443' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='682' u='r' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='683' u='r' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='684' u='w' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='1827' u='w' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='1832' u='r' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='2611' u='r' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='2612' u='r' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='2613' u='w' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='3419' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3458' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3982' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3983' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4065' u='r' c='evhttp_request_get_uri'/>
+<use f='codebrowser/http.c' l='4067' u='r' c='evhttp_request_get_uri'/>

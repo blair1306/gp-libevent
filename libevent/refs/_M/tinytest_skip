@@ -1,0 +1,2 @@
+<dec f='codebrowser/test/tinytest.h' l='88'/>
+<doc f='codebrowser/test/tinytest.h' l='87'>/** Set all tests in &apos;groups&apos; matching the name &apos;named&apos; to be skipped. */</doc>

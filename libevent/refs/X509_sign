@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509.h' l='647' type='int X509_sign(X509 * x, EVP_PKEY * pkey, const EVP_MD * md)'/>
+<use f='codebrowser/test/regress_ssl.c' l='156' u='c' c='ssl_getcert'/>

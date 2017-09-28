@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/rpc.h' l='421' type='void evrpc_pool_free(struct evrpc_pool * pool)'/>
+<def f='codebrowser/evrpc.c' l='536' ll='571' type='void evrpc_pool_free(struct evrpc_pool * pool)'/>
+<use f='codebrowser/test/regress_rpc.c' l='519' u='c' c='rpc_basic_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='575' u='c' c='rpc_basic_queued_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='678' u='c' c='rpc_basic_client_with_pause'/>
+<use f='codebrowser/test/regress_rpc.c' l='729' u='c' c='rpc_client_timeout'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/util-internal.h' l='105'/>
+<use f='codebrowser/buffer.c' l='2488' u='c'/>
+<doc f='codebrowser/util-internal.h' l='104'>/* True iff e is an error that means a read/write operation can be retried. */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='193' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='298' u='c'/>
+<use f='codebrowser/evdns.c' l='1384' u='c'/>
+<use f='codebrowser/evdns.c' l='1421' u='c'/>
+<use f='codebrowser/evdns.c' l='1443' u='c'/>
+<use f='codebrowser/evdns.c' l='2005' u='c'/>
+<use f='codebrowser/evdns.c' l='2220' u='c'/>
+<use f='codebrowser/signal.c' l='151' u='c'/>
+<use f='codebrowser/test/regress.c' l='422' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='886' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='913' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='585' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='597' u='c'/>

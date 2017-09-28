@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/util.h' l='499'/>
+<use f='codebrowser/bufferevent.c' l='275' u='c'/>
+<use f='codebrowser/evutil.c' l='299' u='c'/>
+<use f='codebrowser/http.c' l='725' u='c'/>
+<use f='codebrowser/http.c' l='4349' u='c'/>
+<use f='codebrowser/sample/https-client.c' l='64' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='585' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='597' u='c'/>
+<use f='codebrowser/test/test-fdleak.c' l='71' u='c'/>

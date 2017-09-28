@@ -1,0 +1,9 @@
+<dec f='codebrowser/evdns.c' l='316' type='struct event_base *'/>
+<use f='codebrowser/evdns.c' l='862' u='r' c='reply_schedule_callback'/>
+<use f='codebrowser/evdns.c' l='1478' u='r' c='nameserver_write_waiting'/>
+<use f='codebrowser/evdns.c' l='2512' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2532' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2777' u='r' c='request_new'/>
+<use f='codebrowser/evdns.c' l='3932' u='w' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4741' u='r' c='evdns_getaddrinfo'/>
+<offset>256</offset>

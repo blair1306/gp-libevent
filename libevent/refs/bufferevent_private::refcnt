@@ -1,0 +1,16 @@
+<dec f='codebrowser/bufferevent-internal.h' l='203' type='int'/>
+<offset>3680</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='202'>/** Current reference count for this bufferevent. */</doc>
+<use f='codebrowser/bufferevent.c' l='310' u='w' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='662' u='w' c='bufferevent_incref_and_lock_'/>
+<use f='codebrowser/bufferevent.c' l='692' u='r' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='694' u='w' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='805' u='w' c='bufferevent_incref'/>
+<use f='codebrowser/bufferevent_filter.c' l='240' u='r' c='be_filter_unlink'/>
+<use f='codebrowser/bufferevent_filter.c' l='448' u='r' c='be_filter_read_nolock_'/>
+<use f='codebrowser/bufferevent_filter.c' l='451' u='r' c='be_filter_read_nolock_'/>
+<use f='codebrowser/bufferevent_filter.c' l='539' u='r' c='be_filter_writecb'/>
+<use f='codebrowser/bufferevent_filter.c' l='542' u='r' c='be_filter_writecb'/>
+<use f='codebrowser/bufferevent_filter.c' l='560' u='r' c='be_filter_eventcb'/>
+<use f='codebrowser/bufferevent_filter.c' l='563' u='r' c='be_filter_eventcb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1203' u='r' c='be_openssl_unlink'/>

@@ -1,0 +1,11 @@
+<dec f='include/netinet/in.h' l='402'/>
+<use f='codebrowser/evdns.c' l='1859' u='c'/>
+<use f='codebrowser/evdns.c' l='2960' u='c'/>
+<use f='codebrowser/evutil.c' l='615' u='c'/>
+<use f='codebrowser/evutil.c' l='1870' u='c'/>
+<use f='codebrowser/evutil.c' l='2466' u='c'/>
+<use f='codebrowser/sample/dns-example.c' l='49' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='113' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='114' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='133' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='135' u='c'/>

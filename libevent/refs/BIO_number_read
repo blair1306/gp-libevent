@@ -1,0 +1,3 @@
+<dec f='include/openssl/bio.h' l='640' type='unsigned long BIO_number_read(BIO * bio)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='554' u='c' c='init_bio_counts'/>
+<use f='codebrowser/bufferevent_openssl.c' l='561' u='c' c='decrement_buckets'/>

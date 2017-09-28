@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/listener.h' l='99'/>
+<doc f='codebrowser/include/event2/listener.h' l='91'>/** Flag: Indicates that we ask to allow multiple servers (processes or
+ * threads) to bind to the same port if they each set the option. 
+ * 
+ * SO_REUSEPORT is what most people would expect SO_REUSEADDR to be, however
+ * SO_REUSEPORT does not imply SO_REUSEADDR.
+ *
+ * This is only available on Linux and kernel 3.9+
+ */</doc>
+<use f='codebrowser/listener.c' l='238' u='c'/>

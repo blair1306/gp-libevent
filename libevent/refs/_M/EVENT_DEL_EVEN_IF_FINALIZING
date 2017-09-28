@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='419'/>
+<doc f='codebrowser/event-internal.h' l='417'>/** Argument for event_del_nolock_. Tells event_del to procede even if the
+ * event is set up for finalization rather for regular use.*/</doc>
+<use f='codebrowser/event.c' l='743' u='c'/>
+<use f='codebrowser/event.c' l='2778' u='c'/>
+<use f='codebrowser/event.c' l='3027' u='c'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='97' type='bufferevent_data_cb'/>
+<offset>2560</offset>
+<use f='codebrowser/bufferevent.c' l='147' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='149' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='185' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='186' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='226' u='r' c='bufferevent_run_readcb_'/>
+<use f='codebrowser/bufferevent.c' l='232' u='r' c='bufferevent_run_readcb_'/>
+<use f='codebrowser/bufferevent.c' l='373' u='w' c='bufferevent_setcb'/>
+<use f='codebrowser/bufferevent.c' l='390' u='r' c='bufferevent_getcb'/>

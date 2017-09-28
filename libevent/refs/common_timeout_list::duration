@@ -1,0 +1,11 @@
+<dec f='codebrowser/event-internal.h' l='168' type='struct timeval'/>
+<offset>128</offset>
+<doc f='codebrowser/event-internal.h' l='166'>/* &apos;magic&apos; timeval used to indicate the duration of events in this
+	 * queue. */</doc>
+<use f='codebrowser/event.c' l='1465' u='m' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1467' u='m' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1468' u='a' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1469' u='a' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1498' u='m' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1499' u='m' c='event_base_init_common_timeout'/>
+<use f='codebrowser/event.c' l='1508' u='a' c='event_base_init_common_timeout'/>

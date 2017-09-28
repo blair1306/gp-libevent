@@ -1,0 +1,5 @@
+<dec f='codebrowser/changelist-internal.h' l='86' type='void event_changelist_init_(struct event_changelist * changelist)'/>
+<doc f='codebrowser/changelist-internal.h' l='85'>/** Set up the data fields in a changelist. */</doc>
+<use f='codebrowser/event.c' l='613' u='c' c='event_base_new_with_config'/>
+<def f='codebrowser/evmap.c' l='696' ll='702' type='void event_changelist_init_(struct event_changelist * changelist)'/>
+<use f='codebrowser/evmap.c' l='793' u='c' c='event_changelist_freemem_'/>

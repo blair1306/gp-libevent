@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event-config.h' l='462'/>
+<use f='codebrowser/include/event2/util.h' l='276' u='c'/>
+<use f='codebrowser/include/event2/util.h' l='279' u='c'/>
+<use f='codebrowser/evbuffer-internal.h' l='158' u='c'/>
+<use f='codebrowser/evbuffer-internal.h' l='163' u='c'/>
+<doc f='codebrowser/include/event2/event-config.h' l='461'>/* The size of `size_t&apos;, as computed by sizeof. */</doc>

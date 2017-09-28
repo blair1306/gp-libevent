@@ -1,0 +1,3 @@
+<dec f='include/openssl/x509v3.h' l='115' type='X509V3_EXT_I2S'/>
+<offset>384</offset>
+<doc f='include/openssl/x509v3.h' l='114'>/* The following pair is used for string extensions */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/ht-internal.h' l='121'/>
+<doc f='codebrowser/ht-internal.h' l='120'>/* Helper: alias for the bucket containing &apos;elm&apos;. */</doc>

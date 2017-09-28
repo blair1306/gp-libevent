@@ -1,0 +1,15 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='896'/>
+<use f='codebrowser/evdns.c' l='3438' u='c'/>
+<use f='codebrowser/evdns.c' l='3440' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='210' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='220' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1579' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='983' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='987' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='991' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3155' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3169' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3185' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3240' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='4363' u='c'/>
+<use f='codebrowser/test/tinytest.c' l='300' u='c'/>

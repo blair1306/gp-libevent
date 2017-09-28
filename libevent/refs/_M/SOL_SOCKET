@@ -1,0 +1,10 @@
+<dec f='include/asm-generic/socket.h' l='7'/>
+<doc f='include/asm-generic/socket.h' l='6'>/* For setsockopt(2) */</doc>
+<use f='codebrowser/evutil.c' l='367' u='c'/>
+<use f='codebrowser/evutil.c' l='381' u='c'/>
+<use f='codebrowser/evutil.c' l='569' u='c'/>
+<use f='codebrowser/http.c' l='1569' u='c'/>
+<use f='codebrowser/http.c' l='4333' u='c'/>
+<use f='codebrowser/listener.c' l='230' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='120' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='125' u='c'/>

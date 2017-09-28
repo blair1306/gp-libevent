@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/http.h' l='266' type='int evhttp_del_cb(struct evhttp * , const char * )'/>
+<use f='codebrowser/evrpc.c' l='270' u='c' c='evrpc_unregister_rpc'/>
+<def f='codebrowser/http.c' l='3883' ll='3900' type='int evhttp_del_cb(struct evhttp * http, const char * uri)'/>
+<use f='codebrowser/test/regress_http.c' l='3830' u='c' c='http_primitives'/>
+<use f='codebrowser/test/regress_http.c' l='3831' u='c' c='http_primitives'/>
+<use f='codebrowser/test/regress_http.c' l='4261' u='c' c='http_terminate_chunked_test_impl'/>

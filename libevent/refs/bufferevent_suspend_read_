@@ -1,0 +1,16 @@
+<dec f='codebrowser/bufferevent-internal.h' l='330' type='void bufferevent_suspend_read_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<def f='codebrowser/bufferevent.c' l='66' ll='76' type='void bufferevent_suspend_read_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<use f='codebrowser/bufferevent.c' l='128' macro='1' u='c'/>
+<use f='codebrowser/bufferevent.c' l='602' macro='1' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='223' u='c' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_filter.c' l='295' u='c' c='be_filter_disable'/>
+<use f='codebrowser/bufferevent_openssl.c' l='427' u='c' c='stop_reading'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1393' u='c' c='bufferevent_openssl_new_impl'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='241' u='c' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='284' u='c' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='365' u='c' c='bev_group_suspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='618' u='c' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='774' u='c' c='bufferevent_add_to_rate_limit_group'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='984' u='c' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_sock.c' l='176' macro='1' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='521' u='c' c='bufferevent_socket_connect_hostname'/>

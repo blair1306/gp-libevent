@@ -1,0 +1,5 @@
+<dec f='codebrowser/listener.c' l='84' type='unsigned int'/>
+<use f='codebrowser/listener.c' l='291' u='w' c='evconnlistener_enable'/>
+<use f='codebrowser/listener.c' l='305' u='w' c='evconnlistener_disable'/>
+<use f='codebrowser/listener.c' l='369' u='r' c='evconnlistener_set_cb'/>
+<offset>416</offset>

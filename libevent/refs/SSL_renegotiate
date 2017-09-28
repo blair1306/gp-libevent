@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='2394' type='int SSL_renegotiate(SSL * s)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1121' u='c' c='bufferevent_ssl_renegotiate'/>
+<use f='codebrowser/test/regress_ssl.c' l='282' u='c' c='respond_to_number'/>

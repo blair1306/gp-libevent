@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='621'/>
+<doc f='include/openssl/ssl.h' l='620'>/* As server, disallow session resumption on renegotiation */</doc>

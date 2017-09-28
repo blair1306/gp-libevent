@@ -1,0 +1,11 @@
+<dec f='codebrowser/evbuffer-internal.h' l='144' type='int'/>
+<use f='codebrowser/buffer.c' l='370' u='w' c='evbuffer_new'/>
+<use f='codebrowser/buffer.c' l='398' u='w' c='evbuffer_incref_'/>
+<use f='codebrowser/buffer.c' l='406' u='w' c='evbuffer_incref_and_lock_'/>
+<use f='codebrowser/buffer.c' l='565' u='r' c='evbuffer_decref_and_unlock_'/>
+<use f='codebrowser/buffer.c' l='567' u='w' c='evbuffer_decref_and_unlock_'/>
+<offset>576</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='140'>/** A reference count on this evbuffer.	 When the reference count
+	 * reaches 0, the buffer is destroyed.	Manipulated with
+	 * evbuffer_incref and evbuffer_decref_and_unlock and
+	 * evbuffer_free. */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='207'/>
+<use f='codebrowser/evdns.c' l='3952' u='c'/>
+<use f='codebrowser/evdns.c' l='3959' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='206'>/** Flag for evdns_base_new: process resolv.conf.  */</doc>

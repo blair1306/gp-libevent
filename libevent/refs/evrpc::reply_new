@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='76' type='void *(*)(void *)'/>
+<use f='codebrowser/evrpc.c' l='364' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='1123' u='w' c='evrpc_register_object'/>
+<offset>448</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='75'>/* creates a new reply structure */</doc>

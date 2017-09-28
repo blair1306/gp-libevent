@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='744'/>
+<doc f='include/openssl/ssl.h' l='743'>/* Clear verification errors from queue */</doc>

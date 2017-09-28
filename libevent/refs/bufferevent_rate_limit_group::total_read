@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='104' type='uint64_t'/>
+<offset>768</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='298' u='w' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1073' u='r' c='bufferevent_rate_limit_group_get_totals'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1081' u='w' c='bufferevent_rate_limit_group_reset_totals'/>

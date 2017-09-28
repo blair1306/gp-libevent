@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/http.h' l='629' type='void evhttp_request_free(struct evhttp_request * req)'/>
+<use f='codebrowser/evrpc.c' l='947' u='c' c='evrpc_reply_done_closure'/>
+<use f='codebrowser/http.c' l='707' u='c' c='evhttp_request_free_auto'/>
+<use f='codebrowser/http.c' l='2735' u='c' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='2790' u='c' c='evhttp_send'/>
+<use f='codebrowser/http.c' l='2880' u='c' c='evhttp_send_reply_end'/>
+<use f='codebrowser/http.c' l='3968' u='c' c='evhttp_request_new'/>
+<def f='codebrowser/http.c' l='3972' ll='4004' type='void evhttp_request_free(struct evhttp_request * req)'/>
+<use f='codebrowser/http.c' l='4220' u='c' c='evhttp_associate_new_request_with_connection'/>
+<use f='codebrowser/test/regress_http.c' l='267' u='c' c='http_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='623' u='c' c='http_badreq_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='3206' u='c' c='http_chunked_errorcb'/>
+<use f='codebrowser/test/regress_http.c' l='4177' u='c' c='terminate_chunked_trickle_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4205' u='c' c='terminate_chunked_close_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4508' u='c' c='http_request_own_test'/>

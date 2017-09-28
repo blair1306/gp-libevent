@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/dns.h' l='148'/>
+<use f='codebrowser/evdns.c' l='793' u='c'/>
+<use f='codebrowser/evdns.c' l='803' u='c'/>
+<use f='codebrowser/evdns.c' l='811' u='c'/>
+<use f='codebrowser/evdns.c' l='2306' u='c'/>
+<use f='codebrowser/evdns.c' l='3995' u='c'/>
+<use f='codebrowser/evdns.c' l='4272' u='c'/>
+<use f='codebrowser/evdns.c' l='4448' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='147'>/** Error codes 0-5 are as described in RFC 1035. */</doc>
+<use f='codebrowser/test/regress_dns.c' l='94' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='302' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='781' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='855' u='c'/>

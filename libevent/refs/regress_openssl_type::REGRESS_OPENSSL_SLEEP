@@ -1,0 +1,7 @@
+<dec f='codebrowser/test/regress_ssl.c' l='229' type='1024'/>
+<use f='codebrowser/test/regress_ssl.c' l='542' u='r' c='acceptcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='718' u='r' c='regress_bufferevent_openssl_connect'/>
+<use f='codebrowser/test/regress_ssl.c' l='809'/>
+<use f='codebrowser/test/regress_ssl.c' l='809'/>
+<use f='codebrowser/test/regress_ssl.c' l='809'/>
+<use f='codebrowser/test/regress_ssl.c' l='809'/>

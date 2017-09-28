@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='108' type='unsigned int'/>
+<offset>1152</offset>
+<use f='codebrowser/http.c' l='1034' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1078' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1476' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2187' u='w' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2833' u='w' c='evhttp_send_reply_start'/>
+<use f='codebrowser/http.c' l='2835' u='w' c='evhttp_send_reply_start'/>
+<use f='codebrowser/http.c' l='2857' u='r' c='evhttp_send_reply_chunk_with_cb'/>
+<use f='codebrowser/http.c' l='2862' u='r' c='evhttp_send_reply_chunk_with_cb'/>
+<use f='codebrowser/http.c' l='2889' u='r' c='evhttp_send_reply_end'/>
+<use f='codebrowser/http.c' l='2892' u='w' c='evhttp_send_reply_end'/>

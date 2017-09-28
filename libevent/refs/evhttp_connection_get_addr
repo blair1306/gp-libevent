@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='776' type='const struct sockaddr * evhttp_connection_get_addr(struct evhttp_connection * evcon)'/>
+<def f='codebrowser/http.c' l='2516' ll='2520' type='const struct sockaddr * evhttp_connection_get_addr(struct evhttp_connection * evcon)'/>
+<use f='codebrowser/http.c' l='2527' u='c' c='evhttp_connection_connect_'/>
+<use f='codebrowser/test/regress_http.c' l='4359' u='c' c='http_request_get_addr_on_close'/>

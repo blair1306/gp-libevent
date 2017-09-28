@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/http.h' l='1086' type='int evhttp_uri_set_host(struct evhttp_uri * uri, const char * host)'/>
+<def f='codebrowser/http.c' l='4973' ll='4988' type='int evhttp_uri_set_host(struct evhttp_uri * uri, const char * host)'/>
+<use f='codebrowser/sample/http-connect.c' l='97' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='2537' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2565' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2566' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2567' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2577' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2578' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2579' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2580' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2581' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2582' u='c' c='http_parse_uri_test'/>

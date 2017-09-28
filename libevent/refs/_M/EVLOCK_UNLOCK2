@@ -1,0 +1,2 @@
+<dec f='codebrowser/evthread-internal.h' l='360'/>
+<doc f='codebrowser/evthread-internal.h' l='359'>/** Release both lock1 and lock2.  */</doc>

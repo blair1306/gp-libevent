@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='175' type='void evhttp_foreach_bound_socket(struct evhttp * http, evhttp_bound_socket_foreach_fn * function, void * argument)'/>
+<def f='codebrowser/http.c' l='3537' ll='3546' type='void evhttp_foreach_bound_socket(struct evhttp * http, evhttp_bound_socket_foreach_fn * function, void * argument)'/>

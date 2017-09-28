@@ -1,0 +1,6 @@
+<dec f='include/netdb.h' l='598'/>
+<use f='codebrowser/include/event2/util.h' l='739' u='a'/>
+<doc f='include/netdb.h' l='597'>/* Possible values for `ai_flags&apos; field in `addrinfo&apos; structure.  */</doc>
+<use f='codebrowser/evutil.c' l='1086' u='a'/>
+<use f='codebrowser/evutil.c' l='1110' u='a'/>
+<use f='codebrowser/evutil.c' l='1111' u='c'/>

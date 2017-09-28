@@ -1,0 +1,8 @@
+<dec f='include/openssl/ssl.h' l='1662' type='unsigned int'/>
+<offset>5312</offset>
+<doc f='include/openssl/ssl.h' l='1656'>/*-
+         * Is use of the Heartbeat extension negotiated?
+         * 0: disabled
+         * 1: enabled
+         * 2: enabled, but not allowed to send Requests
+         */</doc>

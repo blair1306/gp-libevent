@@ -1,0 +1,17 @@
+<dec f='include/netinet/in.h' l='56' type='17'/>
+<doc f='include/netinet/in.h' l='56'>/* User Datagram Protocol.  */</doc>
+<use f='codebrowser/evutil.c' l='767' macro='1' u='r'/>
+<use f='codebrowser/evutil.c' l='776' macro='1' u='r'/>
+<use f='codebrowser/evutil.c' l='816' macro='1' u='r'/>
+<use f='codebrowser/evutil.c' l='902' macro='1' c='evutil_unparse_protoname'/>
+<use f='codebrowser/evutil.c' l='926' macro='1' u='r'/>
+<use f='codebrowser/evutil.c' l='933' macro='1' u='r'/>
+<use f='codebrowser/evutil.c' l='1342' macro='1' u='r'/>
+<use f='codebrowser/test/regress_dns.c' l='1425' macro='1' u='r'/>
+<use f='codebrowser/test/regress_dns.c' l='1427' macro='1' u='r'/>
+<use f='codebrowser/test/regress_dns.c' l='1445' macro='1' u='r'/>
+<use f='codebrowser/test/regress_dns.c' l='1449' macro='1' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='945' macro='1' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='950' macro='1' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='1019' macro='1' u='r'/>
+<use f='codebrowser/test/regress_util.c' l='1021' macro='1' u='r'/>

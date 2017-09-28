@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2131' type='SSL_CTX * SSL_CTX_new(const SSL_METHOD * meth)'/>
+<use f='codebrowser/sample/https-client.c' l='332' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='276' u='c' c='main'/>
+<use f='codebrowser/test/regress_ssl.c' l='172' u='c' c='get_ssl_ctx'/>

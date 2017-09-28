@@ -1,0 +1,5 @@
+<dec f='codebrowser/http-internal.h' l='158' type='size_t'/>
+<offset>960</offset>
+<use f='codebrowser/http.c' l='3827' u='w' c='evhttp_set_max_headers_size'/>
+<use f='codebrowser/http.c' l='3829' u='w' c='evhttp_set_max_headers_size'/>
+<use f='codebrowser/http.c' l='4193' u='r' c='evhttp_get_request_connection'/>

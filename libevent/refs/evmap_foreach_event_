@@ -1,0 +1,8 @@
+<dec f='codebrowser/evmap-internal.h' l='113' type='int evmap_foreach_event_(struct event_base * base, event_base_foreach_event_cb fn, void * arg)'/>
+<doc f='codebrowser/evmap-internal.h' l='108'>/* Helper: Call fn on every fd or signal event, passing as its arguments the
+ * provided event_base, the event, and arg.  If fn returns 0, process the next
+ * event.  If it returns any other value, return that value and process no
+ * more events.
+ */</doc>
+<use f='codebrowser/event.c' l='3638' u='c' c='event_base_foreach_event_nolock_'/>
+<def f='codebrowser/evmap.c' l='1043' ll='1054' type='int evmap_foreach_event_(struct event_base * base, event_base_foreach_event_cb fn, void * arg)'/>

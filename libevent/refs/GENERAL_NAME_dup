@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='526' type='GENERAL_NAME * GENERAL_NAME_dup(GENERAL_NAME * a)'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/http.h' l='1021' type='char * evhttp_htmlescape(const char * html)'/>
+<def f='codebrowser/http.c' l='256' ll='295' type='char * evhttp_htmlescape(const char * html)'/>
+<use f='codebrowser/http.c' l='3458' u='c' c='evhttp_handle_request'/>
+<doc f='codebrowser/http.c' l='249'>/*
+ * Replaces &lt;, &gt;, &quot;, &apos; and &amp; with &amp;lt;, &amp;gt;, &amp;quot;,
+ * &amp;#039; and &amp;amp; correspondingly.
+ *
+ * The returned string needs to be freed by the caller.
+ */</doc>
+<use f='codebrowser/test/regress_http.c' l='3817' u='c' c='http_primitives'/>
+<use f='codebrowser/test/regress_http.c' l='3822' u='c' c='http_primitives'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='115' type='void *'/>
+<offset>1344</offset>
+<use f='codebrowser/http.c' l='695' u='r' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='750' u='r' c='evhttp_connection_fail_'/>
+<use f='codebrowser/http.c' l='755' u='r' c='evhttp_connection_fail_'/>
+<use f='codebrowser/http.c' l='856' u='r' c='evhttp_connection_done'/>
+<use f='codebrowser/http.c' l='966' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1089' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1425' u='r' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='2275' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='3962' u='w' c='evhttp_request_new'/>

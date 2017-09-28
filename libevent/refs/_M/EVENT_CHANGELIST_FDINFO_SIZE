@@ -1,0 +1,4 @@
+<dec f='codebrowser/changelist-internal.h' l='83'/>
+<use f='codebrowser/epoll.c' l='108' u='c'/>
+<doc f='codebrowser/changelist-internal.h' l='81'>/* The value of fdinfo_size that a backend should use if it is letting
+ * changelist handle its add and delete functions. */</doc>

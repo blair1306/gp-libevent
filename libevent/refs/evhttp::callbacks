@@ -1,0 +1,14 @@
+<dec f='codebrowser/http-internal.h' l='144' type='struct httpcbq'/>
+<offset>256</offset>
+<use f='codebrowser/http.c' l='3437' u='a' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3629' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3629' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3629' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3693' u='a' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3694' u='a' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3859' u='a' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3878' u='a' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3878' u='a' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3878' u='a' c='evhttp_set_cb'/>
+<use f='codebrowser/http.c' l='3888' u='a' c='evhttp_del_cb'/>
+<use f='codebrowser/http.c' l='3895' u='a' c='evhttp_del_cb'/>

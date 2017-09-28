@@ -1,0 +1,5 @@
+<def f='codebrowser/test/tinytest.h' l='63' ll='66'/>
+<size>16</size>
+<doc f='codebrowser/test/tinytest.h' l='62'>/** A group of tests that are selectable together. */</doc>
+<mbr r='testgroup_t::prefix' o='0' t='const char *'/>
+<mbr r='testgroup_t::cases' o='64' t='struct testcase_t *'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='593' macro='1' type='void NAME_CONSTRAINTS_free(NAME_CONSTRAINTS * a)'/>

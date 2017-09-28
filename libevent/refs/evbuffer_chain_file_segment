@@ -1,0 +1,5 @@
+<def f='codebrowser/evbuffer-internal.h' l='226' ll='232'/>
+<size>8</size>
+<doc f='codebrowser/evbuffer-internal.h' l='224'>/** File segment for a file-segment chain.  Lives at the end of an
+ * evbuffer_chain with the EVBUFFER_FILESEGMENT flag set.  */</doc>
+<mbr r='evbuffer_chain_file_segment::segment' o='0' t='struct evbuffer_file_segment *'/>

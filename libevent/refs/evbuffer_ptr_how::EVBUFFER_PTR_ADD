@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/buffer.h' l='776' type='1'/>
+<use f='codebrowser/buffer.c' l='2625' c='evbuffer_ptr_set'/>
+<doc f='codebrowser/include/event2/buffer.h' l='775'>/** Advances the pointer by adding to the current position. */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1458' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1479' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1599' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1628' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1632' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1634' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1636' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1638' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1695' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='2141' u='r' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2247' u='r' c='test_evbuffer_peek'/>

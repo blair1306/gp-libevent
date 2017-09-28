@@ -1,0 +1,13 @@
+<dec f='codebrowser/bufferevent-internal.h' l='266' type='off_t'/>
+<offset>64</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='256'>/** At what offset into the implementation type will we find a
+	    bufferevent structure?
+
+	    Example: if the type is implemented as
+	    struct bufferevent_x {
+	       int extra_data;
+	       struct bufferevent bev;
+	    }
+	    then mem_offset should be offsetof(struct bufferevent_x, bev)
+	*/</doc>
+<use f='codebrowser/bufferevent.c' l='762' u='r' c='bufferevent_finalize_cb_'/>

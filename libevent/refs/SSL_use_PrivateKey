@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2178' type='int SSL_use_PrivateKey(SSL * ssl, EVP_PKEY * pkey)'/>
+<use f='codebrowser/test/regress_http.c' l='123' u='c' c='https_bev'/>
+<use f='codebrowser/test/regress_ssl.c' l='429' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='530' u='c' c='acceptcb'/>

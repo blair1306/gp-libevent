@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='548' type='int bufferevent_getwatermark(struct bufferevent * bufev, short events, size_t * lowmark, size_t * highmark)'/>
+<def f='codebrowser/bufferevent.c' l='617' ll='641' type='int bufferevent_getwatermark(struct bufferevent * bufev, short events, size_t * lowmark, size_t * highmark)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='418' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='420' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='429' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='437' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='442' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1088' u='c' c='trigger_readcb'/>

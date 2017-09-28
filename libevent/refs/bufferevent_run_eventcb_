@@ -1,0 +1,20 @@
+<dec f='codebrowser/bufferevent-internal.h' l='396' type='void bufferevent_run_eventcb_(struct bufferevent * bufev, short what, int options)'/>
+<def f='codebrowser/bufferevent.c' l='265' ll='280' type='void bufferevent_run_eventcb_(struct bufferevent * bufev, short what, int options)'/>
+<use f='codebrowser/bufferevent.c' l='286' u='c' c='bufferevent_trigger_event'/>
+<use f='codebrowser/bufferevent.c' l='925' u='c' c='bufferevent_generic_read_timeout_cb'/>
+<use f='codebrowser/bufferevent.c' l='934' u='c' c='bufferevent_generic_write_timeout_cb'/>
+<use f='codebrowser/bufferevent_filter.c' l='566' u='c' c='be_filter_eventcb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='543' u='c' c='conn_closed'/>
+<use f='codebrowser/bufferevent_openssl.c' l='935' u='c' c='be_openssl_eventcb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='944' u='c' c='be_openssl_readeventcb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='958' u='c' c='be_openssl_writeeventcb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1039' u='c' c='do_handshake'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1073' u='c' c='be_openssl_handshakeeventcb'/>
+<use f='codebrowser/bufferevent_pair.c' l='333' u='c' c='be_pair_flush'/>
+<use f='codebrowser/bufferevent_sock.c' l='221' u='c' c='bufferevent_readcb'/>
+<use f='codebrowser/bufferevent_sock.c' l='263' u='c' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='277' u='c' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='336' u='c' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='442' u='c' c='bufferevent_socket_connect'/>
+<use f='codebrowser/bufferevent_sock.c' l='449' u='c' c='bufferevent_socket_connect'/>
+<use f='codebrowser/bufferevent_sock.c' l='480' u='c' c='bufferevent_connect_getaddrinfo_cb'/>

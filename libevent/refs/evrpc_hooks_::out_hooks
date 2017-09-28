@@ -1,0 +1,16 @@
+<dec f='codebrowser/evrpc-internal.h' l='63' type='struct evrpc_hook_list'/>
+<use f='codebrowser/evrpc.c' l='83' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='83' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='83' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='112' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='133' u='a' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='178' u='a' c='evrpc_remove_hook'/>
+<use f='codebrowser/evrpc.c' l='426' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='432' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='519' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='519' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='519' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='565' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='677' macro='1' u='a'/>
+<use f='codebrowser/evrpc.c' l='683' macro='1' u='a'/>
+<offset>128</offset>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/http-internal.h' l='95' macro='1' type='struct evhttp_request *'/>
+<use f='codebrowser/evrpc.c' l='641' macro='1' u='r'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='726' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='771' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='809' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='825' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='869' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1118' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1180' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1217' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1284' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1411' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='1411' macro='1' u='a'/>
+<use f='codebrowser/http.c' l='1412' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1413' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1419' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1420' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1458' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1512' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2375' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='2375' macro='1' u='a'/>
+<use f='codebrowser/http.c' l='2649' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2661' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2722' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='2794' macro='1' u='r'/>

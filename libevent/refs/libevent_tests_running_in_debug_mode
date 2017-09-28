@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/regress.h' l='86' type='int'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='287' u='r' c='lock_unlock_free_thread_cbs'/>
+<use f='codebrowser/test/regress_et.c' l='166' u='r' c='test_edgetriggered_mix_error'/>
+<def f='codebrowser/test/regress_main.c' l='416' type='int'/>
+<use f='codebrowser/test/regress_main.c' l='447' u='w' c='main'/>

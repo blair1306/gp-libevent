@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http.h' l='755' type='void evhttp_connection_set_retries(struct evhttp_connection * evcon, int retry_max)'/>
+<def f='codebrowser/http.c' l='2493' ll='2498' type='void evhttp_connection_set_retries(struct evhttp_connection * evcon, int retry_max)'/>
+<use f='codebrowser/sample/https-client.c' l='428' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='3710' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='3739' u='c' c='http_connection_retry_test_basic'/>

@@ -1,0 +1,8 @@
+<def f='codebrowser/event-internal.h' l='151' ll='157'/>
+<size>16</size>
+<doc f='codebrowser/event-internal.h' l='147'>/* Used to map signal numbers to a list of events.  If EVMAP_USE_HT is not
+   defined, this structure is also used as event_io_map, which maps fds to a
+   list of events.
+*/</doc>
+<mbr r='event_signal_map::entries' o='0' t='void **'/>
+<mbr r='event_signal_map::nentries' o='64' t='int'/>

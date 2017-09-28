@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event-config.h' l='149'/>
+<doc f='codebrowser/include/event2/event-config.h' l='148'>/* Define to 1 if you have the `getprotobynumber&apos; function. */</doc>
+<use f='codebrowser/evutil.c' l='909' u='a'/>

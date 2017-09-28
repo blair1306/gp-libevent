@@ -1,0 +1,15 @@
+<dec f='codebrowser/changelist-internal.h' l='64' type='uint8_t'/>
+<use f='codebrowser/epoll.c' l='275' macro='1' u='r'/>
+<use f='codebrowser/epoll.c' l='284' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='261' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='262' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='261' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='262' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='381' u='w' c='epoll_nochangelist_add'/>
+<use f='codebrowser/epoll.c' l='383' u='w' c='epoll_nochangelist_add'/>
+<use f='codebrowser/epoll.c' l='402' u='w' c='epoll_nochangelist_del'/>
+<use f='codebrowser/epoll.c' l='404' u='w' c='epoll_nochangelist_del'/>
+<offset>56</offset>
+<use f='codebrowser/evmap.c' l='877' u='w' c='event_changelist_add_'/>
+<use f='codebrowser/evmap.c' l='926' u='w' c='event_changelist_del_'/>
+<use f='codebrowser/evmap.c' l='928' u='w' c='event_changelist_del_'/>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/event-internal.h' l='354' type='const char *'/>
+<offset>128</offset>
+<use f='codebrowser/event.c' l='501' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='502' u='r' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='1112' u='r' c='event_config_entry_free'/>
+<use f='codebrowser/event.c' l='1113' u='r' c='event_config_entry_free'/>
+<use f='codebrowser/event.c' l='1145' u='w' c='event_config_avoid_method'/>

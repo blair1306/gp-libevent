@@ -1,0 +1,4 @@
+<dec f='codebrowser/evrpc-internal.h' l='110' type='size_t'/>
+<use f='codebrowser/evrpc.c' l='1043' u='w' c='evrpc_hook_add_meta'/>
+<use f='codebrowser/evrpc.c' l='1063' u='r' c='evrpc_hook_find_meta'/>
+<offset>256</offset>

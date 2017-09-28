@@ -1,0 +1,13 @@
+<def f='codebrowser/evdns.c' l='157' ll='169'/>
+<size>48</size>
+<doc f='codebrowser/evdns.c' l='153'>/* Persistent handle.  We keep this separate from &apos;struct request&apos; since we
+ * need some object to last for as long as an evdns_request is outstanding so
+ * that it can be canceled, whereas a search request can lead to multiple
+ * &apos;struct request&apos; instances being created over its lifetime. */</doc>
+<mbr r='evdns_request::current_req' o='0' t='struct request *'/>
+<mbr r='evdns_request::base' o='64' t='struct evdns_base *'/>
+<mbr r='evdns_request::pending_cb' o='128' t='int'/>
+<mbr r='evdns_request::search_index' o='160' t='int'/>
+<mbr r='evdns_request::search_state' o='192' t='struct search_state *'/>
+<mbr r='evdns_request::search_origname' o='256' t='char *'/>
+<mbr r='evdns_request::search_flags' o='320' t='int'/>

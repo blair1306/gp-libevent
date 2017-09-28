@@ -1,0 +1,14 @@
+<dec f='codebrowser/bufferevent-internal.h' l='420' type='int bufferevent_add_event_(struct event * ev, const struct timeval * tv)'/>
+<use f='codebrowser/bufferevent.c' l='977' u='c' c='bufferevent_generic_adj_existing_timeouts_'/>
+<use f='codebrowser/bufferevent.c' l='985' u='c' c='bufferevent_generic_adj_existing_timeouts_'/>
+<def f='codebrowser/bufferevent.c' l='994' ll='1001' type='int bufferevent_add_event_(struct event * ev, const struct timeval * tv)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='391' u='c' c='start_reading'/>
+<use f='codebrowser/bufferevent_openssl.c' l='393' u='c' c='start_reading'/>
+<use f='codebrowser/bufferevent_openssl.c' l='413' u='c' c='start_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='415' u='c' c='start_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1006' u='c' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1008' u='c' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1141' u='c' c='be_openssl_outbuf_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='139' u='c' c='bufferevent_socket_outbuf_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='576' u='c' c='be_socket_enable'/>
+<use f='codebrowser/bufferevent_sock.c' l='579' u='c' c='be_socket_enable'/>

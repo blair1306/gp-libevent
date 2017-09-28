@@ -1,0 +1,11 @@
+<def f='codebrowser/include/event2/thread.h' l='140' ll='170'/>
+<size>40</size>
+<doc f='codebrowser/include/event2/thread.h' l='136'>/** This structure describes the interface a threading library uses for
+ * condition variables.  It&apos;s used to tell evthread_set_condition_callbacks
+ * how to use locking on this platform.
+ */</doc>
+<mbr r='evthread_condition_callbacks::condition_api_version' o='0' t='int'/>
+<mbr r='evthread_condition_callbacks::alloc_condition' o='64' t='void *(*)(unsigned int)'/>
+<mbr r='evthread_condition_callbacks::free_condition' o='128' t='void (*)(void *)'/>
+<mbr r='evthread_condition_callbacks::signal_condition' o='192' t='int (*)(void *, int)'/>
+<mbr r='evthread_condition_callbacks::wait_condition' o='256' t='int (*)(void *, void *, const struct timeval *)'/>

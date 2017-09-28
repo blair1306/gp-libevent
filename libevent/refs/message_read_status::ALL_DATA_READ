@@ -1,0 +1,12 @@
+<dec f='codebrowser/http-internal.h' l='25' type='1'/>
+<use f='codebrowser/http.c' l='946' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='989' c='evhttp_read_trailer'/>
+<use f='codebrowser/http.c' l='1036' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1981' u='r' c='evhttp_parse_firstline_'/>
+<use f='codebrowser/http.c' l='2071' u='r' c='evhttp_parse_headers_'/>
+<use f='codebrowser/test/regress_http.c' l='254' u='r' c='http_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='258' u='r' c='http_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='610' u='r' c='http_badreq_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='614' u='r' c='http_badreq_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='3130' u='r' c='http_chunked_errorcb'/>
+<use f='codebrowser/test/regress_http.c' l='3134' u='r' c='http_chunked_errorcb'/>

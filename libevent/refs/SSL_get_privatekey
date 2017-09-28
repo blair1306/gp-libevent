@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2429' type='struct evp_pkey_st * SSL_get_privatekey(const SSL * ssl)'/>
+<doc f='include/openssl/ssl.h' l='2427'>/*
+ * EVP_PKEY
+ */</doc>

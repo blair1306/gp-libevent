@@ -1,0 +1,8 @@
+<dec f='include/netinet/in.h' l='256' macro='1' type='sa_family_t'/>
+<offset>0</offset>
+<use f='codebrowser/evdns.c' l='4513' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evutil.c' l='758' u='w' c='evutil_check_interfaces'/>
+<use f='codebrowser/evutil.c' l='996' u='w' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1041' u='w' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='2141' u='w' c='evutil_parse_sockaddr_port'/>
+<use f='codebrowser/test/regress_util.c' l='270' u='w' c='regress_sockaddr_port_parse'/>

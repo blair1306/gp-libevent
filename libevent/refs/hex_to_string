@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='683' type='char * hex_to_string(const unsigned char * buffer, long len)'/>

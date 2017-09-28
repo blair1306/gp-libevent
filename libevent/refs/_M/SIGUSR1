@@ -1,0 +1,17 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='42'/>
+<use f='codebrowser/test/regress.c' l='929' u='c'/>
+<use f='codebrowser/test/regress.c' l='931' u='c'/>
+<use f='codebrowser/test/regress.c' l='963' u='c'/>
+<use f='codebrowser/test/regress.c' l='965' u='c'/>
+<use f='codebrowser/test/regress.c' l='1138' u='c'/>
+<use f='codebrowser/test/regress.c' l='1140' u='c'/>
+<use f='codebrowser/test/regress.c' l='1152' u='c'/>
+<use f='codebrowser/test/regress.c' l='1198' u='c'/>
+<use f='codebrowser/test/regress.c' l='1199' u='c'/>
+<use f='codebrowser/test/regress.c' l='1213' u='c'/>
+<use f='codebrowser/test/regress.c' l='1226' u='c'/>
+<use f='codebrowser/test/regress.c' l='1289' u='c'/>
+<use f='codebrowser/test/regress.c' l='1295' u='c'/>
+<use f='codebrowser/test/regress.c' l='1299' u='c'/>
+<use f='codebrowser/test/regress.c' l='1326' u='c'/>
+<use f='codebrowser/test/regress.c' l='1344' u='c'/>

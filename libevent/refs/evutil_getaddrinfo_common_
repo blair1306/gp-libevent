@@ -1,0 +1,17 @@
+<dec f='codebrowser/util-internal.h' l='409' type='int evutil_getaddrinfo_common_(const char * nodename, const char * servname, struct addrinfo * hints, struct addrinfo ** res, int * portnum)'/>
+<use f='codebrowser/evdns.c' l='4674' u='c' c='evdns_getaddrinfo'/>
+<def f='codebrowser/evutil.c' l='961' ll='1076' type='int evutil_getaddrinfo_common_(const char * nodename, const char * servname, struct addrinfo * hints, struct addrinfo ** res, int * portnum)'/>
+<use f='codebrowser/evutil.c' l='1412' u='c' c='evutil_getaddrinfo'/>
+<doc f='codebrowser/evutil.c' l='948'>/** Implements the part of looking up hosts by name that&apos;s common to both
+ * the blocking and nonblocking resolver:
+ *   - Adjust &apos;hints&apos; to have a reasonable socktype and protocol.
+ *   - Look up the port based on &apos;servname&apos;, and store it in *portnum,
+ *   - Handle the nodename==NULL case
+ *   - Handle some invalid arguments cases.
+ *   - Handle the cases where nodename is an IPv4 or IPv6 address.
+ *
+ * If we need the resolver to look up the hostname, we return
+ * EVUTIL_EAI_NEED_RESOLVE.  Otherwise, we can completely implement
+ * getaddrinfo: we return 0 or an appropriate EVUTIL_EAI_* error, and
+ * set *res as getaddrinfo would.
+ */</doc>

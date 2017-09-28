@@ -1,0 +1,9 @@
+<dec f='codebrowser/event-internal.h' l='221' type='const struct eventop *'/>
+<offset>256</offset>
+<doc f='codebrowser/event-internal.h' l='219'>/** Function pointers used to describe the backend that this event_base
+	 * uses for signals */</doc>
+<use f='codebrowser/evmap.c' l='444' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='454' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='470' u='r' c='evmap_signal_del_'/>
+<use f='codebrowser/evmap.c' l='631' u='r' c='evmap_signal_reinit_iter_fn'/>
+<use f='codebrowser/signal.c' l='204' u='w' c='evsig_init_'/>

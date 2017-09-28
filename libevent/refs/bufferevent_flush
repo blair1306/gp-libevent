@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='615' type='int bufferevent_flush(struct bufferevent * bufev, short iotype, enum bufferevent_flush_mode mode)'/>
+<def f='codebrowser/bufferevent.c' l='643' ll='654' type='int bufferevent_flush(struct bufferevent * bufev, short iotype, enum bufferevent_flush_mode mode)'/>
+<use f='codebrowser/bufferevent_filter.c' l='590' u='c' c='be_filter_flush'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='176' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1217' u='c' c='test_bufferevent_pair_flush'/>
+<use f='codebrowser/test/regress_zlib.c' l='327' u='c' c='test_bufferevent_zlib'/>

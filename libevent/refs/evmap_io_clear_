@@ -1,0 +1,7 @@
+<dec f='codebrowser/evmap-internal.h' l='49' type='void evmap_io_clear_(struct event_signal_map * ctx)'/>
+<doc f='codebrowser/evmap-internal.h' l='45'>/** Remove all entries from an event_map.
+
+	@param ctx the map to clear.
+ */</doc>
+<use f='codebrowser/event.c' l='893' u='c' c='event_base_free_'/>
+<def f='codebrowser/evmap.c' l='192' ll='196' type='void evmap_io_clear_(struct event_signal_map * ctx)'/>

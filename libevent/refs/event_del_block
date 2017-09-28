@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event.h' l='1277' type='int event_del_block(struct event * ev)'/>
+<def f='codebrowser/event.c' l='2746' ll='2750' type='int event_del_block(struct event * ev)'/>

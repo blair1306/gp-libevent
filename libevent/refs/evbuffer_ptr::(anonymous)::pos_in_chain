@@ -1,0 +1,33 @@
+<dec f='codebrowser/include/event2/buffer.h' l='123' type='size_t'/>
+<use f='codebrowser/buffer.c' l='1203' u='r' c='evbuffer_copyout_from'/>
+<use f='codebrowser/buffer.c' l='1470' u='r' c='evbuffer_strchr'/>
+<use f='codebrowser/buffer.c' l='1476' u='w' c='evbuffer_strchr'/>
+<use f='codebrowser/buffer.c' l='1519' u='r' c='evbuffer_find_eol_char'/>
+<use f='codebrowser/buffer.c' l='1525' u='w' c='evbuffer_find_eol_char'/>
+<use f='codebrowser/buffer.c' l='1543' u='r' c='evbuffer_strspn'/>
+<use f='codebrowser/buffer.c' l='1557' u='w' c='evbuffer_strspn'/>
+<use f='codebrowser/buffer.c' l='1567' u='w' c='evbuffer_strspn'/>
+<use f='codebrowser/buffer.c' l='1581' u='r' c='evbuffer_getchr'/>
+<use f='codebrowser/buffer.c' l='139' u='w' c='evbuffer_search_eol'/>
+<use f='codebrowser/buffer.c' l='1613' u='w' c='evbuffer_search_eol'/>
+<use f='codebrowser/buffer.c' l='139' u='w' c='evbuffer_search_eol'/>
+<use f='codebrowser/buffer.c' l='2597' u='r' c='evbuffer_ptr_subtract'/>
+<use f='codebrowser/buffer.c' l='2598' u='w' c='evbuffer_ptr_subtract'/>
+<use f='codebrowser/buffer.c' l='2634' u='r' c='evbuffer_ptr_set'/>
+<use f='codebrowser/buffer.c' l='2646' u='w' c='evbuffer_ptr_set'/>
+<use f='codebrowser/buffer.c' l='2650' u='w' c='evbuffer_ptr_set'/>
+<use f='codebrowser/buffer.c' l='139' u='w' c='evbuffer_ptr_set'/>
+<use f='codebrowser/buffer.c' l='2681' u='r' c='evbuffer_ptr_memcmp'/>
+<use f='codebrowser/buffer.c' l='2723' u='w' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2737' u='r' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2739' u='r' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2742' u='w' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2750' u='w' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2751' u='r' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2753' u='w' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2758' u='r' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2760' u='w' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='139' u='w' c='evbuffer_search_range'/>
+<use f='codebrowser/buffer.c' l='2789' u='r' c='evbuffer_peek'/>
+<use f='codebrowser/buffer.c' l='2793' u='r' c='evbuffer_peek'/>
+<offset>64</offset>

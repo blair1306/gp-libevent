@@ -1,0 +1,5 @@
+<dec f='include/string.h' l='46' type='void * memmove(void * __dest, const void * __src, size_t __n)'/>
+<use f='codebrowser/buffer.c' l='1907' u='c' c='evbuffer_chain_align'/>
+<doc f='include/string.h' l='44'>/* Copy N bytes of SRC to DEST, guaranteeing
+   correct behavior for overlapping strings.  */</doc>
+<use f='codebrowser/evutil.c' l='2053' u='c' c='evutil_inet_pton'/>

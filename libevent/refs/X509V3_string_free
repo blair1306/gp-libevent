@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='647' type='void X509V3_string_free(X509V3_CTX * ctx, char * str)'/>

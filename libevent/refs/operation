@@ -1,0 +1,4 @@
+<def f='codebrowser/epolltable-internal.h' l='136' ll='139'/>
+<size>8</size>
+<mbr r='operation::events' o='0' t='int'/>
+<mbr r='operation::op' o='32' t='int'/>

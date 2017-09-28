@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='971' type='int bufferevent_decrement_write_limit(struct bufferevent * bev, ssize_t decr)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='998' ll='1025' type='int bufferevent_decrement_write_limit(struct bufferevent * bev, ssize_t decr)'/>

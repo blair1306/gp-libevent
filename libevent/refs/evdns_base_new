@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/event2/dns.h' l='226' type='struct evdns_base * evdns_base_new(struct event_base * event_base, int initialize_nameservers)'/>
+<use f='codebrowser/evdns.c' l='2586' u='c' c='evdns_nameserver_add'/>
+<use f='codebrowser/evdns.c' l='2638' u='c' c='evdns_nameserver_ip_add'/>
+<use f='codebrowser/evdns.c' l='3524' u='c' c='evdns_set_option'/>
+<use f='codebrowser/evdns.c' l='3665' u='c' c='evdns_resolv_conf_parse'/>
+<def f='codebrowser/evdns.c' l='3900' ll='3977' type='struct evdns_base * evdns_base_new(struct event_base * event_base, int flags)'/>
+<use f='codebrowser/evdns.c' l='3982' u='c' c='evdns_init'/>
+<use f='codebrowser/sample/dns-example.c' l='189' u='c' c='main'/>
+<use f='codebrowser/test/regress_dns.c' l='200' u='c' c='dns_resolve_reverse'/>
+<use f='codebrowser/test/regress_dns.c' l='383' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='552' u='c' c='dns_search_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='602' u='c' c='dns_search_empty_test'/>
+<use f='codebrowser/test/regress_dns.c' l='660' u='c' c='dns_search_cancel_test'/>
+<use f='codebrowser/test/regress_dns.c' l='737' u='c' c='dns_retry_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='838' u='c' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='917' u='c' c='dns_inflight_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='976' u='c' c='dns_disable_when_inactive_no_ns_test'/>
+<use f='codebrowser/test/regress_dns.c' l='1221' u='c' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1358' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1849' u='c' c='testleak_setup'/>
+<use f='codebrowser/test/regress_dns.c' l='1982' u='c' c='test_getaddrinfo_async_cancel_stress'/>
+<use f='codebrowser/test/regress_dns.c' l='2042' u='c' c='dns_client_fail_requests_test'/>
+<use f='codebrowser/test/regress_dns.c' l='2087' u='c' c='dns_client_fail_requests_getaddrinfo_test'/>
+<use f='codebrowser/test/regress_http.c' l='1154' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1432' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3784' u='c' c='http_connection_retry_conn_address_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4327' u='c' c='http_ipv6_for_domain_test_impl'/>

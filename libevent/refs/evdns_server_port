@@ -1,0 +1,13 @@
+<def f='codebrowser/evdns.c' l='244' ll='259'/>
+<size>184</size>
+<doc f='codebrowser/evdns.c' l='243'>/* only UDP is supported. */</doc>
+<mbr r='evdns_server_port::socket' o='0' t='int'/>
+<mbr r='evdns_server_port::refcnt' o='32' t='int'/>
+<mbr r='evdns_server_port::choked' o='64' t='char'/>
+<mbr r='evdns_server_port::closing' o='72' t='char'/>
+<mbr r='evdns_server_port::user_callback' o='128' t='evdns_request_callback_fn_type'/>
+<mbr r='evdns_server_port::user_data' o='192' t='void *'/>
+<mbr r='evdns_server_port::event' o='256' t='struct event'/>
+<mbr r='evdns_server_port::pending_replies' o='1280' t='struct server_request *'/>
+<mbr r='evdns_server_port::event_base' o='1344' t='struct event_base *'/>
+<mbr r='evdns_server_port::lock' o='1408' t='void *'/>

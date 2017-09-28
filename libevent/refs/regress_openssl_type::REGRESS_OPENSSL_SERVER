@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/regress_ssl.c' l='225' type='128'/>
+<use f='codebrowser/test/regress_ssl.c' l='317' u='r' c='eventcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='388' u='r' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='540' u='r' c='acceptcb'/>

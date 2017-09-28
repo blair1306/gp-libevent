@@ -1,0 +1,5 @@
+<dec f='codebrowser/evrpc-internal.h' l='196' type='void (*)(struct evbuffer *, void *)'/>
+<use f='codebrowser/evrpc.c' l='669' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='848' u='w' c='evrpc_make_request_ctx'/>
+<offset>1728</offset>
+<doc f='codebrowser/evrpc-internal.h' l='195'>/* unmarshals the buffer into the proper request structure */</doc>

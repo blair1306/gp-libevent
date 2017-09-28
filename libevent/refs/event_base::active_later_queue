@@ -1,0 +1,15 @@
+<dec f='codebrowser/event-internal.h' l='269' type='struct evcallback_list'/>
+<offset>2112</offset>
+<doc f='codebrowser/event-internal.h' l='267'>/** A list of event_callbacks that should become active the next time
+	 * we process events, but not this time. */</doc>
+<use f='codebrowser/event.c' l='609' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='609' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='609' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='788' u='a' c='event_base_free_queues_'/>
+<use f='codebrowser/event.c' l='3214' u='a' c='event_queue_remove_active_later'/>
+<use f='codebrowser/event.c' l='3361' u='a' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3361' u='a' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3361' u='a' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3394' u='a' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3395' u='a' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3935' u='a' c='event_base_assert_ok_nolock_'/>

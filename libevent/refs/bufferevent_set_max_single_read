@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='892' type='int bufferevent_set_max_single_read(struct bufferevent * bev, size_t size)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='857' ll='869' type='int bufferevent_set_max_single_read(struct bufferevent * bev, size_t size)'/>

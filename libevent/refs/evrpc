@@ -1,0 +1,17 @@
+<def f='codebrowser/include/event2/rpc_struct.h' l='59' ll='94'/>
+<size>120</size>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='58'>/* Encapsulates a request */</doc>
+<mbr r='evrpc::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/rpc_struct.h:60:2)'/>
+<mbr r='evrpc::uri' o='128' t='const char *'/>
+<mbr r='evrpc::request_new' o='192' t='void *(*)(void *)'/>
+<mbr r='evrpc::request_new_arg' o='256' t='void *'/>
+<mbr r='evrpc::request_free' o='320' t='void (*)(void *)'/>
+<mbr r='evrpc::request_unmarshal' o='384' t='int (*)(void *, struct evbuffer *)'/>
+<mbr r='evrpc::reply_new' o='448' t='void *(*)(void *)'/>
+<mbr r='evrpc::reply_new_arg' o='512' t='void *'/>
+<mbr r='evrpc::reply_free' o='576' t='void (*)(void *)'/>
+<mbr r='evrpc::reply_complete' o='640' t='int (*)(void *)'/>
+<mbr r='evrpc::reply_marshal' o='704' t='void (*)(struct evbuffer *, void *)'/>
+<mbr r='evrpc::cb' o='768' t='void (*)(struct evrpc_req_generic *, void *)'/>
+<mbr r='evrpc::cb_arg' o='832' t='void *'/>
+<mbr r='evrpc::base' o='896' t='struct evrpc_base *'/>

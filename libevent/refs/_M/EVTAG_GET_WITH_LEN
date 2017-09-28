@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/rpc.h' l='121'/>
+<doc f='codebrowser/include/event2/rpc.h' l='112'>/**
+   Returns the value for a member.
+
+   @param msg the message from which to get the value
+   @param member the name of the member variable
+   @param pvalue a pointer to the variable to hold the value
+   @param plen a pointer to the length of the value
+   @return 0 on success, -1 otherwise.
+*/</doc>

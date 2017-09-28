@@ -1,0 +1,23 @@
+<dec f='codebrowser/http-internal.h' l='188' type='void evhttp_connection_fail_(struct evhttp_connection * , enum evhttp_request_error error)'/>
+<use f='codebrowser/evrpc.c' l='976' u='c' c='evrpc_request_timeout'/>
+<def f='codebrowser/http.c' l='721' ll='785' type='void evhttp_connection_fail_(struct evhttp_connection * evcon, enum evhttp_request_error error)'/>
+<use f='codebrowser/http.c' l='987' u='c' c='evhttp_read_trailer'/>
+<use f='codebrowser/http.c' l='1017' u='c' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1026' u='c' c='evhttp_lingering_fail'/>
+<use f='codebrowser/http.c' l='1044' u='c' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1058' u='c' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1439' u='c' c='evhttp_connection_read_on_write_error'/>
+<use f='codebrowser/http.c' l='1521' u='c' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1529' u='c' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1532' u='c' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2191' u='c' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2243' u='c' c='evhttp_read_firstline'/>
+<use f='codebrowser/http.c' l='2266' u='c' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2276' u='c' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2315' u='c' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2665' u='c' c='evhttp_cancel_request'/>
+<doc f='codebrowser/http.c' l='717'>/* Called when evcon has experienced a (non-recoverable? -NM) error, as
+ * given in error. If it&apos;s an outgoing connection, reset the connection,
+ * retry any pending requests, and inform the user.  If it&apos;s incoming,
+ * delegates to evhttp_connection_incoming_fail(). */</doc>
+<use f='codebrowser/test/regress_http.c' l='730' u='c' c='http_large_delay_cb'/>

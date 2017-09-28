@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/regress.h' l='129' type='pid_t regress_fork()'/>
+<use f='codebrowser/test/regress.c' l='915' u='c' c='test_fork'/>
+<def f='codebrowser/test/regress_main.c' l='173' ll='181' type='pid_t regress_fork()'/>
+<use f='codebrowser/test/regress_util.c' l='512' u='c' c='check_error_logging'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='347' type='struct once_event_list'/>
+<offset>5248</offset>
+<use f='codebrowser/event.c' l='876' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='877' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='2059' u='a' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2059' u='a' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2059' u='a' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2059' u='a' c='event_base_once'/>

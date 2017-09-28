@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/event_compat.h' l='103' type='int event_loop(int )'/>
+<use f='codebrowser/event.c' l='1769' u='c' c='event_dispatch'/>
+<def f='codebrowser/event.c' l='1874' ll='1878' type='int event_loop(int flags)'/>
+<doc f='codebrowser/event.c' l='1872'>/* not thread safe */</doc>
+<use f='codebrowser/test/bench.c' l='110' u='c' c='run_once'/>
+<use f='codebrowser/test/bench.c' l='123' u='c' c='run_once'/>
+<use f='codebrowser/test/regress.c' l='1141' u='c' c='test_immediatesignal'/>
+<use f='codebrowser/test/regress.c' l='2114' u='c' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='2295' u='c' c='test_multiple_events_for_same_fd'/>
+<use f='codebrowser/test/regress.c' l='2302' u='c' c='test_multiple_events_for_same_fd'/>

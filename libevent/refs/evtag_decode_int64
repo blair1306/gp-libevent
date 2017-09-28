@@ -1,0 +1,4 @@
+<dec f='codebrowser/event_tagging.c' l='99' type='int evtag_decode_int64(uint64_t * pnumber, struct evbuffer * evbuf)'/>
+<def f='codebrowser/event_tagging.c' l='389' ll='397' type='int evtag_decode_int64(uint64_t * pnumber, struct evbuffer * evbuf)'/>
+<dec f='codebrowser/test/regress.c' l='2312' type='int evtag_decode_int64(uint64_t * pnumber, struct evbuffer * evbuf)'/>
+<use f='codebrowser/test/regress.c' l='2395' u='c' c='evtag_int_test'/>

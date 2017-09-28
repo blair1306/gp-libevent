@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/buffer.h' l='610' type='void evbuffer_file_segment_free(struct evbuffer_file_segment * seg)'/>
+<use f='codebrowser/buffer.c' l='232' u='c' c='evbuffer_chain_free'/>
+<def f='codebrowser/buffer.c' l='3141' ll='3178' type='void evbuffer_file_segment_free(struct evbuffer_file_segment * seg)'/>
+<use f='codebrowser/buffer.c' l='3276' u='c' c='evbuffer_add_file_segment'/>
+<use f='codebrowser/buffer.c' l='3292' u='c' c='evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1104' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1164' u='c' c='test_evbuffer_file_segment_add_cleanup_cb'/>
+<use f='codebrowser/test/regress_buffer.c' l='1180' u='c' c='test_evbuffer_file_segment_add_cleanup_cb'/>

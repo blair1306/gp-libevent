@@ -1,0 +1,10 @@
+<dec f='codebrowser/http-internal.h' l='26' type='0'/>
+<use f='codebrowser/http.c' l='959' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='976' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='993' c='evhttp_read_trailer'/>
+<use f='codebrowser/http.c' l='1051' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1991' u='r' c='evhttp_parse_firstline_'/>
+<use f='codebrowser/http.c' l='2054' u='r' c='evhttp_parse_headers_'/>
+<use f='codebrowser/http.c' l='2099' u='r' c='evhttp_parse_headers_'/>
+<use f='codebrowser/http.c' l='2245' u='r' c='evhttp_read_firstline'/>
+<use f='codebrowser/http.c' l='2268' u='r' c='evhttp_read_header'/>

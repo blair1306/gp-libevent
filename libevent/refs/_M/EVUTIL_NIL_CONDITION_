@@ -1,0 +1,6 @@
+<dec f='codebrowser/util-internal.h' l='82'/>
+<doc f='codebrowser/util-internal.h' l='77'>/* A no-op that tricks the compiler into thinking a condition is used while
+ * definitely not making any code for it.  Used to compile out asserts while
+ * avoiding &quot;unused variable&quot; warnings.  The &quot;!&quot; forces the compiler to
+ * do the sizeof() on an int, in case &quot;condition&quot; is a bitfield value.
+ */</doc>

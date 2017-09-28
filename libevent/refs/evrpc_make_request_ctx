@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/rpc.h' l='194' type='struct evrpc_request_wrapper * evrpc_make_request_ctx(struct evrpc_pool * pool, void * request, void * reply, const char * rpcname, void (*)(struct evbuffer *, void *) req_marshal, void (*)(void *) rpl_clear, int (*)(void *, struct evbuffer *) rpl_unmarshal, void (*)(struct evrpc_status *, void *, void *, void *) cb, void * cbarg)'/>
+<def f='codebrowser/evrpc.c' l='821' ll='853' type='struct evrpc_request_wrapper * evrpc_make_request_ctx(struct evrpc_pool * pool, void * request, void * reply, const char * rpcname, void (*)(struct evbuffer *, void *) req_marshal, void (*)(void *) rpl_clear, int (*)(void *, struct evbuffer *) rpl_unmarshal, void (*)(struct evrpc_status *, void *, void *, void *) cb, void * cbarg)'/>
+<use f='codebrowser/evrpc.c' l='1090' u='c' c='evrpc_send_request_generic'/>
+<use f='codebrowser/test/regress_rpc.c' l='501' macro='1' u='c'/>

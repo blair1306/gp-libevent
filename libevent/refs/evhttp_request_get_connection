@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/http.h' l='696' type='struct evhttp_connection * evhttp_request_get_connection(struct evhttp_request * req)'/>
+<def f='codebrowser/http.c' l='4018' ll='4022' type='struct evhttp_connection * evhttp_request_get_connection(struct evhttp_request * req)'/>
+<use f='codebrowser/sample/http-connect.c' l='33' u='c' c='get_cb'/>
+<use f='codebrowser/test/regress_http.c' l='312' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4175' u='c' c='terminate_chunked_trickle_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4219' u='c' c='terminate_chunked_cb'/>

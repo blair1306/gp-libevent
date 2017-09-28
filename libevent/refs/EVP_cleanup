@@ -1,0 +1,2 @@
+<dec f='include/openssl/evp.h' l='927' type='void EVP_cleanup()'/>
+<use f='codebrowser/sample/https-client.c' l='492' u='c' c='main'/>

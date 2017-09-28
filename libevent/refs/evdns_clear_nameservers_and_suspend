@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='150' type='int evdns_clear_nameservers_and_suspend()'/>
+<def f='codebrowser/evdns.c' l='2461' ll='2465' type='int evdns_clear_nameservers_and_suspend()'/>

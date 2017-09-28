@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event.h' l='883' type='int event_base_loopcontinue(struct event_base * )'/>
+<def f='codebrowser/event.c' l='1833' ll='1850' type='int event_base_loopcontinue(struct event_base * event_base)'/>

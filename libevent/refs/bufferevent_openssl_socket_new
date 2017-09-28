@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/bufferevent_ssl.h' l='87' type='struct bufferevent * bufferevent_openssl_socket_new(struct event_base * base, int fd, struct ssl_st * ssl, enum bufferevent_ssl_state state, int options)'/>
+<def f='codebrowser/bufferevent_openssl.c' l='1426' ll='1466' type='struct bufferevent * bufferevent_openssl_socket_new(struct event_base * base, int fd, SSL * ssl, enum bufferevent_ssl_state state, int options)'/>
+<use f='codebrowser/sample/https-client.c' l='406' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='174' u='c' c='accept_cb'/>
+<use f='codebrowser/test/regress_http.c' l='125' u='c' c='https_bev'/>
+<use f='codebrowser/test/regress_http.c' l='444' u='c' c='create_bev'/>
+<use f='codebrowser/test/regress_http.c' l='1039' u='c' c='http_connection_test_'/>
+<use f='codebrowser/test/regress_ssl.c' l='374' u='c' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='376' u='c' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='532' u='c' c='acceptcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='700' u='c' c='regress_bufferevent_openssl_connect'/>

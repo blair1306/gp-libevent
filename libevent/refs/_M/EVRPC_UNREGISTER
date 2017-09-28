@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/rpc.h' l='358'/>
+<doc f='codebrowser/include/event2/rpc.h' l='350'>/**
+ * Unregisters an already registered RPC
+ *
+ * @param base the evrpc_base object from which to unregister an RPC
+ * @param name the name of the rpc to unregister
+ * @return -1 on error or 0 when successful.
+ * @see EVRPC_REGISTER()
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='161' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='162' u='c'/>

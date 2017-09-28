@@ -1,0 +1,627 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>event_tagging.c source code [codebrowser/event_tagging.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/event_tagging.c'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='event_tagging.c.html'>event_tagging.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2003-2009 Niels Provos &lt;provos@citi.umich.edu&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> * Copyright (c) 2009-2012 Niels Provos and Nick Mathewson</i></td></tr>
+<tr><th id="4">4</th><td><i> *</i></td></tr>
+<tr><th id="5">5</th><td><i> * Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="6">6</th><td><i> * modification, are permitted provided that the following conditions</i></td></tr>
+<tr><th id="7">7</th><td><i> * are met:</i></td></tr>
+<tr><th id="8">8</th><td><i> * 1. Redistributions of source code must retain the above copyright</i></td></tr>
+<tr><th id="9">9</th><td><i> *    notice, this list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="10">10</th><td><i> * 2. Redistributions in binary form must reproduce the above copyright</i></td></tr>
+<tr><th id="11">11</th><td><i> *    notice, this list of conditions and the following disclaimer in the</i></td></tr>
+<tr><th id="12">12</th><td><i> *    documentation and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="13">13</th><td><i> * 3. The name of the author may not be used to endorse or promote products</i></td></tr>
+<tr><th id="14">14</th><td><i> *    derived from this software without specific prior written permission.</i></td></tr>
+<tr><th id="15">15</th><td><i> *</i></td></tr>
+<tr><th id="16">16</th><td><i> * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR</i></td></tr>
+<tr><th id="17">17</th><td><i> * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES</i></td></tr>
+<tr><th id="18">18</th><td><i> * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.</i></td></tr>
+<tr><th id="19">19</th><td><i> * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,</i></td></tr>
+<tr><th id="20">20</th><td><i> * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT</i></td></tr>
+<tr><th id="21">21</th><td><i> * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,</i></td></tr>
+<tr><th id="22">22</th><td><i> * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY</i></td></tr>
+<tr><th id="23">23</th><td><i> * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT</i></td></tr>
+<tr><th id="24">24</th><td><i> * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF</i></td></tr>
+<tr><th id="25">25</th><td><i> * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="26">26</th><td><i> */</i></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="include/event2/event-config.h.html">"event2/event-config.h"</a></u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="include/evconfig-private.h.html">"evconfig-private.h"</a></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="31">ifdef</span> <a class="macro" href="include/event2/event-config.h.html#374" data-ref="_M/EVENT__HAVE_SYS_TYPES_H">EVENT__HAVE_SYS_TYPES_H</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../include/x86_64-linux-gnu/sys/types.h.html">&lt;sys/types.h&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="31">endif</span></u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="34">ifdef</span> <a class="macro" href="include/event2/event-config.h.html#344" data-ref="_M/EVENT__HAVE_SYS_PARAM_H">EVENT__HAVE_SYS_PARAM_H</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../include/x86_64-linux-gnu/sys/param.h.html">&lt;sys/param.h&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="34">endif</span></u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><u>#<span data-ppcond="38">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="39">39</th><td><u>#define WIN32_LEAN_AND_MEAN</u></td></tr>
+<tr><th id="40">40</th><td><u>#include &lt;winsock2.h&gt;</u></td></tr>
+<tr><th id="41">41</th><td><u>#include &lt;windows.h&gt;</u></td></tr>
+<tr><th id="42">42</th><td><u>#undef WIN32_LEAN_AND_MEAN</u></td></tr>
+<tr><th id="43">43</th><td><u>#<span data-ppcond="38">endif</span></u></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><u>#<span data-ppcond="45">ifdef</span> <a class="macro" href="include/event2/event-config.h.html#338" data-ref="_M/EVENT__HAVE_SYS_IOCTL_H">EVENT__HAVE_SYS_IOCTL_H</a></u></td></tr>
+<tr><th id="46">46</th><td><u>#include <a href="../include/x86_64-linux-gnu/sys/ioctl.h.html">&lt;sys/ioctl.h&gt;</a></u></td></tr>
+<tr><th id="47">47</th><td><u>#<span data-ppcond="45">endif</span></u></td></tr>
+<tr><th id="48">48</th><td><u>#include <a href="compat/sys/queue.h.html">&lt;sys/queue.h&gt;</a></u></td></tr>
+<tr><th id="49">49</th><td><u>#<span data-ppcond="49">ifdef</span> <a class="macro" href="include/event2/event-config.h.html#371" data-ref="_M/EVENT__HAVE_SYS_TIME_H">EVENT__HAVE_SYS_TIME_H</a></u></td></tr>
+<tr><th id="50">50</th><td><u>#include <a href="../include/x86_64-linux-gnu/sys/time.h.html">&lt;sys/time.h&gt;</a></u></td></tr>
+<tr><th id="51">51</th><td><u>#<span data-ppcond="49">endif</span></u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="../include/errno.h.html">&lt;errno.h&gt;</a></u></td></tr>
+<tr><th id="54">54</th><td><u>#include <a href="../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="55">55</th><td><u>#include <a href="../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="56">56</th><td><u>#include <a href="../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="57">57</th><td><u>#<span data-ppcond="57">ifndef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="58">58</th><td><u>#include <a href="../include/syslog.h.html">&lt;syslog.h&gt;</a></u></td></tr>
+<tr><th id="59">59</th><td><u>#<span data-ppcond="57">endif</span></u></td></tr>
+<tr><th id="60">60</th><td><u>#<span data-ppcond="60">ifdef</span> <a class="macro" href="include/event2/event-config.h.html#423" data-ref="_M/EVENT__HAVE_UNISTD_H">EVENT__HAVE_UNISTD_H</a></u></td></tr>
+<tr><th id="61">61</th><td><u>#include <a href="../include/unistd.h.html">&lt;unistd.h&gt;</a></u></td></tr>
+<tr><th id="62">62</th><td><u>#<span data-ppcond="60">endif</span></u></td></tr>
+<tr><th id="63">63</th><td><u>#include &lt;limits.h&gt;</u></td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><u>#include <a href="include/event2/event.h.html">"event2/event.h"</a></u></td></tr>
+<tr><th id="66">66</th><td><u>#include <a href="include/event2/tag.h.html">"event2/tag.h"</a></u></td></tr>
+<tr><th id="67">67</th><td><u>#include <a href="include/event2/buffer.h.html">"event2/buffer.h"</a></u></td></tr>
+<tr><th id="68">68</th><td><u>#include <a href="log-internal.h.html">"log-internal.h"</a></u></td></tr>
+<tr><th id="69">69</th><td><u>#include <a href="mm-internal.h.html">"mm-internal.h"</a></u></td></tr>
+<tr><th id="70">70</th><td><u>#include <a href="util-internal.h.html">"util-internal.h"</a></u></td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><i>/*</i></td></tr>
+<tr><th id="73">73</th><td><i>  Here's our wire format:</i></td></tr>
+<tr><th id="74">74</th><td><i></i></td></tr>
+<tr><th id="75">75</th><td><i>  Stream = TaggedData*</i></td></tr>
+<tr><th id="76">76</th><td><i></i></td></tr>
+<tr><th id="77">77</th><td><i>  TaggedData = Tag Length Data</i></td></tr>
+<tr><th id="78">78</th><td><i>       where the integer value of 'Length' is the length of 'data'.</i></td></tr>
+<tr><th id="79">79</th><td><i></i></td></tr>
+<tr><th id="80">80</th><td><i>  Tag = HByte* LByte</i></td></tr>
+<tr><th id="81">81</th><td><i>       where HByte is a byte with the high bit set, and LByte is a byte</i></td></tr>
+<tr><th id="82">82</th><td><i>       with the high bit clear. The integer value of the tag is taken</i></td></tr>
+<tr><th id="83">83</th><td><i>       by concatenating the lower 7 bits from all the tags.  So for example,</i></td></tr>
+<tr><th id="84">84</th><td><i>       the tag 0x66 is encoded as [66], whereas the tag 0x166 is encoded as</i></td></tr>
+<tr><th id="85">85</th><td><i>       [82 66]</i></td></tr>
+<tr><th id="86">86</th><td><i></i></td></tr>
+<tr><th id="87">87</th><td><i>  Length = Integer</i></td></tr>
+<tr><th id="88">88</th><td><i></i></td></tr>
+<tr><th id="89">89</th><td><i>  Integer = NNibbles Nibble* Padding?</i></td></tr>
+<tr><th id="90">90</th><td><i>       where NNibbles is a 4-bit value encoding the number of nibbles-1,</i></td></tr>
+<tr><th id="91">91</th><td><i>       and each Nibble is 4 bits worth of encoded integer, in big-endian</i></td></tr>
+<tr><th id="92">92</th><td><i>       order.  If the total encoded integer size is an odd number of nibbles,</i></td></tr>
+<tr><th id="93">93</th><td><i>       a final padding nibble with value 0 is appended.</i></td></tr>
+<tr><th id="94">94</th><td><i>*/</i></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><a class="macro" href="include/event2/visibility.h.html#50" title="" data-ref="_M/EVENT2_EXPORT_SYMBOL">EVENT2_EXPORT_SYMBOL</a></td></tr>
+<tr><th id="97">97</th><td><em>int</em> <a class="decl" href="#evtag_decode_int" title='evtag_decode_int' data-ref="evtag_decode_int">evtag_decode_int</a>(<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col1 decl" id="61pnumber" title='pnumber' data-type='uint32_t *' data-ref="61pnumber">pnumber</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col2 decl" id="62evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="62evbuf">evbuf</dfn>);</td></tr>
+<tr><th id="98">98</th><td><a class="macro" href="include/event2/visibility.h.html#50" title="" data-ref="_M/EVENT2_EXPORT_SYMBOL">EVENT2_EXPORT_SYMBOL</a></td></tr>
+<tr><th id="99">99</th><td><em>int</em> <a class="decl" href="#evtag_decode_int64" title='evtag_decode_int64' data-ref="evtag_decode_int64">evtag_decode_int64</a>(<a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> *<dfn class="local col3 decl" id="63pnumber" title='pnumber' data-type='uint64_t *' data-ref="63pnumber">pnumber</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col4 decl" id="64evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="64evbuf">evbuf</dfn>);</td></tr>
+<tr><th id="100">100</th><td><a class="macro" href="include/event2/visibility.h.html#50" title="" data-ref="_M/EVENT2_EXPORT_SYMBOL">EVENT2_EXPORT_SYMBOL</a></td></tr>
+<tr><th id="101">101</th><td><em>int</em> <a class="decl" href="#evtag_encode_tag" title='evtag_encode_tag' data-ref="evtag_encode_tag">evtag_encode_tag</a>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col5 decl" id="65evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="65evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col6 decl" id="66tag" title='tag' data-type='uint32_t' data-ref="66tag">tag</dfn>);</td></tr>
+<tr><th id="102">102</th><td><a class="macro" href="include/event2/visibility.h.html#50" title="" data-ref="_M/EVENT2_EXPORT_SYMBOL">EVENT2_EXPORT_SYMBOL</a></td></tr>
+<tr><th id="103">103</th><td><em>int</em> <a class="decl" href="#evtag_decode_tag" title='evtag_decode_tag' data-ref="evtag_decode_tag">evtag_decode_tag</a>(<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col7 decl" id="67ptag" title='ptag' data-type='uint32_t *' data-ref="67ptag">ptag</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col8 decl" id="68evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="68evbuf">evbuf</dfn>);</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><em>void</em></td></tr>
+<tr><th id="106">106</th><td><dfn class="decl def" id="evtag_init" title='evtag_init' data-ref="evtag_init">evtag_init</dfn>(<em>void</em>)</td></tr>
+<tr><th id="107">107</th><td>{</td></tr>
+<tr><th id="108">108</th><td>}</td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><i>/*</i></td></tr>
+<tr><th id="111">111</th><td><i> * We encode integers by nibbles; the first nibble contains the number</i></td></tr>
+<tr><th id="112">112</th><td><i> * of significant nibbles - 1;  this allows us to encode up to 64-bit</i></td></tr>
+<tr><th id="113">113</th><td><i> * integers.  This function is byte-order independent.</i></td></tr>
+<tr><th id="114">114</th><td><i> *</i></td></tr>
+<tr><th id="115">115</th><td><i> * @param number a 32-bit unsigned integer to encode</i></td></tr>
+<tr><th id="116">116</th><td><i> * @param data a pointer to where the data should be written.  Must</i></td></tr>
+<tr><th id="117">117</th><td><i> *    have at least 5 bytes free.</i></td></tr>
+<tr><th id="118">118</th><td><i> * @return the number of bytes written into data.</i></td></tr>
+<tr><th id="119">119</th><td><i> */</i></td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><u>#define <dfn class="macro" id="_M/ENCODE_INT_INTERNAL" data-ref="_M/ENCODE_INT_INTERNAL">ENCODE_INT_INTERNAL</dfn>(data, number) do {				\</u></td></tr>
+<tr><th id="122">122</th><td><u>	int <dfn class="local col1 decl" id="71off" title='off' data-type='int' data-ref="71off"><dfn class="local col5 decl" id="75off" title='off' data-type='int' data-ref="75off">off</dfn></dfn> = 1, <dfn class="local col2 decl" id="72nibbles" title='nibbles' data-type='int' data-ref="72nibbles"><dfn class="local col6 decl" id="76nibbles" title='nibbles' data-type='int' data-ref="76nibbles">nibbles</dfn></dfn> = 0;					\</u></td></tr>
+<tr><th id="123">123</th><td><u>									\</u></td></tr>
+<tr><th id="124">124</th><td><u>	<a class="ref" href="../include/string.h.html#memset" title='memset' data-ref="memset">memset</a>(data, 0, sizeof(number)+1);				\</u></td></tr>
+<tr><th id="125">125</th><td><u>	while (number) {						\</u></td></tr>
+<tr><th id="126">126</th><td><u>		if (<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a> &amp; 0x1)						\</u></td></tr>
+<tr><th id="127">127</th><td><u>			data[<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a>/2] = (data[<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a>/2] &amp; 0xf0) | (number &amp; 0x0f); \</u></td></tr>
+<tr><th id="128">128</th><td><u>		else							\</u></td></tr>
+<tr><th id="129">129</th><td><u>			data[<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a>/2] = (data[<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a>/2] &amp; 0x0f) |		\</u></td></tr>
+<tr><th id="130">130</th><td><u>			    ((number &amp; 0x0f) &lt;&lt; 4);			\</u></td></tr>
+<tr><th id="131">131</th><td><u>		number &gt;&gt;= 4;						\</u></td></tr>
+<tr><th id="132">132</th><td><u>		<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a>++;							\</u></td></tr>
+<tr><th id="133">133</th><td><u>	}								\</u></td></tr>
+<tr><th id="134">134</th><td><u>									\</u></td></tr>
+<tr><th id="135">135</th><td><u>	if (<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a> &gt; 2)							\</u></td></tr>
+<tr><th id="136">136</th><td><u>		<a class="local col2 ref" href="#147" title='nibbles' data-ref="72nibbles"><a class="local col6 ref" href="#153" title='nibbles' data-ref="76nibbles">nibbles</a></a> = <a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a> - 2;					\</u></td></tr>
+<tr><th id="137">137</th><td><u>									\</u></td></tr>
+<tr><th id="138">138</th><td><u>	/* Off - 1 is the number of encoded nibbles */			\</u></td></tr>
+<tr><th id="139">139</th><td><u>	data[0] = (data[0] &amp; 0x0f) | ((<a class="local col2 ref" href="#147" title='nibbles' data-ref="72nibbles"><a class="local col6 ref" href="#153" title='nibbles' data-ref="76nibbles">nibbles</a></a> &amp; 0x0f) &lt;&lt; 4);		\</u></td></tr>
+<tr><th id="140">140</th><td><u>									\</u></td></tr>
+<tr><th id="141">141</th><td><u>	return ((<a class="local col1 ref" href="#147" title='off' data-ref="71off"><a class="local col5 ref" href="#153" title='off' data-ref="75off">off</a></a> + 1) / 2);						\</u></td></tr>
+<tr><th id="142">142</th><td><u>} while (0)</u></td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><em>static</em> <a class="macro" href="util-internal.h.html#69" title="inline" data-ref="_M/inline"><b>inline</b></a> <em>int</em></td></tr>
+<tr><th id="145">145</th><td><dfn class="tu decl def" id="encode_int_internal" title='encode_int_internal' data-type='int encode_int_internal(uint8_t * data, uint32_t number)' data-ref="encode_int_internal">encode_int_internal</dfn>(<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> *<dfn class="local col9 decl" id="69data" title='data' data-type='uint8_t *' data-ref="69data">data</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col0 decl" id="70number" title='number' data-type='uint32_t' data-ref="70number">number</dfn>)</td></tr>
+<tr><th id="146">146</th><td>{</td></tr>
+<tr><th id="147">147</th><td>	<a class="macro" href="#121" title="do { int off = 1, nibbles = 0; memset(data, 0, sizeof(number)+1); while (number) { if (off &amp; 0x1) data[off/2] = (data[off/2] &amp; 0xf0) | (number &amp; 0x0f); else data[off/2] = (data[off/2] &amp; 0x0f) | ((number &amp; 0x0f) &lt;&lt; 4); number &gt;&gt;= 4; off++; } if (off &gt; 2) nibbles = off - 2; data[0] = (data[0] &amp; 0x0f) | ((nibbles &amp; 0x0f) &lt;&lt; 4); return ((off + 1) / 2); } while (0)" data-ref="_M/ENCODE_INT_INTERNAL">ENCODE_INT_INTERNAL</a>(<a class="local col9 ref" href="#69data" title='data' data-ref="69data">data</a>, <a class="local col0 ref" href="#70number" title='number' data-ref="70number">number</a>);</td></tr>
+<tr><th id="148">148</th><td>}</td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td><em>static</em> <a class="macro" href="util-internal.h.html#69" title="inline" data-ref="_M/inline"><b>inline</b></a> <em>int</em></td></tr>
+<tr><th id="151">151</th><td><dfn class="tu decl def" id="encode_int64_internal" title='encode_int64_internal' data-type='int encode_int64_internal(uint8_t * data, uint64_t number)' data-ref="encode_int64_internal">encode_int64_internal</dfn>(<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> *<dfn class="local col3 decl" id="73data" title='data' data-type='uint8_t *' data-ref="73data">data</dfn>, <a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> <dfn class="local col4 decl" id="74number" title='number' data-type='uint64_t' data-ref="74number">number</dfn>)</td></tr>
+<tr><th id="152">152</th><td>{</td></tr>
+<tr><th id="153">153</th><td>	<a class="macro" href="#121" title="do { int off = 1, nibbles = 0; memset(data, 0, sizeof(number)+1); while (number) { if (off &amp; 0x1) data[off/2] = (data[off/2] &amp; 0xf0) | (number &amp; 0x0f); else data[off/2] = (data[off/2] &amp; 0x0f) | ((number &amp; 0x0f) &lt;&lt; 4); number &gt;&gt;= 4; off++; } if (off &gt; 2) nibbles = off - 2; data[0] = (data[0] &amp; 0x0f) | ((nibbles &amp; 0x0f) &lt;&lt; 4); return ((off + 1) / 2); } while (0)" data-ref="_M/ENCODE_INT_INTERNAL">ENCODE_INT_INTERNAL</a>(<a class="local col3 ref" href="#73data" title='data' data-ref="73data">data</a>, <a class="local col4 ref" href="#74number" title='number' data-ref="74number">number</a>);</td></tr>
+<tr><th id="154">154</th><td>}</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><em>void</em></td></tr>
+<tr><th id="157">157</th><td><dfn class="decl def" id="evtag_encode_int" title='evtag_encode_int' data-ref="evtag_encode_int">evtag_encode_int</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col7 decl" id="77evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="77evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col8 decl" id="78number" title='number' data-type='uint32_t' data-ref="78number">number</dfn>)</td></tr>
+<tr><th id="158">158</th><td>{</td></tr>
+<tr><th id="159">159</th><td>	<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col9 decl" id="79data" title='data' data-type='uint8_t [5]' data-ref="79data">data</dfn>[<var>5</var>];</td></tr>
+<tr><th id="160">160</th><td>	<em>int</em> <dfn class="local col0 decl" id="80len" title='len' data-type='int' data-ref="80len">len</dfn> = <a class="tu ref" href="#encode_int_internal" title='encode_int_internal' data-use='c' data-ref="encode_int_internal">encode_int_internal</a>(<a class="local col9 ref" href="#79data" title='data' data-ref="79data">data</a>, <a class="local col8 ref" href="#78number" title='number' data-ref="78number">number</a>);</td></tr>
+<tr><th id="161">161</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_add" title='evbuffer_add' data-ref="evbuffer_add">evbuffer_add</a>(<a class="local col7 ref" href="#77evbuf" title='evbuf' data-ref="77evbuf">evbuf</a>, <a class="local col9 ref" href="#79data" title='data' data-ref="79data">data</a>, <a class="local col0 ref" href="#80len" title='len' data-ref="80len">len</a>);</td></tr>
+<tr><th id="162">162</th><td>}</td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td><em>void</em></td></tr>
+<tr><th id="165">165</th><td><dfn class="decl def" id="evtag_encode_int64" title='evtag_encode_int64' data-ref="evtag_encode_int64">evtag_encode_int64</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col1 decl" id="81evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="81evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> <dfn class="local col2 decl" id="82number" title='number' data-type='uint64_t' data-ref="82number">number</dfn>)</td></tr>
+<tr><th id="166">166</th><td>{</td></tr>
+<tr><th id="167">167</th><td>	<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col3 decl" id="83data" title='data' data-type='uint8_t [9]' data-ref="83data">data</dfn>[<var>9</var>];</td></tr>
+<tr><th id="168">168</th><td>	<em>int</em> <dfn class="local col4 decl" id="84len" title='len' data-type='int' data-ref="84len">len</dfn> = <a class="tu ref" href="#encode_int64_internal" title='encode_int64_internal' data-use='c' data-ref="encode_int64_internal">encode_int64_internal</a>(<a class="local col3 ref" href="#83data" title='data' data-ref="83data">data</a>, <a class="local col2 ref" href="#82number" title='number' data-ref="82number">number</a>);</td></tr>
+<tr><th id="169">169</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_add" title='evbuffer_add' data-ref="evbuffer_add">evbuffer_add</a>(<a class="local col1 ref" href="#81evbuf" title='evbuf' data-ref="81evbuf">evbuf</a>, <a class="local col3 ref" href="#83data" title='data' data-ref="83data">data</a>, <a class="local col4 ref" href="#84len" title='len' data-ref="84len">len</a>);</td></tr>
+<tr><th id="170">170</th><td>}</td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td><i>/*</i></td></tr>
+<tr><th id="173">173</th><td><i> * Support variable length encoding of tags; we use the high bit in each</i></td></tr>
+<tr><th id="174">174</th><td><i> * octet as a continuation signal.</i></td></tr>
+<tr><th id="175">175</th><td><i> */</i></td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td><em>int</em></td></tr>
+<tr><th id="178">178</th><td><dfn class="decl def" id="evtag_encode_tag" title='evtag_encode_tag' data-ref="evtag_encode_tag">evtag_encode_tag</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col5 decl" id="85evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="85evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col6 decl" id="86tag" title='tag' data-type='uint32_t' data-ref="86tag">tag</dfn>)</td></tr>
+<tr><th id="179">179</th><td>{</td></tr>
+<tr><th id="180">180</th><td>	<em>int</em> <dfn class="local col7 decl" id="87bytes" title='bytes' data-type='int' data-ref="87bytes">bytes</dfn> = <var>0</var>;</td></tr>
+<tr><th id="181">181</th><td>	<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col8 decl" id="88data" title='data' data-type='uint8_t [5]' data-ref="88data">data</dfn>[<var>5</var>];</td></tr>
+<tr><th id="182">182</th><td></td></tr>
+<tr><th id="183">183</th><td>	<a class="ref" href="../include/string.h.html#memset" title='memset' data-ref="memset">memset</a>(<a class="local col8 ref" href="#88data" title='data' data-ref="88data">data</a>, <var>0</var>, <b>sizeof</b>(<a class="local col8 ref" href="#88data" title='data' data-ref="88data">data</a>));</td></tr>
+<tr><th id="184">184</th><td>	<b>do</b> {</td></tr>
+<tr><th id="185">185</th><td>		<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col9 decl" id="89lower" title='lower' data-type='uint8_t' data-ref="89lower">lower</dfn> = <a class="local col6 ref" href="#86tag" title='tag' data-ref="86tag">tag</a> &amp; <var>0x7f</var>;</td></tr>
+<tr><th id="186">186</th><td>		<a class="local col6 ref" href="#86tag" title='tag' data-ref="86tag">tag</a> &gt;&gt;= <var>7</var>;</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td>		<b>if</b> (<a class="local col6 ref" href="#86tag" title='tag' data-ref="86tag">tag</a>)</td></tr>
+<tr><th id="189">189</th><td>			<a class="local col9 ref" href="#89lower" title='lower' data-ref="89lower">lower</a> |= <var>0x80</var>;</td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td>		<a class="local col8 ref" href="#88data" title='data' data-ref="88data">data</a>[<a class="local col7 ref" href="#87bytes" title='bytes' data-ref="87bytes">bytes</a>++] = <a class="local col9 ref" href="#89lower" title='lower' data-ref="89lower">lower</a>;</td></tr>
+<tr><th id="192">192</th><td>	} <b>while</b> (<a class="local col6 ref" href="#86tag" title='tag' data-ref="86tag">tag</a>);</td></tr>
+<tr><th id="193">193</th><td></td></tr>
+<tr><th id="194">194</th><td>	<b>if</b> (<a class="local col5 ref" href="#85evbuf" title='evbuf' data-ref="85evbuf">evbuf</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="195">195</th><td>		<a class="ref" href="include/event2/buffer.h.html#evbuffer_add" title='evbuffer_add' data-ref="evbuffer_add">evbuffer_add</a>(<a class="local col5 ref" href="#85evbuf" title='evbuf' data-ref="85evbuf">evbuf</a>, <a class="local col8 ref" href="#88data" title='data' data-ref="88data">data</a>, <a class="local col7 ref" href="#87bytes" title='bytes' data-ref="87bytes">bytes</a>);</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td>	<b>return</b> (<a class="local col7 ref" href="#87bytes" title='bytes' data-ref="87bytes">bytes</a>);</td></tr>
+<tr><th id="198">198</th><td>}</td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td><em>static</em> <em>int</em></td></tr>
+<tr><th id="201">201</th><td><dfn class="tu decl def" id="decode_tag_internal" title='decode_tag_internal' data-type='int decode_tag_internal(uint32_t * ptag, struct evbuffer * evbuf, int dodrain)' data-ref="decode_tag_internal">decode_tag_internal</dfn>(<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col0 decl" id="90ptag" title='ptag' data-type='uint32_t *' data-ref="90ptag">ptag</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col1 decl" id="91evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="91evbuf">evbuf</dfn>, <em>int</em> <dfn class="local col2 decl" id="92dodrain" title='dodrain' data-type='int' data-ref="92dodrain">dodrain</dfn>)</td></tr>
+<tr><th id="202">202</th><td>{</td></tr>
+<tr><th id="203">203</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col3 decl" id="93number" title='number' data-type='uint32_t' data-ref="93number">number</dfn> = <var>0</var>;</td></tr>
+<tr><th id="204">204</th><td>	<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col4 decl" id="94len" title='len' data-type='size_t' data-ref="94len">len</dfn> = <a class="ref" href="include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(<a class="local col1 ref" href="#91evbuf" title='evbuf' data-ref="91evbuf">evbuf</a>);</td></tr>
+<tr><th id="205">205</th><td>	<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> *<dfn class="local col5 decl" id="95data" title='data' data-type='uint8_t *' data-ref="95data">data</dfn>;</td></tr>
+<tr><th id="206">206</th><td>	<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col6 decl" id="96count" title='count' data-type='size_t' data-ref="96count">count</dfn> = <var>0</var>;</td></tr>
+<tr><th id="207">207</th><td>	<em>int</em>  <dfn class="local col7 decl" id="97shift" title='shift' data-type='int' data-ref="97shift">shift</dfn> = <var>0</var>, <dfn class="local col8 decl" id="98done" title='done' data-type='int' data-ref="98done">done</dfn> = <var>0</var>;</td></tr>
+<tr><th id="208">208</th><td></td></tr>
+<tr><th id="209">209</th><td>	<i>/*</i></td></tr>
+<tr><th id="210">210</th><td><i>	 * the encoding of a number is at most one byte more than its</i></td></tr>
+<tr><th id="211">211</th><td><i>	 * storage size.  however, it may also be much smaller.</i></td></tr>
+<tr><th id="212">212</th><td><i>	 */</i></td></tr>
+<tr><th id="213">213</th><td>	<a class="local col5 ref" href="#95data" title='data' data-ref="95data">data</a> = <a class="ref" href="include/event2/buffer.h.html#evbuffer_pullup" title='evbuffer_pullup' data-ref="evbuffer_pullup">evbuffer_pullup</a>(</td></tr>
+<tr><th id="214">214</th><td>		<a class="local col1 ref" href="#91evbuf" title='evbuf' data-ref="91evbuf">evbuf</a>, <a class="local col4 ref" href="#94len" title='len' data-ref="94len">len</a> &lt; <b>sizeof</b>(<a class="local col3 ref" href="#93number" title='number' data-ref="93number">number</a>) + <var>1</var> ? <a class="local col4 ref" href="#94len" title='len' data-ref="94len">len</a> : <b>sizeof</b>(<a class="local col3 ref" href="#93number" title='number' data-ref="93number">number</a>) + <var>1</var>);</td></tr>
+<tr><th id="215">215</th><td>	<b>if</b> (!<a class="local col5 ref" href="#95data" title='data' data-ref="95data">data</a>)</td></tr>
+<tr><th id="216">216</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="217">217</th><td></td></tr>
+<tr><th id="218">218</th><td>	<b>while</b> (<a class="local col6 ref" href="#96count" title='count' data-ref="96count">count</a>++ &lt; <a class="local col4 ref" href="#94len" title='len' data-ref="94len">len</a>) {</td></tr>
+<tr><th id="219">219</th><td>		<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col9 decl" id="99lower" title='lower' data-type='uint8_t' data-ref="99lower">lower</dfn> = *<a class="local col5 ref" href="#95data" title='data' data-ref="95data">data</a>++;</td></tr>
+<tr><th id="220">220</th><td>		<b>if</b> (<a class="local col7 ref" href="#97shift" title='shift' data-ref="97shift">shift</a> &gt;= <var>28</var>) {</td></tr>
+<tr><th id="221">221</th><td>			<i>/* Make sure it fits into 32 bits */</i></td></tr>
+<tr><th id="222">222</th><td>			<b>if</b> (<a class="local col7 ref" href="#97shift" title='shift' data-ref="97shift">shift</a> &gt; <var>28</var>)</td></tr>
+<tr><th id="223">223</th><td>				<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="224">224</th><td>			<b>if</b> ((<a class="local col9 ref" href="#99lower" title='lower' data-ref="99lower">lower</a> &amp; <var>0x7f</var>) &gt; <var>15</var>)</td></tr>
+<tr><th id="225">225</th><td>				<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="226">226</th><td>		}</td></tr>
+<tr><th id="227">227</th><td>		<a class="local col3 ref" href="#93number" title='number' data-ref="93number">number</a> |= (<a class="local col9 ref" href="#99lower" title='lower' data-ref="99lower">lower</a> &amp; (<em>unsigned</em>)<var>0x7f</var>) &lt;&lt; <a class="local col7 ref" href="#97shift" title='shift' data-ref="97shift">shift</a>;</td></tr>
+<tr><th id="228">228</th><td>		<a class="local col7 ref" href="#97shift" title='shift' data-ref="97shift">shift</a> += <var>7</var>;</td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td>		<b>if</b> (!(<a class="local col9 ref" href="#99lower" title='lower' data-ref="99lower">lower</a> &amp; <var>0x80</var>)) {</td></tr>
+<tr><th id="231">231</th><td>			<a class="local col8 ref" href="#98done" title='done' data-ref="98done">done</a> = <var>1</var>;</td></tr>
+<tr><th id="232">232</th><td>			<b>break</b>;</td></tr>
+<tr><th id="233">233</th><td>		}</td></tr>
+<tr><th id="234">234</th><td>	}</td></tr>
+<tr><th id="235">235</th><td></td></tr>
+<tr><th id="236">236</th><td>	<b>if</b> (!<a class="local col8 ref" href="#98done" title='done' data-ref="98done">done</a>)</td></tr>
+<tr><th id="237">237</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="238">238</th><td></td></tr>
+<tr><th id="239">239</th><td>	<b>if</b> (<a class="local col2 ref" href="#92dodrain" title='dodrain' data-ref="92dodrain">dodrain</a>)</td></tr>
+<tr><th id="240">240</th><td>		<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col1 ref" href="#91evbuf" title='evbuf' data-ref="91evbuf">evbuf</a>, <a class="local col6 ref" href="#96count" title='count' data-ref="96count">count</a>);</td></tr>
+<tr><th id="241">241</th><td></td></tr>
+<tr><th id="242">242</th><td>	<b>if</b> (<a class="local col0 ref" href="#90ptag" title='ptag' data-ref="90ptag">ptag</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="243">243</th><td>		*<a class="local col0 ref" href="#90ptag" title='ptag' data-ref="90ptag">ptag</a> = <a class="local col3 ref" href="#93number" title='number' data-ref="93number">number</a>;</td></tr>
+<tr><th id="244">244</th><td></td></tr>
+<tr><th id="245">245</th><td>	<b>return</b> <a class="local col6 ref" href="#96count" title='count' data-ref="96count">count</a> &gt; <span class="macro" title="2147483647" data-ref="_M/INT_MAX">INT_MAX</span> ? <span class="macro" title="2147483647" data-ref="_M/INT_MAX">INT_MAX</span> : (<em>int</em>)(<a class="local col6 ref" href="#96count" title='count' data-ref="96count">count</a>);</td></tr>
+<tr><th id="246">246</th><td>}</td></tr>
+<tr><th id="247">247</th><td></td></tr>
+<tr><th id="248">248</th><td><em>int</em></td></tr>
+<tr><th id="249">249</th><td><dfn class="decl def" id="evtag_decode_tag" title='evtag_decode_tag' data-ref="evtag_decode_tag">evtag_decode_tag</dfn>(<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col0 decl" id="100ptag" title='ptag' data-type='uint32_t *' data-ref="100ptag">ptag</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col1 decl" id="101evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="101evbuf">evbuf</dfn>)</td></tr>
+<tr><th id="250">250</th><td>{</td></tr>
+<tr><th id="251">251</th><td>	<b>return</b> (<a class="tu ref" href="#decode_tag_internal" title='decode_tag_internal' data-use='c' data-ref="decode_tag_internal">decode_tag_internal</a>(<a class="local col0 ref" href="#100ptag" title='ptag' data-ref="100ptag">ptag</a>, <a class="local col1 ref" href="#101evbuf" title='evbuf' data-ref="101evbuf">evbuf</a>, <var>1</var> <i>/* dodrain */</i>));</td></tr>
+<tr><th id="252">252</th><td>}</td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><i>/*</i></td></tr>
+<tr><th id="255">255</th><td><i> * Marshal a data type, the general format is as follows:</i></td></tr>
+<tr><th id="256">256</th><td><i> *</i></td></tr>
+<tr><th id="257">257</th><td><i> * tag number: one byte; length: var bytes; payload: var bytes</i></td></tr>
+<tr><th id="258">258</th><td><i> */</i></td></tr>
+<tr><th id="259">259</th><td></td></tr>
+<tr><th id="260">260</th><td><em>void</em></td></tr>
+<tr><th id="261">261</th><td><dfn class="decl def" id="evtag_marshal" title='evtag_marshal' data-ref="evtag_marshal">evtag_marshal</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col2 decl" id="102evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="102evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col3 decl" id="103tag" title='tag' data-type='uint32_t' data-ref="103tag">tag</dfn>,</td></tr>
+<tr><th id="262">262</th><td>    <em>const</em> <em>void</em> *<dfn class="local col4 decl" id="104data" title='data' data-type='const void *' data-ref="104data">data</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col5 decl" id="105len" title='len' data-type='uint32_t' data-ref="105len">len</dfn>)</td></tr>
+<tr><th id="263">263</th><td>{</td></tr>
+<tr><th id="264">264</th><td>	<a class="ref" href="#evtag_encode_tag" title='evtag_encode_tag' data-ref="evtag_encode_tag">evtag_encode_tag</a>(<a class="local col2 ref" href="#102evbuf" title='evbuf' data-ref="102evbuf">evbuf</a>, <a class="local col3 ref" href="#103tag" title='tag' data-ref="103tag">tag</a>);</td></tr>
+<tr><th id="265">265</th><td>	<a class="ref" href="#evtag_encode_int" title='evtag_encode_int' data-ref="evtag_encode_int">evtag_encode_int</a>(<a class="local col2 ref" href="#102evbuf" title='evbuf' data-ref="102evbuf">evbuf</a>, <a class="local col5 ref" href="#105len" title='len' data-ref="105len">len</a>);</td></tr>
+<tr><th id="266">266</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_add" title='evbuffer_add' data-ref="evbuffer_add">evbuffer_add</a>(<a class="local col2 ref" href="#102evbuf" title='evbuf' data-ref="102evbuf">evbuf</a>, (<em>void</em> *)<a class="local col4 ref" href="#104data" title='data' data-ref="104data">data</a>, <a class="local col5 ref" href="#105len" title='len' data-ref="105len">len</a>);</td></tr>
+<tr><th id="267">267</th><td>}</td></tr>
+<tr><th id="268">268</th><td></td></tr>
+<tr><th id="269">269</th><td><em>void</em></td></tr>
+<tr><th id="270">270</th><td><dfn class="decl def" id="evtag_marshal_buffer" title='evtag_marshal_buffer' data-ref="evtag_marshal_buffer">evtag_marshal_buffer</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col6 decl" id="106evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="106evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col7 decl" id="107tag" title='tag' data-type='uint32_t' data-ref="107tag">tag</dfn>,</td></tr>
+<tr><th id="271">271</th><td>    <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col8 decl" id="108data" title='data' data-type='struct evbuffer *' data-ref="108data">data</dfn>)</td></tr>
+<tr><th id="272">272</th><td>{</td></tr>
+<tr><th id="273">273</th><td>	<a class="ref" href="#evtag_encode_tag" title='evtag_encode_tag' data-ref="evtag_encode_tag">evtag_encode_tag</a>(<a class="local col6 ref" href="#106evbuf" title='evbuf' data-ref="106evbuf">evbuf</a>, <a class="local col7 ref" href="#107tag" title='tag' data-ref="107tag">tag</a>);</td></tr>
+<tr><th id="274">274</th><td>	<i>/* XXX support more than UINT32_MAX data */</i></td></tr>
+<tr><th id="275">275</th><td>	<a class="ref" href="#evtag_encode_int" title='evtag_encode_int' data-ref="evtag_encode_int">evtag_encode_int</a>(<a class="local col6 ref" href="#106evbuf" title='evbuf' data-ref="106evbuf">evbuf</a>, (<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a>)<a class="ref" href="include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(<a class="local col8 ref" href="#108data" title='data' data-ref="108data">data</a>));</td></tr>
+<tr><th id="276">276</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_add_buffer" title='evbuffer_add_buffer' data-ref="evbuffer_add_buffer">evbuffer_add_buffer</a>(<a class="local col6 ref" href="#106evbuf" title='evbuf' data-ref="106evbuf">evbuf</a>, <a class="local col8 ref" href="#108data" title='data' data-ref="108data">data</a>);</td></tr>
+<tr><th id="277">277</th><td>}</td></tr>
+<tr><th id="278">278</th><td></td></tr>
+<tr><th id="279">279</th><td><i>/* Marshaling for integers */</i></td></tr>
+<tr><th id="280">280</th><td><em>void</em></td></tr>
+<tr><th id="281">281</th><td><dfn class="decl def" id="evtag_marshal_int" title='evtag_marshal_int' data-ref="evtag_marshal_int">evtag_marshal_int</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col9 decl" id="109evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="109evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col0 decl" id="110tag" title='tag' data-type='uint32_t' data-ref="110tag">tag</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col1 decl" id="111integer" title='integer' data-type='uint32_t' data-ref="111integer">integer</dfn>)</td></tr>
+<tr><th id="282">282</th><td>{</td></tr>
+<tr><th id="283">283</th><td>	<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col2 decl" id="112data" title='data' data-type='uint8_t [5]' data-ref="112data">data</dfn>[<var>5</var>];</td></tr>
+<tr><th id="284">284</th><td>	<em>int</em> <dfn class="local col3 decl" id="113len" title='len' data-type='int' data-ref="113len">len</dfn> = <a class="tu ref" href="#encode_int_internal" title='encode_int_internal' data-use='c' data-ref="encode_int_internal">encode_int_internal</a>(<a class="local col2 ref" href="#112data" title='data' data-ref="112data">data</a>, <a class="local col1 ref" href="#111integer" title='integer' data-ref="111integer">integer</a>);</td></tr>
+<tr><th id="285">285</th><td></td></tr>
+<tr><th id="286">286</th><td>	<a class="ref" href="#evtag_encode_tag" title='evtag_encode_tag' data-ref="evtag_encode_tag">evtag_encode_tag</a>(<a class="local col9 ref" href="#109evbuf" title='evbuf' data-ref="109evbuf">evbuf</a>, <a class="local col0 ref" href="#110tag" title='tag' data-ref="110tag">tag</a>);</td></tr>
+<tr><th id="287">287</th><td>	<a class="ref" href="#evtag_encode_int" title='evtag_encode_int' data-ref="evtag_encode_int">evtag_encode_int</a>(<a class="local col9 ref" href="#109evbuf" title='evbuf' data-ref="109evbuf">evbuf</a>, <a class="local col3 ref" href="#113len" title='len' data-ref="113len">len</a>);</td></tr>
+<tr><th id="288">288</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_add" title='evbuffer_add' data-ref="evbuffer_add">evbuffer_add</a>(<a class="local col9 ref" href="#109evbuf" title='evbuf' data-ref="109evbuf">evbuf</a>, <a class="local col2 ref" href="#112data" title='data' data-ref="112data">data</a>, <a class="local col3 ref" href="#113len" title='len' data-ref="113len">len</a>);</td></tr>
+<tr><th id="289">289</th><td>}</td></tr>
+<tr><th id="290">290</th><td></td></tr>
+<tr><th id="291">291</th><td><em>void</em></td></tr>
+<tr><th id="292">292</th><td><dfn class="decl def" id="evtag_marshal_int64" title='evtag_marshal_int64' data-ref="evtag_marshal_int64">evtag_marshal_int64</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col4 decl" id="114evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="114evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col5 decl" id="115tag" title='tag' data-type='uint32_t' data-ref="115tag">tag</dfn>,</td></tr>
+<tr><th id="293">293</th><td>    <a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> <dfn class="local col6 decl" id="116integer" title='integer' data-type='uint64_t' data-ref="116integer">integer</dfn>)</td></tr>
+<tr><th id="294">294</th><td>{</td></tr>
+<tr><th id="295">295</th><td>	<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col7 decl" id="117data" title='data' data-type='uint8_t [9]' data-ref="117data">data</dfn>[<var>9</var>];</td></tr>
+<tr><th id="296">296</th><td>	<em>int</em> <dfn class="local col8 decl" id="118len" title='len' data-type='int' data-ref="118len">len</dfn> = <a class="tu ref" href="#encode_int64_internal" title='encode_int64_internal' data-use='c' data-ref="encode_int64_internal">encode_int64_internal</a>(<a class="local col7 ref" href="#117data" title='data' data-ref="117data">data</a>, <a class="local col6 ref" href="#116integer" title='integer' data-ref="116integer">integer</a>);</td></tr>
+<tr><th id="297">297</th><td></td></tr>
+<tr><th id="298">298</th><td>	<a class="ref" href="#evtag_encode_tag" title='evtag_encode_tag' data-ref="evtag_encode_tag">evtag_encode_tag</a>(<a class="local col4 ref" href="#114evbuf" title='evbuf' data-ref="114evbuf">evbuf</a>, <a class="local col5 ref" href="#115tag" title='tag' data-ref="115tag">tag</a>);</td></tr>
+<tr><th id="299">299</th><td>	<a class="ref" href="#evtag_encode_int" title='evtag_encode_int' data-ref="evtag_encode_int">evtag_encode_int</a>(<a class="local col4 ref" href="#114evbuf" title='evbuf' data-ref="114evbuf">evbuf</a>, <a class="local col8 ref" href="#118len" title='len' data-ref="118len">len</a>);</td></tr>
+<tr><th id="300">300</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_add" title='evbuffer_add' data-ref="evbuffer_add">evbuffer_add</a>(<a class="local col4 ref" href="#114evbuf" title='evbuf' data-ref="114evbuf">evbuf</a>, <a class="local col7 ref" href="#117data" title='data' data-ref="117data">data</a>, <a class="local col8 ref" href="#118len" title='len' data-ref="118len">len</a>);</td></tr>
+<tr><th id="301">301</th><td>}</td></tr>
+<tr><th id="302">302</th><td></td></tr>
+<tr><th id="303">303</th><td><em>void</em></td></tr>
+<tr><th id="304">304</th><td><dfn class="decl def" id="evtag_marshal_string" title='evtag_marshal_string' data-ref="evtag_marshal_string">evtag_marshal_string</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col9 decl" id="119buf" title='buf' data-type='struct evbuffer *' data-ref="119buf">buf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col0 decl" id="120tag" title='tag' data-type='uint32_t' data-ref="120tag">tag</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="121string" title='string' data-type='const char *' data-ref="121string">string</dfn>)</td></tr>
+<tr><th id="305">305</th><td>{</td></tr>
+<tr><th id="306">306</th><td>	<i>/* TODO support strings longer than UINT32_MAX ? */</i></td></tr>
+<tr><th id="307">307</th><td>	<a class="ref" href="#evtag_marshal" title='evtag_marshal' data-ref="evtag_marshal">evtag_marshal</a>(<a class="local col9 ref" href="#119buf" title='buf' data-ref="119buf">buf</a>, <a class="local col0 ref" href="#120tag" title='tag' data-ref="120tag">tag</a>, <a class="local col1 ref" href="#121string" title='string' data-ref="121string">string</a>, (<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a>)<a class="ref" href="../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col1 ref" href="#121string" title='string' data-ref="121string">string</a>));</td></tr>
+<tr><th id="308">308</th><td>}</td></tr>
+<tr><th id="309">309</th><td></td></tr>
+<tr><th id="310">310</th><td><em>void</em></td></tr>
+<tr><th id="311">311</th><td><dfn class="decl def" id="evtag_marshal_timeval" title='evtag_marshal_timeval' data-ref="evtag_marshal_timeval">evtag_marshal_timeval</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col2 decl" id="122evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="122evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col3 decl" id="123tag" title='tag' data-type='uint32_t' data-ref="123tag">tag</dfn>, <b>struct</b> <a class="type" href="../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> *<dfn class="local col4 decl" id="124tv" title='tv' data-type='struct timeval *' data-ref="124tv">tv</dfn>)</td></tr>
+<tr><th id="312">312</th><td>{</td></tr>
+<tr><th id="313">313</th><td>	<a class="macro" href="include/event2/util.h.html#174" title="uint8_t" data-ref="_M/ev_uint8_t">ev_uint8_t</a> <dfn class="local col5 decl" id="125data" title='data' data-type='uint8_t [10]' data-ref="125data">data</dfn>[<var>10</var>];</td></tr>
+<tr><th id="314">314</th><td>	<em>int</em> <dfn class="local col6 decl" id="126len" title='len' data-type='int' data-ref="126len">len</dfn> = <a class="tu ref" href="#encode_int_internal" title='encode_int_internal' data-use='c' data-ref="encode_int_internal">encode_int_internal</a>(<a class="local col5 ref" href="#125data" title='data' data-ref="125data">data</a>, <a class="local col4 ref" href="#124tv" title='tv' data-ref="124tv">tv</a>-&gt;<a class="ref" href="../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a>);</td></tr>
+<tr><th id="315">315</th><td>	<a class="local col6 ref" href="#126len" title='len' data-ref="126len">len</a> += <a class="tu ref" href="#encode_int_internal" title='encode_int_internal' data-use='c' data-ref="encode_int_internal">encode_int_internal</a>(<a class="local col5 ref" href="#125data" title='data' data-ref="125data">data</a> + <a class="local col6 ref" href="#126len" title='len' data-ref="126len">len</a>, <a class="local col4 ref" href="#124tv" title='tv' data-ref="124tv">tv</a>-&gt;<a class="ref" href="../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a>);</td></tr>
+<tr><th id="316">316</th><td>	<a class="ref" href="#evtag_marshal" title='evtag_marshal' data-ref="evtag_marshal">evtag_marshal</a>(<a class="local col2 ref" href="#122evbuf" title='evbuf' data-ref="122evbuf">evbuf</a>, <a class="local col3 ref" href="#123tag" title='tag' data-ref="123tag">tag</a>, <a class="local col5 ref" href="#125data" title='data' data-ref="125data">data</a>, <a class="local col6 ref" href="#126len" title='len' data-ref="126len">len</a>);</td></tr>
+<tr><th id="317">317</th><td>}</td></tr>
+<tr><th id="318">318</th><td></td></tr>
+<tr><th id="319">319</th><td><u>#define <dfn class="macro" id="_M/DECODE_INT_INTERNAL" data-ref="_M/DECODE_INT_INTERNAL">DECODE_INT_INTERNAL</dfn>(number, maxnibbles, pnumber, evbuf, offset) \</u></td></tr>
+<tr><th id="320">320</th><td><u>do {									\</u></td></tr>
+<tr><th id="321">321</th><td><u>	ev_uint8_t *<dfn class="local col1 decl" id="131data" title='data' data-type='uint8_t *' data-ref="131data"><dfn class="local col8 decl" id="138data" title='data' data-type='uint8_t *' data-ref="138data">data</dfn></dfn>;						\</u></td></tr>
+<tr><th id="322">322</th><td><u>	ev_ssize_t <dfn class="local col2 decl" id="132len" title='len' data-type='ssize_t' data-ref="132len"><dfn class="local col9 decl" id="139len" title='len' data-type='ssize_t' data-ref="139len">len</dfn></dfn> = <a class="ref" href="include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(evbuf) - offset;		\</u></td></tr>
+<tr><th id="323">323</th><td><u>	int <dfn class="local col3 decl" id="133nibbles" title='nibbles' data-type='int' data-ref="133nibbles"><dfn class="local col0 decl" id="140nibbles" title='nibbles' data-type='int' data-ref="140nibbles">nibbles</dfn></dfn> = 0;						\</u></td></tr>
+<tr><th id="324">324</th><td><u>									\</u></td></tr>
+<tr><th id="325">325</th><td><u>	if (<a class="local col2 ref" href="#369" title='len' data-ref="132len"><a class="local col9 ref" href="#376" title='len' data-ref="139len">len</a></a> &lt;= 0)							\</u></td></tr>
+<tr><th id="326">326</th><td><u>		return (-1);						\</u></td></tr>
+<tr><th id="327">327</th><td><u>									\</u></td></tr>
+<tr><th id="328">328</th><td><u>	/* XXX(niels): faster? */					\</u></td></tr>
+<tr><th id="329">329</th><td><u>	<a class="local col1 ref" href="#369" title='data' data-ref="131data"><a class="local col8 ref" href="#376" title='data' data-ref="138data">data</a></a> = <a class="ref" href="include/event2/buffer.h.html#evbuffer_pullup" title='evbuffer_pullup' data-ref="evbuffer_pullup">evbuffer_pullup</a>(evbuf, offset + 1) + offset;		\</u></td></tr>
+<tr><th id="330">330</th><td><u>	if (!<a class="local col1 ref" href="#369" title='data' data-ref="131data"><a class="local col8 ref" href="#376" title='data' data-ref="138data">data</a></a>)							\</u></td></tr>
+<tr><th id="331">331</th><td><u>		return (-1);						\</u></td></tr>
+<tr><th id="332">332</th><td><u>									\</u></td></tr>
+<tr><th id="333">333</th><td><u>	<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> = ((<a class="local col1 ref" href="#369" title='data' data-ref="131data"><a class="local col8 ref" href="#376" title='data' data-ref="138data">data</a></a>[0] &amp; 0xf0) &gt;&gt; 4) + 1;				\</u></td></tr>
+<tr><th id="334">334</th><td><u>	if (<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> &gt; maxnibbles || (<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> &gt;&gt; 1) + 1 &gt; <a class="local col2 ref" href="#369" title='len' data-ref="132len"><a class="local col9 ref" href="#376" title='len' data-ref="139len">len</a></a>)		\</u></td></tr>
+<tr><th id="335">335</th><td><u>		return (-1);						\</u></td></tr>
+<tr><th id="336">336</th><td><u>	<a class="local col2 ref" href="#369" title='len' data-ref="132len"><a class="local col9 ref" href="#376" title='len' data-ref="139len">len</a></a> = (<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> &gt;&gt; 1) + 1;					\</u></td></tr>
+<tr><th id="337">337</th><td><u>									\</u></td></tr>
+<tr><th id="338">338</th><td><u>	<a class="local col1 ref" href="#369" title='data' data-ref="131data"><a class="local col8 ref" href="#376" title='data' data-ref="138data">data</a></a> = <a class="ref" href="include/event2/buffer.h.html#evbuffer_pullup" title='evbuffer_pullup' data-ref="evbuffer_pullup">evbuffer_pullup</a>(evbuf, offset + <a class="local col2 ref" href="#369" title='len' data-ref="132len"><a class="local col9 ref" href="#376" title='len' data-ref="139len">len</a></a>) + offset;		\</u></td></tr>
+<tr><th id="339">339</th><td><u>	if (!<a class="local col1 ref" href="#369" title='data' data-ref="131data"><a class="local col8 ref" href="#376" title='data' data-ref="138data">data</a></a>)							\</u></td></tr>
+<tr><th id="340">340</th><td><u>		return (-1);						\</u></td></tr>
+<tr><th id="341">341</th><td><u>									\</u></td></tr>
+<tr><th id="342">342</th><td><u>	while (<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> &gt; 0) {						\</u></td></tr>
+<tr><th id="343">343</th><td><u>		number &lt;&lt;= 4;						\</u></td></tr>
+<tr><th id="344">344</th><td><u>		if (<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> &amp; 0x1)					\</u></td></tr>
+<tr><th id="345">345</th><td><u>			number |= <a class="local col1 ref" href="#369" title='data' data-ref="131data"><a class="local col8 ref" href="#376" title='data' data-ref="138data">data</a></a>[<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> &gt;&gt; 1] &amp; 0x0f;		\</u></td></tr>
+<tr><th id="346">346</th><td><u>		else							\</u></td></tr>
+<tr><th id="347">347</th><td><u>			number |= (<a class="local col1 ref" href="#369" title='data' data-ref="131data"><a class="local col8 ref" href="#376" title='data' data-ref="138data">data</a></a>[<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a> &gt;&gt; 1] &amp; 0xf0) &gt;&gt; 4;	\</u></td></tr>
+<tr><th id="348">348</th><td><u>		<a class="local col3 ref" href="#369" title='nibbles' data-ref="133nibbles"><a class="local col0 ref" href="#376" title='nibbles' data-ref="140nibbles">nibbles</a></a>--;						\</u></td></tr>
+<tr><th id="349">349</th><td><u>	}								\</u></td></tr>
+<tr><th id="350">350</th><td><u>									\</u></td></tr>
+<tr><th id="351">351</th><td><u>	*pnumber = number;						\</u></td></tr>
+<tr><th id="352">352</th><td><u>									\</u></td></tr>
+<tr><th id="353">353</th><td><u>	return (int)(<a class="local col2 ref" href="#369" title='len' data-ref="132len"><a class="local col9 ref" href="#376" title='len' data-ref="139len">len</a></a>);						\</u></td></tr>
+<tr><th id="354">354</th><td><u>} while (0)</u></td></tr>
+<tr><th id="355">355</th><td></td></tr>
+<tr><th id="356">356</th><td><i  data-doc="decode_int_internal">/* Internal: decode an integer from an evbuffer, without draining it.</i></td></tr>
+<tr><th id="357">357</th><td><i  data-doc="decode_int_internal"> *  Only integers up to 32-bits are supported.</i></td></tr>
+<tr><th id="358">358</th><td><i  data-doc="decode_int_internal"> *</i></td></tr>
+<tr><th id="359">359</th><td><i  data-doc="decode_int_internal"> * @param evbuf the buffer to read from</i></td></tr>
+<tr><th id="360">360</th><td><i  data-doc="decode_int_internal"> * @param offset an index into the buffer at which we should start reading.</i></td></tr>
+<tr><th id="361">361</th><td><i  data-doc="decode_int_internal"> * @param pnumber a pointer to receive the integer.</i></td></tr>
+<tr><th id="362">362</th><td><i  data-doc="decode_int_internal"> * @return The length of the number as encoded, or -1 on error.</i></td></tr>
+<tr><th id="363">363</th><td><i  data-doc="decode_int_internal"> */</i></td></tr>
+<tr><th id="364">364</th><td></td></tr>
+<tr><th id="365">365</th><td><em>static</em> <em>int</em></td></tr>
+<tr><th id="366">366</th><td><dfn class="tu decl def" id="decode_int_internal" title='decode_int_internal' data-type='int decode_int_internal(uint32_t * pnumber, struct evbuffer * evbuf, int offset)' data-ref="decode_int_internal">decode_int_internal</dfn>(<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col7 decl" id="127pnumber" title='pnumber' data-type='uint32_t *' data-ref="127pnumber">pnumber</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col8 decl" id="128evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="128evbuf">evbuf</dfn>, <em>int</em> <dfn class="local col9 decl" id="129offset" title='offset' data-type='int' data-ref="129offset">offset</dfn>)</td></tr>
+<tr><th id="367">367</th><td>{</td></tr>
+<tr><th id="368">368</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col0 decl" id="130number" title='number' data-type='uint32_t' data-ref="130number">number</dfn> = <var>0</var>;</td></tr>
+<tr><th id="369">369</th><td>	<a class="macro" href="#319" title="do { uint8_t *data; ssize_t len = evbuffer_get_length(evbuf) - offset; int nibbles = 0; if (len &lt;= 0) return (-1); data = evbuffer_pullup(evbuf, offset + 1) + offset; if (!data) return (-1); nibbles = ((data[0] &amp; 0xf0) &gt;&gt; 4) + 1; if (nibbles &gt; 8 || (nibbles &gt;&gt; 1) + 1 &gt; len) return (-1); len = (nibbles &gt;&gt; 1) + 1; data = evbuffer_pullup(evbuf, offset + len) + offset; if (!data) return (-1); while (nibbles &gt; 0) { number &lt;&lt;= 4; if (nibbles &amp; 0x1) number |= data[nibbles &gt;&gt; 1] &amp; 0x0f; else number |= (data[nibbles &gt;&gt; 1] &amp; 0xf0) &gt;&gt; 4; nibbles--; } *pnumber = number; return (int)(len); } while (0)" data-ref="_M/DECODE_INT_INTERNAL">DECODE_INT_INTERNAL</a>(<a class="local col0 ref" href="#130number" title='number' data-ref="130number">number</a>, <var>8</var>, <a class="local col7 ref" href="#127pnumber" title='pnumber' data-ref="127pnumber">pnumber</a>, <a class="local col8 ref" href="#128evbuf" title='evbuf' data-ref="128evbuf">evbuf</a>, <a class="local col9 ref" href="#129offset" title='offset' data-ref="129offset">offset</a>);</td></tr>
+<tr><th id="370">370</th><td>}</td></tr>
+<tr><th id="371">371</th><td></td></tr>
+<tr><th id="372">372</th><td><em>static</em> <em>int</em></td></tr>
+<tr><th id="373">373</th><td><dfn class="tu decl def" id="decode_int64_internal" title='decode_int64_internal' data-type='int decode_int64_internal(uint64_t * pnumber, struct evbuffer * evbuf, int offset)' data-ref="decode_int64_internal">decode_int64_internal</dfn>(<a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> *<dfn class="local col4 decl" id="134pnumber" title='pnumber' data-type='uint64_t *' data-ref="134pnumber">pnumber</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col5 decl" id="135evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="135evbuf">evbuf</dfn>, <em>int</em> <dfn class="local col6 decl" id="136offset" title='offset' data-type='int' data-ref="136offset">offset</dfn>)</td></tr>
+<tr><th id="374">374</th><td>{</td></tr>
+<tr><th id="375">375</th><td>	<a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> <dfn class="local col7 decl" id="137number" title='number' data-type='uint64_t' data-ref="137number">number</dfn> = <var>0</var>;</td></tr>
+<tr><th id="376">376</th><td>	<a class="macro" href="#319" title="do { uint8_t *data; ssize_t len = evbuffer_get_length(evbuf) - offset; int nibbles = 0; if (len &lt;= 0) return (-1); data = evbuffer_pullup(evbuf, offset + 1) + offset; if (!data) return (-1); nibbles = ((data[0] &amp; 0xf0) &gt;&gt; 4) + 1; if (nibbles &gt; 16 || (nibbles &gt;&gt; 1) + 1 &gt; len) return (-1); len = (nibbles &gt;&gt; 1) + 1; data = evbuffer_pullup(evbuf, offset + len) + offset; if (!data) return (-1); while (nibbles &gt; 0) { number &lt;&lt;= 4; if (nibbles &amp; 0x1) number |= data[nibbles &gt;&gt; 1] &amp; 0x0f; else number |= (data[nibbles &gt;&gt; 1] &amp; 0xf0) &gt;&gt; 4; nibbles--; } *pnumber = number; return (int)(len); } while (0)" data-ref="_M/DECODE_INT_INTERNAL">DECODE_INT_INTERNAL</a>(<a class="local col7 ref" href="#137number" title='number' data-ref="137number">number</a>, <var>16</var>, <a class="local col4 ref" href="#134pnumber" title='pnumber' data-ref="134pnumber">pnumber</a>, <a class="local col5 ref" href="#135evbuf" title='evbuf' data-ref="135evbuf">evbuf</a>, <a class="local col6 ref" href="#136offset" title='offset' data-ref="136offset">offset</a>);</td></tr>
+<tr><th id="377">377</th><td>}</td></tr>
+<tr><th id="378">378</th><td></td></tr>
+<tr><th id="379">379</th><td><em>int</em></td></tr>
+<tr><th id="380">380</th><td><dfn class="decl def" id="evtag_decode_int" title='evtag_decode_int' data-ref="evtag_decode_int">evtag_decode_int</dfn>(<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col1 decl" id="141pnumber" title='pnumber' data-type='uint32_t *' data-ref="141pnumber">pnumber</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col2 decl" id="142evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="142evbuf">evbuf</dfn>)</td></tr>
+<tr><th id="381">381</th><td>{</td></tr>
+<tr><th id="382">382</th><td>	<em>int</em> <dfn class="local col3 decl" id="143res" title='res' data-type='int' data-ref="143res">res</dfn> = <a class="tu ref" href="#decode_int_internal" title='decode_int_internal' data-use='c' data-ref="decode_int_internal">decode_int_internal</a>(<a class="local col1 ref" href="#141pnumber" title='pnumber' data-ref="141pnumber">pnumber</a>, <a class="local col2 ref" href="#142evbuf" title='evbuf' data-ref="142evbuf">evbuf</a>, <var>0</var>);</td></tr>
+<tr><th id="383">383</th><td>	<b>if</b> (<a class="local col3 ref" href="#143res" title='res' data-ref="143res">res</a> != -<var>1</var>)</td></tr>
+<tr><th id="384">384</th><td>		<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col2 ref" href="#142evbuf" title='evbuf' data-ref="142evbuf">evbuf</a>, <a class="local col3 ref" href="#143res" title='res' data-ref="143res">res</a>);</td></tr>
+<tr><th id="385">385</th><td></td></tr>
+<tr><th id="386">386</th><td>	<b>return</b> (<a class="local col3 ref" href="#143res" title='res' data-ref="143res">res</a> == -<var>1</var> ? -<var>1</var> : <var>0</var>);</td></tr>
+<tr><th id="387">387</th><td>}</td></tr>
+<tr><th id="388">388</th><td></td></tr>
+<tr><th id="389">389</th><td><em>int</em></td></tr>
+<tr><th id="390">390</th><td><dfn class="decl def" id="evtag_decode_int64" title='evtag_decode_int64' data-ref="evtag_decode_int64">evtag_decode_int64</dfn>(<a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> *<dfn class="local col4 decl" id="144pnumber" title='pnumber' data-type='uint64_t *' data-ref="144pnumber">pnumber</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col5 decl" id="145evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="145evbuf">evbuf</dfn>)</td></tr>
+<tr><th id="391">391</th><td>{</td></tr>
+<tr><th id="392">392</th><td>	<em>int</em> <dfn class="local col6 decl" id="146res" title='res' data-type='int' data-ref="146res">res</dfn> = <a class="tu ref" href="#decode_int64_internal" title='decode_int64_internal' data-use='c' data-ref="decode_int64_internal">decode_int64_internal</a>(<a class="local col4 ref" href="#144pnumber" title='pnumber' data-ref="144pnumber">pnumber</a>, <a class="local col5 ref" href="#145evbuf" title='evbuf' data-ref="145evbuf">evbuf</a>, <var>0</var>);</td></tr>
+<tr><th id="393">393</th><td>	<b>if</b> (<a class="local col6 ref" href="#146res" title='res' data-ref="146res">res</a> != -<var>1</var>)</td></tr>
+<tr><th id="394">394</th><td>		<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col5 ref" href="#145evbuf" title='evbuf' data-ref="145evbuf">evbuf</a>, <a class="local col6 ref" href="#146res" title='res' data-ref="146res">res</a>);</td></tr>
+<tr><th id="395">395</th><td></td></tr>
+<tr><th id="396">396</th><td>	<b>return</b> (<a class="local col6 ref" href="#146res" title='res' data-ref="146res">res</a> == -<var>1</var> ? -<var>1</var> : <var>0</var>);</td></tr>
+<tr><th id="397">397</th><td>}</td></tr>
+<tr><th id="398">398</th><td></td></tr>
+<tr><th id="399">399</th><td><em>int</em></td></tr>
+<tr><th id="400">400</th><td><dfn class="decl def" id="evtag_peek" title='evtag_peek' data-ref="evtag_peek">evtag_peek</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col7 decl" id="147evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="147evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col8 decl" id="148ptag" title='ptag' data-type='uint32_t *' data-ref="148ptag">ptag</dfn>)</td></tr>
+<tr><th id="401">401</th><td>{</td></tr>
+<tr><th id="402">402</th><td>	<b>return</b> (<a class="tu ref" href="#decode_tag_internal" title='decode_tag_internal' data-use='c' data-ref="decode_tag_internal">decode_tag_internal</a>(<a class="local col8 ref" href="#148ptag" title='ptag' data-ref="148ptag">ptag</a>, <a class="local col7 ref" href="#147evbuf" title='evbuf' data-ref="147evbuf">evbuf</a>, <var>0</var> <i>/* dodrain */</i>));</td></tr>
+<tr><th id="403">403</th><td>}</td></tr>
+<tr><th id="404">404</th><td></td></tr>
+<tr><th id="405">405</th><td><em>int</em></td></tr>
+<tr><th id="406">406</th><td><dfn class="decl def" id="evtag_peek_length" title='evtag_peek_length' data-ref="evtag_peek_length">evtag_peek_length</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col9 decl" id="149evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="149evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col0 decl" id="150plength" title='plength' data-type='uint32_t *' data-ref="150plength">plength</dfn>)</td></tr>
+<tr><th id="407">407</th><td>{</td></tr>
+<tr><th id="408">408</th><td>	<em>int</em> <dfn class="local col1 decl" id="151res" title='res' data-type='int' data-ref="151res">res</dfn>, <dfn class="local col2 decl" id="152len" title='len' data-type='int' data-ref="152len">len</dfn>;</td></tr>
+<tr><th id="409">409</th><td></td></tr>
+<tr><th id="410">410</th><td>	<a class="local col2 ref" href="#152len" title='len' data-ref="152len">len</a> = <a class="tu ref" href="#decode_tag_internal" title='decode_tag_internal' data-use='c' data-ref="decode_tag_internal">decode_tag_internal</a>(<span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <a class="local col9 ref" href="#149evbuf" title='evbuf' data-ref="149evbuf">evbuf</a>, <var>0</var> <i>/* dodrain */</i>);</td></tr>
+<tr><th id="411">411</th><td>	<b>if</b> (<a class="local col2 ref" href="#152len" title='len' data-ref="152len">len</a> == -<var>1</var>)</td></tr>
+<tr><th id="412">412</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="413">413</th><td></td></tr>
+<tr><th id="414">414</th><td>	<a class="local col1 ref" href="#151res" title='res' data-ref="151res">res</a> = <a class="tu ref" href="#decode_int_internal" title='decode_int_internal' data-use='c' data-ref="decode_int_internal">decode_int_internal</a>(<a class="local col0 ref" href="#150plength" title='plength' data-ref="150plength">plength</a>, <a class="local col9 ref" href="#149evbuf" title='evbuf' data-ref="149evbuf">evbuf</a>, <a class="local col2 ref" href="#152len" title='len' data-ref="152len">len</a>);</td></tr>
+<tr><th id="415">415</th><td>	<b>if</b> (<a class="local col1 ref" href="#151res" title='res' data-ref="151res">res</a> == -<var>1</var>)</td></tr>
+<tr><th id="416">416</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="417">417</th><td></td></tr>
+<tr><th id="418">418</th><td>	*<a class="local col0 ref" href="#150plength" title='plength' data-ref="150plength">plength</a> += <a class="local col1 ref" href="#151res" title='res' data-ref="151res">res</a> + <a class="local col2 ref" href="#152len" title='len' data-ref="152len">len</a>;</td></tr>
+<tr><th id="419">419</th><td></td></tr>
+<tr><th id="420">420</th><td>	<b>return</b> (<var>0</var>);</td></tr>
+<tr><th id="421">421</th><td>}</td></tr>
+<tr><th id="422">422</th><td></td></tr>
+<tr><th id="423">423</th><td><em>int</em></td></tr>
+<tr><th id="424">424</th><td><dfn class="decl def" id="evtag_payload_length" title='evtag_payload_length' data-ref="evtag_payload_length">evtag_payload_length</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col3 decl" id="153evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="153evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col4 decl" id="154plength" title='plength' data-type='uint32_t *' data-ref="154plength">plength</dfn>)</td></tr>
+<tr><th id="425">425</th><td>{</td></tr>
+<tr><th id="426">426</th><td>	<em>int</em> <dfn class="local col5 decl" id="155res" title='res' data-type='int' data-ref="155res">res</dfn>, <dfn class="local col6 decl" id="156len" title='len' data-type='int' data-ref="156len">len</dfn>;</td></tr>
+<tr><th id="427">427</th><td></td></tr>
+<tr><th id="428">428</th><td>	<a class="local col6 ref" href="#156len" title='len' data-ref="156len">len</a> = <a class="tu ref" href="#decode_tag_internal" title='decode_tag_internal' data-use='c' data-ref="decode_tag_internal">decode_tag_internal</a>(<span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <a class="local col3 ref" href="#153evbuf" title='evbuf' data-ref="153evbuf">evbuf</a>, <var>0</var> <i>/* dodrain */</i>);</td></tr>
+<tr><th id="429">429</th><td>	<b>if</b> (<a class="local col6 ref" href="#156len" title='len' data-ref="156len">len</a> == -<var>1</var>)</td></tr>
+<tr><th id="430">430</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="431">431</th><td></td></tr>
+<tr><th id="432">432</th><td>	<a class="local col5 ref" href="#155res" title='res' data-ref="155res">res</a> = <a class="tu ref" href="#decode_int_internal" title='decode_int_internal' data-use='c' data-ref="decode_int_internal">decode_int_internal</a>(<a class="local col4 ref" href="#154plength" title='plength' data-ref="154plength">plength</a>, <a class="local col3 ref" href="#153evbuf" title='evbuf' data-ref="153evbuf">evbuf</a>, <a class="local col6 ref" href="#156len" title='len' data-ref="156len">len</a>);</td></tr>
+<tr><th id="433">433</th><td>	<b>if</b> (<a class="local col5 ref" href="#155res" title='res' data-ref="155res">res</a> == -<var>1</var>)</td></tr>
+<tr><th id="434">434</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="435">435</th><td></td></tr>
+<tr><th id="436">436</th><td>	<b>return</b> (<var>0</var>);</td></tr>
+<tr><th id="437">437</th><td>}</td></tr>
+<tr><th id="438">438</th><td></td></tr>
+<tr><th id="439">439</th><td><i>/* just unmarshals the header and returns the length of the remaining data */</i></td></tr>
+<tr><th id="440">440</th><td></td></tr>
+<tr><th id="441">441</th><td><em>int</em></td></tr>
+<tr><th id="442">442</th><td><dfn class="decl def" id="evtag_unmarshal_header" title='evtag_unmarshal_header' data-ref="evtag_unmarshal_header">evtag_unmarshal_header</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col7 decl" id="157evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="157evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col8 decl" id="158ptag" title='ptag' data-type='uint32_t *' data-ref="158ptag">ptag</dfn>)</td></tr>
+<tr><th id="443">443</th><td>{</td></tr>
+<tr><th id="444">444</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col9 decl" id="159len" title='len' data-type='uint32_t' data-ref="159len">len</dfn>;</td></tr>
+<tr><th id="445">445</th><td></td></tr>
+<tr><th id="446">446</th><td>	<b>if</b> (<a class="tu ref" href="#decode_tag_internal" title='decode_tag_internal' data-use='c' data-ref="decode_tag_internal">decode_tag_internal</a>(<a class="local col8 ref" href="#158ptag" title='ptag' data-ref="158ptag">ptag</a>, <a class="local col7 ref" href="#157evbuf" title='evbuf' data-ref="157evbuf">evbuf</a>, <var>1</var> <i>/* dodrain */</i>) == -<var>1</var>)</td></tr>
+<tr><th id="447">447</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="448">448</th><td>	<b>if</b> (<a class="ref" href="#evtag_decode_int" title='evtag_decode_int' data-ref="evtag_decode_int">evtag_decode_int</a>(&amp;<a class="local col9 ref" href="#159len" title='len' data-ref="159len">len</a>, <a class="local col7 ref" href="#157evbuf" title='evbuf' data-ref="157evbuf">evbuf</a>) == -<var>1</var>)</td></tr>
+<tr><th id="449">449</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="450">450</th><td></td></tr>
+<tr><th id="451">451</th><td>	<b>if</b> (<a class="ref" href="include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(<a class="local col7 ref" href="#157evbuf" title='evbuf' data-ref="157evbuf">evbuf</a>) &lt; <a class="local col9 ref" href="#159len" title='len' data-ref="159len">len</a>)</td></tr>
+<tr><th id="452">452</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="453">453</th><td></td></tr>
+<tr><th id="454">454</th><td>	<b>return</b> (<a class="local col9 ref" href="#159len" title='len' data-ref="159len">len</a>);</td></tr>
+<tr><th id="455">455</th><td>}</td></tr>
+<tr><th id="456">456</th><td></td></tr>
+<tr><th id="457">457</th><td><em>int</em></td></tr>
+<tr><th id="458">458</th><td><dfn class="decl def" id="evtag_consume" title='evtag_consume' data-ref="evtag_consume">evtag_consume</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col0 decl" id="160evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="160evbuf">evbuf</dfn>)</td></tr>
+<tr><th id="459">459</th><td>{</td></tr>
+<tr><th id="460">460</th><td>	<em>int</em> <dfn class="local col1 decl" id="161len" title='len' data-type='int' data-ref="161len">len</dfn>;</td></tr>
+<tr><th id="461">461</th><td>	<b>if</b> ((<a class="local col1 ref" href="#161len" title='len' data-ref="161len">len</a> = <a class="ref" href="#evtag_unmarshal_header" title='evtag_unmarshal_header' data-ref="evtag_unmarshal_header">evtag_unmarshal_header</a>(<a class="local col0 ref" href="#160evbuf" title='evbuf' data-ref="160evbuf">evbuf</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)) == -<var>1</var>)</td></tr>
+<tr><th id="462">462</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="463">463</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col0 ref" href="#160evbuf" title='evbuf' data-ref="160evbuf">evbuf</a>, <a class="local col1 ref" href="#161len" title='len' data-ref="161len">len</a>);</td></tr>
+<tr><th id="464">464</th><td></td></tr>
+<tr><th id="465">465</th><td>	<b>return</b> (<var>0</var>);</td></tr>
+<tr><th id="466">466</th><td>}</td></tr>
+<tr><th id="467">467</th><td></td></tr>
+<tr><th id="468">468</th><td><i>/* Reads the data type from an event buffer */</i></td></tr>
+<tr><th id="469">469</th><td></td></tr>
+<tr><th id="470">470</th><td><em>int</em></td></tr>
+<tr><th id="471">471</th><td><dfn class="decl def" id="evtag_unmarshal" title='evtag_unmarshal' data-ref="evtag_unmarshal">evtag_unmarshal</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col2 decl" id="162src" title='src' data-type='struct evbuffer *' data-ref="162src">src</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col3 decl" id="163ptag" title='ptag' data-type='uint32_t *' data-ref="163ptag">ptag</dfn>, <b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col4 decl" id="164dst" title='dst' data-type='struct evbuffer *' data-ref="164dst">dst</dfn>)</td></tr>
+<tr><th id="472">472</th><td>{</td></tr>
+<tr><th id="473">473</th><td>	<em>int</em> <dfn class="local col5 decl" id="165len" title='len' data-type='int' data-ref="165len">len</dfn>;</td></tr>
+<tr><th id="474">474</th><td></td></tr>
+<tr><th id="475">475</th><td>	<b>if</b> ((<a class="local col5 ref" href="#165len" title='len' data-ref="165len">len</a> = <a class="ref" href="#evtag_unmarshal_header" title='evtag_unmarshal_header' data-ref="evtag_unmarshal_header">evtag_unmarshal_header</a>(<a class="local col2 ref" href="#162src" title='src' data-ref="162src">src</a>, <a class="local col3 ref" href="#163ptag" title='ptag' data-ref="163ptag">ptag</a>)) == -<var>1</var>)</td></tr>
+<tr><th id="476">476</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="477">477</th><td></td></tr>
+<tr><th id="478">478</th><td>	<b>if</b> (<a class="ref" href="include/event2/buffer.h.html#evbuffer_add" title='evbuffer_add' data-ref="evbuffer_add">evbuffer_add</a>(<a class="local col4 ref" href="#164dst" title='dst' data-ref="164dst">dst</a>, <a class="ref" href="include/event2/buffer.h.html#evbuffer_pullup" title='evbuffer_pullup' data-ref="evbuffer_pullup">evbuffer_pullup</a>(<a class="local col2 ref" href="#162src" title='src' data-ref="162src">src</a>, <a class="local col5 ref" href="#165len" title='len' data-ref="165len">len</a>), <a class="local col5 ref" href="#165len" title='len' data-ref="165len">len</a>) == -<var>1</var>)</td></tr>
+<tr><th id="479">479</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="480">480</th><td></td></tr>
+<tr><th id="481">481</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col2 ref" href="#162src" title='src' data-ref="162src">src</a>, <a class="local col5 ref" href="#165len" title='len' data-ref="165len">len</a>);</td></tr>
+<tr><th id="482">482</th><td></td></tr>
+<tr><th id="483">483</th><td>	<b>return</b> (<a class="local col5 ref" href="#165len" title='len' data-ref="165len">len</a>);</td></tr>
+<tr><th id="484">484</th><td>}</td></tr>
+<tr><th id="485">485</th><td></td></tr>
+<tr><th id="486">486</th><td><i>/* Marshaling for integers */</i></td></tr>
+<tr><th id="487">487</th><td></td></tr>
+<tr><th id="488">488</th><td><em>int</em></td></tr>
+<tr><th id="489">489</th><td><dfn class="decl def" id="evtag_unmarshal_int" title='evtag_unmarshal_int' data-ref="evtag_unmarshal_int">evtag_unmarshal_int</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col6 decl" id="166evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="166evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col7 decl" id="167need_tag" title='need_tag' data-type='uint32_t' data-ref="167need_tag">need_tag</dfn>,</td></tr>
+<tr><th id="490">490</th><td>    <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> *<dfn class="local col8 decl" id="168pinteger" title='pinteger' data-type='uint32_t *' data-ref="168pinteger">pinteger</dfn>)</td></tr>
+<tr><th id="491">491</th><td>{</td></tr>
+<tr><th id="492">492</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col9 decl" id="169tag" title='tag' data-type='uint32_t' data-ref="169tag">tag</dfn>;</td></tr>
+<tr><th id="493">493</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col0 decl" id="170len" title='len' data-type='uint32_t' data-ref="170len">len</dfn>;</td></tr>
+<tr><th id="494">494</th><td>	<em>int</em> <dfn class="local col1 decl" id="171result" title='result' data-type='int' data-ref="171result">result</dfn>;</td></tr>
+<tr><th id="495">495</th><td></td></tr>
+<tr><th id="496">496</th><td>	<b>if</b> (<a class="tu ref" href="#decode_tag_internal" title='decode_tag_internal' data-use='c' data-ref="decode_tag_internal">decode_tag_internal</a>(&amp;<a class="local col9 ref" href="#169tag" title='tag' data-ref="169tag">tag</a>, <a class="local col6 ref" href="#166evbuf" title='evbuf' data-ref="166evbuf">evbuf</a>, <var>1</var> <i>/* dodrain */</i>) == -<var>1</var>)</td></tr>
+<tr><th id="497">497</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="498">498</th><td>	<b>if</b> (<a class="local col7 ref" href="#167need_tag" title='need_tag' data-ref="167need_tag">need_tag</a> != <a class="local col9 ref" href="#169tag" title='tag' data-ref="169tag">tag</a>)</td></tr>
+<tr><th id="499">499</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="500">500</th><td>	<b>if</b> (<a class="ref" href="#evtag_decode_int" title='evtag_decode_int' data-ref="evtag_decode_int">evtag_decode_int</a>(&amp;<a class="local col0 ref" href="#170len" title='len' data-ref="170len">len</a>, <a class="local col6 ref" href="#166evbuf" title='evbuf' data-ref="166evbuf">evbuf</a>) == -<var>1</var>)</td></tr>
+<tr><th id="501">501</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="502">502</th><td></td></tr>
+<tr><th id="503">503</th><td>	<b>if</b> (<a class="ref" href="include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(<a class="local col6 ref" href="#166evbuf" title='evbuf' data-ref="166evbuf">evbuf</a>) &lt; <a class="local col0 ref" href="#170len" title='len' data-ref="170len">len</a>)</td></tr>
+<tr><th id="504">504</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="505">505</th><td></td></tr>
+<tr><th id="506">506</th><td>	<a class="local col1 ref" href="#171result" title='result' data-ref="171result">result</a> = <a class="tu ref" href="#decode_int_internal" title='decode_int_internal' data-use='c' data-ref="decode_int_internal">decode_int_internal</a>(<a class="local col8 ref" href="#168pinteger" title='pinteger' data-ref="168pinteger">pinteger</a>, <a class="local col6 ref" href="#166evbuf" title='evbuf' data-ref="166evbuf">evbuf</a>, <var>0</var>);</td></tr>
+<tr><th id="507">507</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col6 ref" href="#166evbuf" title='evbuf' data-ref="166evbuf">evbuf</a>, <a class="local col0 ref" href="#170len" title='len' data-ref="170len">len</a>);</td></tr>
+<tr><th id="508">508</th><td>	<b>if</b> (<a class="local col1 ref" href="#171result" title='result' data-ref="171result">result</a> &lt; <var>0</var> || (<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span>)<a class="local col1 ref" href="#171result" title='result' data-ref="171result">result</a> &gt; <a class="local col0 ref" href="#170len" title='len' data-ref="170len">len</a>) <i>/* XXX Should this be != rather than &gt; ?*/</i></td></tr>
+<tr><th id="509">509</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="510">510</th><td>	<b>else</b></td></tr>
+<tr><th id="511">511</th><td>		<b>return</b> <a class="local col1 ref" href="#171result" title='result' data-ref="171result">result</a>;</td></tr>
+<tr><th id="512">512</th><td>}</td></tr>
+<tr><th id="513">513</th><td></td></tr>
+<tr><th id="514">514</th><td><em>int</em></td></tr>
+<tr><th id="515">515</th><td><dfn class="decl def" id="evtag_unmarshal_int64" title='evtag_unmarshal_int64' data-ref="evtag_unmarshal_int64">evtag_unmarshal_int64</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col2 decl" id="172evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="172evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col3 decl" id="173need_tag" title='need_tag' data-type='uint32_t' data-ref="173need_tag">need_tag</dfn>,</td></tr>
+<tr><th id="516">516</th><td>    <a class="macro" href="include/event2/util.h.html#117" title="uint64_t" data-ref="_M/ev_uint64_t">ev_uint64_t</a> *<dfn class="local col4 decl" id="174pinteger" title='pinteger' data-type='uint64_t *' data-ref="174pinteger">pinteger</dfn>)</td></tr>
+<tr><th id="517">517</th><td>{</td></tr>
+<tr><th id="518">518</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col5 decl" id="175tag" title='tag' data-type='uint32_t' data-ref="175tag">tag</dfn>;</td></tr>
+<tr><th id="519">519</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col6 decl" id="176len" title='len' data-type='uint32_t' data-ref="176len">len</dfn>;</td></tr>
+<tr><th id="520">520</th><td>	<em>int</em> <dfn class="local col7 decl" id="177result" title='result' data-type='int' data-ref="177result">result</dfn>;</td></tr>
+<tr><th id="521">521</th><td></td></tr>
+<tr><th id="522">522</th><td>	<b>if</b> (<a class="tu ref" href="#decode_tag_internal" title='decode_tag_internal' data-use='c' data-ref="decode_tag_internal">decode_tag_internal</a>(&amp;<a class="local col5 ref" href="#175tag" title='tag' data-ref="175tag">tag</a>, <a class="local col2 ref" href="#172evbuf" title='evbuf' data-ref="172evbuf">evbuf</a>, <var>1</var> <i>/* dodrain */</i>) == -<var>1</var>)</td></tr>
+<tr><th id="523">523</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="524">524</th><td>	<b>if</b> (<a class="local col3 ref" href="#173need_tag" title='need_tag' data-ref="173need_tag">need_tag</a> != <a class="local col5 ref" href="#175tag" title='tag' data-ref="175tag">tag</a>)</td></tr>
+<tr><th id="525">525</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="526">526</th><td>	<b>if</b> (<a class="ref" href="#evtag_decode_int" title='evtag_decode_int' data-ref="evtag_decode_int">evtag_decode_int</a>(&amp;<a class="local col6 ref" href="#176len" title='len' data-ref="176len">len</a>, <a class="local col2 ref" href="#172evbuf" title='evbuf' data-ref="172evbuf">evbuf</a>) == -<var>1</var>)</td></tr>
+<tr><th id="527">527</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="528">528</th><td></td></tr>
+<tr><th id="529">529</th><td>	<b>if</b> (<a class="ref" href="include/event2/buffer.h.html#evbuffer_get_length" title='evbuffer_get_length' data-ref="evbuffer_get_length">evbuffer_get_length</a>(<a class="local col2 ref" href="#172evbuf" title='evbuf' data-ref="172evbuf">evbuf</a>) &lt; <a class="local col6 ref" href="#176len" title='len' data-ref="176len">len</a>)</td></tr>
+<tr><th id="530">530</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="531">531</th><td></td></tr>
+<tr><th id="532">532</th><td>	<a class="local col7 ref" href="#177result" title='result' data-ref="177result">result</a> = <a class="tu ref" href="#decode_int64_internal" title='decode_int64_internal' data-use='c' data-ref="decode_int64_internal">decode_int64_internal</a>(<a class="local col4 ref" href="#174pinteger" title='pinteger' data-ref="174pinteger">pinteger</a>, <a class="local col2 ref" href="#172evbuf" title='evbuf' data-ref="172evbuf">evbuf</a>, <var>0</var>);</td></tr>
+<tr><th id="533">533</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col2 ref" href="#172evbuf" title='evbuf' data-ref="172evbuf">evbuf</a>, <a class="local col6 ref" href="#176len" title='len' data-ref="176len">len</a>);</td></tr>
+<tr><th id="534">534</th><td>	<b>if</b> (<a class="local col7 ref" href="#177result" title='result' data-ref="177result">result</a> &lt; <var>0</var> || (<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span>)<a class="local col7 ref" href="#177result" title='result' data-ref="177result">result</a> &gt; <a class="local col6 ref" href="#176len" title='len' data-ref="176len">len</a>) <i>/* XXX Should this be != rather than &gt; ?*/</i></td></tr>
+<tr><th id="535">535</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="536">536</th><td>	<b>else</b></td></tr>
+<tr><th id="537">537</th><td>		<b>return</b> <a class="local col7 ref" href="#177result" title='result' data-ref="177result">result</a>;</td></tr>
+<tr><th id="538">538</th><td>}</td></tr>
+<tr><th id="539">539</th><td></td></tr>
+<tr><th id="540">540</th><td><i>/* Unmarshal a fixed length tag */</i></td></tr>
+<tr><th id="541">541</th><td></td></tr>
+<tr><th id="542">542</th><td><em>int</em></td></tr>
+<tr><th id="543">543</th><td><dfn class="decl def" id="evtag_unmarshal_fixed" title='evtag_unmarshal_fixed' data-ref="evtag_unmarshal_fixed">evtag_unmarshal_fixed</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col8 decl" id="178src" title='src' data-type='struct evbuffer *' data-ref="178src">src</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col9 decl" id="179need_tag" title='need_tag' data-type='uint32_t' data-ref="179need_tag">need_tag</dfn>, <em>void</em> *<dfn class="local col0 decl" id="180data" title='data' data-type='void *' data-ref="180data">data</dfn>,</td></tr>
+<tr><th id="544">544</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col1 decl" id="181len" title='len' data-type='size_t' data-ref="181len">len</dfn>)</td></tr>
+<tr><th id="545">545</th><td>{</td></tr>
+<tr><th id="546">546</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col2 decl" id="182tag" title='tag' data-type='uint32_t' data-ref="182tag">tag</dfn>;</td></tr>
+<tr><th id="547">547</th><td>	<em>int</em> <dfn class="local col3 decl" id="183tag_len" title='tag_len' data-type='int' data-ref="183tag_len">tag_len</dfn>;</td></tr>
+<tr><th id="548">548</th><td></td></tr>
+<tr><th id="549">549</th><td>	<i>/* Now unmarshal a tag and check that it matches the tag we want */</i></td></tr>
+<tr><th id="550">550</th><td>	<b>if</b> ((<a class="local col3 ref" href="#183tag_len" title='tag_len' data-ref="183tag_len">tag_len</a> = <a class="ref" href="#evtag_unmarshal_header" title='evtag_unmarshal_header' data-ref="evtag_unmarshal_header">evtag_unmarshal_header</a>(<a class="local col8 ref" href="#178src" title='src' data-ref="178src">src</a>, &amp;<a class="local col2 ref" href="#182tag" title='tag' data-ref="182tag">tag</a>)) &lt; <var>0</var> ||</td></tr>
+<tr><th id="551">551</th><td>	    <a class="local col2 ref" href="#182tag" title='tag' data-ref="182tag">tag</a> != <a class="local col9 ref" href="#179need_tag" title='need_tag' data-ref="179need_tag">need_tag</a>)</td></tr>
+<tr><th id="552">552</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="553">553</th><td></td></tr>
+<tr><th id="554">554</th><td>	<b>if</b> ((<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span>)<a class="local col3 ref" href="#183tag_len" title='tag_len' data-ref="183tag_len">tag_len</a> != <a class="local col1 ref" href="#181len" title='len' data-ref="181len">len</a>)</td></tr>
+<tr><th id="555">555</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="556">556</th><td></td></tr>
+<tr><th id="557">557</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_remove" title='evbuffer_remove' data-ref="evbuffer_remove">evbuffer_remove</a>(<a class="local col8 ref" href="#178src" title='src' data-ref="178src">src</a>, <a class="local col0 ref" href="#180data" title='data' data-ref="180data">data</a>, <a class="local col1 ref" href="#181len" title='len' data-ref="181len">len</a>);</td></tr>
+<tr><th id="558">558</th><td>	<b>return</b> (<var>0</var>);</td></tr>
+<tr><th id="559">559</th><td>}</td></tr>
+<tr><th id="560">560</th><td></td></tr>
+<tr><th id="561">561</th><td><em>int</em></td></tr>
+<tr><th id="562">562</th><td><dfn class="decl def" id="evtag_unmarshal_string" title='evtag_unmarshal_string' data-ref="evtag_unmarshal_string">evtag_unmarshal_string</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col4 decl" id="184evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="184evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col5 decl" id="185need_tag" title='need_tag' data-type='uint32_t' data-ref="185need_tag">need_tag</dfn>,</td></tr>
+<tr><th id="563">563</th><td>    <em>char</em> **<dfn class="local col6 decl" id="186pstring" title='pstring' data-type='char **' data-ref="186pstring">pstring</dfn>)</td></tr>
+<tr><th id="564">564</th><td>{</td></tr>
+<tr><th id="565">565</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col7 decl" id="187tag" title='tag' data-type='uint32_t' data-ref="187tag">tag</dfn>;</td></tr>
+<tr><th id="566">566</th><td>	<em>int</em> <dfn class="local col8 decl" id="188tag_len" title='tag_len' data-type='int' data-ref="188tag_len">tag_len</dfn>;</td></tr>
+<tr><th id="567">567</th><td></td></tr>
+<tr><th id="568">568</th><td>	<b>if</b> ((<a class="local col8 ref" href="#188tag_len" title='tag_len' data-ref="188tag_len">tag_len</a> = <a class="ref" href="#evtag_unmarshal_header" title='evtag_unmarshal_header' data-ref="evtag_unmarshal_header">evtag_unmarshal_header</a>(<a class="local col4 ref" href="#184evbuf" title='evbuf' data-ref="184evbuf">evbuf</a>, &amp;<a class="local col7 ref" href="#187tag" title='tag' data-ref="187tag">tag</a>)) == -<var>1</var> ||</td></tr>
+<tr><th id="569">569</th><td>	    <a class="local col7 ref" href="#187tag" title='tag' data-ref="187tag">tag</a> != <a class="local col5 ref" href="#185need_tag" title='need_tag' data-ref="185need_tag">need_tag</a>)</td></tr>
+<tr><th id="570">570</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="571">571</th><td></td></tr>
+<tr><th id="572">572</th><td>	*<a class="local col6 ref" href="#186pstring" title='pstring' data-ref="186pstring">pstring</a> = <a class="macro" href="mm-internal.h.html#75" title="event_mm_malloc_(tag_len + 1)" data-ref="_M/mm_malloc">mm_malloc</a>(<a class="local col8 ref" href="#188tag_len" title='tag_len' data-ref="188tag_len">tag_len</a> + <var>1</var>);</td></tr>
+<tr><th id="573">573</th><td>	<b>if</b> (*<a class="local col6 ref" href="#186pstring" title='pstring' data-ref="186pstring">pstring</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) {</td></tr>
+<tr><th id="574">574</th><td>		<a class="ref" href="log-internal.h.html#event_warn" title='event_warn' data-ref="event_warn">event_warn</a>(<q>"%s: malloc"</q>, <a class="macro" href="util-internal.h.html#72" title="&quot;/home/jon/workspace/libevent/event_tagging.c&quot;" data-ref="_M/__func__"><b>__func__</b></a>);</td></tr>
+<tr><th id="575">575</th><td>		<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="576">576</th><td>	}</td></tr>
+<tr><th id="577">577</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_remove" title='evbuffer_remove' data-ref="evbuffer_remove">evbuffer_remove</a>(<a class="local col4 ref" href="#184evbuf" title='evbuf' data-ref="184evbuf">evbuf</a>, *<a class="local col6 ref" href="#186pstring" title='pstring' data-ref="186pstring">pstring</a>, <a class="local col8 ref" href="#188tag_len" title='tag_len' data-ref="188tag_len">tag_len</a>);</td></tr>
+<tr><th id="578">578</th><td>	(*<a class="local col6 ref" href="#186pstring" title='pstring' data-ref="186pstring">pstring</a>)[<a class="local col8 ref" href="#188tag_len" title='tag_len' data-ref="188tag_len">tag_len</a>] = <kbd>'\0'</kbd>;</td></tr>
+<tr><th id="579">579</th><td></td></tr>
+<tr><th id="580">580</th><td>	<b>return</b> (<var>0</var>);</td></tr>
+<tr><th id="581">581</th><td>}</td></tr>
+<tr><th id="582">582</th><td></td></tr>
+<tr><th id="583">583</th><td><em>int</em></td></tr>
+<tr><th id="584">584</th><td><dfn class="decl def" id="evtag_unmarshal_timeval" title='evtag_unmarshal_timeval' data-ref="evtag_unmarshal_timeval">evtag_unmarshal_timeval</dfn>(<b>struct</b> <a class="type" href="include/event2/tag.h.html#evbuffer" title='evbuffer' data-ref="evbuffer">evbuffer</a> *<dfn class="local col9 decl" id="189evbuf" title='evbuf' data-type='struct evbuffer *' data-ref="189evbuf">evbuf</dfn>, <a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col0 decl" id="190need_tag" title='need_tag' data-type='uint32_t' data-ref="190need_tag">need_tag</dfn>,</td></tr>
+<tr><th id="585">585</th><td>    <b>struct</b> <a class="type" href="../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> *<dfn class="local col1 decl" id="191ptv" title='ptv' data-type='struct timeval *' data-ref="191ptv">ptv</dfn>)</td></tr>
+<tr><th id="586">586</th><td>{</td></tr>
+<tr><th id="587">587</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col2 decl" id="192tag" title='tag' data-type='uint32_t' data-ref="192tag">tag</dfn>;</td></tr>
+<tr><th id="588">588</th><td>	<a class="macro" href="include/event2/util.h.html#136" title="uint32_t" data-ref="_M/ev_uint32_t">ev_uint32_t</a> <dfn class="local col3 decl" id="193integer" title='integer' data-type='uint32_t' data-ref="193integer">integer</dfn>;</td></tr>
+<tr><th id="589">589</th><td>	<em>int</em> <dfn class="local col4 decl" id="194len" title='len' data-type='int' data-ref="194len">len</dfn>, <dfn class="local col5 decl" id="195offset" title='offset' data-type='int' data-ref="195offset">offset</dfn>, <dfn class="local col6 decl" id="196offset2" title='offset2' data-type='int' data-ref="196offset2">offset2</dfn>;</td></tr>
+<tr><th id="590">590</th><td>	<em>int</em> <dfn class="local col7 decl" id="197result" title='result' data-type='int' data-ref="197result">result</dfn> = -<var>1</var>;</td></tr>
+<tr><th id="591">591</th><td></td></tr>
+<tr><th id="592">592</th><td>	<b>if</b> ((<a class="local col4 ref" href="#194len" title='len' data-ref="194len">len</a> = <a class="ref" href="#evtag_unmarshal_header" title='evtag_unmarshal_header' data-ref="evtag_unmarshal_header">evtag_unmarshal_header</a>(<a class="local col9 ref" href="#189evbuf" title='evbuf' data-ref="189evbuf">evbuf</a>, &amp;<a class="local col2 ref" href="#192tag" title='tag' data-ref="192tag">tag</a>)) == -<var>1</var>)</td></tr>
+<tr><th id="593">593</th><td>		<b>return</b> (-<var>1</var>);</td></tr>
+<tr><th id="594">594</th><td>	<b>if</b> (<a class="local col2 ref" href="#192tag" title='tag' data-ref="192tag">tag</a> != <a class="local col0 ref" href="#190need_tag" title='need_tag' data-ref="190need_tag">need_tag</a>)</td></tr>
+<tr><th id="595">595</th><td>		<b>goto</b> <a class="lbl" href="#198done" data-ref="198done">done</a>;</td></tr>
+<tr><th id="596">596</th><td>	<b>if</b> ((<a class="local col5 ref" href="#195offset" title='offset' data-ref="195offset">offset</a> = <a class="tu ref" href="#decode_int_internal" title='decode_int_internal' data-use='c' data-ref="decode_int_internal">decode_int_internal</a>(&amp;<a class="local col3 ref" href="#193integer" title='integer' data-ref="193integer">integer</a>, <a class="local col9 ref" href="#189evbuf" title='evbuf' data-ref="189evbuf">evbuf</a>, <var>0</var>)) == -<var>1</var>)</td></tr>
+<tr><th id="597">597</th><td>		<b>goto</b> <a class="lbl" href="#198done" data-ref="198done">done</a>;</td></tr>
+<tr><th id="598">598</th><td>	<a class="local col1 ref" href="#191ptv" title='ptv' data-ref="191ptv">ptv</a>-&gt;<a class="ref" href="../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a> = <a class="local col3 ref" href="#193integer" title='integer' data-ref="193integer">integer</a>;</td></tr>
+<tr><th id="599">599</th><td>	<b>if</b> ((<a class="local col6 ref" href="#196offset2" title='offset2' data-ref="196offset2">offset2</a> = <a class="tu ref" href="#decode_int_internal" title='decode_int_internal' data-use='c' data-ref="decode_int_internal">decode_int_internal</a>(&amp;<a class="local col3 ref" href="#193integer" title='integer' data-ref="193integer">integer</a>, <a class="local col9 ref" href="#189evbuf" title='evbuf' data-ref="189evbuf">evbuf</a>, <a class="local col5 ref" href="#195offset" title='offset' data-ref="195offset">offset</a>)) == -<var>1</var>)</td></tr>
+<tr><th id="600">600</th><td>		<b>goto</b> <a class="lbl" href="#198done" data-ref="198done">done</a>;</td></tr>
+<tr><th id="601">601</th><td>	<a class="local col1 ref" href="#191ptv" title='ptv' data-ref="191ptv">ptv</a>-&gt;<a class="ref" href="../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a> = <a class="local col3 ref" href="#193integer" title='integer' data-ref="193integer">integer</a>;</td></tr>
+<tr><th id="602">602</th><td>	<b>if</b> (<a class="local col5 ref" href="#195offset" title='offset' data-ref="195offset">offset</a> + <a class="local col6 ref" href="#196offset2" title='offset2' data-ref="196offset2">offset2</a> &gt; <a class="local col4 ref" href="#194len" title='len' data-ref="194len">len</a>) <i>/* XXX Should this be != instead of &gt; ? */</i></td></tr>
+<tr><th id="603">603</th><td>		<b>goto</b> <a class="lbl" href="#198done" data-ref="198done">done</a>;</td></tr>
+<tr><th id="604">604</th><td></td></tr>
+<tr><th id="605">605</th><td>	<a class="local col7 ref" href="#197result" title='result' data-ref="197result">result</a> = <var>0</var>;</td></tr>
+<tr><th id="606">606</th><td> <dfn class="lbl" id="198done" data-ref="198done">done</dfn>:</td></tr>
+<tr><th id="607">607</th><td>	<a class="ref" href="include/event2/buffer.h.html#evbuffer_drain" title='evbuffer_drain' data-ref="evbuffer_drain">evbuffer_drain</a>(<a class="local col9 ref" href="#189evbuf" title='evbuf' data-ref="189evbuf">evbuf</a>, <a class="local col4 ref" href="#194len" title='len' data-ref="194len">len</a>);</td></tr>
+<tr><th id="608">608</th><td>	<b>return</b> <a class="local col7 ref" href="#197result" title='result' data-ref="197result">result</a>;</td></tr>
+<tr><th id="609">609</th><td>}</td></tr>
+<tr><th id="610">610</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

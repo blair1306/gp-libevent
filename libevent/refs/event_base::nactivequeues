@@ -1,0 +1,21 @@
+<dec f='codebrowser/event-internal.h' l='266' type='int'/>
+<offset>2048</offset>
+<doc f='codebrowser/event-internal.h' l='265'>/** The length of the activequeues array */</doc>
+<use f='codebrowser/event.c' l='777' u='r' c='event_base_free_queues_'/>
+<use f='codebrowser/event.c' l='885' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='1209' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1212' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1214' u='w' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1224' u='w' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1226' u='r' c='event_base_priority_init'/>
+<use f='codebrowser/event.c' l='1246' u='r' c='event_base_get_npriorities'/>
+<use f='codebrowser/event.c' l='1736' u='r' c='event_process_active'/>
+<use f='codebrowser/event.c' l='2108' u='r' c='event_assign'/>
+<use f='codebrowser/event.c' l='2126' u='r' c='event_base_set'/>
+<use f='codebrowser/event.c' l='2315' u='r' c='event_priority_set'/>
+<use f='codebrowser/event.c' l='3004' u='r' c='event_callback_init_'/>
+<use f='codebrowser/event.c' l='3342' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3360' u='r' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3397' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3671' u='r' c='event_base_foreach_event_nolock_'/>
+<use f='codebrowser/event.c' l='3923' u='r' c='event_base_assert_ok_nolock_'/>

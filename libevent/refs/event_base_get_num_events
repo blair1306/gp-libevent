@@ -1,0 +1,30 @@
+<dec f='codebrowser/include/event2/event.h' l='441' type='int event_base_get_num_events(struct event_base * , unsigned int )'/>
+<def f='codebrowser/event.c' l='1251' ll='1270' type='int event_base_get_num_events(struct event_base * base, unsigned int type)'/>
+<use f='codebrowser/test/regress.c' l='1462' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1464' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1466' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1468' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1470' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1472' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1474' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1488' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1490' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1492' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1494' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1496' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1498' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1500' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1513' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1515' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1517' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1519' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1521' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1523' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1525' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1538' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1540' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1542' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1544' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1546' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1548' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1550' u='c' c='test_event_base_get_num_events'/>

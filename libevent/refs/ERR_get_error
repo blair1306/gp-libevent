@@ -1,0 +1,2 @@
+<dec f='include/openssl/err.h' l='321' type='unsigned long ERR_get_error()'/>
+<use f='codebrowser/bufferevent_openssl.c' l='531' u='c' c='conn_closed'/>

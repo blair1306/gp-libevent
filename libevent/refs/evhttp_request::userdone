@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='109' type='unsigned int'/>
+<offset>1153</offset>
+<use f='codebrowser/http.c' l='667' u='r' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='2797' u='w' c='evhttp_send'/>
+<use f='codebrowser/http.c' l='2887' u='w' c='evhttp_send_reply_end'/>
+<use f='codebrowser/http.c' l='3417' u='w' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='4233' u='w' c='evhttp_associate_new_request_with_connection'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='453' type='void evhttp_send_reply_chunk(struct evhttp_request * req, struct evbuffer * databuf)'/>
+<def f='codebrowser/http.c' l='2868' ll='2872' type='void evhttp_send_reply_chunk(struct evhttp_request * req, struct evbuffer * databuf)'/>
+<use f='codebrowser/test/regress_http.c' l='382' u='c' c='http_chunked_trickle_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4184' u='c' c='terminate_chunked_trickle_cb'/>

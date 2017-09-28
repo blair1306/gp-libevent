@@ -1,0 +1,11 @@
+<dec f='codebrowser/http-internal.h' l='40' type='0'/>
+<doc f='codebrowser/http-internal.h' l='40'>/**&lt; not currently connected not trying either*/</doc>
+<use f='codebrowser/http.c' l='410' c='evhttp_connected'/>
+<use f='codebrowser/http.c' l='1160' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1266' u='r' c='evhttp_connection_set_local_address'/>
+<use f='codebrowser/http.c' l='1277' u='r' c='evhttp_connection_set_local_port'/>
+<use f='codebrowser/http.c' l='1349' u='r' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1373' u='r' c='evhttp_connection_retry'/>
+<use f='codebrowser/http.c' l='1484' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2374' u='r' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2447' u='r' c='evhttp_connection_set_base'/>

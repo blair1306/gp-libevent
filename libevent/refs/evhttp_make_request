@@ -1,0 +1,55 @@
+<dec f='codebrowser/include/event2/http.h' l='792' type='int evhttp_make_request(struct evhttp_connection * evcon, struct evhttp_request * req, enum evhttp_cmd_type type, const char * uri)'/>
+<use f='codebrowser/evrpc.c' l='745' u='c' c='evrpc_schedule_request_closure'/>
+<def f='codebrowser/http.c' l='2603' ll='2653' type='int evhttp_make_request(struct evhttp_connection * evcon, struct evhttp_request * req, enum evhttp_cmd_type type, const char * uri)'/>
+<doc f='codebrowser/http.c' l='2597'>/*
+ * Starts an HTTP request on the provided evhttp_connection object.
+ * If the connection object is not connected to the web server already,
+ * this will start the connection.
+ */</doc>
+<use f='codebrowser/sample/http-connect.c' l='54' u='c' c='connect_cb'/>
+<use f='codebrowser/sample/http-connect.c' l='112' u='c' c='main'/>
+<use f='codebrowser/sample/https-client.c' l='469' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='1070' u='c' c='http_connection_test_'/>
+<use f='codebrowser/test/regress_http.c' l='1095' u='c' c='http_connection_test_'/>
+<use f='codebrowser/test/regress_http.c' l='1110' u='c' c='http_connection_test_'/>
+<use f='codebrowser/test/regress_http.c' l='1178' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1202' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1217' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1263' u='c' c='http_autofree_connection_test'/>
+<use f='codebrowser/test/regress_http.c' l='1266' u='c' c='http_autofree_connection_test'/>
+<use f='codebrowser/test/regress_http.c' l='1374' u='c' c='http_fill_backlog'/>
+<use f='codebrowser/test/regress_http.c' l='1488' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1519' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1539' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1660' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1678' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1697' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1715' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1733' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1899' u='c' c='http_dispatcher_test'/>
+<use f='codebrowser/test/regress_http.c' l='1946' u='c' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='1966' u='c' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='2084' u='c' c='http_put_test'/>
+<use f='codebrowser/test/regress_http.c' l='2247' u='c' c='close_detect_launch'/>
+<use f='codebrowser/test/regress_http.c' l='2308' u='c' c='http_close_detection_'/>
+<use f='codebrowser/test/regress_http.c' l='3312' u='c' c='http_chunk_out_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3361' u='c' c='http_stream_out_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3423' u='c' c='http_stream_in_test_'/>
+<use f='codebrowser/test/regress_http.c' l='3493' u='c' c='http_stream_in_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3559' u='c' c='http_connection_fail_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3629' u='c' c='http_simple_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3683' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='3718' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='3747' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='3932' u='c' c='http_negative_content_length_test'/>
+<use f='codebrowser/test/regress_http.c' l='4020' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4030' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4043' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4052' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4062' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4075' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4133' u='c' c='http_lingering_close_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4396' u='c' c='http_get_addr_test'/>
+<use f='codebrowser/test/regress_http.c' l='4497' u='c' c='http_request_own_test'/>
+<use f='codebrowser/test/regress_rpc.c' l='210' u='c' c='rpc_basic_test'/>
+<use f='codebrowser/test/regress_rpc.c' l='289' u='c' c='rpc_basic_message'/>

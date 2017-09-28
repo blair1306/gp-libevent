@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='135' type='int evdns_count_nameservers()'/>
+<def f='codebrowser/evdns.c' l='2389' ll='2393' type='int evdns_count_nameservers()'/>

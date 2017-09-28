@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='523' type='void evdns_base_search_ndots_set(struct evdns_base * base, const int ndots)'/>
+<def f='codebrowser/evdns.c' l='3150' ll='3157' type='void evdns_base_search_ndots_set(struct evdns_base * base, const int ndots)'/>
+<use f='codebrowser/evdns.c' l='3160' u='c' c='evdns_search_ndots_set'/>
+<doc f='codebrowser/evdns.c' l='3149'>/* exported function */</doc>

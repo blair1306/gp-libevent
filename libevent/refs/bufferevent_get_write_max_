@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='500' type='ssize_t bufferevent_get_write_max_(struct bufferevent_private * bev)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='661' u='c' c='do_write'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='266' ll='270' macro='1' type='ssize_t bufferevent_get_write_max_(struct bufferevent_private * bev)'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='922' u='c' c='bufferevent_get_max_to_write'/>
+<use f='codebrowser/bufferevent_sock.c' l='287' u='c' c='bufferevent_writecb'/>

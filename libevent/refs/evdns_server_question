@@ -1,0 +1,5 @@
+<def f='codebrowser/include/event2/dns_struct.h' l='61' ll='73'/>
+<size>12</size>
+<mbr r='evdns_server_question::type' o='0' t='int'/>
+<mbr r='evdns_server_question::class' o='32' t='int'/>
+<mbr r='evdns_server_question::name' o='64' t='char [1]'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress.h' l='111' type='struct addrinfo * ai_find_by_protocol(struct addrinfo * ai, int p)'/>
+<use f='codebrowser/test/regress_dns.c' l='1422' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1425' u='c' c='test_getaddrinfo_async'/>
+<def f='codebrowser/test/regress_util.c' l='797' ll='806' type='struct addrinfo * ai_find_by_protocol(struct addrinfo * ai, int protocol)'/>
+<use f='codebrowser/test/regress_util.c' l='1016' u='c' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1019' u='c' c='test_evutil_getaddrinfo'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/util-internal.h' l='280' type='int evutil_open_closeonexec_(const char * pathname, int flags, unsigned int mode)'/>
+<doc f='codebrowser/util-internal.h' l='277'>/* As open(pathname, flags, mode), except that the file is always opened with
+ * the close-on-exec flag set. (And the mode argument is mandatory.)
+ */</doc>
+<def f='codebrowser/evutil.c' l='104' ll='127' type='int evutil_open_closeonexec_(const char * pathname, int flags, unsigned int mode)'/>
+<use f='codebrowser/evutil.c' l='159' u='c' c='evutil_read_file_'/>
+<use f='codebrowser/arc4random.c' l='264' u='c' c='arc4_seed_proc_sys_kernel_random_uuid'/>
+<use f='codebrowser/arc4random.c' l='305' u='c' c='arc4_seed_urandom_helper_'/>

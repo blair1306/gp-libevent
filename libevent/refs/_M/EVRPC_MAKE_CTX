@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/rpc.h' l='217'/>
+<doc f='codebrowser/include/event2/rpc.h' l='203'>/** Creates a context structure that contains rpc specific information.
+ *
+ * EVRPC_MAKE_CTX is used to populate a RPC specific context that
+ * contains information about marshaling the RPC data types.
+ *
+ * @param rpcname the name of the RPC
+ * @param reqstruct the name of the RPC request structure
+ * @param replystruct the name of the RPC reply structure
+ * @param pool the evrpc_pool over which to make the request
+ * @param request a pointer to the RPC request structure object
+ * @param reply a pointer to the RPC reply structure object
+ * @param cb the callback function to call when the RPC has completed
+ * @param cbarg the argument to supply to the callback
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='501' u='c'/>

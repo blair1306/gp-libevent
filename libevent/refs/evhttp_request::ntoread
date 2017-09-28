@@ -1,0 +1,32 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='107' type='int64_t'/>
+<offset>1088</offset>
+<use f='codebrowser/http.c' l='908' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='943' u='w' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='944' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='953' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='958' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='958' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='962' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='963' u='w' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1007' u='r' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1008' u='r' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1009' u='w' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1013' u='r' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1016' u='r' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1055' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1064' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1070' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1071' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1072' u='w' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1078' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1079' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1099' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1476' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2123' u='w' c='evhttp_get_body_length'/>
+<use f='codebrowser/http.c' l='2132' u='w' c='evhttp_get_body_length'/>
+<use f='codebrowser/http.c' l='2141' u='w' c='evhttp_get_body_length'/>
+<use f='codebrowser/http.c' l='2145' u='r' c='evhttp_get_body_length'/>
+<use f='codebrowser/http.c' l='2188' u='w' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2194' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2211' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2214' u='r' c='evhttp_get_body'/>

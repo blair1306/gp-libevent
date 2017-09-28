@@ -1,0 +1,33 @@
+<dec f='codebrowser/include/event2/event.h' l='454' type='int event_base_get_max_events(struct event_base * , unsigned int , int )'/>
+<def f='codebrowser/event.c' l='1272' ll='1300' type='int event_base_get_max_events(struct event_base * base, unsigned int type, int clear)'/>
+<use f='codebrowser/test/regress.c' l='1592' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1594' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1596' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1598' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1600' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1602' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1604' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1619' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1621' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1623' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1625' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1627' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1629' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1631' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1645' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1647' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1649' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1651' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1653' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1655' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1657' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1670' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1672' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1674' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1681' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1683' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1685' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1687' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1689' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1691' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1693' u='c' c='test_event_base_get_max_events'/>

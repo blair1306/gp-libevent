@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/thread.h' l='106' type='unsigned int'/>
+<offset>32</offset>
+<doc f='codebrowser/include/event2/thread.h' l='99'>/** Which kinds of locks does this version of the locking API
+	 * support?  A bitfield of EVTHREAD_LOCKTYPE_RECURSIVE and
+	 * EVTHREAD_LOCKTYPE_READWRITE.
+	 *
+	 * (Note that RECURSIVE locks are currently mandatory, and
+	 * READWRITE locks are not currently used.)
+	 **/</doc>
+<use f='codebrowser/evthread.c' l='115' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='115' u='r' c='evthread_set_lock_callbacks'/>

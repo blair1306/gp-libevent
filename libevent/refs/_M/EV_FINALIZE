@@ -1,0 +1,27 @@
+<dec f='codebrowser/include/event2/event.h' l='951'/>
+<doc f='codebrowser/include/event2/event.h' l='940'>/**
+ * If this option is provided, then event_del() will not block in one thread
+ * while waiting for the event callback to complete in another thread.
+ *
+ * To use this option safely, you may need to use event_finalize() or
+ * event_free_finalize() in order to safely tear down an event in a
+ * multithreaded application.  See those functions for more information.
+ *
+ * THIS IS AN EXPERIMENTAL API. IT MIGHT CHANGE BEFORE THE LIBEVENT 2.1 SERIES
+ * BECOMES STABLE.
+ **/</doc>
+<use f='codebrowser/bufferevent.c' l='941' u='c'/>
+<use f='codebrowser/bufferevent.c' l='943' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='999' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1002' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1104' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1107' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='613' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='657' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='752' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='366' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='368' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='641' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='643' u='c'/>
+<use f='codebrowser/event.c' l='2208' u='c'/>
+<use f='codebrowser/event.c' l='2841' u='c'/>

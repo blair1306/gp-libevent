@@ -1,0 +1,31 @@
+<dec f='codebrowser/include/event2/event.h' l='1206' type='int event_base_once(struct event_base * , int , short , event_callback_fn , void * , const struct timeval * )'/>
+<use f='codebrowser/event.c' l='1804' u='c' c='event_base_loopexit'/>
+<use f='codebrowser/event.c' l='2004' u='c' c='event_once'/>
+<def f='codebrowser/event.c' l='2008' ll='2065' type='int event_base_once(struct event_base * base, int fd, short events, void (*)(int, short, void *) callback, void * arg, const struct timeval * tv)'/>
+<doc f='codebrowser/event.c' l='2007'>/* Schedules an event once */</doc>
+<use f='codebrowser/test/regress.c' l='686' u='c' c='test_persistent_active_timeout'/>
+<use f='codebrowser/test/regress.c' l='2745' u='c' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2748' u='c' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2751' u='c' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2753' u='c' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2758' u='c' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2785' u='c' c='test_event_once_never'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1103' u='c' c='trigger_readcb'/>
+<use f='codebrowser/test/regress_dns.c' l='1605' u='c' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_http.c' l='386' u='c' c='http_chunked_trickle_cb'/>
+<use f='codebrowser/test/regress_http.c' l='414' u='c' c='http_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='490' u='c' c='http_basic_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='569' u='c' c='http_delay_cb'/>
+<use f='codebrowser/test/regress_http.c' l='673' u='c' c='http_bad_request_test'/>
+<use f='codebrowser/test/regress_http.c' l='706' u='c' c='http_bad_request_test'/>
+<use f='codebrowser/test/regress_http.c' l='729' u='c' c='http_large_delay_cb'/>
+<use f='codebrowser/test/regress_http.c' l='1495' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='2268' u='c' c='close_detect_cb'/>
+<use f='codebrowser/test/regress_http.c' l='3758' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='4193' u='c' c='terminate_chunked_trickle_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4228' u='c' c='terminate_chunked_cb'/>
+<use f='codebrowser/test/regress_http.c' l='4287' u='c' c='http_terminate_chunked_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4466' u='c' c='http_write_during_read_test_impl'/>
+<use f='codebrowser/test/regress_ssl.c' l='544' u='c' c='acceptcb'/>
+<use f='codebrowser/test/regress_thread.c' l='473' u='c' c='thread_deferred_cb_skew'/>
+<use f='codebrowser/test/regress_thread.c' l='475' u='c' c='thread_deferred_cb_skew'/>

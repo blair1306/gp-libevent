@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2393' type='int SSL_do_handshake(SSL * s)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1027' u='c' c='do_handshake'/>

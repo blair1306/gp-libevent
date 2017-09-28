@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='582' macro='1' type='int i2d_ACCESS_DESCRIPTION(ACCESS_DESCRIPTION * a, unsigned char ** out)'/>

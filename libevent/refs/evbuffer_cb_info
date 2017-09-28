@@ -1,0 +1,9 @@
+<def f='codebrowser/include/event2/buffer.h' l='862' ll='870'/>
+<size>24</size>
+<doc f='codebrowser/include/event2/buffer.h' l='858'>/** Structure passed to an evbuffer_cb_func evbuffer callback
+
+    @see evbuffer_cb_func, evbuffer_add_cb()
+ */</doc>
+<mbr r='evbuffer_cb_info::orig_size' o='0' t='size_t'/>
+<mbr r='evbuffer_cb_info::n_added' o='64' t='size_t'/>
+<mbr r='evbuffer_cb_info::n_deleted' o='128' t='size_t'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/evbuffer-internal.h' l='155' type='struct bufferevent *'/>
+<use f='codebrowser/buffer.c' l='450' u='w' c='evbuffer_set_parent_'/>
+<use f='codebrowser/buffer.c' l='523' u='r' c='evbuffer_invoke_callbacks_'/>
+<use f='codebrowser/buffer.c' l='524' u='r' c='evbuffer_invoke_callbacks_'/>
+<use f='codebrowser/buffer.c' l='541' u='r' c='evbuffer_deferred_callback'/>
+<offset>1024</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='153'>/** The parent bufferevent object this evbuffer belongs to.
+	 * NULL if the evbuffer stands alone. */</doc>

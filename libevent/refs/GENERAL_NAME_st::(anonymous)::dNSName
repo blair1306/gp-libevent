@@ -1,0 +1,4 @@
+<dec f='include/openssl/x509v3.h' l='192' type='ASN1_IA5STRING *'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='130' u='r' c='matches_subject_alternative_name'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='133' u='r' c='matches_subject_alternative_name'/>
+<offset>0</offset>

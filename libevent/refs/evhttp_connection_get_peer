@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='765' type='void evhttp_connection_get_peer(struct evhttp_connection * evcon, char ** address, uint16_t * port)'/>
+<def f='codebrowser/http.c' l='2508' ll='2514' type='void evhttp_connection_get_peer(struct evhttp_connection * evcon, char ** address, uint16_t * port)'/>

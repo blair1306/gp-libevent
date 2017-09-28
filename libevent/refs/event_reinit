@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event.h' l='357' type='int event_reinit(struct event_base * base)'/>
+<def f='codebrowser/event.c' l='938' ll='1044' type='int event_reinit(struct event_base * base)'/>
+<doc f='codebrowser/event.c' l='937'>/* reinitialize the event base after a fork */</doc>
+<use f='codebrowser/test/regress.c' l='919' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress_thread.c' l='203' u='c' c='thread_basic'/>

@@ -1,0 +1,5 @@
+<dec f='include/fcntl.h' l='156' type='int open(const char * __file, int __oflag)'/>
+<use f='codebrowser/evutil.c' l='110' u='c' c='evutil_open_closeonexec_'/>
+<use f='codebrowser/evutil.c' l='115' u='c' c='evutil_open_closeonexec_'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='123' u='c' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='290' u='c' c='send_document_cb'/>

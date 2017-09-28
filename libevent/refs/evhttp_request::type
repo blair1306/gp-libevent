@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='92' type='enum evhttp_cmd_type'/>
+<use f='codebrowser/evrpc.c' l='291' u='r' c='evrpc_request_cb'/>
+<offset>608</offset>
+<use f='codebrowser/http.c' l='353' u='r' c='evhttp_response_needs_body'/>
+<use f='codebrowser/http.c' l='437' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='446' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='446' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='1822' u='w' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='2180' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2610' u='w' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='3419' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3424' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3426' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='4118' u='r' c='evhttp_request_get_command'/>

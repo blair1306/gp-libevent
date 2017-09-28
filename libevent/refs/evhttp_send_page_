@@ -1,0 +1,4 @@
+<dec f='codebrowser/http-internal.h' l='203' type='void evhttp_send_page_(struct evhttp_request * , struct evbuffer * )'/>
+<use f='codebrowser/http.c' l='2776' u='c' c='evhttp_send_error'/>
+<def f='codebrowser/http.c' l='3009' ll='3025' type='void evhttp_send_page_(struct evhttp_request * req, struct evbuffer * databuf)'/>
+<use f='codebrowser/http.c' l='3475' u='c' c='evhttp_handle_request'/>

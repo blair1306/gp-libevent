@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/http.h' l='586' type='2'/>
+<doc f='codebrowser/include/event2/http.h' l='583'>/**
+   * Error while reading header, or invalid header
+   */</doc>
+<use f='codebrowser/http.c' l='676' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='1058' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='2191' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2243' u='r' c='evhttp_read_firstline'/>
+<use f='codebrowser/http.c' l='2266' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2315' u='r' c='evhttp_read_header'/>

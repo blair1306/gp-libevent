@@ -1,0 +1,14 @@
+<dec f='include/stdio.h' l='689' type='int fputs(const char *restrict __s, FILE *restrict __stream)'/>
+<doc f='include/stdio.h' l='685'>/* Write a string to STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/sample/https-client.c' l='98' u='c' c='syntax'/>
+<use f='codebrowser/sample/https-client.c' l='99' u='c' c='syntax'/>
+<use f='codebrowser/sample/https-client.c' l='100' u='c' c='syntax'/>
+<use f='codebrowser/sample/https-client.c' l='101' u='c' c='syntax'/>
+<use f='codebrowser/sample/https-client.c' l='107' u='c' c='err'/>
+<use f='codebrowser/sample/le-proxy.c' l='151' u='c' c='syntax'/>
+<use f='codebrowser/sample/le-proxy.c' l='152' u='c' c='syntax'/>
+<use f='codebrowser/sample/le-proxy.c' l='153' u='c' c='syntax'/>
+<use f='codebrowser/sample/le-proxy.c' l='154' u='c' c='syntax'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='318' type='void evdns_search_add(const char * domain)'/>
+<def f='codebrowser/evdns.c' l='3144' ll='3147' type='void evdns_search_add(const char * domain)'/>

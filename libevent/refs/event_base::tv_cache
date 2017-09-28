@@ -1,0 +1,12 @@
+<dec f='codebrowser/event-internal.h' l='292' type='struct timeval'/>
+<offset>2752</offset>
+<doc f='codebrowser/event-internal.h' l='290'>/** Stored timeval: used to avoid calling gettimeofday/clock_gettime
+	 * too often. */</doc>
+<use f='codebrowser/event.c' l='378' u='m' c='gettime'/>
+<use f='codebrowser/event.c' l='379' u='r' c='gettime'/>
+<use f='codebrowser/event.c' l='409' u='m' c='event_base_gettimeofday_cached'/>
+<use f='codebrowser/event.c' l='412' u='a' c='event_base_gettimeofday_cached'/>
+<use f='codebrowser/event.c' l='412' u='a' c='event_base_gettimeofday_cached'/>
+<use f='codebrowser/event.c' l='423' u='m' c='clear_time_cache'/>
+<use f='codebrowser/event.c' l='430' u='m' c='update_time_cache'/>
+<use f='codebrowser/event.c' l='432' u='a' c='update_time_cache'/>

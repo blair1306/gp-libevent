@@ -1,0 +1,4 @@
+<dec f='codebrowser/evrpc-internal.h' l='128' type='void evrpc_hook_context_free_(struct evrpc_hook_meta * ctx)'/>
+<use f='codebrowser/evrpc.c' l='389' u='c' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='531' u='c' c='evrpc_request_wrapper_free'/>
+<doc f='codebrowser/evrpc-internal.h' l='127'>/* frees the meta data associated with a request */</doc>

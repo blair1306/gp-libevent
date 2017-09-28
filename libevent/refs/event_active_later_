@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='437' type='void event_active_later_(struct event * ev, int res)'/>
+<def f='codebrowser/event.c' l='2919' ll='2925' type='void event_active_later_(struct event * ev, int res)'/>
+<use f='codebrowser/test/regress.c' l='1782' u='c' c='activate_other_event_cb'/>
+<use f='codebrowser/test/regress.c' l='1798' u='c' c='test_active_later'/>
+<use f='codebrowser/test/regress.c' l='1814' u='c' c='test_active_later'/>
+<use f='codebrowser/test/regress.c' l='1822' u='c' c='test_active_later'/>

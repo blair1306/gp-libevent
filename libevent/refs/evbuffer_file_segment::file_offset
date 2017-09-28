@@ -1,0 +1,6 @@
+<dec f='codebrowser/evbuffer-internal.h' l='256' type='int64_t'/>
+<use f='codebrowser/buffer.c' l='2961' u='w' c='evbuffer_file_segment_new'/>
+<use f='codebrowser/buffer.c' l='3032' u='r' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3157' u='r' c='evbuffer_file_segment_free'/>
+<use f='codebrowser/buffer.c' l='3225' u='r' c='evbuffer_add_file_segment'/>
+<offset>320</offset>

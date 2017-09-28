@@ -1,0 +1,26 @@
+<dec f='codebrowser/include/event2/buffer.h' l='853' type='int evbuffer_peek(struct evbuffer * buffer, ssize_t len, struct evbuffer_ptr * start_at, struct iovec * vec_out, int n_vec)'/>
+<def f='codebrowser/buffer.c' l='2771' ll='2827' type='int evbuffer_peek(struct evbuffer * buffer, ssize_t len, struct evbuffer_ptr * start_at, struct iovec * vec, int n_vec)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='663' u='c' c='do_write'/>
+<use f='codebrowser/test/regress_buffer.c' l='541' u='c' c='test_evbuffer_reserve2'/>
+<use f='codebrowser/test/regress_buffer.c' l='2137' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2139' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2142' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2143' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2144' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2145' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2146' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2147' u='c' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2177' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2181' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2190' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2197' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2205' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2211' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2218' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2228' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2232' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2239' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2248' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2256' u='c' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_zlib.c' l='143' u='c' c='zlib_input_filter'/>
+<use f='codebrowser/test/regress_zlib.c' l='197' u='c' c='zlib_output_filter'/>

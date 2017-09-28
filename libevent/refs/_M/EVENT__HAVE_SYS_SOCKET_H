@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/event-config.h' l='359'/>
+<use f='codebrowser/buffer.c' l='49' u='a'/>
+<use f='codebrowser/util-internal.h' l='38' u='a'/>
+<use f='codebrowser/ipv6-internal.h' l='37' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='358'>/* Define to 1 if you have the &lt;sys/socket.h&gt; header file. */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='54' u='a'/>
+<use f='codebrowser/event.c' l='41' u='a'/>
+<use f='codebrowser/evutil.c' l='46' u='a'/>
+<use f='codebrowser/listener.c' l='42' u='a'/>
+<use f='codebrowser/signal.c' l='43' u='a'/>
+<use f='codebrowser/test/regress_et.c' l='34' u='a'/>
+<use f='codebrowser/test/test-changelist.c' l='41' u='a'/>
+<use f='codebrowser/test/test-eof.c' l='40' u='a'/>
+<use f='codebrowser/test/test-init.c' l='34' u='a'/>
+<use f='codebrowser/test/test-weof.c' l='40' u='a'/>

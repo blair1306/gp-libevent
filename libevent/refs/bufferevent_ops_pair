@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='303' type='const struct bufferevent_ops'/>
+<use f='codebrowser/bufferevent_pair.c' l='59' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_pair.c' l='62' macro='1' u='a'/>
+<use f='codebrowser/bufferevent_pair.c' l='99' u='a' c='bufferevent_pair_elt_new'/>
+<def f='codebrowser/bufferevent_pair.c' l='355' ll='365' type='const struct bufferevent_ops'/>

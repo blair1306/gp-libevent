@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='597' type='0'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='596'>/** usually set when processing data */</doc>
+<use f='codebrowser/bufferevent_filter.c' l='139' u='r' c='be_underlying_writebuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='151' u='r' c='be_readbuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='309' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='319' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='350' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='373' u='r' c='be_filter_process_output'/>
+<use f='codebrowser/bufferevent_filter.c' l='432' u='r' c='bufferevent_filtered_outbuf_cb'/>
+<use f='codebrowser/bufferevent_filter.c' l='456' u='r' c='be_filter_read_nolock_'/>
+<use f='codebrowser/bufferevent_filter.c' l='495' u='r' c='bufferevent_filtered_inbuf_cb'/>
+<use f='codebrowser/bufferevent_filter.c' l='543' u='r' c='be_filter_writecb'/>
+<use f='codebrowser/bufferevent_pair.c' l='314' u='r' c='be_pair_flush'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='198' u='r' c='test_bufferevent_flush_normal'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='202' u='r' c='test_bufferevent_pair_flush_normal'/>
+<use f='codebrowser/test/regress_zlib.c' l='119' c='getstate'/>

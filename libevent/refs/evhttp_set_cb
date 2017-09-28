@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/event2/http.h' l='261' type='int evhttp_set_cb(struct evhttp * http, const char * path, void (*)(struct evhttp_request *, void *) cb, void * cb_arg)'/>
+<use f='codebrowser/evrpc.c' l='239' u='c' c='evrpc_register_rpc'/>
+<def f='codebrowser/http.c' l='3853' ll='3881' type='int evhttp_set_cb(struct evhttp * http, const char * uri, void (*)(struct evhttp_request *, void *) cb, void * cbarg)'/>
+<use f='codebrowser/sample/http-server.c' l='363' u='c' c='main'/>
+<use f='codebrowser/test/bench_http.c' l='171' u='c' c='main'/>
+<use f='codebrowser/test/bench_http.c' l='174' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='148' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='149' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='150' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='151' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='152' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='153' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='154' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='155' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='156' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='157' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='158' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='159' u='c' c='http_setup'/>
+<use f='codebrowser/test/regress_http.c' l='1634' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='1636' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='3828' u='c' c='http_primitives'/>
+<use f='codebrowser/test/regress_http.c' l='3829' u='c' c='http_primitives'/>
+<use f='codebrowser/test/regress_http.c' l='3832' u='c' c='http_primitives'/>
+<use f='codebrowser/test/regress_http.c' l='4262' u='c' c='http_terminate_chunked_test_impl'/>

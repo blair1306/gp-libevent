@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='645' type='char * X509V3_get_string(X509V3_CTX * ctx, char * name, char * section)'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='648' type='void X509V3_section_free(X509V3_CTX * ctx, struct stack_st_CONF_VALUE * section)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='275' type='int evdns_base_nameserver_add(struct evdns_base * base, unsigned long address)'/>
+<def f='codebrowser/evdns.c' l='2568' ll='2581' type='int evdns_base_nameserver_add(struct evdns_base * base, unsigned long address)'/>
+<use f='codebrowser/evdns.c' l='2587' u='c' c='evdns_nameserver_add'/>
+<doc f='codebrowser/evdns.c' l='2567'>/* exported function */</doc>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>openssl_hostname_validation.h source code [codebrowser/sample/openssl_hostname_validation.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/sample/openssl_hostname_validation.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>sample</a>/<a href='openssl_hostname_validation.h.html'>openssl_hostname_validation.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/* Obtained from: <a href="https://github.com/iSECPartners/ssl-conservatory">https://github.com/iSECPartners/ssl-conservatory</a> */</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><i>/*</i></td></tr>
+<tr><th id="4">4</th><td><i>Copyright (C) 2012, iSEC Partners.</i></td></tr>
+<tr><th id="5">5</th><td><i></i></td></tr>
+<tr><th id="6">6</th><td><i>Permission is hereby granted, free of charge, to any person obtaining a copy of</i></td></tr>
+<tr><th id="7">7</th><td><i>this software and associated documentation files (the "Software"), to deal in</i></td></tr>
+<tr><th id="8">8</th><td><i>the Software without restriction, including without limitation the rights to</i></td></tr>
+<tr><th id="9">9</th><td><i>use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies</i></td></tr>
+<tr><th id="10">10</th><td><i>of the Software, and to permit persons to whom the Software is furnished to do</i></td></tr>
+<tr><th id="11">11</th><td><i>so, subject to the following conditions:</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>The above copyright notice and this permission notice shall be included in all</i></td></tr>
+<tr><th id="14">14</th><td><i>copies or substantial portions of the Software.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</i></td></tr>
+<tr><th id="17">17</th><td><i>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</i></td></tr>
+<tr><th id="18">18</th><td><i>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</i></td></tr>
+<tr><th id="19">19</th><td><i>AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</i></td></tr>
+<tr><th id="20">20</th><td><i>LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</i></td></tr>
+<tr><th id="21">21</th><td><i>OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</i></td></tr>
+<tr><th id="22">22</th><td><i>SOFTWARE.</i></td></tr>
+<tr><th id="23">23</th><td><i> */</i></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><i>/*</i></td></tr>
+<tr><th id="26">26</th><td><i> * Helper functions to perform basic hostname validation using OpenSSL.</i></td></tr>
+<tr><th id="27">27</th><td><i> *</i></td></tr>
+<tr><th id="28">28</th><td><i> * Please read "everything-you-wanted-to-know-about-openssl.pdf" before</i></td></tr>
+<tr><th id="29">29</th><td><i> * attempting to use this code. This whitepaper describes how the code works,</i></td></tr>
+<tr><th id="30">30</th><td><i> * how it should be used, and what its limitations are.</i></td></tr>
+<tr><th id="31">31</th><td><i> *</i></td></tr>
+<tr><th id="32">32</th><td><i> * Author:  Alban Diquet</i></td></tr>
+<tr><th id="33">33</th><td><i> * License: See LICENSE</i></td></tr>
+<tr><th id="34">34</th><td><i> *</i></td></tr>
+<tr><th id="35">35</th><td><i> */</i></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="38">38</th><td>        <dfn class="enum" id="MatchFound" title='MatchFound' data-ref="MatchFound">MatchFound</dfn>,</td></tr>
+<tr><th id="39">39</th><td>        <dfn class="enum" id="MatchNotFound" title='MatchNotFound' data-ref="MatchNotFound">MatchNotFound</dfn>,</td></tr>
+<tr><th id="40">40</th><td>        <dfn class="enum" id="NoSANPresent" title='NoSANPresent' data-ref="NoSANPresent">NoSANPresent</dfn>,</td></tr>
+<tr><th id="41">41</th><td>        <dfn class="enum" id="MalformedCertificate" title='MalformedCertificate' data-ref="MalformedCertificate">MalformedCertificate</dfn>,</td></tr>
+<tr><th id="42">42</th><td>        <dfn class="enum" id="Error" title='Error' data-ref="Error">Error</dfn></td></tr>
+<tr><th id="43">43</th><td>} <dfn class="typedef" id="HostnameValidationResult" title='HostnameValidationResult' data-type='enum HostnameValidationResult' data-ref="HostnameValidationResult">HostnameValidationResult</dfn>;</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="46">46</th><td><i class="doc">* Validates the server's identity by looking for the expected hostname in the</i></td></tr>
+<tr><th id="47">47</th><td><i class="doc">* server's certificate. As described in RFC 6125, it first tries to find a match</i></td></tr>
+<tr><th id="48">48</th><td><i class="doc">* in the Subject Alternative Name extension. If the extension is not present in</i></td></tr>
+<tr><th id="49">49</th><td><i class="doc">* the certificate, it checks the Common Name instead.</i></td></tr>
+<tr><th id="50">50</th><td><i class="doc">*</i></td></tr>
+<tr><th id="51">51</th><td><i class="doc">* Returns MatchFound if a match was found.</i></td></tr>
+<tr><th id="52">52</th><td><i class="doc">* Returns MatchNotFound if no matches were found.</i></td></tr>
+<tr><th id="53">53</th><td><i class="doc">* Returns MalformedCertificate if any of the hostnames had a NUL character embedded in it.</i></td></tr>
+<tr><th id="54">54</th><td><i class="doc">* Returns Error if there was an error.</i></td></tr>
+<tr><th id="55">55</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="56">56</th><td><a class="typedef" href="#HostnameValidationResult" title='HostnameValidationResult' data-type='enum HostnameValidationResult' data-ref="HostnameValidationResult">HostnameValidationResult</a> <dfn class="decl" id="validate_hostname" title='validate_hostname' data-ref="validate_hostname">validate_hostname</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="32hostname" title='hostname' data-type='const char *' data-ref="32hostname">hostname</dfn>, <em>const</em> <a class="typedef" href="../../include/openssl/ossl_typ.h.html#X509" title='X509' data-type='struct x509_st' data-ref="X509">X509</a> *<dfn class="local col3 decl" id="33server_cert" title='server_cert' data-type='const X509 *' data-ref="33server_cert">server_cert</dfn>);</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='https-client.c.html'>codebrowser/sample/https-client.c</a><br/>Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

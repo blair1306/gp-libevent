@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/rpc.h' l='491' type='1'/>
+<use f='codebrowser/evrpc.c' l='315' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='324' u='r' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='437' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='447' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='689' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='701' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='887' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='903' u='r' c='evrpc_reply_done'/>
+<doc f='codebrowser/include/event2/rpc.h' l='491'>/**&lt; pause processing request until resumed */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='628' u='r' c='rpc_hook_pause'/>

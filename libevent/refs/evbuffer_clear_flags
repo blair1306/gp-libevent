@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/buffer.h' l='225' type='int evbuffer_clear_flags(struct evbuffer * buf, uint64_t flags)'/>
+<def f='codebrowser/buffer.c' l='385' ll='392' type='int evbuffer_clear_flags(struct evbuffer * buf, uint64_t flags)'/>

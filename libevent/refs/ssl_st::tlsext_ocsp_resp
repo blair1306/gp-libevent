@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='1613' type='unsigned char *'/>
+<offset>4160</offset>
+<doc f='include/openssl/ssl.h' l='1612'>/* OCSP response received or to be sent */</doc>

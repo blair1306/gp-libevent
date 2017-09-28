@@ -1,0 +1,6 @@
+<dec f='codebrowser/util-internal.h' l='302' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/evutil.c' l='2412' u='w' c='evutil_weakrand_seed_'/>
+<use f='codebrowser/evutil.c' l='2427' u='w' c='evutil_weakrand_'/>
+<use f='codebrowser/evutil.c' l='2427' u='r' c='evutil_weakrand_'/>
+<use f='codebrowser/evutil.c' l='2428' u='r' c='evutil_weakrand_'/>

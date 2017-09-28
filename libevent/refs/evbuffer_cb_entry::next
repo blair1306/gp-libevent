@@ -1,0 +1,20 @@
+<dec f='codebrowser/evbuffer-internal.h' l='64' type='struct (anonymous struct at /home/jon/workspace/libevent/evbuffer-internal.h:64:2)'/>
+<use f='codebrowser/buffer.c' l='499' u='m' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='554' u='m' c='evbuffer_remove_all_callbacks'/>
+<use f='codebrowser/buffer.c' l='554' u='m' c='evbuffer_remove_all_callbacks'/>
+<use f='codebrowser/buffer.c' l='554' u='m' c='evbuffer_remove_all_callbacks'/>
+<use f='codebrowser/buffer.c' l='554' u='m' c='evbuffer_remove_all_callbacks'/>
+<use f='codebrowser/buffer.c' l='554' u='m' c='evbuffer_remove_all_callbacks'/>
+<use f='codebrowser/buffer.c' l='554' u='m' c='evbuffer_remove_all_callbacks'/>
+<use f='codebrowser/buffer.c' l='3323' u='m' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3323' u='m' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3323' u='m' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3323' u='m' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3333' u='m' c='evbuffer_remove_cb_entry'/>
+<use f='codebrowser/buffer.c' l='3333' u='m' c='evbuffer_remove_cb_entry'/>
+<use f='codebrowser/buffer.c' l='3333' u='m' c='evbuffer_remove_cb_entry'/>
+<use f='codebrowser/buffer.c' l='3333' u='m' c='evbuffer_remove_cb_entry'/>
+<use f='codebrowser/buffer.c' l='3333' u='m' c='evbuffer_remove_cb_entry'/>
+<use f='codebrowser/buffer.c' l='3333' u='m' c='evbuffer_remove_cb_entry'/>
+<use f='codebrowser/buffer.c' l='3345' u='m' c='evbuffer_remove_cb'/>
+<offset>0</offset>

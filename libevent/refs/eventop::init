@@ -1,0 +1,9 @@
+<dec f='codebrowser/event-internal.h' l='94' type='void *(*)(struct event_base *)'/>
+<offset>64</offset>
+<doc f='codebrowser/event-internal.h' l='89'>/** Function to set up an event_base to use this backend.  It should
+	 * create a new structure holding whatever information is needed to
+	 * run the backend, and return it.  The returned pointer will get
+	 * stored by event_init into the event_base.evbase field.  On failure,
+	 * this function should return NULL. */</doc>
+<use f='codebrowser/event.c' l='653' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1009' u='r' c='event_reinit'/>

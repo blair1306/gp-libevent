@@ -1,0 +1,4 @@
+<dec f='include/time.h' l='342' type='int clock_gettime(clockid_t __clock_id, struct timespec * __tp)'/>
+<use f='codebrowser/evutil_time.c' l='283' u='c' c='evutil_configure_monotonic_time_'/>
+<use f='codebrowser/evutil_time.c' l='289' u='c' c='evutil_configure_monotonic_time_'/>
+<use f='codebrowser/evutil_time.c' l='315' u='c' c='evutil_gettime_monotonic_'/>

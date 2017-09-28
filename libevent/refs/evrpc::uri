@@ -1,0 +1,28 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='63' type='const char *'/>
+<use f='codebrowser/evrpc.c' l='101' u='r' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='231' u='r' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='258' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='275' u='r' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='1114' u='w' c='evrpc_register_object'/>
+<use f='codebrowser/evrpc.c' l='1115' u='r' c='evrpc_register_object'/>
+<offset>128</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='62'>/* the URI at which the request handler lives */</doc>

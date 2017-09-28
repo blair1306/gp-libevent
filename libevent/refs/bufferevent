@@ -1,0 +1,25 @@
+<def f='codebrowser/include/event2/bufferevent_struct.h' l='70' ll='110'/>
+<size>392</size>
+<doc f='codebrowser/include/event2/bufferevent_struct.h' l='62'>/**
+  Shared implementation of a bufferevent.
+
+  This type is exposed only because it was exposed in previous versions,
+  and some people&apos;s code may rely on manipulating it.  Otherwise, you
+  should really not rely on the layout, size, or contents of this structure:
+  it is fairly volatile, and WILL change in future versions of the code.
+**/</doc>
+<mbr r='bufferevent::ev_base' o='0' t='struct event_base *'/>
+<mbr r='bufferevent::be_ops' o='64' t='const struct bufferevent_ops *'/>
+<mbr r='bufferevent::ev_read' o='128' t='struct event'/>
+<mbr r='bufferevent::ev_write' o='1152' t='struct event'/>
+<mbr r='bufferevent::input' o='2176' t='struct evbuffer *'/>
+<mbr r='bufferevent::output' o='2240' t='struct evbuffer *'/>
+<mbr r='bufferevent::wm_read' o='2304' t='struct event_watermark'/>
+<mbr r='bufferevent::wm_write' o='2432' t='struct event_watermark'/>
+<mbr r='bufferevent::readcb' o='2560' t='bufferevent_data_cb'/>
+<mbr r='bufferevent::writecb' o='2624' t='bufferevent_data_cb'/>
+<mbr r='bufferevent::errorcb' o='2688' t='bufferevent_event_cb'/>
+<mbr r='bufferevent::cbarg' o='2752' t='void *'/>
+<mbr r='bufferevent::timeout_read' o='2816' t='struct timeval'/>
+<mbr r='bufferevent::timeout_write' o='2944' t='struct timeval'/>
+<mbr r='bufferevent::enabled' o='3072' t='short'/>

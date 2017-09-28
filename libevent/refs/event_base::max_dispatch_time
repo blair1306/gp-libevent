@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='325' type='struct timeval'/>
+<offset>3776</offset>
+<use f='codebrowser/event.c' l='618' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='623' u='m' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='632' u='m' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1727' u='m' c='event_process_active'/>
+<use f='codebrowser/event.c' l='1730' u='a' c='event_process_active'/>
+<use f='codebrowser/event.c' l='1730' u='a' c='event_process_active'/>

@@ -1,0 +1,21 @@
+<dec f='include/x86_64-linux-gnu/sys/socket.h' l='261' type='int shutdown(int __fd, int __how)'/>
+<doc f='include/x86_64-linux-gnu/sys/socket.h' l='255'>/* Shut down all or part of the connection open on socket FD.
+   HOW determines what to shut down:
+     SHUT_RD   = No more receptions;
+     SHUT_WR   = No more transmissions;
+     SHUT_RDWR = No more receptions or transmissions.
+   Returns 0 on success, -1 for errors.  */</doc>
+<use f='codebrowser/http.c' l='1242' u='c' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1333' u='c' c='evhttp_connection_reset_'/>
+<use f='codebrowser/test/regress.c' l='199' u='c' c='multiple_write_cb'/>
+<use f='codebrowser/test/regress.c' l='279' u='c' c='combined_write_cb'/>
+<use f='codebrowser/test/regress.c' l='309' u='c' c='test_simpleread'/>
+<use f='codebrowser/test/regress.c' l='354' u='c' c='test_simpleread_multiple'/>
+<use f='codebrowser/test/regress.c' l='961' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='1937' u='c' c='test_event_base_new'/>
+<use f='codebrowser/test/regress.c' l='2766' u='c' c='test_event_once'/>
+<use f='codebrowser/test/regress_et.c' l='104' u='c' c='test_edgetriggered'/>
+<use f='codebrowser/test/regress_http.c' l='627' u='c' c='http_badreq_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='670' u='c' c='http_bad_request_test'/>
+<use f='codebrowser/test/regress_http.c' l='3027' u='c' c='http_incomplete_writecb'/>
+<use f='codebrowser/test/test-eof.c' l='103' u='c' c='main'/>

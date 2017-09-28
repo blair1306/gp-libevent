@@ -1,0 +1,6 @@
+<dec f='codebrowser/evbuffer-internal.h' l='241' type='unsigned int'/>
+<use f='codebrowser/buffer.c' l='2990' u='w' c='evbuffer_file_segment_new'/>
+<use f='codebrowser/buffer.c' l='3223' u='r' c='evbuffer_add_file_segment'/>
+<offset>128</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='240'>/** What kind of file segment is this? */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1040' u='r' c='test_evbuffer_add_file'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/event-internal.h' l='257' type='int'/>
+<offset>1952</offset>
+<doc f='codebrowser/event-internal.h' l='253'>/** Set to the number of deferred_cbs we&apos;ve made &apos;active&apos; in the
+	 * loop.  This is a hack to prevent starvation; it would be smarter
+	 * to just use event_config_set_max_dispatch_interval&apos;s max_callbacks
+	 * feature */</doc>
+<use f='codebrowser/event.c' l='1916' u='w' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='3080' u='r' c='event_deferred_cb_schedule_'/>
+<use f='codebrowser/event.c' l='3085' u='w' c='event_deferred_cb_schedule_'/>
+<use f='codebrowser/event.c' l='3399' u='w' c='event_queue_make_later_events_active'/>

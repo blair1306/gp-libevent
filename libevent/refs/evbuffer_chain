@@ -1,0 +1,10 @@
+<def f='codebrowser/evbuffer-internal.h' l='171' ll='214'/>
+<size>48</size>
+<doc f='codebrowser/evbuffer-internal.h' l='170'>/** A single item in an evbuffer. */</doc>
+<mbr r='evbuffer_chain::next' o='0' t='struct evbuffer_chain *'/>
+<mbr r='evbuffer_chain::buffer_len' o='64' t='size_t'/>
+<mbr r='evbuffer_chain::misalign' o='128' t='ev_misalign_t'/>
+<mbr r='evbuffer_chain::off' o='192' t='size_t'/>
+<mbr r='evbuffer_chain::flags' o='256' t='unsigned int'/>
+<mbr r='evbuffer_chain::refcnt' o='288' t='int'/>
+<mbr r='evbuffer_chain::buffer' o='320' t='unsigned char *'/>

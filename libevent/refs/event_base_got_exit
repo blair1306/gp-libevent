@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event.h' l='898' type='int event_base_got_exit(struct event_base * )'/>
+<def f='codebrowser/event.c' l='1862' ll='1870' type='int event_base_got_exit(struct event_base * event_base)'/>
+<use f='codebrowser/test/regress.c' l='1984' u='c' c='test_loopexit'/>
+<use f='codebrowser/test/regress.c' l='2016' u='c' c='test_loopexit_multiple'/>
+<use f='codebrowser/test/regress.c' l='2059' u='c' c='test_loopbreak'/>

@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='315' ll='318'/>
+<size>16</size>
+<mbr r='POLICY_MAPPING_st::issuerDomainPolicy' o='0' t='ASN1_OBJECT *'/>
+<mbr r='POLICY_MAPPING_st::subjectDomainPolicy' o='64' t='ASN1_OBJECT *'/>

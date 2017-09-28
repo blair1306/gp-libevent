@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http.h' l='223' type='void evhttp_set_max_body_size(struct evhttp * http, ssize_t max_body_size)'/>
+<use f='codebrowser/http.c' l='3619' u='c' c='evhttp_new_object'/>
+<def f='codebrowser/http.c' l='3832' ll='3839' type='void evhttp_set_max_body_size(struct evhttp * http, ssize_t max_body_size)'/>
+<use f='codebrowser/test/regress_http.c' l='4039' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4110' u='c' c='http_lingering_close_test_impl'/>

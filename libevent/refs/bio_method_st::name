@@ -1,0 +1,3 @@
+<dec f='include/openssl/bio.h' l='314' type='const char *'/>
+<use f='codebrowser/openssl-compat.h' l='12' u='w' c='BIO_meth_new'/>
+<offset>64</offset>

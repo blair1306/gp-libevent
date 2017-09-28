@@ -1,0 +1,2 @@
+<dec f='include/openssl/objects.h' l='1014' type='int OBJ_txt2nid(const char * s)'/>
+<use f='codebrowser/test/regress_ssl.c' l='143' u='c' c='ssl_getcert'/>

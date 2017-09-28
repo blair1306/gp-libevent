@@ -1,0 +1,10 @@
+<dec f='codebrowser/util-internal.h' l='496' type='int evutil_make_internal_pipe_(int * fd)'/>
+<use f='codebrowser/event.c' l='3609' u='c' c='evthread_make_base_notifiable_nolock_'/>
+<def f='codebrowser/evutil.c' l='2599' ll='2651' type='int evutil_make_internal_pipe_(int * fd)'/>
+<doc f='codebrowser/evutil.c' l='2595'>/* Internal function: Set fd[0] and fd[1] to a pair of fds such that writes on
+ * fd[1] get read from fd[0].  Make both fds nonblocking and close-on-exec.
+ * Return 0 on success, -1 on failure.
+ */</doc>
+<use f='codebrowser/signal.c' l='181' u='c' c='evsig_init_'/>
+<use f='codebrowser/test/test-dumpevents.c' l='96' u='c' c='main'/>
+<use f='codebrowser/test/test-dumpevents.c' l='97' u='c' c='main'/>

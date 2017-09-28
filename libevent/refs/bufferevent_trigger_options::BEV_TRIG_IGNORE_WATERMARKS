@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='625' type='65536'/>
+<use f='codebrowser/bufferevent-internal.h' l='409' u='r' c='bufferevent_trigger_nolock_'/>
+<use f='codebrowser/bufferevent-internal.h' l='412' u='r' c='bufferevent_trigger_nolock_'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='624'>/** trigger the callback regardless of the watermarks */</doc>
+<use f='codebrowser/bufferevent.c' l='253' u='r' c='bufferevent_trigger'/>
+<use f='codebrowser/bufferevent.c' l='253' u='r' c='bufferevent_trigger_event'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1106' u='r' c='trigger_readcb'/>

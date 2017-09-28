@@ -1,0 +1,23 @@
+<dec f='codebrowser/bufferevent-internal.h' l='142' type='struct ev_token_bucket'/>
+<offset>192</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='141'>/* This bufferevent&apos;s current limits. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='121' u='m' c='bufferevent_update_buckets'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='122' u='a' c='bufferevent_update_buckets'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='226' u='m' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='226' u='m' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='282' u='m' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='283' u='m' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='320' u='m' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='321' u='m' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='410' u='a' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='416' u='m' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='422' u='m' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='606' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='615' u='m' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='621' u='m' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='830' u='m' c='bufferevent_get_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='849' u='m' c='bufferevent_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='980' u='m' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='982' u='m' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1009' u='m' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1011' u='m' c='bufferevent_decrement_write_limit'/>

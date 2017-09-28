@@ -1,0 +1,6 @@
+<dec f='codebrowser/evdns.c' l='347' type='struct timeval'/>
+<use f='codebrowser/evdns.c' l='3470' u='a' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='3943' u='m' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='3944' u='m' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4375' u='a' c='evdns_getaddrinfo_set_timeout'/>
+<offset>1920</offset>

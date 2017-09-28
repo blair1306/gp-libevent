@@ -1,0 +1,4 @@
+<def f='codebrowser/test/tinytest.c' l='72' type='const char *'/>
+<use f='codebrowser/test/tinytest.c' l='401' u='w' c='tinytest_main'/>
+<use f='codebrowser/test/tinytest.c' l='404' u='w' c='tinytest_main'/>
+<use f='codebrowser/test/tinytest.c' l='407' u='w' c='tinytest_main'/>

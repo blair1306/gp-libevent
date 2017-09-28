@@ -1,0 +1,2 @@
+<dec f='include/openssl/stack.h' l='84' type='void sk_free(_STACK * )'/>
+<use f='codebrowser/sample/https-client.c' l='503' macro='1' u='c'/>

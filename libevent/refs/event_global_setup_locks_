@@ -1,0 +1,4 @@
+<dec f='codebrowser/evthread-internal.h' l='387' type='int event_global_setup_locks_(const int enable_locks)'/>
+<def f='codebrowser/event.c' l='3860' ll='3873' type='int event_global_setup_locks_(const int enable_locks)'/>
+<use f='codebrowser/evthread.c' l='129' u='c' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='341' u='c' c='evthread_enable_lock_debugging'/>

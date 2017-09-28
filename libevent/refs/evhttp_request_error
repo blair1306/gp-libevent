@@ -1,0 +1,6 @@
+<def f='codebrowser/include/event2/http.h' l='574' ll='599'/>
+<doc f='codebrowser/include/event2/http.h' l='569'>/**
+ * The different error types supported by evhttp
+ *
+ * @see evhttp_request_set_error_cb()
+ */</doc>

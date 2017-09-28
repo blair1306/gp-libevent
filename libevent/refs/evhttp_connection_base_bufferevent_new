@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/http.h' l='524' type='struct evhttp_connection * evhttp_connection_base_bufferevent_new(struct event_base * base, struct evdns_base * dnsbase, struct bufferevent * bev, const char * address, uint16_t port)'/>
+<def f='codebrowser/http.c' l='2337' ll='2400' type='struct evhttp_connection * evhttp_connection_base_bufferevent_new(struct event_base * base, struct evdns_base * dnsbase, struct bufferevent * bev, const char * address, uint16_t port)'/>
+<use f='codebrowser/http.c' l='2417' u='c' c='evhttp_connection_base_new'/>
+<use f='codebrowser/http.c' l='4186' u='c' c='evhttp_get_request_connection'/>
+<use f='codebrowser/sample/https-client.c' l='420' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='1044' u='c' c='http_connection_test_'/>
+<use f='codebrowser/test/regress_http.c' l='3299' u='c' c='http_chunk_out_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3345' u='c' c='http_stream_out_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3547' u='c' c='http_connection_fail_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3621' u='c' c='http_simple_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3663' u='c' c='http_connection_retry_test_basic'/>

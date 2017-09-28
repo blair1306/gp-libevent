@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/event.h' l='678' type='struct event_base * event_base_new_with_config(const struct event_config * )'/>
+<use f='codebrowser/event.c' l='468' u='c' c='event_init'/>
+<use f='codebrowser/event.c' l='486' u='c' c='event_base_new'/>
+<def f='codebrowser/event.c' l='565' ll='700' type='struct event_base * event_base_new_with_config(const struct event_config * cfg)'/>
+<use f='codebrowser/test/bench_http.c' l='153' u='c' c='main'/>
+<use f='codebrowser/test/regress.c' l='2528' u='c' c='test_methods'/>
+<use f='codebrowser/test/regress.c' l='2576' u='c' c='test_base_features'/>
+<use f='codebrowser/test/regress.c' l='2679' u='c' c='test_base_environ'/>
+<use f='codebrowser/test/regress.c' l='2694' u='c' c='test_base_environ'/>
+<use f='codebrowser/test/regress.c' l='3005' u='c' c='test_mm_functions'/>
+<use f='codebrowser/test/regress.c' l='3238' u='c' c='test_gettimeofday_cached'/>
+<use f='codebrowser/test/regress_thread.c' l='466' u='c' c='thread_deferred_cb_skew'/>
+<use f='codebrowser/test/test-ratelim.c' l='289' u='c' c='test_ratelimiting'/>

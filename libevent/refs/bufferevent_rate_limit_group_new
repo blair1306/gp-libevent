@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='826' type='struct bufferevent_rate_limit_group * bufferevent_rate_limit_group_new(struct event_base * base, const struct ev_token_bucket_cfg * cfg)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='638' ll='670' type='struct bufferevent_rate_limit_group * bufferevent_rate_limit_group_new(struct event_base * base, const struct ev_token_bucket_cfg * cfg)'/>
+<use f='codebrowser/test/test-ratelim.c' l='324' u='c' c='test_ratelimiting'/>

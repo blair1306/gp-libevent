@@ -1,0 +1,4 @@
+<def f='codebrowser/event.c' l='227' macro='1' type='struct event_debug_entry * event_debug_map_HT_REMOVE(struct event_debug_map * head, struct event_debug_entry * elm)'/>
+<use f='codebrowser/event.c' l='1668' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2184' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='2193' macro='1' u='c'/>

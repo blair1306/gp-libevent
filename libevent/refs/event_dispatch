@@ -1,0 +1,43 @@
+<dec f='codebrowser/include/event2/event_compat.h' l='89' type='int event_dispatch()'/>
+<def f='codebrowser/event.c' l='1766' ll='1770' type='int event_dispatch()'/>
+<doc f='codebrowser/event.c' l='1762'>/*
+ * Wait continuously for events.  We exit only if no events are left.
+ */</doc>
+<use f='codebrowser/test/bench_cascade.c' l='122' u='c' c='run_once'/>
+<use f='codebrowser/test/regress.c' l='314' u='c' c='test_simpleread'/>
+<use f='codebrowser/test/regress.c' l='330' u='c' c='test_simplewrite'/>
+<use f='codebrowser/test/regress.c' l='362' u='c' c='test_simpleread_multiple'/>
+<use f='codebrowser/test/regress.c' l='496' u='c' c='test_multiple'/>
+<use f='codebrowser/test/regress.c' l='525' u='c' c='test_persistent'/>
+<use f='codebrowser/test/regress.c' l='555' u='c' c='test_combined'/>
+<use f='codebrowser/test/regress.c' l='579' u='c' c='test_simpletimeout'/>
+<use f='codebrowser/test/regress.c' l='615' u='c' c='test_persistent_timeout'/>
+<use f='codebrowser/test/regress.c' l='936' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='968' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='987' u='c' c='del_wait_thread'/>
+<use f='codebrowser/test/regress.c' l='1079' u='c' c='test_simplesignal_impl'/>
+<use f='codebrowser/test/regress.c' l='1121' u='c' c='test_multiplesignal'/>
+<use f='codebrowser/test/regress.c' l='1348' u='c' c='test_signal_while_processing'/>
+<use f='codebrowser/test/regress.c' l='1979' u='c' c='test_loopexit'/>
+<use f='codebrowser/test/regress.c' l='2057' u='c' c='test_loopbreak'/>
+<use f='codebrowser/test/regress.c' l='2194' u='c' c='test_priorities_impl'/>
+<use f='codebrowser/test/regress.c' l='2360' u='c' c='test_want_only_once'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='179' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='448' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='580' u='c' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='155' u='c' c='dns_gethostbyname'/>
+<use f='codebrowser/test/regress_dns.c' l='168' u='c' c='dns_gethostbyname6'/>
+<use f='codebrowser/test/regress_dns.c' l='187' u='c' c='dns_gethostbyaddr'/>
+<use f='codebrowser/test/regress_dns.c' l='448' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_rpc.c' l='218' u='c' c='rpc_basic_test'/>
+<use f='codebrowser/test/regress_rpc.c' l='298' u='c' c='rpc_basic_message'/>
+<use f='codebrowser/test/regress_rpc.c' l='483' u='c' c='rpc_basic_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='492' u='c' c='rpc_basic_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='506' u='c' c='rpc_basic_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='560' u='c' c='rpc_basic_queued_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='663' u='c' c='rpc_basic_client_with_pause'/>
+<use f='codebrowser/test/regress_rpc.c' l='713' u='c' c='rpc_client_timeout'/>
+<use f='codebrowser/test/regress_zlib.c' l='329' u='c' c='test_bufferevent_zlib'/>
+<use f='codebrowser/test/test-eof.c' l='113' u='c' c='main'/>
+<use f='codebrowser/test/test-time.c' l='110' u='c' c='main'/>
+<use f='codebrowser/test/test-weof.c' l='110' u='c' c='main'/>

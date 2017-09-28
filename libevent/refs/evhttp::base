@@ -1,0 +1,6 @@
+<dec f='codebrowser/http-internal.h' l='174' type='struct event_base *'/>
+<offset>1536</offset>
+<use f='codebrowser/http.c' l='3556' u='r' c='evhttp_accept_socket_with_handle'/>
+<use f='codebrowser/http.c' l='3645' u='w' c='evhttp_new'/>
+<use f='codebrowser/http.c' l='4184' u='r' c='evhttp_get_request_connection'/>
+<use f='codebrowser/http.c' l='4187' u='r' c='evhttp_get_request_connection'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='146'/>
+<doc f='codebrowser/include/event2/event-config.h' l='145'>/* Define to 1 if you have the `getnameinfo&apos; function. */</doc>
+<use f='codebrowser/http.c' l='108' u='a'/>
+<use f='codebrowser/http.c' l='4288' u='a'/>

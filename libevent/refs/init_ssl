@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/regress.h' l='137' type='void init_ssl()'/>
+<use f='codebrowser/test/regress_http.c' l='142' u='c' c='http_setup'/>
+<def f='codebrowser/test/regress_ssl.c' l='186' ll='198' type='void init_ssl()'/>
+<use f='codebrowser/test/regress_ssl.c' l='413' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='681' u='c' c='regress_bufferevent_openssl_connect'/>

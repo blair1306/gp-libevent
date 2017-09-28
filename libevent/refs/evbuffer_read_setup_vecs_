@@ -1,0 +1,23 @@
+<dec f='codebrowser/evbuffer-internal.h' l='325' type='int evbuffer_read_setup_vecs_(struct evbuffer * buf, ssize_t howmuch, struct iovec * vecs, int n_vecs, struct evbuffer_chain *** chainp, int exact)'/>
+<use f='codebrowser/buffer.c' l='692' u='c' c='evbuffer_reserve_space'/>
+<def f='codebrowser/buffer.c' l='2213' ll='2247' type='int evbuffer_read_setup_vecs_(struct evbuffer * buf, ssize_t howmuch, struct iovec * vecs, int n_vecs_avail, struct evbuffer_chain *** chainp, int exact)'/>
+<use f='codebrowser/buffer.c' l='2306' u='c' c='evbuffer_read'/>
+<doc f='codebrowser/buffer.c' l='2200'>/** Helper function to figure out which space to use for reading data into
+    an evbuffer.  Internal use only.
+
+    @param buf The buffer to read into
+    @param howmuch How much we want to read.
+    @param vecs An array of two or more iovecs or WSABUFs.
+    @param n_vecs_avail The length of vecs
+    @param chainp A pointer to a variable to hold the first chain we&apos;re
+      reading into.
+    @param exact Boolean: if true, we do not provide more than &apos;howmuch&apos;
+      space in the vectors, even if more space is available.
+    @return The number of buffers we&apos;re using.
+ */</doc>
+<doc f='codebrowser/evbuffer-internal.h' l='319'>/** Helper: prepares for a readv/WSARecv call by expanding the buffer to
+ * hold enough memory to read &apos;howmuch&apos; bytes in possibly noncontiguous memory.
+ * Sets up the one or two iovecs in &apos;vecs&apos; to point to the free memory and its
+ * extent, and *chainp to point to the first chain that we&apos;ll try to read into.
+ * Returns the number of vecs used.
+ */</doc>

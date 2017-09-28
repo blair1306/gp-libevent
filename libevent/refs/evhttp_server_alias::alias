@@ -1,0 +1,9 @@
+<dec f='codebrowser/http-internal.h' l='134' type='char *'/>
+<offset>128</offset>
+<doc f='codebrowser/http-internal.h' l='134'>/* the server alias. */</doc>
+<use f='codebrowser/http.c' l='3352' u='r' c='evhttp_find_alias'/>
+<use f='codebrowser/http.c' l='3710' u='r' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3758' u='w' c='evhttp_add_server_alias'/>
+<use f='codebrowser/http.c' l='3759' u='r' c='evhttp_add_server_alias'/>
+<use f='codebrowser/http.c' l='3775' u='r' c='evhttp_remove_server_alias'/>
+<use f='codebrowser/http.c' l='3777' u='r' c='evhttp_remove_server_alias'/>

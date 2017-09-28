@@ -1,0 +1,19 @@
+<dec f='include/netinet/in.h' l='257' type='in_port_t'/>
+<offset>16</offset>
+<doc f='include/netinet/in.h' l='257'>/* Transport layer port # */</doc>
+<use f='codebrowser/evdns.c' l='2596' u='w' c='sockaddr_setport'/>
+<use f='codebrowser/evdns.c' l='2606' u='r' c='sockaddr_getport'/>
+<use f='codebrowser/evdns.c' l='4514' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evutil.c' l='759' u='w' c='evutil_check_interfaces'/>
+<use f='codebrowser/evutil.c' l='997' u='w' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1042' u='w' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1315' u='w' c='apply_numeric_port_hack'/>
+<use f='codebrowser/evutil.c' l='2142' u='w' c='evutil_parse_sockaddr_port'/>
+<use f='codebrowser/evutil.c' l='2190' u='r' c='evutil_format_sockaddr_port_'/>
+<use f='codebrowser/evutil.c' l='2232' u='r' c='evutil_sockaddr_cmp'/>
+<use f='codebrowser/evutil.c' l='2232' u='r' c='evutil_sockaddr_cmp'/>
+<use f='codebrowser/sample/http-server.c' l='396' u='r' c='main'/>
+<use f='codebrowser/test/regress_testutils.c' l='87' u='r' c='regress_get_socket_port'/>
+<use f='codebrowser/test/regress_util.c' l='271' u='w' c='regress_sockaddr_port_parse'/>
+<use f='codebrowser/test/regress_util.c' l='845' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='1107' u='r' c='test_evutil_getaddrinfo_live'/>

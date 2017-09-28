@@ -1,0 +1,13 @@
+<dec f='include/signal.h' l='139' type='int raise(int __sig)'/>
+<doc f='include/signal.h' l='138'>/* Raise signal SIG, i.e., send SIG to yourself.  */</doc>
+<use f='codebrowser/test/regress.c' l='931' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='932' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='965' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='966' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='1140' u='c' c='test_immediatesignal'/>
+<use f='codebrowser/test/regress.c' l='1213' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1226' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1255' u='c' c='test_signal_assert'/>
+<use f='codebrowser/test/regress.c' l='1299' u='c' c='test_signal_restore'/>
+<use f='codebrowser/test/regress.c' l='1314' u='c' c='signal_cb_swp'/>
+<use f='codebrowser/test/regress.c' l='1326' u='c' c='timeout_cb_swp'/>

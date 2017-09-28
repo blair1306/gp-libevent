@@ -1,0 +1,6 @@
+<dec f='codebrowser/evmap-internal.h' l='84' type='int evmap_signal_add_(struct event_base * base, int signum, struct event * ev)'/>
+<doc f='codebrowser/evmap-internal.h' l='81'>/* These functions behave in the same way as evmap_io_*, except they work on
+ * signals rather than fds.  signals use a linear map everywhere; fds use
+ * either a linear map or a hashtable. */</doc>
+<use f='codebrowser/event.c' l='2605' u='c' c='event_add_nolock_'/>
+<def f='codebrowser/evmap.c' l='441' ll='465' type='int evmap_signal_add_(struct event_base * base, int sig, struct event * ev)'/>

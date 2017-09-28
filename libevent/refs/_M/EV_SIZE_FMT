@@ -1,0 +1,6 @@
+<dec f='codebrowser/util-internal.h' l='468'/>
+<use f='codebrowser/util-internal.h' l='475' u='a'/>
+<use f='codebrowser/http.c' l='449' u='c'/>
+<use f='codebrowser/http.c' l='508' u='c'/>
+<use f='codebrowser/http.c' l='2144' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='407' u='c'/>

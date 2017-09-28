@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/http.h' l='843' type='struct evbuffer * evhttp_request_get_output_buffer(struct evhttp_request * req)'/>
+<def f='codebrowser/http.c' l='4152' ll='4155' type='struct evbuffer * evhttp_request_get_output_buffer(struct evhttp_request * req)'/>
+<doc f='codebrowser/http.c' l='4151'>/** Returns the output buffer */</doc>
+<use f='codebrowser/sample/https-client.c' l='459' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='814' u='c' c='http_sent_cb'/>
+<use f='codebrowser/test/regress_http.c' l='1944' u='c' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='1964' u='c' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='2082' u='c' c='http_put_test'/>
+<use f='codebrowser/test/regress_http.c' l='4042' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4051' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4061' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4074' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4132' u='c' c='http_lingering_close_test_impl'/>

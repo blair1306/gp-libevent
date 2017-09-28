@@ -1,0 +1,6 @@
+<def f='codebrowser/evrpc-internal.h' l='105' ll='111'/>
+<size>40</size>
+<mbr r='evrpc_meta::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:106:2)'/>
+<mbr r='evrpc_meta::key' o='128' t='char *'/>
+<mbr r='evrpc_meta::data' o='192' t='void *'/>
+<mbr r='evrpc_meta::data_size' o='256' t='size_t'/>

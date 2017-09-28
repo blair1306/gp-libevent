@@ -1,0 +1,13 @@
+<dec f='codebrowser/compat/sys/queue.h' l='157'/>
+<use f='codebrowser/buffer.c' l='494' u='c'/>
+<use f='codebrowser/buffer.c' l='553' u='c'/>
+<doc f='codebrowser/compat/sys/queue.h' l='154'>/*
+ * List access methods
+ */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='460' u='c'/>
+<use f='codebrowser/event.c' l='876' u='c'/>
+<use f='codebrowser/event.c' l='877' u='c'/>
+<use f='codebrowser/evmap.c' l='318' u='c'/>
+<use f='codebrowser/evmap.c' l='481' u='c'/>
+<use f='codebrowser/evmap.c' l='616' u='c'/>
+<use f='codebrowser/evmap.c' l='660' u='c'/>

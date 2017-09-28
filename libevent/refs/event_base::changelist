@@ -1,0 +1,13 @@
+<dec f='codebrowser/event-internal.h' l='217' type='struct event_changelist'/>
+<offset>128</offset>
+<doc f='codebrowser/event-internal.h' l='215'>/** List of changes to tell backend about at next dispatch.  Only used
+	 * by the O(1) backends. */</doc>
+<use f='codebrowser/epoll.c' l='358' u='a' c='epoll_apply_changes'/>
+<use f='codebrowser/epoll.c' l='458' u='a' c='epoll_dispatch'/>
+<use f='codebrowser/event.c' l='613' u='a' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='895' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='1020' u='a' c='event_reinit'/>
+<use f='codebrowser/evmap.c' l='728' u='a' c='event_changelist_assert_ok_foreach_iter_fn'/>
+<use f='codebrowser/evmap.c' l='744' u='a' c='event_changelist_assert_ok'/>
+<use f='codebrowser/evmap.c' l='858' u='a' c='event_changelist_add_'/>
+<use f='codebrowser/evmap.c' l='893' u='a' c='event_changelist_del_'/>

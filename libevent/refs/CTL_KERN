@@ -1,0 +1,4 @@
+<dec f='include/linux/sysctl.h' l='52' type='1'/>
+<use f='codebrowser/arc4random.c' l='181' u='r' c='arc4_seed_sysctl_linux'/>
+<use f='codebrowser/arc4random.c' l='181' u='r' c='arc4_seed_sysctl_linux'/>
+<doc f='include/linux/sysctl.h' l='52'>/* General kernel info and control */</doc>

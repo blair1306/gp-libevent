@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/thread.h' l='130' type='int evthread_set_lock_callbacks(const struct evthread_lock_callbacks * )'/>
+<def f='codebrowser/evthread.c' l='92' ll='133' type='int evthread_set_lock_callbacks(const struct evthread_lock_callbacks * cbs)'/>
+<use f='codebrowser/evthread_pthread.c' l='187' u='c' c='evthread_use_pthreads'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='291' u='c' c='lock_unlock_free_thread_cbs'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='295' u='c' c='lock_unlock_free_thread_cbs'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='313' u='c' c='use_lock_unlock_profiler'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='324' u='c' c='free_lock_unlock_profiler'/>

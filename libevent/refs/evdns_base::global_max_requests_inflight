@@ -1,0 +1,5 @@
+<dec f='codebrowser/evdns.c' l='328' type='int'/>
+<use f='codebrowser/evdns.c' l='745' u='r' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='2753' u='r' c='request_new'/>
+<use f='codebrowser/evdns.c' l='3413' u='w' c='evdns_base_set_max_requests_inflight'/>
+<offset>416</offset>

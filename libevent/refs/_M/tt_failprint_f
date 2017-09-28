@@ -1,0 +1,2 @@
+<dec f='codebrowser/test/tinytest_macros.h' l='77'/>
+<doc f='codebrowser/test/tinytest_macros.h' l='76'>/* Fail but do not abort the current test for the reason in msg. */</doc>

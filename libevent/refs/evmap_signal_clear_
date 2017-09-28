@@ -1,0 +1,4 @@
+<dec f='codebrowser/evmap-internal.h' l='50' type='void evmap_signal_clear_(struct event_signal_map * ctx)'/>
+<use f='codebrowser/event.c' l='894' u='c' c='event_base_free_'/>
+<use f='codebrowser/evmap.c' l='195' u='c' c='evmap_io_clear_'/>
+<def f='codebrowser/evmap.c' l='234' ll='247' type='void evmap_signal_clear_(struct event_signal_map * ctx)'/>

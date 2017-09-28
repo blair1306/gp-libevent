@@ -1,0 +1,3 @@
+<dec f='codebrowser/test/regress_rpc.c' l='98' macro='1' type='struct kill *'/>
+<use f='codebrowser/test/regress_rpc.c' l='110' u='r' c='MessageCb'/>
+<offset>128</offset>

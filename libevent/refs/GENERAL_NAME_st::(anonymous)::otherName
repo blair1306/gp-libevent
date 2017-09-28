@@ -1,0 +1,3 @@
+<dec f='include/openssl/x509v3.h' l='190' type='OTHERNAME *'/>
+<offset>0</offset>
+<doc f='include/openssl/x509v3.h' l='190'>/* otherName */</doc>

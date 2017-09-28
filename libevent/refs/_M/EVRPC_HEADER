@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/rpc.h' l='174'/>
+<doc f='codebrowser/include/event2/rpc.h' l='163'>/** Creates the definitions and prototypes for an RPC
+ *
+ * You need to use EVRPC_HEADER to create structures and function prototypes
+ * needed by the server and client implementation.  The structures have to be
+ * defined in an .rpc file and converted to source code via event_rpcgen.py
+ *
+ * @param rpcname the name of the RPC
+ * @param reqstruct the name of the RPC request structure
+ * @param replystruct the name of the RPC reply structure
+ * @see EVRPC_GENERATE()
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='98' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='99' u='c'/>

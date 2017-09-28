@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/thread.h' l='143' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/include/event2/thread.h' l='141'>/** The current version of the conditions API.  Set this to
+	 * EVTHREAD_CONDITION_API_VERSION */</doc>
+<use f='codebrowser/evthread.c' l='158' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='158' u='r' c='evthread_set_condition_callbacks'/>

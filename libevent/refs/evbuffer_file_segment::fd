@@ -1,0 +1,8 @@
+<dec f='codebrowser/evbuffer-internal.h' l='245' type='int'/>
+<use f='codebrowser/buffer.c' l='2462' u='r' c='evbuffer_write_sendfile'/>
+<use f='codebrowser/buffer.c' l='2959' u='w' c='evbuffer_file_segment_new'/>
+<use f='codebrowser/buffer.c' l='3030' u='r' c='evbuffer_file_segment_materialize'/>
+<use f='codebrowser/buffer.c' l='3165' u='r' c='evbuffer_file_segment_free'/>
+<use f='codebrowser/buffer.c' l='3166' u='r' c='evbuffer_file_segment_free'/>
+<offset>160</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='244'>/** The fd that we read the data from. */</doc>

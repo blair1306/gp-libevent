@@ -1,0 +1,6 @@
+<dec f='include/openssl/ssl.h' l='1536' type='unsigned int'/>
+<offset>2112</offset>
+<doc f='include/openssl/ssl.h' l='1532'>/*
+     * the session_id_context is used to ensure sessions are only reused in
+     * the appropriate context
+     */</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/evrpc-internal.h' l='177' type='struct evhttp_connection *'/>
+<use f='codebrowser/evrpc.c' l='672' u='w' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='720' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='838' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='877' u='r' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='973' u='r' c='evrpc_request_timeout'/>
+<offset>256</offset>
+<doc f='codebrowser/evrpc-internal.h' l='176'>/* connection on which the request is being sent */</doc>

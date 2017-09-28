@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/http.h' l='115' type='struct evhttp_bound_socket * evhttp_bind_socket_with_handle(struct evhttp * http, const char * address, uint16_t port)'/>
+<use f='codebrowser/http.c' l='3495' u='c' c='evhttp_bind_socket'/>
+<def f='codebrowser/http.c' l='3501' ll='3525' type='struct evhttp_bound_socket * evhttp_bind_socket_with_handle(struct evhttp * http, const char * address, uint16_t port)'/>
+<use f='codebrowser/sample/http-server.c' l='370' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='97' u='c' c='http_bind'/>
+<use f='codebrowser/test/regress_http.c' l='99' u='c' c='http_bind'/>
+<use f='codebrowser/test/regress_rpc.c' l='88' u='c' c='http_setup'/>

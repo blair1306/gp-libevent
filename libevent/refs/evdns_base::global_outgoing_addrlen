@@ -1,0 +1,5 @@
+<dec f='codebrowser/evdns.c' l='345' type='socklen_t'/>
+<use f='codebrowser/evdns.c' l='2518' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2522' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='3505' u='w' c='evdns_base_set_option_impl'/>
+<offset>1856</offset>

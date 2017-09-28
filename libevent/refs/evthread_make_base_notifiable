@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/thread.h' l='247' type='int evthread_make_base_notifiable(struct event_base * base)'/>
+<use f='codebrowser/event.c' l='685' u='c' c='event_base_new_with_config'/>
+<def f='codebrowser/event.c' l='3567' ll='3578' type='int evthread_make_base_notifiable(struct event_base * base)'/>
+<use f='codebrowser/test/regress.c' l='897' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress_thread.c' l='183' u='c' c='thread_basic'/>

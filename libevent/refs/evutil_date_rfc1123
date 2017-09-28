@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/util.h' l='344' type='int evutil_date_rfc1123(char * date, const size_t datelen, const struct tm * tm)'/>
+<doc f='codebrowser/include/event2/util.h' l='337'>/** Format a date string using RFC 1123 format (used in HTTP).
+ * If `tm` is NULL, current system&apos;s time will be used.
+ * The number of characters written will be returned.
+ * One should check if the return value is smaller than `datelen` to check if
+ * the result is truncated or not.
+ */</doc>
+<def f='codebrowser/evutil_time.c' l='148' ll='177' type='int evutil_date_rfc1123(char * date, const size_t datelen, const struct tm * tm)'/>
+<use f='codebrowser/http.c' l='493' u='c' c='evhttp_maybe_add_date_header'/>
+<use f='codebrowser/test/regress_util.c' l='1438' u='c' c='test_evutil_date_rfc1123'/>
+<use f='codebrowser/test/regress_util.c' l='1450' u='c' c='test_evutil_date_rfc1123'/>

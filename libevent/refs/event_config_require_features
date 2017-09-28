@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event.h' l='609' type='int event_config_require_features(struct event_config * cfg, int feature)'/>
+<def f='codebrowser/event.c' l='1155' ll='1163' type='int event_config_require_features(struct event_config * cfg, int features)'/>
+<use f='codebrowser/test/regress.c' l='2574' u='c' c='test_base_features'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event-config.h' l='215'/>
+<doc f='codebrowser/include/event2/event-config.h' l='214'>/* Define to 1 if you have the `poll&apos; function. */</doc>
+<use f='codebrowser/event.c' l='83' u='a'/>
+<use f='codebrowser/event.c' l='113' u='a'/>
+<use f='codebrowser/poll.c' l='32' u='a'/>

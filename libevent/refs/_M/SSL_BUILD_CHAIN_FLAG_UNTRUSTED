@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='736'/>
+<doc f='include/openssl/ssl.h' l='735'>/* Treat any existing certificates as untrusted CAs */</doc>

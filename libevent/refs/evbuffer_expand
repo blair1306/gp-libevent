@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/buffer.h' l='262' type='int evbuffer_expand(struct evbuffer * buf, size_t datlen)'/>
+<def f='codebrowser/buffer.c' l='2149' ll='2158' type='int evbuffer_expand(struct evbuffer * buf, size_t datlen)'/>
+<use f='codebrowser/test/regress_buffer.c' l='649' u='c' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='665' u='c' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='686' u='c' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='702' u='c' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='718' u='c' c='test_evbuffer_expand_overflow'/>
+<use f='codebrowser/test/regress_buffer.c' l='721' u='c' c='test_evbuffer_expand_overflow'/>
+<use f='codebrowser/test/regress_buffer.c' l='737' u='c' c='test_evbuffer_add1'/>
+<use f='codebrowser/test/regress_buffer.c' l='766' u='c' c='test_evbuffer_add2'/>
+<use f='codebrowser/test/regress_buffer.c' l='851' u='c' c='test_evbuffer_reference2'/>

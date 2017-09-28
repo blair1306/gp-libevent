@@ -1,0 +1,20 @@
+<dec f='codebrowser/bufferevent-internal.h' l='334' type='void bufferevent_unsuspend_read_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<def f='codebrowser/bufferevent.c' l='78' ll='88' type='void bufferevent_unsuspend_read_(struct bufferevent * bufev, bufferevent_suspend_flags what)'/>
+<use f='codebrowser/bufferevent.c' l='130' macro='1' u='c'/>
+<use f='codebrowser/bufferevent.c' l='604' macro='1' u='c'/>
+<use f='codebrowser/bufferevent.c' l='611' macro='1' u='c'/>
+<use f='codebrowser/bufferevent_filter.c' l='251' u='c' c='be_filter_unlink'/>
+<use f='codebrowser/bufferevent_filter.c' l='281' u='c' c='be_filter_enable'/>
+<use f='codebrowser/bufferevent_openssl.c' l='385' u='c' c='start_reading'/>
+<use f='codebrowser/bufferevent_openssl.c' l='408' u='c' c='start_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='441' u='c' c='stop_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1218' u='c' c='be_openssl_unlink'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='291' u='c' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='417' u='c' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='496' u='c' c='bev_group_unsuspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='496' u='c' c='bev_group_unsuspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='578' u='c' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='616' u='c' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='805' u='c' c='bufferevent_remove_from_rate_limit_group_internal_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='991' u='c' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_sock.c' l='469' u='c' c='bufferevent_connect_getaddrinfo_cb'/>

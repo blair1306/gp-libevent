@@ -1,0 +1,6 @@
+<dec f='codebrowser/listener.c' l='80' type='void *'/>
+<use f='codebrowser/listener.c' l='186' u='w' c='evconnlistener_new'/>
+<use f='codebrowser/listener.c' l='372' u='w' c='evconnlistener_set_cb'/>
+<use f='codebrowser/listener.c' l='416' u='r' c='listener_read_cb'/>
+<use f='codebrowser/listener.c' l='438' u='r' c='listener_read_cb'/>
+<offset>256</offset>

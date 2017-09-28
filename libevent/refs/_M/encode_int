@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/tag_compat.h' l='45'/>
+<doc f='codebrowser/include/event2/tag_compat.h' l='36'>/**
+   @name Misnamed functions
+
+   @deprecated These macros are deprecated because their names don&apos;t follow
+     Libevent&apos;s naming conventions.  Use evtag_encode_int and
+     evtag_encode_int64 instead.
+
+   @{
+*/</doc>

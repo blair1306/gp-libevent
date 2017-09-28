@@ -1,0 +1,2 @@
+<def f='codebrowser/arc4random.c' l='125' ll='141' type='ssize_t read_all(int fd, unsigned char * buf, size_t count)'/>
+<use f='codebrowser/arc4random.c' l='308' u='c' c='arc4_seed_urandom_helper_'/>

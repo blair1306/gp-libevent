@@ -1,0 +1,3 @@
+<dec f='codebrowser/util-internal.h' l='292' type='int evutil_ersatz_socketpair_(int , int , int , int * )'/>
+<def f='codebrowser/evutil.c' l='206' ll='310' type='int evutil_ersatz_socketpair_(int family, int type, int protocol, int * fd)'/>
+<use f='codebrowser/test/regress_et.c' l='92' u='c' c='test_edgetriggered'/>

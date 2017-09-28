@@ -1,0 +1,6 @@
+<dec f='include/stdio.h' l='433' type='int sscanf(const char *restrict __s, const char *restrict __format)'/>
+<doc f='include/stdio.h' l='432'>/* Read formatted input from S.  */</doc>
+<use f='codebrowser/evutil.c' l='1968' u='c' c='evutil_inet_pton'/>
+<use f='codebrowser/evutil.c' l='1996' u='c' c='evutil_inet_pton'/>
+<use f='codebrowser/http.c' l='1636' u='c' c='evhttp_parse_http_version'/>
+<use f='codebrowser/test/regress.c' l='2559' u='c' c='test_version'/>

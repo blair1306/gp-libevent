@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/util.h' l='414' type='int evutil_make_listen_socket_reuseable(int sock)'/>
+<def f='codebrowser/evutil.c' l='359' ll='372' type='int evutil_make_listen_socket_reuseable(int sock)'/>
+<use f='codebrowser/http.c' l='4336' u='c' c='bind_socket_ai'/>
+<use f='codebrowser/listener.c' l='234' u='c' c='evconnlistener_new_bind'/>

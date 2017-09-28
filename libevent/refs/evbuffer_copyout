@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/buffer.h' l='365' type='ssize_t evbuffer_copyout(struct evbuffer * buf, void * data_out, size_t datlen)'/>
+<def f='codebrowser/buffer.c' l='1178' ll='1182' macro='1' type='ssize_t evbuffer_copyout(struct evbuffer * buf, void * data_out, size_t datlen)'/>
+<use f='codebrowser/test/regress_buffer.c' l='2434' u='c' c='test_evbuffer_copyout'/>
+<use f='codebrowser/test/regress_buffer.c' l='2439' u='c' c='test_evbuffer_copyout'/>
+<use f='codebrowser/test/regress_buffer.c' l='2444' u='c' c='test_evbuffer_copyout'/>

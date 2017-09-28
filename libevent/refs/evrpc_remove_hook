@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/rpc.h' l='525' type='int evrpc_remove_hook(void * vbase, enum EVRPC_HOOK_TYPE hook_type, void * handle)'/>
+<use f='codebrowser/evrpc.c' l='109' u='c' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='113' u='c' c='evrpc_free'/>
+<def f='codebrowser/evrpc.c' l='168' ll='185' type='int evrpc_remove_hook(void * vbase, enum EVRPC_HOOK_TYPE hook_type, void * handle)'/>
+<use f='codebrowser/evrpc.c' l='561' u='c' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='566' u='c' c='evrpc_pool_free'/>
+<doc f='codebrowser/evrpc.c' l='164'>/*
+ * remove the hook specified by the handle
+ */</doc>

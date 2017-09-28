@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='674' type='int evhttp_connection_set_flags(struct evhttp_connection * evcon, int flags)'/>
+<def f='codebrowser/http.c' l='2426' ll='2440' type='int evhttp_connection_set_flags(struct evhttp_connection * evcon, int flags)'/>
+<use f='codebrowser/test/regress_http.c' l='3666' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='3999' u='c' c='http_data_length_constraints_test_impl'/>

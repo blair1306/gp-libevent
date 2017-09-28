@@ -1,0 +1,3 @@
+<dec f='codebrowser/bufferevent-internal.h' l='255' type='const char *'/>
+<offset>0</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='254'>/** The name of the bufferevent&apos;s type. */</doc>

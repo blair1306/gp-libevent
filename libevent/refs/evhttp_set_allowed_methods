@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='249' type='void evhttp_set_allowed_methods(struct evhttp * http, uint16_t methods)'/>
+<use f='codebrowser/http.c' l='3621' u='c' c='evhttp_new_object'/>
+<def f='codebrowser/http.c' l='3847' ll='3851' type='void evhttp_set_allowed_methods(struct evhttp * http, uint16_t methods)'/>
+<use f='codebrowser/test/regress_http.c' l='921' u='c' c='http_allowed_methods_test'/>

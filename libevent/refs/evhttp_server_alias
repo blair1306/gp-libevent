@@ -1,0 +1,5 @@
+<def f='codebrowser/http-internal.h' l='131' ll='135'/>
+<size>24</size>
+<doc f='codebrowser/http-internal.h' l='130'>/* server alias list item. */</doc>
+<mbr r='evhttp_server_alias::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:132:2)'/>
+<mbr r='evhttp_server_alias::alias' o='128' t='char *'/>

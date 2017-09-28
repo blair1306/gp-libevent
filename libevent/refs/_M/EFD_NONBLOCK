@@ -1,0 +1,3 @@
+<dec f='include/x86_64-linux-gnu/bits/eventfd.h' l='30'/>
+<use f='codebrowser/util-internal.h' l='509' u='a'/>
+<use f='codebrowser/evutil.c' l='2662' u='a'/>

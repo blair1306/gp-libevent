@@ -1,0 +1,68 @@
+<dec f='include/x86_64-linux-gnu/sys/time.h' l='71' type='int gettimeofday(struct timeval *restrict __tv, __timezone_ptr_t __tz)'/>
+<doc f='include/x86_64-linux-gnu/sys/time.h' l='66'>/* Get the current time of day and timezone information,
+   putting it into *TV and *TZ.  If TZ is NULL, *TZ is not filled.
+   Returns 0 on success, -1 on errors.
+   NOTE: This form of timezone information is obsolete.
+   Use the functions and variables declared in &lt;time.h&gt; instead.  */</doc>
+<use f='codebrowser/event.c' l='390' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='405' macro='1' u='c'/>
+<use f='codebrowser/event.c' l='410' macro='1' u='c'/>
+<use f='codebrowser/evthread_pthread.c' l='146' macro='1' u='c'/>
+<use f='codebrowser/evutil.c' l='2404' macro='1' u='c'/>
+<use f='codebrowser/evutil_time.c' l='309' macro='1' u='c'/>
+<use f='codebrowser/sample/time-test.c' l='49' macro='1' u='c'/>
+<use f='codebrowser/sample/time-test.c' l='101' macro='1' u='c'/>
+<use f='codebrowser/test/bench.c' l='121' macro='1' u='c'/>
+<use f='codebrowser/test/bench.c' l='126' macro='1' u='c'/>
+<use f='codebrowser/test/bench_cascade.c' l='103' macro='1' u='c'/>
+<use f='codebrowser/test/bench_cascade.c' l='124' macro='1' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='91' macro='1' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='163' macro='1' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='201' macro='1' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='205' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='236' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='578' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='661' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='693' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='721' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='790' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='986' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='988' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='1029' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='1031' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='1978' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='1980' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='2012' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='2014' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='2819' macro='1' u='c'/>
+<use f='codebrowser/test/regress.c' l='3242' macro='1' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='920' macro='1' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='931' macro='1' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='936' macro='1' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='989' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3066' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3070' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3284' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3290' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3688' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3690' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3723' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3725' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3760' macro='1' u='c'/>
+<use f='codebrowser/test/regress_http.c' l='3762' macro='1' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='764' macro='1' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='802' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='282' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='325' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='438' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='472' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='504' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='543' macro='1' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='546' macro='1' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1256' macro='1' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1258' macro='1' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1260' macro='1' u='c'/>
+<use f='codebrowser/test/test-changelist.c' l='78' macro='1' u='c'/>
+<use f='codebrowser/test/test-changelist.c' l='128' macro='1' u='c'/>
+<use f='codebrowser/test/test-dumpevents.c' l='148' macro='1' u='c'/>
+<use f='codebrowser/test/test-ratelim.c' l='590' macro='1' u='c'/>

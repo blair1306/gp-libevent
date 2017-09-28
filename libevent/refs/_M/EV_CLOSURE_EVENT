@@ -1,0 +1,4 @@
+<dec f='codebrowser/event-internal.h' l='69'/>
+<doc f='codebrowser/event-internal.h' l='68'>/** A regular event. Uses the evcb_callback callback */</doc>
+<use f='codebrowser/event.c' l='1642' u='c'/>
+<use f='codebrowser/event.c' l='2100' u='c'/>

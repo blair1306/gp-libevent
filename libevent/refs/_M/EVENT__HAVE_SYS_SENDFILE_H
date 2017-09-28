@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='356'/>
+<use f='codebrowser/buffer.c' l='65' u='a'/>
+<use f='codebrowser/buffer.c' l='105' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='355'>/* Define to 1 if you have the &lt;sys/sendfile.h&gt; header file. */</doc>

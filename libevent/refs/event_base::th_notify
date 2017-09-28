@@ -1,0 +1,12 @@
+<dec f='codebrowser/event-internal.h' l='338' type='struct event'/>
+<offset>4096</offset>
+<doc f='codebrowser/event-internal.h' l='336'>/** An event used by some th_notify functions to wake up the main
+	 * thread. */</doc>
+<use f='codebrowser/event.c' l='821' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='827' u='a' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='985' u='a' c='event_reinit'/>
+<use f='codebrowser/event.c' l='991' u='a' c='event_reinit'/>
+<use f='codebrowser/event.c' l='3619' u='a' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3623' u='m' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3624' u='a' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3626' u='a' c='evthread_make_base_notifiable_nolock_'/>

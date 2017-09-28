@@ -1,0 +1,5 @@
+<dec f='codebrowser/arc4random.c' l='72'/>
+<use f='codebrowser/arc4random.c' l='182' u='c'/>
+<use f='codebrowser/arc4random.c' l='263' u='c'/>
+<use f='codebrowser/arc4random.c' l='301' u='c'/>
+<doc f='codebrowser/arc4random.c' l='71'>/* Add platform entropy 32 bytes (256 bits) at a time. */</doc>

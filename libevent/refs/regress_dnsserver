@@ -1,0 +1,9 @@
+<dec f='codebrowser/test/regress_testutils.h' l='55' type='int regress_dnsserver(struct event_base * base, uint16_t * port, struct regress_dns_server_table * seach_table)'/>
+<doc f='codebrowser/test/regress_testutils.h' l='54'>/* globally allocates a dns server that serves from a search table */</doc>
+<use f='codebrowser/test/regress_dns.c' l='549' u='c' c='dns_search_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='973' u='c' c='dns_disable_when_inactive_no_ns_test'/>
+<use f='codebrowser/test/regress_http.c' l='1152' u='c' c='http_connection_async_test'/>
+<use f='codebrowser/test/regress_http.c' l='1430' u='c' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='3783' u='c' c='http_connection_retry_conn_address_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4325' u='c' c='http_ipv6_for_domain_test_impl'/>
+<def f='codebrowser/test/regress_testutils.c' l='216' ll='223' type='int regress_dnsserver(struct event_base * base, uint16_t * port, struct regress_dns_server_table * search_table)'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/buffer_compat.h' l='107' type='unsigned char * evbuffer_find(struct evbuffer * buffer, const unsigned char * what, size_t len)'/>
+<def f='codebrowser/buffer.c' l='2564' ll='2582' type='unsigned char * evbuffer_find(struct evbuffer * buffer, const unsigned char * what, size_t len)'/>
+<use f='codebrowser/test/regress_buffer.c' l='1559' u='c' c='test_evbuffer_find'/>
+<use f='codebrowser/test/regress_buffer.c' l='1573' u='c' c='test_evbuffer_find'/>
+<use f='codebrowser/test/regress_buffer.c' l='1577' u='c' c='test_evbuffer_find'/>

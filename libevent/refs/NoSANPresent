@@ -1,0 +1,4 @@
+<dec f='codebrowser/sample/openssl_hostname_validation.h' l='40' type='2'/>
+<use f='codebrowser/sample/https-client.c' l='156' c='cert_verify_callback'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='120' u='r' c='matches_subject_alternative_name'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='171' u='r' c='validate_hostname'/>

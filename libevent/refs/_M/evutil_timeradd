@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/util.h' l='519'/>
+<use f='codebrowser/event.c' l='412' u='c'/>
+<use f='codebrowser/event.c' l='1558' u='c'/>
+<use f='codebrowser/event.c' l='1565' u='c'/>
+<use f='codebrowser/event.c' l='1730' u='c'/>
+<use f='codebrowser/event.c' l='2354' u='c'/>
+<use f='codebrowser/event.c' l='2673' u='c'/>
+<use f='codebrowser/event.c' l='2677' u='c'/>
+<use f='codebrowser/event.c' l='3713' u='c'/>
+<use f='codebrowser/evthread_pthread.c' l='147' u='c'/>
+<use f='codebrowser/evutil_time.c' l='189' u='c'/>
+<use f='codebrowser/evutil_time.c' l='195' u='c'/>
+<use f='codebrowser/test/bench_httpclient.c' l='93' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='377' u='c'/>

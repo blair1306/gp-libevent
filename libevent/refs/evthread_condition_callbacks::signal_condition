@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/thread.h' l='157' type='int (*)(void *, int)'/>
+<offset>192</offset>
+<doc f='codebrowser/include/event2/thread.h' l='151'>/** Function to signal a condition variable.  If &apos;broadcast&apos; is 1, all
+	 * threads waiting on &apos;cond&apos; should be woken; otherwise, only on one
+	 * thread is worken.  Should return 0 on success, -1 on failure.
+	 * This function will only be called while holding the associated
+	 * lock for the condition.
+	 */</doc>
+<use f='codebrowser/event.c' l='1690' macro='1' u='r'/>
+<use f='codebrowser/evthread.c' l='161' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='161' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='171' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='177' u='w' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/evthread.c' l='177' u='r' c='evthread_set_condition_callbacks'/>
+<use f='codebrowser/test/regress_thread.c' l='79' macro='1' u='r'/>
+<use f='codebrowser/test/regress_thread.c' l='89' macro='1' u='r'/>

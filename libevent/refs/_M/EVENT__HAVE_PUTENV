@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='230'/>
+<doc f='codebrowser/include/event2/event-config.h' l='229'>/* Define to 1 if you have the `putenv&apos; function. */</doc>

@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='1079' type='unsigned char [16]'/>
+<offset>3456</offset>
+<doc f='include/openssl/ssl.h' l='1078'>/* RFC 4507 session ticket keys */</doc>

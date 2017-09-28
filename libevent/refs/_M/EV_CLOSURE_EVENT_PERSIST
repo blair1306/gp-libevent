@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='73'/>
+<doc f='codebrowser/event-internal.h' l='72'>/** A persistent non-signal event. Uses the evcb_callback callback */</doc>
+<use f='codebrowser/event.c' l='1638' u='c'/>
+<use f='codebrowser/event.c' l='2098' u='c'/>
+<use f='codebrowser/event.c' l='2633' u='c'/>

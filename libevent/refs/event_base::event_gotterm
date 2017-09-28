@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='240' type='int'/>
+<offset>1792</offset>
+<doc f='codebrowser/event-internal.h' l='238'>/** Set if we should terminate the loop once we&apos;re done processing
+	 * events. */</doc>
+<use f='codebrowser/event.c' l='1791' u='w' c='event_loopexit_cb'/>
+<use f='codebrowser/event.c' l='1867' u='r' c='event_base_got_exit'/>
+<use f='codebrowser/event.c' l='1912' u='w' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='1919' u='r' c='event_base_loop'/>

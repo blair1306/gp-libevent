@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/rpc.h' l='110'/>
+<doc f='codebrowser/include/event2/rpc.h' l='102'>/**
+   Returns the value for a member.
+
+   @param msg the message from which to get the value
+   @param member the name of the member variable
+   @param pvalue a pointer to the variable to hold the value
+   @return 0 on success, -1 otherwise.
+*/</doc>
+<use f='codebrowser/test/regress_rpc.c' l='343' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='347' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='374' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='378' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='752' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='814' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='845' u='c'/>

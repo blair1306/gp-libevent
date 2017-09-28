@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='474'/>
+<use f='codebrowser/include/event2/util.h' l='83' u='a'/>
+<use f='codebrowser/evbuffer-internal.h' l='54' u='c'/>
+<doc f='codebrowser/include/event2/event-config.h' l='473'>/* The size of &apos;void *&apos;, as computer by sizeof */</doc>

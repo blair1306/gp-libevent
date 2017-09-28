@@ -1,0 +1,10 @@
+<dec f='codebrowser/http-internal.h' l='105' type='struct event_base *'/>
+<offset>2880</offset>
+<use f='codebrowser/http.c' l='1108' u='r' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1108' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1386' u='r' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='2381' u='w' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2446' u='r' c='evhttp_connection_set_base'/>
+<use f='codebrowser/http.c' l='2448' u='w' c='evhttp_connection_set_base'/>
+<use f='codebrowser/http.c' l='1108' u='r' c='evhttp_start_read_'/>
+<use f='codebrowser/http.c' l='4027' u='r' c='evhttp_connection_get_base'/>

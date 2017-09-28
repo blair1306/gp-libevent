@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/http.h' l='742' type='void evhttp_connection_set_timeout_tv(struct evhttp_connection * evcon, const struct timeval * tv)'/>
+<use f='codebrowser/http.c' l='2457' u='c' c='evhttp_connection_set_timeout'/>
+<use f='codebrowser/http.c' l='2462' u='c' c='evhttp_connection_set_timeout'/>
+<def f='codebrowser/http.c' l='2466' ll='2479' type='void evhttp_connection_set_timeout_tv(struct evhttp_connection * evcon, const struct timeval * tv)'/>
+<use f='codebrowser/http.c' l='4261' u='c' c='evhttp_get_request'/>
+<use f='codebrowser/test/regress_http.c' l='2291' u='c' c='http_close_detection_'/>
+<use f='codebrowser/test/regress_http.c' l='3707' u='c' c='http_connection_retry_test_basic'/>

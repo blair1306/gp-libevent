@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='67' type='void *'/>
+<use f='codebrowser/evrpc.c' l='352' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='1120' u='w' c='evrpc_register_object'/>
+<offset>256</offset>

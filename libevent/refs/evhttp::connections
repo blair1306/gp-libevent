@@ -1,0 +1,13 @@
+<dec f='codebrowser/http-internal.h' l='147' type='struct evconq'/>
+<offset>384</offset>
+<doc f='codebrowser/http-internal.h' l='146'>/* All live connections on this host. */</doc>
+<use f='codebrowser/http.c' l='1223' u='a' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='3630' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3630' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3630' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3688' u='a' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='4268' u='a' c='evhttp_get_request'/>
+<use f='codebrowser/http.c' l='4268' u='a' c='evhttp_get_request'/>
+<use f='codebrowser/http.c' l='4268' u='a' c='evhttp_get_request'/>
+<use f='codebrowser/test/regress_http.c' l='1281' u='a' c='http_autofree_connection_test'/>
+<use f='codebrowser/test/regress_http.c' l='2316' u='a' c='http_close_detection_'/>

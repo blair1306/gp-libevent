@@ -1,0 +1,10 @@
+<dec f='codebrowser/bufferevent-internal.h' l='197' type='struct event_callback'/>
+<offset>3328</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='196'>/** Used to implement deferred callbacks */</doc>
+<use f='codebrowser/bufferevent.c' l='215' u='a' c='bufferevent_run_readcb_'/>
+<use f='codebrowser/bufferevent.c' l='215' u='a' c='bufferevent_run_writecb_'/>
+<use f='codebrowser/bufferevent.c' l='215' u='a' c='bufferevent_run_eventcb_'/>
+<use f='codebrowser/bufferevent.c' l='347' u='a' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='353' u='a' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='706' u='a' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent_sock.c' l='670' u='a' c='bufferevent_priority_set'/>

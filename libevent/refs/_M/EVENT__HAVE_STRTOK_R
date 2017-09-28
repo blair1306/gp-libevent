@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event-config.h' l='284'/>
+<doc f='codebrowser/include/event2/event-config.h' l='283'>/* Define to 1 if you have the `strtok_r&apos; function. */</doc>
+<use f='codebrowser/evdns.c' l='3323' u='a'/>

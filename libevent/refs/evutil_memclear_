@@ -1,0 +1,6 @@
+<dec f='codebrowser/util-internal.h' l='520' type='void evutil_memclear_(void * mem, size_t len)'/>
+<def f='codebrowser/evutil.c' l='2453' ll='2457' type='void evutil_memclear_(void * mem, size_t len)'/>
+<use f='codebrowser/arc4random.c' l='203' u='c' c='arc4_seed_sysctl_linux'/>
+<use f='codebrowser/arc4random.c' l='288' u='c' c='arc4_seed_proc_sys_kernel_random_uuid'/>
+<use f='codebrowser/arc4random.c' l='289' u='c' c='arc4_seed_proc_sys_kernel_random_uuid'/>
+<use f='codebrowser/arc4random.c' l='313' u='c' c='arc4_seed_urandom_helper_'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/evbuffer-internal.h' l='135' type='uint32_t'/>
+<use f='codebrowser/buffer.c' l='380' u='w' c='evbuffer_set_flags'/>
+<use f='codebrowser/buffer.c' l='389' u='w' c='evbuffer_clear_flags'/>
+<use f='codebrowser/buffer.c' l='3190' u='r' c='evbuffer_add_file_segment'/>
+<offset>480</offset>

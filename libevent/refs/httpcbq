@@ -1,0 +1,4 @@
+<def f='codebrowser/http-internal.h' l='144' macro='1'/>
+<size>16</size>
+<mbr r='httpcbq::tqh_first' o='0' t='struct evhttp_cb *'/>
+<mbr r='httpcbq::tqh_last' o='64' t='struct evhttp_cb **'/>

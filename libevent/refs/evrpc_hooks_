@@ -1,0 +1,5 @@
+<def f='codebrowser/evrpc-internal.h' l='60' ll='66'/>
+<size>48</size>
+<mbr r='evrpc_hooks_::in_hooks' o='0' t='struct evrpc_hook_list'/>
+<mbr r='evrpc_hooks_::out_hooks' o='128' t='struct evrpc_hook_list'/>
+<mbr r='evrpc_hooks_::pause_requests' o='256' t='struct evrpc_pause_list'/>

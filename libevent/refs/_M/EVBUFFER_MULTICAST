@@ -1,0 +1,5 @@
+<dec f='codebrowser/evbuffer-internal.h' l='202'/>
+<use f='codebrowser/buffer.c' l='235' u='c'/>
+<use f='codebrowser/buffer.c' l='936' u='c'/>
+<use f='codebrowser/buffer.c' l='1027' u='c'/>
+<doc f='codebrowser/evbuffer-internal.h' l='201'>/** a chain that is a referenced copy of another chain */</doc>

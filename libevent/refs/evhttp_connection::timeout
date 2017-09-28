@@ -1,0 +1,20 @@
+<dec f='codebrowser/http-internal.h' l='83' type='struct timeval'/>
+<use f='codebrowser/evrpc.c' l='595' u='a' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='595' u='a' c='evrpc_pool_add_connection'/>
+<offset>1728</offset>
+<doc f='codebrowser/http-internal.h' l='83'>/* timeout for events */</doc>
+<use f='codebrowser/http.c' l='1602' u='a' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1602' u='a' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1607' u='a' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1607' u='a' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='2356' u='a' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2356' u='a' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2471' u='w' c='evhttp_connection_set_timeout_tv'/>
+<use f='codebrowser/http.c' l='2472' u='a' c='evhttp_connection_set_timeout_tv'/>
+<use f='codebrowser/http.c' l='2472' u='a' c='evhttp_connection_set_timeout_tv'/>
+<use f='codebrowser/http.c' l='2476' u='a' c='evhttp_connection_set_timeout_tv'/>
+<use f='codebrowser/http.c' l='2476' u='a' c='evhttp_connection_set_timeout_tv'/>
+<use f='codebrowser/http.c' l='2558' u='a' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2558' u='a' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2562' u='a' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2562' u='a' c='evhttp_connection_connect_'/>

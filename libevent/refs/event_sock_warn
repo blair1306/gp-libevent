@@ -1,0 +1,9 @@
+<dec f='codebrowser/log-internal.h' l='64' type='void event_sock_warn(int sock, const char * fmt)'/>
+<use f='codebrowser/event.c' l='3541' u='c' c='evthread_notify_drain_eventfd'/>
+<use f='codebrowser/http.c' l='2584' u='c' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='3511' u='c' c='evhttp_bind_socket_with_handle'/>
+<use f='codebrowser/http.c' l='4253' u='c' c='evhttp_get_request'/>
+<use f='codebrowser/http.c' l='4329' u='c' c='bind_socket_ai'/>
+<use f='codebrowser/listener.c' l='444' u='c' c='listener_read_cb'/>
+<def f='codebrowser/log.c' l='134' ll='143' type='void event_sock_warn(int sock, const char * fmt)'/>
+<use f='codebrowser/test/regress_util.c' l='624' u='c' c='test_evutil_log'/>

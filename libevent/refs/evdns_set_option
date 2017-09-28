@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='268' type='int evdns_set_option(const char * option, const char * val, int flags)'/>
+<def f='codebrowser/evdns.c' l='3520' ll='3526' type='int evdns_set_option(const char * option, const char * val, int flags)'/>

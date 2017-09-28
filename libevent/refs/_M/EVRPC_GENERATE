@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/rpc.h' l='237'/>
+<doc f='codebrowser/include/event2/rpc.h' l='227'>/** Generates the code for receiving and sending an RPC message
+ *
+ * EVRPC_GENERATE is used to create the code corresponding to sending
+ * and receiving a particular RPC message
+ *
+ * @param rpcname the name of the RPC
+ * @param reqstruct the name of the RPC request structure
+ * @param replystruct the name of the RPC reply structure
+ * @see EVRPC_HEADER()
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='101' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='102' u='c'/>

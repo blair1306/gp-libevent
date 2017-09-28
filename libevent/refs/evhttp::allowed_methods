@@ -1,0 +1,5 @@
+<dec f='codebrowser/http-internal.h' l='165' type='uint16_t'/>
+<offset>1216</offset>
+<use f='codebrowser/http.c' l='3424' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3426' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3850' u='w' c='evhttp_set_allowed_methods'/>

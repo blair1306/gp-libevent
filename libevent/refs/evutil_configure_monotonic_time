@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='364' type='int evutil_configure_monotonic_time(struct evutil_monotonic_timer * timer, int flags)'/>
+<def f='codebrowser/evutil_time.c' l='233' ll='238' type='int evutil_configure_monotonic_time(struct evutil_monotonic_timer * timer, int flags)'/>
+<doc f='codebrowser/evutil_time.c' l='230'>/*
+   Set up a struct evutil_monotonic_timer for initial use
+ */</doc>

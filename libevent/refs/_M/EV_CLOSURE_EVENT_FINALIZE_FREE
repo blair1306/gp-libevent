@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='82'/>
+<doc f='codebrowser/event-internal.h' l='80'>/** A finalizing event that should get freed after. Uses the evcb_evfinalize
+ * callback. */</doc>
+<use f='codebrowser/event.c' l='756' u='c'/>
+<use f='codebrowser/event.c' l='759' u='c'/>
+<use f='codebrowser/event.c' l='1659' u='c'/>
+<use f='codebrowser/event.c' l='1669' u='c'/>
+<use f='codebrowser/event.c' l='2203' u='c'/>

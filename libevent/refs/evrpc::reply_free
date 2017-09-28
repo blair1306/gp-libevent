@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='80' type='void (*)(void *)'/>
+<use f='codebrowser/evrpc.c' l='393' u='r' c='evrpc_reqstate_free_'/>
+<use f='codebrowser/evrpc.c' l='1125' u='w' c='evrpc_register_object'/>
+<offset>576</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='79'>/* frees the reply structure */</doc>

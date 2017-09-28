@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/util.h' l='436' type='int evutil_make_socket_closeonexec(int sock)'/>
+<use f='codebrowser/epoll.c' l='158' u='c' c='epoll_init'/>
+<def f='codebrowser/evutil.c' l='402' ll='419' type='int evutil_make_socket_closeonexec(int fd)'/>

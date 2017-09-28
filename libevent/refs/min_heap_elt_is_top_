@@ -1,0 +1,3 @@
+<dec f='codebrowser/minheap-internal.h' l='48' type='int min_heap_elt_is_top_(const struct event * e)'/>
+<def f='codebrowser/minheap-internal.h' l='91' ll='94' type='int min_heap_elt_is_top_(const struct event * e)'/>
+<use f='codebrowser/event.c' l='2704' u='c' c='event_add_nolock_'/>

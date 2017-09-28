@@ -1,0 +1,11 @@
+<dec f='codebrowser/event-internal.h' l='360' type='struct event_configq'/>
+<offset>0</offset>
+<use f='codebrowser/event.c' l='500' u='a' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='1101' u='a' c='event_config_new'/>
+<use f='codebrowser/event.c' l='1101' u='a' c='event_config_new'/>
+<use f='codebrowser/event.c' l='1101' u='a' c='event_config_new'/>
+<use f='codebrowser/event.c' l='1122' u='a' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1123' u='a' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1150' u='a' c='event_config_avoid_method'/>
+<use f='codebrowser/event.c' l='1150' u='a' c='event_config_avoid_method'/>
+<use f='codebrowser/event.c' l='1150' u='a' c='event_config_avoid_method'/>

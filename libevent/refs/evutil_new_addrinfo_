@@ -1,0 +1,15 @@
+<dec f='codebrowser/util-internal.h' l='401' type='struct addrinfo * evutil_new_addrinfo_(struct sockaddr * sa, socklen_t socklen, const struct addrinfo * hints)'/>
+<use f='codebrowser/evdns.c' l='4526' u='c' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4606' u='c' c='evdns_getaddrinfo_fromhosts'/>
+<def f='codebrowser/evutil.c' l='800' ll='840' type='struct addrinfo * evutil_new_addrinfo_(struct sockaddr * sa, socklen_t socklen, const struct addrinfo * hints)'/>
+<use f='codebrowser/evutil.c' l='813' u='c' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='817' u='c' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='1004' u='c' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1021' u='c' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1043' u='c' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1059' u='c' c='evutil_getaddrinfo_common_'/>
+<doc f='codebrowser/evutil.c' l='795'>/* Helper: construct a new addrinfo containing the socket address in
+ * &apos;sa&apos;, which must be a sockaddr_in or a sockaddr_in6.  Take the
+ * socktype and protocol info from hints.  If they weren&apos;t set, then
+ * allocate both a TCP and a UDP addrinfo.
+ */</doc>

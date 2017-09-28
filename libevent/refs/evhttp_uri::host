@@ -1,0 +1,19 @@
+<dec f='codebrowser/http.c' l='4410' type='char *'/>
+<use f='codebrowser/http.c' l='4558' u='w' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4559' u='r' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4604' u='w' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4605' u='r' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4609' u='r' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4610' u='r' c='parse_authority'/>
+<use f='codebrowser/http.c' l='4834' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4834' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4863' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4867' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4867' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4920' u='r' c='evhttp_uri_get_host'/>
+<use f='codebrowser/http.c' l='4986' u='r' c='evhttp_uri_set_host'/>
+<use f='codebrowser/http.c' l='4986' u='r' c='evhttp_uri_set_host'/>
+<use f='codebrowser/http.c' l='4986' u='w' c='evhttp_uri_set_host'/>
+<use f='codebrowser/http.c' l='4986' u='w' c='evhttp_uri_set_host'/>
+<offset>192</offset>
+<doc f='codebrowser/http.c' l='4410'>/* hostname, IP address, or NULL */</doc>

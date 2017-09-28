@@ -1,0 +1,21 @@
+<dec f='codebrowser/http-internal.h' l='139' type='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:139:2)'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='3361' u='m' c='evhttp_find_alias'/>
+<use f='codebrowser/http.c' l='3393' u='m' c='evhttp_find_vhost'/>
+<use f='codebrowser/http.c' l='3700' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3700' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3700' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3700' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3700' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3700' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3700' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3730' u='m' c='evhttp_add_virtual_host'/>
+<use f='codebrowser/http.c' l='3730' u='m' c='evhttp_add_virtual_host'/>
+<use f='codebrowser/http.c' l='3730' u='m' c='evhttp_add_virtual_host'/>
+<use f='codebrowser/http.c' l='3741' u='m' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3741' u='m' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3741' u='m' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3741' u='m' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3741' u='m' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3741' u='m' c='evhttp_remove_virtual_host'/>
+<use f='codebrowser/http.c' l='3741' u='m' c='evhttp_remove_virtual_host'/>

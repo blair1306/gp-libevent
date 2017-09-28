@@ -1,0 +1,6 @@
+<dec f='include/openssl/ssl.h' l='1031' type='unsigned long'/>
+<offset>2240</offset>
+<doc f='include/openssl/ssl.h' l='1026'>/*
+     * Default values to use in SSL structures follow (these are copied by
+     * SSL_new)
+     */</doc>

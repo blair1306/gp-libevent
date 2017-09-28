@@ -1,0 +1,8 @@
+<dec f='codebrowser/time-internal.h' l='94' type='int evutil_gettime_monotonic_(struct evutil_monotonic_timer * mt, struct timeval * tv)'/>
+<use f='codebrowser/event.c' l='383' u='c' c='gettime'/>
+<use f='codebrowser/event.c' l='1054' u='c' c='event_gettime_monotonic'/>
+<use f='codebrowser/evutil_time.c' l='247' u='c' c='evutil_gettime_monotonic'/>
+<def f='codebrowser/evutil_time.c' l='302' ll='321' type='int evutil_gettime_monotonic_(struct evutil_monotonic_timer * base, struct timeval * tp)'/>
+<use f='codebrowser/test/regress_util.c' l='1320' u='c' c='test_evutil_monotonic_res'/>
+<use f='codebrowser/test/regress_util.c' l='1358' u='c' c='test_evutil_monotonic_prc'/>
+<use f='codebrowser/test/regress_util.c' l='1361' u='c' c='test_evutil_monotonic_prc'/>

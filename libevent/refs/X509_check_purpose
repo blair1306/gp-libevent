@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='698' type='int X509_check_purpose(X509 * x, int id, int ca)'/>

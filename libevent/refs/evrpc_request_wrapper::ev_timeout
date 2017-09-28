@@ -1,0 +1,6 @@
+<dec f='codebrowser/evrpc-internal.h' l='183' type='struct event'/>
+<use f='codebrowser/evrpc.c' l='741' u='a' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='804' u='a' c='evrpc_make_request'/>
+<use f='codebrowser/evrpc.c' l='866' u='a' c='evrpc_reply_done'/>
+<offset>384</offset>
+<doc f='codebrowser/evrpc-internal.h' l='182'>/* event for implementing request timeouts */</doc>

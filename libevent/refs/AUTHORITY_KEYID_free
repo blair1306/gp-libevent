@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='521' macro='1' type='void AUTHORITY_KEYID_free(AUTHORITY_KEYID * a)'/>

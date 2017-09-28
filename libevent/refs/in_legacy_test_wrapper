@@ -1,0 +1,49 @@
+<dec f='codebrowser/test/regress.h' l='68' type='int'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simpleread'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simpleread'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simplewrite'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simplewrite'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simpleread_multiple'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simpleread_multiple'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_multiple'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_multiple'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_persistent'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_persistent'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_combined'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_combined'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simpletimeout'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simpletimeout'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_del_wait'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simplesignal_impl'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simplestsignal'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_simplesignal'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_multiplesignal'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_multiplesignal'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_immediatesignal'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_signal_dealloc'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_signal_pipeloss'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_signal_assert'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_signal_restore'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_signal_while_processing'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_signal_while_processing'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_loopexit'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_loopexit'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_loopexit_multiple'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_loopexit_multiple'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_loopbreak'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_loopbreak'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_multiple_events_for_same_fd'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_multiple_events_for_same_fd'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_want_only_once'/>
+<use f='codebrowser/test/regress.c' l='290' u='r' c='test_want_only_once'/>
+<def f='codebrowser/test/regress_main.c' l='112' type='int'/>
+<use f='codebrowser/test/regress_main.c' l='331' u='w' c='run_legacy_test_fn'/>
+<use f='codebrowser/test/regress_main.c' l='333' u='w' c='run_legacy_test_fn'/>
+<doc f='codebrowser/test/regress_main.c' l='109'>/* This is set to true if we&apos;re inside a legacy test wrapper.  It lets the
+   setup() and cleanup() functions in regress.c know they&apos;re not needed.
+ */</doc>

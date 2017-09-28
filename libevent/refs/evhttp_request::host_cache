@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='89' type='char *'/>
+<offset>512</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='88'>/* cache of the hostname for evhttp_request_get_host */</doc>
+<use f='codebrowser/http.c' l='3988' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3989' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4083' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4084' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4101' u='w' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4102' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4106' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4107' u='r' c='evhttp_request_get_host'/>
+<use f='codebrowser/http.c' l='4108' u='r' c='evhttp_request_get_host'/>

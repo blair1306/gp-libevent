@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='24'/>
+<use f='codebrowser/sample/http-server.c' l='341' u='c'/>
+<use f='codebrowser/test/bench_http.c' l='100' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='431' u='c'/>
+<use f='codebrowser/test/test-ratelim.c' l='558' u='c'/>
+<use f='codebrowser/test/test-weof.c' l='95' u='c'/>

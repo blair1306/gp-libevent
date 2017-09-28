@@ -1,0 +1,8 @@
+<dec f='codebrowser/http-internal.h' l='84' type='int'/>
+<offset>1856</offset>
+<doc f='codebrowser/http-internal.h' l='84'>/* retry count */</doc>
+<use f='codebrowser/http.c' l='1383' u='r' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='1388' u='r' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='1401' u='w' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='1592' u='w' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='2357' u='w' c='evhttp_connection_base_bufferevent_new'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/rpc.h' l='157'/>
+<doc f='codebrowser/include/event2/rpc.h' l='153'>/** The type of a specific RPC Message
+ *
+ * @param rpcname the name of the RPC message
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='108' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='128' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='131' u='c'/>

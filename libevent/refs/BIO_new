@@ -1,0 +1,3 @@
+<dec f='include/openssl/bio.h' l='659' type='BIO * BIO_new(BIO_METHOD * type)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='259' u='c' c='BIO_new_bufferevent'/>
+<use f='codebrowser/test/regress_ssl.c' l='654' u='c' c='BIO_new_rwcount'/>

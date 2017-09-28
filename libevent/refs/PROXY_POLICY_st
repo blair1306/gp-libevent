@@ -1,0 +1,5 @@
+<def f='include/openssl/x509v3.h' l='343' ll='346'/>
+<size>16</size>
+<doc f='include/openssl/x509v3.h' l='342'>/* Proxy certificate structures, see RFC 3820 */</doc>
+<mbr r='PROXY_POLICY_st::policyLanguage' o='0' t='ASN1_OBJECT *'/>
+<mbr r='PROXY_POLICY_st::policy' o='64' t='ASN1_OCTET_STRING *'/>

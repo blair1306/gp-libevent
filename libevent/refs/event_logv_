@@ -1,0 +1,11 @@
+<dec f='codebrowser/log-internal.h' l='75' type='void event_logv_(int severity, const char * errstr, const char * fmt, struct __va_list_tag * ap)'/>
+<use f='codebrowser/evdns.c' l='458' u='c' c='evdns_log_'/>
+<use f='codebrowser/log.c' l='107' u='c' c='event_err'/>
+<use f='codebrowser/log.c' l='118' u='c' c='event_warn'/>
+<use f='codebrowser/log.c' l='129' u='c' c='event_sock_err'/>
+<use f='codebrowser/log.c' l='141' u='c' c='event_sock_warn'/>
+<use f='codebrowser/log.c' l='151' u='c' c='event_errx'/>
+<use f='codebrowser/log.c' l='162' u='c' c='event_warnx'/>
+<use f='codebrowser/log.c' l='172' u='c' c='event_msgx'/>
+<use f='codebrowser/log.c' l='182' u='c' c='event_debugx_'/>
+<def f='codebrowser/log.c' l='186' ll='208' type='void event_logv_(int severity, const char * errstr, const char * fmt, struct __va_list_tag * ap)'/>

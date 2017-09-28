@@ -1,0 +1,11 @@
+<dec f='codebrowser/test/regress.h' l='67' type='struct event_base *'/>
+<def f='codebrowser/test/regress.c' l='83' type='struct event_base *'/>
+<use f='codebrowser/test/regress.c' l='597' u='r' c='periodic_timeout_cb'/>
+<use f='codebrowser/test/regress.c' l='611' u='r' c='test_persistent_timeout'/>
+<use f='codebrowser/test/regress.c' l='1984' u='r' c='test_loopexit'/>
+<use f='codebrowser/test/regress.c' l='1985' u='r' c='test_loopexit'/>
+<use f='codebrowser/test/regress.c' l='2059' u='r' c='test_loopbreak'/>
+<use f='codebrowser/test/regress.c' l='2060' u='r' c='test_loopbreak'/>
+<use f='codebrowser/test/regress.c' l='2170' u='r' c='test_priorities_impl'/>
+<use f='codebrowser/test/regress_main.c' l='314' u='w' c='legacy_test_setup'/>
+<use f='codebrowser/test/regress_main.c' l='351' u='w' c='legacy_test_cleanup'/>

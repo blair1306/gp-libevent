@@ -1,0 +1,10 @@
+<dec f='codebrowser/bufferevent-internal.h' l='91' type='unsigned int'/>
+<offset>705</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='89'>/** True iff we don&apos;t want to write from any member of the group.until
+	 * the token bucket refills.  */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='207' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='339' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='379' u='w' c='bev_group_suspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='511' u='w' c='bev_group_unsuspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='547' u='r' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='769' u='r' c='bufferevent_add_to_rate_limit_group'/>

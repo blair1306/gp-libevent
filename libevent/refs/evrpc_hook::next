@@ -1,0 +1,14 @@
+<dec f='codebrowser/evrpc-internal.h' l='39' type='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:39:2)'/>
+<use f='codebrowser/evrpc.c' l='144' u='m' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='144' u='m' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='144' u='m' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='153' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='155' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='155' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='155' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='155' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='155' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='155' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='155' u='m' c='evrpc_remove_hook_internal'/>
+<use f='codebrowser/evrpc.c' l='192' u='m' c='evrpc_process_hooks'/>
+<offset>0</offset>

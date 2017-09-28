@@ -1,0 +1,4 @@
+<dec f='codebrowser/http-internal.h' l='116' type='void (*)(struct evhttp_request *, void *)'/>
+<offset>192</offset>
+<use f='codebrowser/http.c' l='3438' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3875' u='w' c='evhttp_set_cb'/>

@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='2163' type='BIO * SSL_get_wbio(const SSL * s)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='551' u='c' c='init_bio_counts'/>
+<use f='codebrowser/bufferevent_openssl.c' l='560' u='c' c='decrement_buckets'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1232' u='c' c='be_openssl_destruct'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1434' u='c' c='bufferevent_openssl_socket_new'/>

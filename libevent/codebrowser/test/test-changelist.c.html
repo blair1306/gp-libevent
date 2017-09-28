@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>test-changelist.c source code [codebrowser/test/test-changelist.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="cpu_usage_timer,main "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/test/test-changelist.c'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>test</a>/<a href='test-changelist.c.html'>test-changelist.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2010-2012 Niels Provos and Nick Mathewson</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="5">5</th><td><i> * modification, are permitted provided that the following conditions</i></td></tr>
+<tr><th id="6">6</th><td><i> * are met:</i></td></tr>
+<tr><th id="7">7</th><td><i> * 1. Redistributions of source code must retain the above copyright</i></td></tr>
+<tr><th id="8">8</th><td><i> *    notice, this list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="9">9</th><td><i> * 2. Redistributions in binary form must reproduce the above copyright</i></td></tr>
+<tr><th id="10">10</th><td><i> *    notice, this list of conditions and the following disclaimer in the</i></td></tr>
+<tr><th id="11">11</th><td><i> *    documentation and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="12">12</th><td><i> * 3. The name of the author may not be used to endorse or promote products</i></td></tr>
+<tr><th id="13">13</th><td><i> *    derived from this software without specific prior written permission.</i></td></tr>
+<tr><th id="14">14</th><td><i> *</i></td></tr>
+<tr><th id="15">15</th><td><i> * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR</i></td></tr>
+<tr><th id="16">16</th><td><i> * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES</i></td></tr>
+<tr><th id="17">17</th><td><i> * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.</i></td></tr>
+<tr><th id="18">18</th><td><i> * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,</i></td></tr>
+<tr><th id="19">19</th><td><i> * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT</i></td></tr>
+<tr><th id="20">20</th><td><i> * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,</i></td></tr>
+<tr><th id="21">21</th><td><i> * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY</i></td></tr>
+<tr><th id="22">22</th><td><i> * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT</i></td></tr>
+<tr><th id="23">23</th><td><i> * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF</i></td></tr>
+<tr><th id="24">24</th><td><i> * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="25">25</th><td><i> */</i></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#include <a href="../include/event2/event-config.h.html">"event2/event-config.h"</a></u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="29">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="30">30</th><td><u>#include &lt;winsock2.h&gt;</u></td></tr>
+<tr><th id="31">31</th><td><u>#include &lt;windows.h&gt;</u></td></tr>
+<tr><th id="32">32</th><td><u>#<span data-ppcond="29">else</span></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../../include/unistd.h.html">&lt;unistd.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="29">endif</span></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../../include/x86_64-linux-gnu/sys/types.h.html">&lt;sys/types.h&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../../include/x86_64-linux-gnu/sys/stat.h.html">&lt;sys/stat.h&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="37">ifdef</span> <a class="macro" href="../include/event2/event-config.h.html#371" data-ref="_M/EVENT__HAVE_SYS_TIME_H">EVENT__HAVE_SYS_TIME_H</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="../../include/x86_64-linux-gnu/sys/time.h.html">&lt;sys/time.h&gt;</a></u></td></tr>
+<tr><th id="39">39</th><td><u>#<span data-ppcond="37">endif</span></u></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><u>#<span data-ppcond="41">ifdef</span> <a class="macro" href="../include/event2/event-config.h.html#359" data-ref="_M/EVENT__HAVE_SYS_SOCKET_H">EVENT__HAVE_SYS_SOCKET_H</a></u></td></tr>
+<tr><th id="42">42</th><td><u>#include <a href="../../include/x86_64-linux-gnu/sys/socket.h.html">&lt;sys/socket.h&gt;</a></u></td></tr>
+<tr><th id="43">43</th><td><u>#<span data-ppcond="41">endif</span></u></td></tr>
+<tr><th id="44">44</th><td><u>#include <a href="../../include/fcntl.h.html">&lt;fcntl.h&gt;</a></u></td></tr>
+<tr><th id="45">45</th><td><u>#include <a href="../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="46">46</th><td><u>#include <a href="../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="47">47</th><td><u>#include <a href="../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="48">48</th><td><u>#include <a href="../../include/errno.h.html">&lt;errno.h&gt;</a></u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><u>#include <a href="../include/event2/event.h.html">"event2/event.h"</a></u></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="../include/event2/util.h.html">"event2/util.h"</a></u></td></tr>
+<tr><th id="52">52</th><td><u>#include <a href="../../include/time.h.html">&lt;time.h&gt;</a></u></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><b>struct</b> <dfn class="type def" id="cpu_usage_timer" title='cpu_usage_timer' data-ref="cpu_usage_timer">cpu_usage_timer</dfn> {</td></tr>
+<tr><th id="55">55</th><td><u>#<span data-ppcond="55">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="56">56</th><td>	HANDLE thread;</td></tr>
+<tr><th id="57">57</th><td>	FILETIME usertimeBegin;</td></tr>
+<tr><th id="58">58</th><td>	FILETIME kerneltimeBegin;</td></tr>
+<tr><th id="59">59</th><td><u>#<span data-ppcond="55">else</span></u></td></tr>
+<tr><th id="60">60</th><td>	<a class="typedef" href="../../include/time.h.html#clock_t" title='clock_t' data-type='__clock_t' data-ref="clock_t">clock_t</a> <dfn class="tu decl" id="cpu_usage_timer::ticksBegin" title='cpu_usage_timer::ticksBegin' data-type='clock_t' data-ref="cpu_usage_timer::ticksBegin">ticksBegin</dfn>;</td></tr>
+<tr><th id="61">61</th><td><u>#<span data-ppcond="55">endif</span></u></td></tr>
+<tr><th id="62">62</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="tu decl" id="cpu_usage_timer::timeBegin" title='cpu_usage_timer::timeBegin' data-type='struct timeval' data-ref="cpu_usage_timer::timeBegin">timeBegin</dfn>;</td></tr>
+<tr><th id="63">63</th><td>};</td></tr>
+<tr><th id="64">64</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="65">65</th><td><dfn class="tu decl def" id="start_cpu_usage_timer" title='start_cpu_usage_timer' data-type='void start_cpu_usage_timer(struct cpu_usage_timer * timer)' data-ref="start_cpu_usage_timer">start_cpu_usage_timer</dfn>(<b>struct</b> <a class="type" href="#cpu_usage_timer" title='cpu_usage_timer' data-ref="cpu_usage_timer">cpu_usage_timer</a> *<dfn class="local col1 decl" id="1timer" title='timer' data-type='struct cpu_usage_timer *' data-ref="1timer">timer</dfn>)</td></tr>
+<tr><th id="66">66</th><td>{</td></tr>
+<tr><th id="67">67</th><td><u>#<span data-ppcond="67">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="68">68</th><td>	<em>int</em> r;</td></tr>
+<tr><th id="69">69</th><td>	FILETIME createtime, exittime;</td></tr>
+<tr><th id="70">70</th><td>	timer-&gt;thread = GetCurrentThread();</td></tr>
+<tr><th id="71">71</th><td>	r = GetThreadTimes(timer-&gt;thread, &amp;createtime, &amp;exittime,</td></tr>
+<tr><th id="72">72</th><td>	    &amp;timer-&gt;usertimeBegin, &amp;timer-&gt;kerneltimeBegin);</td></tr>
+<tr><th id="73">73</th><td>	<b>if</b> (r==<var>0</var>) printf(<q>"GetThreadTimes failed."</q>);</td></tr>
+<tr><th id="74">74</th><td><u>#<span data-ppcond="67">else</span></u></td></tr>
+<tr><th id="75">75</th><td>	<a class="local col1 ref" href="#1timer" title='timer' data-ref="1timer">timer</a>-&gt;<a class="tu ref" href="#cpu_usage_timer::ticksBegin" title='cpu_usage_timer::ticksBegin' data-use='w' data-ref="cpu_usage_timer::ticksBegin">ticksBegin</a> = <a class="ref" href="../../include/time.h.html#clock" title='clock' data-ref="clock">clock</a>();</td></tr>
+<tr><th id="76">76</th><td><u>#<span data-ppcond="67">endif</span></u></td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td>	<a class="macro" href="../include/event2/util.h.html#573" title="gettimeofday((&amp;timer-&gt;timeBegin), (((void*)0)))" data-ref="_M/evutil_gettimeofday">evutil_gettimeofday</a>(&amp;<a class="local col1 ref" href="#1timer" title='timer' data-ref="1timer">timer</a>-&gt;<a class="tu ref" href="#cpu_usage_timer::timeBegin" title='cpu_usage_timer::timeBegin' data-use='a' data-ref="cpu_usage_timer::timeBegin">timeBegin</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="79">79</th><td>}</td></tr>
+<tr><th id="80">80</th><td><u>#<span data-ppcond="80">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="81">81</th><td><em>static</em> ev_int64_t</td></tr>
+<tr><th id="82">82</th><td>filetime_to_100nsec(<em>const</em> FILETIME *ft)</td></tr>
+<tr><th id="83">83</th><td>{</td></tr>
+<tr><th id="84">84</th><td>	<i>/* Number of 100-nanosecond units */</i></td></tr>
+<tr><th id="85">85</th><td>	ev_int64_t n = ft-&gt;dwHighDateTime;</td></tr>
+<tr><th id="86">86</th><td>	n &lt;&lt;= <var>32</var>;</td></tr>
+<tr><th id="87">87</th><td>	n += ft-&gt;dwLowDateTime;</td></tr>
+<tr><th id="88">88</th><td>	<b>return</b> n;</td></tr>
+<tr><th id="89">89</th><td>}</td></tr>
+<tr><th id="90">90</th><td><em>static</em> <em>double</em></td></tr>
+<tr><th id="91">91</th><td>filetime_diff(<em>const</em> FILETIME *ftStart, <em>const</em> FILETIME *ftEnd)</td></tr>
+<tr><th id="92">92</th><td>{</td></tr>
+<tr><th id="93">93</th><td>	ev_int64_t s, e, diff;</td></tr>
+<tr><th id="94">94</th><td>	<em>double</em> r;</td></tr>
+<tr><th id="95">95</th><td>	s = filetime_to_100nsec(ftStart);</td></tr>
+<tr><th id="96">96</th><td>	e = filetime_to_100nsec(ftEnd);</td></tr>
+<tr><th id="97">97</th><td>	diff = e - s;</td></tr>
+<tr><th id="98">98</th><td>	r = (<em>double</em>) diff;</td></tr>
+<tr><th id="99">99</th><td>	<b>return</b> r / <var>1.0e7</var>;</td></tr>
+<tr><th id="100">100</th><td>}</td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="80">endif</span></u></td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="104">104</th><td><dfn class="tu decl def" id="get_cpu_usage" title='get_cpu_usage' data-type='void get_cpu_usage(struct cpu_usage_timer * timer, double * secElapsedOut, double * secUsedOut, double * usageOut)' data-ref="get_cpu_usage">get_cpu_usage</dfn>(<b>struct</b> <a class="type" href="#cpu_usage_timer" title='cpu_usage_timer' data-ref="cpu_usage_timer">cpu_usage_timer</a> *<dfn class="local col2 decl" id="2timer" title='timer' data-type='struct cpu_usage_timer *' data-ref="2timer">timer</dfn>, <em>double</em> *<dfn class="local col3 decl" id="3secElapsedOut" title='secElapsedOut' data-type='double *' data-ref="3secElapsedOut">secElapsedOut</dfn>,</td></tr>
+<tr><th id="105">105</th><td>    <em>double</em> *<dfn class="local col4 decl" id="4secUsedOut" title='secUsedOut' data-type='double *' data-ref="4secUsedOut">secUsedOut</dfn>, <em>double</em> *<dfn class="local col5 decl" id="5usageOut" title='usageOut' data-type='double *' data-ref="5usageOut">usageOut</dfn>)</td></tr>
+<tr><th id="106">106</th><td>{</td></tr>
+<tr><th id="107">107</th><td><u>#<span data-ppcond="107">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="108">108</th><td>	<em>double</em> usertime_seconds, kerneltime_seconds;</td></tr>
+<tr><th id="109">109</th><td>	FILETIME createtime, exittime, usertimeEnd, kerneltimeEnd;</td></tr>
+<tr><th id="110">110</th><td>	<em>int</em> r;</td></tr>
+<tr><th id="111">111</th><td><u>#<span data-ppcond="107">else</span></u></td></tr>
+<tr><th id="112">112</th><td>	<a class="typedef" href="../../include/time.h.html#clock_t" title='clock_t' data-type='__clock_t' data-ref="clock_t">clock_t</a> <dfn class="local col6 decl" id="6ticksEnd" title='ticksEnd' data-type='clock_t' data-ref="6ticksEnd">ticksEnd</dfn>;</td></tr>
+<tr><th id="113">113</th><td><u>#<span data-ppcond="107">endif</span></u></td></tr>
+<tr><th id="114">114</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col7 decl" id="7timeEnd" title='timeEnd' data-type='struct timeval' data-ref="7timeEnd">timeEnd</dfn>, <dfn class="local col8 decl" id="8timeDiff" title='timeDiff' data-type='struct timeval' data-ref="8timeDiff">timeDiff</dfn>;</td></tr>
+<tr><th id="115">115</th><td>	<em>double</em> <dfn class="local col9 decl" id="9secondsPassed" title='secondsPassed' data-type='double' data-ref="9secondsPassed">secondsPassed</dfn>, <dfn class="local col0 decl" id="10secondsUsed" title='secondsUsed' data-type='double' data-ref="10secondsUsed">secondsUsed</dfn>;</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td><u>#<span data-ppcond="117">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="118">118</th><td>	r = GetThreadTimes(timer-&gt;thread, &amp;createtime, &amp;exittime,</td></tr>
+<tr><th id="119">119</th><td>	    &amp;usertimeEnd, &amp;kerneltimeEnd);</td></tr>
+<tr><th id="120">120</th><td>	<b>if</b> (r==<var>0</var>) printf(<q>"GetThreadTimes failed."</q>);</td></tr>
+<tr><th id="121">121</th><td>	usertime_seconds = filetime_diff(&amp;timer-&gt;usertimeBegin, &amp;usertimeEnd);</td></tr>
+<tr><th id="122">122</th><td>	kerneltime_seconds = filetime_diff(&amp;timer-&gt;kerneltimeBegin, &amp;kerneltimeEnd);</td></tr>
+<tr><th id="123">123</th><td>	secondsUsed = kerneltime_seconds + usertime_seconds;</td></tr>
+<tr><th id="124">124</th><td><u>#<span data-ppcond="117">else</span></u></td></tr>
+<tr><th id="125">125</th><td>	<a class="local col6 ref" href="#6ticksEnd" title='ticksEnd' data-ref="6ticksEnd">ticksEnd</a> = <a class="ref" href="../../include/time.h.html#clock" title='clock' data-ref="clock">clock</a>();</td></tr>
+<tr><th id="126">126</th><td>	<a class="local col0 ref" href="#10secondsUsed" title='secondsUsed' data-ref="10secondsUsed">secondsUsed</a> = (<a class="local col6 ref" href="#6ticksEnd" title='ticksEnd' data-ref="6ticksEnd">ticksEnd</a> - <a class="local col2 ref" href="#2timer" title='timer' data-ref="2timer">timer</a>-&gt;<a class="tu ref" href="#cpu_usage_timer::ticksBegin" title='cpu_usage_timer::ticksBegin' data-use='r' data-ref="cpu_usage_timer::ticksBegin">ticksBegin</a>) / (<em>double</em>)<a class="macro" href="../../include/x86_64-linux-gnu/bits/time.h.html#48" title="((clock_t) 1000000)" data-ref="_M/CLOCKS_PER_SEC">CLOCKS_PER_SEC</a>;</td></tr>
+<tr><th id="127">127</th><td><u>#<span data-ppcond="117">endif</span></u></td></tr>
+<tr><th id="128">128</th><td>	<a class="macro" href="../include/event2/util.h.html#573" title="gettimeofday((&amp;timeEnd), (((void*)0)))" data-ref="_M/evutil_gettimeofday">evutil_gettimeofday</a>(&amp;<a class="local col7 ref" href="#7timeEnd" title='timeEnd' data-ref="7timeEnd">timeEnd</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="129">129</th><td>	<a class="macro" href="../include/event2/util.h.html#528" title="do { (&amp;timeDiff)-&gt;tv_sec = (&amp;timeEnd)-&gt;tv_sec - (&amp;timer-&gt;timeBegin)-&gt;tv_sec; (&amp;timeDiff)-&gt;tv_usec = (&amp;timeEnd)-&gt;tv_usec - (&amp;timer-&gt;timeBegin)-&gt;tv_usec; if ((&amp;timeDiff)-&gt;tv_usec &lt; 0) { (&amp;timeDiff)-&gt;tv_sec--; (&amp;timeDiff)-&gt;tv_usec += 1000000; } } while (0)" data-ref="_M/evutil_timersub">evutil_timersub</a>(&amp;<a class="local col7 ref" href="#7timeEnd" title='timeEnd' data-ref="7timeEnd">timeEnd</a>, &amp;<a class="local col2 ref" href="#2timer" title='timer' data-ref="2timer">timer</a>-&gt;<a class="tu ref" href="#cpu_usage_timer::timeBegin" title='cpu_usage_timer::timeBegin' data-use='a' data-ref="cpu_usage_timer::timeBegin">timeBegin</a>, &amp;<a class="local col8 ref" href="#8timeDiff" title='timeDiff' data-ref="8timeDiff">timeDiff</a>);</td></tr>
+<tr><th id="130">130</th><td>	<a class="local col9 ref" href="#9secondsPassed" title='secondsPassed' data-ref="9secondsPassed">secondsPassed</a> = <a class="local col8 ref" href="#8timeDiff" title='timeDiff' data-ref="8timeDiff">timeDiff</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a> + (<a class="local col8 ref" href="#8timeDiff" title='timeDiff' data-ref="8timeDiff">timeDiff</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a> / <var>1.0e6</var>);</td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td>	*<a class="local col3 ref" href="#3secElapsedOut" title='secElapsedOut' data-ref="3secElapsedOut">secElapsedOut</a> = <a class="local col9 ref" href="#9secondsPassed" title='secondsPassed' data-ref="9secondsPassed">secondsPassed</a>;</td></tr>
+<tr><th id="133">133</th><td>	*<a class="local col4 ref" href="#4secUsedOut" title='secUsedOut' data-ref="4secUsedOut">secUsedOut</a> = <a class="local col0 ref" href="#10secondsUsed" title='secondsUsed' data-ref="10secondsUsed">secondsUsed</a>;</td></tr>
+<tr><th id="134">134</th><td>	*<a class="local col5 ref" href="#5usageOut" title='usageOut' data-ref="5usageOut">usageOut</a> = <a class="local col0 ref" href="#10secondsUsed" title='secondsUsed' data-ref="10secondsUsed">secondsUsed</a> / <a class="local col9 ref" href="#9secondsPassed" title='secondsPassed' data-ref="9secondsPassed">secondsPassed</a>;</td></tr>
+<tr><th id="135">135</th><td>}</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="138">138</th><td><dfn class="tu decl def" id="write_cb" title='write_cb' data-type='void write_cb(int fd, short event, void * arg)' data-ref="write_cb">write_cb</dfn>(<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col1 decl" id="11fd" title='fd' data-type='int' data-ref="11fd">fd</dfn>, <em>short</em> <dfn class="local col2 decl" id="12event" title='event' data-type='short' data-ref="12event">event</dfn>, <em>void</em> *<dfn class="local col3 decl" id="13arg" title='arg' data-type='void *' data-ref="13arg">arg</dfn>)</td></tr>
+<tr><th id="139">139</th><td>{</td></tr>
+<tr><th id="140">140</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"write callback. should only see this once\n"</q>);</td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td>	<i>/* got what we want remove the event */</i></td></tr>
+<tr><th id="143">143</th><td>	<a class="ref" href="../include/event2/event.h.html#event_del" title='event_del' data-ref="event_del">event_del</a>(*(<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a>**)<a class="local col3 ref" href="#13arg" title='arg' data-ref="13arg">arg</a>);</td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td>	<i>/* opps changed my mind add it back again */</i></td></tr>
+<tr><th id="146">146</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(*(<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a>**)<a class="local col3 ref" href="#13arg" title='arg' data-ref="13arg">arg</a>,<span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td>	<i>/* not a good day for decisiveness, I really didn't want it after all */</i></td></tr>
+<tr><th id="149">149</th><td>	<a class="ref" href="../include/event2/event.h.html#event_del" title='event_del' data-ref="event_del">event_del</a>(*(<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a>**)<a class="local col3 ref" href="#13arg" title='arg' data-ref="13arg">arg</a>);</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td>}</td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td><em>static</em> <em>void</em></td></tr>
+<tr><th id="154">154</th><td><dfn class="tu decl def" id="timeout_cb" title='timeout_cb' data-type='void timeout_cb(int fd, short event, void * arg)' data-ref="timeout_cb">timeout_cb</dfn>(<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col4 decl" id="14fd" title='fd' data-type='int' data-ref="14fd">fd</dfn>, <em>short</em> <dfn class="local col5 decl" id="15event" title='event' data-type='short' data-ref="15event">event</dfn>, <em>void</em> *<dfn class="local col6 decl" id="16arg" title='arg' data-type='void *' data-ref="16arg">arg</dfn>)</td></tr>
+<tr><th id="155">155</th><td>{</td></tr>
+<tr><th id="156">156</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"timeout fired, time to end test\n"</q>);</td></tr>
+<tr><th id="157">157</th><td>	<a class="ref" href="../include/event2/event.h.html#event_del" title='event_del' data-ref="event_del">event_del</a>(*(<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a>**)<a class="local col6 ref" href="#16arg" title='arg' data-ref="16arg">arg</a>);</td></tr>
+<tr><th id="158">158</th><td>	<b>return</b>;</td></tr>
+<tr><th id="159">159</th><td>}</td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><em>int</em></td></tr>
+<tr><th id="162">162</th><td><dfn class="decl def" id="main" title='main' data-ref="main">main</dfn>(<em>int</em> <dfn class="local col7 decl" id="17argc" title='argc' data-type='int' data-ref="17argc">argc</dfn>, <em>char</em> **<dfn class="local col8 decl" id="18argv" title='argv' data-type='char **' data-ref="18argv">argv</dfn>)</td></tr>
+<tr><th id="163">163</th><td>{</td></tr>
+<tr><th id="164">164</th><td>	<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a>* <dfn class="local col9 decl" id="19ev" title='ev' data-type='struct event *' data-ref="19ev">ev</dfn>;</td></tr>
+<tr><th id="165">165</th><td>	<b>struct</b> <a class="type" href="../include/event2/event.h.html#event" title='event' data-ref="event">event</a>* <dfn class="local col0 decl" id="20timeout" title='timeout' data-type='struct event *' data-ref="20timeout">timeout</dfn>;</td></tr>
+<tr><th id="166">166</th><td>	<b>struct</b> <a class="type" href="../include/event2/event.h.html#event_base" title='event_base' data-ref="event_base">event_base</a>* <dfn class="local col1 decl" id="21base" title='base' data-type='struct event_base *' data-ref="21base">base</dfn>;</td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td>	<a class="macro" href="../include/event2/util.h.html#313" title="int" data-ref="_M/evutil_socket_t">evutil_socket_t</a> <dfn class="local col2 decl" id="22pair" title='pair' data-type='int [2]' data-ref="22pair">pair</dfn>[<var>2</var>];</td></tr>
+<tr><th id="169">169</th><td>	<b>struct</b> <a class="type" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col3 decl" id="23tv" title='tv' data-type='struct timeval' data-ref="23tv">tv</dfn>;</td></tr>
+<tr><th id="170">170</th><td>	<b>struct</b> <a class="type" href="#cpu_usage_timer" title='cpu_usage_timer' data-ref="cpu_usage_timer">cpu_usage_timer</a> <dfn class="local col4 decl" id="24timer" title='timer' data-type='struct cpu_usage_timer' data-ref="24timer">timer</dfn>;</td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td>	<em>double</em> <dfn class="local col5 decl" id="25usage" title='usage' data-type='double' data-ref="25usage">usage</dfn>, <dfn class="local col6 decl" id="26secPassed" title='secPassed' data-type='double' data-ref="26secPassed">secPassed</dfn>, <dfn class="local col7 decl" id="27secUsed" title='secUsed' data-type='double' data-ref="27secUsed">secUsed</dfn>;</td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><u>#<span data-ppcond="174">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="175">175</th><td>	WORD wVersionRequested;</td></tr>
+<tr><th id="176">176</th><td>	WSADATA wsaData;</td></tr>
+<tr><th id="177">177</th><td></td></tr>
+<tr><th id="178">178</th><td>	wVersionRequested = MAKEWORD(<var>2</var>, <var>2</var>);</td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td>	(<em>void</em>) WSAStartup(wVersionRequested, &amp;wsaData);</td></tr>
+<tr><th id="181">181</th><td><u>#<span data-ppcond="174">endif</span></u></td></tr>
+<tr><th id="182">182</th><td>	<b>if</b> (<a class="ref" href="../include/event2/util.h.html#evutil_socketpair" title='evutil_socketpair' data-ref="evutil_socketpair">evutil_socketpair</a>(<a class="macro" href="../../include/x86_64-linux-gnu/bits/socket.h.html#90" title="1" data-ref="_M/AF_UNIX">AF_UNIX</a>, <a class="macro" href="../../include/x86_64-linux-gnu/bits/socket_type.h.html#28" title="SOCK_STREAM" data-ref="_M/SOCK_STREAM">SOCK_STREAM</a>, <var>0</var>, <a class="local col2 ref" href="#22pair" title='pair' data-ref="22pair">pair</a>) == -<var>1</var>)</td></tr>
+<tr><th id="183">183</th><td>		<b>return</b> (<var>1</var>);</td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td>	<i>/* Initalize the event library */</i></td></tr>
+<tr><th id="186">186</th><td>	<b>if</b> (!(<a class="local col1 ref" href="#21base" title='base' data-ref="21base">base</a> = <a class="ref" href="../include/event2/event.h.html#event_base_new" title='event_base_new' data-ref="event_base_new">event_base_new</a>()))</td></tr>
+<tr><th id="187">187</th><td>		<b>return</b> (<var>1</var>);</td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td>	<i>/* Initalize a timeout to terminate the test */</i></td></tr>
+<tr><th id="190">190</th><td>	<a class="local col0 ref" href="#20timeout" title='timeout' data-ref="20timeout">timeout</a> = <a class="macro" href="../include/event2/event.h.html#970" title="event_new((base), -1, 0, (timeout_cb), (&amp;timeout))" data-ref="_M/evtimer_new">evtimer_new</a>(<a class="local col1 ref" href="#21base" title='base' data-ref="21base">base</a>,<a class="tu ref" href="#timeout_cb" title='timeout_cb' data-use='r' data-ref="timeout_cb">timeout_cb</a>,&amp;<a class="local col0 ref" href="#20timeout" title='timeout' data-ref="20timeout">timeout</a>);</td></tr>
+<tr><th id="191">191</th><td>	<i>/* and watch for writability on one end of the pipe */</i></td></tr>
+<tr><th id="192">192</th><td>	<a class="local col9 ref" href="#19ev" title='ev' data-ref="19ev">ev</a> = <a class="ref" href="../include/event2/event.h.html#event_new" title='event_new' data-ref="event_new">event_new</a>(<a class="local col1 ref" href="#21base" title='base' data-ref="21base">base</a>,<a class="local col2 ref" href="#22pair" title='pair' data-ref="22pair">pair</a>[<var>1</var>],<a class="macro" href="../include/event2/event.h.html#928" title="0x04" data-ref="_M/EV_WRITE">EV_WRITE</a> | <a class="macro" href="../include/event2/event.h.html#937" title="0x10" data-ref="_M/EV_PERSIST">EV_PERSIST</a>, <a class="tu ref" href="#write_cb" title='write_cb' data-use='r' data-ref="write_cb">write_cb</a>, &amp;<a class="local col9 ref" href="#19ev" title='ev' data-ref="19ev">ev</a>);</td></tr>
+<tr><th id="193">193</th><td></td></tr>
+<tr><th id="194">194</th><td>	<a class="local col3 ref" href="#23tv" title='tv' data-ref="23tv">tv</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a>  = <var>1</var>;</td></tr>
+<tr><th id="195">195</th><td>	<a class="local col3 ref" href="#23tv" title='tv' data-ref="23tv">tv</a>.<a class="ref" href="../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a> = <var>500</var>*<var>1000</var>;</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td>	<a class="macro" href="../include/event2/event.h.html#971" title="event_add((timeout), (&amp;tv))" data-ref="_M/evtimer_add">evtimer_add</a>(<a class="local col0 ref" href="#20timeout" title='timeout' data-ref="20timeout">timeout</a>, &amp;<a class="local col3 ref" href="#23tv" title='tv' data-ref="23tv">tv</a>);</td></tr>
+<tr><th id="198">198</th><td></td></tr>
+<tr><th id="199">199</th><td>	<a class="ref" href="../include/event2/event.h.html#event_add" title='event_add' data-ref="event_add">event_add</a>(<a class="local col9 ref" href="#19ev" title='ev' data-ref="19ev">ev</a>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="200">200</th><td></td></tr>
+<tr><th id="201">201</th><td>	<a class="tu ref" href="#start_cpu_usage_timer" title='start_cpu_usage_timer' data-use='c' data-ref="start_cpu_usage_timer">start_cpu_usage_timer</a>(&amp;<a class="local col4 ref" href="#24timer" title='timer' data-ref="24timer">timer</a>);</td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_dispatch" title='event_base_dispatch' data-ref="event_base_dispatch">event_base_dispatch</a>(<a class="local col1 ref" href="#21base" title='base' data-ref="21base">base</a>);</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td>	<a class="ref" href="../include/event2/event.h.html#event_free" title='event_free' data-ref="event_free">event_free</a>(<a class="local col9 ref" href="#19ev" title='ev' data-ref="19ev">ev</a>);</td></tr>
+<tr><th id="206">206</th><td>	<a class="ref" href="../include/event2/event.h.html#event_free" title='event_free' data-ref="event_free">event_free</a>(<a class="local col0 ref" href="#20timeout" title='timeout' data-ref="20timeout">timeout</a>);</td></tr>
+<tr><th id="207">207</th><td>	<a class="ref" href="../include/event2/event.h.html#event_base_free" title='event_base_free' data-ref="event_base_free">event_base_free</a>(<a class="local col1 ref" href="#21base" title='base' data-ref="21base">base</a>);</td></tr>
+<tr><th id="208">208</th><td></td></tr>
+<tr><th id="209">209</th><td>	<a class="tu ref" href="#get_cpu_usage" title='get_cpu_usage' data-use='c' data-ref="get_cpu_usage">get_cpu_usage</a>(&amp;<a class="local col4 ref" href="#24timer" title='timer' data-ref="24timer">timer</a>, &amp;<a class="local col6 ref" href="#26secPassed" title='secPassed' data-ref="26secPassed">secPassed</a>, &amp;<a class="local col7 ref" href="#27secUsed" title='secUsed' data-ref="27secUsed">secUsed</a>, &amp;<a class="local col5 ref" href="#25usage" title='usage' data-ref="25usage">usage</a>);</td></tr>
+<tr><th id="210">210</th><td></td></tr>
+<tr><th id="211">211</th><td>	<i>/* attempt to calculate our cpu usage over the test should be</i></td></tr>
+<tr><th id="212">212</th><td><i>	   virtually nil */</i></td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td>	<a class="ref" href="../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>(<q>"usec used=%d, usec passed=%d, cpu usage=%.2f%%\n"</q>,</td></tr>
+<tr><th id="215">215</th><td>	    (<em>int</em>)(<a class="local col7 ref" href="#27secUsed" title='secUsed' data-ref="27secUsed">secUsed</a>*<var>1e6</var>),</td></tr>
+<tr><th id="216">216</th><td>	    (<em>int</em>)(<a class="local col6 ref" href="#26secPassed" title='secPassed' data-ref="26secPassed">secPassed</a>*<var>1e6</var>),</td></tr>
+<tr><th id="217">217</th><td>	    <a class="local col5 ref" href="#25usage" title='usage' data-ref="25usage">usage</a>*<var>100</var>);</td></tr>
+<tr><th id="218">218</th><td></td></tr>
+<tr><th id="219">219</th><td>	<b>if</b> (<a class="local col5 ref" href="#25usage" title='usage' data-ref="25usage">usage</a> &gt; <var>50.0</var>) <i>/* way too high */</i></td></tr>
+<tr><th id="220">220</th><td>	  <b>return</b> <var>1</var>;</td></tr>
+<tr><th id="221">221</th><td></td></tr>
+<tr><th id="222">222</th><td>	<b>return</b> <var>0</var>;</td></tr>
+<tr><th id="223">223</th><td>}</td></tr>
+<tr><th id="224">224</th><td></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

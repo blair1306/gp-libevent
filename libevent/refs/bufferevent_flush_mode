@@ -1,0 +1,5 @@
+<def f='codebrowser/include/event2/bufferevent.h' l='595' ll='604'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='591'>/**
+   Flags that can be passed into filters to let them know how to
+   deal with the incoming data.
+*/</doc>

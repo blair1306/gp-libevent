@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/keyvalq_struct.h' l='41' type='struct evkeyval **'/>
+<offset>64</offset>
+<use f='codebrowser/http.c' l='1872' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='1872' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1872' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1872' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1898' macro='1' u='w'/>
+<use f='codebrowser/http.c' l='1898' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1898' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1898' macro='1' u='r'/>
+<use f='codebrowser/http.c' l='1962' macro='1' u='w'/>

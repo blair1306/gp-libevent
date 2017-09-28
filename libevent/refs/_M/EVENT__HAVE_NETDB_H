@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='88'/>
+<use f='codebrowser/include/event2/util.h' l='60' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='87'>/* Define to 1 if you have the &lt;netdb.h&gt; header file. */</doc>
+<use f='codebrowser/http.c' l='67' u='a'/>

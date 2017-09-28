@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/event.h' l='503' type='1'/>
+<doc f='codebrowser/include/event2/event.h' l='502'>/** Require an event method that allows edge-triggered events with EV_ET. */</doc>
+<use f='codebrowser/epoll.c' l='107' u='r'/>
+<use f='codebrowser/epoll.c' l='107' u='r'/>
+<use f='codebrowser/epoll.c' l='125' u='r'/>
+<use f='codebrowser/epoll.c' l='125' u='r'/>
+<use f='codebrowser/test/regress.c' l='2574' u='r' c='test_base_features'/>
+<use f='codebrowser/test/regress.c' l='2578' u='r' c='test_base_features'/>
+<use f='codebrowser/test/regress.c' l='2579' u='r' c='test_base_features'/>
+<use f='codebrowser/test/regress.c' l='2582' u='r' c='test_base_features'/>

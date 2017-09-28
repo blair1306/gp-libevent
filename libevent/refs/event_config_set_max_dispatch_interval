@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event.h' l='661' type='int event_config_set_max_dispatch_interval(struct event_config * cfg, const struct timeval * max_interval, int max_callbacks, int min_priority)'/>
+<def f='codebrowser/event.c' l='1174' ll='1189' type='int event_config_set_max_dispatch_interval(struct event_config * cfg, const struct timeval * max_interval, int max_callbacks, int min_priority)'/>
+<use f='codebrowser/test/regress_thread.c' l='464' u='c' c='thread_deferred_cb_skew'/>

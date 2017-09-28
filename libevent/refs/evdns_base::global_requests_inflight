@@ -1,0 +1,11 @@
+<dec f='codebrowser/evdns.c' l='323' type='int'/>
+<use f='codebrowser/evdns.c' l='661' u='w' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='745' u='r' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='762' u='w' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='2455' u='w' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2753' u='r' c='request_new'/>
+<use f='codebrowser/evdns.c' l='2834' u='w' c='request_submit'/>
+<use f='codebrowser/evdns.c' l='3933' u='w' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4052' u='w' c='evdns_base_free_and_unlock'/>
+<offset>352</offset>
+<doc f='codebrowser/evdns.c' l='322'>/* and are actually going out across the network */</doc>

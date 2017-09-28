@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='569' macro='1' type='void POLICYQUALINFO_free(POLICYQUALINFO * a)'/>

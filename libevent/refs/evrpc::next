@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='60' type='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/rpc_struct.h:60:2)'/>
+<use f='codebrowser/evrpc.c' l='237' u='m' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='237' u='m' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='237' u='m' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='257' u='m' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='m' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='m' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='m' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='m' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='m' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='m' c='evrpc_unregister_rpc'/>
+<use f='codebrowser/evrpc.c' l='265' u='m' c='evrpc_unregister_rpc'/>
+<offset>0</offset>

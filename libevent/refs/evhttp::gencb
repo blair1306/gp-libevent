@@ -1,0 +1,7 @@
+<dec f='codebrowser/http-internal.h' l='169' type='void (*)(struct evhttp_request *, void *)'/>
+<offset>1280</offset>
+<doc f='codebrowser/http-internal.h' l='167'>/* Fallback callback if all the other callbacks for this connection
+	   don&apos;t match. */</doc>
+<use f='codebrowser/http.c' l='3443' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3444' u='r' c='evhttp_handle_request'/>
+<use f='codebrowser/http.c' l='3906' u='w' c='evhttp_set_gencb'/>

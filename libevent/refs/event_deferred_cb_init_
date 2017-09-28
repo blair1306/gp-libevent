@@ -1,0 +1,10 @@
+<dec f='codebrowser/defer-internal.h' l='50' type='void event_deferred_cb_init_(struct event_callback * , uint8_t , deferred_cb_fn , void * )'/>
+<use f='codebrowser/buffer.c' l='415' u='c' c='evbuffer_defer_callbacks'/>
+<use f='codebrowser/bufferevent.c' l='346' u='c' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='352' u='c' c='bufferevent_init_common_'/>
+<use f='codebrowser/evdns.c' l='856' u='c' c='reply_schedule_callback'/>
+<def f='codebrowser/event.c' l='3048' ll='3056' type='void event_deferred_cb_init_(struct event_callback * cb, uint8_t priority, deferred_cb_fn fn, void * arg)'/>
+<use f='codebrowser/http.c' l='2386' u='c' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/test/regress_finalize.c' l='86' u='c' c='test_fin_cb_invoked'/>
+<use f='codebrowser/test/regress_finalize.c' l='103' u='c' c='test_fin_cb_invoked'/>
+<use f='codebrowser/test/regress_thread.c' l='426' u='c' c='load_deferred_queue'/>

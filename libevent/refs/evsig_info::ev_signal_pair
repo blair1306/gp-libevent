@@ -1,0 +1,19 @@
+<dec f='codebrowser/evsignal-internal.h' l='43' type='int [2]'/>
+<offset>1024</offset>
+<use f='codebrowser/event.c' l='604' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='605' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='976' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='977' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='978' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='979' u='r' c='event_reinit'/>
+<use f='codebrowser/signal.c' l='125' u='r' c='evsig_set_base_'/>
+<use f='codebrowser/signal.c' l='181' u='r' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='198' u='r' c='evsig_init_'/>
+<use f='codebrowser/signal.c' l='298' u='r' c='evsig_add'/>
+<use f='codebrowser/signal.c' l='436' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='437' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='438' u='w' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='440' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='441' u='r' c='evsig_dealloc_'/>
+<use f='codebrowser/signal.c' l='442' u='w' c='evsig_dealloc_'/>
+<use f='codebrowser/test/regress.c' l='1169' u='r' c='test_signal_pipeloss'/>

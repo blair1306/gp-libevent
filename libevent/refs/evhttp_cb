@@ -1,0 +1,7 @@
+<def f='codebrowser/http-internal.h' l='111' ll='118'/>
+<size>40</size>
+<doc f='codebrowser/http-internal.h' l='110'>/* A callback for an http server */</doc>
+<mbr r='evhttp_cb::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:112:2)'/>
+<mbr r='evhttp_cb::what' o='128' t='char *'/>
+<mbr r='evhttp_cb::cb' o='192' t='void (*)(struct evhttp_request *, void *)'/>
+<mbr r='evhttp_cb::cbarg' o='256' t='void *'/>

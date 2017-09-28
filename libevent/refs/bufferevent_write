@@ -1,0 +1,34 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='386' type='int bufferevent_write(struct bufferevent * bufev, const void * data, size_t size)'/>
+<def f='codebrowser/bufferevent.c' l='429' ll='436' type='int bufferevent_write(struct bufferevent * bufev, const void * data, size_t size)'/>
+<use f='codebrowser/sample/hello-world.c' l='105' u='c' c='listener_cb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='174' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='446' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='526' u='c' c='bufferevent_output_filter'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='578' u='c' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='638' u='c' c='listen_cb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1000' u='c' c='test_bufferevent_timeouts'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1318' u='c' c='test_bufferevent_filter_data_stuck'/>
+<use f='codebrowser/test/regress_http.c' l='424' u='c' c='http_complete_write'/>
+<use f='codebrowser/test/regress_http.c' l='487' u='c' c='http_basic_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='514' u='c' c='http_basic_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='537' u='c' c='http_basic_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='668' u='c' c='http_bad_request_test'/>
+<use f='codebrowser/test/regress_http.c' l='702' u='c' c='http_bad_request_test'/>
+<use f='codebrowser/test/regress_http.c' l='787' u='c' c='http_delete_test'/>
+<use f='codebrowser/test/regress_http.c' l='870' u='c' c='http_on_complete_test'/>
+<use f='codebrowser/test/regress_http.c' l='935' u='c' c='http_allowed_methods_test'/>
+<use f='codebrowser/test/regress_http.c' l='953' u='c' c='http_allowed_methods_test'/>
+<use f='codebrowser/test/regress_http.c' l='971' u='c' c='http_allowed_methods_test'/>
+<use f='codebrowser/test/regress_http.c' l='1759' u='c' c='http_virtual_host_test'/>
+<use f='codebrowser/test/regress_http.c' l='2205' u='c' c='http_failure_test'/>
+<use f='codebrowser/test/regress_http.c' l='2979' u='c' c='http_base_test'/>
+<use f='codebrowser/test/regress_http.c' l='3064' u='c' c='http_incomplete_test_'/>
+<use f='codebrowser/test/regress_http.c' l='3282' u='c' c='http_chunk_out_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3878' u='c' c='http_multi_line_header_test'/>
+<use f='codebrowser/test/regress_http.c' l='4284' u='c' c='http_terminate_chunked_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4433' u='c' c='http_write_during_read'/>
+<use f='codebrowser/test/regress_http.c' l='4463' u='c' c='http_write_during_read_test_impl'/>
+<use f='codebrowser/test/regress_zlib.c' l='323' u='c' c='test_bufferevent_zlib'/>
+<use f='codebrowser/test/regress_zlib.c' l='324' u='c' c='test_bufferevent_zlib'/>
+<use f='codebrowser/test/test-fdleak.c' l='87' u='c' c='server_read_cb'/>
+<use f='codebrowser/test/test-fdleak.c' l='194' u='c' c='client_event_cb'/>

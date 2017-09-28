@@ -1,0 +1,9 @@
+<dec f='codebrowser/test/regress_testutils.h' l='51' type='void regress_dns_server_cb(struct evdns_server_request * req, void * data)'/>
+<doc f='codebrowser/test/regress_testutils.h' l='50'>/* used to look up pre-canned responses in a search table */</doc>
+<use f='codebrowser/test/regress_dns.c' l='830' u='r' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='833' u='r' c='dns_reissue_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='909' u='r' c='dns_inflight_test_impl'/>
+<use f='codebrowser/test/regress_dns.c' l='2037' u='r' c='dns_client_fail_requests_test'/>
+<use f='codebrowser/test/regress_dns.c' l='2082' u='r' c='dns_client_fail_requests_getaddrinfo_test'/>
+<def f='codebrowser/test/regress_testutils.c' l='149' ll='214' type='void regress_dns_server_cb(struct evdns_server_request * req, void * data)'/>
+<use f='codebrowser/test/regress_testutils.c' l='221' u='r' c='regress_dnsserver'/>

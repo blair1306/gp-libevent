@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='855' type='int (*)(SSL *, void *)'/>
+<offset>128</offset>
+<doc f='include/openssl/ssl.h' l='854'>/* set SRP N/g param callback for verification */</doc>

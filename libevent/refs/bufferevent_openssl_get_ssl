@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/bufferevent_ssl.h' l='118' type='struct ssl_st * bufferevent_openssl_get_ssl(struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent_openssl.c' l='1329' ll='1336' type='struct ssl_st * bufferevent_openssl_get_ssl(struct bufferevent * bufev)'/>
+<use f='codebrowser/test/regress_ssl.c' l='282' u='c' c='respond_to_number'/>
+<use f='codebrowser/test/regress_ssl.c' l='314' u='c' c='eventcb'/>

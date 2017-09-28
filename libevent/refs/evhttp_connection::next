@@ -1,0 +1,31 @@
+<dec f='codebrowser/http-internal.h' l='57' type='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:57:2)'/>
+<use f='codebrowser/evrpc.c' l='556' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='556' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='556' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='556' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='556' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='556' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='556' u='m' c='evrpc_pool_free'/>
+<use f='codebrowser/evrpc.c' l='583' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='583' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='583' u='m' c='evrpc_pool_add_connection'/>
+<use f='codebrowser/evrpc.c' l='615' u='m' c='evrpc_pool_remove_connection'/>
+<use f='codebrowser/evrpc.c' l='615' u='m' c='evrpc_pool_remove_connection'/>
+<use f='codebrowser/evrpc.c' l='615' u='m' c='evrpc_pool_remove_connection'/>
+<use f='codebrowser/evrpc.c' l='615' u='m' c='evrpc_pool_remove_connection'/>
+<use f='codebrowser/evrpc.c' l='615' u='m' c='evrpc_pool_remove_connection'/>
+<use f='codebrowser/evrpc.c' l='615' u='m' c='evrpc_pool_remove_connection'/>
+<use f='codebrowser/evrpc.c' l='615' u='m' c='evrpc_pool_remove_connection'/>
+<use f='codebrowser/evrpc.c' l='622' u='m' c='evrpc_pool_set_timeout'/>
+<use f='codebrowser/evrpc.c' l='640' u='m' c='evrpc_pool_find_connection'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='1223' u='m' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1223' u='m' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1223' u='m' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1223' u='m' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1223' u='m' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1223' u='m' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1223' u='m' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='4268' u='m' c='evhttp_get_request'/>
+<use f='codebrowser/http.c' l='4268' u='m' c='evhttp_get_request'/>
+<use f='codebrowser/http.c' l='4268' u='m' c='evhttp_get_request'/>

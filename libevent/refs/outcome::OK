@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/tinytest.c' l='76' type='1'/>
+<use f='codebrowser/test/tinytest.c' l='104' u='r' c='testcase_run_bare_'/>
+<use f='codebrowser/test/tinytest.c' l='215' u='r' c='testcase_run_forked_'/>
+<use f='codebrowser/test/tinytest.c' l='255' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='270' u='r' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='471' u='r' c='tinytest_set_test_skipped_'/>

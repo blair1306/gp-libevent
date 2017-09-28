@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='329'/>
+<doc f='codebrowser/include/event2/event-config.h' l='328'>/* Define to 1 if you have the &lt;sys/epoll.h&gt; header file. */</doc>

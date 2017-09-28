@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509v3.h' l='733'/>
+<doc f='include/openssl/x509v3.h' l='732'>/* Constraint verifier subdomain patterns to match a single labels. */</doc>

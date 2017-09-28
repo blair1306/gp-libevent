@@ -1,0 +1,11 @@
+<dec f='codebrowser/http-internal.h' l='180' type='void evhttp_connection_reset_(struct evhttp_connection * )'/>
+<doc f='codebrowser/http-internal.h' l='179'>/* resets the connection; can be reused for more requests */</doc>
+<use f='codebrowser/http.c' l='768' u='c' c='evhttp_connection_fail_'/>
+<use f='codebrowser/http.c' l='823' u='c' c='evhttp_connection_done'/>
+<use f='codebrowser/http.c' l='1157' u='c' c='evhttp_read_cb'/>
+<def f='codebrowser/http.c' l='1306' ll='1350' type='void evhttp_connection_reset_(struct evhttp_connection * evcon)'/>
+<use f='codebrowser/http.c' l='1382' u='c' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='1505' u='c' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2533' u='c' c='evhttp_connection_connect_'/>
+<doc f='codebrowser/http.c' l='1304'>/* Reset our connection state: disables reading/writing, closes our fd (if
+* any), clears out buffers, and puts us in state DISCONNECTED. */</doc>

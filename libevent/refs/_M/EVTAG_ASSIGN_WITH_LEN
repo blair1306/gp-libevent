@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/rpc.h' l='100'/>
+<doc f='codebrowser/include/event2/rpc.h' l='92'>/**
+   Assigns a value to the member in the message.
+
+   @param msg the message to which to assign a value
+   @param member the name of the member variable
+   @param value the value to assign
+   @param len the length of the value
+*/</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/dns.h' l='160'/>
+<use f='codebrowser/evdns.c' l='873' u='c'/>
+<use f='codebrowser/evdns.c' l='898' u='c'/>
+<use f='codebrowser/evdns.c' l='4000' u='c'/>
+<use f='codebrowser/evdns.c' l='4381' u='c'/>
+<doc f='codebrowser/include/event2/dns.h' l='158'>/** The name server refuses to reform the specified operation for policy
+ * reasons */</doc>
+<use f='codebrowser/test/regress_dns.c' l='1751' u='c'/>

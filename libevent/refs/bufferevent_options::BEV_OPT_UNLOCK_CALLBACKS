@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='173' type='8'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='169'>/** If set, callbacks are executed without locks being held on the
+	* bufferevent.  This option currently requires that
+	* BEV_OPT_DEFER_CALLBACKS also be set; a future version of Libevent
+	* might remove the requirement.*/</doc>
+<use f='codebrowser/bufferevent.c' l='340' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='341' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='345' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='729' u='r' c='test_bufferevent_connect'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/evrpc-internal.h' l='101' type='void *'/>
+<use f='codebrowser/evrpc.c' l='770' u='w' c='evrpc_pause_request'/>
+<use f='codebrowser/evrpc.c' l='785' u='r' c='evrpc_resume_request'/>
+<use f='codebrowser/evrpc.c' l='792' u='r' c='evrpc_resume_request'/>
+<offset>128</offset>

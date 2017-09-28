@@ -1,0 +1,6 @@
+<dec f='codebrowser/event-internal.h' l='119' type='enum event_method_feature'/>
+<offset>416</offset>
+<doc f='codebrowser/event-internal.h' l='117'>/** Bit-array of supported event_method_features that this backend can
+	 * provide. */</doc>
+<use f='codebrowser/event.c' l='527' u='r' c='event_base_get_features'/>
+<use f='codebrowser/event.c' l='641' u='r' c='event_base_new_with_config'/>

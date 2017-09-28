@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='612' type='X509_EXTENSION * X509V3_EXT_nconf_nid(CONF * conf, X509V3_CTX * ctx, int ext_nid, char * value)'/>

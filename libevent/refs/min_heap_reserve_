@@ -1,0 +1,4 @@
+<dec f='codebrowser/minheap-internal.h' l='52' type='int min_heap_reserve_(min_heap_t * s, unsigned int n)'/>
+<use f='codebrowser/minheap-internal.h' l='73' u='c' c='min_heap_push_'/>
+<def f='codebrowser/minheap-internal.h' l='133' ll='147' type='int min_heap_reserve_(min_heap_t * s, unsigned int n)'/>
+<use f='codebrowser/event.c' l='2582' u='c' c='event_add_nolock_'/>

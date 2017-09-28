@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/regress_bufferevent.c' l='215' type='1'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='254' u='r' c='trace_lock_free'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='257' u='r' c='trace_lock_free'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='264' u='r' c='trace_lock_lock'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='275' u='r' c='trace_lock_unlock'/>

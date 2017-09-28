@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http.h' l='375' type='void evhttp_set_timeout_tv(struct evhttp * http, const struct timeval * tv)'/>
+<use f='codebrowser/http.c' l='3790' u='c' c='evhttp_set_timeout'/>
+<use f='codebrowser/http.c' l='3795' u='c' c='evhttp_set_timeout'/>
+<def f='codebrowser/http.c' l='3799' ll='3807' type='void evhttp_set_timeout_tv(struct evhttp * http, const struct timeval * tv)'/>
+<use f='codebrowser/test/regress_http.c' l='2286' u='c' c='http_close_detection_'/>

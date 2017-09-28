@@ -1,0 +1,13 @@
+<dec f='codebrowser/evbuffer-internal.h' l='151' type='struct evbuffer_cb_queue'/>
+<use f='codebrowser/buffer.c' l='369' u='a' c='evbuffer_new'/>
+<use f='codebrowser/buffer.c' l='479' u='a' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='494' u='a' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='515' u='a' c='evbuffer_invoke_callbacks_'/>
+<use f='codebrowser/buffer.c' l='553' u='a' c='evbuffer_remove_all_callbacks'/>
+<use f='codebrowser/buffer.c' l='3301' u='a' c='evbuffer_setcb'/>
+<use f='codebrowser/buffer.c' l='3323' u='a' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3323' u='a' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3323' u='a' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3323' u='a' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3345' u='a' c='evbuffer_remove_cb'/>
+<offset>960</offset>

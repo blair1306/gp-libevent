@@ -1,0 +1,15 @@
+<dec f='codebrowser/event-internal.h' l='305' type='unsigned long'/>
+<offset>3392</offset>
+<doc f='codebrowser/event-internal.h' l='304'>/** The thread currently running the event_loop for this base */</doc>
+<use f='codebrowser/event.c' l='1824' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1843' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1909' u='w' c='event_base_loop'/>
+<use f='codebrowser/event.c' l='2151' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2594' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2713' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2827' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2840' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2907' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2980' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2994' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3806' macro='1' u='r'/>

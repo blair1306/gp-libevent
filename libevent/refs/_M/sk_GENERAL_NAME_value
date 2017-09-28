@@ -1,0 +1,2 @@
+<dec f='include/openssl/safestack.h' l='878'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='126' u='c'/>

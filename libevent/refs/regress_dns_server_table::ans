@@ -1,0 +1,8 @@
+<dec f='codebrowser/test/regress_testutils.h' l='35' type='const char *'/>
+<offset>128</offset>
+<use f='codebrowser/test/regress_testutils.c' l='173' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='177' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='195' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='196' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='202' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='203' u='r' c='regress_dns_server_cb'/>

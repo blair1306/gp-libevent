@@ -1,0 +1,18 @@
+<def f='include/openssl/ssl.h' l='849' ll='864'/>
+<size>128</size>
+<mbr r='srp_ctx_st::SRP_cb_arg' o='0' t='void *'/>
+<mbr r='srp_ctx_st::TLS_ext_srp_username_callback' o='64' t='int (*)(SSL *, int *, void *)'/>
+<mbr r='srp_ctx_st::SRP_verify_param_callback' o='128' t='int (*)(SSL *, void *)'/>
+<mbr r='srp_ctx_st::SRP_give_srp_client_pwd_callback' o='192' t='char *(*)(SSL *, void *)'/>
+<mbr r='srp_ctx_st::login' o='256' t='char *'/>
+<mbr r='srp_ctx_st::N' o='320' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::g' o='384' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::s' o='448' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::B' o='512' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::A' o='576' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::a' o='640' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::b' o='704' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::v' o='768' t='BIGNUM *'/>
+<mbr r='srp_ctx_st::info' o='832' t='char *'/>
+<mbr r='srp_ctx_st::strength' o='896' t='int'/>
+<mbr r='srp_ctx_st::srp_Mask' o='960' t='unsigned long'/>

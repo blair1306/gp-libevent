@@ -1,0 +1,43 @@
+<dec f='codebrowser/evbuffer-internal.h' l='84' type='struct evbuffer_chain *'/>
+<use f='codebrowser/buffer.c' l='316' u='w' c='evbuffer_chain_insert'/>
+<use f='codebrowser/buffer.c' l='323' u='w' c='evbuffer_chain_insert'/>
+<use f='codebrowser/buffer.c' l='735' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='735' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='735' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='735' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='738' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='738' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='738' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='738' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='740' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='791' u='r' c='HAS_PINNED_R'/>
+<use f='codebrowser/buffer.c' l='791' u='r' c='HAS_PINNED_R'/>
+<use f='codebrowser/buffer.c' l='799' u='w' c='ZERO_CHAIN'/>
+<use f='codebrowser/buffer.c' l='826' u='r' c='PRESERVE_PINNED'/>
+<use f='codebrowser/buffer.c' l='841' u='w' c='PRESERVE_PINNED'/>
+<use f='codebrowser/buffer.c' l='845' u='w' c='PRESERVE_PINNED'/>
+<use f='codebrowser/buffer.c' l='864' u='w' c='RESTORE_PINNED'/>
+<use f='codebrowser/buffer.c' l='879' u='w' c='COPY_CHAIN'/>
+<use f='codebrowser/buffer.c' l='879' u='r' c='COPY_CHAIN'/>
+<use f='codebrowser/buffer.c' l='898' u='w' c='APPEND_CHAIN'/>
+<use f='codebrowser/buffer.c' l='898' u='r' c='APPEND_CHAIN'/>
+<use f='codebrowser/buffer.c' l='947' u='r' c='PREPEND_CHAIN'/>
+<use f='codebrowser/buffer.c' l='956' u='r' c='PREPEND_CHAIN'/>
+<use f='codebrowser/buffer.c' l='1311' u='w' c='evbuffer_remove_buffer'/>
+<use f='codebrowser/buffer.c' l='1435' u='w' c='evbuffer_pullup'/>
+<use f='codebrowser/buffer.c' l='1741' u='r' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='2018' u='r' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='2019' u='w' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='2042' u='r' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='2099' u='r' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='2100' u='w' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='2132' u='w' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='2139' u='w' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='2143' u='w' c='evbuffer_expand_fast_'/>
+<offset>64</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='83'>/** The last chain in this buffer&apos;s linked list of chains. */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='76' u='r' c='evbuffer_validate_'/>
+<use f='codebrowser/test/regress_buffer.c' l='91' u='r' c='evbuffer_validate_'/>
+<use f='codebrowser/test/regress_buffer.c' l='657' u='r' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='679' u='r' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='687' u='r' c='test_evbuffer_expand'/>

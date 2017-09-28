@@ -1,0 +1,38 @@
+<dec f='codebrowser/test/regress_ssl.c' l='218' type='2'/>
+<use f='codebrowser/test/regress_ssl.c' l='333' u='r' c='eventcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='343' u='r' c='eventcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='353' u='r' c='eventcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='434' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='447' u='r' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='744'/>
+<use f='codebrowser/test/regress_ssl.c' l='744'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='753' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='753' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='759' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='759' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='797' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='797' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='744'/>
+<use f='codebrowser/test/regress_ssl.c' l='744'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='747' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='753' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='753' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='759' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='759' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='766' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='776' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='784' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='797' u='r'/>
+<use f='codebrowser/test/regress_ssl.c' l='797' u='r'/>

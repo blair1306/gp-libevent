@@ -1,0 +1,3 @@
+<dec f='include/openssl/x509v3.h' l='204' type='ASN1_OBJECT *'/>
+<offset>0</offset>
+<doc f='include/openssl/x509v3.h' l='204'>/* registeredID */</doc>

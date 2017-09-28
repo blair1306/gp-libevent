@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='603' type='2'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='602'>/** encountered EOF on read or done sending data */</doc>
+<use f='codebrowser/bufferevent_filter.c' l='454' u='r' c='be_filter_read_nolock_'/>
+<use f='codebrowser/bufferevent_filter.c' l='493' u='r' c='bufferevent_filtered_inbuf_cb'/>
+<use f='codebrowser/bufferevent_pair.c' l='327' u='r' c='be_pair_flush'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='186' u='r' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='200' u='r' c='test_bufferevent_flush_finished'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='204' u='r' c='test_bufferevent_pair_flush_finished'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1217' u='r' c='test_bufferevent_pair_flush'/>
+<use f='codebrowser/test/regress_zlib.c' l='115' c='getstate'/>
+<use f='codebrowser/test/regress_zlib.c' l='327' u='r' c='test_bufferevent_zlib'/>

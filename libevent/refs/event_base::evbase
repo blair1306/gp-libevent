@@ -1,0 +1,22 @@
+<dec f='codebrowser/event-internal.h' l='213' type='void *'/>
+<offset>64</offset>
+<doc f='codebrowser/event-internal.h' l='212'>/** Pointer to backend-specific data. */</doc>
+<use f='codebrowser/epoll.c' l='359' u='r' c='epoll_apply_changes'/>
+<use f='codebrowser/epoll.c' l='392' u='r' c='epoll_nochangelist_add'/>
+<use f='codebrowser/epoll.c' l='410' u='r' c='epoll_nochangelist_del'/>
+<use f='codebrowser/epoll.c' l='416' u='r' c='epoll_dispatch'/>
+<use f='codebrowser/epoll.c' l='524' u='r' c='epoll_dealloc'/>
+<use f='codebrowser/event.c' l='615' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='635' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='653' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='656' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='1009' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1010' u='r' c='event_reinit'/>
+<use f='codebrowser/poll.c' l='129' u='r' c='poll_dispatch'/>
+<use f='codebrowser/poll.c' l='219' u='r' c='poll_add'/>
+<use f='codebrowser/poll.c' l='280' u='r' c='poll_del'/>
+<use f='codebrowser/poll.c' l='329' u='r' c='poll_dealloc'/>
+<use f='codebrowser/select.c' l='143' u='r' c='select_dispatch'/>
+<use f='codebrowser/select.c' l='254' u='r' c='select_add'/>
+<use f='codebrowser/select.c' l='301' u='r' c='select_del'/>
+<use f='codebrowser/select.c' l='343' u='r' c='select_dealloc'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/evsignal-internal.h' l='59' type='int evsig_init_(struct event_base * )'/>
+<use f='codebrowser/epoll.c' l='220' u='c' c='epoll_init'/>
+<use f='codebrowser/event.c' l='1028' u='c' c='event_reinit'/>
+<use f='codebrowser/poll.c' l='95' u='c' c='poll_init'/>
+<use f='codebrowser/select.c' l='122' u='c' c='select_init'/>
+<def f='codebrowser/signal.c' l='173' ll='207' type='int evsig_init_(struct event_base * base)'/>

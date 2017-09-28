@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress.h' l='134' type='EVP_PKEY * ssl_getkey()'/>
+<use f='codebrowser/test/regress_http.c' l='123' u='c' c='https_bev'/>
+<def f='codebrowser/test/regress_ssl.c' l='102' ll='119' type='EVP_PKEY * ssl_getkey()'/>
+<use f='codebrowser/test/regress_ssl.c' l='129' u='c' c='ssl_getcert'/>
+<use f='codebrowser/test/regress_ssl.c' l='402' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='530' u='c' c='acceptcb'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='680' type='int X509V3_add1_i2d(struct stack_st_X509_EXTENSION ** x, int nid, void * value, int crit, unsigned long flags)'/>

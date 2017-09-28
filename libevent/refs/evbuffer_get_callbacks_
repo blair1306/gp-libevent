@@ -1,0 +1,4 @@
+<dec f='codebrowser/evbuffer-internal.h' l='343' type='int evbuffer_get_callbacks_(struct evbuffer * buffer, struct event_callback ** cbs, int max_cbs)'/>
+<def f='codebrowser/buffer.c' l='3430' ll='3447' type='int evbuffer_get_callbacks_(struct evbuffer * buffer, struct event_callback ** cbs, int max_cbs)'/>
+<use f='codebrowser/bufferevent.c' l='713' u='c' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='714' u='c' c='bufferevent_decref_and_unlock_'/>

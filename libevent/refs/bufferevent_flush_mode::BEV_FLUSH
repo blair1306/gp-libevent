@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='600' type='1'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='599'>/** want to checkpoint all data sent. */</doc>
+<use f='codebrowser/test/regress_bufferevent.c' l='199' u='r' c='test_bufferevent_flush_flush'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='203' u='r' c='test_bufferevent_pair_flush_flush'/>
+<use f='codebrowser/test/regress_zlib.c' l='117' c='getstate'/>

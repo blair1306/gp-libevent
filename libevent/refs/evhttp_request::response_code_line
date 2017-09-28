@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='104' type='char *'/>
+<offset>960</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='104'>/* Readable response */</doc>
+<use f='codebrowser/http.c' l='526' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='1673' u='r' c='evhttp_parse_response_line'/>
+<use f='codebrowser/http.c' l='1674' u='r' c='evhttp_parse_response_line'/>
+<use f='codebrowser/http.c' l='1675' u='w' c='evhttp_parse_response_line'/>
+<use f='codebrowser/http.c' l='2998' u='r' c='evhttp_response_code_'/>
+<use f='codebrowser/http.c' l='2999' u='r' c='evhttp_response_code_'/>
+<use f='codebrowser/http.c' l='3002' u='w' c='evhttp_response_code_'/>
+<use f='codebrowser/http.c' l='3003' u='r' c='evhttp_response_code_'/>
+<use f='codebrowser/http.c' l='3986' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3987' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4130' u='r' c='evhttp_request_get_response_code_line'/>

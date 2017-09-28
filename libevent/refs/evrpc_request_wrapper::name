@@ -1,0 +1,7 @@
+<dec f='codebrowser/evrpc-internal.h' l='186' type='char *'/>
+<use f='codebrowser/evrpc.c' l='532' u='r' c='evrpc_request_wrapper_free'/>
+<use f='codebrowser/evrpc.c' l='730' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='839' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='840' u='r' c='evrpc_make_request_ctx'/>
+<offset>1408</offset>
+<doc f='codebrowser/evrpc-internal.h' l='185'>/* the name of the rpc */</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='370' type='struct bufferevent * bufferevent_get_underlying(struct bufferevent * bufev)'/>
+<use f='codebrowser/bufferevent.c' l='734' u='c' c='bufferevent_finalize_cb_'/>
+<use f='codebrowser/bufferevent.c' l='819' u='c' c='bufferevent_enable_locking_'/>
+<def f='codebrowser/bufferevent.c' l='906' ll='917' type='struct bufferevent * bufferevent_get_underlying(struct bufferevent * bev)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='141' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='148' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='570' u='c' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='571' u='c' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_ssl.c' l='450' u='c' c='regress_bufferevent_openssl'/>

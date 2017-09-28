@@ -1,0 +1,32 @@
+<dec f='codebrowser/include/event2/event.h' l='829' type='int event_base_loop(struct event_base * , int )'/>
+<use f='codebrowser/event.c' l='1775' u='c' c='event_base_dispatch'/>
+<use f='codebrowser/event.c' l='1877' u='c' c='event_loop'/>
+<def f='codebrowser/event.c' l='1880' ll='1981' type='int event_base_loop(struct event_base * base, int flags)'/>
+<use f='codebrowser/test/regress.c' l='449' u='c' c='test_simpleclose'/>
+<use f='codebrowser/test/regress.c' l='1214' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1220' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1225' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1227' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1228' u='c' c='test_signal_switchbase'/>
+<use f='codebrowser/test/regress.c' l='1512' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1644' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1733' u='c' c='bad_reentrant_run_loop_cb'/>
+<use f='codebrowser/test/regress.c' l='1750' u='c' c='test_bad_reentrant'/>
+<use f='codebrowser/test/regress.c' l='1802' u='c' c='test_active_later'/>
+<use f='codebrowser/test/regress.c' l='1953' u='c' c='test_event_base_new'/>
+<use f='codebrowser/test/regress.c' l='2878' u='c' c='test_event_closed_fd_poll'/>
+<use f='codebrowser/test/regress.c' l='2915' u='c' c='test_dup_fd'/>
+<use f='codebrowser/test/regress.c' l='2925' u='c' c='test_dup_fd'/>
+<use f='codebrowser/test/regress.c' l='2939' u='c' c='test_dup_fd'/>
+<use f='codebrowser/test/regress.c' l='3060' u='c' c='test_many_events'/>
+<use f='codebrowser/test/regress.c' l='3063' u='c' c='test_many_events'/>
+<use f='codebrowser/test/regress.c' l='3350' u='c' c='test_active_by_fd'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1219' u='c' c='test_bufferevent_pair_flush'/>
+<use f='codebrowser/test/regress_dns.c' l='1894' u='c' c='test_dbg_leak_cancel'/>
+<use f='codebrowser/test/regress_dns.c' l='1917' u='c' c='dbg_leak_resume'/>
+<use f='codebrowser/test/regress_dns.c' l='1930' u='c' c='dbg_leak_resume'/>
+<use f='codebrowser/test/regress_dns.c' l='1963' u='c' c='test_dbg_leak_shutdown'/>
+<use f='codebrowser/test/regress_et.c' l='132' u='c' c='test_edgetriggered'/>
+<use f='codebrowser/test/regress_et.c' l='133' u='c' c='test_edgetriggered'/>
+<use f='codebrowser/test/regress_listener.c' l='213' u='c' c='regress_listener_error_unlock'/>
+<use f='codebrowser/test/regress_thread.c' l='545' u='c' c='thread_no_events'/>

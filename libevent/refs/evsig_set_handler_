@@ -1,0 +1,5 @@
+<dec f='codebrowser/event-internal.h' l='400' type='int evsig_set_handler_(struct event_base * base, int evsignal, void (*)(int) fn)'/>
+<def f='codebrowser/signal.c' l='211' ll='275' type='int evsig_set_handler_(struct event_base * base, int evsignal, void (*)(int) handler)'/>
+<use f='codebrowser/signal.c' l='302' u='c' c='evsig_add'/>
+<doc f='codebrowser/signal.c' l='209'>/* Helper: set the signal handler for evsignal to handler in base, so that
+ * we can restore the original handler when we clear the current one. */</doc>

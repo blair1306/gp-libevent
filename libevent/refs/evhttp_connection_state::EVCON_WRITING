@@ -1,0 +1,9 @@
+<dec f='codebrowser/http-internal.h' l='48' type='7'/>
+<doc f='codebrowser/http-internal.h' l='48'>/**&lt; writing request/response headers/body */</doc>
+<use f='codebrowser/http.c' l='418' c='evhttp_connected'/>
+<use f='codebrowser/http.c' l='852' u='r' c='evhttp_connection_done'/>
+<use f='codebrowser/http.c' l='1162' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1184' u='r' c='evhttp_write_connectioncb'/>
+<use f='codebrowser/http.c' l='1296' u='r' c='evhttp_request_dispatch'/>
+<use f='codebrowser/http.c' l='1489' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2714' u='r' c='evhttp_start_write_'/>

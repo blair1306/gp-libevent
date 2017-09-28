@@ -1,0 +1,8 @@
+<dec f='codebrowser/test/tinytest.h' l='65' type='struct testcase_t *'/>
+<offset>64</offset>
+<doc f='codebrowser/test/tinytest.h' l='65'>/** Array, ending with END_OF_TESTCASES */</doc>
+<use f='codebrowser/test/tinytest.c' l='287' u='r' c='tinytest_set_flag_'/>
+<use f='codebrowser/test/tinytest.c' l='288' u='r' c='tinytest_set_flag_'/>
+<use f='codebrowser/test/tinytest.c' l='432' u='r' c='tinytest_main'/>
+<use f='codebrowser/test/tinytest.c' l='433' u='r' c='tinytest_main'/>
+<use f='codebrowser/test/tinytest.c' l='435' u='r' c='tinytest_main'/>

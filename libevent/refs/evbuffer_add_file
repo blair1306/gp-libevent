@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/buffer.h' l='527' type='int evbuffer_add_file(struct evbuffer * outbuf, int fd, int64_t offset, int64_t length)'/>
+<def f='codebrowser/buffer.c' l='3280' ll='3294' type='int evbuffer_add_file(struct evbuffer * buf, int fd, int64_t offset, int64_t length)'/>
+<use f='codebrowser/sample/http-server.c' l='303' u='c' c='send_document_cb'/>
+<use f='codebrowser/test/regress_buffer.c' l='1066' u='c' c='test_evbuffer_add_file'/>

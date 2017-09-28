@@ -1,0 +1,31 @@
+<dec f='include/unistd.h' l='369' type='ssize_t write(int __fd, const void * __buf, size_t __n)'/>
+<doc f='include/unistd.h' l='365'>/* Write N bytes of BUF to FD.  Return the number written, or -1.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>
+<use f='codebrowser/event.c' l='2468' u='c' c='evthread_notify_base_default'/>
+<use f='codebrowser/event.c' l='2482' u='c' c='evthread_notify_base_eventfd'/>
+<use f='codebrowser/signal.c' l='402' u='c' c='evsig_handler'/>
+<use f='codebrowser/test/regress.c' l='171' u='c' c='simple_write_cb'/>
+<use f='codebrowser/test/regress.c' l='188' u='c' c='multiple_write_cb'/>
+<use f='codebrowser/test/regress.c' l='275' u='c' c='combined_write_cb'/>
+<use f='codebrowser/test/regress.c' l='305' u='c' c='test_simpleread'/>
+<use f='codebrowser/test/regress.c' l='350' u='c' c='test_simpleread_multiple'/>
+<use f='codebrowser/test/regress.c' l='419' u='c' c='test_simpleclose'/>
+<use f='codebrowser/test/regress.c' l='838' u='c' c='simple_child_read_cb'/>
+<use f='codebrowser/test/regress.c' l='899' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='950' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='957' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='1018' u='c' c='test_del_wait'/>
+<use f='codebrowser/test/regress.c' l='1764' u='c' c='write_a_byte_cb'/>
+<use f='codebrowser/test/regress.c' l='1853' u='c' c='send_a_byte_cb'/>
+<use f='codebrowser/test/regress.c' l='1929' u='c' c='test_event_base_new'/>
+<use f='codebrowser/test/regress.c' l='2100' u='c' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='2104' u='c' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='2298' u='c' c='test_multiple_events_for_same_fd'/>
+<use f='codebrowser/test/regress.c' l='2328' u='c' c='read_once_cb'/>
+<use f='codebrowser/test/regress.c' l='2348' u='c' c='test_want_only_once'/>
+<use f='codebrowser/test/regress.c' l='2762' u='c' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2903' u='c' c='test_dup_fd'/>
+<use f='codebrowser/test/regress_main.c' l='135' u='c' c='regress_make_tmpfile'/>
+<use f='codebrowser/test/tinytest.c' l='192' u='c' c='testcase_run_forked_'/>

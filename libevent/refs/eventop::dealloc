@@ -1,0 +1,7 @@
+<dec f='codebrowser/event-internal.h' l='113' type='void (*)(struct event_base *)'/>
+<offset>320</offset>
+<doc f='codebrowser/event-internal.h' l='112'>/** Function to clean up and free our data from the event_base. */</doc>
+<use f='codebrowser/event.c' l='882' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='883' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='1007' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='1008' u='r' c='event_reinit'/>

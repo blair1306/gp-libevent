@@ -1,0 +1,10 @@
+<def f='include/openssl/x509v3.h' l='134' ll='144'/>
+<size>56</size>
+<doc f='include/openssl/x509v3.h' l='133'>/* Context specific info */</doc>
+<mbr r='v3_ext_ctx::flags' o='0' t='int'/>
+<mbr r='v3_ext_ctx::issuer_cert' o='64' t='X509 *'/>
+<mbr r='v3_ext_ctx::subject_cert' o='128' t='X509 *'/>
+<mbr r='v3_ext_ctx::subject_req' o='192' t='X509_REQ *'/>
+<mbr r='v3_ext_ctx::crl' o='256' t='X509_CRL *'/>
+<mbr r='v3_ext_ctx::db_meth' o='320' t='X509V3_CONF_METHOD *'/>
+<mbr r='v3_ext_ctx::db' o='384' t='void *'/>

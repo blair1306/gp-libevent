@@ -1,0 +1,36 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='148' type='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/event_struct.h:143:3)'/>
+<offset>0</offset>
+<doc f='codebrowser/include/event2/event_struct.h' l='142'>/* used by signal events */</doc>
+<use f='codebrowser/event.c' l='1318' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1320' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1324' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1326' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1335' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2085' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2086' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2651' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2651' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2653' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2791' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2791' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2793' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2912' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='2913' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='462' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='479' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='502' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='983' macro='1' u='m'/>
+<use f='codebrowser/evmap.c' l='1036' macro='1' u='m'/>

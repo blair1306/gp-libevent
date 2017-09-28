@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/rpc.h' l='347' type='int evrpc_register_rpc(struct evrpc_base * , struct evrpc * , void (*)(struct evrpc_req_generic *, void *) , void * )'/>
+<def f='codebrowser/evrpc.c' l='227' ll='247' type='int evrpc_register_rpc(struct evrpc_base * base, struct evrpc * rpc, void (*)(struct evrpc_req_generic *, void *) cb, void * cb_arg)'/>
+<use f='codebrowser/evrpc.c' l='1145' u='c' c='evrpc_register_generic'/>

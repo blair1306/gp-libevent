@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='438' type='int bufferevent_generic_adj_existing_timeouts_(struct bufferevent * bev)'/>
+<def f='codebrowser/bufferevent.c' l='971' ll='992' type='int bufferevent_generic_adj_existing_timeouts_(struct bufferevent * bev)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1250' u='c' c='be_openssl_adj_timeouts'/>
+<use f='codebrowser/bufferevent_sock.c' l='94' u='r'/>
+<use f='codebrowser/bufferevent_sock.c' l='94' u='r'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/tag.h' l='115' type='int evtag_peek(struct evbuffer * evbuf, uint32_t * ptag)'/>
+<def f='codebrowser/event_tagging.c' l='399' ll='403' type='int evtag_peek(struct evbuffer * evbuf, uint32_t * ptag)'/>
+<use f='codebrowser/test/regress.c' l='2486' u='c' c='evtag_test_peek'/>
+<use f='codebrowser/test/regress.c' l='2492' u='c' c='evtag_test_peek'/>
+<use f='codebrowser/test/regress_rpc.c' l='792' u='c' c='rpc_test'/>

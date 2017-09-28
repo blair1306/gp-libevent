@@ -1,0 +1,6 @@
+<dec f='include/signal.h' l='102' type='__sighandler_t signal(int __sig, __sighandler_t __handler)'/>
+<use f='codebrowser/sample/http-server.c' l='341' u='c' c='main'/>
+<use f='codebrowser/test/bench_http.c' l='100' u='c' c='main'/>
+<use f='codebrowser/test/regress_main.c' l='431' u='c' c='main'/>
+<use f='codebrowser/test/test-ratelim.c' l='558' u='c' c='main'/>
+<use f='codebrowser/test/test-weof.c' l='95' u='c' c='main'/>

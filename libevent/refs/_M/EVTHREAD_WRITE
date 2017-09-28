@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/thread.h' l='64'/>
+<doc f='codebrowser/include/event2/thread.h' l='62'>/** A flag passed to a locking callback when the lock was allocated as a
+ * read-write lock, and we want to acquire or release the lock for writing. */</doc>
+<use f='codebrowser/evthread.c' l='255' u='c'/>
+<use f='codebrowser/evthread.c' l='257' u='c'/>
+<use f='codebrowser/evthread.c' l='271' u='c'/>
+<use f='codebrowser/evthread.c' l='273' u='c'/>

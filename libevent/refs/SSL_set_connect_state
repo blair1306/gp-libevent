@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='2414' type='void SSL_set_connect_state(SSL * s)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1279' u='c' c='be_openssl_set_fd'/>

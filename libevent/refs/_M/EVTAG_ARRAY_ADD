@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc.h' l='134'/>
+<doc f='codebrowser/include/event2/rpc.h' l='131'>/**
+   Allocates a new entry in the array and returns it.
+*/</doc>
+<use f='codebrowser/test/regress_rpc.c' l='766' u='c'/>

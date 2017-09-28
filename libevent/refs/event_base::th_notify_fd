@@ -1,0 +1,25 @@
+<dec f='codebrowser/event-internal.h' l='335' type='int [2]'/>
+<offset>4000</offset>
+<use f='codebrowser/event.c' l='606' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='607' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='820' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='822' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='823' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='824' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='825' u='w' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='826' u='w' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='984' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='986' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='987' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='988' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='989' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='990' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='2468' u='r' c='evthread_notify_base_default'/>
+<use f='codebrowser/event.c' l='2482' u='r' c='evthread_notify_base_eventfd'/>
+<use f='codebrowser/event.c' l='3601' u='w' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3603' u='r' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3604' u='w' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3609' u='r' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3619' u='r' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/test/regress_thread.c' l='196' u='r' c='thread_basic'/>
+<use f='codebrowser/test/regress_thread.c' l='208' u='r' c='thread_basic'/>

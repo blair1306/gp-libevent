@@ -1,0 +1,40 @@
+<dec f='include/stdio.h' l='846' type='void perror(const char * __s)'/>
+<doc f='include/stdio.h' l='842'>/* Print a message describing the meaning of the value of errno.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/sample/dns-example.c' l='197' u='c' c='main'/>
+<use f='codebrowser/sample/dns-example.c' l='205' u='c' c='main'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='61' u='c' c='fifo_read'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='112' u='c' c='main'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='119' u='c' c='main'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='126' u='c' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='204' u='c' c='send_document_cb'/>
+<use f='codebrowser/sample/http-server.c' l='291' u='c' c='send_document_cb'/>
+<use f='codebrowser/sample/http-server.c' l='298' u='c' c='send_document_cb'/>
+<use f='codebrowser/sample/http-server.c' l='389' u='c' c='main'/>
+<use f='codebrowser/sample/https-client.c' l='386' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='122' u='c' c='eventcb'/>
+<use f='codebrowser/sample/le-proxy.c' l='183' u='c' c='accept_cb'/>
+<use f='codebrowser/sample/le-proxy.c' l='196' u='c' c='accept_cb'/>
+<use f='codebrowser/sample/le-proxy.c' l='259' u='c' c='main'/>
+<use f='codebrowser/test/bench.c' l='173' u='c' c='main'/>
+<use f='codebrowser/test/bench.c' l='181' u='c' c='main'/>
+<use f='codebrowser/test/bench.c' l='193' u='c' c='main'/>
+<use f='codebrowser/test/bench_cascade.c' l='75' u='c' c='read_cb'/>
+<use f='codebrowser/test/bench_cascade.c' l='91' u='c' c='run_once'/>
+<use f='codebrowser/test/bench_cascade.c' l='97' u='c' c='run_once'/>
+<use f='codebrowser/test/bench_cascade.c' l='120' u='c' c='run_once'/>
+<use f='codebrowser/test/bench_cascade.c' l='168' u='c' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='100' u='c' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='104' u='c' c='errorcb'/>
+<use f='codebrowser/test/bench_httpclient.c' l='121' u='c' c='frob_socket'/>
+<use f='codebrowser/test/bench_httpclient.c' l='126' u='c' c='frob_socket'/>
+<use f='codebrowser/test/bench_httpclient.c' l='198' u='c' c='main'/>
+<use f='codebrowser/test/regress.c' l='865' u='c' c='fork_wait_check'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='673' u='c' c='reader_eventcb'/>
+<use f='codebrowser/test/test-dumpevents.c' l='47' u='c' c='sock_perror'/>
+<use f='codebrowser/test/test-ratelim.c' l='307' u='c' c='test_ratelimiting'/>
+<use f='codebrowser/test/tinytest.c' l='176' u='c' c='testcase_run_forked_'/>
+<use f='codebrowser/test/tinytest.c' l='194' u='c' c='testcase_run_forked_'/>
+<use f='codebrowser/test/tinytest.c' l='211' u='c' c='testcase_run_forked_'/>

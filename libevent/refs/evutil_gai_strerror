@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='797' type='const char * evutil_gai_strerror(int err)'/>
+<def f='codebrowser/evutil.c' l='1605' ll='1648' type='const char * evutil_gai_strerror(int err)'/>
+<use f='codebrowser/http.c' l='4377' u='c' c='make_addrinfo'/>
+<use f='codebrowser/sample/dns-example.c' l='82' u='c' c='gai_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='1169' u='c' c='be_connect_hostname_event_cb'/>

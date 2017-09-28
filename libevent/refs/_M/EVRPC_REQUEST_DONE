@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/rpc.h' l='281'/>
+<doc f='codebrowser/include/event2/rpc.h' l='273'>/** Creates the reply to an RPC request
+ *
+ * EVRPC_REQUEST_DONE is used to answer a request; the reply is expected
+ * to have been filled in.  The request and reply pointers become invalid
+ * after this call has finished.
+ *
+ * @param rpc_req the rpc request structure provided to the server callback
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='125' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='716' u='c'/>

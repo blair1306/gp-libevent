@@ -1,0 +1,18 @@
+<dec f='include/netinet/in.h' l='259' type='struct in6_addr'/>
+<offset>64</offset>
+<doc f='include/netinet/in.h' l='259'>/* IPv6 address */</doc>
+<use f='codebrowser/evdns.c' l='4519' u='m' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evutil.c' l='627' u='m' c='evutil_found_ifaddr'/>
+<use f='codebrowser/evutil.c' l='760' u='a' c='evutil_check_interfaces'/>
+<use f='codebrowser/evutil.c' l='1002' u='m' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1039' u='a' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='2143' u='a' c='evutil_parse_sockaddr_port'/>
+<use f='codebrowser/evutil.c' l='2189' u='a' c='evutil_format_sockaddr_port_'/>
+<use f='codebrowser/evutil.c' l='2229' u='m' c='evutil_sockaddr_cmp'/>
+<use f='codebrowser/evutil.c' l='2229' u='m' c='evutil_sockaddr_cmp'/>
+<use f='codebrowser/evutil.c' l='2469' u='m' c='evutil_sockaddr_is_loopback_'/>
+<use f='codebrowser/sample/dns-example.c' l='97' u='a' c='gai_callback'/>
+<use f='codebrowser/sample/http-server.c' l='397' u='a' c='main'/>
+<use f='codebrowser/test/regress_util.c' l='272' u='a' c='regress_sockaddr_port_parse'/>
+<use f='codebrowser/test/regress_util.c' l='844' u='a' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='1109' u='a' c='test_evutil_getaddrinfo_live'/>

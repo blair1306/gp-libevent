@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='320'/>
+<doc f='codebrowser/include/event2/event-config.h' l='319'>/* Define to 1 if the system has the type `struct linger&apos;. */</doc>
+<use f='codebrowser/test/bench_httpclient.c' l='116' u='a'/>
+<use f='codebrowser/test/bench_httpclient.c' l='122' u='a'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/include/event2/util.h' l='604' type='int evutil_inet_pton(int af, const char * src, void * dst)'/>
+<use f='codebrowser/evutil.c' l='754' u='c' c='evutil_check_interfaces'/>
+<use f='codebrowser/evutil.c' l='760' u='c' c='evutil_check_interfaces'/>
+<use f='codebrowser/evutil.c' l='1039' u='c' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1055' u='c' c='evutil_getaddrinfo_common_'/>
+<def f='codebrowser/evutil.c' l='1958' ll='2068' type='int evutil_inet_pton(int af, const char * src, void * dst)'/>
+<use f='codebrowser/evutil.c' l='2143' u='c' c='evutil_parse_sockaddr_port'/>
+<use f='codebrowser/evutil.c' l='2162' u='c' c='evutil_parse_sockaddr_port'/>
+<use f='codebrowser/http.c' l='4548' u='c' c='bracket_addr_ok'/>
+<use f='codebrowser/sample/dns-example.c' l='233' u='c' c='main'/>
+<use f='codebrowser/test/regress_dns.c' l='710' u='c' c='fail_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='195' u='c' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='202' u='c' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_util.c' l='121' u='c' c='regress_ipv4_parse'/>
+<use f='codebrowser/test/regress_util.c' l='168' u='c' c='regress_ipv6_parse'/>
+<use f='codebrowser/test/regress_util.c' l='256' u='c' c='regress_sockaddr_port_parse'/>
+<use f='codebrowser/test/regress_util.c' l='272' u='c' c='regress_sockaddr_port_parse'/>

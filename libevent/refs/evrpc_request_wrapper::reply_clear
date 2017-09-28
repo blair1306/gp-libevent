@@ -1,0 +1,5 @@
+<dec f='codebrowser/evrpc-internal.h' l='199' type='void (*)(void *)'/>
+<use f='codebrowser/evrpc.c' l='849' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='937' u='r' c='evrpc_reply_done_closure'/>
+<offset>1792</offset>
+<doc f='codebrowser/evrpc-internal.h' l='198'>/* removes all stored state in the reply */</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/http.h' l='505' type='0'/>
+<use f='codebrowser/http.c' l='579' u='r' c='evhttp_have_expect'/>
+<use f='codebrowser/http.c' l='603' u='r' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='2003' c='evhttp_parse_firstline_'/>
+<use f='codebrowser/http.c' l='2179' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2194' u='r' c='evhttp_get_body'/>
+<use f='codebrowser/http.c' l='2283' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2609' u='r' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='4237' u='r' c='evhttp_associate_new_request_with_connection'/>

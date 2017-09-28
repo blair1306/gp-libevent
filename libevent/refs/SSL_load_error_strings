@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2216' type='void SSL_load_error_strings()'/>
+<use f='codebrowser/sample/https-client.c' l='319' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='268' u='c' c='main'/>
+<use f='codebrowser/test/regress_ssl.c' l='192' u='c' c='init_ssl'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='810' type='void evhttp_cancel_request(struct evhttp_request * req)'/>
+<def f='codebrowser/http.c' l='2655' ll='2679' type='void evhttp_cancel_request(struct evhttp_request * req)'/>
+<use f='codebrowser/test/regress_http.c' l='1335' u='c' c='http_do_cancel'/>
+<use f='codebrowser/test/regress_http.c' l='3466' u='c' c='http_stream_in_cancel_chunk'/>

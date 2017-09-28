@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='506' macro='1' type='int i2d_BASIC_CONSTRAINTS(BASIC_CONSTRAINTS * a, unsigned char ** out)'/>

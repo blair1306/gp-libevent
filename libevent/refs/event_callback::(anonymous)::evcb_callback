@@ -1,0 +1,15 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='114' type='void (*)(int, short, void *)'/>
+<offset>0</offset>
+<use f='codebrowser/event.c' l='1327' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1572' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1610' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1621' u='r' c='event_process_active_single_queue'/>
+<use f='codebrowser/event.c' l='1646' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2079' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2383' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2419' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2560' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2680' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2769' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2873' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3150' macro='1' u='r'/>

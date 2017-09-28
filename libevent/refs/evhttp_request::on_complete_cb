@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='143' type='void (*)(struct evhttp_request *, void *)'/>
+<offset>1600</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='139'>/*
+	 * Send complete callback - called when the request is actually
+	 * sent and completed.
+	 */</doc>
+<use f='codebrowser/http.c' l='2725' u='r' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='2726' u='r' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='4055' u='w' c='evhttp_request_set_on_complete_cb'/>

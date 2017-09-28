@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/http.h' l='594' type='4'/>
+<doc f='codebrowser/include/event2/http.h' l='591'>/**
+   * The evhttp_cancel_request() called on this request.
+   */</doc>
+<use f='codebrowser/http.c' l='678' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='752' u='r' c='evhttp_connection_fail_'/>
+<use f='codebrowser/http.c' l='2666' u='r' c='evhttp_cancel_request'/>
+<use f='codebrowser/test/regress_http.c' l='1317' u='r' c='http_request_error_cb_with_cancel'/>

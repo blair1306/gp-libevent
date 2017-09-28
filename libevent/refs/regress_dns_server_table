@@ -1,0 +1,7 @@
+<def f='codebrowser/test/regress_testutils.h' l='32' ll='38'/>
+<size>32</size>
+<mbr r='regress_dns_server_table::q' o='0' t='const char *'/>
+<mbr r='regress_dns_server_table::anstype' o='64' t='const char *'/>
+<mbr r='regress_dns_server_table::ans' o='128' t='const char *'/>
+<mbr r='regress_dns_server_table::seen' o='192' t='int'/>
+<mbr r='regress_dns_server_table::lower' o='224' t='int'/>

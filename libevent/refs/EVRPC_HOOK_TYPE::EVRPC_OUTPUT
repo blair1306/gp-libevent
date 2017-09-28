@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/rpc.h' l='472' type='1'/>
+<use f='codebrowser/evrpc.c' l='113' u='r' c='evrpc_free'/>
+<use f='codebrowser/evrpc.c' l='132' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='136' u='r' c='evrpc_add_hook'/>
+<use f='codebrowser/evrpc.c' l='177' c='evrpc_remove_hook'/>
+<use f='codebrowser/evrpc.c' l='181' u='r' c='evrpc_remove_hook'/>
+<use f='codebrowser/evrpc.c' l='566' u='r' c='evrpc_pool_free'/>
+<doc f='codebrowser/include/event2/rpc.h' l='472'>/**&lt; apply the function to an output hook */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='462' u='r' c='rpc_basic_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='468' u='r' c='rpc_basic_client'/>
+<use f='codebrowser/test/regress_rpc.c' l='644' u='r' c='rpc_basic_client_with_pause'/>
+<use f='codebrowser/test/regress_rpc.c' l='649' u='r' c='rpc_basic_client_with_pause'/>

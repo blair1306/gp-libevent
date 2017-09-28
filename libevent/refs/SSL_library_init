@@ -1,0 +1,4 @@
+<dec f='include/openssl/ssl.h' l='2419' type='int SSL_library_init()'/>
+<use f='codebrowser/sample/https-client.c' l='317' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='266' u='c' c='main'/>
+<use f='codebrowser/test/regress_ssl.c' l='190' u='c' c='init_ssl'/>

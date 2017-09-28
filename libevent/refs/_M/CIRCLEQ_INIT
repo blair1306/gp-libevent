@@ -1,0 +1,4 @@
+<dec f='codebrowser/compat/sys/queue.h' l='417'/>
+<doc f='codebrowser/compat/sys/queue.h' l='414'>/*
+ * Circular queue functions.
+ */</doc>

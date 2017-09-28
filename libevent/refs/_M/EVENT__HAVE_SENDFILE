@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='248'/>
+<use f='codebrowser/buffer.c' l='105' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='247'>/* Define to 1 if you have the `sendfile&apos; function. */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1048' u='a'/>

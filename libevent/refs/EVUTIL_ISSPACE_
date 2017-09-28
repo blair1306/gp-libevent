@@ -1,0 +1,2 @@
+<dec f='codebrowser/util-internal.h' l='240' type='int EVUTIL_ISSPACE_(char c)'/>
+<def f='codebrowser/evutil.c' l='2304' macro='1' type='int EVUTIL_ISSPACE_(char c)'/>

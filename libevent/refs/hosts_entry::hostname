@@ -1,0 +1,4 @@
+<dec f='codebrowser/evdns.c' l='373' type='char [1]'/>
+<use f='codebrowser/evdns.c' l='4161' u='r' c='evdns_base_parse_hosts_line'/>
+<use f='codebrowser/evdns.c' l='4582' u='r' c='find_hosts_entry'/>
+<offset>384</offset>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/util-internal.h' l='244' type='int EVUTIL_ISXDIGIT_(char c)'/>
+<use f='codebrowser/evutil.c' l='2015' u='c' c='evutil_inet_pton'/>
+<def f='codebrowser/evutil.c' l='2306' macro='1' type='int EVUTIL_ISXDIGIT_(char c)'/>
+<use f='codebrowser/arc4random.c' l='273' u='c' c='arc4_seed_proc_sys_kernel_random_uuid'/>
+<use f='codebrowser/http.c' l='3140' u='c' c='evhttp_decode_uri_internal'/>
+<use f='codebrowser/http.c' l='3140' u='c' c='evhttp_decode_uri_internal'/>
+<use f='codebrowser/http.c' l='4464' u='c' c='userinfo_ok'/>
+<use f='codebrowser/http.c' l='4465' u='c' c='userinfo_ok'/>
+<use f='codebrowser/http.c' l='4481' u='c' c='regname_ok'/>
+<use f='codebrowser/http.c' l='4482' u='c' c='regname_ok'/>
+<use f='codebrowser/http.c' l='4519' u='c' c='bracket_addr_ok'/>
+<use f='codebrowser/http.c' l='4522' u='c' c='bracket_addr_ok'/>
+<use f='codebrowser/http.c' l='4666' u='c' c='end_of_path'/>
+<use f='codebrowser/http.c' l='4667' u='c' c='end_of_path'/>

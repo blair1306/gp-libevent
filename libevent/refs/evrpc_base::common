@@ -1,0 +1,19 @@
+<dec f='codebrowser/evrpc-internal.h' l='73' type='struct evrpc_hooks_'/>
+<use f='codebrowser/evrpc.c' l='82' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='82' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='82' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='83' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='83' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='83' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='85' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='85' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='85' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='104' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='105' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='108' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='112' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='302' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='310' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='426' macro='1' u='m'/>
+<use f='codebrowser/evrpc.c' l='432' macro='1' u='m'/>
+<offset>0</offset>

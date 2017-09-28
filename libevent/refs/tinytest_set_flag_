@@ -1,0 +1,8 @@
+<dec f='codebrowser/test/tinytest.h' l='83' type='int tinytest_set_flag_(struct testgroup_t * , const char * , int set, unsigned long )'/>
+<doc f='codebrowser/test/tinytest.h' l='81'>/** Implementation: Set a flag on tests matching a name; returns number
+ * of tests that matched. */</doc>
+<def f='codebrowser/test/tinytest.c' l='277' ll='310' type='int tinytest_set_flag_(struct testgroup_t * groups, const char * arg, int set, unsigned long flag)'/>
+<use f='codebrowser/test/tinytest.c' l='322' u='c' c='usage'/>
+<use f='codebrowser/test/tinytest.c' l='360' u='c' c='process_test_option'/>
+<use f='codebrowser/test/tinytest.c' l='367' u='c' c='process_test_option'/>
+<use f='codebrowser/test/tinytest.c' l='424' u='c' c='tinytest_main'/>

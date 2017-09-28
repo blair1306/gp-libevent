@@ -1,0 +1,11 @@
+<dec f='codebrowser/event-internal.h' l='125' type='size_t'/>
+<offset>448</offset>
+<doc f='codebrowser/event-internal.h' l='120'>/** Length of the extra information we should record for each fd that
+	    has one or more active events.  This information is recorded
+	    as part of the evmap entry for each fd, and passed as an argument
+	    to the add and del functions above.
+	 */</doc>
+<use f='codebrowser/evmap.c' l='287' u='r' c='evmap_io_add_'/>
+<use f='codebrowser/evmap.c' l='454' u='r' c='evmap_signal_add_'/>
+<use f='codebrowser/evmap.c' l='613' u='r' c='evmap_io_reinit_iter_fn'/>
+<use f='codebrowser/evmap.c' l='614' u='r' c='evmap_io_reinit_iter_fn'/>

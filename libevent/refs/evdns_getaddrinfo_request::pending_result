@@ -1,0 +1,19 @@
+<dec f='codebrowser/evdns.c' l='4253' type='struct addrinfo *'/>
+<use f='codebrowser/evdns.c' l='4296' u='r' c='free_getaddrinfo_request'/>
+<use f='codebrowser/evdns.c' l='4297' u='r' c='free_getaddrinfo_request'/>
+<use f='codebrowser/evdns.c' l='4350' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4351' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4352' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4353' u='w' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4472' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4475' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4476' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4477' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4546' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4551' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4554' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4557' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4558' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<offset>960</offset>
+<doc f='codebrowser/evdns.c' l='4251'>/* If we have one request answered and one request still inflight,
+	 * then this field holds the answer from the first request... */</doc>

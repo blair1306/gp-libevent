@@ -1,0 +1,9 @@
+<def f='codebrowser/include/event2/event.h' l='529' ll='574'/>
+<doc f='codebrowser/include/event2/event.h' l='521'>/**
+   A flag passed to event_config_set_flag().
+
+    These flags change the behavior of an allocated event_base.
+
+    @see event_config_set_flag(), event_base_new_with_config(),
+       event_method_feature
+ */</doc>

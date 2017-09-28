@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='268' type='int bufferevent_base_set(struct event_base * base, struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent_sock.c' l='679' ll='698' type='int bufferevent_base_set(struct event_base * base, struct bufferevent * bufev)'/>
+<doc f='codebrowser/bufferevent_sock.c' l='678'>/* XXXX Should non-socket bufferevents support this? */</doc>
+<use f='codebrowser/http.c' l='2383' u='c' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2449' u='c' c='evhttp_connection_set_base'/>
+<use f='codebrowser/test/regress_http.c' l='2971' u='c' c='http_base_test'/>

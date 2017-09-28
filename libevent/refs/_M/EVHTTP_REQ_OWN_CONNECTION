@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='71'/>
+<doc f='codebrowser/include/event2/http_struct.h' l='70'>/** The request obj owns the evhttp connection and needs to free it */</doc>
+<use f='codebrowser/http.c' l='2627' u='c'/>
+<use f='codebrowser/http.c' l='2734' u='c'/>
+<use f='codebrowser/http.c' l='4226' u='c'/>

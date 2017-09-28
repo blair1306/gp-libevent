@@ -1,0 +1,13 @@
+<dec f='codebrowser/event-internal.h' l='352' type='struct (anonymous struct at /home/jon/workspace/libevent/event-internal.h:352:2)'/>
+<offset>0</offset>
+<use f='codebrowser/event.c' l='500' u='m' c='event_config_is_avoided_method'/>
+<use f='codebrowser/event.c' l='1123' u='m' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1123' u='m' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1123' u='m' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1123' u='m' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1123' u='m' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1123' u='m' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1123' u='m' c='event_config_free'/>
+<use f='codebrowser/event.c' l='1150' u='m' c='event_config_avoid_method'/>
+<use f='codebrowser/event.c' l='1150' u='m' c='event_config_avoid_method'/>
+<use f='codebrowser/event.c' l='1150' u='m' c='event_config_avoid_method'/>

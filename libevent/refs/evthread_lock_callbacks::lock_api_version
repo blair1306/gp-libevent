@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/thread.h' l='98' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/include/event2/thread.h' l='96'>/** The current version of the locking API.  Set this to
+	 * EVTHREAD_LOCK_API_VERSION */</doc>
+<use f='codebrowser/evthread.c' l='114' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='114' u='r' c='evthread_set_lock_callbacks'/>

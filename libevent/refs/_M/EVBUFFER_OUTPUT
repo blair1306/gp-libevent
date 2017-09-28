@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent_compat.h' l='102'/>
+<doc f='codebrowser/include/event2/bufferevent_compat.h' l='101'>/** macro for getting access to the output buffer of a bufferevent */</doc>

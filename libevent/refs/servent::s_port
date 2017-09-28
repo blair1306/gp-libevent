@@ -1,0 +1,4 @@
+<dec f='include/netdb.h' l='261' type='int'/>
+<offset>128</offset>
+<doc f='include/netdb.h' l='261'>/* Port number.  */</doc>
+<use f='codebrowser/evutil.c' l='885' u='r' c='evutil_parse_servname'/>

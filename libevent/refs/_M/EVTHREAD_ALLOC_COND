@@ -1,0 +1,5 @@
+<dec f='codebrowser/evthread-internal.h' l='153'/>
+<doc f='codebrowser/evthread-internal.h' l='152'>/** Allocate a new condition variable and store it in the void *, condvar */</doc>
+<use f='codebrowser/event.c' l='684' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='107' u='c'/>
+<use f='codebrowser/test/regress_thread.c' l='310' u='c'/>

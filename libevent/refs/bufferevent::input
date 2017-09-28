@@ -1,0 +1,49 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='88' type='struct evbuffer *'/>
+<use f='codebrowser/bufferevent-internal.h' l='410' u='r' c='bufferevent_trigger_nolock_'/>
+<offset>2176</offset>
+<doc f='codebrowser/include/event2/bufferevent_struct.h' l='86'>/** An input buffer. Only the bufferevent is allowed to add data to
+	    this buffer, though the user is allowed to drain it. */</doc>
+<use f='codebrowser/bufferevent.c' l='298' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='299' u='w' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='305' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='332' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='334' u='w' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='360' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='404' u='r' c='bufferevent_get_input'/>
+<use f='codebrowser/bufferevent.c' l='450' u='r' c='bufferevent_read'/>
+<use f='codebrowser/bufferevent.c' l='456' u='r' c='bufferevent_read_buffer'/>
+<use f='codebrowser/bufferevent.c' l='593' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='597' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='601' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='603' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='608' u='r' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='713' u='r' c='bufferevent_decref_and_unlock_'/>
+<use f='codebrowser/bufferevent.c' l='744' u='r' c='bufferevent_finalize_cb_'/>
+<use f='codebrowser/bufferevent.c' l='835' u='r' c='bufferevent_enable_locking_'/>
+<use f='codebrowser/bufferevent_filter.c' l='153' u='r' c='be_readbuf_full'/>
+<use f='codebrowser/bufferevent_filter.c' l='211' u='r' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_filter.c' l='213' u='r' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_filter.c' l='266' u='r' c='be_filter_destruct'/>
+<use f='codebrowser/bufferevent_filter.c' l='321' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='323' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='324' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='330' u='r' c='be_filter_process_input'/>
+<use f='codebrowser/bufferevent_filter.c' l='467' u='r' c='be_filter_read_nolock_'/>
+<use f='codebrowser/bufferevent_filter.c' l='474' u='r' c='be_filter_read_nolock_'/>
+<use f='codebrowser/bufferevent_filter.c' l='503' u='r' c='bufferevent_filtered_inbuf_cb'/>
+<use f='codebrowser/bufferevent_filter.c' l='505' u='r' c='bufferevent_filtered_inbuf_cb'/>
+<use f='codebrowser/bufferevent_openssl.c' l='583' u='r' c='do_read'/>
+<use f='codebrowser/bufferevent_openssl.c' l='737' u='r' c='bytes_to_read'/>
+<use f='codebrowser/bufferevent_pair.c' l='141' u='r' c='bufferevent_pair_new'/>
+<use f='codebrowser/bufferevent_pair.c' l='143' u='r' c='bufferevent_pair_new'/>
+<use f='codebrowser/bufferevent_pair.c' l='160' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='163' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='166' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='171' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='175' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_pair.c' l='191' u='r' c='be_pair_transfer'/>
+<use f='codebrowser/bufferevent_sock.c' l='166' u='r' c='bufferevent_readcb'/>
+<use f='codebrowser/bufferevent_sock.c' l='372' u='r' c='bufferevent_socket_new'/>
+<use f='codebrowser/bufferevent_sock.c' l='637' u='r' c='be_socket_setfd'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='94' u='r' c='readcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='357' u='r' c='wm_readcb'/>

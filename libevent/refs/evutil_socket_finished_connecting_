@@ -1,0 +1,7 @@
+<dec f='codebrowser/util-internal.h' l='289' type='int evutil_socket_finished_connecting_(int fd)'/>
+<use f='codebrowser/bufferevent_sock.c' l='248' u='c' c='bufferevent_writecb'/>
+<def f='codebrowser/evutil.c' l='563' ll='580' type='int evutil_socket_finished_connecting_(int fd)'/>
+<doc f='codebrowser/evutil.c' l='559'>/* Check whether a socket on which we called connect() is done
+   connecting. Return 1 for connected, 0 for not yet, -1 for error.  In the
+   error case, set the current socket errno to the error that happened during
+   the connect operation. */</doc>

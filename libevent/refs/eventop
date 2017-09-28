@@ -1,0 +1,12 @@
+<def f='codebrowser/event-internal.h' l='86' ll='126'/>
+<size>64</size>
+<doc f='codebrowser/event-internal.h' l='85'>/** Structure to define the backend of a given event_base. */</doc>
+<mbr r='eventop::name' o='0' t='const char *'/>
+<mbr r='eventop::init' o='64' t='void *(*)(struct event_base *)'/>
+<mbr r='eventop::add' o='128' t='int (*)(struct event_base *, int, short, short, void *)'/>
+<mbr r='eventop::del' o='192' t='int (*)(struct event_base *, int, short, short, void *)'/>
+<mbr r='eventop::dispatch' o='256' t='int (*)(struct event_base *, struct timeval *)'/>
+<mbr r='eventop::dealloc' o='320' t='void (*)(struct event_base *)'/>
+<mbr r='eventop::need_reinit' o='384' t='int'/>
+<mbr r='eventop::features' o='416' t='enum event_method_feature'/>
+<mbr r='eventop::fdinfo_len' o='448' t='size_t'/>

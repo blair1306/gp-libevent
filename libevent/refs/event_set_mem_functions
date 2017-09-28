@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/event.h' l='1542' type='void event_set_mem_functions(void *(*)(size_t) malloc_fn, void *(*)(void *, size_t) realloc_fn, void (*)(void *) free_fn)'/>
+<def f='codebrowser/event.c' l='3520' ll='3528' type='void event_set_mem_functions(void *(*)(size_t) malloc_fn, void *(*)(void *, size_t) realloc_fn, void (*)(void *) free_fn)'/>
+<use f='codebrowser/test/regress.c' l='3002' u='c' c='test_mm_functions'/>
+<use f='codebrowser/test/regress_buffer.c' l='1419' u='c' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1425' u='c' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_dns.c' l='1842' u='c' c='testleak_setup'/>
+<use f='codebrowser/test/regress_finalize.c' l='201' u='c' c='test_fin_free_finalize'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/evrpc-internal.h' l='174' type='struct evrpc_pool *'/>
+<use f='codebrowser/evrpc.c' l='662' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='722' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='801' u='r' c='evrpc_make_request'/>
+<use f='codebrowser/evrpc.c' l='836' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='862' u='r' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='917' u='r' c='evrpc_reply_done_closure'/>
+<use f='codebrowser/evrpc.c' l='1154' u='r' c='evrpc_request_get_pool'/>
+<use f='codebrowser/evrpc.c' l='1161' u='w' c='evrpc_request_set_pool'/>
+<offset>192</offset>
+<doc f='codebrowser/evrpc-internal.h' l='173'>/* pool on which this rpc request is being made */</doc>

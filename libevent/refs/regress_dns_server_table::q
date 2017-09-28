@@ -1,0 +1,25 @@
+<dec f='codebrowser/test/regress_testutils.h' l='33' type='const char *'/>
+<offset>0</offset>
+<use f='codebrowser/test/regress_testutils.c' l='161' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='161' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='162' u='r' c='regress_dns_server_cb'/>
+<use f='codebrowser/test/regress_testutils.c' l='164' u='r' c='regress_dns_server_cb'/>

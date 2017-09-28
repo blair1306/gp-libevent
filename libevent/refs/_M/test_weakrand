@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/regress.h' l='58'/>
+<use f='codebrowser/test/regress.c' l='2418' u='c'/>
+<use f='codebrowser/test/regress_minheap.c' l='38' u='c'/>
+<use f='codebrowser/test/regress_minheap.c' l='39' u='c'/>

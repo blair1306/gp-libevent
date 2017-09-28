@@ -1,0 +1,5 @@
+<dec f='codebrowser/test/tinytest.h' l='98' type='int tinytest_main(int argc, const char ** argv, struct testgroup_t * groups)'/>
+<doc f='codebrowser/test/tinytest.h' l='96'>/** Run a set of testcases from an END_OF_GROUPS-terminated array of groups,
+    as selected from the command line. */</doc>
+<use f='codebrowser/test/regress_main.c' l='457' u='c' c='main'/>
+<def f='codebrowser/test/tinytest.c' l='380' ll='449' type='int tinytest_main(int c, const char ** v, struct testgroup_t * groups)'/>

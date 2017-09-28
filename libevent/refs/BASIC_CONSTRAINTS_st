@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='157' ll='160'/>
+<size>16</size>
+<mbr r='BASIC_CONSTRAINTS_st::ca' o='0' t='int'/>
+<mbr r='BASIC_CONSTRAINTS_st::pathlen' o='64' t='ASN1_INTEGER *'/>

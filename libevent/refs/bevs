@@ -1,0 +1,9 @@
+<def f='codebrowser/test/test-ratelim.c' l='105' type='struct bufferevent **'/>
+<use f='codebrowser/test/test-ratelim.c' l='343' u='w' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='347' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='350' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='352' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='353' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='382' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='468' u='r' c='test_ratelimiting'/>
+<doc f='codebrowser/test/test-ratelim.c' l='104'>/* Info on the open connections */</doc>

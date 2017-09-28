@@ -1,0 +1,8 @@
+<dec f='codebrowser/evrpc-internal.h' l='189' type='void (*)(struct evrpc_status *, void *, void *, void *)'/>
+<use f='codebrowser/evrpc.c' l='711' u='r' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='756' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='844' u='w' c='evrpc_make_request_ctx'/>
+<use f='codebrowser/evrpc.c' l='940' u='r' c='evrpc_reply_done_closure'/>
+<use f='codebrowser/evrpc.c' l='1169' u='w' c='evrpc_request_set_cb'/>
+<offset>1472</offset>
+<doc f='codebrowser/evrpc-internal.h' l='188'>/* callback */</doc>

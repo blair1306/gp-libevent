@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='965' type='int'/>
+<offset>0</offset>
+<doc f='include/openssl/ssl.h' l='965'>/* SSL new conn - started */</doc>

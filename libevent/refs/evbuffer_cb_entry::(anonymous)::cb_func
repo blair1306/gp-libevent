@@ -1,0 +1,5 @@
+<dec f='codebrowser/evbuffer-internal.h' l='69' type='evbuffer_cb_func'/>
+<use f='codebrowser/buffer.c' l='508' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='3320' u='w' c='evbuffer_add_cb'/>
+<use f='codebrowser/buffer.c' l='3346' u='r' c='evbuffer_remove_cb'/>
+<offset>0</offset>

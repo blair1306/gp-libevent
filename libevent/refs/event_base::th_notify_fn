@@ -1,0 +1,9 @@
+<dec f='codebrowser/event-internal.h' l='340' type='int (*)(struct event_base *)'/>
+<offset>5120</offset>
+<doc f='codebrowser/event-internal.h' l='339'>/** A function used to wake up the main thread from another thread. */</doc>
+<use f='codebrowser/event.c' l='980' u='r' c='event_reinit'/>
+<use f='codebrowser/event.c' l='982' u='w' c='event_reinit'/>
+<use f='codebrowser/event.c' l='2497' u='r' c='evthread_notify_base'/>
+<use f='codebrowser/event.c' l='2502' u='r' c='evthread_notify_base'/>
+<use f='codebrowser/event.c' l='3586' u='r' c='evthread_make_base_notifiable_nolock_'/>
+<use f='codebrowser/event.c' l='3616' u='w' c='evthread_make_base_notifiable_nolock_'/>

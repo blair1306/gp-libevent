@@ -1,0 +1,2 @@
+<def f='codebrowser/event.c' l='927' ll='935' type='const struct eventop'/>
+<use f='codebrowser/event.c' l='960' u='a' c='event_reinit'/>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='525' macro='1' type='GENERAL_NAME * d2i_GENERAL_NAME(GENERAL_NAME ** a, const unsigned char ** in, long len)'/>

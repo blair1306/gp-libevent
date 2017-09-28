@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/http.h' l='726' type='void evhttp_connection_set_local_address(struct evhttp_connection * evcon, const char * address)'/>
+<def f='codebrowser/http.c' l='1262' ll='1271' type='void evhttp_connection_set_local_address(struct evhttp_connection * evcon, const char * address)'/>
+<use f='codebrowser/test/regress_http.c' l='1886' u='c' c='http_dispatcher_test'/>
+<use f='codebrowser/test/regress_http.c' l='3624' u='c' c='http_simple_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='3670' u='c' c='http_connection_retry_test_basic'/>
+<use f='codebrowser/test/regress_http.c' l='4002' u='c' c='http_data_length_constraints_test_impl'/>
+<use f='codebrowser/test/regress_http.c' l='4114' u='c' c='http_lingering_close_test_impl'/>

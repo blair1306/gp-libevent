@@ -1,0 +1,42 @@
+<dec f='codebrowser/include/event2/http.h' l='834' type='struct evkeyvalq * evhttp_request_get_input_headers(struct evhttp_request * req)'/>
+<def f='codebrowser/http.c' l='4134' ll='4137' type='struct evkeyvalq * evhttp_request_get_input_headers(struct evhttp_request * req)'/>
+<doc f='codebrowser/http.c' l='4133'>/** Returns the input headers */</doc>
+<use f='codebrowser/sample/http-server.c' l='134' u='c' c='dump_request_cb'/>
+<use f='codebrowser/test/regress_http.c' l='262' u='c' c='http_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='308' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='318' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='323' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='329' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='337' u='c' c='http_basic_cb'/>
+<use f='codebrowser/test/regress_http.c' l='618' u='c' c='http_badreq_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='741' u='c' c='http_delete_cb'/>
+<use f='codebrowser/test/regress_http.c' l='1583' u='c' c='http_request_done'/>
+<use f='codebrowser/test/regress_http.c' l='1791' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1797' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1802' u='c' c='http_request_empty_done'/>
+<use f='codebrowser/test/regress_http.c' l='1851' u='c' c='http_dispatcher_test_done'/>
+<use f='codebrowser/test/regress_http.c' l='2031' u='c' c='http_postrequest_done'/>
+<use f='codebrowser/test/regress_http.c' l='2148' u='c' c='http_putrequest_done'/>
+<use f='codebrowser/test/regress_http.c' l='3137' u='c' c='http_chunked_errorcb'/>
+<use f='codebrowser/test/regress_http.c' l='3141' u='c' c='http_chunked_errorcb'/>
+<use f='codebrowser/test/regress_http.c' l='3229' u='c' c='http_chunked_request_done'/>
+<use f='codebrowser/test/regress_http.c' l='3578' u='c' c='http_connection_retry_done'/>

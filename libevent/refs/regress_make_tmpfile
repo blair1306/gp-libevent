@@ -1,0 +1,6 @@
+<dec f='codebrowser/test/regress.h' l='70' type='int regress_make_tmpfile(const void * data, size_t datalen, char ** filename_out)'/>
+<use f='codebrowser/test/regress_buffer.c' l='1012' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_buffer.c' l='1145' u='c' c='test_evbuffer_file_segment_add_cleanup_cb'/>
+<def f='codebrowser/test/regress_main.c' l='121' ll='170' type='int regress_make_tmpfile(const void * data, size_t datalen, char ** filename_out)'/>
+<doc f='codebrowser/test/regress_main.c' l='119'>/* creates a temporary file with the data in it.  If *filename_out gets set,
+ * the caller should try to unlink it. */</doc>

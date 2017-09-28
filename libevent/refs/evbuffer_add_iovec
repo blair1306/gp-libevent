@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/buffer.h' l='1070' type='size_t evbuffer_add_iovec(struct evbuffer * buffer, struct iovec * vec, int n_vec)'/>
+<def f='codebrowser/buffer.c' l='633' ll='667' type='size_t evbuffer_add_iovec(struct evbuffer * buf, struct iovec * vec, int n_vec)'/>
+<use f='codebrowser/test/regress_buffer.c' l='2384' u='c' c='test_evbuffer_add_iovec'/>

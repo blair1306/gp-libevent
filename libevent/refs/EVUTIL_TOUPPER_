@@ -1,0 +1,4 @@
+<dec f='codebrowser/util-internal.h' l='249' type='char EVUTIL_TOUPPER_(char c)'/>
+<use f='codebrowser/event.c' l='518' u='c' c='event_is_method_disabled'/>
+<def f='codebrowser/evutil.c' l='2315' ll='2318' type='char EVUTIL_TOUPPER_(char c)'/>
+<use f='codebrowser/test/regress.c' l='2623' u='c' c='methodname_to_envvar'/>

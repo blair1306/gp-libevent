@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event-config.h' l='82'/>
+<doc f='codebrowser/include/event2/event-config.h' l='81'>/* Define to 1 if you have the declaration of `RANDOM_UUID&apos;. */</doc>
+<use f='codebrowser/arc4random.c' l='172' u='c'/>

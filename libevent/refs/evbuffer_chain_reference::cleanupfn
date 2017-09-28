@@ -1,0 +1,5 @@
+<dec f='codebrowser/evbuffer-internal.h' l='220' type='evbuffer_ref_cleanup_cb'/>
+<use f='codebrowser/buffer.c' l='217' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='218' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='2925' u='w' c='evbuffer_add_reference'/>
+<offset>0</offset>

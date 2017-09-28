@@ -1,0 +1,5 @@
+<dec f='codebrowser/evdns.c' l='331' type='int'/>
+<use f='codebrowser/evdns.c' l='900' u='r' c='reply_handle'/>
+<use f='codebrowser/evdns.c' l='3938' u='w' c='evdns_base_new'/>
+<offset>576</offset>
+<doc f='codebrowser/evdns.c' l='331'>/* a reissue occurs when we get some errors from the server */</doc>

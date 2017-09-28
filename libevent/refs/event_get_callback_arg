@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='1373' type='void * event_get_callback_arg(const struct event * ev)'/>
+<def f='codebrowser/event.c' l='2422' ll='2427' type='void * event_get_callback_arg(const struct event * ev)'/>
+<use f='codebrowser/test/regress.c' l='3129' u='c' c='foreach_count_cb'/>
+<use f='codebrowser/test/regress.c' l='3146' u='c' c='foreach_find_cb'/>

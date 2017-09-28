@@ -1,0 +1,21 @@
+<dec f='codebrowser/bufferevent-internal.h' l='187' type='bufferevent_suspend_flags'/>
+<offset>3248</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='184'>/** If set, writing is suspended until one or more conditions are over.
+	 * The actual value here is a bitfield of those conditions; see the
+	 * BEV_SUSPEND_* flags above. */</doc>
+<use f='codebrowser/bufferevent.c' l='96' u='r' c='bufferevent_suspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='98' u='w' c='bufferevent_suspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='108' u='w' c='bufferevent_unsuspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='109' u='r' c='bufferevent_unsuspend_write_'/>
+<use f='codebrowser/bufferevent.c' l='470' u='r' c='bufferevent_enable'/>
+<use f='codebrowser/bufferevent.c' l='960' u='r' c='bufferevent_generic_adj_timeouts_'/>
+<use f='codebrowser/bufferevent_openssl.c' l='670' u='r' c='do_write'/>
+<use f='codebrowser/bufferevent_openssl.c' l='875' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_openssl.c' l='891' u='r' c='consider_writing'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='289' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='326' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='421' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='989' u='r' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_sock.c' l='136' u='r' c='bufferevent_socket_outbuf_cb'/>
+<use f='codebrowser/bufferevent_sock.c' l='280' u='r' c='bufferevent_writecb'/>
+<use f='codebrowser/bufferevent_sock.c' l='289' u='r' c='bufferevent_writecb'/>

@@ -1,0 +1,3 @@
+<dec f='include/openssl/x509.h' l='766' type='ASN1_TIME * X509_time_adj(ASN1_TIME * s, long adj, time_t * t)'/>
+<use f='codebrowser/test/regress_ssl.c' l='152' u='c' c='ssl_getcert'/>
+<use f='codebrowser/test/regress_ssl.c' l='154' u='c' c='ssl_getcert'/>

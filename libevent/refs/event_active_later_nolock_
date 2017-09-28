@@ -1,0 +1,3 @@
+<dec f='codebrowser/event-internal.h' l='438' type='void event_active_later_nolock_(struct event * ev, int res)'/>
+<use f='codebrowser/event.c' l='2923' u='c' c='event_active_later_'/>
+<def f='codebrowser/event.c' l='2927' ll='2942' type='void event_active_later_nolock_(struct event * ev, int res)'/>

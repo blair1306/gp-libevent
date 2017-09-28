@@ -1,0 +1,12 @@
+<dec f='codebrowser/http-internal.h' l='86' type='struct timeval'/>
+<offset>1920</offset>
+<doc f='codebrowser/http-internal.h' l='86'>/* Timeout for low long to wait
+					       * after first failing attempt
+					       * before retry */</doc>
+<use f='codebrowser/http.c' l='1384' u='r' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='2377' u='m' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2378' u='m' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2486' u='w' c='evhttp_connection_set_initial_retry_tv'/>
+<use f='codebrowser/http.c' l='2488' u='a' c='evhttp_connection_set_initial_retry_tv'/>
+<use f='codebrowser/http.c' l='2488' u='a' c='evhttp_connection_set_initial_retry_tv'/>
+<use f='codebrowser/http.c' l='2489' u='m' c='evhttp_connection_set_initial_retry_tv'/>

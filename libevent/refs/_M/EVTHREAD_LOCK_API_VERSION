@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/thread.h' l='76'/>
+<use f='codebrowser/evthread.c' l='321' u='c'/>
+<use f='codebrowser/evthread_pthread.c' l='167' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='301' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509.h' l='904' type='int X509_set_issuer_name(X509 * x, X509_NAME * name)'/>
+<use f='codebrowser/test/regress_ssl.c' l='150' u='c' c='ssl_getcert'/>

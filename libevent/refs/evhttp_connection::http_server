@@ -1,0 +1,13 @@
+<dec f='codebrowser/http-internal.h' l='93' type='struct evhttp *'/>
+<use f='codebrowser/evrpc.c' l='582' u='r' c='evrpc_pool_add_connection'/>
+<offset>2112</offset>
+<doc f='codebrowser/http-internal.h' l='92'>/* for server connections, the http server they are connected with */</doc>
+<use f='codebrowser/http.c' l='557' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='560' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='1221' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1222' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1499' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1845' u='r' c='evhttp_parse_request_line'/>
+<use f='codebrowser/http.c' l='2410' u='r' c='evhttp_connection_get_server'/>
+<use f='codebrowser/http.c' l='4213' u='r' c='evhttp_associate_new_request_with_connection'/>
+<use f='codebrowser/http.c' l='4267' u='w' c='evhttp_get_request'/>

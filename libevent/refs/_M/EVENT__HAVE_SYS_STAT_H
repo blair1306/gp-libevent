@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event-config.h' l='362'/>
+<use f='codebrowser/buffer.c' l='68' u='a'/>
+<doc f='codebrowser/include/event2/event-config.h' l='361'>/* Define to 1 if you have the &lt;sys/stat.h&gt; header file. */</doc>
+<use f='codebrowser/test/regress_main.c' l='58' u='a'/>

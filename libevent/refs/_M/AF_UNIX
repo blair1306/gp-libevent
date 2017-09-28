@@ -1,0 +1,12 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='90'/>
+<use f='codebrowser/evutil.c' l='232' u='a'/>
+<use f='codebrowser/evutil.c' l='233' u='c'/>
+<use f='codebrowser/test/bench.c' l='191' u='c'/>
+<use f='codebrowser/test/bench_cascade.c' l='96' u='c'/>
+<use f='codebrowser/test/regress.c' l='885' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1054' u='c'/>
+<use f='codebrowser/test/regress_main.c' l='216' u='c'/>
+<use f='codebrowser/test/regress_zlib.c' l='289' u='c'/>
+<use f='codebrowser/test/test-changelist.c' l='182' u='c'/>
+<use f='codebrowser/test/test-eof.c' l='97' u='c'/>
+<use f='codebrowser/test/test-weof.c' l='99' u='c'/>

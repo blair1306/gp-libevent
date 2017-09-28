@@ -1,0 +1,32 @@
+<dec f='codebrowser/http-internal.h' l='59' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/http.c' l='1207' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1237' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1238' u='w' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1240' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1242' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1244' u='r' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1325' u='r' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1326' u='w' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1328' u='r' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1333' u='r' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1334' u='r' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1335' u='w' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1460' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1461' u='w' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1469' u='r' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1546' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1547' u='w' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1562' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1569' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1573' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1581' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='1589' u='r' c='evhttp_connection_cb'/>
+<use f='codebrowser/http.c' l='2242' u='r' c='evhttp_read_firstline'/>
+<use f='codebrowser/http.c' l='2259' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2350' u='w' c='evhttp_connection_base_bufferevent_new'/>
+<use f='codebrowser/http.c' l='2539' u='w' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2541' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2547' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2584' u='r' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='4201' u='w' c='evhttp_get_request_connection'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='425' type='int bufferevent_read_buffer(struct bufferevent * bufev, struct evbuffer * buf)'/>
+<def f='codebrowser/bufferevent.c' l='453' ll='457' type='int bufferevent_read_buffer(struct bufferevent * bufev, struct evbuffer * buf)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='99' u='c' c='readcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='365' u='c' c='wm_readcb'/>
+<use f='codebrowser/test/regress_zlib.c' l='250' u='c' c='readcb'/>

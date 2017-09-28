@@ -1,0 +1,22 @@
+<dec f='codebrowser/test/regress_http.c' l='1389' type='16'/>
+<use f='codebrowser/test/regress_http.c' l='1397' u='r' c='http_cancel_test_bad_request_new'/>
+<use f='codebrowser/test/regress_http.c' l='1459' u='r' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1473' u='r' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1508' u='r' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='1528' u='r' c='http_cancel_test'/>
+<use f='codebrowser/test/regress_http.c' l='4576' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4576' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4577' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4577' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4578' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4578' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4579' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4579' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4576' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4576' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4577' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4577' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4578' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4578' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4579' u='r'/>
+<use f='codebrowser/test/regress_http.c' l='4579' u='r'/>

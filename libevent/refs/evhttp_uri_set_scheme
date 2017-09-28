@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/http.h' l='1078' type='int evhttp_uri_set_scheme(struct evhttp_uri * uri, const char * scheme)'/>
+<def f='codebrowser/http.c' l='4956' ll='4964' type='int evhttp_uri_set_scheme(struct evhttp_uri * uri, const char * scheme)'/>
+<use f='codebrowser/sample/http-connect.c' l='85' u='c' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='95' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='2561' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2562' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2563' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2573' u='c' c='http_parse_uri_test'/>
+<use f='codebrowser/test/regress_http.c' l='2574' u='c' c='http_parse_uri_test'/>

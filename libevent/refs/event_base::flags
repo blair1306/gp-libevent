@@ -1,0 +1,9 @@
+<dec f='codebrowser/event-internal.h' l='323' type='enum event_base_config_flag'/>
+<offset>3712</offset>
+<doc f='codebrowser/event-internal.h' l='322'>/** Flags that this base was configured with */</doc>
+<use f='codebrowser/epoll.c' l='177' u='r' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='178' u='r' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='191' u='r' c='epoll_init'/>
+<use f='codebrowser/event.c' l='431' u='r' c='update_time_cache'/>
+<use f='codebrowser/event.c' l='582' u='w' c='event_base_new_with_config'/>
+<use f='codebrowser/event.c' l='594' u='w' c='event_base_new_with_config'/>

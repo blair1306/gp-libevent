@@ -1,0 +1,26 @@
+<dec f='codebrowser/bufferevent-internal.h' l='145' type='struct ev_token_bucket_cfg *'/>
+<offset>384</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='143'>/* Pointer to the rate-limit configuration for this bufferevent.
+	 * Can be shared.  XXX reference-count this? */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='120' u='r' c='bufferevent_update_buckets'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='123' u='r' c='bufferevent_update_buckets'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='224' u='r' c='bufferevent_get_rlim_max_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='281' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='286' u='r' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='319' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='324' u='r' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='401' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='409' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='411' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='436' u='r' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='577' u='w' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='590' u='r' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='603' u='r' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='605' u='w' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='828' u='r' c='bufferevent_get_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='847' u='r' c='bufferevent_get_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='935' u='r' c='bufferevent_get_token_bucket_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='979' u='r' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='986' u='r' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1008' u='r' c='bufferevent_decrement_write_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1015' u='r' c='bufferevent_decrement_write_limit'/>

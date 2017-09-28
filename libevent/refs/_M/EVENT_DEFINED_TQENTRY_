@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/keyvalq_struct.h' l='37'/>
+<use f='codebrowser/include/event2/keyvalq_struct.h' l='68' u='a'/>
+<dec f='codebrowser/include/event2/event_struct.h' l='70'/>
+<use f='codebrowser/include/event2/event_struct.h' l='158' u='a'/>

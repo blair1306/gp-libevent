@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='162' ll='165'/>
+<size>16</size>
+<mbr r='PKEY_USAGE_PERIOD_st::notBefore' o='0' t='ASN1_GENERALIZEDTIME *'/>
+<mbr r='PKEY_USAGE_PERIOD_st::notAfter' o='64' t='ASN1_GENERALIZEDTIME *'/>

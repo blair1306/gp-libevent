@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509v3.h' l='731'/>
+<doc f='include/openssl/x509v3.h' l='730'>/* Allow (non-partial) wildcards to match multiple labels. */</doc>

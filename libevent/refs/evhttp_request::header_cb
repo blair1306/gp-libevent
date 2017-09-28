@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='129' type='int (*)(struct evhttp_request *, void *)'/>
+<offset>1472</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='124'>/*
+	 * Callback added for forked-daapd so they can collect ICY
+	 * (shoutcast) metadata from the http header. If return
+	 * int is negative the connection will be closed.
+	 */</doc>
+<use f='codebrowser/http.c' l='2274' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='2275' u='r' c='evhttp_read_header'/>
+<use f='codebrowser/http.c' l='4041' u='w' c='evhttp_request_set_header_cb'/>

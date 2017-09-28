@@ -1,0 +1,8 @@
+<def f='codebrowser/include/event2/http.h' l='492' ll='502'/>
+<doc f='codebrowser/include/event2/http.h' l='485'>/** The different request types supported by evhttp.  These are as specified
+ * in RFC2616, except for PATCH which is specified by RFC5789.
+ *
+ * By default, only some of these methods are accepted and passed to user
+ * callbacks; use evhttp_set_allowed_methods() to change which methods
+ * are allowed.
+ */</doc>

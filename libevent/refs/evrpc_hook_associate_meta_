@@ -1,0 +1,6 @@
+<dec f='codebrowser/evrpc-internal.h' l='121' type='void evrpc_hook_associate_meta_(struct evrpc_hook_meta ** pctx, struct evhttp_connection * evcon)'/>
+<use f='codebrowser/evrpc.c' l='305' u='c' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='429' u='c' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='680' u='c' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='877' u='c' c='evrpc_reply_done'/>
+<doc f='codebrowser/evrpc-internal.h' l='120'>/* allows association of meta data with a request */</doc>

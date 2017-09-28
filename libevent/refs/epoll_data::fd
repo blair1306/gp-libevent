@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='82' type='int'/>
+<use f='codebrowser/epoll.c' l='198' u='w' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='288' u='w' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='482' u='r' c='epoll_dispatch'/>
+<use f='codebrowser/epoll.c' l='500' u='r' c='epoll_dispatch'/>
+<offset>0</offset>

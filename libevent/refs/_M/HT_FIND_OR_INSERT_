@@ -1,0 +1,4 @@
+<dec f='codebrowser/ht-internal.h' l='425'/>
+<doc f='codebrowser/ht-internal.h' l='422'>/** Implements an over-optimized &quot;find and insert if absent&quot; block;
+ * not meant for direct usage by typical code, or usage outside the critical
+ * path.*/</doc>

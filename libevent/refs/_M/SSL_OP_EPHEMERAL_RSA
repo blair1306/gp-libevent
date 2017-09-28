@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='631'/>
+<doc f='include/openssl/ssl.h' l='630'>/* Does nothing: retained for compatibiity */</doc>

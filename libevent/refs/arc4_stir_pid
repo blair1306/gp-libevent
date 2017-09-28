@@ -1,0 +1,3 @@
+<def f='codebrowser/arc4random.c' l='90' type='pid_t'/>
+<use f='codebrowser/arc4random.c' l='418' u='r' c='arc4_stir_if_needed'/>
+<use f='codebrowser/arc4random.c' l='420' u='w' c='arc4_stir_if_needed'/>

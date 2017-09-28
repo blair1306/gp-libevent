@@ -1,0 +1,2 @@
+<dec f='codebrowser/test/tinytest_macros.h' l='105'/>
+<doc f='codebrowser/test/tinytest_macros.h' l='104'>/* Assert b and stop the test if b fails.  Log msg on failure. */</doc>

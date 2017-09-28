@@ -1,0 +1,5 @@
+<dec f='include/openssl/ssl.h' l='664'/>
+<doc f='include/openssl/ssl.h' l='660'>/*
+ * The next flag deliberately changes the ciphertest, this is a check for the
+ * PKCS#1 attack
+ */</doc>

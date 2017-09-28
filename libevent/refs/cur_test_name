@@ -1,0 +1,6 @@
+<def f='codebrowser/test/tinytest.c' l='80' type='const char *'/>
+<use f='codebrowser/test/tinytest.c' l='242' u='w' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='460' u='r' c='tinytest_set_test_failed_'/>
+<use f='codebrowser/test/tinytest.c' l='462' u='r' c='tinytest_set_test_failed_'/>
+<use f='codebrowser/test/tinytest.c' l='463' u='w' c='tinytest_set_test_failed_'/>
+<doc f='codebrowser/test/tinytest.c' l='79'>/** Name of the current test, if we haven&apos;t logged is yet. Used for --quiet */</doc>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/evthread-internal.h' l='138' type='int EVLOCK_TRY_LOCK_(void * lock)'/>
+<def f='codebrowser/evthread-internal.h' l='139' ll='150' type='int EVLOCK_TRY_LOCK_(void * lock)'/>
+<doc f='codebrowser/evthread-internal.h' l='136'>/** Try to grab the lock for &apos;lockvar&apos; without blocking, and return 1 if we
+ * manage to get it. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='364' u='c' c='bev_group_suspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='382' u='c' c='bev_group_suspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='495' u='c' c='bev_group_unsuspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='495' u='c' c='bev_group_unsuspend_reading_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='514' u='c' c='bev_group_unsuspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='514' u='c' c='bev_group_unsuspend_writing_'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/evbuffer-internal.h' l='151' macro='1' type='struct evbuffer_cb_entry *'/>
+<use f='codebrowser/buffer.c' l='369' macro='1' u='w'/>
+<use f='codebrowser/buffer.c' l='479' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='494' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='515' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='553' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='3301' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='3323' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='3323' macro='1' u='r'/>
+<use f='codebrowser/buffer.c' l='3323' macro='1' u='w'/>
+<use f='codebrowser/buffer.c' l='3323' macro='1' u='a'/>
+<use f='codebrowser/buffer.c' l='3345' macro='1' u='r'/>
+<offset>0</offset>

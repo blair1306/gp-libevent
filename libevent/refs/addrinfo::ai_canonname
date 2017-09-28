@@ -1,0 +1,11 @@
+<dec f='include/netdb.h' l='575' type='char *'/>
+<offset>256</offset>
+<doc f='include/netdb.h' l='575'>/* Canonical name for service location.  */</doc>
+<use f='codebrowser/evdns.c' l='4310' u='w' c='add_cname_to_reply'/>
+<use f='codebrowser/evutil.c' l='1553' u='r' c='evutil_freeaddrinfo'/>
+<use f='codebrowser/evutil.c' l='1554' u='r' c='evutil_freeaddrinfo'/>
+<use f='codebrowser/sample/dns-example.c' l='84' u='r' c='gai_callback'/>
+<use f='codebrowser/sample/dns-example.c' l='85' u='r' c='gai_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='1631' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1632' u='r' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1639' u='r' c='test_getaddrinfo_async'/>

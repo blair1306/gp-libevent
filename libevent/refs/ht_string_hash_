@@ -1,0 +1,2 @@
+<def f='codebrowser/ht-internal.h' l='90' ll='102' type='unsigned int ht_string_hash_(const char * s)'/>
+<doc f='codebrowser/ht-internal.h' l='89'>/** Basic string hash function, from Python&apos;s str.__hash__() */</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='121' type='struct evutil_weakrand_state'/>
+<offset>2112</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='120'>/** Seed for weak random number generator. Protected by &apos;lock&apos; */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='458' u='a' c='bev_group_random_element_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='666' u='a' c='bufferevent_rate_limit_group_new'/>

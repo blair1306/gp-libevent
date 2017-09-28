@@ -1,0 +1,6 @@
+<def f='include/openssl/x509v3.h' l='126' ll='131'/>
+<size>32</size>
+<mbr r='X509V3_CONF_METHOD_st::get_string' o='0' t='char *(*)(void *, char *, char *)'/>
+<mbr r='X509V3_CONF_METHOD_st::get_section' o='64' t='struct stack_st_CONF_VALUE *(*)(void *, char *)'/>
+<mbr r='X509V3_CONF_METHOD_st::free_string' o='128' t='void (*)(void *, char *)'/>
+<mbr r='X509V3_CONF_METHOD_st::free_section' o='192' t='void (*)(void *, struct stack_st_CONF_VALUE *)'/>

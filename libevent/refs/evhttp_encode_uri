@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='912' type='char * evhttp_encode_uri(const char * str)'/>
+<def f='codebrowser/http.c' l='3111' ll='3115' type='char * evhttp_encode_uri(const char * str)'/>

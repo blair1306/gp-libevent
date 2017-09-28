@@ -1,0 +1,18 @@
+<dec f='codebrowser/http.c' l='4412' type='char *'/>
+<use f='codebrowser/http.c' l='4792' u='w' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4793' u='r' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4835' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4835' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4871' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4871' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4871' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4875' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4876' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4876' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4930' u='r' c='evhttp_uri_get_path'/>
+<use f='codebrowser/http.c' l='5006' u='r' c='evhttp_uri_set_path'/>
+<use f='codebrowser/http.c' l='5006' u='r' c='evhttp_uri_set_path'/>
+<use f='codebrowser/http.c' l='5006' u='w' c='evhttp_uri_set_path'/>
+<use f='codebrowser/http.c' l='5006' u='w' c='evhttp_uri_set_path'/>
+<offset>320</offset>
+<doc f='codebrowser/http.c' l='4412'>/* path, or &quot;&quot;. */</doc>

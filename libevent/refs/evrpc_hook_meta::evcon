@@ -1,0 +1,5 @@
+<dec f='codebrowser/evrpc-internal.h' l='117' type='struct evhttp_connection *'/>
+<use f='codebrowser/evrpc.c' l='1005' u='w' c='evrpc_hook_meta_new_'/>
+<use f='codebrowser/evrpc.c' l='1017' u='w' c='evrpc_hook_associate_meta_'/>
+<use f='codebrowser/evrpc.c' l='1075' u='r' c='evrpc_hook_get_connection'/>
+<offset>128</offset>

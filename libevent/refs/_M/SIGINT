@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/signum.h' l='33'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='141' u='c'/>
+<use f='codebrowser/sample/hello-world.c' l='71' u='c'/>
+<use f='codebrowser/sample/signal-test.c' l='62' u='c'/>
+<use f='codebrowser/test/test-dumpevents.c' l='128' u='c'/>
+<use f='codebrowser/test/test-dumpevents.c' l='162' u='c'/>

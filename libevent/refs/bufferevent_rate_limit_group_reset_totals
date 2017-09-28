@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='1014' type='void bufferevent_rate_limit_group_reset_totals(struct bufferevent_rate_limit_group * grp)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='1078' ll='1082' type='void bufferevent_rate_limit_group_reset_totals(struct bufferevent_rate_limit_group * grp)'/>

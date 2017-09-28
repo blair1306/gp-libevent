@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/util.h' l='358' type='void evutil_monotonic_timer_free(struct evutil_monotonic_timer * timer)'/>
+<def f='codebrowser/evutil_time.c' l='222' ll='228' type='void evutil_monotonic_timer_free(struct evutil_monotonic_timer * timer)'/>
+<doc f='codebrowser/evutil_time.c' l='219'>/*
+   Free a struct evutil_monotonic_timer
+ */</doc>

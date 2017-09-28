@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/util.h' l='717'/>
+<use f='codebrowser/evdns.c' l='4275' u='c'/>
+<use f='codebrowser/evutil.c' l='969' u='c'/>
+<use f='codebrowser/evutil.c' l='985' u='c'/>
+<use f='codebrowser/evutil.c' l='1072' u='c'/>
+<use f='codebrowser/evutil.c' l='1631' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1277' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1395' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1661' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1665' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='1675' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1030' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='1039' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='include/openssl/stack.h' l='77' type='int sk_num(const _STACK * )'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='122' macro='1' u='c'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/evrpc-internal.h' l='155' type='struct evhttp_request *'/>
+<use f='codebrowser/evrpc.c' l='299' u='w' c='evrpc_request_cb'/>
+<use f='codebrowser/evrpc.c' l='346' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='410' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='478' u='r' c='evrpc_request_done_closure'/>
+<offset>256</offset>
+<doc f='codebrowser/evrpc-internal.h' l='152'>/*
+	 * the http request structure on which we need to answer.
+	 */</doc>

@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='575' macro='1' type='DIST_POINT_NAME * d2i_DIST_POINT_NAME(DIST_POINT_NAME ** a, const unsigned char ** in, long len)'/>

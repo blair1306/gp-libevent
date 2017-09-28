@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='683' type='void evhttp_request_own(struct evhttp_request * req)'/>
+<use f='codebrowser/evrpc.c' l='895' u='c' c='evrpc_reply_done'/>
+<def f='codebrowser/http.c' l='4006' ll='4010' type='void evhttp_request_own(struct evhttp_request * req)'/>
+<use f='codebrowser/test/regress_http.c' l='4500' u='c' c='http_request_own_test'/>

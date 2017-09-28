@@ -1,0 +1,4 @@
+<dec f='include/openssl/x509.h' l='907' type='X509_NAME * X509_get_subject_name(X509 * a)'/>
+<use f='codebrowser/sample/https-client.c' l='171' u='c' c='cert_verify_callback'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='70' u='c' c='matches_common_name'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='76' u='c' c='matches_common_name'/>

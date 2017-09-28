@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/regress_testutils.h' l='63' type='int regress_get_listener_addr(struct evconnlistener * lev, struct sockaddr * sa, socklen_t * socklen)'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='757' u='c' c='test_bufferevent_connect'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1151' u='c' c='test_bufferevent_trigger'/>
+<def f='codebrowser/test/regress_testutils.c' l='225' ll='233' type='int regress_get_listener_addr(struct evconnlistener * lev, struct sockaddr * sa, socklen_t * socklen)'/>

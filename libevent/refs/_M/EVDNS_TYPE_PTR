@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='596'/>
+<use f='codebrowser/sample/dns-example.c' l='120' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='256' u='c'/>
+<use f='codebrowser/test/regress_dns.c' l='263' u='c'/>

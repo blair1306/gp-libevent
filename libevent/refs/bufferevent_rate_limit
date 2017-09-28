@@ -1,0 +1,8 @@
+<def f='codebrowser/bufferevent-internal.h' l='130' ll='150'/>
+<size>184</size>
+<doc f='codebrowser/bufferevent-internal.h' l='129'>/** Fields for rate-limiting a single bufferevent. */</doc>
+<mbr r='bufferevent_rate_limit::next_in_group' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/bufferevent-internal.h:136:2)'/>
+<mbr r='bufferevent_rate_limit::group' o='128' t='struct bufferevent_rate_limit_group *'/>
+<mbr r='bufferevent_rate_limit::limit' o='192' t='struct ev_token_bucket'/>
+<mbr r='bufferevent_rate_limit::cfg' o='384' t='struct ev_token_bucket_cfg *'/>
+<mbr r='bufferevent_rate_limit::refill_bucket_event' o='448' t='struct event'/>

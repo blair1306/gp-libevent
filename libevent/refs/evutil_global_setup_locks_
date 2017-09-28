@@ -1,0 +1,3 @@
+<dec f='codebrowser/evthread-internal.h' l='389' type='int evutil_global_setup_locks_(const int enable_locks)'/>
+<use f='codebrowser/event.c' l='3868' u='c' c='event_global_setup_locks_'/>
+<def f='codebrowser/evutil.c' l='1810' ll='1814' type='int evutil_global_setup_locks_(const int enable_locks)'/>

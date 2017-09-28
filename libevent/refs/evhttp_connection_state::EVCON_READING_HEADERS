@@ -1,0 +1,6 @@
+<dec f='codebrowser/http-internal.h' l='45' type='4'/>
+<doc f='codebrowser/http-internal.h' l='45'>/**&lt; reading request/response headers */</doc>
+<use f='codebrowser/http.c' l='415' c='evhttp_connected'/>
+<use f='codebrowser/http.c' l='1130' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1487' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2250' u='r' c='evhttp_read_firstline'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='122' type='void (*)(struct evhttp_request *, void *)'/>
+<offset>1408</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='117'>/*
+	 * Chunked data callback - call for each completed chunk if
+	 * specified.  If not specified, all the data is delivered via
+	 * the regular callback.
+	 */</doc>
+<use f='codebrowser/http.c' l='964' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='966' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1064' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1087' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1089' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='4034' u='w' c='evhttp_request_set_chunked_cb'/>

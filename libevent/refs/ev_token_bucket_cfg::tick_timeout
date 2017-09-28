@@ -1,0 +1,19 @@
+<dec f='codebrowser/ratelim-internal.h' l='60' type='struct timeval'/>
+<offset>256</offset>
+<doc f='codebrowser/ratelim-internal.h' l='58'>/* How long is a tick?  Note that fractions of a millisecond are
+	 * ignored. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='169' u='a' c='ev_token_bucket_cfg_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='286' u='a' c='bufferevent_decrement_read_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='324' u='a' c='bufferevent_decrement_write_buckets_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='436' u='a' c='bev_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='629' u='a' c='bufferevent_set_rate_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='660' u='a' c='bufferevent_rate_limit_group_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='683' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='693' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='986' u='a' c='bufferevent_decrement_read_limit'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='1015' u='a' c='bufferevent_decrement_write_limit'/>

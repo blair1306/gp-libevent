@@ -1,0 +1,4 @@
+<dec f='codebrowser/evthread-internal.h' l='398' type='void evthreadimpl_disable_lock_debugging_()'/>
+<doc f='codebrowser/evthread-internal.h' l='397'>/** Disable locking for internal usage (like global shutdown) */</doc>
+<use f='codebrowser/event.c' l='3819' u='c' c='event_free_debug_globals_locks'/>
+<def f='codebrowser/evthread.c' l='87' ll='90' type='void evthreadimpl_disable_lock_debugging_()'/>

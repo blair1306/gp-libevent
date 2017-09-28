@@ -1,0 +1,4 @@
+<dec f='codebrowser/bufferevent-internal.h' l='114' type='ssize_t'/>
+<offset>1024</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='697' u='r' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='711' u='w' c='bufferevent_rate_limit_group_set_min_share'/>

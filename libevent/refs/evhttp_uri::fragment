@@ -1,0 +1,15 @@
+<dec f='codebrowser/http.c' l='4414' type='char *'/>
+<use f='codebrowser/http.c' l='4806' u='w' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4807' u='r' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='4837' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4837' u='r' c='evhttp_uri_free'/>
+<use f='codebrowser/http.c' l='4883' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4885' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4885' u='r' c='evhttp_uri_join'/>
+<use f='codebrowser/http.c' l='4940' u='r' c='evhttp_uri_get_fragment'/>
+<use f='codebrowser/http.c' l='5022' u='r' c='evhttp_uri_set_fragment'/>
+<use f='codebrowser/http.c' l='5022' u='r' c='evhttp_uri_set_fragment'/>
+<use f='codebrowser/http.c' l='5022' u='w' c='evhttp_uri_set_fragment'/>
+<use f='codebrowser/http.c' l='5022' u='w' c='evhttp_uri_set_fragment'/>
+<offset>448</offset>
+<doc f='codebrowser/http.c' l='4414'>/* fragment or NULL */</doc>

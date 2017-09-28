@@ -1,0 +1,5 @@
+<dec f='codebrowser/http.c' l='4627' type='0'/>
+<use f='codebrowser/http.c' l='4646' c='end_of_path'/>
+<use f='codebrowser/http.c' l='4669' u='r' c='end_of_path'/>
+<use f='codebrowser/http.c' l='4755' u='r' c='evhttp_uri_parse_with_flags'/>
+<use f='codebrowser/http.c' l='5003' u='r' c='evhttp_uri_set_path'/>

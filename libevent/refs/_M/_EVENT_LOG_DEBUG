@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event.h' l='714'/>
+<doc f='codebrowser/include/event2/event.h' l='712'>/* Obsolete names: these are deprecated, but older programs might use them.
+ * They violate the reserved-identifier namespace. */</doc>

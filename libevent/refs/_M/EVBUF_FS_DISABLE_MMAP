@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/buffer.h' l='550'/>
+<use f='codebrowser/buffer.c' l='3038' u='c'/>
+<doc f='codebrowser/include/event2/buffer.h' l='546'>/**
+   Flag for creating evbuffer_file_segment: Disable memory-map based
+   implementations.
+ */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='976' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='988' u='c'/>

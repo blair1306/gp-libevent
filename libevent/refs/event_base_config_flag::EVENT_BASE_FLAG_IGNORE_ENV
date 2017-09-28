@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/event.h' l='539' type='2'/>
+<doc f='codebrowser/include/event2/event.h' l='537'>/** Do not check the EVENT_* environment variables when configuring
+	    an event_base  */</doc>
+<use f='codebrowser/epoll.c' l='178' u='r' c='epoll_init'/>
+<use f='codebrowser/event.c' l='585' u='r' c='event_base_new_with_config'/>
+<use f='codebrowser/test/regress.c' l='2526' u='r' c='test_methods'/>
+<use f='codebrowser/test/regress.c' l='2693' u='r' c='test_base_environ'/>

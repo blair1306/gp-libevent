@@ -1,0 +1,4 @@
+<dec f='codebrowser/sample/hostcheck.h' l='27' type='int Curl_cert_hostcheck(const char * match_pattern, const char * hostname)'/>
+<def f='codebrowser/sample/hostcheck.c' l='205' ll='217' type='int Curl_cert_hostcheck(const char * match_pattern, const char * hostname)'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='94' u='c' c='matches_common_name'/>
+<use f='codebrowser/sample/openssl_hostname_validation.c' l='138' u='c' c='matches_subject_alternative_name'/>

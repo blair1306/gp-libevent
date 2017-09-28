@@ -1,0 +1,2 @@
+<def f='codebrowser/arc4random.c' l='252' ll='292' type='int arc4_seed_proc_sys_kernel_random_uuid()'/>
+<use f='codebrowser/arc4random.c' l='356' u='c' c='arc4_seed'/>

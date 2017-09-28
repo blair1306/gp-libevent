@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='1420' type='const char * event_get_version()'/>
+<def f='codebrowser/event.c' l='3405' ll='3409' type='const char * event_get_version()'/>
+<doc f='codebrowser/event.c' l='3403'>/* Functions for debugging */</doc>
+<use f='codebrowser/test/regress.c' l='2550' u='c' c='test_version'/>

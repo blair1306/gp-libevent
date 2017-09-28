@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/rpc.h' l='78'/>
+<doc f='codebrowser/include/event2/rpc.h' l='71'>/**
+   Determines if the member has been set in the message
+
+   @param msg the message to inspect
+   @param member the member variable to test for presences
+   @return 1 if it&apos;s present or 0 otherwise.
+*/</doc>
+<use f='codebrowser/test/regress_rpc.c' l='808' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='809' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='810' u='c'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/http-internal.h' l='142' type='struct boundq'/>
+<offset>128</offset>
+<use f='codebrowser/http.c' l='3544' u='a' c='evhttp_foreach_bound_socket'/>
+<use f='codebrowser/http.c' l='3581' u='a' c='evhttp_bind_listener'/>
+<use f='codebrowser/http.c' l='3581' u='a' c='evhttp_bind_listener'/>
+<use f='codebrowser/http.c' l='3581' u='a' c='evhttp_bind_listener'/>
+<use f='codebrowser/http.c' l='3602' u='a' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3628' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3628' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3628' u='a' c='evhttp_new_object'/>
+<use f='codebrowser/http.c' l='3680' u='a' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3681' u='a' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3723' u='a' c='evhttp_add_virtual_host'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/test/regress_http.c' l='1916' type='void http_postrequest_done(struct evhttp_request * , void * )'/>
+<use f='codebrowser/test/regress_http.c' l='1939' u='r' c='http_post_test'/>
+<use f='codebrowser/test/regress_http.c' l='1956' u='r' c='http_post_test'/>
+<def f='codebrowser/test/regress_http.c' l='2014' ll='2049' type='void http_postrequest_done(struct evhttp_request * req, void * arg)'/>
+<doc f='codebrowser/test/regress_http.c' l='1912'>/*
+ * HTTP POST test.
+ */</doc>

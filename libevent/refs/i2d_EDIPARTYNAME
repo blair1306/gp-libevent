@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='550' macro='1' type='int i2d_EDIPARTYNAME(EDIPARTYNAME * a, unsigned char ** out)'/>

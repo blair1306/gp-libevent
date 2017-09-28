@@ -1,0 +1,16 @@
+<dec f='codebrowser/util-internal.h' l='431' type='const char * evutil_format_sockaddr_port_(const struct sockaddr * sa, char * out, size_t outlen)'/>
+<use f='codebrowser/evdns.c' l='538' u='c' c='nameserver_probe_failed'/>
+<use f='codebrowser/evdns.c' l='570' u='c' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='588' u='c' c='nameserver_failed'/>
+<use f='codebrowser/evdns.c' l='624' u='c' c='nameserver_up'/>
+<use f='codebrowser/evdns.c' l='916' u='c' c='reply_handle'/>
+<use f='codebrowser/evdns.c' l='1394' u='c' c='nameserver_read'/>
+<use f='codebrowser/evdns.c' l='1484' u='c' c='nameserver_write_waiting'/>
+<use f='codebrowser/evdns.c' l='2325' u='c' c='nameserver_send_probe'/>
+<use f='codebrowser/evdns.c' l='2540' u='c' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2563' u='c' c='evdns_nameserver_add_impl_'/>
+<def f='codebrowser/evutil.c' l='2173' ll='2200' type='const char * evutil_format_sockaddr_port_(const struct sockaddr * sa, char * out, size_t outlen)'/>
+<use f='codebrowser/test/regress_http.c' l='4362' u='c' c='http_request_get_addr_on_close'/>
+<use f='codebrowser/test/regress_util.c' l='298' u='c' c='regress_sockaddr_port_format'/>
+<use f='codebrowser/test/regress_util.c' l='307' u='c' c='regress_sockaddr_port_format'/>
+<use f='codebrowser/test/regress_util.c' l='313' u='c' c='regress_sockaddr_port_format'/>

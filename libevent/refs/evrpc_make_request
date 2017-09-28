@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/rpc.h' l='400' type='int evrpc_make_request(struct evrpc_request_wrapper * ctx)'/>
+<def f='codebrowser/evrpc.c' l='798' ll='818' type='int evrpc_make_request(struct evrpc_request_wrapper * ctx)'/>
+<use f='codebrowser/evrpc.c' l='1094' u='c' c='evrpc_send_request_generic'/>
+<use f='codebrowser/test/regress_rpc.c' l='503' u='c' c='rpc_basic_client'/>

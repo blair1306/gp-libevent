@@ -1,0 +1,2 @@
+<dec f='include/dirent.h' l='162' type='struct dirent * readdir(DIR * __dirp)'/>
+<use f='codebrowser/sample/http-server.c' l='267' u='c' c='send_document_cb'/>

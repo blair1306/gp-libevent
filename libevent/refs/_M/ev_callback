@@ -1,0 +1,13 @@
+<dec f='codebrowser/event-internal.h' l='59'/>
+<use f='codebrowser/event.c' l='1327' u='c'/>
+<use f='codebrowser/event.c' l='1572' u='c'/>
+<use f='codebrowser/event.c' l='1616' u='c'/>
+<use f='codebrowser/event.c' l='1646' u='c'/>
+<use f='codebrowser/event.c' l='2079' u='c'/>
+<use f='codebrowser/event.c' l='2383' u='c'/>
+<use f='codebrowser/event.c' l='2419' u='c'/>
+<use f='codebrowser/event.c' l='2568' u='c'/>
+<use f='codebrowser/event.c' l='2682' u='c'/>
+<use f='codebrowser/event.c' l='2770' u='c'/>
+<use f='codebrowser/event.c' l='2874' u='c'/>
+<use f='codebrowser/event.c' l='3151' u='c'/>

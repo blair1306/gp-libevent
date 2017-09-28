@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='291' type='int (*)(struct bufferevent *)'/>
+<offset>384</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='290'>/** Called when the timeouts on the bufferevent have changed.*/</doc>
+<use f='codebrowser/bufferevent.c' l='500' u='r' c='bufferevent_set_timeouts'/>
+<use f='codebrowser/bufferevent.c' l='501' u='r' c='bufferevent_set_timeouts'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/evdns.c' l='311' type='struct request *'/>
+<use f='codebrowser/evdns.c' l='651' u='a' c='request_finished'/>
+<use f='codebrowser/evdns.c' l='749' u='r' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='750' u='r' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='759' u='a' c='evdns_requests_pump_waiting_queue'/>
+<use f='codebrowser/evdns.c' l='2441' u='a' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2446' u='w' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2446' u='r' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2839' u='a' c='request_submit'/>
+<use f='codebrowser/evdns.c' l='2875' u='a' c='evdns_cancel_request'/>
+<use f='codebrowser/evdns.c' l='3921' u='w' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4047' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4049' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4050' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4050' u='a' c='evdns_base_free_and_unlock'/>
+<offset>64</offset>
+<doc f='codebrowser/evdns.c' l='309'>/* A circular list of requests that we&apos;re waiting to send, but haven&apos;t
+	 * sent yet because there are too many requests inflight */</doc>

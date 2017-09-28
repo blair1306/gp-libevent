@@ -1,0 +1,10 @@
+<def f='codebrowser/evsignal-internal.h' l='39' ll='58'/>
+<size>160</size>
+<doc f='codebrowser/evsignal-internal.h' l='37'>/* Data structure for the default signal-handling implementation in signal.c
+ */</doc>
+<mbr r='evsig_info::ev_signal' o='0' t='struct event'/>
+<mbr r='evsig_info::ev_signal_pair' o='1024' t='int [2]'/>
+<mbr r='evsig_info::ev_signal_added' o='1088' t='int'/>
+<mbr r='evsig_info::ev_n_signals_added' o='1120' t='int'/>
+<mbr r='evsig_info::sh_old' o='1152' t='struct sigaction **'/>
+<mbr r='evsig_info::sh_old_max' o='1216' t='int'/>

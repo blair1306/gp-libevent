@@ -1,0 +1,8 @@
+<dec f='codebrowser/http-internal.h' l='43' type='3'/>
+<doc f='codebrowser/http-internal.h' l='43'>/**&lt; reading Request-Line (incoming conn) or
+				 **&lt; Status-Line (outgoing conn) */</doc>
+<use f='codebrowser/http.c' l='414' c='evhttp_connected'/>
+<use f='codebrowser/http.c' l='1125' c='evhttp_read_cb'/>
+<use f='codebrowser/http.c' l='1486' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='2692' u='r' c='evhttp_start_read_'/>
+<use f='codebrowser/http.c' l='4199' u='r' c='evhttp_get_request_connection'/>

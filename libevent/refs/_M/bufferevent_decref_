@@ -1,0 +1,6 @@
+<dec f='codebrowser/bufferevent-internal.h' l='377'/>
+<use f='codebrowser/buffer.c' l='545' u='c'/>
+<doc f='codebrowser/bufferevent-internal.h' l='374'>/** Internal: backwards compat macro for the now public function
+ * Decrement the reference count on bufev.  Returns 1 if it freed
+ * the bufferevent.*/</doc>
+<use f='codebrowser/bufferevent.c' l='775' u='c'/>

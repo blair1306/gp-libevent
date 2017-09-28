@@ -1,0 +1,3 @@
+<dec f='include/openssl/x509v3.h' l='233' type='X509_NAME *'/>
+<offset>128</offset>
+<doc f='include/openssl/x509v3.h' l='232'>/* If relativename then this contains the full distribution point name */</doc>

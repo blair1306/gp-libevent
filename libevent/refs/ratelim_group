@@ -1,0 +1,13 @@
+<def f='codebrowser/test/test-ratelim.c' l='78' type='struct bufferevent_rate_limit_group *'/>
+<use f='codebrowser/test/test-ratelim.c' l='191' u='r' c='echo_listenercb'/>
+<use f='codebrowser/test/test-ratelim.c' l='192' u='r' c='echo_listenercb'/>
+<use f='codebrowser/test/test-ratelim.c' l='231' u='r' c='check_group_bucket_levels_cb'/>
+<use f='codebrowser/test/test-ratelim.c' l='232' u='r' c='check_group_bucket_levels_cb'/>
+<use f='codebrowser/test/test-ratelim.c' l='233' u='r' c='check_group_bucket_levels_cb'/>
+<use f='codebrowser/test/test-ratelim.c' l='243' u='r' c='group_drain_cb'/>
+<use f='codebrowser/test/test-ratelim.c' l='244' u='r' c='group_drain_cb'/>
+<use f='codebrowser/test/test-ratelim.c' l='324' u='w' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='332' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='369' u='r' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='376' u='w' c='test_ratelimiting'/>
+<use f='codebrowser/test/test-ratelim.c' l='387' u='w' c='test_ratelimiting'/>

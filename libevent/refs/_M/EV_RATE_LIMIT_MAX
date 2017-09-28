@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='761'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='760'>/** Maximum configurable rate- or burst-limit. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='157' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='158' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='159' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='160' u='c'/>

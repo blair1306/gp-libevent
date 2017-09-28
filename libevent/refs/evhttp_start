@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http_compat.h' l='63' type='struct evhttp * evhttp_start(const char * address, uint16_t port)'/>
+<def f='codebrowser/http.c' l='3654' ll='3668' type='struct evhttp * evhttp_start(const char * address, uint16_t port)'/>
+<doc f='codebrowser/http.c' l='3650'>/*
+ * Start a web server on the specified address and port.
+ */</doc>

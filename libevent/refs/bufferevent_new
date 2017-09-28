@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/bufferevent_compat.h' l='78' type='struct bufferevent * bufferevent_new(int fd, bufferevent_data_cb readcb, bufferevent_data_cb writecb, bufferevent_event_cb errorcb, void * cbarg)'/>
+<def f='codebrowser/bufferevent_sock.c' l='556' ll='569' type='struct bufferevent * bufferevent_new(int fd, bufferevent_data_cb readcb, bufferevent_data_cb writecb, bufferevent_event_cb eventcb, void * cbarg)'/>
+<doc f='codebrowser/bufferevent_sock.c' l='545'>/*
+ * Create a new buffered event object.
+ *
+ * The read callback is invoked whenever we read new data.
+ * The write callback is invoked whenever the output buffer is drained.
+ * The error callback is invoked on a write/read error or on EOF.
+ *
+ * Both read and write callbacks maybe NULL.  The error callback is not
+ * allowed to be NULL and have to be provided always.
+ */</doc>
+<use f='codebrowser/test/regress_bufferevent.c' l='145' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='146' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='409' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='410' u='c' c='test_bufferevent_watermarks_impl'/>

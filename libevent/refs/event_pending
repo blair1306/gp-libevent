@@ -1,0 +1,31 @@
+<dec f='codebrowser/include/event2/event.h' l='1310' type='int event_pending(const struct event * ev, short events, struct timeval * tv)'/>
+<use f='codebrowser/bufferevent.c' l='975' u='c' c='bufferevent_generic_adj_existing_timeouts_'/>
+<use f='codebrowser/bufferevent.c' l='983' u='c' c='bufferevent_generic_adj_existing_timeouts_'/>
+<use f='codebrowser/bufferevent_openssl.c' l='991' u='c' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_openssl.c' l='992' u='c' c='set_open_callbacks'/>
+<use f='codebrowser/bufferevent_sock.c' l='135' u='c' c='bufferevent_socket_outbuf_cb'/>
+<def f='codebrowser/event.c' l='2327' ll='2360' type='int event_pending(const struct event * ev, short event, struct timeval * tv)'/>
+<doc f='codebrowser/event.c' l='2323'>/*
+ * Checks if a specific event is pending or scheduled.
+ */</doc>
+<use f='codebrowser/test/regress.c' l='1393' u='c' c='test_manipulate_active_events'/>
+<use f='codebrowser/test/regress.c' l='1398' u='c' c='test_manipulate_active_events'/>
+<use f='codebrowser/test/regress.c' l='2125' u='c' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='2126' u='c' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='2129' u='c' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='2130' u='c' c='test_nonpersist_readd'/>
+<use f='codebrowser/test/regress.c' l='2823' u='c' c='test_event_pending'/>
+<use f='codebrowser/test/regress.c' l='2824' u='c' c='test_event_pending'/>
+<use f='codebrowser/test/regress.c' l='2825' u='c' c='test_event_pending'/>
+<use f='codebrowser/test/regress.c' l='2826' u='c' c='test_event_pending'/>
+<use f='codebrowser/test/regress.c' l='2827' u='c' c='test_event_pending'/>
+<use f='codebrowser/test/regress.c' l='2828' u='c' c='test_event_pending'/>
+<use f='codebrowser/test/regress.c' l='2829' u='c' c='test_event_pending'/>
+<use f='codebrowser/test/regress.c' l='2875' u='c' c='test_event_closed_fd_poll'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='454' u='c' c='test_bufferevent_watermarks_impl'/>
+<use f='codebrowser/test/regress_et.c' l='180' u='c' c='test_edgetriggered_mix_error'/>
+<use f='codebrowser/test/regress_et.c' l='181' u='c' c='test_edgetriggered_mix_error'/>
+<use f='codebrowser/test/regress_et.c' l='187' u='c' c='test_edgetriggered_mix_error'/>
+<use f='codebrowser/test/regress_et.c' l='188' u='c' c='test_edgetriggered_mix_error'/>
+<use f='codebrowser/test/regress_ssl.c' l='251' u='c' c='bufferevent_openssl_check_freed'/>
+<use f='codebrowser/test/regress_ssl.c' l='252' u='c' c='bufferevent_openssl_check_freed'/>

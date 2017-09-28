@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>openssl-compat.h source code [codebrowser/openssl-compat.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/openssl-compat.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='openssl-compat.h.html'>openssl-compat.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/OPENSSL_COMPAT_H">OPENSSL_COMPAT_H</span></u></td></tr>
+<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/OPENSSL_COMPAT_H" data-ref="_M/OPENSSL_COMPAT_H">OPENSSL_COMPAT_H</dfn></u></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><u>#<span data-ppcond="4">if</span> (<a class="macro" href="../include/openssl/opensslv.h.html#33" title="0x1000207fL" data-ref="_M/OPENSSL_VERSION_NUMBER">OPENSSL_VERSION_NUMBER</a> &lt; 0x10100000L) || defined(<span class="macro" data-ref="_M/LIBRESSL_VERSION_NUMBER">LIBRESSL_VERSION_NUMBER</span>)</u></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><em>static</em> <a class="macro" href="util-internal.h.html#69" title="inline" data-ref="_M/inline"><b>inline</b></a> <a class="typedef" href="../include/openssl/bio.h.html#BIO_METHOD" title='BIO_METHOD' data-type='struct bio_method_st' data-ref="BIO_METHOD">BIO_METHOD</a> *<dfn class="decl def" id="BIO_meth_new" title='BIO_meth_new' data-ref="BIO_meth_new">BIO_meth_new</dfn>(<em>int</em> <dfn class="local col3 decl" id="5943type" title='type' data-type='int' data-ref="5943type">type</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="5944name" title='name' data-type='const char *' data-ref="5944name">name</dfn>)</td></tr>
+<tr><th id="7">7</th><td>{</td></tr>
+<tr><th id="8">8</th><td>	<a class="typedef" href="../include/openssl/bio.h.html#BIO_METHOD" title='BIO_METHOD' data-type='struct bio_method_st' data-ref="BIO_METHOD">BIO_METHOD</a> *<dfn class="local col5 decl" id="5945biom" title='biom' data-type='BIO_METHOD *' data-ref="5945biom">biom</dfn> = <a class="ref" href="../include/stdlib.h.html#calloc" title='calloc' data-ref="calloc">calloc</a>(<var>1</var>, <b>sizeof</b>(<a class="typedef" href="../include/openssl/bio.h.html#BIO_METHOD" title='BIO_METHOD' data-type='struct bio_method_st' data-ref="BIO_METHOD">BIO_METHOD</a>));</td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td>	<b>if</b> (<a class="local col5 ref" href="#5945biom" title='biom' data-ref="5945biom">biom</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) {</td></tr>
+<tr><th id="11">11</th><td>		<a class="local col5 ref" href="#5945biom" title='biom' data-ref="5945biom">biom</a>-&gt;<a class="ref" href="../include/openssl/bio.h.html#bio_method_st::type" title='bio_method_st::type' data-ref="bio_method_st::type">type</a> = <a class="local col3 ref" href="#5943type" title='type' data-ref="5943type">type</a>;</td></tr>
+<tr><th id="12">12</th><td>		<a class="local col5 ref" href="#5945biom" title='biom' data-ref="5945biom">biom</a>-&gt;<a class="ref" href="../include/openssl/bio.h.html#bio_method_st::name" title='bio_method_st::name' data-ref="bio_method_st::name">name</a> = <a class="local col4 ref" href="#5944name" title='name' data-ref="5944name">name</a>;</td></tr>
+<tr><th id="13">13</th><td>	}</td></tr>
+<tr><th id="14">14</th><td>	<b>return</b> <a class="local col5 ref" href="#5945biom" title='biom' data-ref="5945biom">biom</a>;</td></tr>
+<tr><th id="15">15</th><td>}</td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/BIO_meth_set_write" data-ref="_M/BIO_meth_set_write">BIO_meth_set_write</dfn>(b, f) (b)-&gt;bwrite = (f)</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/BIO_meth_set_read" data-ref="_M/BIO_meth_set_read">BIO_meth_set_read</dfn>(b, f) (b)-&gt;bread = (f)</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/BIO_meth_set_puts" data-ref="_M/BIO_meth_set_puts">BIO_meth_set_puts</dfn>(b, f) (b)-&gt;bputs = (f)</u></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/BIO_meth_set_ctrl" data-ref="_M/BIO_meth_set_ctrl">BIO_meth_set_ctrl</dfn>(b, f) (b)-&gt;ctrl = (f)</u></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/BIO_meth_set_create" data-ref="_M/BIO_meth_set_create">BIO_meth_set_create</dfn>(b, f) (b)-&gt;create = (f)</u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/BIO_meth_set_destroy" data-ref="_M/BIO_meth_set_destroy">BIO_meth_set_destroy</dfn>(b, f) (b)-&gt;destroy = (f)</u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/BIO_set_init" data-ref="_M/BIO_set_init">BIO_set_init</dfn>(b, val) (b)-&gt;init = (val)</u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/BIO_set_data" data-ref="_M/BIO_set_data">BIO_set_data</dfn>(b, val) (b)-&gt;ptr = (val)</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/BIO_set_shutdown" data-ref="_M/BIO_set_shutdown">BIO_set_shutdown</dfn>(b, val) (b)-&gt;shutdown = (val)</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/BIO_get_init" data-ref="_M/BIO_get_init">BIO_get_init</dfn>(b) (b)-&gt;init</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/BIO_get_data" data-ref="_M/BIO_get_data">BIO_get_data</dfn>(b) (b)-&gt;ptr</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/BIO_get_shutdown" data-ref="_M/BIO_get_shutdown">BIO_get_shutdown</dfn>(b) (b)-&gt;shutdown</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/TLS_method" data-ref="_M/TLS_method">TLS_method</dfn> SSLv23_method</u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="4">endif</span> /* (OPENSSL_VERSION_NUMBER &lt; 0x10100000L) || defined(LIBRESSL_VERSION_NUMBER) */</u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><u>#<span data-ppcond="1">endif</span> /* OPENSSL_COMPAT_H */</u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='bufferevent_openssl.c.html'>codebrowser/bufferevent_openssl.c</a><br/>Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

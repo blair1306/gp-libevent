@@ -1,0 +1,5 @@
+<dec f='codebrowser/evsignal-internal.h' l='60' type='void evsig_dealloc_(struct event_base * )'/>
+<use f='codebrowser/epoll.c' l='526' u='c' c='epoll_dealloc'/>
+<use f='codebrowser/poll.c' l='331' u='c' c='poll_dealloc'/>
+<use f='codebrowser/select.c' l='341' u='c' c='select_dealloc'/>
+<def f='codebrowser/signal.c' l='412' ll='451' type='void evsig_dealloc_(struct event_base * base)'/>

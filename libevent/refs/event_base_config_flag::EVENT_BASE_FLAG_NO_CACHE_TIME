@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/event.h' l='550' type='8'/>
+<doc f='codebrowser/include/event2/event.h' l='547'>/** Instead of checking the current time every time the event loop is
+	    ready to run timeout callbacks, check after each timeout callback.
+	 */</doc>
+<use f='codebrowser/event.c' l='431' u='r' c='update_time_cache'/>
+<use f='codebrowser/test/regress.c' l='3236' u='r' c='test_gettimeofday_cached'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/listener.h' l='145' type='void evconnlistener_free(struct evconnlistener * lev)'/>
+<use f='codebrowser/http.c' l='3565' u='c' c='evhttp_accept_socket_with_handle'/>
+<use f='codebrowser/http.c' l='3603' u='c' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3683' u='c' c='evhttp_free'/>
+<def f='codebrowser/listener.c' l='263' ll='272' type='void evconnlistener_free(struct evconnlistener * lev)'/>
+<use f='codebrowser/sample/hello-world.c' l='80' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='290' u='c' c='main'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='781' u='c' c='test_bufferevent_connect'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='822' u='c' c='test_bufferevent_connect_fail_eventcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1169' u='c' c='test_bufferevent_trigger'/>
+<use f='codebrowser/test/regress_dns.c' l='1294' u='c' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_listener.c' l='141' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='143' u='c' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='185' u='c' c='regress_listener_error'/>
+<use f='codebrowser/test/regress_listener.c' l='219' u='c' c='regress_listener_error_unlock'/>
+<use f='codebrowser/test/test-ratelim.c' l='384' u='c' c='test_ratelimiting'/>

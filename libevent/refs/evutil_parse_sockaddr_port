@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/util.h' l='628' type='int evutil_parse_sockaddr_port(const char * str, struct sockaddr * out, int * outlen)'/>
+<use f='codebrowser/evdns.c' l='2619' u='c' c='evdns_base_nameserver_ip_add'/>
+<use f='codebrowser/evdns.c' l='3502' u='c' c='evdns_base_set_option_impl'/>
+<use f='codebrowser/evdns.c' l='4137' u='c' c='evdns_base_parse_hosts_line'/>
+<def f='codebrowser/evutil.c' l='2070' ll='2171' type='int evutil_parse_sockaddr_port(const char * ip_as_string, struct sockaddr * out, int * outlen)'/>
+<use f='codebrowser/sample/le-proxy.c' l='239' u='c' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='253' u='c' c='main'/>
+<use f='codebrowser/test/regress_util.c' l='239' u='c' c='regress_sockaddr_port_parse'/>
+<use f='codebrowser/test/regress_util.c' l='295' u='c' c='regress_sockaddr_port_format'/>
+<use f='codebrowser/test/regress_util.c' l='304' u='c' c='regress_sockaddr_port_format'/>
+<use f='codebrowser/test/regress_util.c' l='350' u='c' c='test_evutil_sockaddr_predicates'/>
+<use f='codebrowser/test/regress_util.c' l='823' u='c' c='test_ai_eq_'/>

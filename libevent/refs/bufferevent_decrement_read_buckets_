@@ -1,0 +1,4 @@
+<dec f='codebrowser/bufferevent-internal.h' l='495' type='int bufferevent_decrement_read_buckets_(struct bufferevent_private * bev, ssize_t bytes)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='568' u='c' c='decrement_buckets'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='272' ll='308' type='int bufferevent_decrement_read_buckets_(struct bufferevent_private * bev, ssize_t bytes)'/>
+<use f='codebrowser/bufferevent_sock.c' l='209' u='c' c='bufferevent_readcb'/>

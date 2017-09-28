@@ -1,0 +1,11 @@
+<dec f='codebrowser/util-internal.h' l='323' type='int32_t evutil_weakrand_(struct evutil_weakrand_state * seed)'/>
+<def f='codebrowser/evutil.c' l='2416' ll='2429' macro='1' type='int32_t evutil_weakrand_(struct evutil_weakrand_state * state)'/>
+<use f='codebrowser/evutil.c' l='2442' u='c' c='evutil_weakrand_range_'/>
+<use f='codebrowser/test/regress.c' l='2418' macro='1' u='c'/>
+<use f='codebrowser/test/regress_buffer.c' l='1005' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_minheap.c' l='38' macro='1' u='c'/>
+<use f='codebrowser/test/regress_minheap.c' l='39' macro='1' u='c'/>
+<use f='codebrowser/test/regress_util.c' l='880' u='c' c='test_evutil_rand'/>
+<use f='codebrowser/test/regress_util.c' l='881' u='c' c='test_evutil_rand'/>
+<use f='codebrowser/test/test-ratelim.c' l='117' u='c' c='loud_writecb'/>
+<use f='codebrowser/test/test-time.c' l='57' u='c' c='rand_int'/>

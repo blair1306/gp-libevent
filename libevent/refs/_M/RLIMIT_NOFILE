@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/resource.h' l='63'/>
+<use f='codebrowser/test/bench.c' l='172' u='c'/>
+<use f='codebrowser/test/bench_cascade.c' l='167' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='208' u='c'/>
+<use f='codebrowser/test/test-fdleak.c' l='227' u='c'/>

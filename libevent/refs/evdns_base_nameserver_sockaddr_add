@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='345' type='int evdns_base_nameserver_sockaddr_add(struct evdns_base * base, const struct sockaddr * sa, socklen_t len, unsigned int flags)'/>
+<def f='codebrowser/evdns.c' l='2642' ll='2652' type='int evdns_base_nameserver_sockaddr_add(struct evdns_base * base, const struct sockaddr * sa, socklen_t len, unsigned int flags)'/>
+<use f='codebrowser/test/regress_dns.c' l='409' u='c' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='2003' u='c' c='test_getaddrinfo_async_cancel_stress'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/dns.h' l='642' type='int evdns_server_request_add_ptr_reply(struct evdns_server_request * req, struct in_addr * in, const char * inaddr_name, const char * hostname, int ttl)'/>
+<def f='codebrowser/evdns.c' l='1849' ll='1870' type='int evdns_server_request_add_ptr_reply(struct evdns_server_request * req, struct in_addr * in, const char * inaddr_name, const char * hostname, int ttl)'/>
+<doc f='codebrowser/evdns.c' l='1848'>/* exported function */</doc>
+<use f='codebrowser/sample/dns-example.c' l='123' u='c' c='evdns_server_callback'/>
+<use f='codebrowser/test/regress_dns.c' l='259' u='c' c='dns_server_request_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='266' u='c' c='dns_server_request_cb'/>

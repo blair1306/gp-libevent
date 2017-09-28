@@ -1,0 +1,4 @@
+<dec f='codebrowser/test/tinytest.h' l='47' type='void *(*)(const struct testcase_t *)'/>
+<offset>0</offset>
+<doc f='codebrowser/test/tinytest.h' l='46'>/** Return a new structure for use by a given testcase. */</doc>
+<use f='codebrowser/test/tinytest.c' l='97' u='r' c='testcase_run_bare_'/>

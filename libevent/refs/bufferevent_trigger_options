@@ -1,0 +1,5 @@
+<def f='codebrowser/include/event2/bufferevent.h' l='623' ll='632'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='619'>/**
+   Flags for bufferevent_trigger(_event) that modify when and how to trigger
+   the callback.
+*/</doc>

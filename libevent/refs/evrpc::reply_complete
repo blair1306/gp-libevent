@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='83' type='int (*)(void *)'/>
+<use f='codebrowser/evrpc.c' l='413' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='1126' u='w' c='evrpc_register_object'/>
+<offset>640</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='82'>/* verifies that the reply is valid */</doc>

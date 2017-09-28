@@ -1,0 +1,5 @@
+<dec f='codebrowser/evbuffer-internal.h' l='297'/>
+<use f='codebrowser/buffer.c' l='1002' u='c'/>
+<use f='codebrowser/buffer.c' l='1045' u='c'/>
+<use f='codebrowser/buffer.c' l='1091' u='c'/>
+<use f='codebrowser/buffer.c' l='1340' u='c'/>

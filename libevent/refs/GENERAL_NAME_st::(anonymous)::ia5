@@ -1,0 +1,4 @@
+<dec f='include/openssl/x509v3.h' l='202' type='ASN1_IA5STRING *'/>
+<offset>0</offset>
+<doc f='include/openssl/x509v3.h' l='202'>/* rfc822Name, dNSName,
+                                 * uniformResourceIdentifier */</doc>

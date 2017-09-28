@@ -1,0 +1,3 @@
+<dec f='codebrowser/evmap-internal.h' l='85' type='int evmap_signal_del_(struct event_base * base, int signum, struct event * ev)'/>
+<use f='codebrowser/event.c' l='2818' u='c' c='event_del_nolock_'/>
+<def f='codebrowser/evmap.c' l='467' ll='487' type='int evmap_signal_del_(struct event_base * base, int sig, struct event * ev)'/>

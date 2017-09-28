@@ -1,0 +1,7 @@
+<dec f='codebrowser/evrpc-internal.h' l='180' type='struct evhttp_request *'/>
+<use f='codebrowser/evrpc.c' l='675' u='w' c='evrpc_schedule_request'/>
+<use f='codebrowser/evrpc.c' l='721' u='r' c='evrpc_schedule_request_closure'/>
+<use f='codebrowser/evrpc.c' l='868' u='w' c='evrpc_reply_done'/>
+<use f='codebrowser/evrpc.c' l='916' u='r' c='evrpc_reply_done_closure'/>
+<offset>320</offset>
+<doc f='codebrowser/evrpc-internal.h' l='179'>/* the actual  request */</doc>

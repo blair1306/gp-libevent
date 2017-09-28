@@ -1,0 +1,19 @@
+<dec f='codebrowser/include/event2/buffer.h' l='414' type='1'/>
+<use f='codebrowser/buffer.c' l='1632' c='evbuffer_search_eol'/>
+<doc f='codebrowser/include/event2/buffer.h' l='412'>/** An EOL is an LF, optionally preceded by a CR.  This style is
+	 * most useful for implementing text-based internet protocols. */</doc>
+<use f='codebrowser/http.c' l='911' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1985' u='r' c='evhttp_parse_firstline_'/>
+<use f='codebrowser/http.c' l='2058' u='r' c='evhttp_parse_headers_'/>
+<use f='codebrowser/test/regress_buffer.c' l='1244' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1249' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1254' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1259' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1266' u='r' c='test_evbuffer_readln'/>
+<use f='codebrowser/test/regress_buffer.c' l='1449' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1454' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1460' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_http.c' l='3145' u='r' c='http_chunked_errorcb'/>
+<use f='codebrowser/test/regress_http.c' l='3161' u='r' c='http_chunked_errorcb'/>
+<use f='codebrowser/test/regress_http.c' l='3175' u='r' c='http_chunked_errorcb'/>
+<use f='codebrowser/test/regress_http.c' l='3191' u='r' c='http_chunked_errorcb'/>

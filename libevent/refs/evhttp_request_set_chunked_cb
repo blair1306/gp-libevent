@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='556' type='void evhttp_request_set_chunked_cb(struct evhttp_request * , void (*)(struct evhttp_request *, void *) cb)'/>
+<def f='codebrowser/http.c' l='4030' ll='4035' type='void evhttp_request_set_chunked_cb(struct evhttp_request * req, void (*)(struct evhttp_request *, void *) cb)'/>
+<use f='codebrowser/test/regress_http.c' l='3420' u='c' c='http_stream_in_test_'/>
+<use f='codebrowser/test/regress_http.c' l='3490' u='c' c='http_stream_in_cancel_test'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/evbuffer-internal.h' l='338' type='void evbuffer_set_parent_(struct evbuffer * buf, struct bufferevent * bev)'/>
+<def f='codebrowser/buffer.c' l='446' ll='452' type='void evbuffer_set_parent_(struct evbuffer * buf, struct bufferevent * bev)'/>
+<doc f='codebrowser/evbuffer-internal.h' l='337'>/** Set the parent bufferevent object for buf to bev */</doc>
+<use f='codebrowser/bufferevent.c' l='360' u='c' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent.c' l='361' u='c' c='bufferevent_init_common_'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/bufferevent-internal.h' l='99' type='unsigned int'/>
+<offset>707</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='96'>/** True iff we were unable to suspend one of the bufferevents in the
+	 * group for writing the last time we tried, and we should try
+	 * again. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='380' u='w' c='bev_group_suspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='522' u='w' c='bev_group_unsuspend_writing_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='546' u='r' c='bev_group_refill_callback_'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='86' type='void (*)(struct evbuffer *, void *)'/>
+<use f='codebrowser/evrpc.c' l='424' u='r' c='evrpc_request_done'/>
+<use f='codebrowser/evrpc.c' l='1127' u='w' c='evrpc_register_object'/>
+<offset>704</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='85'>/* marshals the reply into a buffer */</doc>

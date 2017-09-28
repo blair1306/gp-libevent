@@ -1,0 +1,4 @@
+<dec f='codebrowser/compat/sys/queue.h' l='119'/>
+<doc f='codebrowser/compat/sys/queue.h' l='116'>/*
+ * Singly-linked List functions.
+ */</doc>

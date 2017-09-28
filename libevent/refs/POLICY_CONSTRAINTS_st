@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='337' ll='340'/>
+<size>16</size>
+<mbr r='POLICY_CONSTRAINTS_st::requireExplicitPolicy' o='0' t='ASN1_INTEGER *'/>
+<mbr r='POLICY_CONSTRAINTS_st::inhibitPolicyMapping' o='64' t='ASN1_INTEGER *'/>

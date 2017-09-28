@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='450'/>
+<doc f='codebrowser/include/event2/event-config.h' l='449'>/* The size of a `long long&apos;, as computed by sizeof. */</doc>

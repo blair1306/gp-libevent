@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/util.h' l='862' type='void evutil_secure_rng_add_bytes(const char * dat, size_t datlen)'/>
+<def f='codebrowser/evutil_rand.c' l='196' ll='201' type='void evutil_secure_rng_add_bytes(const char * buf, size_t n)'/>

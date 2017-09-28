@@ -1,0 +1,20 @@
+<dec f='codebrowser/include/event2/event.h' l='799'/>
+<doc f='codebrowser/include/event2/event.h' l='797'>/** Block until we have an active event, then exit once all active events
+ * have had their callbacks run. */</doc>
+<use f='codebrowser/event.c' l='1965' u='c'/>
+<use f='codebrowser/test/bench.c' l='110' u='c'/>
+<use f='codebrowser/test/bench.c' l='123' u='c'/>
+<use f='codebrowser/test/regress.c' l='2114' u='c'/>
+<use f='codebrowser/test/regress.c' l='2295' u='c'/>
+<use f='codebrowser/test/regress.c' l='2302' u='c'/>
+<use f='codebrowser/test/regress.c' l='2878' u='c'/>
+<use f='codebrowser/test/regress.c' l='2915' u='c'/>
+<use f='codebrowser/test/regress.c' l='2925' u='c'/>
+<use f='codebrowser/test/regress.c' l='2939' u='c'/>
+<use f='codebrowser/test/regress.c' l='3041' u='c'/>
+<use f='codebrowser/test/regress.c' l='3060' u='c'/>
+<use f='codebrowser/test/regress.c' l='3350' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1219' u='c'/>
+<use f='codebrowser/test/regress_et.c' l='132' u='c'/>
+<use f='codebrowser/test/regress_et.c' l='133' u='c'/>
+<use f='codebrowser/test/regress_listener.c' l='213' u='c'/>

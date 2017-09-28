@@ -1,0 +1,5 @@
+<def f='codebrowser/time-internal.h' l='64' ll='88'/>
+<size>40</size>
+<mbr r='evutil_monotonic_timer::monotonic_clock' o='0' t='int'/>
+<mbr r='evutil_monotonic_timer::adjust_monotonic_clock' o='64' t='struct timeval'/>
+<mbr r='evutil_monotonic_timer::last_time' o='192' t='struct timeval'/>

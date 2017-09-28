@@ -1,0 +1,37 @@
+<dec f='codebrowser/evdns.c' l='313' type='struct nameserver *'/>
+<use f='codebrowser/evdns.c' l='1336' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1338' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1343' u='w' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1343' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1344' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1349' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1351' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1352' u='w' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1352' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1356' u='w' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1356' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1357' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1362' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1363' u='w' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='1363' u='r' c='nameserver_pick'/>
+<use f='codebrowser/evdns.c' l='2377' u='r' c='evdns_base_count_nameservers'/>
+<use f='codebrowser/evdns.c' l='2383' u='r' c='evdns_base_count_nameservers'/>
+<use f='codebrowser/evdns.c' l='2403' u='r' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2404' u='r' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2425' u='w' c='evdns_base_clear_nameservers_and_suspend'/>
+<use f='codebrowser/evdns.c' l='2489' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2489' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2543' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2545' u='w' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2547' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2548' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2549' u='r' c='evdns_nameserver_add_impl_'/>
+<use f='codebrowser/evdns.c' l='2662' u='r' c='evdns_base_get_nameserver_addr'/>
+<use f='codebrowser/evdns.c' l='2664' u='r' c='evdns_base_get_nameserver_addr'/>
+<use f='codebrowser/evdns.c' l='3649' u='r' c='evdns_base_resolv_conf_parse_impl'/>
+<use f='codebrowser/evdns.c' l='3931' u='w' c='evdns_base_new'/>
+<use f='codebrowser/evdns.c' l='4054' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4059' u='r' c='evdns_base_free_and_unlock'/>
+<use f='codebrowser/evdns.c' l='4062' u='w' c='evdns_base_free_and_unlock'/>
+<offset>128</offset>
+<doc f='codebrowser/evdns.c' l='312'>/* A circular list of nameservers. */</doc>

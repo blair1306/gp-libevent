@@ -1,0 +1,7 @@
+<def f='codebrowser/include/event2/rpc_struct.h' l='44' ll='54'/>
+<size>16</size>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='41'>/**
+ * provides information about the completed RPC request.
+ */</doc>
+<mbr r='evrpc_status::error' o='0' t='int'/>
+<mbr r='evrpc_status::http_req' o='64' t='struct evhttp_request *'/>

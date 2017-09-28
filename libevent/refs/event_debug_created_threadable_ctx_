@@ -1,0 +1,15 @@
+<def f='codebrowser/event.c' l='216' type='int'/>
+<use f='codebrowser/event.c' l='676' u='w' c='event_base_new_with_config'/>
+<doc f='codebrowser/event.c' l='206'>/**
+ * @brief debug mode variable which is set for any function/structure that needs
+ *        to be shared across threads (if thread support is enabled).
+ *
+ *        When and if evthreads are initialized, this variable will be evaluated,
+ *        and if set to something other than zero, this means the evthread setup 
+ *        functions were called out of order.
+ *
+ *        See: &quot;Locks and threading&quot; in the documentation.
+ */</doc>
+<dec f='codebrowser/evthread.c' l='49' type='int'/>
+<use f='codebrowser/evthread.c' l='99' u='r' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/evthread.c' l='142' u='r' c='evthread_set_condition_callbacks'/>

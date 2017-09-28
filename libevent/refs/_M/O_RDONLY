@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/fcntl-linux.h' l='43'/>
+<use f='codebrowser/evutil.c' l='147' u='c'/>
+<use f='codebrowser/arc4random.c' l='264' u='c'/>
+<use f='codebrowser/arc4random.c' l='305' u='c'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='123' u='c'/>
+<use f='codebrowser/sample/http-server.c' l='290' u='c'/>

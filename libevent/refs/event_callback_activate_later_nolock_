@@ -1,0 +1,4 @@
+<dec f='codebrowser/event-internal.h' l='439' type='int event_callback_activate_later_nolock_(struct event_base * base, struct event_callback * evcb)'/>
+<use f='codebrowser/event.c' l='2941' u='c' c='event_active_later_nolock_'/>
+<def f='codebrowser/event.c' l='2986' ll='2997' type='int event_callback_activate_later_nolock_(struct event_base * base, struct event_callback * evcb)'/>
+<use f='codebrowser/event.c' l='3081' u='c' c='event_deferred_cb_schedule_'/>

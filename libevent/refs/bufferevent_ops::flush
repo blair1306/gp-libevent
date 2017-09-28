@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='294' type='int (*)(struct bufferevent *, short, enum bufferevent_flush_mode)'/>
+<offset>448</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='293'>/** Called to flush data. */</doc>
+<use f='codebrowser/bufferevent.c' l='650' u='r' c='bufferevent_flush'/>
+<use f='codebrowser/bufferevent.c' l='651' u='r' c='bufferevent_flush'/>

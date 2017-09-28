@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/dns.h' l='408' type='struct evdns_request * evdns_base_resolve_reverse_ipv6(struct evdns_base * base, const struct in6_addr * in, int flags, evdns_callback_type callback, void * ptr)'/>
+<def f='codebrowser/evdns.c' l='2987' ll='3020' type='struct evdns_request * evdns_base_resolve_reverse_ipv6(struct evdns_base * base, const struct in6_addr * in, int flags, evdns_callback_type callback, void * ptr)'/>
+<use f='codebrowser/evdns.c' l='3023' u='c' c='evdns_resolve_reverse_ipv6'/>
+<use f='codebrowser/test/regress_dns.c' l='439' u='c' c='dns_server'/>

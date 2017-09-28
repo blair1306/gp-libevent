@@ -1,0 +1,4 @@
+<dec f='codebrowser/evthread-internal.h' l='394' type='struct evthread_lock_callbacks * evthread_get_lock_callbacks()'/>
+<def f='codebrowser/evthread.c' l='77' ll='81' type='struct evthread_lock_callbacks * evthread_get_lock_callbacks()'/>
+<use f='codebrowser/evthread.c' l='95' u='c' c='evthread_set_lock_callbacks'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='308' u='c' c='use_lock_unlock_profiler'/>

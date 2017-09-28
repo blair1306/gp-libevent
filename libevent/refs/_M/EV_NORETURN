@@ -1,0 +1,5 @@
+<dec f='codebrowser/log-internal.h' l='38'/>
+<use f='codebrowser/log-internal.h' l='58' u='c'/>
+<use f='codebrowser/log-internal.h' l='62' u='c'/>
+<use f='codebrowser/log-internal.h' l='66' u='c'/>
+<use f='codebrowser/log.c' l='61' u='c'/>

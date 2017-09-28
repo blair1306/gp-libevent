@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>hostcheck.c source code [codebrowser/sample/hostcheck.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/sample/hostcheck.c'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>sample</a>/<a href='hostcheck.c.html'>hostcheck.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/***************************************************************************</i></td></tr>
+<tr><th id="2">2</th><td><i> *                                  _   _ ____  _</i></td></tr>
+<tr><th id="3">3</th><td><i> *  Project                     ___| | | |  _ \| |</i></td></tr>
+<tr><th id="4">4</th><td><i> *                             / __| | | | |_) | |</i></td></tr>
+<tr><th id="5">5</th><td><i> *                            | (__| |_| |  _ &lt;| |___</i></td></tr>
+<tr><th id="6">6</th><td><i> *                             \___|\___/|_| \_\_____|</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * Copyright (C) 1998 - 2012, Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.</i></td></tr>
+<tr><th id="9">9</th><td><i> *</i></td></tr>
+<tr><th id="10">10</th><td><i> * This software is licensed as described in the file COPYING, which</i></td></tr>
+<tr><th id="11">11</th><td><i> * you should have received as part of this distribution. The terms</i></td></tr>
+<tr><th id="12">12</th><td><i> * are also available at <a href="http://curl.haxx.se/docs/copyright.html">http://curl.haxx.se/docs/copyright.html</a>.</i></td></tr>
+<tr><th id="13">13</th><td><i> *</i></td></tr>
+<tr><th id="14">14</th><td><i> * You may opt to use, copy, modify, merge, publish, distribute and/or sell</i></td></tr>
+<tr><th id="15">15</th><td><i> * copies of the Software, and permit persons to whom the Software is</i></td></tr>
+<tr><th id="16">16</th><td><i> * furnished to do so, under the terms of the COPYING file.</i></td></tr>
+<tr><th id="17">17</th><td><i> *</i></td></tr>
+<tr><th id="18">18</th><td><i> * This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY</i></td></tr>
+<tr><th id="19">19</th><td><i> * KIND, either express or implied.</i></td></tr>
+<tr><th id="20">20</th><td><i> *</i></td></tr>
+<tr><th id="21">21</th><td><i> ***************************************************************************/</i></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><i>/* This file is an amalgamation of hostcheck.c and most of rawstr.c</i></td></tr>
+<tr><th id="24">24</th><td><i>   from cURL.  The contents of the COPYING file mentioned above are:</i></td></tr>
+<tr><th id="25">25</th><td><i></i></td></tr>
+<tr><th id="26">26</th><td><i>COPYRIGHT AND PERMISSION NOTICE</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>Copyright (c) 1996 - 2013, Daniel Stenberg, &lt;daniel@haxx.se&gt;.</i></td></tr>
+<tr><th id="29">29</th><td><i></i></td></tr>
+<tr><th id="30">30</th><td><i>All rights reserved.</i></td></tr>
+<tr><th id="31">31</th><td><i></i></td></tr>
+<tr><th id="32">32</th><td><i>Permission to use, copy, modify, and distribute this software for any purpose</i></td></tr>
+<tr><th id="33">33</th><td><i>with or without fee is hereby granted, provided that the above copyright</i></td></tr>
+<tr><th id="34">34</th><td><i>notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="35">35</th><td><i></i></td></tr>
+<tr><th id="36">36</th><td><i>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</i></td></tr>
+<tr><th id="37">37</th><td><i>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</i></td></tr>
+<tr><th id="38">38</th><td><i>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN</i></td></tr>
+<tr><th id="39">39</th><td><i>NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,</i></td></tr>
+<tr><th id="40">40</th><td><i>DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR</i></td></tr>
+<tr><th id="41">41</th><td><i>OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE</i></td></tr>
+<tr><th id="42">42</th><td><i>OR OTHER DEALINGS IN THE SOFTWARE.</i></td></tr>
+<tr><th id="43">43</th><td><i></i></td></tr>
+<tr><th id="44">44</th><td><i>Except as contained in this notice, the name of a copyright holder shall not</i></td></tr>
+<tr><th id="45">45</th><td><i>be used in advertising or otherwise to promote the sale, use or other dealings</i></td></tr>
+<tr><th id="46">46</th><td><i>in this Software without prior written authorization of the copyright holder.</i></td></tr>
+<tr><th id="47">47</th><td><i>*/</i></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><u>#include <a href="hostcheck.h.html">"hostcheck.h"</a></u></td></tr>
+<tr><th id="50">50</th><td><u>#include <a href="../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><i  data-doc="Curl_raw_toupper">/* Portable, consistent toupper (remember EBCDIC). Do not use toupper() because</i></td></tr>
+<tr><th id="53">53</th><td><i  data-doc="Curl_raw_toupper">   its behavior is altered by the current locale. */</i></td></tr>
+<tr><th id="54">54</th><td><em>static</em> <em>char</em> <dfn class="tu decl def" id="Curl_raw_toupper" title='Curl_raw_toupper' data-type='char Curl_raw_toupper(char in)' data-ref="Curl_raw_toupper">Curl_raw_toupper</dfn>(<em>char</em> <dfn class="local col3 decl" id="3in" title='in' data-type='char' data-ref="3in">in</dfn>)</td></tr>
+<tr><th id="55">55</th><td>{</td></tr>
+<tr><th id="56">56</th><td>  <b>switch</b> (<a class="local col3 ref" href="#3in" title='in' data-ref="3in">in</a>) {</td></tr>
+<tr><th id="57">57</th><td>  <b>case</b> <kbd>'a'</kbd>:</td></tr>
+<tr><th id="58">58</th><td>    <b>return</b> <kbd>'A'</kbd>;</td></tr>
+<tr><th id="59">59</th><td>  <b>case</b> <kbd>'b'</kbd>:</td></tr>
+<tr><th id="60">60</th><td>    <b>return</b> <kbd>'B'</kbd>;</td></tr>
+<tr><th id="61">61</th><td>  <b>case</b> <kbd>'c'</kbd>:</td></tr>
+<tr><th id="62">62</th><td>    <b>return</b> <kbd>'C'</kbd>;</td></tr>
+<tr><th id="63">63</th><td>  <b>case</b> <kbd>'d'</kbd>:</td></tr>
+<tr><th id="64">64</th><td>    <b>return</b> <kbd>'D'</kbd>;</td></tr>
+<tr><th id="65">65</th><td>  <b>case</b> <kbd>'e'</kbd>:</td></tr>
+<tr><th id="66">66</th><td>    <b>return</b> <kbd>'E'</kbd>;</td></tr>
+<tr><th id="67">67</th><td>  <b>case</b> <kbd>'f'</kbd>:</td></tr>
+<tr><th id="68">68</th><td>    <b>return</b> <kbd>'F'</kbd>;</td></tr>
+<tr><th id="69">69</th><td>  <b>case</b> <kbd>'g'</kbd>:</td></tr>
+<tr><th id="70">70</th><td>    <b>return</b> <kbd>'G'</kbd>;</td></tr>
+<tr><th id="71">71</th><td>  <b>case</b> <kbd>'h'</kbd>:</td></tr>
+<tr><th id="72">72</th><td>    <b>return</b> <kbd>'H'</kbd>;</td></tr>
+<tr><th id="73">73</th><td>  <b>case</b> <kbd>'i'</kbd>:</td></tr>
+<tr><th id="74">74</th><td>    <b>return</b> <kbd>'I'</kbd>;</td></tr>
+<tr><th id="75">75</th><td>  <b>case</b> <kbd>'j'</kbd>:</td></tr>
+<tr><th id="76">76</th><td>    <b>return</b> <kbd>'J'</kbd>;</td></tr>
+<tr><th id="77">77</th><td>  <b>case</b> <kbd>'k'</kbd>:</td></tr>
+<tr><th id="78">78</th><td>    <b>return</b> <kbd>'K'</kbd>;</td></tr>
+<tr><th id="79">79</th><td>  <b>case</b> <kbd>'l'</kbd>:</td></tr>
+<tr><th id="80">80</th><td>    <b>return</b> <kbd>'L'</kbd>;</td></tr>
+<tr><th id="81">81</th><td>  <b>case</b> <kbd>'m'</kbd>:</td></tr>
+<tr><th id="82">82</th><td>    <b>return</b> <kbd>'M'</kbd>;</td></tr>
+<tr><th id="83">83</th><td>  <b>case</b> <kbd>'n'</kbd>:</td></tr>
+<tr><th id="84">84</th><td>    <b>return</b> <kbd>'N'</kbd>;</td></tr>
+<tr><th id="85">85</th><td>  <b>case</b> <kbd>'o'</kbd>:</td></tr>
+<tr><th id="86">86</th><td>    <b>return</b> <kbd>'O'</kbd>;</td></tr>
+<tr><th id="87">87</th><td>  <b>case</b> <kbd>'p'</kbd>:</td></tr>
+<tr><th id="88">88</th><td>    <b>return</b> <kbd>'P'</kbd>;</td></tr>
+<tr><th id="89">89</th><td>  <b>case</b> <kbd>'q'</kbd>:</td></tr>
+<tr><th id="90">90</th><td>    <b>return</b> <kbd>'Q'</kbd>;</td></tr>
+<tr><th id="91">91</th><td>  <b>case</b> <kbd>'r'</kbd>:</td></tr>
+<tr><th id="92">92</th><td>    <b>return</b> <kbd>'R'</kbd>;</td></tr>
+<tr><th id="93">93</th><td>  <b>case</b> <kbd>'s'</kbd>:</td></tr>
+<tr><th id="94">94</th><td>    <b>return</b> <kbd>'S'</kbd>;</td></tr>
+<tr><th id="95">95</th><td>  <b>case</b> <kbd>'t'</kbd>:</td></tr>
+<tr><th id="96">96</th><td>    <b>return</b> <kbd>'T'</kbd>;</td></tr>
+<tr><th id="97">97</th><td>  <b>case</b> <kbd>'u'</kbd>:</td></tr>
+<tr><th id="98">98</th><td>    <b>return</b> <kbd>'U'</kbd>;</td></tr>
+<tr><th id="99">99</th><td>  <b>case</b> <kbd>'v'</kbd>:</td></tr>
+<tr><th id="100">100</th><td>    <b>return</b> <kbd>'V'</kbd>;</td></tr>
+<tr><th id="101">101</th><td>  <b>case</b> <kbd>'w'</kbd>:</td></tr>
+<tr><th id="102">102</th><td>    <b>return</b> <kbd>'W'</kbd>;</td></tr>
+<tr><th id="103">103</th><td>  <b>case</b> <kbd>'x'</kbd>:</td></tr>
+<tr><th id="104">104</th><td>    <b>return</b> <kbd>'X'</kbd>;</td></tr>
+<tr><th id="105">105</th><td>  <b>case</b> <kbd>'y'</kbd>:</td></tr>
+<tr><th id="106">106</th><td>    <b>return</b> <kbd>'Y'</kbd>;</td></tr>
+<tr><th id="107">107</th><td>  <b>case</b> <kbd>'z'</kbd>:</td></tr>
+<tr><th id="108">108</th><td>    <b>return</b> <kbd>'Z'</kbd>;</td></tr>
+<tr><th id="109">109</th><td>  }</td></tr>
+<tr><th id="110">110</th><td>  <b>return</b> <a class="local col3 ref" href="#3in" title='in' data-ref="3in">in</a>;</td></tr>
+<tr><th id="111">111</th><td>}</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td><i  data-doc="Curl_raw_equal">/*</i></td></tr>
+<tr><th id="114">114</th><td><i  data-doc="Curl_raw_equal"> * Curl_raw_equal() is for doing "raw" case insensitive strings. This is meant</i></td></tr>
+<tr><th id="115">115</th><td><i  data-doc="Curl_raw_equal"> * to be locale independent and only compare strings we know are safe for</i></td></tr>
+<tr><th id="116">116</th><td><i  data-doc="Curl_raw_equal"> * this.  See <a href="http://daniel.haxx.se/blog/2008/10/15/strcasecmp-in-turkish/">http://daniel.haxx.se/blog/2008/10/15/strcasecmp-in-turkish/</a> for</i></td></tr>
+<tr><th id="117">117</th><td><i  data-doc="Curl_raw_equal"> * some further explanation to why this function is necessary.</i></td></tr>
+<tr><th id="118">118</th><td><i  data-doc="Curl_raw_equal"> *</i></td></tr>
+<tr><th id="119">119</th><td><i  data-doc="Curl_raw_equal"> * The function is capable of comparing a-z case insensitively even for</i></td></tr>
+<tr><th id="120">120</th><td><i  data-doc="Curl_raw_equal"> * non-ascii.</i></td></tr>
+<tr><th id="121">121</th><td><i  data-doc="Curl_raw_equal"> */</i></td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td><em>static</em> <em>int</em> <dfn class="tu decl def" id="Curl_raw_equal" title='Curl_raw_equal' data-type='int Curl_raw_equal(const char * first, const char * second)' data-ref="Curl_raw_equal">Curl_raw_equal</dfn>(<em>const</em> <em>char</em> *<dfn class="local col4 decl" id="4first" title='first' data-type='const char *' data-ref="4first">first</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="5second" title='second' data-type='const char *' data-ref="5second">second</dfn>)</td></tr>
+<tr><th id="124">124</th><td>{</td></tr>
+<tr><th id="125">125</th><td>  <b>while</b>(*<a class="local col4 ref" href="#4first" title='first' data-ref="4first">first</a> &amp;&amp; *<a class="local col5 ref" href="#5second" title='second' data-ref="5second">second</a>) {</td></tr>
+<tr><th id="126">126</th><td>    <b>if</b>(<a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col4 ref" href="#4first" title='first' data-ref="4first">first</a>) != <a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col5 ref" href="#5second" title='second' data-ref="5second">second</a>))</td></tr>
+<tr><th id="127">127</th><td>      <i>/* get out of the loop as soon as they don't match */</i></td></tr>
+<tr><th id="128">128</th><td>      <b>break</b>;</td></tr>
+<tr><th id="129">129</th><td>    <a class="local col4 ref" href="#4first" title='first' data-ref="4first">first</a>++;</td></tr>
+<tr><th id="130">130</th><td>    <a class="local col5 ref" href="#5second" title='second' data-ref="5second">second</a>++;</td></tr>
+<tr><th id="131">131</th><td>  }</td></tr>
+<tr><th id="132">132</th><td>  <i>/* we do the comparison here (possibly again), just to make sure that if the</i></td></tr>
+<tr><th id="133">133</th><td><i>     loop above is skipped because one of the strings reached zero, we must not</i></td></tr>
+<tr><th id="134">134</th><td><i>     return this as a successful match */</i></td></tr>
+<tr><th id="135">135</th><td>  <b>return</b> (<a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col4 ref" href="#4first" title='first' data-ref="4first">first</a>) == <a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col5 ref" href="#5second" title='second' data-ref="5second">second</a>));</td></tr>
+<tr><th id="136">136</th><td>}</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><em>static</em> <em>int</em> <dfn class="tu decl def" id="Curl_raw_nequal" title='Curl_raw_nequal' data-type='int Curl_raw_nequal(const char * first, const char * second, size_t max)' data-ref="Curl_raw_nequal">Curl_raw_nequal</dfn>(<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="6first" title='first' data-type='const char *' data-ref="6first">first</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="7second" title='second' data-type='const char *' data-ref="7second">second</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col8 decl" id="8max" title='max' data-type='size_t' data-ref="8max">max</dfn>)</td></tr>
+<tr><th id="139">139</th><td>{</td></tr>
+<tr><th id="140">140</th><td>  <b>while</b>(*<a class="local col6 ref" href="#6first" title='first' data-ref="6first">first</a> &amp;&amp; *<a class="local col7 ref" href="#7second" title='second' data-ref="7second">second</a> &amp;&amp; <a class="local col8 ref" href="#8max" title='max' data-ref="8max">max</a>) {</td></tr>
+<tr><th id="141">141</th><td>    <b>if</b>(<a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col6 ref" href="#6first" title='first' data-ref="6first">first</a>) != <a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col7 ref" href="#7second" title='second' data-ref="7second">second</a>)) {</td></tr>
+<tr><th id="142">142</th><td>      <b>break</b>;</td></tr>
+<tr><th id="143">143</th><td>    }</td></tr>
+<tr><th id="144">144</th><td>    <a class="local col8 ref" href="#8max" title='max' data-ref="8max">max</a>--;</td></tr>
+<tr><th id="145">145</th><td>    <a class="local col6 ref" href="#6first" title='first' data-ref="6first">first</a>++;</td></tr>
+<tr><th id="146">146</th><td>    <a class="local col7 ref" href="#7second" title='second' data-ref="7second">second</a>++;</td></tr>
+<tr><th id="147">147</th><td>  }</td></tr>
+<tr><th id="148">148</th><td>  <b>if</b>(<var>0</var> == <a class="local col8 ref" href="#8max" title='max' data-ref="8max">max</a>)</td></tr>
+<tr><th id="149">149</th><td>    <b>return</b> <var>1</var>; <i>/* they are equal this far */</i></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td>  <b>return</b> <a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col6 ref" href="#6first" title='first' data-ref="6first">first</a>) == <a class="tu ref" href="#Curl_raw_toupper" title='Curl_raw_toupper' data-use='c' data-ref="Curl_raw_toupper">Curl_raw_toupper</a>(*<a class="local col7 ref" href="#7second" title='second' data-ref="7second">second</a>);</td></tr>
+<tr><th id="152">152</th><td>}</td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td><i  data-doc="hostmatch">/*</i></td></tr>
+<tr><th id="155">155</th><td><i  data-doc="hostmatch"> * Match a hostname against a wildcard pattern.</i></td></tr>
+<tr><th id="156">156</th><td><i  data-doc="hostmatch"> * E.g.</i></td></tr>
+<tr><th id="157">157</th><td><i  data-doc="hostmatch"> *  "foo.host.com" matches "*.host.com".</i></td></tr>
+<tr><th id="158">158</th><td><i  data-doc="hostmatch"> *</i></td></tr>
+<tr><th id="159">159</th><td><i  data-doc="hostmatch"> * We use the matching rule described in RFC6125, section 6.4.3.</i></td></tr>
+<tr><th id="160">160</th><td><i  data-doc="hostmatch"> * <a href="http://tools.ietf.org/html/rfc6125#section-6.4.3">http://tools.ietf.org/html/rfc6125#section-6.4.3</a></i></td></tr>
+<tr><th id="161">161</th><td><i  data-doc="hostmatch"> */</i></td></tr>
+<tr><th id="162">162</th><td></td></tr>
+<tr><th id="163">163</th><td><em>static</em> <em>int</em> <dfn class="tu decl def" id="hostmatch" title='hostmatch' data-type='int hostmatch(const char * hostname, const char * pattern)' data-ref="hostmatch">hostmatch</dfn>(<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="9hostname" title='hostname' data-type='const char *' data-ref="9hostname">hostname</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="10pattern" title='pattern' data-type='const char *' data-ref="10pattern">pattern</dfn>)</td></tr>
+<tr><th id="164">164</th><td>{</td></tr>
+<tr><th id="165">165</th><td>  <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="11pattern_label_end" title='pattern_label_end' data-type='const char *' data-ref="11pattern_label_end">pattern_label_end</dfn>, *<dfn class="local col2 decl" id="12pattern_wildcard" title='pattern_wildcard' data-type='const char *' data-ref="12pattern_wildcard">pattern_wildcard</dfn>, *<dfn class="local col3 decl" id="13hostname_label_end" title='hostname_label_end' data-type='const char *' data-ref="13hostname_label_end">hostname_label_end</dfn>;</td></tr>
+<tr><th id="166">166</th><td>  <em>int</em> <dfn class="local col4 decl" id="14wildcard_enabled" title='wildcard_enabled' data-type='int' data-ref="14wildcard_enabled">wildcard_enabled</dfn>;</td></tr>
+<tr><th id="167">167</th><td>  <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col5 decl" id="15prefixlen" title='prefixlen' data-type='size_t' data-ref="15prefixlen">prefixlen</dfn>, <dfn class="local col6 decl" id="16suffixlen" title='suffixlen' data-type='size_t' data-ref="16suffixlen">suffixlen</dfn>;</td></tr>
+<tr><th id="168">168</th><td>  <a class="local col2 ref" href="#12pattern_wildcard" title='pattern_wildcard' data-ref="12pattern_wildcard">pattern_wildcard</a> = <a class="macro" href="../../include/x86_64-linux-gnu/bits/string2.h.html#395" title="(__extension__ (__builtin_constant_p (&apos;*&apos;) &amp;&amp; !__builtin_constant_p (pattern) &amp;&amp; (&apos;*&apos;) == &apos;\0&apos; ? (char *) __rawmemchr (pattern, &apos;*&apos;) : __builtin_strchr (pattern, &apos;*&apos;)))" data-ref="_M/strchr">strchr</a>(<a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>, <kbd>'*'</kbd>);</td></tr>
+<tr><th id="169">169</th><td>  <b>if</b>(<a class="local col2 ref" href="#12pattern_wildcard" title='pattern_wildcard' data-ref="12pattern_wildcard">pattern_wildcard</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="170">170</th><td>    <b>return</b> <a class="tu ref" href="#Curl_raw_equal" title='Curl_raw_equal' data-use='c' data-ref="Curl_raw_equal">Curl_raw_equal</a>(<a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>, <a class="local col9 ref" href="#9hostname" title='hostname' data-ref="9hostname">hostname</a>) ?</td></tr>
+<tr><th id="171">171</th><td>      <a class="macro" href="hostcheck.h.html#26" title="1" data-ref="_M/CURL_HOST_MATCH">CURL_HOST_MATCH</a> : <a class="macro" href="hostcheck.h.html#25" title="0" data-ref="_M/CURL_HOST_NOMATCH">CURL_HOST_NOMATCH</a>;</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td>  <i>/* We require at least 2 dots in pattern to avoid too wide wildcard</i></td></tr>
+<tr><th id="174">174</th><td><i>     match. */</i></td></tr>
+<tr><th id="175">175</th><td>  <a class="local col4 ref" href="#14wildcard_enabled" title='wildcard_enabled' data-ref="14wildcard_enabled">wildcard_enabled</a> = <var>1</var>;</td></tr>
+<tr><th id="176">176</th><td>  <a class="local col1 ref" href="#11pattern_label_end" title='pattern_label_end' data-ref="11pattern_label_end">pattern_label_end</a> = <a class="macro" href="../../include/x86_64-linux-gnu/bits/string2.h.html#395" title="(__extension__ (__builtin_constant_p (&apos;.&apos;) &amp;&amp; !__builtin_constant_p (pattern) &amp;&amp; (&apos;.&apos;) == &apos;\0&apos; ? (char *) __rawmemchr (pattern, &apos;.&apos;) : __builtin_strchr (pattern, &apos;.&apos;)))" data-ref="_M/strchr">strchr</a>(<a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>, <kbd>'.'</kbd>);</td></tr>
+<tr><th id="177">177</th><td>  <b>if</b>(<a class="local col1 ref" href="#11pattern_label_end" title='pattern_label_end' data-ref="11pattern_label_end">pattern_label_end</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span> || <a class="macro" href="../../include/x86_64-linux-gnu/bits/string2.h.html#395" title="(__extension__ (__builtin_constant_p (&apos;.&apos;) &amp;&amp; !__builtin_constant_p (pattern_label_end+1) &amp;&amp; (&apos;.&apos;) == &apos;\0&apos; ? (char *) __rawmemchr (pattern_label_end+1, &apos;.&apos;) : __builtin_strchr (pattern_label_end+1, &apos;.&apos;)))" data-ref="_M/strchr">strchr</a>(<a class="local col1 ref" href="#11pattern_label_end" title='pattern_label_end' data-ref="11pattern_label_end">pattern_label_end</a>+<var>1</var>, <kbd>'.'</kbd>) == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span> ||</td></tr>
+<tr><th id="178">178</th><td>     <a class="local col2 ref" href="#12pattern_wildcard" title='pattern_wildcard' data-ref="12pattern_wildcard">pattern_wildcard</a> &gt; <a class="local col1 ref" href="#11pattern_label_end" title='pattern_label_end' data-ref="11pattern_label_end">pattern_label_end</a> ||</td></tr>
+<tr><th id="179">179</th><td>     <a class="tu ref" href="#Curl_raw_nequal" title='Curl_raw_nequal' data-use='c' data-ref="Curl_raw_nequal">Curl_raw_nequal</a>(<a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>, <q>"xn--"</q>, <var>4</var>)) {</td></tr>
+<tr><th id="180">180</th><td>    <a class="local col4 ref" href="#14wildcard_enabled" title='wildcard_enabled' data-ref="14wildcard_enabled">wildcard_enabled</a> = <var>0</var>;</td></tr>
+<tr><th id="181">181</th><td>  }</td></tr>
+<tr><th id="182">182</th><td>  <b>if</b>(!<a class="local col4 ref" href="#14wildcard_enabled" title='wildcard_enabled' data-ref="14wildcard_enabled">wildcard_enabled</a>)</td></tr>
+<tr><th id="183">183</th><td>    <b>return</b> <a class="tu ref" href="#Curl_raw_equal" title='Curl_raw_equal' data-use='c' data-ref="Curl_raw_equal">Curl_raw_equal</a>(<a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>, <a class="local col9 ref" href="#9hostname" title='hostname' data-ref="9hostname">hostname</a>) ?</td></tr>
+<tr><th id="184">184</th><td>      <a class="macro" href="hostcheck.h.html#26" title="1" data-ref="_M/CURL_HOST_MATCH">CURL_HOST_MATCH</a> : <a class="macro" href="hostcheck.h.html#25" title="0" data-ref="_M/CURL_HOST_NOMATCH">CURL_HOST_NOMATCH</a>;</td></tr>
+<tr><th id="185">185</th><td></td></tr>
+<tr><th id="186">186</th><td>  <a class="local col3 ref" href="#13hostname_label_end" title='hostname_label_end' data-ref="13hostname_label_end">hostname_label_end</a> = <a class="macro" href="../../include/x86_64-linux-gnu/bits/string2.h.html#395" title="(__extension__ (__builtin_constant_p (&apos;.&apos;) &amp;&amp; !__builtin_constant_p (hostname) &amp;&amp; (&apos;.&apos;) == &apos;\0&apos; ? (char *) __rawmemchr (hostname, &apos;.&apos;) : __builtin_strchr (hostname, &apos;.&apos;)))" data-ref="_M/strchr">strchr</a>(<a class="local col9 ref" href="#9hostname" title='hostname' data-ref="9hostname">hostname</a>, <kbd>'.'</kbd>);</td></tr>
+<tr><th id="187">187</th><td>  <b>if</b>(<a class="local col3 ref" href="#13hostname_label_end" title='hostname_label_end' data-ref="13hostname_label_end">hostname_label_end</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span> ||</td></tr>
+<tr><th id="188">188</th><td>     !<a class="tu ref" href="#Curl_raw_equal" title='Curl_raw_equal' data-use='c' data-ref="Curl_raw_equal">Curl_raw_equal</a>(<a class="local col1 ref" href="#11pattern_label_end" title='pattern_label_end' data-ref="11pattern_label_end">pattern_label_end</a>, <a class="local col3 ref" href="#13hostname_label_end" title='hostname_label_end' data-ref="13hostname_label_end">hostname_label_end</a>))</td></tr>
+<tr><th id="189">189</th><td>    <b>return</b> <a class="macro" href="hostcheck.h.html#25" title="0" data-ref="_M/CURL_HOST_NOMATCH">CURL_HOST_NOMATCH</a>;</td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td>  <i>/* The wildcard must match at least one character, so the left-most</i></td></tr>
+<tr><th id="192">192</th><td><i>     label of the hostname is at least as large as the left-most label</i></td></tr>
+<tr><th id="193">193</th><td><i>     of the pattern. */</i></td></tr>
+<tr><th id="194">194</th><td>  <b>if</b>(<a class="local col3 ref" href="#13hostname_label_end" title='hostname_label_end' data-ref="13hostname_label_end">hostname_label_end</a> - <a class="local col9 ref" href="#9hostname" title='hostname' data-ref="9hostname">hostname</a> &lt; <a class="local col1 ref" href="#11pattern_label_end" title='pattern_label_end' data-ref="11pattern_label_end">pattern_label_end</a> - <a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>)</td></tr>
+<tr><th id="195">195</th><td>    <b>return</b> <a class="macro" href="hostcheck.h.html#25" title="0" data-ref="_M/CURL_HOST_NOMATCH">CURL_HOST_NOMATCH</a>;</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td>  <a class="local col5 ref" href="#15prefixlen" title='prefixlen' data-ref="15prefixlen">prefixlen</a> = <a class="local col2 ref" href="#12pattern_wildcard" title='pattern_wildcard' data-ref="12pattern_wildcard">pattern_wildcard</a> - <a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>;</td></tr>
+<tr><th id="198">198</th><td>  <a class="local col6 ref" href="#16suffixlen" title='suffixlen' data-ref="16suffixlen">suffixlen</a> = <a class="local col1 ref" href="#11pattern_label_end" title='pattern_label_end' data-ref="11pattern_label_end">pattern_label_end</a> - (<a class="local col2 ref" href="#12pattern_wildcard" title='pattern_wildcard' data-ref="12pattern_wildcard">pattern_wildcard</a>+<var>1</var>);</td></tr>
+<tr><th id="199">199</th><td>  <b>return</b> <a class="tu ref" href="#Curl_raw_nequal" title='Curl_raw_nequal' data-use='c' data-ref="Curl_raw_nequal">Curl_raw_nequal</a>(<a class="local col0 ref" href="#10pattern" title='pattern' data-ref="10pattern">pattern</a>, <a class="local col9 ref" href="#9hostname" title='hostname' data-ref="9hostname">hostname</a>, <a class="local col5 ref" href="#15prefixlen" title='prefixlen' data-ref="15prefixlen">prefixlen</a>) &amp;&amp;</td></tr>
+<tr><th id="200">200</th><td>    <a class="tu ref" href="#Curl_raw_nequal" title='Curl_raw_nequal' data-use='c' data-ref="Curl_raw_nequal">Curl_raw_nequal</a>(<a class="local col2 ref" href="#12pattern_wildcard" title='pattern_wildcard' data-ref="12pattern_wildcard">pattern_wildcard</a>+<var>1</var>, <a class="local col3 ref" href="#13hostname_label_end" title='hostname_label_end' data-ref="13hostname_label_end">hostname_label_end</a> - <a class="local col6 ref" href="#16suffixlen" title='suffixlen' data-ref="16suffixlen">suffixlen</a>,</td></tr>
+<tr><th id="201">201</th><td>                    <a class="local col6 ref" href="#16suffixlen" title='suffixlen' data-ref="16suffixlen">suffixlen</a>) ?</td></tr>
+<tr><th id="202">202</th><td>    <a class="macro" href="hostcheck.h.html#26" title="1" data-ref="_M/CURL_HOST_MATCH">CURL_HOST_MATCH</a> : <a class="macro" href="hostcheck.h.html#25" title="0" data-ref="_M/CURL_HOST_NOMATCH">CURL_HOST_NOMATCH</a>;</td></tr>
+<tr><th id="203">203</th><td>}</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td><em>int</em> <dfn class="decl def" id="Curl_cert_hostcheck" title='Curl_cert_hostcheck' data-ref="Curl_cert_hostcheck">Curl_cert_hostcheck</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="17match_pattern" title='match_pattern' data-type='const char *' data-ref="17match_pattern">match_pattern</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="18hostname" title='hostname' data-type='const char *' data-ref="18hostname">hostname</dfn>)</td></tr>
+<tr><th id="206">206</th><td>{</td></tr>
+<tr><th id="207">207</th><td>  <b>if</b>(!<a class="local col7 ref" href="#17match_pattern" title='match_pattern' data-ref="17match_pattern">match_pattern</a> || !*<a class="local col7 ref" href="#17match_pattern" title='match_pattern' data-ref="17match_pattern">match_pattern</a> ||</td></tr>
+<tr><th id="208">208</th><td>      !<a class="local col8 ref" href="#18hostname" title='hostname' data-ref="18hostname">hostname</a> || !*<a class="local col8 ref" href="#18hostname" title='hostname' data-ref="18hostname">hostname</a>) <i>/* sanity check */</i></td></tr>
+<tr><th id="209">209</th><td>    <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="210">210</th><td></td></tr>
+<tr><th id="211">211</th><td>  <b>if</b>(<a class="tu ref" href="#Curl_raw_equal" title='Curl_raw_equal' data-use='c' data-ref="Curl_raw_equal">Curl_raw_equal</a>(<a class="local col8 ref" href="#18hostname" title='hostname' data-ref="18hostname">hostname</a>, <a class="local col7 ref" href="#17match_pattern" title='match_pattern' data-ref="17match_pattern">match_pattern</a>)) <i>/* trivial case */</i></td></tr>
+<tr><th id="212">212</th><td>    <b>return</b> <var>1</var>;</td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td>  <b>if</b>(<a class="tu ref" href="#hostmatch" title='hostmatch' data-use='c' data-ref="hostmatch">hostmatch</a>(<a class="local col8 ref" href="#18hostname" title='hostname' data-ref="18hostname">hostname</a>,<a class="local col7 ref" href="#17match_pattern" title='match_pattern' data-ref="17match_pattern">match_pattern</a>) == <a class="macro" href="hostcheck.h.html#26" title="1" data-ref="_M/CURL_HOST_MATCH">CURL_HOST_MATCH</a>)</td></tr>
+<tr><th id="215">215</th><td>    <b>return</b> <var>1</var>;</td></tr>
+<tr><th id="216">216</th><td>  <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="217">217</th><td>}</td></tr>
+<tr><th id="218">218</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Sep-19</em> from project codebrowser revision <em>release-2.1.8-stable-91-g56010f3</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

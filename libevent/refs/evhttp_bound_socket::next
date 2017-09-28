@@ -1,0 +1,20 @@
+<dec f='codebrowser/http-internal.h' l='125' type='struct (anonymous struct at /home/jon/workspace/libevent/http-internal.h:125:2)'/>
+<offset>0</offset>
+<use f='codebrowser/http.c' l='3544' u='m' c='evhttp_foreach_bound_socket'/>
+<use f='codebrowser/http.c' l='3581' u='m' c='evhttp_bind_listener'/>
+<use f='codebrowser/http.c' l='3581' u='m' c='evhttp_bind_listener'/>
+<use f='codebrowser/http.c' l='3581' u='m' c='evhttp_bind_listener'/>
+<use f='codebrowser/http.c' l='3602' u='m' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3602' u='m' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3602' u='m' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3602' u='m' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3602' u='m' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3602' u='m' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3602' u='m' c='evhttp_del_accept_socket'/>
+<use f='codebrowser/http.c' l='3681' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3681' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3681' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3681' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3681' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3681' u='m' c='evhttp_free'/>
+<use f='codebrowser/http.c' l='3681' u='m' c='evhttp_free'/>

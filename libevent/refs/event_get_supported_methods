@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='397' type='const char ** event_get_supported_methods()'/>
+<def f='codebrowser/event.c' l='1061' ll='1091' type='const char ** event_get_supported_methods()'/>
+<use f='codebrowser/test/regress.c' l='2507' u='c' c='test_methods'/>
+<use f='codebrowser/test/regress.c' l='2652' u='c' c='test_base_environ'/>

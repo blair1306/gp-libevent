@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='73' type='int (*)(void *, struct evbuffer *)'/>
+<use f='codebrowser/evrpc.c' l='356' u='r' c='evrpc_request_cb_closure'/>
+<use f='codebrowser/evrpc.c' l='1122' u='w' c='evrpc_register_object'/>
+<offset>384</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='72'>/* unmarshals the buffer into the proper request structure */</doc>

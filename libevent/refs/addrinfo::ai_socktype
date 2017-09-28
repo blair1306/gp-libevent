@@ -1,0 +1,36 @@
+<dec f='include/netdb.h' l='571' type='int'/>
+<offset>64</offset>
+<doc f='include/netdb.h' l='571'>/* Socket type.  */</doc>
+<use f='codebrowser/bufferevent_sock.c' l='513' u='w' c='bufferevent_socket_connect_hostname'/>
+<use f='codebrowser/evutil.c' l='807' u='r' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='812' u='w' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='816' u='w' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='836' u='w' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='836' u='r' c='evutil_new_addrinfo_'/>
+<use f='codebrowser/evutil.c' l='924' u='r' c='evutil_getaddrinfo_infer_protocols'/>
+<use f='codebrowser/evutil.c' l='925' u='r' c='evutil_getaddrinfo_infer_protocols'/>
+<use f='codebrowser/evutil.c' l='927' u='r' c='evutil_getaddrinfo_infer_protocols'/>
+<use f='codebrowser/evutil.c' l='932' u='r' c='evutil_getaddrinfo_infer_protocols'/>
+<use f='codebrowser/evutil.c' l='934' u='w' c='evutil_getaddrinfo_infer_protocols'/>
+<use f='codebrowser/evutil.c' l='936' u='w' c='evutil_getaddrinfo_infer_protocols'/>
+<use f='codebrowser/evutil.c' l='939' u='w' c='evutil_getaddrinfo_infer_protocols'/>
+<use f='codebrowser/evutil.c' l='1269' u='w' c='test_for_getaddrinfo_hacks'/>
+<use f='codebrowser/evutil.c' l='1333' u='r' c='apply_socktype_protocol_hack'/>
+<use f='codebrowser/evutil.c' l='1339' u='w' c='apply_socktype_protocol_hack'/>
+<use f='codebrowser/evutil.c' l='1341' u='w' c='apply_socktype_protocol_hack'/>
+<use f='codebrowser/evutil.c' l='1408' u='r' c='evutil_getaddrinfo'/>
+<use f='codebrowser/http.c' l='4366' u='w' c='make_addrinfo'/>
+<use f='codebrowser/test/regress_dns.c' l='1259' u='w' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1373' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1435' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1457' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1478' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1499' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_dns.c' l='1523' u='w' c='test_getaddrinfo_async'/>
+<use f='codebrowser/test/regress_http.c' l='180' u='w' c='http_connect'/>
+<use f='codebrowser/test/regress_util.c' l='819' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='934' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1036' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1044' u='w' c='test_evutil_getaddrinfo'/>
+<use f='codebrowser/test/regress_util.c' l='1076' u='w' c='test_evutil_getaddrinfo_live'/>
+<use f='codebrowser/test/regress_util.c' l='1084' u='r' c='test_evutil_getaddrinfo_live'/>

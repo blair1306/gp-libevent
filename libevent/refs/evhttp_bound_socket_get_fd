@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/http.h' l='205' type='int evhttp_bound_socket_get_fd(struct evhttp_bound_socket * bound_socket)'/>
+<def f='codebrowser/http.c' l='3587' ll='3591' macro='1' type='int evhttp_bound_socket_get_fd(struct evhttp_bound_socket * bound)'/>
+<use f='codebrowser/sample/http-server.c' l='386' u='c' c='main'/>
+<use f='codebrowser/test/regress_http.c' l='108' u='c' c='http_bind'/>
+<use f='codebrowser/test/regress_rpc.c' l='92' u='c' c='http_setup'/>

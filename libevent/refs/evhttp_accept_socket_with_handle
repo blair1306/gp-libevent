@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/http.h' l='147' type='struct evhttp_bound_socket * evhttp_accept_socket_with_handle(struct evhttp * http, int fd)'/>
+<use f='codebrowser/http.c' l='3516' u='c' c='evhttp_bind_socket_with_handle'/>
+<use f='codebrowser/http.c' l='3531' u='c' c='evhttp_accept_socket'/>
+<def f='codebrowser/http.c' l='3548' ll='3569' type='struct evhttp_bound_socket * evhttp_accept_socket_with_handle(struct evhttp * http, int fd)'/>

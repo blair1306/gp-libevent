@@ -1,0 +1,5 @@
+<dec f='codebrowser/bufferevent-internal.h' l='240' type='3'/>
+<use f='codebrowser/bufferevent.c' l='892' c='bufferevent_cancel_all_'/>
+<use f='codebrowser/bufferevent_filter.c' l='619' c='be_filter_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1323' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_sock.c' l='712' c='be_socket_ctrl'/>

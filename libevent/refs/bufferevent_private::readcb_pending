@@ -1,0 +1,9 @@
+<dec f='codebrowser/bufferevent-internal.h' l='166' type='unsigned int'/>
+<offset>3201</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='164'>/** Flag: set if we have deferred callbacks and a read callback is
+	 * pending. */</doc>
+<use f='codebrowser/bufferevent.c' l='147' u='r' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='148' u='w' c='bufferevent_run_deferred_callbacks_locked'/>
+<use f='codebrowser/bufferevent.c' l='185' u='r' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='188' u='w' c='bufferevent_run_deferred_callbacks_unlocked'/>
+<use f='codebrowser/bufferevent.c' l='229' u='w' c='bufferevent_run_readcb_'/>

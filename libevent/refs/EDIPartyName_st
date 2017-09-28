@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='172' ll='175'/>
+<size>16</size>
+<mbr r='EDIPartyName_st::nameAssigner' o='0' t='ASN1_STRING *'/>
+<mbr r='EDIPartyName_st::partyName' o='64' t='ASN1_STRING *'/>

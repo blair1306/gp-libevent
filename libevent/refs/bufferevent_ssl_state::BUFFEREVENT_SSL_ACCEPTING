@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/bufferevent_ssl.h' l='52' type='2'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1025' c='do_handshake'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1269' c='be_openssl_set_fd'/>
+<use f='codebrowser/test/regress_http.c' l='126' u='r' c='https_bev'/>
+<use f='codebrowser/test/regress_ssl.c' l='371' u='r' c='open_ssl_bufevs'/>
+<use f='codebrowser/test/regress_ssl.c' l='536' u='r' c='acceptcb'/>

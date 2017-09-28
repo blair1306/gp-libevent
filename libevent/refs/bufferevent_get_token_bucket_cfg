@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='935' type='const struct ev_token_bucket_cfg * bufferevent_get_token_bucket_cfg(const struct bufferevent * bev)'/>
+<def f='codebrowser/bufferevent_ratelim.c' l='927' ll='943' type='const struct ev_token_bucket_cfg * bufferevent_get_token_bucket_cfg(const struct bufferevent * bev)'/>

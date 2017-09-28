@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/tag.h' l='72' type='int evtag_unmarshal_header(struct evbuffer * evbuf, uint32_t * ptag)'/>
+<def f='codebrowser/event_tagging.c' l='441' ll='455' type='int evtag_unmarshal_header(struct evbuffer * evbuf, uint32_t * ptag)'/>
+<use f='codebrowser/event_tagging.c' l='461' u='c' c='evtag_consume'/>
+<use f='codebrowser/event_tagging.c' l='475' u='c' c='evtag_unmarshal'/>
+<use f='codebrowser/event_tagging.c' l='550' u='c' c='evtag_unmarshal_fixed'/>
+<use f='codebrowser/event_tagging.c' l='568' u='c' c='evtag_unmarshal_string'/>
+<use f='codebrowser/event_tagging.c' l='592' u='c' c='evtag_unmarshal_timeval'/>
+<doc f='codebrowser/event_tagging.c' l='439'>/* just unmarshals the header and returns the length of the remaining data */</doc>

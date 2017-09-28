@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/event2/keyvalq_struct.h' l='47'/>
+<use f='codebrowser/include/event2/keyvalq_struct.h' l='65' u='c'/>
+<use f='codebrowser/include/event2/keyvalq_struct.h' l='73' u='w'/>
+<dec f='codebrowser/include/event2/event_struct.h' l='80'/>
+<use f='codebrowser/include/event2/event_struct.h' l='156' u='c'/>
+<use f='codebrowser/include/event2/event_struct.h' l='163' u='w'/>
+<dec f='codebrowser/compat/sys/queue.h' l='275'/>
+<doc f='codebrowser/compat/sys/queue.h' l='272'>/*
+ * Tail queue definitions.
+ */</doc>
+<use f='codebrowser/event-internal.h' l='197' u='c'/>
+<use f='codebrowser/event-internal.h' l='360' u='c'/>
+<use f='codebrowser/evdns.c' l='356' u='c'/>
+<use f='codebrowser/http-internal.h' l='95' u='c'/>
+<use f='codebrowser/http-internal.h' l='121' u='c'/>
+<use f='codebrowser/http-internal.h' l='142' u='c'/>
+<use f='codebrowser/http-internal.h' l='144' u='c'/>
+<use f='codebrowser/http-internal.h' l='149' u='c'/>
+<use f='codebrowser/http-internal.h' l='151' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='49' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='58' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='79' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='95' u='c'/>
+<use f='codebrowser/evrpc-internal.h' l='113' u='c'/>

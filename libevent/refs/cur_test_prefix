@@ -1,0 +1,4 @@
+<def f='codebrowser/test/tinytest.c' l='78' type='const char *'/>
+<use f='codebrowser/test/tinytest.c' l='241' u='w' c='testcase_run_one'/>
+<use f='codebrowser/test/tinytest.c' l='462' u='r' c='tinytest_set_test_failed_'/>
+<doc f='codebrowser/test/tinytest.c' l='78'>/**&lt; prefix of the current test group */</doc>

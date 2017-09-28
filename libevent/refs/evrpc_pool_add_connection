@@ -1,0 +1,7 @@
+<dec f='codebrowser/include/event2/rpc.h' l='432' type='void evrpc_pool_add_connection(struct evrpc_pool * pool, struct evhttp_connection * evcon)'/>
+<def f='codebrowser/evrpc.c' l='578' ll='609' type='void evrpc_pool_add_connection(struct evrpc_pool * pool, struct evhttp_connection * connection)'/>
+<doc f='codebrowser/evrpc.c' l='573'>/*
+ * Add a connection to the RPC pool.   A request scheduled on the pool
+ * may use any available connection.
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='320' u='c' c='rpc_pool_with_connection'/>

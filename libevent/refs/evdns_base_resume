@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/dns.h' l='317' type='int evdns_base_resume(struct evdns_base * base)'/>
+<def f='codebrowser/evdns.c' l='2469' ll='2477' type='int evdns_base_resume(struct evdns_base * base)'/>
+<use f='codebrowser/evdns.c' l='2482' u='c' c='evdns_resume'/>
+<doc f='codebrowser/evdns.c' l='2468'>/* exported function */</doc>
+<use f='codebrowser/test/regress_dns.c' l='1911' u='c' c='dbg_leak_resume'/>
+<use f='codebrowser/test/regress_dns.c' l='1914' u='c' c='dbg_leak_resume'/>

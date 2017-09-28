@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/stat.h' l='62' type='__mode_t'/>
+<offset>192</offset>
+<doc f='include/x86_64-linux-gnu/bits/stat.h' l='62'>/* File mode.  */</doc>
+<use f='codebrowser/sample/event-read-fifo.c' l='110' u='r' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='216' u='r' c='send_document_cb'/>

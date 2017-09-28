@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='110' type='uint8_t'/>
+<offset>144</offset>
+<use f='codebrowser/event.c' l='2108' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2126' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2318' macro='1' u='w'/>
+<use f='codebrowser/event.c' l='2433' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2901' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3004' u='w' c='event_callback_init_'/>
+<use f='codebrowser/event.c' l='3054' u='w' c='event_deferred_cb_init_'/>
+<use f='codebrowser/event.c' l='3061' u='w' c='event_deferred_cb_set_priority_'/>
+<use f='codebrowser/event.c' l='3198' u='r' c='event_queue_remove_active'/>
+<use f='codebrowser/event.c' l='3342' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3343' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3343' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3343' u='r' c='event_queue_insert_active'/>
+<use f='codebrowser/event.c' l='3360' u='r' c='event_queue_insert_active_later'/>
+<use f='codebrowser/event.c' l='3397' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3398' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3398' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3398' u='r' c='event_queue_make_later_events_active'/>
+<use f='codebrowser/event.c' l='3735' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='3928' u='r' c='event_base_assert_ok_nolock_'/>

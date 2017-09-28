@@ -1,0 +1,6 @@
+<dec f='codebrowser/evmap-internal.h' l='91' type='void * evmap_io_get_fdinfo_(struct event_signal_map * ctx, int fd)'/>
+<doc f='codebrowser/evmap-internal.h' l='88'>/* Return the fdinfo object associated with a given fd.  If the fd has no
+ * events associated with it, the result may be NULL.
+ */</doc>
+<def f='codebrowser/evmap.c' l='506' ll='515' type='void * evmap_io_get_fdinfo_(struct event_signal_map * map, int fd)'/>
+<use f='codebrowser/poll.c' l='316' u='c' c='poll_del'/>

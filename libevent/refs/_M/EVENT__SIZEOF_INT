@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/event-config.h' l='444'/>
+<doc f='codebrowser/include/event2/event-config.h' l='443'>/* The size of a `int&apos;, as computed by sizeof. */</doc>

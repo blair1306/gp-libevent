@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/event.h' l='1349' type='int event_get_fd(const struct event * ev)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='972' u='c' c='be_openssl_auto_fd'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1033' u='c' c='do_handshake'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1315' u='c' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1317' u='c' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_sock.c' l='609' u='c' c='be_socket_destruct'/>
+<use f='codebrowser/bufferevent_sock.c' l='709' u='c' c='be_socket_ctrl'/>
+<def f='codebrowser/event.c' l='2394' ll='2399' macro='1' type='int event_get_fd(const struct event * ev)'/>
+<use f='codebrowser/listener.c' l='282' u='c' c='event_listener_destroy'/>
+<use f='codebrowser/listener.c' l='342' u='c' c='event_listener_getfd'/>
+<use f='codebrowser/sample/signal-test.c' l='36' macro='1' u='c'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/arc4random.c' l='77' ll='81'/>
+<size>258</size>
+<mbr r='arc4_stream::i' o='0' t='unsigned char'/>
+<mbr r='arc4_stream::j' o='8' t='unsigned char'/>
+<mbr r='arc4_stream::s' o='16' t='unsigned char [256]'/>

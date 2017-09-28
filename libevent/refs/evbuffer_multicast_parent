@@ -1,0 +1,6 @@
+<def f='codebrowser/evbuffer-internal.h' l='270' ll='275'/>
+<size>16</size>
+<doc f='codebrowser/evbuffer-internal.h' l='268'>/** Information about the multicast parent of a chain.  Lives at the
+ * end of an evbuffer_chain with the EVBUFFER_MULTICAST flag set.  */</doc>
+<mbr r='evbuffer_multicast_parent::source' o='0' t='struct evbuffer *'/>
+<mbr r='evbuffer_multicast_parent::parent' o='64' t='struct evbuffer_chain *'/>

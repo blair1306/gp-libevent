@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='356' type='int bufferevent_setfd(struct bufferevent * bufev, int fd)'/>
+<def f='codebrowser/bufferevent.c' l='845' ll='856' type='int bufferevent_setfd(struct bufferevent * bev, int fd)'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1091' u='c' c='set_handshake_callbacks'/>
+<use f='codebrowser/bufferevent_sock.c' l='427' u='c' c='bufferevent_socket_connect'/>
+<use f='codebrowser/http.c' l='1337' u='c' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='2547' u='c' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='2549' u='c' c='evhttp_connection_connect_'/>
+<use f='codebrowser/http.c' l='4205' u='c' c='evhttp_get_request_connection'/>
+<use f='codebrowser/test/regress_ssl.c' l='238' u='c' c='bufferevent_openssl_check_fd'/>

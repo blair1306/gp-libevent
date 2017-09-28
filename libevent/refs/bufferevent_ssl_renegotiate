@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/bufferevent_ssl.h' l='122' type='int bufferevent_ssl_renegotiate(struct bufferevent * bev)'/>
+<def f='codebrowser/bufferevent_openssl.c' l='1115' ll='1129' type='int bufferevent_ssl_renegotiate(struct bufferevent * bev)'/>

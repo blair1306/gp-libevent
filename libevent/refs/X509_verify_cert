@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509.h' l='1173' type='int X509_verify_cert(X509_STORE_CTX * ctx)'/>
+<use f='codebrowser/sample/https-client.c' l='142' u='c' c='cert_verify_callback'/>

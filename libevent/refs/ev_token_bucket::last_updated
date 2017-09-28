@@ -1,0 +1,6 @@
+<dec f='codebrowser/ratelim-internal.h' l='44' type='uint32_t'/>
+<offset>128</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='68' u='w' c='ev_token_bucket_init_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='80' u='r' c='ev_token_bucket_update_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='108' u='w' c='ev_token_bucket_update_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='121' u='r' c='bufferevent_update_buckets'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/include/event2/keyvalq_struct.h' l='58' ll='63'/>
+<size>32</size>
+<doc f='codebrowser/include/event2/keyvalq_struct.h' l='54'>/*
+ * Key-Value pairs.  Can be used for HTTP headers but also for
+ * query argument parsing.
+ */</doc>
+<mbr r='evkeyval::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/include/event2/keyvalq_struct.h:59:2)'/>
+<mbr r='evkeyval::key' o='128' t='char *'/>
+<mbr r='evkeyval::value' o='192' t='char *'/>

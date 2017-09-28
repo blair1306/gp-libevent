@@ -1,0 +1,4 @@
+<dec f='codebrowser/time-internal.h' l='56' type='long evutil_tv_to_msec_(const struct timeval * tv)'/>
+<use f='codebrowser/epoll.c' l='449' u='c' c='epoll_dispatch'/>
+<def f='codebrowser/evutil_time.c' l='109' ll='116' type='long evutil_tv_to_msec_(const struct timeval * tv)'/>
+<use f='codebrowser/poll.c' l='164' u='c' c='poll_dispatch'/>

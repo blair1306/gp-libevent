@@ -1,0 +1,3 @@
+<dec f='include/openssl/ssl.h' l='1178' type='size_t'/>
+<offset>6144</offset>
+<doc f='include/openssl/ssl.h' l='1177'>/* EC extension values inherited by SSL structure */</doc>

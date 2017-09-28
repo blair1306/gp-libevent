@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http_compat.h' l='83' type='void evhttp_connection_set_base(struct evhttp_connection * evcon, struct event_base * base)'/>
+<use f='codebrowser/evrpc.c' l='589' u='c' c='evrpc_pool_add_connection'/>
+<def f='codebrowser/http.c' l='2442' ll='2450' type='void evhttp_connection_set_base(struct evhttp_connection * evcon, struct event_base * base)'/>

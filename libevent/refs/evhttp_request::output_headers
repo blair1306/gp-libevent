@@ -1,0 +1,37 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='82' type='struct evkeyvalq *'/>
+<use f='codebrowser/evrpc.c' l='484' u='r' c='evrpc_request_done_closure'/>
+<use f='codebrowser/evrpc.c' l='485' u='r' c='evrpc_request_done_closure'/>
+<offset>320</offset>
+<use f='codebrowser/http.c' l='434' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='447' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='451' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='475' u='r' c='evhttp_is_request_connection_close'/>
+<use f='codebrowser/http.c' l='530' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='537' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='548' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='555' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='558' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='566' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='568' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='569' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='577' u='r' c='evhttp_have_expect'/>
+<use f='codebrowser/http.c' l='609' u='r' c='evhttp_make_header'/>
+<use f='codebrowser/http.c' l='2823' u='r' c='evhttp_send_reply_start'/>
+<use f='codebrowser/http.c' l='2831' u='r' c='evhttp_send_reply_start'/>
+<use f='codebrowser/http.c' l='3020' u='r' c='evhttp_send_page_'/>
+<use f='codebrowser/http.c' l='3021' u='r' c='evhttp_send_page_'/>
+<use f='codebrowser/http.c' l='3022' u='r' c='evhttp_send_page_'/>
+<use f='codebrowser/http.c' l='3944' u='w' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3945' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3949' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3949' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3949' u='r' c='evhttp_request_new'/>
+<use f='codebrowser/http.c' l='3994' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='3995' u='r' c='evhttp_request_free'/>
+<use f='codebrowser/http.c' l='4142' u='r' c='evhttp_request_get_output_headers'/>
+<use f='codebrowser/sample/http-connect.c' l='53' u='r' c='connect_cb'/>
+<use f='codebrowser/sample/http-connect.c' l='108' u='r' c='main'/>
+<use f='codebrowser/sample/http-connect.c' l='109' u='r' c='main'/>
+<use f='codebrowser/test/regress_rpc.c' l='207' u='r' c='rpc_basic_test'/>
+<use f='codebrowser/test/regress_rpc.c' l='280' u='r' c='rpc_basic_message'/>
+<use f='codebrowser/test/regress_rpc.c' l='404' u='r' c='rpc_hook_add_header'/>

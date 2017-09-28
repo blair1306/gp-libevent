@@ -1,0 +1,13 @@
+<dec f='include/x86_64-linux-gnu/sys/epoll.h' l='89' type='uint32_t'/>
+<use f='codebrowser/epoll.c' l='199' u='w' c='epoll_init'/>
+<use f='codebrowser/epoll.c' l='289' u='w' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='291' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='304' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='308' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='325' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='329' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='341' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='351' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='479' u='r' c='epoll_dispatch'/>
+<offset>0</offset>
+<doc f='include/x86_64-linux-gnu/sys/epoll.h' l='89'>/* Epoll events */</doc>

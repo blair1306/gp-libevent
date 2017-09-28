@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/buffer.h' l='1054' type='int evbuffer_defer_callbacks(struct evbuffer * buffer, struct event_base * base)'/>
+<def f='codebrowser/buffer.c' l='409' ll='420' type='int evbuffer_defer_callbacks(struct evbuffer * buffer, struct event_base * base)'/>

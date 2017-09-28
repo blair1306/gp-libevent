@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/dns.h' l='696' type='void evdns_getaddrinfo_cancel(struct evdns_getaddrinfo_request * req)'/>
+<use f='codebrowser/evdns.c' l='3915' u='r' c='evdns_base_new'/>
+<def f='codebrowser/evdns.c' l='4753' ll='4768' type='void evdns_getaddrinfo_cancel(struct evdns_getaddrinfo_request * data)'/>
+<use f='codebrowser/test/regress_dns.c' l='1337' u='c' c='cancel_gai_cb'/>
+<use f='codebrowser/test/regress_dns.c' l='1735' u='c' c='gaic_cancel_request_cb'/>

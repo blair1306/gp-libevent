@@ -1,0 +1,2 @@
+<dec f='codebrowser/include/event2/http.h' l='161' type='struct evconnlistener * evhttp_bound_socket_get_listener(struct evhttp_bound_socket * bound)'/>
+<def f='codebrowser/http.c' l='3593' ll='3597' type='struct evconnlistener * evhttp_bound_socket_get_listener(struct evhttp_bound_socket * bound)'/>

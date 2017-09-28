@@ -1,0 +1,8 @@
+<dec f='codebrowser/event-internal.h' l='111' type='int (*)(struct event_base *, struct timeval *)'/>
+<offset>256</offset>
+<doc f='codebrowser/event-internal.h' l='106'>/** Function to implement the core of an event loop.  It must see which
+	    added events are ready, and cause event_active to be called for each
+	    active event (usually via event_io_active or such).  It should
+	    return 0 on success and -1 on error.
+	 */</doc>
+<use f='codebrowser/event.c' l='1950' u='r' c='event_base_loop'/>

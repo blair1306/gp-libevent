@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/sys/poll.h' l='42' type='short'/>
+<use f='codebrowser/poll.c' l='258' u='w' c='poll_add'/>
+<use f='codebrowser/poll.c' l='265' u='w' c='poll_add'/>
+<use f='codebrowser/poll.c' l='267' u='w' c='poll_add'/>
+<use f='codebrowser/poll.c' l='297' u='w' c='poll_del'/>
+<use f='codebrowser/poll.c' l='299' u='w' c='poll_del'/>
+<use f='codebrowser/poll.c' l='301' u='r' c='poll_del'/>
+<offset>32</offset>
+<doc f='include/x86_64-linux-gnu/sys/poll.h' l='42'>/* Types of events poller cares about.  */</doc>

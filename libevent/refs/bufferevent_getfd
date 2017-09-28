@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='363' type='int bufferevent_getfd(struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent.c' l='858' ll='869' macro='1' type='int bufferevent_getfd(struct bufferevent * bev)'/>
+<use f='codebrowser/bufferevent_sock.c' l='392' u='c' c='bufferevent_socket_connect'/>
+<use f='codebrowser/http.c' l='1238' u='c' c='evhttp_connection_free'/>
+<use f='codebrowser/http.c' l='1326' u='c' c='evhttp_connection_reset_'/>
+<use f='codebrowser/http.c' l='1461' u='c' c='evhttp_error_cb'/>
+<use f='codebrowser/http.c' l='1547' u='c' c='evhttp_connection_cb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='140' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='147' u='c' c='test_bufferevent_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='572' u='c' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='573' u='c' c='test_bufferevent_filters_impl'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='608' u='c' c='sender_writecb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='678' u='c' c='reader_eventcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='691' u='c' c='reader_eventcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='701' u='c' c='reader_eventcb_simple'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='708' u='c' c='reader_readcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='837' u='c' c='want_fail_eventcb'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1083' u='c' c='trigger_readcb'/>
+<use f='codebrowser/test/regress_http.c' l='627' u='c' c='http_badreq_readcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='237' u='c' c='bufferevent_openssl_check_fd'/>
+<use f='codebrowser/test/regress_ssl.c' l='240' u='c' c='bufferevent_openssl_check_fd'/>
+<use f='codebrowser/test/regress_ssl.c' l='242' u='c' c='bufferevent_openssl_check_fd'/>
+<use f='codebrowser/test/regress_ssl.c' l='448' u='c' c='regress_bufferevent_openssl'/>
+<use f='codebrowser/test/regress_ssl.c' l='719' u='c' c='regress_bufferevent_openssl_connect'/>

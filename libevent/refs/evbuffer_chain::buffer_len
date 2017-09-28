@@ -1,0 +1,47 @@
+<dec f='codebrowser/evbuffer-internal.h' l='176' type='size_t'/>
+<use f='codebrowser/buffer.c' l='182' u='w' c='evbuffer_chain_new'/>
+<use f='codebrowser/buffer.c' l='219' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_reserve_space'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='933' u='w' c='APPEND_CHAIN_MULTICAST'/>
+<use f='codebrowser/buffer.c' l='933' u='r' c='APPEND_CHAIN_MULTICAST'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_pullup'/>
+<use f='codebrowser/buffer.c' l='1394' u='r' c='evbuffer_pullup'/>
+<use f='codebrowser/buffer.c' l='1759' u='r' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='1786' u='r' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='1852' u='r' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='1886' u='r' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='1887' u='r' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='1920' u='r' c='evbuffer_chain_should_realign'/>
+<use f='codebrowser/buffer.c' l='1921' u='r' c='evbuffer_chain_should_realign'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='1984' u='r' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_expand_singlechain'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='2076' u='r' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_expand_fast_'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_read_setup_vecs_'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_read_setup_vecs_'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_read'/>
+<use f='codebrowser/buffer.c' l='130' u='r' c='evbuffer_add_vprintf'/>
+<use f='codebrowser/buffer.c' l='2921' u='w' c='evbuffer_add_reference'/>
+<use f='codebrowser/buffer.c' l='3227' u='w' c='evbuffer_add_file_segment'/>
+<use f='codebrowser/buffer.c' l='3256' u='w' c='evbuffer_add_file_segment'/>
+<use f='codebrowser/buffer.c' l='3261' u='w' c='evbuffer_add_file_segment'/>
+<offset>64</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='175'>/** total allocation available in the buffer field. */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='93' u='r' c='evbuffer_validate_'/>
+<use f='codebrowser/test/regress_buffer.c' l='135' u='r' c='evbuffer_get_waste'/>
+<use f='codebrowser/test/regress_buffer.c' l='141' u='r' c='evbuffer_get_waste'/>
+<use f='codebrowser/test/regress_buffer.c' l='144' u='r' c='evbuffer_get_waste'/>
+<use f='codebrowser/test/regress_buffer.c' l='150' u='r' c='evbuffer_get_waste'/>
+<use f='codebrowser/test/regress_buffer.c' l='154' u='r' c='evbuffer_get_waste'/>
+<use f='codebrowser/test/regress_buffer.c' l='160' u='r' c='evbuffer_get_waste'/>
+<use f='codebrowser/test/regress_buffer.c' l='659' u='r' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='675' u='r' c='test_evbuffer_expand'/>
+<use f='codebrowser/test/regress_buffer.c' l='680' u='r' c='test_evbuffer_expand'/>

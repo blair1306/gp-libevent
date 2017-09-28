@@ -1,0 +1,10 @@
+<dec f='codebrowser/bufferevent-internal.h' l='162' type='unsigned int'/>
+<offset>3200</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='161'>/** If set, we should free the lock when we free the bufferevent. */</doc>
+<use f='codebrowser/bufferevent.c' l='757' u='r' c='bufferevent_finalize_cb_'/>
+<use f='codebrowser/bufferevent.c' l='824' u='w' c='bufferevent_enable_locking_'/>
+<use f='codebrowser/bufferevent.c' l='830' u='w' c='bufferevent_enable_locking_'/>
+<use f='codebrowser/bufferevent.c' l='833' u='w' c='bufferevent_enable_locking_'/>
+<use f='codebrowser/bufferevent_pair.c' l='297' u='r' c='be_pair_destruct'/>
+<use f='codebrowser/bufferevent_pair.c' l='298' u='w' c='be_pair_destruct'/>
+<use f='codebrowser/bufferevent_pair.c' l='299' u='w' c='be_pair_destruct'/>

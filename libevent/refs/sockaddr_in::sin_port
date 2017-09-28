@@ -1,0 +1,39 @@
+<dec f='include/netinet/in.h' l='242' type='in_port_t'/>
+<offset>16</offset>
+<doc f='include/netinet/in.h' l='242'>/* Port number.  */</doc>
+<use f='codebrowser/evdns.c' l='2575' u='w' c='evdns_base_nameserver_add'/>
+<use f='codebrowser/evdns.c' l='2594' u='w' c='sockaddr_setport'/>
+<use f='codebrowser/evdns.c' l='2604' u='r' c='sockaddr_getport'/>
+<use f='codebrowser/evdns.c' l='4505' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evutil.c' l='251' u='w' c='evutil_ersatz_socketpair_'/>
+<use f='codebrowser/evutil.c' l='287' u='r' c='evutil_ersatz_socketpair_'/>
+<use f='codebrowser/evutil.c' l='287' u='r' c='evutil_ersatz_socketpair_'/>
+<use f='codebrowser/evutil.c' l='753' u='w' c='evutil_check_interfaces'/>
+<use f='codebrowser/evutil.c' l='1014' u='w' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1058' u='w' c='evutil_getaddrinfo_common_'/>
+<use f='codebrowser/evutil.c' l='1312' u='w' c='apply_numeric_port_hack'/>
+<use f='codebrowser/evutil.c' l='2161' u='w' c='evutil_parse_sockaddr_port'/>
+<use f='codebrowser/evutil.c' l='2182' u='r' c='evutil_format_sockaddr_port_'/>
+<use f='codebrowser/evutil.c' l='2219' u='r' c='evutil_sockaddr_cmp'/>
+<use f='codebrowser/evutil.c' l='2219' u='r' c='evutil_sockaddr_cmp'/>
+<use f='codebrowser/sample/dns-example.c' l='202' u='w' c='main'/>
+<use f='codebrowser/sample/hello-world.c' l='59' u='w' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='393' u='r' c='main'/>
+<use f='codebrowser/sample/le-proxy.c' l='245' u='w' c='main'/>
+<use f='codebrowser/test/bench_httpclient.c' l='145' u='w' c='launch_request'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='651' u='w' c='fake_listener_create'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='746' u='w' c='test_bufferevent_connect'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='1140' u='w' c='test_bufferevent_trigger'/>
+<use f='codebrowser/test/regress_dns.c' l='395' u='w' c='dns_server'/>
+<use f='codebrowser/test/regress_dns.c' l='1206' u='w' c='test_bufferevent_connect_hostname'/>
+<use f='codebrowser/test/regress_dns.c' l='1986' u='w' c='test_getaddrinfo_async_cancel_stress'/>
+<use f='codebrowser/test/regress_listener.c' l='93' u='w' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='115' u='r' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='115' u='r' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_testutils.c' l='85' u='r' c='regress_get_socket_port'/>
+<use f='codebrowser/test/regress_testutils.c' l='112' u='w' c='regress_get_dnsserver'/>
+<use f='codebrowser/test/regress_util.c' l='255' u='w' c='regress_sockaddr_port_parse'/>
+<use f='codebrowser/test/regress_util.c' l='837' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='1088' u='r' c='test_evutil_getaddrinfo_live'/>
+<use f='codebrowser/test/test-fdleak.c' l='242' u='w' c='main'/>
+<use f='codebrowser/test/test-ratelim.c' l='273' u='w' c='test_ratelimiting'/>

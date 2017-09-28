@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='104'/>
+<use f='codebrowser/bufferevent.c' l='925' u='c'/>
+<use f='codebrowser/bufferevent.c' l='934' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='924' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='945' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='959' u='c'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1073' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='162' u='c'/>
+<use f='codebrowser/bufferevent_sock.c' l='244' u='c'/>
+<use f='codebrowser/http.c' l='1465' u='c'/>
+<use f='codebrowser/http.c' l='1520' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='929' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='930' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='934' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='935' u='c'/>
+<use f='codebrowser/test/regress_ssl.c' l='349' u='c'/>

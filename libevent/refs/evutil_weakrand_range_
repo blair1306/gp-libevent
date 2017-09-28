@@ -1,0 +1,6 @@
+<dec f='codebrowser/util-internal.h' l='328' type='int32_t evutil_weakrand_range_(struct evutil_weakrand_state * seed, int32_t top)'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='458' u='c' c='bev_group_random_element_'/>
+<def f='codebrowser/evutil.c' l='2431' ll='2445' macro='1' type='int32_t evutil_weakrand_range_(struct evutil_weakrand_state * state, int32_t top)'/>
+<use f='codebrowser/poll.c' l='189' u='c' c='poll_dispatch'/>
+<use f='codebrowser/select.c' l='191' u='c' c='select_dispatch'/>
+<use f='codebrowser/test/regress_util.c' l='914' u='c' c='test_evutil_rand'/>

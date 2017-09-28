@@ -1,0 +1,47 @@
+<def f='codebrowser/sample/signal-test.c' l='29' type='int'/>
+<use f='codebrowser/sample/signal-test.c' l='38' u='r' c='signal_cb'/>
+<use f='codebrowser/sample/signal-test.c' l='41' u='w' c='signal_cb'/>
+<dec f='codebrowser/test/regress.h' l='66' type='int'/>
+<def f='codebrowser/test/regress.c' l='82' type='int'/>
+<use f='codebrowser/test/regress.c' l='117' u='r' c='simple_read_cb'/>
+<use f='codebrowser/test/regress.c' l='121' u='r' c='simple_read_cb'/>
+<use f='codebrowser/test/regress.c' l='124' u='w' c='simple_read_cb'/>
+<use f='codebrowser/test/regress.c' l='338' u='w' c='simpleread_multiple_cb'/>
+<use f='codebrowser/test/regress.c' l='842' u='r' c='simple_child_read_cb'/>
+<use f='codebrowser/test/regress.c' l='846' u='r' c='simple_child_read_cb'/>
+<use f='codebrowser/test/regress.c' l='849' u='w' c='simple_child_read_cb'/>
+<use f='codebrowser/test/regress.c' l='934' u='w' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='943' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='1312' u='w' c='signal_cb_swp'/>
+<use f='codebrowser/test/regress.c' l='1313' u='r' c='signal_cb_swp'/>
+<use f='codebrowser/test/regress.c' l='1321' u='r' c='timeout_cb_swp'/>
+<use f='codebrowser/test/regress.c' l='1324' u='w' c='timeout_cb_swp'/>
+<use f='codebrowser/test/regress.c' l='1342' u='w' c='test_signal_while_processing'/>
+<use f='codebrowser/test/regress.c' l='2324' u='r' c='read_once_cb'/>
+<use f='codebrowser/test/regress.c' l='2336' u='w' c='read_once_cb'/>
+<use f='codebrowser/test/regress.c' l='2712' u='w' c='read_called_once_cb'/>
+<use f='codebrowser/test/regress.c' l='2721' u='w' c='timeout_called_once_cb'/>
+<use f='codebrowser/test/regress.c' l='2730' u='w' c='immediate_called_twice_cb'/>
+<use f='codebrowser/test/regress.c' l='2744' u='w' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2770' u='r' c='test_event_once'/>
+<use f='codebrowser/test/regress.c' l='2784' u='w' c='test_event_once_never'/>
+<use f='codebrowser/test/regress.c' l='2795' u='r' c='test_event_once_never'/>
+<use f='codebrowser/test/regress_et.c' l='62' u='w' c='read_cb'/>
+<use f='codebrowser/test/regress_et.c' l='101' u='w' c='test_edgetriggered'/>
+<use f='codebrowser/test/regress_et.c' l='136' u='r' c='test_edgetriggered'/>
+<use f='codebrowser/test/regress_et.c' l='139' u='r' c='test_edgetriggered'/>
+<use f='codebrowser/test/regress_main.c' l='329' u='w' c='run_legacy_test_fn'/>
+<def f='codebrowser/test/test-eof.c' l='53' type='int'/>
+<use f='codebrowser/test/test-eof.c' l='73' u='r' c='read_cb'/>
+<use f='codebrowser/test/test-eof.c' l='75' u='r' c='read_cb'/>
+<use f='codebrowser/test/test-eof.c' l='78' u='w' c='read_cb'/>
+<def f='codebrowser/test/test-time.c' l='46' type='int'/>
+<use f='codebrowser/test/test-time.c' l='66' u='w' c='time_cb'/>
+<use f='codebrowser/test/test-time.c' l='68' u='r' c='time_cb'/>
+<use f='codebrowser/test/test-time.c' l='73' u='r' c='time_cb'/>
+<use f='codebrowser/test/test-time.c' l='113' u='r' c='main'/>
+<use f='codebrowser/test/test-time.c' l='114' u='r' c='main'/>
+<def f='codebrowser/test/test-weof.c' l='57' type='int'/>
+<use f='codebrowser/test/test-weof.c' l='71' u='r' c='write_cb'/>
+<use f='codebrowser/test/test-weof.c' l='74' u='r' c='write_cb'/>
+<use f='codebrowser/test/test-weof.c' l='77' u='w' c='write_cb'/>

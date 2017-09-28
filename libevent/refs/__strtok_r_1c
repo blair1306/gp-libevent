@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='1147' type='char * __strtok_r_1c(char * __s, char __sep, char ** __nextp)'/>
+<def f='include/x86_64-linux-gnu/bits/string2.h' l='1148' ll='1169' macro='1' type='char * __strtok_r_1c(char * __s, char __sep, char ** __nextp)'/>
+<use f='codebrowser/evdns.c' l='3535' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='3540' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='3545' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='3554' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='3560' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='4125' macro='1' u='c'/>
+<use f='codebrowser/evdns.c' l='4145' macro='1' u='c'/>

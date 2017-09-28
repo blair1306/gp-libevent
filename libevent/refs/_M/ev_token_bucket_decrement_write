@@ -1,0 +1,2 @@
+<dec f='codebrowser/ratelim-internal.h' l='96'/>
+<doc f='codebrowser/ratelim-internal.h' l='95'>/** Decrease the write limit of &apos;b&apos; by &apos;n&apos; bytes */</doc>

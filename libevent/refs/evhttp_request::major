@@ -1,0 +1,18 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='100' type='char'/>
+<offset>896</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='100'>/* HTTP Major number */</doc>
+<use f='codebrowser/http.c' l='395' u='r' c='evhttp_send_continue'/>
+<use f='codebrowser/http.c' l='443' u='r' c='evhttp_make_header_request'/>
+<use f='codebrowser/http.c' l='525' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='528' u='r' c='evhttp_make_header_response'/>
+<use f='codebrowser/http.c' l='164' u='r' c='evhttp_have_expect'/>
+<use f='codebrowser/http.c' l='165' u='r' c='evhttp_have_expect'/>
+<use f='codebrowser/http.c' l='1642' u='w' c='evhttp_parse_http_version'/>
+<use f='codebrowser/http.c' l='2620' u='r' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='2621' u='w' c='evhttp_make_request'/>
+<use f='codebrowser/http.c' l='160' u='r' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='161' u='r' c='evhttp_send_done'/>
+<use f='codebrowser/http.c' l='164' u='r' c='evhttp_send_reply_start'/>
+<use f='codebrowser/http.c' l='165' u='r' c='evhttp_send_reply_start'/>
+<use f='codebrowser/http.c' l='3012' u='r' c='evhttp_send_page_'/>
+<use f='codebrowser/http.c' l='3013' u='w' c='evhttp_send_page_'/>

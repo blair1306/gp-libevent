@@ -1,0 +1,10 @@
+<dec f='codebrowser/include/event2/http.h' l='598' type='5'/>
+<doc f='codebrowser/include/event2/http.h' l='595'>/**
+   * Body is greater then evhttp_connection_set_max_body_size()
+   */</doc>
+<use f='codebrowser/http.c' l='649' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='679' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='987' u='r' c='evhttp_read_trailer'/>
+<use f='codebrowser/http.c' l='1017' u='r' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1026' u='r' c='evhttp_lingering_fail'/>
+<use f='codebrowser/http.c' l='1045' u='r' c='evhttp_read_body'/>

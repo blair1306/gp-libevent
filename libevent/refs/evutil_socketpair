@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/util.h' l='393' type='int evutil_socketpair(int d, int type, int protocol, int * sv)'/>
+<def f='codebrowser/evutil.c' l='196' ll='204' type='int evutil_socketpair(int family, int type, int protocol, int * fd)'/>
+<use f='codebrowser/evutil.c' l='2637' u='c' c='evutil_make_internal_pipe_'/>
+<use f='codebrowser/test/bench.c' l='191' u='c' c='main'/>
+<use f='codebrowser/test/bench_cascade.c' l='96' u='c' c='run_once'/>
+<use f='codebrowser/test/regress.c' l='408' u='c' c='test_simpleclose'/>
+<use f='codebrowser/test/regress.c' l='410' u='c' c='test_simpleclose'/>
+<use f='codebrowser/test/regress.c' l='885' u='c' c='test_fork'/>
+<use f='codebrowser/test/regress_buffer.c' l='1054' u='c' c='test_evbuffer_add_file'/>
+<use f='codebrowser/test/regress_main.c' l='216' u='c' c='basic_test_setup'/>
+<use f='codebrowser/test/regress_zlib.c' l='289' u='c' c='test_bufferevent_zlib'/>
+<use f='codebrowser/test/test-changelist.c' l='182' u='c' c='main'/>
+<use f='codebrowser/test/test-eof.c' l='97' u='c' c='main'/>
+<use f='codebrowser/test/test-weof.c' l='99' u='c' c='main'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='95' type='size_t'/>
+<offset>704</offset>
+<use f='codebrowser/http.c' l='932' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='936' u='r' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='942' u='w' c='evhttp_handle_chunked_read'/>
+<use f='codebrowser/http.c' l='1010' u='w' c='evhttp_lingering_close'/>
+<use f='codebrowser/http.c' l='1057' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1057' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1062' u='w' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1073' u='w' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='1077' u='r' c='evhttp_read_body'/>
+<use f='codebrowser/http.c' l='3934' u='w' c='evhttp_request_new'/>

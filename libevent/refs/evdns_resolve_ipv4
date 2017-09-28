@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/dns_compat.h' l='199' type='int evdns_resolve_ipv4(const char * name, int flags, evdns_callback_type callback, void * ptr)'/>
+<def f='codebrowser/evdns.c' l='2909' ll='2914' type='int evdns_resolve_ipv4(const char * name, int flags, evdns_callback_type callback, void * ptr)'/>
+<use f='codebrowser/test/regress_dns.c' l='154' u='c' c='dns_gethostbyname'/>

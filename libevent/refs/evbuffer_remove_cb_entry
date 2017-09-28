@@ -1,0 +1,6 @@
+<dec f='codebrowser/include/event2/buffer.h' l='917' type='int evbuffer_remove_cb_entry(struct evbuffer * buffer, struct evbuffer_cb_entry * ent)'/>
+<def f='codebrowser/buffer.c' l='3328' ll='3337' type='int evbuffer_remove_cb_entry(struct evbuffer * buffer, struct evbuffer_cb_entry * ent)'/>
+<use f='codebrowser/buffer.c' l='3347' u='c' c='evbuffer_remove_cb'/>
+<use f='codebrowser/bufferevent_filter.c' l='266' u='c' c='be_filter_destruct'/>
+<use f='codebrowser/bufferevent_filter.c' l='269' u='c' c='be_filter_destruct'/>
+<use f='codebrowser/test/regress_buffer.c' l='1780' u='c' c='test_evbuffer_callbacks'/>

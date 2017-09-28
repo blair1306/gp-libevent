@@ -1,0 +1,4 @@
+<def f='codebrowser/sample/time-test.c' l='40' type='int'/>
+<use f='codebrowser/sample/time-test.c' l='58' u='r' c='timeout_cb'/>
+<use f='codebrowser/sample/time-test.c' l='84' u='w' c='main'/>
+<use f='codebrowser/sample/time-test.c' l='87' u='w' c='main'/>

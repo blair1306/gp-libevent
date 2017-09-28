@@ -1,0 +1,4 @@
+<def f='include/openssl/x509v3.h' l='167' ll='170'/>
+<size>16</size>
+<mbr r='otherName_st::type_id' o='0' t='ASN1_OBJECT *'/>
+<mbr r='otherName_st::value' o='64' t='ASN1_TYPE *'/>

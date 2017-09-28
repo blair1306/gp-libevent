@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/listener.h' l='155' type='int evconnlistener_disable(struct evconnlistener * lev)'/>
+<def f='codebrowser/listener.c' l='300' ll='309' type='int evconnlistener_disable(struct evconnlistener * lev)'/>
+<use f='codebrowser/test/regress_listener.c' l='67' u='c' c='acceptcb'/>
+<use f='codebrowser/test/regress_listener.c' l='151' u='c' c='errorcb'/>
+<use f='codebrowser/test/regress_ssl.c' l='552' u='c' c='acceptcb'/>

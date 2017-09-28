@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/bufferevent_struct.h' l='58' type='size_t'/>
+<use f='codebrowser/bufferevent-internal.h' l='410' u='r' c='bufferevent_trigger_nolock_'/>
+<use f='codebrowser/bufferevent-internal.h' l='413' u='r' c='bufferevent_trigger_nolock_'/>
+<offset>0</offset>
+<use f='codebrowser/bufferevent.c' l='578' u='w' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='583' u='w' c='bufferevent_setwatermark'/>
+<use f='codebrowser/bufferevent.c' l='624' u='r' c='bufferevent_getwatermark'/>
+<use f='codebrowser/bufferevent.c' l='634' u='r' c='bufferevent_getwatermark'/>

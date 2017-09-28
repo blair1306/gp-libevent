@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='164' type='2'/>
+<doc f='codebrowser/include/event2/bufferevent.h' l='162'>/** If set, and threading is enabled, operations on this bufferevent
+	 * are protected by a lock */</doc>
+<use f='codebrowser/bufferevent.c' l='329' u='r' c='bufferevent_init_common_'/>
+<use f='codebrowser/bufferevent_filter.c' l='178' u='r' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_filter.c' l='197' u='r' c='bufferevent_filter_new'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1348' u='r' c='bufferevent_openssl_new_impl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1372' u='r' c='bufferevent_openssl_new_impl'/>
+<use f='codebrowser/bufferevent_pair.c' l='122' u='r' c='bufferevent_pair_new'/>
+<use f='codebrowser/bufferevent_pair.c' l='133' u='r' c='bufferevent_pair_new'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='337' u='r' c='test_bufferevent_pair_release_lock'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='732' u='r' c='test_bufferevent_connect'/>
+<use f='codebrowser/test/test-ratelim.c' l='178' u='r' c='echo_listenercb'/>
+<use f='codebrowser/test/test-ratelim.c' l='348' u='r' c='test_ratelimiting'/>

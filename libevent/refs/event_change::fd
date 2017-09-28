@@ -1,0 +1,21 @@
+<dec f='codebrowser/changelist-internal.h' l='55' type='int'/>
+<use f='codebrowser/epoll.c' l='288' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='290' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='257' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='302' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='304' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='309' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='323' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='325' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='330' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='342' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='257' u='r' c='epoll_apply_one_change'/>
+<use f='codebrowser/epoll.c' l='379' u='w' c='epoll_nochangelist_add'/>
+<use f='codebrowser/epoll.c' l='400' u='w' c='epoll_nochangelist_del'/>
+<offset>0</offset>
+<use f='codebrowser/evmap.c' l='712' u='r' c='event_change_get_fdinfo'/>
+<use f='codebrowser/evmap.c' l='716' u='r' c='event_change_get_fdinfo'/>
+<use f='codebrowser/evmap.c' l='734' u='r' c='event_changelist_assert_ok_foreach_iter_fn'/>
+<use f='codebrowser/evmap.c' l='750' u='r' c='event_changelist_assert_ok'/>
+<use f='codebrowser/evmap.c' l='845' u='w' c='event_changelist_get_or_construct'/>
+<use f='codebrowser/evmap.c' l='849' u='r' c='event_changelist_get_or_construct'/>

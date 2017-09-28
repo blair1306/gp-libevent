@@ -1,0 +1,12 @@
+<dec f='codebrowser/bufferevent-internal.h' l='69'/>
+<doc f='codebrowser/bufferevent-internal.h' l='68'>/* On a base bufferevent: when we have emptied the group&apos;s bandwidth bucket. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='239' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='242' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='366' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='384' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='497' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='516' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='774' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='776' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='805' u='c'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='806' u='c'/>

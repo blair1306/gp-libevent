@@ -1,0 +1,3 @@
+<dec f='codebrowser/evthread-internal.h' l='61'/>
+<doc f='codebrowser/evthread-internal.h' l='60'>/** Return the ID of the current thread, or 1 if threading isn&apos;t enabled. */</doc>
+<use f='codebrowser/event.c' l='1909' u='c'/>

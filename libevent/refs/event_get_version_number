@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/event.h' l='1434' type='uint32_t event_get_version_number()'/>
+<def f='codebrowser/event.c' l='3411' ll='3415' macro='1' type='uint32_t event_get_version_number()'/>
+<use f='codebrowser/test/regress.c' l='2551' u='c' c='test_version'/>

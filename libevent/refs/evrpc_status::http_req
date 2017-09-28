@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='53' type='struct evhttp_request *'/>
+<use f='codebrowser/evrpc.c' l='922' u='w' c='evrpc_reply_done_closure'/>
+<offset>64</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='52'>/* for looking at headers or other information */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='333' u='r' c='GotKillCb'/>

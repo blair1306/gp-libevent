@@ -1,0 +1,14 @@
+<dec f='codebrowser/include/event2/http_compat.h' l='73' type='struct evhttp_connection * evhttp_connection_new(const char * address, uint16_t port)'/>
+<def f='codebrowser/http.c' l='2331' ll='2335' type='struct evhttp_connection * evhttp_connection_new(const char * address, uint16_t port)'/>
+<doc f='codebrowser/http.c' l='2321'>/*
+ * Creates a TCP connection to the specified port and executes a callback
+ * when finished.  Failure or success is indicate by the passed connection
+ * object.
+ *
+ * Although this interface accepts a hostname, it is intended to take
+ * only numeric hostnames so that non-blocking DNS resolution can
+ * happen elsewhere.
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='195' u='c' c='rpc_basic_test'/>
+<use f='codebrowser/test/regress_rpc.c' l='265' u='c' c='rpc_basic_message'/>
+<use f='codebrowser/test/regress_rpc.c' l='317' u='c' c='rpc_pool_with_connection'/>

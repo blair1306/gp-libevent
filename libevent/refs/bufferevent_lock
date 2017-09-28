@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/bufferevent.h' l='556' type='void bufferevent_lock(struct bufferevent * bufev)'/>
+<def f='codebrowser/bufferevent.c' l='1005' ll='1009' type='void bufferevent_lock(struct bufferevent * bev)'/>
+<doc f='codebrowser/bufferevent.c' l='1003'>/* For use by user programs only; internally, we should be calling
+   either bufferevent_incref_and_lock_(), or BEV_LOCK. */</doc>

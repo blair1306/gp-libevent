@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/event-config.h' l='191'/>
+<doc f='codebrowser/include/event2/event-config.h' l='190'>/* Define to 1 if you have the `nanosleep&apos; function. */</doc>
+<use f='codebrowser/evutil_time.c' l='46' u='a'/>
+<use f='codebrowser/evutil_time.c' l='56' u='a'/>
+<use f='codebrowser/evutil_time.c' l='132' u='a'/>

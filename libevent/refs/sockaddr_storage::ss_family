@@ -1,0 +1,14 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='168' macro='1' type='sa_family_t'/>
+<offset>0</offset>
+<use f='codebrowser/sample/http-server.c' l='392' u='r' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='395' u='r' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='400' u='r' c='main'/>
+<use f='codebrowser/sample/http-server.c' l='403' u='r' c='main'/>
+<use f='codebrowser/test/regress_dns.c' l='419' u='r' c='dns_server'/>
+<use f='codebrowser/test/regress_listener.c' l='108' u='r' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_listener.c' l='109' u='r' c='regress_pick_a_port'/>
+<use f='codebrowser/test/regress_testutils.c' l='84' u='r' c='regress_get_socket_port'/>
+<use f='codebrowser/test/regress_testutils.c' l='86' u='r' c='regress_get_socket_port'/>
+<use f='codebrowser/test/regress_util.c' l='312' u='w' c='regress_sockaddr_port_format'/>
+<use f='codebrowser/test/regress_util.c' l='829' u='r' c='test_ai_eq_'/>
+<use f='codebrowser/test/regress_util.c' l='831' u='r' c='test_ai_eq_'/>

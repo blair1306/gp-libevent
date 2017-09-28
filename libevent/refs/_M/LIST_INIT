@@ -1,0 +1,8 @@
+<dec f='codebrowser/compat/sys/queue.h' l='170'/>
+<use f='codebrowser/buffer.c' l='369' u='c'/>
+<doc f='codebrowser/compat/sys/queue.h' l='167'>/*
+ * List functions.
+ */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='653' u='c'/>
+<use f='codebrowser/evmap.c' l='256' u='c'/>
+<use f='codebrowser/evmap.c' l='437' u='c'/>

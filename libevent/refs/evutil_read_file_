@@ -1,0 +1,14 @@
+<dec f='codebrowser/util-internal.h' l='283' type='int evutil_read_file_(const char * filename, char ** content_out, size_t * len_out, int is_binary)'/>
+<use f='codebrowser/evdns.c' l='3626' u='c' c='evdns_base_resolv_conf_parse_impl'/>
+<use f='codebrowser/evdns.c' l='4184' u='c' c='evdns_base_load_hosts_impl'/>
+<def f='codebrowser/evutil.c' l='139' ll='194' type='int evutil_read_file_(const char * filename, char ** content_out, size_t * len_out, int is_binary)'/>
+<doc f='codebrowser/evutil.c' l='129'>/**
+   Read the contents of &apos;filename&apos; into a newly allocated NUL-terminated
+   string.  Set *content_out to hold this string, and *len_out to hold its
+   length (not including the appended NUL).  If &apos;is_binary&apos;, open the file in
+   binary mode.
+
+   Returns 0 on success, -1 if the open fails, and -2 for all other failures.
+
+   Used internally only; may go away in a future version.
+ */</doc>

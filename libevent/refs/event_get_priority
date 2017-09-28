@@ -1,0 +1,4 @@
+<dec f='codebrowser/include/event2/event.h' l='1380' type='int event_get_priority(const struct event * ev)'/>
+<use f='codebrowser/bufferevent.c' l='423' u='c' c='bufferevent_get_priority'/>
+<use f='codebrowser/evdns.c' l='858' u='c' c='reply_schedule_callback'/>
+<def f='codebrowser/event.c' l='2429' ll='2434' type='int event_get_priority(const struct event * ev)'/>

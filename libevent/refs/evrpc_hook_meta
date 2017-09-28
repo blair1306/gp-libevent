@@ -1,0 +1,4 @@
+<def f='codebrowser/evrpc-internal.h' l='115' ll='118'/>
+<size>24</size>
+<mbr r='evrpc_hook_meta::meta_data' o='0' t='struct evrpc_meta_list'/>
+<mbr r='evrpc_hook_meta::evcon' o='128' t='struct evhttp_connection *'/>

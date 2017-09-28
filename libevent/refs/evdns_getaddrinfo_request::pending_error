@@ -1,0 +1,7 @@
+<dec f='codebrowser/evdns.c' l='4259' type='int'/>
+<use f='codebrowser/evdns.c' l='4355' u='r' c='evdns_getaddrinfo_timeout_cb'/>
+<use f='codebrowser/evdns.c' l='4466' u='w' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4479' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<use f='codebrowser/evdns.c' l='4481' u='r' c='evdns_getaddrinfo_gotresolve'/>
+<offset>2048</offset>
+<doc f='codebrowser/evdns.c' l='4258'>/* And this field holds the error code from the first request... */</doc>

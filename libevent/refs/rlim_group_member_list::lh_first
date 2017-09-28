@@ -1,0 +1,13 @@
+<dec f='codebrowser/bufferevent-internal.h' l='81' macro='1' type='struct bufferevent_private *'/>
+<offset>0</offset>
+<use f='codebrowser/bufferevent_ratelim.c' l='363' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='381' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='456' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='460' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='494' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='513' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='653' macro='1' u='w'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' macro='1' u='r'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' macro='1' u='w'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='766' macro='1' u='a'/>

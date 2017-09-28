@@ -1,0 +1,9 @@
+<dec f='codebrowser/bufferevent-internal.h' l='118' type='struct event'/>
+<offset>1088</offset>
+<doc f='codebrowser/bufferevent-internal.h' l='116'>/** Timeout event that goes off once a tick, when the bucket is ready
+	 * to refill. */</doc>
+<use f='codebrowser/bufferevent_ratelim.c' l='535' u='a' c='bev_group_refill_callback_'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='657' u='a' c='bufferevent_rate_limit_group_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='660' u='a' c='bufferevent_rate_limit_group_new'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='693' u='a' c='bufferevent_rate_limit_group_set_cfg'/>
+<use f='codebrowser/bufferevent_ratelim.c' l='729' u='a' c='bufferevent_rate_limit_group_free'/>

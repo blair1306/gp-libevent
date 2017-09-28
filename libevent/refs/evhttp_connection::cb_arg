@@ -1,0 +1,6 @@
+<dec f='codebrowser/http-internal.h' l='98' type='void *'/>
+<offset>2368</offset>
+<use f='codebrowser/http.c' l='368' u='w' c='evhttp_write_buffer'/>
+<use f='codebrowser/http.c' l='397' u='w' c='evhttp_send_continue'/>
+<use f='codebrowser/http.c' l='796' u='r' c='evhttp_write_cb'/>
+<use f='codebrowser/http.c' l='2899' u='w' c='evhttp_send_reply_end'/>

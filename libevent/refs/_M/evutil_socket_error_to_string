@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/util.h' l='503'/>
+<use f='codebrowser/evdns.c' l='1387' u='c'/>
+<use f='codebrowser/evdns.c' l='1425' u='c'/>
+<use f='codebrowser/evdns.c' l='1445' u='c'/>
+<use f='codebrowser/evdns.c' l='2222' u='c'/>
+<use f='codebrowser/http.c' l='1582' u='c'/>
+<use f='codebrowser/log.c' l='129' u='c'/>
+<use f='codebrowser/log.c' l='141' u='c'/>
+<use f='codebrowser/sample/https-client.c' l='77' u='c'/>
+<use f='codebrowser/test/regress.c' l='424' u='c'/>
+<use f='codebrowser/test/regress_bufferevent.c' l='838' u='c'/>
+<use f='codebrowser/test/test-fdleak.c' l='71' u='c'/>

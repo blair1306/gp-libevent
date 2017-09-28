@@ -1,0 +1,2 @@
+<def f='codebrowser/test/regress_main.c' l='368' ll='392' type='struct testgroup_t [16]'/>
+<use f='codebrowser/test/regress_main.c' l='457' u='r' c='main'/>

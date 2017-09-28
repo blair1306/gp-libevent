@@ -1,0 +1,4 @@
+<dec f='include/asm-generic/errno-base.h' l='7'/>
+<use f='codebrowser/epoll.c' l='467' u='c'/>
+<use f='codebrowser/poll.c' l='176' u='c'/>
+<use f='codebrowser/select.c' l='180' u='c'/>

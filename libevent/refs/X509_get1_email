@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='716' type='struct stack_st_OPENSSL_STRING * X509_get1_email(X509 * x)'/>

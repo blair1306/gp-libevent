@@ -1,0 +1,5 @@
+<def f='codebrowser/evrpc-internal.h' l='38' ll='47'/>
+<size>32</size>
+<mbr r='evrpc_hook::next' o='0' t='struct (anonymous struct at /home/jon/workspace/libevent/evrpc-internal.h:39:2)'/>
+<mbr r='evrpc_hook::process' o='128' t='int (*)(void *, struct evhttp_request *, struct evbuffer *, void *)'/>
+<mbr r='evrpc_hook::process_arg' o='192' t='void *'/>

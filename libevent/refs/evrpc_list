@@ -1,0 +1,4 @@
+<def f='codebrowser/evrpc-internal.h' l='79' macro='1'/>
+<size>16</size>
+<mbr r='evrpc_list::tqh_first' o='0' t='struct evrpc *'/>
+<mbr r='evrpc_list::tqh_last' o='64' t='struct evrpc **'/>

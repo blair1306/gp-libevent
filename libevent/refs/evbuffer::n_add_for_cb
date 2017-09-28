@@ -1,0 +1,26 @@
+<dec f='codebrowser/evbuffer-internal.h' l='106' type='size_t'/>
+<use f='codebrowser/buffer.c' l='480' u='w' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='483' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='487' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='488' u='r' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='491' u='w' c='evbuffer_run_callbacks'/>
+<use f='codebrowser/buffer.c' l='516' u='w' c='evbuffer_invoke_callbacks_'/>
+<use f='codebrowser/buffer.c' l='779' u='w' c='evbuffer_commit_space'/>
+<use f='codebrowser/buffer.c' l='996' u='w' c='evbuffer_add_buffer'/>
+<use f='codebrowser/buffer.c' l='1041' u='w' c='evbuffer_add_buffer_reference'/>
+<use f='codebrowser/buffer.c' l='1086' u='w' c='evbuffer_prepend_buffer'/>
+<use f='codebrowser/buffer.c' l='1317' u='w' c='evbuffer_remove_buffer'/>
+<use f='codebrowser/buffer.c' l='1767' u='w' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='1777' u='w' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='1800' u='w' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='1809' u='w' c='evbuffer_add'/>
+<use f='codebrowser/buffer.c' l='1861' u='w' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='1870' u='w' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='1891' u='w' c='evbuffer_prepend'/>
+<use f='codebrowser/buffer.c' l='2391' u='w' c='evbuffer_read'/>
+<use f='codebrowser/buffer.c' l='2877' u='w' c='evbuffer_add_vprintf'/>
+<use f='codebrowser/buffer.c' l='2936' u='w' c='evbuffer_add_reference'/>
+<use f='codebrowser/buffer.c' l='3266' u='w' c='evbuffer_add_file_segment'/>
+<offset>256</offset>
+<doc f='codebrowser/evbuffer-internal.h' l='104'>/** Number of bytes we have added to the buffer since we last tried to
+	 * invoke callbacks. */</doc>

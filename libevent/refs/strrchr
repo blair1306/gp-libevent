@@ -1,0 +1,2 @@
+<dec f='include/string.h' l='258' type='char * strrchr(const char * __s, int __c)'/>
+<use f='codebrowser/sample/http-server.c' l='95' u='c' c='guess_content_type'/>

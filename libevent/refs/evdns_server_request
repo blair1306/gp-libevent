@@ -1,0 +1,8 @@
+<def f='codebrowser/include/event2/dns_struct.h' l='56' ll='60'/>
+<size>16</size>
+<doc f='codebrowser/include/event2/dns_struct.h' l='52'>/*
+ * Structures used to implement a DNS server.
+ */</doc>
+<mbr r='evdns_server_request::flags' o='0' t='int'/>
+<mbr r='evdns_server_request::nquestions' o='32' t='int'/>
+<mbr r='evdns_server_request::questions' o='64' t='struct evdns_server_question **'/>

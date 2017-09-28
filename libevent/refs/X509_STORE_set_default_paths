@@ -1,0 +1,2 @@
+<dec f='include/openssl/x509_vfy.h' l='529' type='int X509_STORE_set_default_paths(X509_STORE * ctx)'/>
+<use f='codebrowser/sample/https-client.c' l='345' u='c' c='main'/>

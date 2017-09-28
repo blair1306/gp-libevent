@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/http.h' l='722' type='void evhttp_connection_free_on_completion(struct evhttp_connection * evcon)'/>
+<def f='codebrowser/http.c' l='1257' ll='1260' type='void evhttp_connection_free_on_completion(struct evhttp_connection * evcon)'/>
+<use f='codebrowser/test/regress_http.c' l='1275' u='c' c='http_autofree_connection_test'/>

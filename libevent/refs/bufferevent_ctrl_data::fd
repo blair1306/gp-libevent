@@ -1,0 +1,11 @@
+<dec f='codebrowser/bufferevent-internal.h' l='246' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/bufferevent.c' l='850' u='w' c='bufferevent_setfd'/>
+<use f='codebrowser/bufferevent.c' l='863' u='w' c='bufferevent_getfd'/>
+<use f='codebrowser/bufferevent.c' l='868' u='r' c='bufferevent_getfd'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1303' u='r' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1312' u='r' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1315' u='w' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_openssl.c' l='1317' u='w' c='be_openssl_ctrl'/>
+<use f='codebrowser/bufferevent_sock.c' l='706' u='r' c='be_socket_ctrl'/>
+<use f='codebrowser/bufferevent_sock.c' l='709' u='w' c='be_socket_ctrl'/>

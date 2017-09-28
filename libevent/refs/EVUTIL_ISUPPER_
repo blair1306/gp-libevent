@@ -1,0 +1,2 @@
+<dec f='codebrowser/util-internal.h' l='247' type='int EVUTIL_ISUPPER_(char c)'/>
+<def f='codebrowser/evutil.c' l='2309' macro='1' type='int EVUTIL_ISUPPER_(char c)'/>

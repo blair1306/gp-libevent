@@ -1,0 +1,24 @@
+<dec f='codebrowser/include/event2/buffer.h' l='774' type='0'/>
+<use f='codebrowser/buffer.c' l='2605' u='r' c='evbuffer_ptr_subtract'/>
+<use f='codebrowser/buffer.c' l='2620' c='evbuffer_ptr_set'/>
+<doc f='codebrowser/include/event2/buffer.h' l='772'>/** Sets the pointer to the position; can be called on with an
+	    uninitialized evbuffer_ptr. */</doc>
+<use f='codebrowser/test/regress_buffer.c' l='1485' u='r' c='test_evbuffer_search_eol'/>
+<use f='codebrowser/test/regress_buffer.c' l='1597' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1601' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1624' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1626' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1630' u='r' c='test_evbuffer_ptr_set'/>
+<use f='codebrowser/test/regress_buffer.c' l='1658' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1661' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1664' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1691' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1701' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1712' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1716' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1719' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='1722' u='r' c='test_evbuffer_search'/>
+<use f='codebrowser/test/regress_buffer.c' l='2134' u='r' c='test_evbuffer_peek_first_gt'/>
+<use f='codebrowser/test/regress_buffer.c' l='2238' u='r' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2255' u='r' c='test_evbuffer_peek'/>
+<use f='codebrowser/test/regress_buffer.c' l='2452' u='r' c='test_evbuffer_copyout'/>

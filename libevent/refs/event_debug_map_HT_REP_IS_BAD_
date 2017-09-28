@@ -1,0 +1,2 @@
+<dec f='codebrowser/event.c' l='227' macro='1' type='int event_debug_map_HT_REP_IS_BAD_(const struct event_debug_map * ht)'/>
+<def f='codebrowser/event.c' l='229' macro='1' type='int event_debug_map_HT_REP_IS_BAD_(const struct event_debug_map * head)'/>

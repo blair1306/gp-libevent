@@ -1,0 +1,9 @@
+<dec f='codebrowser/include/event2/event.h' l='1029' type='void * event_self_cbarg()'/>
+<def f='codebrowser/event.c' l='2140' ll='2144' type='void * event_self_cbarg()'/>
+<use f='codebrowser/sample/event-read-fifo.c' l='145' u='c' c='main'/>
+<use f='codebrowser/sample/signal-test.c' l='62' u='c' c='main'/>
+<use f='codebrowser/test/regress.c' l='1421' u='c' c='test_event_new_selfarg'/>
+<use f='codebrowser/test/regress.c' l='1437' u='c' c='test_event_assign_selfarg'/>
+<use f='codebrowser/test/regress.c' l='1459' u='c' c='test_event_base_get_num_events'/>
+<use f='codebrowser/test/regress.c' l='1584' u='c' c='test_event_base_get_max_events'/>
+<use f='codebrowser/test/regress.c' l='1586' u='c' c='test_event_base_get_max_events'/>

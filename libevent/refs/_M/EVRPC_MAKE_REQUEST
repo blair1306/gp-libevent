@@ -1,0 +1,22 @@
+<dec f='codebrowser/include/event2/rpc.h' l='385'/>
+<doc f='codebrowser/include/event2/rpc.h' l='370'>/** launches an RPC and sends it to the server
+ *
+ * EVRPC_MAKE_REQUEST() is used by the client to send an RPC to the server.
+ *
+ * @param name the name of the RPC
+ * @param pool the evrpc_pool that contains the connection objects over which
+ *   the request should be sent.
+ * @param request a pointer to the RPC request structure - it contains the
+ *   data to be sent to the server.
+ * @param reply a pointer to the RPC reply structure.  It is going to be filled
+ *   if the request was answered successfully
+ * @param cb the callback to invoke when the RPC request has been answered
+ * @param cbarg an additional argument to be passed to the client
+ * @return 0 on success, -1 on failure
+ */</doc>
+<use f='codebrowser/test/regress_rpc.c' l='479' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='490' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='555' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='556' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='659' u='c'/>
+<use f='codebrowser/test/regress_rpc.c' l='709' u='c'/>

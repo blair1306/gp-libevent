@@ -1,0 +1,8 @@
+<dec f='codebrowser/include/event2/http_struct.h' l='114' type='void (*)(struct evhttp_request *, void *)'/>
+<offset>1280</offset>
+<doc f='codebrowser/include/event2/http_struct.h' l='113'>/* Callback */</doc>
+<use f='codebrowser/http.c' l='695' u='r' c='evhttp_connection_incoming_fail'/>
+<use f='codebrowser/http.c' l='754' u='r' c='evhttp_connection_fail_'/>
+<use f='codebrowser/http.c' l='856' u='r' c='evhttp_connection_done'/>
+<use f='codebrowser/http.c' l='1425' u='r' c='evhttp_connection_cb_cleanup'/>
+<use f='codebrowser/http.c' l='3961' u='w' c='evhttp_request_new'/>

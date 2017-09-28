@@ -1,0 +1,2 @@
+<dec f='include/openssl/ssl.h' l='581'/>
+<doc f='include/openssl/ssl.h' l='580'>/* Allow initial connection to servers that don&apos;t support RI */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/evbuffer-internal.h' l='221' type='void *'/>
+<use f='codebrowser/buffer.c' l='220' u='r' c='evbuffer_chain_free'/>
+<use f='codebrowser/buffer.c' l='2926' u='w' c='evbuffer_add_reference'/>
+<offset>64</offset>

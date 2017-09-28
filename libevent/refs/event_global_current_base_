@@ -1,0 +1,30 @@
+<def f='codebrowser/event.c' l='127' type='struct event_base *'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_gettimeofday_cached'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_gettimeofday_cached'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_update_cache_time'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_update_cache_time'/>
+<use f='codebrowser/event.c' l='128' u='w' c='event_init'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='128' u='w' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_priority_init'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_base_get_npriorities'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_loopexit'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_loopbreak'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_loop'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_once'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_assign'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_set'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_callback_finalize_many_'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_deferred_cb_cancel_'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_deferred_cb_schedule_'/>
+<use f='codebrowser/event.c' l='128' u='r' c='event_get_method'/>
+<dec f='codebrowser/test/regress.c' l='821' type='struct event_base *'/>
+<use f='codebrowser/test/regress.c' l='821' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='821' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='821' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='821' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='821' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='821' u='r' c='test_fork'/>
+<use f='codebrowser/test/regress.c' l='821' u='r' c='test_fork'/>

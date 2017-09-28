@@ -1,0 +1,16 @@
+<dec f='codebrowser/include/event2/buffer.h' l='1005' type='int evbuffer_prepend(struct evbuffer * buf, const void * data, size_t size)'/>
+<def f='codebrowser/buffer.c' l='1819' ll='1899' type='int evbuffer_prepend(struct evbuffer * buf, const void * data, size_t datlen)'/>
+<use f='codebrowser/test/regress_buffer.c' l='214' u='c' c='test_evbuffer'/>
+<use f='codebrowser/test/regress_buffer.c' l='216' u='c' c='test_evbuffer'/>
+<use f='codebrowser/test/regress_buffer.c' l='814' u='c' c='test_evbuffer_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1777' u='c' c='test_evbuffer_callbacks'/>
+<use f='codebrowser/test/regress_buffer.c' l='1877' u='c' c='test_evbuffer_add_reference'/>
+<use f='codebrowser/test/regress_buffer.c' l='1964' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='1975' u='c' c='test_evbuffer_multicast'/>
+<use f='codebrowser/test/regress_buffer.c' l='2055' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2059' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2064' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2070' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2101' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2103' u='c' c='test_evbuffer_prepend'/>
+<use f='codebrowser/test/regress_buffer.c' l='2339' u='c' c='test_evbuffer_freeze'/>

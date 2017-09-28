@@ -1,0 +1,4 @@
+<def f='codebrowser/include/event2/keyvalq_struct.h' l='65' macro='1'/>
+<size>16</size>
+<mbr r='evkeyvalq::tqh_first' o='0' t='struct evkeyval *'/>
+<mbr r='evkeyvalq::tqh_last' o='64' t='struct evkeyval **'/>

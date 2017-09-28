@@ -1,0 +1,11 @@
+<dec f='codebrowser/include/event2/event.h' l='518' type='8'/>
+<doc f='codebrowser/include/event2/event.h' l='512'>/** Require an event method that allows you to use EV_CLOSED to detect
+     * connection close without the necessity of reading all the pending data.
+     *
+     * Methods that do support EV_CLOSED may not be able to provide support on
+     * all kernel versions.
+     **/</doc>
+<use f='codebrowser/epoll.c' l='70' u='r'/>
+<use f='codebrowser/epoll.c' l='70' u='r'/>
+<use f='codebrowser/epoll.c' l='125' u='r'/>
+<use f='codebrowser/epoll.c' l='125' u='r'/>

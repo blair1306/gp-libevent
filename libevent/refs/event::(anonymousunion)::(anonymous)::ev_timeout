@@ -1,0 +1,12 @@
+<dec f='codebrowser/include/event2/event_struct.h' l='139' type='struct timeval'/>
+<offset>128</offset>
+<use f='codebrowser/event.c' l='1530' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1530' macro='1' u='m'/>
+<use f='codebrowser/event.c' l='1537' macro='1' u='a'/>
+<use f='codebrowser/event.c' l='1541' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='1551' macro='1' u='r'/>
+<use f='codebrowser/event.c' l='2097' macro='1' u='a'/>
+<use f='codebrowser/event.c' l='2097' macro='1' u='a'/>
+<use f='codebrowser/event.c' l='2520' u='a' c='event_remove_timer_nolock_'/>
+<use f='codebrowser/event.c' l='2520' u='a' c='event_remove_timer_nolock_'/>
+<use f='codebrowser/event.c' l='2634' macro='1' u='w'/>

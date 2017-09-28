@@ -1,0 +1,3 @@
+<dec f='codebrowser/include/event2/buffer.h' l='677' type='int evbuffer_add_vprintf(struct evbuffer * buf, const char * fmt, struct __va_list_tag * ap)'/>
+<def f='codebrowser/buffer.c' l='2830' ll='2892' type='int evbuffer_add_vprintf(struct evbuffer * buf, const char * fmt, struct __va_list_tag * ap)'/>
+<use f='codebrowser/buffer.c' l='2901' u='c' c='evbuffer_add_printf'/>

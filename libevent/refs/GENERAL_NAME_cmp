@@ -1,0 +1,1 @@
+<dec f='include/openssl/x509v3.h' l='527' type='int GENERAL_NAME_cmp(GENERAL_NAME * a, GENERAL_NAME * b)'/>

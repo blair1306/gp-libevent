@@ -1,0 +1,4 @@
+<dec f='include/netinet/in.h' l='84' type='132'/>
+<doc f='include/netinet/in.h' l='84'>/* Stream Control Transmission Protocol.  */</doc>
+<use f='codebrowser/evutil.c' l='905' macro='1' c='evutil_unparse_protoname'/>
+<use f='codebrowser/evutil.c' l='938' macro='1' u='r'/>

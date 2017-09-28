@@ -1,0 +1,5 @@
+<dec f='codebrowser/include/event2/rpc_struct.h' l='89' type='void (*)(struct evrpc_req_generic *, void *)'/>
+<use f='codebrowser/evrpc.c' l='234' u='w' c='evrpc_register_rpc'/>
+<use f='codebrowser/evrpc.c' l='369' u='r' c='evrpc_request_cb_closure'/>
+<offset>768</offset>
+<doc f='codebrowser/include/event2/rpc_struct.h' l='88'>/* the callback invoked for each received rpc */</doc>

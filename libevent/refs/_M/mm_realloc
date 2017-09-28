@@ -1,0 +1,14 @@
+<dec f='codebrowser/mm-internal.h' l='78'/>
+<use f='codebrowser/minheap-internal.h' l='141' u='c'/>
+<use f='codebrowser/epoll.c' l='509' u='c'/>
+<use f='codebrowser/event.c' l='1483' u='c'/>
+<use f='codebrowser/evmap.c' l='213' u='c'/>
+<use f='codebrowser/evmap.c' l='807' u='c'/>
+<use f='codebrowser/http.c' l='2038' u='c'/>
+<use f='codebrowser/poll.c' l='144' u='c'/>
+<use f='codebrowser/poll.c' l='239' u='c'/>
+<use f='codebrowser/select.c' l='149' u='c'/>
+<use f='codebrowser/select.c' l='152' u='c'/>
+<use f='codebrowser/select.c' l='220' u='c'/>
+<use f='codebrowser/select.c' l='223' u='c'/>
+<use f='codebrowser/signal.c' l='231' u='c'/>

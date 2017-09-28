@@ -1,0 +1,2 @@
+<use f='codebrowser/test/regress_rpc.c' l='286' u='c' c='rpc_basic_message'/>
+<use f='codebrowser/test/regress_rpc.c' l='501' macro='1' u='r'/>

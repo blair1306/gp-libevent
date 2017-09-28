@@ -1,0 +1,18 @@
+<dec f='codebrowser/event-internal.h' l='201' type='struct (anonymous struct at /home/jon/workspace/libevent/event-internal.h:201:2)'/>
+<offset>0</offset>
+<use f='codebrowser/event.c' l='878' u='m' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='878' u='m' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='878' u='m' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='878' u='m' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='878' u='m' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='878' u='m' c='event_base_free_'/>
+<use f='codebrowser/event.c' l='1992' u='m' c='event_once_cb'/>
+<use f='codebrowser/event.c' l='1992' u='m' c='event_once_cb'/>
+<use f='codebrowser/event.c' l='1992' u='m' c='event_once_cb'/>
+<use f='codebrowser/event.c' l='1992' u='m' c='event_once_cb'/>
+<use f='codebrowser/event.c' l='1992' u='m' c='event_once_cb'/>
+<use f='codebrowser/event.c' l='1992' u='m' c='event_once_cb'/>
+<use f='codebrowser/event.c' l='2059' u='m' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2059' u='m' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2059' u='m' c='event_base_once'/>
+<use f='codebrowser/event.c' l='2059' u='m' c='event_base_once'/>

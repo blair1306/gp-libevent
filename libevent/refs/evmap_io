@@ -1,0 +1,5 @@
+<def f='codebrowser/evmap.c' l='58' ll='63'/>
+<size>16</size>
+<doc f='codebrowser/evmap.c' l='55'>/** An entry for an evmap_io list: notes all the events that want to read or
+	write on a given fd, and the number of each.
+  */</doc>
